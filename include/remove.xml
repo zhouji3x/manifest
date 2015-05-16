@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Projects which need to be removed -->
+
+    <!-- hammerhead-kernel project size grew to over 8GB and caused repo sync issues for users -->
+    <remove-project name="a/aosp/device/lge/hammerhead-kernel" />
+    <remove-project name="a/aosp/device/lge/hammerhead"  />
+</manifest>

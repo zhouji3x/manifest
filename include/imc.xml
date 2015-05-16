@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--
+        Please make sure this list of projects is in sync with imc-notags.xml
+        This list should extend the projects to add a revision pointing to tag.
+        This manifest should only be included in default.xml by the master branch,
+        topic branches should not include this.
+    -->
+
+    <remove-project name="a/bsp/bootsystems" />
+    <remove-project name="a/sofia/modem_1/xmm6421" />
+    <remove-project name="a/bsp/secure_vm" />
+    <remove-project name="a/bsp/mobilevisor/release" />
+    <remove-project name="a/bsp/mobilevisor/pal" />
+    <remove-project name="a/bsp/mobilevisor/guests" />
+    <remove-project name="a/bsp/mobilevisor/products" />
+    <remove-project name="a/vendor/intel/imc/modem/utils/config" />
+    <remove-project name="a/bsp/vendor/tools/Bluetooth/xvt_bt_usc" />
+    <remove-project name="a/bsp/vendor/tools/Bluetooth/bt_trace_manager" />
+    <remove-project name="a/bsp/hardware/imc/bt_trace_daemon" />
+    <remove-project name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" />
+    <remove-project name="a/bsp/vendor/intel/PRIVATE/apps/Kratos" />
+    <remove-project name="a/bsp/soclib" />
+    <remove-project name="a/bsp/lpmp3" />
+    <remove-project name="a/bsp/packages/apps/fmr" />
+    <remove-project name="a/bsp/hardware/imc/fm"/>
+
+    <project name="a/bsp/bootsystems" path="bootsystems" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
+    <project name="a/sofia/modem_1/xmm6421" path="modem" revision="abt/topic/gmin/l-dev/advdev/sofia-v/19"/>
+    <project name="a/bsp/secure_vm" path="secure_vm" revision="abt/topic/gmin/l-dev/advdev/sofia-v/19"/>
+    <project name="a/bsp/mobilevisor/release" path="mobilevisor/release" revision="abt/topic/gmin/l-dev/advdev/sofia-v/19"/>
+    <project name="a/bsp/mobilevisor/pal" path="mobilevisor/services"  revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
+    <project name="a/bsp/mobilevisor/guests" path="mobilevisor/guests" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
+    <project name="a/bsp/mobilevisor/products" path="mobilevisor/products" revision="abt/topic/gmin/l-dev/advdev/sofia-3g-r-v/10" />
+    <project name="a/vendor/intel/imc/modem/utils/config" path="utils/config" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
+    <project name="a/bsp/vendor/tools/Bluetooth/xvt_bt_usc" path="vendor/tools/Bluetooth/xvt_bt_usc" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
+    <project name="a/bsp/vendor/tools/Bluetooth/bt_trace_manager" path="vendor/tools/Bluetooth/bt_trace_manager" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
+    <project name="a/bsp/hardware/imc/bt_trace_daemon" path="vendor/tools/Bluetooth/bt_trace_daemon" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
+    <project name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" path="hardware/imc/pt_bt_daemon" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
+    <project name="a/bsp/vendor/intel/PRIVATE/apps/Kratos" path="vendor/intel/apps/PRIVATE/Kratos" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
+    <project name="a/bsp/soclib" path="soclib" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
+    <project name="a/bsp/lpmp3" path="lpmp3_vm" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
+    <project name="a/bsp/packages/apps/fmr" path="packages/apps/fmr" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
+    <project name="a/bsp/hardware/imc/fm" path="hardware/imc/fm" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
+
+</manifest>

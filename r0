@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<default revision="android-5.1.1_r1"
+           remote="origin"
+           sync-j="5" />
+
+  <include name="rbase.xml"/>
+
+</manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<default revision="abt/topic/gmin/l-dev/mr1/master"
+           remote="origin"
+           sync-j="5" />
+
+  <include name="rbase.xml"/>
+
+</manifest>
