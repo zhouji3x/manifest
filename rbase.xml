@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
+
   <include name="include/remote.xml"/>
-  <include name="include/manifest.xml"/>
   <include name="include/aosp.xml"/>
   <include name="include/aosp-priv.xml"/>
   <include name="include/bsp.xml"/>

@@ -3,27 +3,27 @@
     <!--
         Please make sure this list of projects is in sync with imc.xml
     -->
-    <project name="a/bsp/bootsystems" path="bootsystems" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/sofia/modem_1/xmm6421" path="modem" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/secure_vm" path="secure_vm" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/hardware/imc/ril" path="hardware/imc/ril" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/hardware/imc/rpc" path="hardware/imc/rpc" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/mobilevisor/release" path="mobilevisor/release" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/mobilevisor/pal" path="mobilevisor/services" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/mobilevisor/guests" path="mobilevisor/guests" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/mobilevisor/products" path="mobilevisor/products" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/vendor/PRIVATE/rockchip" path="vendor/PRIVATE/rockchip" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/vendor/intel/imc/modem/utils/config" path="utils/config" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/vendor/tools/Bluetooth/xvt_bt_usc" path="vendor/tools/Bluetooth/xvt_bt_usc" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/vendor/tools/Bluetooth/bt_trace_manager" path="vendor/tools/Bluetooth/bt_trace_manager" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/hardware/imc/bt_trace_daemon" path="vendor/tools/Bluetooth/bt_trace_daemon" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" path="hardware/imc/pt_bt_daemon" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/vendor/intel/PRIVATE/apps/Kratos" path="vendor/intel/apps/PRIVATE/Kratos" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/soclib" path="soclib" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/lpmp3" path="lpmp3_vm" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/packages/apps/fmr" path="packages/apps/fmr" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/hardware/imc/fm" path="hardware/imc/fm" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/hardware/intel/vpu/verisilicon" path="hardware/intel/vpu/verisilicon" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/vendor/intel/liboemcrypto" path="vendor/intel/liboemcrypto" revision="abt/topic/gmin/l-dev/mr1/master"/>
-    <project name="a/bsp/gnss/lbs" path="hardware/imc/gnss" revision="abt/topic/gmin/l-dev/mr1/master"/>
+    <project name="a/bsp/bootsystems" path="bootsystems" revision="android/l/mr1/master"/>
+    <project name="a/sofia/modem_1/xmm6421" path="modem" revision="android/l/mr1/master"/>
+    <project name="a/bsp/secure_vm" path="secure_vm" revision="android/l/mr1/master"/>
+    <project name="a/bsp/hardware/imc/ril" path="hardware/imc/ril" revision="android/l/mr1/master"/>
+    <project name="a/bsp/hardware/imc/rpc" path="hardware/imc/rpc" revision="android/l/mr1/master"/>
+    <project name="a/bsp/mobilevisor/release" path="mobilevisor/release" revision="android/l/mr1/master"/>
+    <project name="a/bsp/mobilevisor/pal" path="mobilevisor/services" revision="android/l/mr1/master"/>
+    <project name="a/bsp/mobilevisor/guests" path="mobilevisor/guests" revision="android/l/mr1/master"/>
+    <project name="a/bsp/mobilevisor/products" path="mobilevisor/products" revision="android/l/mr1/master"/>
+    <project name="a/bsp/vendor/PRIVATE/rockchip" path="vendor/PRIVATE/rockchip" revision="android/l/mr1/master"/>
+    <project name="a/vendor/intel/imc/modem/utils/config" path="utils/config" revision="android/l/mr1/master"/>
+    <project name="a/bsp/vendor/tools/Bluetooth/xvt_bt_usc" path="vendor/tools/Bluetooth/xvt_bt_usc" revision="android/l/mr1/master"/>
+    <project name="a/bsp/vendor/tools/Bluetooth/bt_trace_manager" path="vendor/tools/Bluetooth/bt_trace_manager" revision="android/l/mr1/master"/>
+    <project name="a/bsp/hardware/imc/bt_trace_daemon" path="vendor/tools/Bluetooth/bt_trace_daemon" revision="android/l/mr1/master"/>
+    <project name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" path="hardware/imc/pt_bt_daemon" revision="android/l/mr1/master"/>
+    <project name="a/bsp/vendor/intel/PRIVATE/apps/Kratos" path="vendor/intel/apps/PRIVATE/Kratos" revision="android/l/mr1/master"/>
+    <project name="a/bsp/soclib" path="soclib" revision="android/l/mr1/master"/>
+    <project name="a/bsp/lpmp3" path="lpmp3_vm" revision="android/l/mr1/master"/>
+    <project name="a/bsp/packages/apps/fmr" path="packages/apps/fmr" revision="android/l/mr1/master"/>
+    <project name="a/bsp/hardware/imc/fm" path="hardware/imc/fm" revision="android/l/mr1/master"/>
+    <project name="a/bsp/hardware/intel/vpu/verisilicon" path="hardware/intel/vpu/verisilicon" revision="android/l/mr1/master"/>
+    <project name="a/bsp/vendor/intel/liboemcrypto" path="vendor/intel/liboemcrypto" revision="android/l/mr1/master"/>
+    <project name="a/bsp/gnss/lbs" path="hardware/imc/gnss" revision="android/l/mr1/master"/>
  </manifest>
