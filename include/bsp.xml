@@ -8,7 +8,6 @@
        be removed from the "embargoed" group and its IP plan in Code Center
        must accurately reflect this redistributable status.
     -->
-    <project name="manifests" path="manifests"  groups="embargoed" revision="abt/topic/gmin/l-dev/mr1/master"/>
     <project name="a/bsp/device/intel/bxt-embargo-kernel" path="device/intel/bxt-embargo-kernel" clone-depth="1" groups="embargoed" revision="abt/topic/gmin/l-dev/mr1/master"/>
     <project name="a/bsp/device/intel/gmin-kernel-dev" path="device/intel/gmin-kernel-dev" clone-depth="1" groups="embargoed" revision="abt/topic/gmin/l-dev/mr1/master"/>
     <project name="a/bsp/vendor/intel/baytrail" path="device/intel/baytrail" revision="abt/topic/gmin/l-dev/mr1/master"/>

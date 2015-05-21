@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+	<project name="manifests" path="manifests"  groups="embargoed" revision="android/l/mr1/master"/>
+
+</manifest>
