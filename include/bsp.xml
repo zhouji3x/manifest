@@ -193,7 +193,22 @@
     <project name="a/bsp/vendor/intel/tools/telephony_tools/field_test" path="vendor/intel/tools/telephony_tools/field_test" revision="android/l/mr1/master"/>
     <project name="a/bsp/device/intel/telephony_tools/coredumpwarning" path="vendor/intel/tools/telephony_tools/coredumpwarning" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/hardware/cellular_coex_manager/broadcom" path="vendor/intel/hardware/PRIVATE/cellular_coex_manager/broadcom" revision="android/l/mr1/master"/>
-
+    <project name="a/bsp/device/intel/goldsand" path="device/intel/goldsand" groups="embargoed" revision="android/l/mr1/master"/>
+    <project name="a/bsp/vendor/intel/PRIVATE/codec_wma9" path="external/alac" revision="android/l/mr1/master"/>
+    <project name="a/bsp/vendor/intel/PRIVATE/Aware" path="vendor/intel/PRIVATE/Aware" revision="android/l/mr1/master"/>
+    <project name="a/bsp/kernel/sofia-lte" path="kernel/sofia-lte" revision="android/l/mr1/master"/>
+    <project name="a/bsp/kernel/modules/dbgtools-internal" path="kernel/modules/dbgtools-internal" groups="embargoed" revision="android/l/mr1/master"/>
+    <project name="a/bsp/vendor/intel/PRIVATE/apps/Kratos" path="vendor/intel/apps/PRIVATE/Kratos" groups="embargoed" revision="android/l/mr1/master"/>
+    <project name="a/bsp/vendor/intel/PRIVATE/rtc" path="vendor/intel/PRIVATE/rtc" revision="android/l/mr1/master"/>
+    <project name="a/bsp/device/intel/rtc" path="vendor/intel/rtc" revision="android/l/mr1/master"/>
+    <project name="a/bsp/hardware/intel/PRIVATE/widi" path="vendor/intel/hardware/PRIVATE/widi" revision="android/l/mr1/master"/>
+    <project name="a/bsp/hardware/intel/PRIVATE/widi-testing" path="vendor/intel/hardware/PRIVATE/widi-testing" revision="android/l/mr1/master"/>
+    <project name="a/bsp/device/intel/sofialte" path="device/intel/sofia_lte" groups="embargoed" revision="android/l/mr1/master"/>
+    <project name="a/bsp/device/intel/sofia_lte-kernel" path="device/intel/sofia_lte-kernel" revision="android/l/mr1/master"/>
+    <project name="a/bsp/hardware/intel/gpu/arm/mali-midgard_lib" path="hardware/intel/gpu/mali-midgard_lib" revision="android/l/mr1/master"/>
+    <project name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" revision="android/l/mr1/master"/>
+    <project name="a/bsp/hardware/intel/sofia_lte-fls" path="hardware/intel/sofia_lte-fls" revision="android/l/mr1/master"/>
+    <project name="a/bsp/device/intel/apps/OemTelephony-imc" path="vendor/intel/apps/telephony/OemTelephony-imc" revision="android/l/mr1/master"/>
     <!-- IRDA Configurations and Sources -->
     <project name="a/bsp/device/intel/irda" path="device/intel/coho" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/irda" path="vendor/intel/coho" revision="android/l/mr1/master"/>
