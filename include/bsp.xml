@@ -146,9 +146,7 @@
     <project name="a/bsp/device/intel/nfc" path="hardware/nxp/nfc" revision="android/l/mr1/master"/>
     <project name="a/bsp/platform/external/sbsigntool" path="external/sbsigntool" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/PRIVATE/art-extension" path="vendor/intel/art-extension" revision="android/l/mr1/master"/>
-    <project name="a/bsp/device/intel/sofia3g" path="device/intel/sofia3g" groups="embargoed" revision="android/l/mr1/master"/>
     <project name="a/bsp/device/intel/sofia3gr" path="device/intel/sofia3gr" groups="embargoed" revision="android/l/mr1/master"/>
-    <project name="a/bsp/device/intel/sofialte" path="device/intel/sofialte" groups="embargoed" revision="android/l/mr1/master"/>
     <project name="a/bsp/device/intel/sofia3g-kernel" path="device/intel/sofia3g-kernel" clone-depth="1" groups="embargoed" revision="android/l/mr1/master"/>
     <project name="a/bsp/platform/external/dosfstools" path="external/dosfstools" revision="android/l/mr1/master"/>
     <project name="a/bsp/platform/external/mtools" path="external/mtools" revision="android/l/mr1/master"/>
