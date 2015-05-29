@@ -69,6 +69,8 @@
     <project name="a/bsp/vendor/intel/build" path="device/intel/build" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/external/efi/gnu-efi_prebuilt" path="hardware/intel/efi_prebuilts/gnu-efi" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/external/efivar" path="external/efivar" revision="android/l/mr1/master"/>
+    <project name="a/bsp/vendor/intel/fw/bt/broadcom" path="vendor/intel/fw/bluetooth/broadcom" revision="android/l/mr1/master"/>
+    <project name="a/bsp/vendor/intel/fw/bt/realtek" path="vendor/intel/fw/bluetooth/realtek" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/fw/PRIVATE/bt/intel" path="vendor/intel/fw/bluetooth/intel" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/fw/PRIVATE/nfc/intel" path="vendor/intel/fw/nfc/intel/fdp" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/hardware/nfc/intel" path="hardware/intel/nfc" revision="android/l/mr1/master"/>
@@ -126,6 +128,7 @@
     <project name="a/bsp/hardware/intel/PRIVATE/camera_extension" path="vendor/intel/camera/camera_extension" revision="android/l/mr1/master"/>
     <project name="a/bsp/hardware/intel/PRIVATE/libmfldadvci" path="vendor/intel/camera/libmfldadvci" revision="android/l/mr1/master"/>
     <project name="a/bsp/hardware/intel/PRIVATE/cameralibs" path="vendor/intel/camera/cameralibs" revision="android/l/mr1/master"/>
+    <project name="a/bsp/hardware/intel/PRIVATE/pn544_fw" path="vendor/intel/fw/nfc/nxp" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/hardware/PRIVATE/phonetool_bt_usc" path="vendor/intel/hardware/PRIVATE/bt_usc" revision="android/l/mr1/master"/>
     <project name="a/bsp/device/intel/fw/camera" path="vendor/intel/fw/camera" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" path="vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" revision="android/l/mr1/master"/>
@@ -189,6 +192,7 @@
     <project name="a/bsp/kernel/cht" path="kernel/cht" groups="notdefault,kernel-src" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/tools/telephony_tools/field_test" path="vendor/intel/tools/telephony_tools/field_test" revision="android/l/mr1/master"/>
     <project name="a/bsp/device/intel/telephony_tools/coredumpwarning" path="vendor/intel/tools/telephony_tools/coredumpwarning" revision="android/l/mr1/master"/>
+    <project name="a/bsp/vendor/intel/hardware/cellular_coex_manager/broadcom" path="vendor/intel/hardware/PRIVATE/cellular_coex_manager/broadcom" revision="android/l/mr1/master"/>
 
     <!-- IRDA Configurations and Sources -->
     <project name="a/bsp/device/intel/irda" path="device/intel/coho" revision="android/l/mr1/master"/>
@@ -233,84 +237,4 @@
     <project name="a/bsp/hardware/intel/cts-3gr-sofia/modem" path="hardware/intel/mrd-3gr-sofia/modem" groups="embargoed" revision="android/l/mr1/master"/>
     <project name="a/bsp/hardware/intel/cts-3gr-sofia/secure_vm" path="hardware/intel/mrd-3gr-sofia/secure_vm" groups="embargoed" revision="android/l/mr1/master"/>
     <project name="a/bsp/hardware/intel/cts-3gr-sofia/soclib" path="hardware/intel/mrd-3gr-sofia/soclib" groups="embargoed" revision="android/l/mr1/master"/>
-
-    <!-- Restricted projects -->
-    <!-- from bsp.xml -->
-    <project restricted="not_IMC_wprd" groups="bsp-priv,not_imc_wprd" name="a/bsp/vendor/intel/fw/bt/broadcom" path="vendor/intel/fw/bluetooth/broadcom" revision="android/l/mr1/master">
-      <annotation name="g_external" value="bin"/>
-      <annotation name="all_external" value="bin"/>
-      <annotation name="cherrytrail_external" value="bin"/>
-      <annotation name="cherrytrail_cr_external" value="bin"/>
-      <annotation name="cherrytrail_ffd_external" value="bin"/>
-      <annotation name="cherrytrail_hr_external" value="bin"/>
-    </project>
-    <project restricted="not_IMC_wprd" groups="bsp-priv,not_imc_wprd" name="a/bsp/vendor/intel/fw/bt/realtek" path="vendor/intel/fw/bluetooth/realtek" revision="android/l/mr1/master">
-      <annotation name="g_external" value="bin"/>
-      <annotation name="all_external" value="bin"/>
-      <annotation name="cherrytrail_external" value="bin"/>
-      <annotation name="cherrytrail_cr_external" value="bin"/>
-      <annotation name="cherrytrail_ffd_external" value="bin"/>
-      <annotation name="cherrytrail_hr_external" value="bin"/>
-    </project>
-    <project restricted="not_IMC_wprd" name="a/bsp/hardware/intel/PRIVATE/pn544_fw" path="vendor/intel/fw/nfc/nxp" groups="bsp-priv" revision="android/l/mr1/master">
-      <annotation name="g_external" value="bin"/>
-      <annotation name="all_external" value="bin"/>
-      <annotation name="cherrytrail_external" value="bin"/>
-      <annotation name="cherrytrail_cr_external" value="bin"/>
-      <annotation name="cherrytrail_ffd_external" value="bin"/>
-      <annotation name="cherrytrail_hr_external" value="bin"/>
-    </project>
-    <project restricted="expway_bin" groups="bsp-priv,expway_bin" path="vendor/intel/PRIVATE/embms" name="a/bsp/vendor/intel/PRIVATE/embms" revision="android/l/mr1/master">
-      <annotation name="g_external" value="no"/>
-      <annotation name="all_external" value="no"/>
-      <annotation name="cherrytrail_external" value="no"/>
-      <annotation name="cherrytrail_cr_external" value="no"/>
-      <annotation name="cherrytrail_ffd_external" value="no"/>
-      <annotation name="cherrytrail_hr_external" value="no"/>
-    </project>
-    <!-- from bsp_cht51.xml -->
-    <project restricted="cws_wch" groups="bsp-priv,cws_wch" path="vendor/intel/fw/PRIVATE/a4wp" name="a/bsp/vendor/intel/fw/PRIVATE/a4wp" revision="android/l/mr1/master">
-      <annotation name="g_external" value="no"/>
-      <annotation name="all_external" value="no"/>
-      <annotation name="cherrytrail_external" value="no"/>
-      <annotation name="cherrytrail_cr_external" value="no"/>
-      <annotation name="cherrytrail_ffd_external" value="no"/>
-      <annotation name="cherrytrail_hr_external" value="no"/>
-    </project>
-    <project restricted="bcm_cws_gps" groups="bsp-priv,bcm_cws_gps" path="vendor/intel/hardware/PRIVATE/bcm_gps" name="a/bsp/bcm_cws_gps/hardware/intel/PRIVATE/bcm_gps" revision="android/l/mr1/master">
-      <annotation name="g_external" value="no"/>
-      <annotation name="all_external" value="no"/>
-      <annotation name="cherrytrail_external" value="no"/>
-      <annotation name="cherrytrail_cr_external" value="no"/>
-      <annotation name="cherrytrail_ffd_external" value="no"/>
-      <annotation name="cherrytrail_hr_external" value="no"/>
-    </project>
-    <project restricted="blue_woods" groups="bsp-priv,bluewoods" path="vendor/intel/hardware/PRIVATE/cellular_coex_manager/broadcom" name="a/bsp/vendor/intel/hardware/cellular_coex_manager/broadcom" revision="android/l/mr1/master"/>
-    <project restricted="intel_sw_fg" groups="bsp-priv,intelswfg" path="vendor/intel/hardware/PRIVATE/libintel_swfg" name="a/bsp/vendor/intel/hardware/PRIVATE/libintel_swfg"/>
-    <project restricted="not_IMC_wprd" groups="bsp-priv,not_imc_wprd" path="vendor/intel/tools/PRIVATE/bt/intel" name="a/bsp/vendor/intel/tools/PRIVATE/bt/intel" revision="android/l/mr1/master">
-      <annotation name="g_external" value="no"/>
-      <annotation name="all_external" value="no"/>
-      <annotation name="cherrytrail_external" value="no"/>
-      <annotation name="cherrytrail_cr_external" value="no"/>
-      <annotation name="cherrytrail_ffd_external" value="no"/>
-      <annotation name="cherrytrail_hr_external" value="no"/>
-    </project>
-    <project restricted="blue_woods" groups="bsp-priv,bluewoods" path="vendor/intel/tools/PRIVATE/wifi/broadcom" name="a/bsp/vendor/intel/tools/PRIVATE/wifi/broadcom" revision="android/l/mr1/master"/>
-    <project restricted="not_IMC_wprd" groups="bsp-priv,not_imc_wprd" path="vendor/intel/fw/PRIVATE/wifi_bcm" name="a/bsp/device/intel/fw/wifi_bcm" revision="android/l/mr1/master">
-      <annotation name="g_external" value="bin"/>
-      <annotation name="all_external" value="bin"/>
-      <annotation name="cherrytrail_external" value="bin"/>
-      <annotation name="cherrytrail_cr_external" value="bin"/>
-      <annotation name="cherrytrail_ffd_external" value="bin"/>
-      <annotation name="cherrytrail_hr_external" value="bin"/>
-    </project>
-    <project restricted="not_IMC_wprd" groups="bsp-priv,not_imc_wprd" path="linux/modules/wlan/PRIVATE/bcm43xx" name="a/bsp/hardware/broadcom/wlan_driver/bcm4334" revision="android/l/mr1/master">
-      <annotation name="g_external" value="bin"/>
-      <annotation name="all_external" value="bin"/>
-      <annotation name="cherrytrail_external" value="bin"/>
-      <annotation name="cherrytrail_cr_external" value="bin"/>
-      <annotation name="cherrytrail_ffd_external" value="bin"/>
-      <annotation name="cherrytrail_hr_external" value="bin"/>
-    </project>
-
 </manifest>
