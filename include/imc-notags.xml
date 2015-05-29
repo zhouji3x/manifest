@@ -18,7 +18,6 @@
     <project name="a/bsp/vendor/tools/Bluetooth/bt_trace_manager" path="vendor/tools/Bluetooth/bt_trace_manager" revision="android/l/mr1/master"/>
     <project name="a/bsp/hardware/imc/bt_trace_daemon" path="vendor/tools/Bluetooth/bt_trace_daemon" revision="android/l/mr1/master"/>
     <project name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" path="hardware/imc/pt_bt_daemon" revision="android/l/mr1/master"/>
-    <project name="a/bsp/vendor/intel/PRIVATE/apps/Kratos" path="vendor/intel/apps/PRIVATE/Kratos" revision="android/l/mr1/master"/>
     <project name="a/bsp/soclib" path="soclib" revision="android/l/mr1/master"/>
     <project name="a/bsp/lpmp3" path="lpmp3_vm" revision="android/l/mr1/master"/>
     <project name="a/bsp/packages/apps/fmr" path="packages/apps/fmr" revision="android/l/mr1/master"/>

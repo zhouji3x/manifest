@@ -19,7 +19,6 @@
     <remove-project name="a/bsp/vendor/tools/Bluetooth/bt_trace_manager" />
     <remove-project name="a/bsp/hardware/imc/bt_trace_daemon" />
     <remove-project name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" />
-    <remove-project name="a/bsp/vendor/intel/PRIVATE/apps/Kratos" />
     <remove-project name="a/bsp/soclib" />
     <remove-project name="a/bsp/lpmp3" />
     <remove-project name="a/bsp/packages/apps/fmr" />
@@ -37,7 +36,6 @@
     <project name="a/bsp/vendor/tools/Bluetooth/bt_trace_manager" path="vendor/tools/Bluetooth/bt_trace_manager" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
     <project name="a/bsp/hardware/imc/bt_trace_daemon" path="vendor/tools/Bluetooth/bt_trace_daemon" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
     <project name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" path="hardware/imc/pt_bt_daemon" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
-    <project name="a/bsp/vendor/intel/PRIVATE/apps/Kratos" path="vendor/intel/apps/PRIVATE/Kratos" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
     <project name="a/bsp/soclib" path="soclib" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
     <project name="a/bsp/lpmp3" path="lpmp3_vm" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
     <project name="a/bsp/packages/apps/fmr" path="packages/apps/fmr" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
