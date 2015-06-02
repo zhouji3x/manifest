@@ -193,7 +193,7 @@
     <project restricted="blue_woods" groups="bsp-priv,bluewoods" name="a/bsp/vendor/intel/hardware/cellular_coex_manager/broadcom" path="vendor/intel/hardware/PRIVATE/cellular_coex_manager/broadcom" revision="android/l/mr1/master"/>
     <project name="a/bsp/device/intel/goldsand" path="device/intel/goldsand" groups="embargoed" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/PRIVATE/codec_wma9" path="external/alac" revision="android/l/mr1/master"/>
-    <project name="a/bsp/vendor/intel/PRIVATE/Aware" path="vendor/intel/PRIVATE/Aware" revision="android/l/mr1/master"/>
+    <project name="a/bsp/vendor/intel/PRIVATE/Aware" path="vendor/intel/apps/PRIVATE/Aware" revision="android/l/mr1/master"/>
     <project name="a/bsp/kernel/sofia-lte" path="kernel/sofia-lte" revision="android/l/mr1/master"/>
     <project name="a/bsp/kernel/modules/dbgtools-internal" path="kernel/modules/dbgtools-internal" groups="embargoed" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/PRIVATE/apps/Kratos" path="vendor/intel/apps/PRIVATE/Kratos" groups="embargoed" revision="android/l/mr1/master"/>
