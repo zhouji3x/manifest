@@ -2,6 +2,6 @@
 <manifest>
 	<!-- Google repositories they are separated from BSP to enable tracking the right AOSP branch -->
     <project name="a/aosp/platform/vendor/widevine" path="vendor/google/widevinedrm" groups="embargoed"/>
-    <project name="a/bsp/vendor/google/PRIVATE/gms" path="vendor/google/gms" groups="embargoed"/>
+    <project spsId="59122" name="a/bsp/vendor/google/PRIVATE/gms" path="vendor/google/gms" groups="embargoed"/>
 
 </manifest>

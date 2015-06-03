@@ -26,19 +26,19 @@
 
     <project name="a/bsp/bootsystems" path="bootsystems" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
     <project name="a/sofia/modem_1/xmm6421" path="modem" revision="abt/topic/gmin/l-dev/advdev/sofia-v/19"/>
-    <project name="a/bsp/secure_vm" path="secure_vm" revision="abt/topic/gmin/l-dev/advdev/sofia-v/19"/>
-    <project name="a/bsp/mobilevisor/release" path="mobilevisor/release" revision="abt/topic/gmin/l-dev/advdev/sofia-v/19"/>
-    <project name="a/bsp/mobilevisor/pal" path="mobilevisor/services"  revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
-    <project name="a/bsp/mobilevisor/guests" path="mobilevisor/guests" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
-    <project name="a/bsp/mobilevisor/products" path="mobilevisor/products" revision="abt/topic/gmin/l-dev/advdev/sofia-3g-r-v/10" />
+    <project spsId="59074" name="a/bsp/secure_vm" path="secure_vm" revision="abt/topic/gmin/l-dev/advdev/sofia-v/19"/>
+    <project spsId="59069" name="a/bsp/mobilevisor/release" path="mobilevisor/release" revision="abt/topic/gmin/l-dev/advdev/sofia-v/19"/>
+    <project spsId="59070" name="a/bsp/mobilevisor/pal" path="mobilevisor/services"  revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
+    <project spsId="59071" name="a/bsp/mobilevisor/guests" path="mobilevisor/guests" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
+    <project spsId="59072" name="a/bsp/mobilevisor/products" path="mobilevisor/products" revision="abt/topic/gmin/l-dev/advdev/sofia-3g-r-v/10" />
     <project name="a/vendor/intel/imc/modem/utils/config" path="utils/config" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
-    <project name="a/bsp/vendor/tools/Bluetooth/xvt_bt_usc" path="vendor/tools/Bluetooth/xvt_bt_usc" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
-    <project name="a/bsp/vendor/tools/Bluetooth/bt_trace_manager" path="vendor/tools/Bluetooth/bt_trace_manager" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
-    <project name="a/bsp/hardware/imc/bt_trace_daemon" path="vendor/tools/Bluetooth/bt_trace_daemon" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
-    <project name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" path="hardware/imc/pt_bt_daemon" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
-    <project name="a/bsp/soclib" path="soclib" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
+    <project spsId="59059" name="a/bsp/vendor/tools/Bluetooth/xvt_bt_usc" path="vendor/tools/Bluetooth/xvt_bt_usc" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
+    <project spsId="59060" name="a/bsp/vendor/tools/Bluetooth/bt_trace_manager" path="vendor/tools/Bluetooth/bt_trace_manager" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
+    <project spsId="59051" name="a/bsp/hardware/imc/bt_trace_daemon" path="vendor/tools/Bluetooth/bt_trace_daemon" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
+    <project spsId="59052" name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" path="hardware/imc/pt_bt_daemon" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
+    <project spsId="59073" name="a/bsp/soclib" path="soclib" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
     <project name="a/bsp/lpmp3" path="lpmp3_vm" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
     <project name="a/bsp/packages/apps/fmr" path="packages/apps/fmr" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00" />
-    <project name="a/bsp/hardware/imc/fm" path="hardware/imc/fm" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
+    <project spsId="59119" name="a/bsp/hardware/imc/fm" path="hardware/imc/fm" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
 
 </manifest>

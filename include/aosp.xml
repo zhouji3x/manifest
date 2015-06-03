@@ -3,23 +3,23 @@
 
 
 <!-- BEGIN open-source projects -->
- <project path="build" name="a/aosp/platform/build" groups="pdk,tradefed" >
+ <project spsId="58527" path="build" name="a/aosp/platform/build" groups="pdk,tradefed" >
   <copyfile src="core/root.mk" dest="Makefile"/>
  </project>
- <project path="abi/cpp" name="a/aosp/platform/abi/cpp" groups="pdk"/>
- <project path="art" name="a/aosp/platform/art" groups="pdk"/>
- <project path="bionic" name="a/aosp/platform/bionic" groups="pdk"/>
- <project path="bootable/bootloader/legacy" name="a/aosp/platform/bootable/bootloader/legacy" groups="pdk-cw-fs"/>
- <project path="bootable/recovery" name="a/aosp/platform/bootable/recovery" groups="pdk"/>
- <project path="cts" name="a/aosp/platform/cts" groups="cts,pdk-cw-fs"/>
- <project path="dalvik" name="a/aosp/platform/dalvik" groups="pdk-cw-fs"/>
- <project path="developers/build" name="a/aosp/platform/developers/build"/>
+ <project spsId="58528" path="abi/cpp" name="a/aosp/platform/abi/cpp" groups="pdk"/>
+ <project spsId="58529" path="art" name="a/aosp/platform/art" groups="pdk"/>
+ <project spsId="58530" path="bionic" name="a/aosp/platform/bionic" groups="pdk"/>
+ <project spsId="58532" path="bootable/bootloader/legacy" name="a/aosp/platform/bootable/bootloader/legacy" groups="pdk-cw-fs"/>
+ <project spsId="58534" path="bootable/recovery" name="a/aosp/platform/bootable/recovery" groups="pdk"/>
+ <project spsId="58535" path="cts" name="a/aosp/platform/cts" groups="cts,pdk-cw-fs"/>
+ <project spsId="58536" path="dalvik" name="a/aosp/platform/dalvik" groups="pdk-cw-fs"/>
+ <project spsId="58537" path="developers/build" name="a/aosp/platform/developers/build"/>
  <!--
  <project path="developers/demos" name="a/aosp/platform/developers/demos"/>
  <project path="developers/docs" name="a/aosp/platform/developers/docs"/>
  <project path="developers/samples/android" name="a/aosp/platform/developers/samples/android"/>
  -->
- <project path="development" name="a/aosp/platform/development" groups="pdk-cw-fs"/>
+ <project spsId="58541" path="development" name="a/aosp/platform/development" groups="pdk-cw-fs"/>
 
  <!--
  <project path="device/asus/deb" name="a/aosp/device/asus/deb" groups="device,flo"/>
@@ -30,20 +30,20 @@
  <project path="device/asus/grouper" name="a/aosp/device/asus/grouper" groups="device,grouper"/>
  <project path="device/asus/tilapia" name="a/aosp/device/asus/tilapia" groups="device,grouper"/>
  -->
- <project path="device/common" name="a/aosp/device/common" groups="pdk-cw-fs"/>
- <project path="device/generic/arm64" name="a/aosp/device/generic/arm64" groups="pdk"/>
- <project path="device/generic/armv7-a-neon" name="a/aosp/device/generic/armv7-a-neon" groups="pdk"/>
- <project path="device/generic/common" name="a/aosp/device/generic/common" groups="pdk"/>
- <project path="device/generic/goldfish" name="a/aosp/device/generic/goldfish" groups="pdk"/>
- <project path="device/generic/mips" name="a/aosp/device/generic/mips" groups="pdk"/>
- <project path="device/generic/mini-emulator-arm64" name="a/aosp/device/generic/mini-emulator-arm64" groups="pdk"/>
- <project path="device/generic/mini-emulator-armv7-a-neon" name="a/aosp/device/generic/mini-emulator-armv7-a-neon" groups="pdk"/>
- <project path="device/generic/mini-emulator-mips" name="a/aosp/device/generic/mini-emulator-mips" groups="pdk"/>
- <project path="device/generic/mini-emulator-x86" name="a/aosp/device/generic/mini-emulator-x86" groups="pdk"/>
- <project path="device/generic/mini-emulator-x86_64" name="a/aosp/device/generic/mini-emulator-x86_64" groups="pdk"/>
- <project path="device/generic/qemu" name="a/aosp/device/generic/qemu"/>
- <project path="device/generic/x86" name="a/aosp/device/generic/x86" groups="pdk"/>
- <project path="device/generic/x86_64" name="a/aosp/device/generic/x86_64" groups="pdk"/>
+ <project spsId="58505" path="device/common" name="a/aosp/device/common" groups="pdk-cw-fs"/>
+ <project spsId="60440" path="device/generic/arm64" name="a/aosp/device/generic/arm64" groups="pdk"/>
+ <project spsId="58507" path="device/generic/armv7-a-neon" name="a/aosp/device/generic/armv7-a-neon" groups="pdk"/>
+ <project spsId="58508" path="device/generic/common" name="a/aosp/device/generic/common" groups="pdk"/>
+ <project spsId="58509" path="device/generic/goldfish" name="a/aosp/device/generic/goldfish" groups="pdk"/>
+ <project spsId="58510" path="device/generic/mips" name="a/aosp/device/generic/mips" groups="pdk"/>
+ <project spsId="60441" path="device/generic/mini-emulator-arm64" name="a/aosp/device/generic/mini-emulator-arm64" groups="pdk"/>
+ <project spsId="58511" path="device/generic/mini-emulator-armv7-a-neon" name="a/aosp/device/generic/mini-emulator-armv7-a-neon" groups="pdk"/>
+ <project spsId="58512" path="device/generic/mini-emulator-mips" name="a/aosp/device/generic/mini-emulator-mips" groups="pdk"/>
+ <project spsId="58513" path="device/generic/mini-emulator-x86" name="a/aosp/device/generic/mini-emulator-x86" groups="pdk"/>
+ <project spsId="60442" path="device/generic/mini-emulator-x86_64" name="a/aosp/device/generic/mini-emulator-x86_64" groups="pdk"/>
+ <project spsId="60443" path="device/generic/qemu" name="a/aosp/device/generic/qemu"/>
+ <project spsId="58514" path="device/generic/x86" name="a/aosp/device/generic/x86" groups="pdk"/>
+ <project spsId="60444" path="device/generic/x86_64" name="a/aosp/device/generic/x86_64" groups="pdk"/>
  <!--
  <project path="device/google/accessory/arduino" name="a/aosp/device/google/accessory/arduino" groups="device"/>
  <project path="device/google/accessory/demokit" name="a/aosp/device/google/accessory/demokit" groups="device"/>
@@ -60,280 +60,280 @@
  <project path="device/moto/shamu" name="a/aosp/device/moto/shamu" groups="device,shamu"/>
  <project path="device/moto/shamu-kernel" name="a/aosp/device/moto/shamu-kernel" groups="device,shamu" clone-depth="1"/>
   -->
- <project path="device/sample" name="a/aosp/device/sample" groups="pdk"/>
+ <project spsId="58523" path="device/sample" name="a/aosp/device/sample" groups="pdk"/>
  <!--
  <project path="device/samsung/manta" name="a/aosp/device/samsung/manta" groups="device,manta"/>
  <project path="docs/source.android.com" name="a/aosp/platform/docs/source.android.com" groups="pdk-cw-fs"/>
  -->
- <project path="external/aac" name="a/aosp/platform/external/aac" groups="pdk"/>
- <project path="external/android-clat" name="a/aosp/platform/external/android-clat" groups="pdk-cw-fs"/>
- <project path="external/ant-glob" name="a/aosp/platform/external/ant-glob" groups="pdk-cw-fs"/>
- <project path="external/antlr" name="a/aosp/platform/external/antlr" groups="pdk-cw-fs,tradefed"/>
- <project path="external/apache-harmony" name="a/aosp/platform/external/apache-harmony" groups="pdk-cw-fs"/>
- <project path="external/apache-http" name="a/aosp/platform/external/apache-http" groups="pdk-cw-fs"/>
- <project path="external/apache-qp" name="a/aosp/platform/external/apache-qp" groups="pdk-cw-fs"/>
- <project path="external/apache-xml" name="a/aosp/platform/external/apache-xml" groups="pdk-cw-fs"/>
- <project path="external/arduino" name="a/aosp/platform/external/arduino" groups="pdk-cw-fs"/>
- <project path="external/bison" name="a/aosp/platform/external/bison" groups="pdk"/>
- <project path="external/blktrace" name="a/aosp/platform/external/blktrace" groups="pdk-cw-fs"/>
- <project path="external/bluetooth/bluedroid" name="a/aosp/platform/external/bluetooth/bluedroid" groups="pdk"/>
- <project path="external/bouncycastle" name="a/aosp/platform/external/bouncycastle" groups="pdk"/>
- <project path="external/bsdiff" name="a/aosp/platform/external/bsdiff" groups="pdk"/>
- <project path="external/bzip2" name="a/aosp/platform/external/bzip2" groups="pdk"/>
- <project path="external/ceres-solver" name="a/aosp/platform/external/ceres-solver" groups="pdk-cw-fs"/>
- <project path="external/checkpolicy" name="a/aosp/platform/external/checkpolicy" groups="pdk"/>
- <project path="external/chromium-libpac" name="a/aosp/platform/external/chromium-libpac"/>
- <project path="external/chromium-trace" name="a/aosp/platform/external/chromium-trace" groups="pdk"/>
- <project path="external/chromium_org" name="a/aosp/platform/external/chromium_org"/>
- <project path="external/chromium_org/sdch/open-vcdiff" name="a/aosp/platform/external/chromium_org/sdch/open-vcdiff"/>
- <project path="external/chromium_org/testing/gtest" name="a/aosp/platform/external/chromium_org/testing/gtest"/>
- <project path="external/chromium_org/third_party/WebKit" name="a/aosp/platform/external/chromium_org/third_party/WebKit"/>
- <project path="external/chromium_org/third_party/angle" name="a/aosp/platform/external/chromium_org/third_party/angle"/>
- <project path="external/chromium_org/third_party/boringssl/src" name="a/aosp/platform/external/chromium_org/third_party/boringssl/src"/>
- <project path="external/chromium_org/third_party/brotli/src" name="a/aosp/platform/external/chromium_org/third_party/brotli/src"/>
- <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="a/aosp/platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille"/>
- <project path="external/chromium_org/third_party/freetype" name="a/aosp/platform/external/chromium_org/third_party/freetype"/>
- <project path="external/chromium_org/third_party/icu" name="a/aosp/platform/external/chromium_org/third_party/icu"/>
- <project path="external/chromium_org/third_party/leveldatabase/src" name="a/aosp/platform/external/chromium_org/third_party/leveldatabase/src"/>
- <project path="external/chromium_org/third_party/libaddressinput/src" name="a/aosp/platform/external/chromium_org/third_party/libaddressinput/src"/>
- <project path="external/chromium_org/third_party/libjingle/source/talk" name="a/aosp/platform/external/chromium_org/third_party/libjingle/source/talk"/>
- <project path="external/chromium_org/third_party/libjpeg_turbo" name="a/aosp/platform/external/chromium_org/third_party/libjpeg_turbo"/>
- <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="a/aosp/platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers"/>
- <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="a/aosp/platform/external/chromium_org/third_party/libphonenumber/src/resources"/>
- <project path="external/chromium_org/third_party/libsrtp" name="a/aosp/platform/external/chromium_org/third_party/libsrtp"/>
- <project path="external/chromium_org/third_party/libvpx" name="a/aosp/platform/external/chromium_org/third_party/libvpx"/>
- <project path="external/chromium_org/third_party/libyuv" name="a/aosp/platform/external/chromium_org/third_party/libyuv"/>
- <project path="external/chromium_org/third_party/mesa/src" name="a/aosp/platform/external/chromium_org/third_party/mesa/src"/>
- <project path="external/chromium_org/third_party/openmax_dl" name="a/aosp/platform/external/chromium_org/third_party/openmax_dl"/>
- <project path="external/chromium_org/third_party/opus/src" name="a/aosp/platform/external/chromium_org/third_party/opus/src"/>
- <project path="external/chromium_org/third_party/ots" name="a/aosp/platform/external/chromium_org/third_party/ots"/>
- <project path="external/chromium_org/third_party/sfntly/cpp/src" name="a/aosp/platform/external/chromium_org/third_party/sfntly/cpp/src"/>
- <project path="external/chromium_org/third_party/skia" name="a/aosp/platform/external/chromium_org/third_party/skia"/>
- <project path="external/chromium_org/third_party/smhasher/src" name="a/aosp/platform/external/chromium_org/third_party/smhasher/src"/>
- <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="a/aosp/platform/external/chromium_org/third_party/usrsctp/usrsctplib"/>
- <project path="external/chromium_org/third_party/webrtc" name="a/aosp/platform/external/chromium_org/third_party/webrtc"/>
- <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="a/aosp/platform/external/chromium_org/third_party/yasm/source/patched-yasm"/>
- <project path="external/chromium_org/tools/grit" name="a/aosp/platform/external/chromium_org/tools/grit"/>
- <project path="external/chromium_org/tools/gyp" name="a/aosp/platform/external/chromium_org/tools/gyp"/>
- <project path="external/chromium_org/v8" name="a/aosp/platform/external/chromium_org/v8"/>
- <project path="external/clang" name="a/aosp/platform/external/clang" groups="pdk"/>
- <project path="external/cmockery" name="a/aosp/platform/external/cmockery"/>
- <project path="external/compiler-rt" name="a/aosp/platform/external/compiler-rt" groups="pdk"/>
- <project path="external/conscrypt" name="a/aosp/platform/external/conscrypt" groups="pdk-cw-fs"/>
- <project path="external/deqp" name="a/aosp/platform/external/deqp"/>
- <project path="external/dexmaker" name="a/aosp/platform/external/dexmaker" groups="pdk-cw-fs"/>
- <project path="external/dhcpcd" name="a/aosp/platform/external/dhcpcd" groups="pdk-cw-fs"/>
- <project path="external/dnsmasq" name="a/aosp/platform/external/dnsmasq" groups="pdk"/>
- <project path="external/doclava" name="a/aosp/platform/external/doclava" groups="pdk-cw-fs,tradefed"/>
- <project path="external/droiddriver" name="a/aosp/platform/external/droiddriver" groups="pdk-cw-fs"/>
- <project path="external/e2fsprogs" name="a/aosp/platform/external/e2fsprogs" groups="pdk"/>
- <project path="external/easymock" name="a/aosp/platform/external/easymock" groups="pdk-cw-fs,tradefed"/>
- <project path="external/eclipse-basebuilder" name="a/aosp/platform/external/eclipse-basebuilder" groups="pdk-cw-fs"/>
- <project path="external/eclipse-windowbuilder" name="a/aosp/platform/external/eclipse-windowbuilder" groups="pdk-cw-fs"/>
- <project path="external/eigen" name="a/aosp/platform/external/eigen" groups="pdk-cw-fs"/>
- <project path="external/elfutils" name="a/aosp/platform/external/elfutils" groups="pdk"/>
- <project path="external/emma" name="a/aosp/platform/external/emma" groups="pdk-cw-fs,tradefed"/>
- <project path="external/esd" name="a/aosp/platform/external/esd" groups="pdk-cw-fs"/>
- <project path="external/expat" name="a/aosp/platform/external/expat" groups="pdk"/>
- <project path="external/eyes-free" name="a/aosp/platform/external/eyes-free" groups="pdk-cw-fs"/>
- <project path="external/f2fs-tools" name="a/aosp/platform/external/f2fs-tools" groups="pdk"/>
- <project path="external/fdlibm" name="a/aosp/platform/external/fdlibm" groups="pdk"/>
- <project path="external/fio" name="a/aosp/platform/external/fio"/>
- <project path="external/flac" name="a/aosp/platform/external/flac" groups="pdk"/>
- <project path="external/fonttools" name="a/aosp/platform/external/fonttools"/>
- <project path="external/freetype" name="a/aosp/platform/external/freetype" groups="pdk"/>
- <project path="external/fsck_msdos" name="a/aosp/platform/external/fsck_msdos" groups="pdk-cw-fs"/>
- <project path="external/gcc-demangle" name="a/aosp/platform/external/gcc-demangle" groups="pdk"/>
- <project path="external/genext2fs" name="a/aosp/platform/external/genext2fs" groups="pdk-cw-fs"/>
- <project path="external/giflib" name="a/aosp/platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26"/>
- <project path="external/glide" name="a/aosp/platform/external/glide"/>
- <project path="external/google-diff-match-patch" name="a/aosp/platform/external/google-diff-match-patch" groups="pdk-cw-fs"/>
- <project path="external/google-fonts/coming-soon" name="a/aosp/platform/external/google-fonts/coming-soon" groups="pdk-cw-fs"/>
- <project path="external/google-fonts/cutive-mono" name="a/aosp/platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs"/>
- <project path="external/google-fonts/dancing-script" name="a/aosp/platform/external/google-fonts/dancing-script" groups="pdk-cw-fs"/>
- <project path="external/google-fonts/carrois-gothic-sc" name="a/aosp/platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs"/>
+ <project spsId="58544" path="external/aac" name="a/aosp/platform/external/aac" groups="pdk"/>
+ <project spsId="58545" path="external/android-clat" name="a/aosp/platform/external/android-clat" groups="pdk-cw-fs"/>
+ <project spsId="58547" path="external/ant-glob" name="a/aosp/platform/external/ant-glob" groups="pdk-cw-fs"/>
+ <project spsId="58548" path="external/antlr" name="a/aosp/platform/external/antlr" groups="pdk-cw-fs,tradefed"/>
+ <project spsId="58549" path="external/apache-harmony" name="a/aosp/platform/external/apache-harmony" groups="pdk-cw-fs"/>
+ <project spsId="58550" path="external/apache-http" name="a/aosp/platform/external/apache-http" groups="pdk-cw-fs"/>
+ <project spsId="58551" path="external/apache-qp" name="a/aosp/platform/external/apache-qp" groups="pdk-cw-fs"/>
+ <project spsId="58552" path="external/apache-xml" name="a/aosp/platform/external/apache-xml" groups="pdk-cw-fs"/>
+ <project spsId="58553" path="external/arduino" name="a/aosp/platform/external/arduino" groups="pdk-cw-fs"/>
+ <project spsId="58554" path="external/bison" name="a/aosp/platform/external/bison" groups="pdk"/>
+ <project spsId="58555" path="external/blktrace" name="a/aosp/platform/external/blktrace" groups="pdk-cw-fs"/>
+ <project spsId="58556" path="external/bluetooth/bluedroid" name="a/aosp/platform/external/bluetooth/bluedroid" groups="pdk"/>
+ <project spsId="58557" path="external/bouncycastle" name="a/aosp/platform/external/bouncycastle" groups="pdk"/>
+ <project spsId="58558" path="external/bsdiff" name="a/aosp/platform/external/bsdiff" groups="pdk"/>
+ <project spsId="58559" path="external/bzip2" name="a/aosp/platform/external/bzip2" groups="pdk"/>
+ <project spsId="58560" path="external/ceres-solver" name="a/aosp/platform/external/ceres-solver" groups="pdk-cw-fs"/>
+ <project spsId="58561" path="external/checkpolicy" name="a/aosp/platform/external/checkpolicy" groups="pdk"/>
+ <project spsId="58563" path="external/chromium-libpac" name="a/aosp/platform/external/chromium-libpac"/>
+ <project spsId="58564" path="external/chromium-trace" name="a/aosp/platform/external/chromium-trace" groups="pdk"/>
+ <project spsId="58565" path="external/chromium_org" name="a/aosp/platform/external/chromium_org"/>
+ <project spsId="58566" path="external/chromium_org/sdch/open-vcdiff" name="a/aosp/platform/external/chromium_org/sdch/open-vcdiff"/>
+ <project spsId="58567" path="external/chromium_org/testing/gtest" name="a/aosp/platform/external/chromium_org/testing/gtest"/>
+ <project spsId="58569" path="external/chromium_org/third_party/WebKit" name="a/aosp/platform/external/chromium_org/third_party/WebKit"/>
+ <project spsId="58570" path="external/chromium_org/third_party/angle" name="a/aosp/platform/external/chromium_org/third_party/angle"/>
+ <project spsId="60447" path="external/chromium_org/third_party/boringssl/src" name="a/aosp/platform/external/chromium_org/third_party/boringssl/src"/>
+ <project spsId="60448" path="external/chromium_org/third_party/brotli/src" name="a/aosp/platform/external/chromium_org/third_party/brotli/src"/>
+ <project spsId="58571" path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="a/aosp/platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille"/>
+ <project spsId="58572" path="external/chromium_org/third_party/freetype" name="a/aosp/platform/external/chromium_org/third_party/freetype"/>
+ <project spsId="58573" path="external/chromium_org/third_party/icu" name="a/aosp/platform/external/chromium_org/third_party/icu"/>
+ <project spsId="58574" path="external/chromium_org/third_party/leveldatabase/src" name="a/aosp/platform/external/chromium_org/third_party/leveldatabase/src"/>
+ <project spsId="60449" path="external/chromium_org/third_party/libaddressinput/src" name="a/aosp/platform/external/chromium_org/third_party/libaddressinput/src"/>
+ <project spsId="58575" path="external/chromium_org/third_party/libjingle/source/talk" name="a/aosp/platform/external/chromium_org/third_party/libjingle/source/talk"/>
+ <project spsId="60450" path="external/chromium_org/third_party/libjpeg_turbo" name="a/aosp/platform/external/chromium_org/third_party/libjpeg_turbo"/>
+ <project spsId="58576" path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="a/aosp/platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers"/>
+ <project spsId="58577" path="external/chromium_org/third_party/libphonenumber/src/resources" name="a/aosp/platform/external/chromium_org/third_party/libphonenumber/src/resources"/>
+ <project spsId="60451" path="external/chromium_org/third_party/libsrtp" name="a/aosp/platform/external/chromium_org/third_party/libsrtp"/>
+ <project spsId="60452" path="external/chromium_org/third_party/libvpx" name="a/aosp/platform/external/chromium_org/third_party/libvpx"/>
+ <project spsId="60453" path="external/chromium_org/third_party/libyuv" name="a/aosp/platform/external/chromium_org/third_party/libyuv"/>
+ <project spsId="58578" path="external/chromium_org/third_party/mesa/src" name="a/aosp/platform/external/chromium_org/third_party/mesa/src"/>
+ <project spsId="60454" path="external/chromium_org/third_party/openmax_dl" name="a/aosp/platform/external/chromium_org/third_party/openmax_dl"/>
+ <project spsId="58580" path="external/chromium_org/third_party/opus/src" name="a/aosp/platform/external/chromium_org/third_party/opus/src"/>
+ <project spsId="58581" path="external/chromium_org/third_party/ots" name="a/aosp/platform/external/chromium_org/third_party/ots"/>
+ <project spsId="60455" path="external/chromium_org/third_party/sfntly/cpp/src" name="a/aosp/platform/external/chromium_org/third_party/sfntly/cpp/src"/>
+ <project spsId="60456" path="external/chromium_org/third_party/skia" name="a/aosp/platform/external/chromium_org/third_party/skia"/>
+ <project spsId="58585" path="external/chromium_org/third_party/smhasher/src" name="a/aosp/platform/external/chromium_org/third_party/smhasher/src"/>
+ <project spsId="60457" path="external/chromium_org/third_party/usrsctp/usrsctplib" name="a/aosp/platform/external/chromium_org/third_party/usrsctp/usrsctplib"/>
+ <project spsId="60458" path="external/chromium_org/third_party/webrtc" name="a/aosp/platform/external/chromium_org/third_party/webrtc"/>
+ <project spsId="58586" path="external/chromium_org/third_party/yasm/source/patched-yasm" name="a/aosp/platform/external/chromium_org/third_party/yasm/source/patched-yasm"/>
+ <project spsId="58587" path="external/chromium_org/tools/grit" name="a/aosp/platform/external/chromium_org/tools/grit"/>
+ <project spsId="58588" path="external/chromium_org/tools/gyp" name="a/aosp/platform/external/chromium_org/tools/gyp"/>
+ <project spsId="58589" path="external/chromium_org/v8" name="a/aosp/platform/external/chromium_org/v8"/>
+ <project spsId="58590" path="external/clang" name="a/aosp/platform/external/clang" groups="pdk"/>
+ <project spsId="60445" path="external/cmockery" name="a/aosp/platform/external/cmockery"/>
+ <project spsId="58591" path="external/compiler-rt" name="a/aosp/platform/external/compiler-rt" groups="pdk"/>
+ <project spsId="60446" path="external/conscrypt" name="a/aosp/platform/external/conscrypt" groups="pdk-cw-fs"/>
+ <project spsId="60459" path="external/deqp" name="a/aosp/platform/external/deqp"/>
+ <project spsId="58592" path="external/dexmaker" name="a/aosp/platform/external/dexmaker" groups="pdk-cw-fs"/>
+ <project spsId="58593" path="external/dhcpcd" name="a/aosp/platform/external/dhcpcd" groups="pdk-cw-fs"/>
+ <project spsId="58594" path="external/dnsmasq" name="a/aosp/platform/external/dnsmasq" groups="pdk"/>
+ <project spsId="58595" path="external/doclava" name="a/aosp/platform/external/doclava" groups="pdk-cw-fs,tradefed"/>
+ <project spsId="58597" path="external/droiddriver" name="a/aosp/platform/external/droiddriver" groups="pdk-cw-fs"/>
+ <project spsId="58598" path="external/e2fsprogs" name="a/aosp/platform/external/e2fsprogs" groups="pdk"/>
+ <project spsId="58599" path="external/easymock" name="a/aosp/platform/external/easymock" groups="pdk-cw-fs,tradefed"/>
+ <project spsId="58600" path="external/eclipse-basebuilder" name="a/aosp/platform/external/eclipse-basebuilder" groups="pdk-cw-fs"/>
+ <project spsId="58601" path="external/eclipse-windowbuilder" name="a/aosp/platform/external/eclipse-windowbuilder" groups="pdk-cw-fs"/>
+ <project spsId="58602" path="external/eigen" name="a/aosp/platform/external/eigen" groups="pdk-cw-fs"/>
+ <project spsId="58603" path="external/elfutils" name="a/aosp/platform/external/elfutils" groups="pdk"/>
+ <project spsId="58605" path="external/emma" name="a/aosp/platform/external/emma" groups="pdk-cw-fs,tradefed"/>
+ <project spsId="58606" path="external/esd" name="a/aosp/platform/external/esd" groups="pdk-cw-fs"/>
+ <project spsId="58607" path="external/expat" name="a/aosp/platform/external/expat" groups="pdk"/>
+ <project spsId="58608" path="external/eyes-free" name="a/aosp/platform/external/eyes-free" groups="pdk-cw-fs"/>
+ <project spsId="60460" path="external/f2fs-tools" name="a/aosp/platform/external/f2fs-tools" groups="pdk"/>
+ <project spsId="58609" path="external/fdlibm" name="a/aosp/platform/external/fdlibm" groups="pdk"/>
+ <project spsId="60461" path="external/fio" name="a/aosp/platform/external/fio"/>
+ <project spsId="58610" path="external/flac" name="a/aosp/platform/external/flac" groups="pdk"/>
+ <project spsId="60462" path="external/fonttools" name="a/aosp/platform/external/fonttools"/>
+ <project spsId="58611" path="external/freetype" name="a/aosp/platform/external/freetype" groups="pdk"/>
+ <project spsId="58612" path="external/fsck_msdos" name="a/aosp/platform/external/fsck_msdos" groups="pdk-cw-fs"/>
+ <project spsId="58614" path="external/gcc-demangle" name="a/aosp/platform/external/gcc-demangle" groups="pdk"/>
+ <project spsId="58615" path="external/genext2fs" name="a/aosp/platform/external/genext2fs" groups="pdk-cw-fs"/>
+ <project spsId="58616" path="external/giflib" name="a/aosp/platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26"/>
+ <project spsId="60468" path="external/glide" name="a/aosp/platform/external/glide"/>
+ <project spsId="58617" path="external/google-diff-match-patch" name="a/aosp/platform/external/google-diff-match-patch" groups="pdk-cw-fs"/>
+ <project spsId="60464" path="external/google-fonts/coming-soon" name="a/aosp/platform/external/google-fonts/coming-soon" groups="pdk-cw-fs"/>
+ <project spsId="60465" path="external/google-fonts/cutive-mono" name="a/aosp/platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs"/>
+ <project spsId="60466" path="external/google-fonts/dancing-script" name="a/aosp/platform/external/google-fonts/dancing-script" groups="pdk-cw-fs"/>
+ <project spsId="60463" path="external/google-fonts/carrois-gothic-sc" name="a/aosp/platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs"/>
  <!--
- <project path="external/google-fonts/cutive-mono" name="a/aosp/platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs"/>
+ <project spsId="60465" path="external/google-fonts/cutive-mono" name="a/aosp/platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs"/>
  -->
- <project path="external/google-tv-pairing-protocol" name="a/aosp/platform/external/google-tv-pairing-protocol"/>
- <project path="external/gtest" name="a/aosp/platform/external/gtest" groups="pdk"/>
- <project path="external/guava" name="a/aosp/platform/external/guava" groups="pdk-cw-fs,tradefed"/>
- <project path="external/hamcrest" name="a/aosp/platform/external/hamcrest" groups="pdk-cw-fs,tradefed"/>
- <project path="external/harfbuzz_ng" name="a/aosp/platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26"/>
- <project path="external/icu" name="a/aosp/platform/external/icu" groups="pdk"/>
- <project path="external/iproute2" name="a/aosp/platform/external/iproute2" groups="pdk"/>
- <project path="external/ipsec-tools" name="a/aosp/platform/external/ipsec-tools" groups="pdk-cw-fs"/>
- <project path="external/iptables" name="a/aosp/platform/external/iptables" groups="pdk-cw-fs"/>
- <project path="external/iputils" name="a/aosp/platform/external/iputils" groups="pdk-cw-fs"/>
- <project path="external/jack" name="a/aosp/platform/external/jack" groups="pdk-cw-fs"/>
- <project path="external/jarjar" name="a/aosp/platform/external/jarjar" groups="pdk"/>
- <project path="external/javasqlite" name="a/aosp/platform/external/javasqlite" groups="pdk-cw-fs"/>
- <project path="external/javassist" name="a/aosp/platform/external/javassist" groups="pdk-cw-fs"/>
- <project path="external/jdiff" name="a/aosp/platform/external/jdiff" groups="pdk-cw-fs"/>
- <project path="external/jemalloc" name="a/aosp/platform/external/jemalloc" groups="pdk"/>
- <project path="external/jhead" name="a/aosp/platform/external/jhead" groups="pdk"/>
- <project path="external/jline" name="a/aosp/platform/external/jline" groups="notdefault,tradefed"/>
- <project path="external/jmdns" name="a/aosp/platform/external/jmdns" groups="pdk-cw-fs"/>
- <project path="external/jpeg" name="a/aosp/platform/external/jpeg" groups="pdk"/>
- <project path="external/jsilver" name="a/aosp/platform/external/jsilver" groups="pdk-cw-fs,tradefed"/>
- <project path="external/jsmn" name="a/aosp/platform/external/jsmn" groups="pdk"/>
- <project path="external/jsoncpp" name="a/aosp/platform/external/jsoncpp" groups="pdk-cw-fs"/>
- <project path="external/jsr305" name="a/aosp/platform/external/jsr305" groups="pdk-cw-fs,tradefed"/>
- <project path="external/junit" name="a/aosp/platform/external/junit" groups="pdk-cw-fs,tradefed"/>
- <project path="external/ksoap2" name="a/aosp/platform/external/ksoap2" groups="pdk-cw-fs"/>
- <project path="external/kernel-headers" name="a/aosp/platform/external/kernel-headers" groups="pdk-cw-fs"/>
- <project path="external/libcap-ng" name="a/aosp/platform/external/libcap-ng" groups="pdk-cw-fs"/>
- <project path="external/libcxx" name="a/aosp/platform/external/libcxx" groups="pdk"/>
- <project path="external/libcxxabi" name="a/aosp/platform/external/libcxxabi" groups="pdk"/>
- <project path="external/libedit" name="a/aosp/platform/external/libedit"/>
- <project path="external/libexif" name="a/aosp/platform/external/libexif" groups="pdk-cw-fs"/>
- <project path="external/libhevc" name="a/aosp/platform/external/libhevc"/>
- <project path="external/libgsm" name="a/aosp/platform/external/libgsm" groups="pdk"/>
- <project path="external/liblzf" name="a/aosp/platform/external/liblzf" groups="pdk"/>
- <project path="external/libmtp" name="a/aosp/platform/external/libmtp" groups="pdk-cw-fs"/>
- <project path="external/libnfc-nci" name="a/aosp/platform/external/libnfc-nci" groups="pdk"/>
- <project path="external/libnfc-nxp" name="a/aosp/platform/external/libnfc-nxp" groups="pdk"/>
- <project path="external/libnl" name="a/aosp/platform/external/libnl" groups="pdk"/>
- <project path="external/libogg" name="a/aosp/platform/external/libogg" groups="pdk"/>
- <project path="external/libopus" name="a/aosp/platform/external/libopus" groups="pdk"/>
- <project path="external/libpcap" name="a/aosp/platform/external/libpcap" groups="pdk,pdk-cw-fs"/>
- <project path="external/libphonenumber" name="a/aosp/platform/external/libphonenumber" groups="pdk-cw-fs"/>
- <project path="external/libpng" name="a/aosp/platform/external/libpng" groups="pdk"/>
- <project path="external/libseccomp-helper" name="a/aosp/platform/external/libseccomp-helper" groups="pdk-cw-fs"/>
- <project path="external/libselinux" name="a/aosp/platform/external/libselinux" groups="pdk"/>
- <project path="external/libsepol" name="a/aosp/platform/external/libsepol" groups="pdk"/>
- <project path="external/libssh2" name="a/aosp/platform/external/libssh2" groups="pdk-cw-fs"/>
- <project path="external/libunwind" name="a/aosp/platform/external/libunwind" groups="pdk"/>
- <project path="external/libusb" name="a/aosp/platform/external/libusb" groups="pdk-cw-fs"/>
- <project path="external/libusb-compat" name="a/aosp/platform/external/libusb-compat" groups="pdk-cw-fs"/>
- <project path="external/libutf" name="a/aosp/platform/external/libutf" groups="pdk-cw-fs"/>
- <project path="external/libvorbis" name="a/aosp/platform/external/libvorbis" groups="pdk-cw-fs"/>
- <project path="external/libvpx" name="a/aosp/platform/external/libvpx" groups="pdk"/>
- <project path="external/libvterm" name="a/aosp/platform/external/libvterm" groups="pdk-cw-fs"/>
- <project path="external/libxml2" name="a/aosp/platform/external/libxml2" groups="pdk-cw-fs"/>
- <project path="external/libyuv" name="a/aosp/platform/external/libyuv" groups="libyuv,pdk-cw-fs"/>
- <project path="external/linux-tools-perf" name="a/aosp/platform/external/linux-tools-perf" groups="pdk-cw-fs"/>
- <project path="external/littlemock" name="a/aosp/platform/external/littlemock" groups="pdk-cw-fs"/>
- <project path="external/lldb" name="a/aosp/platform/external/lldb" groups="pdk-cw-fs"/>
- <project path="external/llvm" name="a/aosp/platform/external/llvm" groups="pdk"/>
- <project path="external/lohit-fonts" name="a/aosp/platform/external/lohit-fonts" />
- <project path="external/ltrace" name="a/aosp/platform/external/ltrace" groups="pdk-cw-fs"/>
- <project path="external/lzma" name="a/aosp/platform/external/lzma" groups="pdk"/>
- <project path="external/markdown" name="a/aosp/platform/external/markdown" groups="pdk-cw-fs"/>
- <project path="external/mdnsresponder" name="a/aosp/platform/external/mdnsresponder" groups="pdk"/>
- <project path="external/mesa3d" name="a/aosp/platform/external/mesa3d" groups="pdk-cw-fs"/>
- <project path="external/messageformat" name="a/aosp/platform/external/messageformat" groups="pdk-cw-fs"/>
- <project path="external/mksh" name="a/aosp/platform/external/mksh" groups="pdk"/>
- <project path="external/mockito" name="a/aosp/platform/external/mockito" groups="pdk-cw-fs"/>
- <project path="external/mockwebserver" name="a/aosp/platform/external/mockwebserver" groups="pdk-cw-fs"/>
- <project path="external/mp4parser" name="a/aosp/platform/external/mp4parser" groups="pdk-cw-fs"/>
- <project path="external/mtpd" name="a/aosp/platform/external/mtpd" groups="pdk-cw-fs"/>
- <project path="external/nanohttpd" name="a/aosp/platform/external/nanohttpd"/>
- <project path="external/nanopb-c" name="a/aosp/platform/external/nanopb-c"/>
- <project path="external/naver-fonts" name="a/aosp/platform/external/naver-fonts" groups="pdk-cw-fs"/>
- <project path="external/netcat" name="a/aosp/platform/external/netcat" groups="pdk-cw-fs"/>
- <project path="external/netperf" name="a/aosp/platform/external/netperf" groups="pdk-cw-fs"/>
- <project path="external/neven" name="a/aosp/platform/external/neven" groups="pdk-cw-fs"/>
- <project path="external/nfacct" name="a/aosp/platform/external/nfacct" groups="pdk-cw-fs"/>
- <project path="external/nist-pkits" name="a/aosp/platform/external/nist-pkits" groups="pdk-cw-fs"/>
- <project path="external/nist-sip" name="a/aosp/platform/external/nist-sip" groups="pdk-cw-fs"/>
- <project path="external/noto-fonts" name="a/aosp/platform/external/noto-fonts" groups="pdk"/>
- <project path="external/oauth" name="a/aosp/platform/external/oauth" groups="pdk-cw-fs"/>
- <project path="external/objenesis" name="a/aosp/platform/external/objenesis" groups="pdk-cw-fs"/>
- <project path="external/okhttp" name="a/aosp/platform/external/okhttp" groups="pdk-cw-fs"/>
- <project path="external/opencv" name="a/aosp/platform/external/opencv" groups="pdk-cw-fs"/>
- <project path="external/openfst" name="a/aosp/platform/external/openfst" groups="pdk-cw-fs"/>
- <project path="external/openssh" name="a/aosp/platform/external/openssh" groups="pdk-cw-fs"/>
- <project path="external/openssl" name="a/aosp/platform/external/openssl" groups="pdk"/>
- <project path="external/oprofile" name="a/aosp/platform/external/oprofile" groups="pdk-cw-fs"/>
- <project path="external/owasp/sanitizer" name="a/aosp/platform/external/owasp/sanitizer"/>
- <project path="external/pcre" name="a/aosp/platform/external/pcre" groups="pdk-cw-fs"/>
- <project path="external/pdfium" name="a/aosp/platform/external/pdfium" groups="pdk-cw-fs"/>
- <project path="external/pixman" name="a/aosp/platform/external/pixman" groups="pdk-cw-fs"/>
- <project path="external/ppp" name="a/aosp/platform/external/ppp" groups="pdk-cw-fs"/>
- <project path="external/proguard" name="a/aosp/platform/external/proguard" groups="pdk-java,tradefed"/>
- <project path="external/protobuf" name="a/aosp/platform/external/protobuf" groups="pdk"/>
- <project path="external/qemu" name="a/aosp/platform/external/qemu" groups="pdk-cw-fs"/>
- <project path="external/qemu-pc-bios" name="a/aosp/platform/external/qemu-pc-bios" groups="pdk-cw-fs"/>
- <project path="external/regex-re2" name="a/aosp/platform/external/regex-re2" groups="pdk-cw-fs"/>
- <project path="external/replicaisland" name="a/aosp/platform/external/replicaisland" groups="pdk-cw-fs"/>
- <project path="external/robolectric" name="a/aosp/platform/external/robolectric" groups="pdk-cw-fs"/>
- <project path="external/safe-iop" name="a/aosp/platform/external/safe-iop" groups="pdk"/>
- <project path="external/scrypt" name="a/aosp/platform/external/scrypt" groups="pdk"/>
- <project path="external/sepolicy" name="a/aosp/platform/external/sepolicy" groups="pdk"/>
- <project path="external/sfntly" name="a/aosp/platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26"/>
- <project path="external/skia" name="a/aosp/platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26"/>
- <project path="external/smack" name="a/aosp/platform/external/smack" groups="pdk-cw-fs"/>
- <project path="external/smali" name="a/aosp/platform/external/smali" groups="pdk-cw-fs"/>
- <project path="external/sonivox" name="a/aosp/platform/external/sonivox" groups="pdk"/>
- <project path="external/speex" name="a/aosp/platform/external/speex" groups="pdk"/>
- <project path="external/sqlite" name="a/aosp/platform/external/sqlite" groups="pdk"/>
- <project path="external/srec" name="a/aosp/platform/external/srec" groups="pdk-cw-fs"/>
- <project path="external/srtp" name="a/aosp/platform/external/srtp" groups="pdk-cw-fs"/>
- <project path="external/stlport" name="a/aosp/platform/external/stlport" groups="pdk"/>
- <project path="external/strace" name="a/aosp/platform/external/strace" groups="pdk-cw-fs"/>
- <project path="external/stressapptest" name="a/aosp/platform/external/stressapptest" groups="pdk-cw-fs"/>
- <project path="external/svox" name="a/aosp/platform/external/svox" groups="pdk-cw-fs"/>
- <project path="external/tagsoup" name="a/aosp/platform/external/tagsoup" groups="pdk-cw-fs,tradefed"/>
- <project path="external/tcpdump" name="a/aosp/platform/external/tcpdump" groups="pdk,pdk-cw-fs"/>
- <project path="external/timezonepicker-support" name="a/aosp/platform/external/timezonepicker-support" groups="pdk-cw-fs"/>
- <project path="external/tinyalsa" name="a/aosp/platform/external/tinyalsa" groups="pdk"/>
- <project path="external/tinycompress" name="a/aosp/platform/external/tinycompress" groups="pdk"/>
- <project path="external/tinyxml" name="a/aosp/platform/external/tinyxml" groups="pdk"/>
- <project path="external/tinyxml2" name="a/aosp/platform/external/tinyxml2" groups="pdk"/>
- <project path="external/tremolo" name="a/aosp/platform/external/tremolo" groups="pdk"/>
- <project path="external/valgrind" name="a/aosp/platform/external/valgrind" groups="pdk"/>
- <project path="external/vixl" name="a/aosp/platform/external/vixl" groups="pdk"/>
- <project path="external/webp" name="a/aosp/platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26"/>
- <project path="external/webrtc" name="a/aosp/platform/external/webrtc" groups="pdk"/>
- <project path="external/wpa_supplicant_8" name="a/aosp/platform/external/wpa_supplicant_8" groups="pdk"/>
- <project path="external/xmlwriter" name="a/aosp/platform/external/xmlwriter" groups="pdk-cw-fs"/>
- <project path="external/xmp_toolkit" name="a/aosp/platform/external/xmp_toolkit" groups="pdk-cw-fs"/>
- <project path="external/yaffs2" name="a/aosp/platform/external/yaffs2" groups="pdk"/>
- <project path="external/zlib" name="a/aosp/platform/external/zlib" groups="pdk"/>
- <project path="external/zopfli" name="a/aosp/platform/external/zopfli" groups="pdk-cw-fs"/>
- <project path="external/zxing" name="a/aosp/platform/external/zxing" groups="pdk-cw-fs"/>
- <project path="frameworks/av" name="a/aosp/platform/frameworks/av" groups="pdk"/>
- <project path="frameworks/base" name="a/aosp/platform/frameworks/base" groups="pdk-cw-fs"/>
- <project path="frameworks/compile/libbcc" name="a/aosp/platform/frameworks/compile/libbcc" groups="pdk"/>
- <project path="frameworks/compile/mclinker" name="a/aosp/platform/frameworks/compile/mclinker" groups="pdk"/>
- <project path="frameworks/compile/slang" name="a/aosp/platform/frameworks/compile/slang" groups="pdk"/>
- <project path="frameworks/ex" name="a/aosp/platform/frameworks/ex" groups="pdk-cw-fs"/>
- <project path="frameworks/mff" name="a/aosp/platform/frameworks/mff" groups="pdk-cw-fs"/>
- <project path="frameworks/minikin" name="a/aosp/platform/frameworks/minikin" groups="pdk-cw-fs"/>
- <project path="frameworks/ml" name="a/aosp/platform/frameworks/ml" groups="pdk-cw-fs"/>
- <project path="frameworks/multidex" name="a/aosp/platform/frameworks/multidex" groups="pdk-cw-fs"/>
- <project path="frameworks/native" name="a/aosp/platform/frameworks/native" groups="pdk"/>
- <project path="frameworks/opt/bitmap" name="a/aosp/platform/frameworks/opt/bitmap"/>
- <project path="frameworks/opt/bluetooth" name="a/aosp/platform/frameworks/opt/bluetooth" groups="pdk-cw-fs"/>
- <project path="frameworks/opt/calendar" name="a/aosp/platform/frameworks/opt/calendar" groups="pdk-cw-fs"/>
- <project path="frameworks/opt/carddav" name="a/aosp/platform/frameworks/opt/carddav" groups="pdk-cw-fs"/>
- <project path="frameworks/opt/chips" name="a/aosp/platform/frameworks/opt/chips" groups="pdk-cw-fs"/>
- <project path="frameworks/opt/colorpicker" name="a/aosp/platform/frameworks/opt/colorpicker" groups="pdk-cw-fs"/>
- <project path="frameworks/opt/datetimepicker" name="a/aosp/platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs"/>
- <project path="frameworks/opt/emoji" name="a/aosp/platform/frameworks/opt/emoji" groups="pdk-cw-fs"/>
- <project path="frameworks/opt/inputmethodcommon" name="a/aosp/platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs"/>
- <project path="frameworks/opt/mms" name="a/aosp/platform/frameworks/opt/mms" groups="pdk-cw-fs"/>
- <project path="frameworks/opt/net/ims" name="a/aosp/platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs"/>
- <project path="frameworks/opt/net/voip" name="a/aosp/platform/frameworks/opt/net/voip" groups="pdk-cw-fs"/>
- <project path="frameworks/opt/net/wifi" name="a/aosp/platform/frameworks/opt/net/wifi" groups="pdk"/>
- <project path="frameworks/opt/net/ethernet" name="a/aosp/platform/frameworks/opt/net/ethernet"/>
- <project path="frameworks/opt/photoviewer" name="a/aosp/platform/frameworks/opt/photoviewer" groups="pdk-cw-fs"/>
- <project path="frameworks/opt/setupwizard" name="a/aosp/platform/frameworks/opt/setupwizard" groups="pdk-cw-fs"/>
- <project path="frameworks/opt/telephony" name="a/aosp/platform/frameworks/opt/telephony" groups="pdk"/>
- <project path="frameworks/opt/timezonepicker" name="a/aosp/platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs"/>
- <project path="frameworks/opt/vcard" name="a/aosp/platform/frameworks/opt/vcard" groups="pdk-cw-fs"/>
- <project path="frameworks/opt/widget" name="a/aosp/platform/frameworks/opt/widget" groups="pdk-cw-fs"/>
- <project path="frameworks/rs" name="a/aosp/platform/frameworks/rs" groups="pdk"/>
- <project path="frameworks/support" name="a/aosp/platform/frameworks/support" groups="pdk-cw-fs"/>
- <project path="frameworks/volley" name="a/aosp/platform/frameworks/volley" groups="pdk-cw-fs"/>
- <project path="frameworks/webview" name="a/aosp/platform/frameworks/webview" groups="pdk-cw-fs"/>
- <project path="frameworks/wilhelm" name="a/aosp/platform/frameworks/wilhelm" groups="pdk-cw-fs"/>
+ <project spsId="60467" path="external/google-tv-pairing-protocol" name="a/aosp/platform/external/google-tv-pairing-protocol"/>
+ <project spsId="58619" path="external/gtest" name="a/aosp/platform/external/gtest" groups="pdk"/>
+ <project spsId="58620" path="external/guava" name="a/aosp/platform/external/guava" groups="pdk-cw-fs,tradefed"/>
+ <project spsId="58621" path="external/hamcrest" name="a/aosp/platform/external/hamcrest" groups="pdk-cw-fs,tradefed"/>
+ <project spsId="58623" path="external/harfbuzz_ng" name="a/aosp/platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26"/>
+ <project spsId="60469" path="external/icu" name="a/aosp/platform/external/icu" groups="pdk"/>
+ <project spsId="58626" path="external/iproute2" name="a/aosp/platform/external/iproute2" groups="pdk"/>
+ <project spsId="58627" path="external/ipsec-tools" name="a/aosp/platform/external/ipsec-tools" groups="pdk-cw-fs"/>
+ <project spsId="58628" path="external/iptables" name="a/aosp/platform/external/iptables" groups="pdk-cw-fs"/>
+ <project spsId="58629" path="external/iputils" name="a/aosp/platform/external/iputils" groups="pdk-cw-fs"/>
+ <project spsId="58630" path="external/jack" name="a/aosp/platform/external/jack" groups="pdk-cw-fs"/>
+ <project spsId="60470" path="external/jarjar" name="a/aosp/platform/external/jarjar" groups="pdk"/>
+ <project spsId="58631" path="external/javasqlite" name="a/aosp/platform/external/javasqlite" groups="pdk-cw-fs"/>
+ <project spsId="58632" path="external/javassist" name="a/aosp/platform/external/javassist" groups="pdk-cw-fs"/>
+ <project spsId="58633" path="external/jdiff" name="a/aosp/platform/external/jdiff" groups="pdk-cw-fs"/>
+ <project spsId="60471" path="external/jemalloc" name="a/aosp/platform/external/jemalloc" groups="pdk"/>
+ <project spsId="58634" path="external/jhead" name="a/aosp/platform/external/jhead" groups="pdk"/>
+ <project spsId="60473" path="external/jline" name="a/aosp/platform/external/jline" groups="notdefault,tradefed"/>
+ <project spsId="58635" path="external/jmdns" name="a/aosp/platform/external/jmdns" groups="pdk-cw-fs"/>
+ <project spsId="58637" path="external/jpeg" name="a/aosp/platform/external/jpeg" groups="pdk"/>
+ <project spsId="58638" path="external/jsilver" name="a/aosp/platform/external/jsilver" groups="pdk-cw-fs,tradefed"/>
+ <project spsId="60474" path="external/jsmn" name="a/aosp/platform/external/jsmn" groups="pdk"/>
+ <project spsId="60475" path="external/jsoncpp" name="a/aosp/platform/external/jsoncpp" groups="pdk-cw-fs"/>
+ <project spsId="58639" path="external/jsr305" name="a/aosp/platform/external/jsr305" groups="pdk-cw-fs,tradefed"/>
+ <project spsId="58640" path="external/junit" name="a/aosp/platform/external/junit" groups="pdk-cw-fs,tradefed"/>
+ <project spsId="60476" path="external/ksoap2" name="a/aosp/platform/external/ksoap2" groups="pdk-cw-fs"/>
+ <project spsId="58641" path="external/kernel-headers" name="a/aosp/platform/external/kernel-headers" groups="pdk-cw-fs"/>
+ <project spsId="58642" path="external/libcap-ng" name="a/aosp/platform/external/libcap-ng" groups="pdk-cw-fs"/>
+ <project spsId="60477" path="external/libcxx" name="a/aosp/platform/external/libcxx" groups="pdk"/>
+ <project spsId="60478" path="external/libcxxabi" name="a/aosp/platform/external/libcxxabi" groups="pdk"/>
+ <project spsId="60479" path="external/libedit" name="a/aosp/platform/external/libedit"/>
+ <project spsId="58643" path="external/libexif" name="a/aosp/platform/external/libexif" groups="pdk-cw-fs"/>
+ <project spsId="60480" path="external/libhevc" name="a/aosp/platform/external/libhevc"/>
+ <project spsId="58645" path="external/libgsm" name="a/aosp/platform/external/libgsm" groups="pdk"/>
+ <project spsId="58646" path="external/liblzf" name="a/aosp/platform/external/liblzf" groups="pdk"/>
+ <project spsId="58647" path="external/libmtp" name="a/aosp/platform/external/libmtp" groups="pdk-cw-fs"/>
+ <project spsId="58648" path="external/libnfc-nci" name="a/aosp/platform/external/libnfc-nci" groups="pdk"/>
+ <project spsId="58649" path="external/libnfc-nxp" name="a/aosp/platform/external/libnfc-nxp" groups="pdk"/>
+ <project spsId="60481" path="external/libnl" name="a/aosp/platform/external/libnl" groups="pdk"/>
+ <project spsId="58651" path="external/libogg" name="a/aosp/platform/external/libogg" groups="pdk"/>
+ <project spsId="60482" path="external/libopus" name="a/aosp/platform/external/libopus" groups="pdk"/>
+ <project spsId="58652" path="external/libpcap" name="a/aosp/platform/external/libpcap" groups="pdk,pdk-cw-fs"/>
+ <project spsId="58653" path="external/libphonenumber" name="a/aosp/platform/external/libphonenumber" groups="pdk-cw-fs"/>
+ <project spsId="58654" path="external/libpng" name="a/aosp/platform/external/libpng" groups="pdk"/>
+ <project spsId="60483" path="external/libseccomp-helper" name="a/aosp/platform/external/libseccomp-helper" groups="pdk-cw-fs"/>
+ <project spsId="58656" path="external/libselinux" name="a/aosp/platform/external/libselinux" groups="pdk"/>
+ <project spsId="58657" path="external/libsepol" name="a/aosp/platform/external/libsepol" groups="pdk"/>
+ <project spsId="60484" path="external/libssh2" name="a/aosp/platform/external/libssh2" groups="pdk-cw-fs"/>
+ <project spsId="60485" path="external/libunwind" name="a/aosp/platform/external/libunwind" groups="pdk"/>
+ <project spsId="58658" path="external/libusb" name="a/aosp/platform/external/libusb" groups="pdk-cw-fs"/>
+ <project spsId="58659" path="external/libusb-compat" name="a/aosp/platform/external/libusb-compat" groups="pdk-cw-fs"/>
+ <project spsId="60486" path="external/libutf" name="a/aosp/platform/external/libutf" groups="pdk-cw-fs"/>
+ <project spsId="58660" path="external/libvorbis" name="a/aosp/platform/external/libvorbis" groups="pdk-cw-fs"/>
+ <project spsId="58661" path="external/libvpx" name="a/aosp/platform/external/libvpx" groups="pdk"/>
+ <project spsId="60487" path="external/libvterm" name="a/aosp/platform/external/libvterm" groups="pdk-cw-fs"/>
+ <project spsId="58662" path="external/libxml2" name="a/aosp/platform/external/libxml2" groups="pdk-cw-fs"/>
+ <project spsId="58664" path="external/libyuv" name="a/aosp/platform/external/libyuv" groups="libyuv,pdk-cw-fs"/>
+ <project spsId="58665" path="external/linux-tools-perf" name="a/aosp/platform/external/linux-tools-perf" groups="pdk-cw-fs"/>
+ <project spsId="58666" path="external/littlemock" name="a/aosp/platform/external/littlemock" groups="pdk-cw-fs"/>
+ <project spsId="60488" path="external/lldb" name="a/aosp/platform/external/lldb" groups="pdk-cw-fs"/>
+ <project spsId="58667" path="external/llvm" name="a/aosp/platform/external/llvm" groups="pdk"/>
+ <project spsId="60489" path="external/lohit-fonts" name="a/aosp/platform/external/lohit-fonts" />
+ <project spsId="60490" path="external/ltrace" name="a/aosp/platform/external/ltrace" groups="pdk-cw-fs"/>
+ <project spsId="58668" path="external/lzma" name="a/aosp/platform/external/lzma" groups="pdk"/>
+ <project spsId="58670" path="external/markdown" name="a/aosp/platform/external/markdown" groups="pdk-cw-fs"/>
+ <project spsId="58671" path="external/mdnsresponder" name="a/aosp/platform/external/mdnsresponder" groups="pdk"/>
+ <project spsId="58672" path="external/mesa3d" name="a/aosp/platform/external/mesa3d" groups="pdk-cw-fs"/>
+ <project spsId="60491" path="external/messageformat" name="a/aosp/platform/external/messageformat" groups="pdk-cw-fs"/>
+ <project spsId="58673" path="external/mksh" name="a/aosp/platform/external/mksh" groups="pdk"/>
+ <project spsId="58674" path="external/mockito" name="a/aosp/platform/external/mockito" groups="pdk-cw-fs"/>
+ <project spsId="58675" path="external/mockwebserver" name="a/aosp/platform/external/mockwebserver" groups="pdk-cw-fs"/>
+ <project spsId="58676" path="external/mp4parser" name="a/aosp/platform/external/mp4parser" groups="pdk-cw-fs"/>
+ <project spsId="58677" path="external/mtpd" name="a/aosp/platform/external/mtpd" groups="pdk-cw-fs"/>
+ <project spsId="60492" path="external/nanohttpd" name="a/aosp/platform/external/nanohttpd"/>
+ <project spsId="60493" path="external/nanopb-c" name="a/aosp/platform/external/nanopb-c"/>
+ <project spsId="58678" path="external/naver-fonts" name="a/aosp/platform/external/naver-fonts" groups="pdk-cw-fs"/>
+ <project spsId="58679" path="external/netcat" name="a/aosp/platform/external/netcat" groups="pdk-cw-fs"/>
+ <project spsId="58680" path="external/netperf" name="a/aosp/platform/external/netperf" groups="pdk-cw-fs"/>
+ <project spsId="58681" path="external/neven" name="a/aosp/platform/external/neven" groups="pdk-cw-fs"/>
+ <project spsId="60494" path="external/nfacct" name="a/aosp/platform/external/nfacct" groups="pdk-cw-fs"/>
+ <project spsId="58682" path="external/nist-pkits" name="a/aosp/platform/external/nist-pkits" groups="pdk-cw-fs"/>
+ <project spsId="58683" path="external/nist-sip" name="a/aosp/platform/external/nist-sip" groups="pdk-cw-fs"/>
+ <project spsId="58684" path="external/noto-fonts" name="a/aosp/platform/external/noto-fonts" groups="pdk"/>
+ <project spsId="58685" path="external/oauth" name="a/aosp/platform/external/oauth" groups="pdk-cw-fs"/>
+ <project spsId="58686" path="external/objenesis" name="a/aosp/platform/external/objenesis" groups="pdk-cw-fs"/>
+ <project spsId="58687" path="external/okhttp" name="a/aosp/platform/external/okhttp" groups="pdk-cw-fs"/>
+ <project spsId="58689" path="external/opencv" name="a/aosp/platform/external/opencv" groups="pdk-cw-fs"/>
+ <project spsId="58690" path="external/openfst" name="a/aosp/platform/external/openfst" groups="pdk-cw-fs"/>
+ <project spsId="58691" path="external/openssh" name="a/aosp/platform/external/openssh" groups="pdk-cw-fs"/>
+ <project spsId="58692" path="external/openssl" name="a/aosp/platform/external/openssl" groups="pdk"/>
+ <project spsId="58693" path="external/oprofile" name="a/aosp/platform/external/oprofile" groups="pdk-cw-fs"/>
+ <project spsId="60495" path="external/owasp/sanitizer" name="a/aosp/platform/external/owasp/sanitizer"/>
+ <project spsId="60496" path="external/pcre" name="a/aosp/platform/external/pcre" groups="pdk-cw-fs"/>
+ <project spsId="60497" path="external/pdfium" name="a/aosp/platform/external/pdfium" groups="pdk-cw-fs"/>
+ <project spsId="58694" path="external/pixman" name="a/aosp/platform/external/pixman" groups="pdk-cw-fs"/>
+ <project spsId="58695" path="external/ppp" name="a/aosp/platform/external/ppp" groups="pdk-cw-fs"/>
+ <project spsId="58696" path="external/proguard" name="a/aosp/platform/external/proguard" groups="pdk-java,tradefed"/>
+ <project spsId="58697" path="external/protobuf" name="a/aosp/platform/external/protobuf" groups="pdk"/>
+ <project spsId="58698" path="external/qemu" name="a/aosp/platform/external/qemu" groups="pdk-cw-fs"/>
+ <project spsId="58699" path="external/qemu-pc-bios" name="a/aosp/platform/external/qemu-pc-bios" groups="pdk-cw-fs"/>
+ <project spsId="58700" path="external/regex-re2" name="a/aosp/platform/external/regex-re2" groups="pdk-cw-fs"/>
+ <project spsId="58701" path="external/replicaisland" name="a/aosp/platform/external/replicaisland" groups="pdk-cw-fs"/>
+ <project spsId="58702" path="external/robolectric" name="a/aosp/platform/external/robolectric" groups="pdk-cw-fs"/>
+ <project spsId="58703" path="external/safe-iop" name="a/aosp/platform/external/safe-iop" groups="pdk"/>
+ <project spsId="58704" path="external/scrypt" name="a/aosp/platform/external/scrypt" groups="pdk"/>
+ <project spsId="58705" path="external/sepolicy" name="a/aosp/platform/external/sepolicy" groups="pdk"/>
+ <project spsId="58706" path="external/sfntly" name="a/aosp/platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26"/>
+ <project spsId="58708" path="external/skia" name="a/aosp/platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26"/>
+ <project spsId="58709" path="external/smack" name="a/aosp/platform/external/smack" groups="pdk-cw-fs"/>
+ <project spsId="58710" path="external/smali" name="a/aosp/platform/external/smali" groups="pdk-cw-fs"/>
+ <project spsId="58711" path="external/sonivox" name="a/aosp/platform/external/sonivox" groups="pdk"/>
+ <project spsId="58712" path="external/speex" name="a/aosp/platform/external/speex" groups="pdk"/>
+ <project spsId="58713" path="external/sqlite" name="a/aosp/platform/external/sqlite" groups="pdk"/>
+ <project spsId="58714" path="external/srec" name="a/aosp/platform/external/srec" groups="pdk-cw-fs"/>
+ <project spsId="58715" path="external/srtp" name="a/aosp/platform/external/srtp" groups="pdk-cw-fs"/>
+ <project spsId="58716" path="external/stlport" name="a/aosp/platform/external/stlport" groups="pdk"/>
+ <project spsId="58717" path="external/strace" name="a/aosp/platform/external/strace" groups="pdk-cw-fs"/>
+ <project spsId="58718" path="external/stressapptest" name="a/aosp/platform/external/stressapptest" groups="pdk-cw-fs"/>
+ <project spsId="58719" path="external/svox" name="a/aosp/platform/external/svox" groups="pdk-cw-fs"/>
+ <project spsId="58720" path="external/tagsoup" name="a/aosp/platform/external/tagsoup" groups="pdk-cw-fs,tradefed"/>
+ <project spsId="58721" path="external/tcpdump" name="a/aosp/platform/external/tcpdump" groups="pdk,pdk-cw-fs"/>
+ <project spsId="58722" path="external/timezonepicker-support" name="a/aosp/platform/external/timezonepicker-support" groups="pdk-cw-fs"/>
+ <project spsId="58723" path="external/tinyalsa" name="a/aosp/platform/external/tinyalsa" groups="pdk"/>
+ <project spsId="58724" path="external/tinycompress" name="a/aosp/platform/external/tinycompress" groups="pdk"/>
+ <project spsId="58725" path="external/tinyxml" name="a/aosp/platform/external/tinyxml" groups="pdk"/>
+ <project spsId="58726" path="external/tinyxml2" name="a/aosp/platform/external/tinyxml2" groups="pdk"/>
+ <project spsId="58727" path="external/tremolo" name="a/aosp/platform/external/tremolo" groups="pdk"/>
+ <project spsId="58729" path="external/valgrind" name="a/aosp/platform/external/valgrind" groups="pdk"/>
+ <project spsId="60499" path="external/vixl" name="a/aosp/platform/external/vixl" groups="pdk"/>
+ <project spsId="58730" path="external/webp" name="a/aosp/platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26"/>
+ <project spsId="58731" path="external/webrtc" name="a/aosp/platform/external/webrtc" groups="pdk"/>
+ <project spsId="58732" path="external/wpa_supplicant_8" name="a/aosp/platform/external/wpa_supplicant_8" groups="pdk"/>
+ <project spsId="58733" path="external/xmlwriter" name="a/aosp/platform/external/xmlwriter" groups="pdk-cw-fs"/>
+ <project spsId="58734" path="external/xmp_toolkit" name="a/aosp/platform/external/xmp_toolkit" groups="pdk-cw-fs"/>
+ <project spsId="58735" path="external/yaffs2" name="a/aosp/platform/external/yaffs2" groups="pdk"/>
+ <project spsId="58736" path="external/zlib" name="a/aosp/platform/external/zlib" groups="pdk"/>
+ <project spsId="60500" path="external/zopfli" name="a/aosp/platform/external/zopfli" groups="pdk-cw-fs"/>
+ <project spsId="58737" path="external/zxing" name="a/aosp/platform/external/zxing" groups="pdk-cw-fs"/>
+ <project spsId="58739" path="frameworks/av" name="a/aosp/platform/frameworks/av" groups="pdk"/>
+ <project spsId="58740" path="frameworks/base" name="a/aosp/platform/frameworks/base" groups="pdk-cw-fs"/>
+ <project spsId="58741" path="frameworks/compile/libbcc" name="a/aosp/platform/frameworks/compile/libbcc" groups="pdk"/>
+ <project spsId="58742" path="frameworks/compile/mclinker" name="a/aosp/platform/frameworks/compile/mclinker" groups="pdk"/>
+ <project spsId="58743" path="frameworks/compile/slang" name="a/aosp/platform/frameworks/compile/slang" groups="pdk"/>
+ <project spsId="58744" path="frameworks/ex" name="a/aosp/platform/frameworks/ex" groups="pdk-cw-fs"/>
+ <project spsId="58745" path="frameworks/mff" name="a/aosp/platform/frameworks/mff" groups="pdk-cw-fs"/>
+ <project spsId="60501" path="frameworks/minikin" name="a/aosp/platform/frameworks/minikin" groups="pdk-cw-fs"/>
+ <project spsId="58746" path="frameworks/ml" name="a/aosp/platform/frameworks/ml" groups="pdk-cw-fs"/>
+ <project spsId="60502" path="frameworks/multidex" name="a/aosp/platform/frameworks/multidex" groups="pdk-cw-fs"/>
+ <project spsId="58747" path="frameworks/native" name="a/aosp/platform/frameworks/native" groups="pdk"/>
+ <project spsId="60503" path="frameworks/opt/bitmap" name="a/aosp/platform/frameworks/opt/bitmap"/>
+ <project spsId="60504" path="frameworks/opt/bluetooth" name="a/aosp/platform/frameworks/opt/bluetooth" groups="pdk-cw-fs"/>
+ <project spsId="58749" path="frameworks/opt/calendar" name="a/aosp/platform/frameworks/opt/calendar" groups="pdk-cw-fs"/>
+ <project spsId="58750" path="frameworks/opt/carddav" name="a/aosp/platform/frameworks/opt/carddav" groups="pdk-cw-fs"/>
+ <project spsId="60505" path="frameworks/opt/chips" name="a/aosp/platform/frameworks/opt/chips" groups="pdk-cw-fs"/>
+ <project spsId="58751" path="frameworks/opt/colorpicker" name="a/aosp/platform/frameworks/opt/colorpicker" groups="pdk-cw-fs"/>
+ <project spsId="58752" path="frameworks/opt/datetimepicker" name="a/aosp/platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs"/>
+ <project spsId="58753" path="frameworks/opt/emoji" name="a/aosp/platform/frameworks/opt/emoji" groups="pdk-cw-fs"/>
+ <project spsId="58754" path="frameworks/opt/inputmethodcommon" name="a/aosp/platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs"/>
+ <project spsId="58756" path="frameworks/opt/mms" name="a/aosp/platform/frameworks/opt/mms" groups="pdk-cw-fs"/>
+ <project spsId="60507" path="frameworks/opt/net/ims" name="a/aosp/platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs"/>
+ <project spsId="58757" path="frameworks/opt/net/voip" name="a/aosp/platform/frameworks/opt/net/voip" groups="pdk-cw-fs"/>
+ <project spsId="60508" path="frameworks/opt/net/wifi" name="a/aosp/platform/frameworks/opt/net/wifi" groups="pdk"/>
+ <project spsId="60506" path="frameworks/opt/net/ethernet" name="a/aosp/platform/frameworks/opt/net/ethernet"/>
+ <project spsId="58758" path="frameworks/opt/photoviewer" name="a/aosp/platform/frameworks/opt/photoviewer" groups="pdk-cw-fs"/>
+ <project spsId="60509" path="frameworks/opt/setupwizard" name="a/aosp/platform/frameworks/opt/setupwizard" groups="pdk-cw-fs"/>
+ <project spsId="58760" path="frameworks/opt/telephony" name="a/aosp/platform/frameworks/opt/telephony" groups="pdk"/>
+ <project spsId="58759" path="frameworks/opt/timezonepicker" name="a/aosp/platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs"/>
+ <project spsId="58761" path="frameworks/opt/vcard" name="a/aosp/platform/frameworks/opt/vcard" groups="pdk-cw-fs"/>
+ <project spsId="60510" path="frameworks/opt/widget" name="a/aosp/platform/frameworks/opt/widget" groups="pdk-cw-fs"/>
+ <project spsId="58762" path="frameworks/rs" name="a/aosp/platform/frameworks/rs" groups="pdk"/>
+ <project spsId="58763" path="frameworks/support" name="a/aosp/platform/frameworks/support" groups="pdk-cw-fs"/>
+ <project spsId="58765" path="frameworks/volley" name="a/aosp/platform/frameworks/volley" groups="pdk-cw-fs"/>
+ <project spsId="58766" path="frameworks/webview" name="a/aosp/platform/frameworks/webview" groups="pdk-cw-fs"/>
+ <project spsId="58767" path="frameworks/wilhelm" name="a/aosp/platform/frameworks/wilhelm" groups="pdk-cw-fs"/>
  <!--
  <project path="hardware/akm" name="a/aosp/platform/hardware/akm"/>
  -->
- <project path="hardware/broadcom/libbt" name="a/aosp/platform/hardware/broadcom/libbt" groups="pdk"/>
- <project path="hardware/broadcom/wlan" name="a/aosp/platform/hardware/broadcom/wlan" groups="broadcom_wlan"/>
+ <project spsId="58771" path="hardware/broadcom/libbt" name="a/aosp/platform/hardware/broadcom/libbt" groups="pdk"/>
+ <project spsId="58772" path="hardware/broadcom/wlan" name="a/aosp/platform/hardware/broadcom/wlan" groups="broadcom_wlan"/>
  <!--
  <project path="hardware/intel/audio_media" name="a/aosp/platform/hardware/intel/audio_media" groups="intel"/>
  <project path="hardware/intel/bootstub" name="a/aosp/platform/hardware/intel/bootstub" groups="intel"/>
@@ -351,179 +351,179 @@
  <project path="hardware/intel/img/psb_video" name="a/aosp/platform/hardware/intel/img/psb_video" groups="intel"/>
  <project path="hardware/invensense" name="a/aosp/platform/hardware/invensense" groups="invensense"/>
  -->
- <project path="hardware/libhardware" name="a/aosp/platform/hardware/libhardware" groups="pdk"/>
- <project path="hardware/libhardware_legacy" name="a/aosp/platform/hardware/libhardware_legacy" groups="pdk"/>
+ <project spsId="58774" path="hardware/libhardware" name="a/aosp/platform/hardware/libhardware" groups="pdk"/>
+ <project spsId="58775" path="hardware/libhardware_legacy" name="a/aosp/platform/hardware/libhardware_legacy" groups="pdk"/>
  <!--
  <project path="hardware/nvidia/audio" name="a/aosp/platform/hardware/nvidia/audio" groups="nvidia_audio"/>
  <project path="hardware/nvidia/tegra124" name="a/aosp/platform/hardware/nvidia/tegra124" groups="tegra124"/>
  -->
- <project path="hardware/qcom/audio" name="a/aosp/platform/hardware/qcom/audio" groups="qcom,qcom_audio"/>
- <project path="hardware/qcom/bt" name="a/aosp/platform/hardware/qcom/bt" groups="qcom"/>
- <project path="hardware/qcom/display" name="a/aosp/platform/hardware/qcom/display" groups="qcom,qcom_display"/>
- <project path="hardware/qcom/gps" name="a/aosp/platform/hardware/qcom/gps" groups="qcom,qcom_gps"/>
- <project path="hardware/qcom/keymaster" name="a/aosp/platform/hardware/qcom/keymaster" groups="qcom"/>
- <project path="hardware/qcom/media" name="a/aosp/platform/hardware/qcom/media" groups="qcom"/>
+ <project spsId="58777" path="hardware/qcom/audio" name="a/aosp/platform/hardware/qcom/audio" groups="qcom,qcom_audio"/>
+ <project spsId="58778" path="hardware/qcom/bt" name="a/aosp/platform/hardware/qcom/bt" groups="qcom"/>
+ <project spsId="58780" path="hardware/qcom/display" name="a/aosp/platform/hardware/qcom/display" groups="qcom,qcom_display"/>
+ <project spsId="60511" path="hardware/qcom/gps" name="a/aosp/platform/hardware/qcom/gps" groups="qcom,qcom_gps"/>
+ <project spsId="58781" path="hardware/qcom/keymaster" name="a/aosp/platform/hardware/qcom/keymaster" groups="qcom"/>
+ <project spsId="58782" path="hardware/qcom/media" name="a/aosp/platform/hardware/qcom/media" groups="qcom"/>
  <!--
  <project path="hardware/qcom/msm8960" name="a/aosp/platform/hardware/qcom/msm8960" groups="qcom_msm8960"/>
  <project path="hardware/qcom/msm8x26" name="a/aosp/platform/hardware/qcom/msm8x26" groups="qcom_msm8x26"/>
  <project path="hardware/qcom/msm8x27" name="a/aosp/platform/hardware/qcom/msm8x27" groups="qcom_msm8x27"/>
  -->
- <project path="hardware/qcom/msm8x74" name="a/aosp/platform/hardware/qcom/msm8x74" groups="qcom_msm8x74"/>
+ <project spsId="58784" path="hardware/qcom/msm8x74" name="a/aosp/platform/hardware/qcom/msm8x74" groups="qcom_msm8x74"/>
  <!--
  <project path="hardware/qcom/msm8x84" name="a/aosp/platform/hardware/qcom/msm8x84" groups="qcom_msm8x84"/>
  -->
- <project path="hardware/qcom/power" name="a/aosp/platform/hardware/qcom/power" groups="qcom"/>
- <project path="hardware/qcom/sensors" name="a/aosp/platform/hardware/qcom/sensors" groups="qcom"/>
- <project path="hardware/qcom/wlan" name="a/aosp/platform/hardware/qcom/wlan" groups="qcom_wlan"/>
- <project path="hardware/ril" name="a/aosp/platform/hardware/ril" groups="pdk"/>
+ <project spsId="58785" path="hardware/qcom/power" name="a/aosp/platform/hardware/qcom/power" groups="qcom"/>
+ <project spsId="58786" path="hardware/qcom/sensors" name="a/aosp/platform/hardware/qcom/sensors" groups="qcom"/>
+ <project spsId="58787" path="hardware/qcom/wlan" name="a/aosp/platform/hardware/qcom/wlan" groups="qcom_wlan"/>
+ <project spsId="58788" path="hardware/ril" name="a/aosp/platform/hardware/ril" groups="pdk"/>
  <!--
  <project path="hardware/samsung_slsi/exynos5" name="a/aosp/platform/hardware/samsung_slsi/exynos5" groups="exynos5"/>
  <project path="hardware/ti/omap3" name="a/aosp/platform/hardware/ti/omap3" groups="omap3"/>
  <project path="hardware/ti/omap4-aah" name="a/aosp/platform/hardware/ti/omap4-aah" groups="omap4-aah"/>
  <project path="hardware/ti/omap4xxx" name="a/aosp/platform/hardware/ti/omap4xxx" groups="omap4"/>
  -->
- <project path="libcore" name="a/aosp/platform/libcore" groups="pdk"/>
- <project path="libnativehelper" name="a/aosp/platform/libnativehelper" groups="pdk"/>
- <project path="ndk" name="a/aosp/platform/ndk"/>
- <project path="packages/apps/BasicSmsReceiver" name="a/aosp/platform/packages/apps/BasicSmsReceiver"/>
- <project path="packages/apps/Bluetooth" name="a/aosp/platform/packages/apps/Bluetooth" groups="pdk-cw-fs"/>
+ <project spsId="58795" path="libcore" name="a/aosp/platform/libcore" groups="pdk"/>
+ <project spsId="58796" path="libnativehelper" name="a/aosp/platform/libnativehelper" groups="pdk"/>
+ <project spsId="58797" path="ndk" name="a/aosp/platform/ndk"/>
+ <project spsId="58800" path="packages/apps/BasicSmsReceiver" name="a/aosp/platform/packages/apps/BasicSmsReceiver"/>
+ <project spsId="58801" path="packages/apps/Bluetooth" name="a/aosp/platform/packages/apps/Bluetooth" groups="pdk-cw-fs"/>
  <project path="packages/apps/Browser" name="a/aosp/platform/packages/apps/Browser"/>
- <project path="packages/apps/Calculator" name="a/aosp/platform/packages/apps/Calculator"/>
- <project path="packages/apps/Calendar" name="a/aosp/platform/packages/apps/Calendar"/>
- <project path="packages/apps/Camera" name="a/aosp/platform/packages/apps/Camera"/>
- <project path="packages/apps/Camera2" name="a/aosp/platform/packages/apps/Camera2"/>
+ <project spsId="58803" path="packages/apps/Calculator" name="a/aosp/platform/packages/apps/Calculator"/>
+ <project spsId="58804" path="packages/apps/Calendar" name="a/aosp/platform/packages/apps/Calendar"/>
+ <project spsId="58805" path="packages/apps/Camera" name="a/aosp/platform/packages/apps/Camera"/>
+ <project spsId="58806" path="packages/apps/Camera2" name="a/aosp/platform/packages/apps/Camera2"/>
  <project path="packages/apps/CellBroadcastReceiver" name="a/aosp/platform/packages/apps/CellBroadcastReceiver"/>
- <project path="packages/apps/CertInstaller" name="a/aosp/platform/packages/apps/CertInstaller" groups="pdk-cw-fs"/>
+ <project spsId="58808" path="packages/apps/CertInstaller" name="a/aosp/platform/packages/apps/CertInstaller" groups="pdk-cw-fs"/>
  <project path="packages/apps/Contacts" name="a/aosp/platform/packages/apps/Contacts"/>
  <project path="packages/apps/ContactsCommon" name="a/aosp/platform/packages/apps/ContactsCommon"/>
- <project path="packages/apps/DeskClock" name="a/aosp/platform/packages/apps/DeskClock"/>
+ <project spsId="58811" path="packages/apps/DeskClock" name="a/aosp/platform/packages/apps/DeskClock"/>
  <project path="packages/apps/Dialer" name="a/aosp/platform/packages/apps/Dialer"/>
- <project path="packages/apps/Email" name="a/aosp/platform/packages/apps/Email"/>
- <project path="packages/apps/Exchange" name="a/aosp/platform/packages/apps/Exchange"/>
- <project path="packages/apps/Gallery" name="a/aosp/platform/packages/apps/Gallery"/>
- <project path="packages/apps/Gallery2" name="a/aosp/platform/packages/apps/Gallery2"/>
- <project path="packages/apps/HTMLViewer" name="a/aosp/platform/packages/apps/HTMLViewer"/>
+ <project spsId="58813" path="packages/apps/Email" name="a/aosp/platform/packages/apps/Email"/>
+ <project spsId="58814" path="packages/apps/Exchange" name="a/aosp/platform/packages/apps/Exchange"/>
+ <project spsId="58815" path="packages/apps/Gallery" name="a/aosp/platform/packages/apps/Gallery"/>
+ <project spsId="58816" path="packages/apps/Gallery2" name="a/aosp/platform/packages/apps/Gallery2"/>
+ <project spsId="58817" path="packages/apps/HTMLViewer" name="a/aosp/platform/packages/apps/HTMLViewer"/>
  <project path="packages/apps/InCallUI" name="a/aosp/platform/packages/apps/InCallUI"/>
- <project path="packages/apps/KeyChain" name="a/aosp/platform/packages/apps/KeyChain"/>
- <project path="packages/apps/Launcher2" name="a/aosp/platform/packages/apps/Launcher2"/>
+ <project spsId="58819" path="packages/apps/KeyChain" name="a/aosp/platform/packages/apps/KeyChain"/>
+ <project spsId="58820" path="packages/apps/Launcher2" name="a/aosp/platform/packages/apps/Launcher2"/>
  <project path="packages/apps/Launcher3" name="a/aosp/platform/packages/apps/Launcher3"/>
- <project path="packages/apps/LegacyCamera" name="a/aosp/platform/packages/apps/LegacyCamera"/>
- <project path="packages/apps/ManagedProvisioning" name="a/aosp/platform/packages/apps/ManagedProvisioning"/>
+ <project spsId="58822" path="packages/apps/LegacyCamera" name="a/aosp/platform/packages/apps/LegacyCamera"/>
+ <project spsId="60512" path="packages/apps/ManagedProvisioning" name="a/aosp/platform/packages/apps/ManagedProvisioning"/>
  <project path="packages/apps/Mms" name="a/aosp/platform/packages/apps/Mms"/>
- <project path="packages/apps/Music" name="a/aosp/platform/packages/apps/Music"/>
- <project path="packages/apps/MusicFX" name="a/aosp/platform/packages/apps/MusicFX"/>
- <project path="packages/apps/Nfc" name="a/aosp/platform/packages/apps/Nfc"/>
- <project path="packages/apps/OneTimeInitializer" name="a/aosp/platform/packages/apps/OneTimeInitializer"/>
- <project path="packages/apps/PackageInstaller" name="a/aosp/platform/packages/apps/PackageInstaller"/>
+ <project spsId="58824" path="packages/apps/Music" name="a/aosp/platform/packages/apps/Music"/>
+ <project spsId="58825" path="packages/apps/MusicFX" name="a/aosp/platform/packages/apps/MusicFX"/>
+ <project spsId="58826" path="packages/apps/Nfc" name="a/aosp/platform/packages/apps/Nfc"/>
+ <project spsId="58827" path="packages/apps/OneTimeInitializer" name="a/aosp/platform/packages/apps/OneTimeInitializer"/>
+ <project spsId="58828" path="packages/apps/PackageInstaller" name="a/aosp/platform/packages/apps/PackageInstaller"/>
  <project path="packages/apps/Phone" name="a/aosp/platform/packages/apps/Phone"/>
  <project path="packages/apps/PhoneCommon" name="a/aosp/platform/packages/apps/PhoneCommon"/>
- <project path="packages/apps/Protips" name="a/aosp/platform/packages/apps/Protips"/>
- <project path="packages/apps/Provision" name="a/aosp/platform/packages/apps/Provision"/>
- <project path="packages/apps/QuickSearchBox" name="a/aosp/platform/packages/apps/QuickSearchBox"/>
+ <project spsId="58831" path="packages/apps/Protips" name="a/aosp/platform/packages/apps/Protips"/>
+ <project spsId="58832" path="packages/apps/Provision" name="a/aosp/platform/packages/apps/Provision"/>
+ <project spsId="58833" path="packages/apps/QuickSearchBox" name="a/aosp/platform/packages/apps/QuickSearchBox"/>
  <project path="packages/apps/Settings" name="a/aosp/platform/packages/apps/Settings"/>
- <project path="packages/apps/SmartCardService" name="a/aosp/platform/packages/apps/SmartCardService"/>
- <project path="packages/apps/SoundRecorder" name="a/aosp/platform/packages/apps/SoundRecorder"/>
- <project path="packages/apps/SpareParts" name="a/aosp/platform/packages/apps/SpareParts"/>
- <project path="packages/apps/SpeechRecorder" name="a/aosp/platform/packages/apps/SpeechRecorder"/>
+ <project spsId="58835" path="packages/apps/SmartCardService" name="a/aosp/platform/packages/apps/SmartCardService"/>
+ <project spsId="58836" path="packages/apps/SoundRecorder" name="a/aosp/platform/packages/apps/SoundRecorder"/>
+ <project spsId="58837" path="packages/apps/SpareParts" name="a/aosp/platform/packages/apps/SpareParts"/>
+ <project spsId="58838" path="packages/apps/SpeechRecorder" name="a/aosp/platform/packages/apps/SpeechRecorder"/>
  <project path="packages/apps/Stk" name="a/aosp/platform/packages/apps/Stk"/>
- <project path="packages/apps/Tag" name="a/aosp/platform/packages/apps/Tag"/>
- <project path="packages/apps/Terminal" name="a/aosp/platform/packages/apps/Terminal"/>
+ <project spsId="58840" path="packages/apps/Tag" name="a/aosp/platform/packages/apps/Tag"/>
+ <project spsId="60513" path="packages/apps/Terminal" name="a/aosp/platform/packages/apps/Terminal"/>
  <project path="packages/apps/TvSettings" name="a/aosp/platform/packages/apps/TvSettings"/>
- <project path="packages/apps/UnifiedEmail" name="a/aosp/platform/packages/apps/UnifiedEmail"/>
- <project path="packages/apps/VoiceDialer" name="a/aosp/platform/packages/apps/VoiceDialer"/>
- <project path="packages/experimental" name="a/aosp/platform/packages/experimental"/>
- <project path="packages/inputmethods/LatinIME" name="a/aosp/platform/packages/inputmethods/LatinIME"/>
- <project path="packages/inputmethods/OpenWnn" name="a/aosp/platform/packages/inputmethods/OpenWnn"/>
- <project path="packages/providers/ApplicationsProvider" name="a/aosp/platform/packages/providers/ApplicationsProvider"/>
- <project path="packages/providers/CalendarProvider" name="a/aosp/platform/packages/providers/CalendarProvider" groups="pdk-cw-fs"/>
- <project path="packages/providers/ContactsProvider" name="a/aosp/platform/packages/providers/ContactsProvider" groups="pdk-cw-fs"/>
- <project path="packages/providers/DownloadProvider" name="a/aosp/platform/packages/providers/DownloadProvider" groups="pdk-cw-fs"/>
- <project path="packages/providers/MediaProvider" name="a/aosp/platform/packages/providers/MediaProvider" groups="pdk-cw-fs"/>
- <project path="packages/providers/PartnerBookmarksProvider" name="a/aosp/platform/packages/providers/PartnerBookmarksProvider"/>
+ <project spsId="58841" path="packages/apps/UnifiedEmail" name="a/aosp/platform/packages/apps/UnifiedEmail"/>
+ <project spsId="58843" path="packages/apps/VoiceDialer" name="a/aosp/platform/packages/apps/VoiceDialer"/>
+ <project spsId="58844" path="packages/experimental" name="a/aosp/platform/packages/experimental"/>
+ <project spsId="58846" path="packages/inputmethods/LatinIME" name="a/aosp/platform/packages/inputmethods/LatinIME"/>
+ <project spsId="58847" path="packages/inputmethods/OpenWnn" name="a/aosp/platform/packages/inputmethods/OpenWnn"/>
+ <project spsId="58850" path="packages/providers/ApplicationsProvider" name="a/aosp/platform/packages/providers/ApplicationsProvider"/>
+ <project spsId="58851" path="packages/providers/CalendarProvider" name="a/aosp/platform/packages/providers/CalendarProvider" groups="pdk-cw-fs"/>
+ <project spsId="58852" path="packages/providers/ContactsProvider" name="a/aosp/platform/packages/providers/ContactsProvider" groups="pdk-cw-fs"/>
+ <project spsId="58853" path="packages/providers/DownloadProvider" name="a/aosp/platform/packages/providers/DownloadProvider" groups="pdk-cw-fs"/>
+ <project spsId="58854" path="packages/providers/MediaProvider" name="a/aosp/platform/packages/providers/MediaProvider" groups="pdk-cw-fs"/>
+ <project spsId="58855" path="packages/providers/PartnerBookmarksProvider" name="a/aosp/platform/packages/providers/PartnerBookmarksProvider"/>
  <project path="packages/providers/TelephonyProvider" name="a/aosp/platform/packages/providers/TelephonyProvider"/>
- <project path="packages/providers/TvProvider" name="a/aosp/platform/packages/providers/TvProvider"/>
- <project path="packages/providers/UserDictionaryProvider" name="a/aosp/platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs"/>
- <project path="packages/screensavers/Basic" name="a/aosp/platform/packages/screensavers/Basic"/>
- <project path="packages/screensavers/PhotoTable" name="a/aosp/platform/packages/screensavers/PhotoTable"/>
- <project path="packages/screensavers/WebView" name="a/aosp/platform/packages/screensavers/WebView"/>
+ <project spsId="60514" path="packages/providers/TvProvider" name="a/aosp/platform/packages/providers/TvProvider"/>
+ <project spsId="58857" path="packages/providers/UserDictionaryProvider" name="a/aosp/platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs"/>
+ <project spsId="58859" path="packages/screensavers/Basic" name="a/aosp/platform/packages/screensavers/Basic"/>
+ <project spsId="58860" path="packages/screensavers/PhotoTable" name="a/aosp/platform/packages/screensavers/PhotoTable"/>
+ <project spsId="58861" path="packages/screensavers/WebView" name="a/aosp/platform/packages/screensavers/WebView"/>
  <project path="packages/services/Mms" name="a/aosp/platform/packages/services/Mms"/>
  <project path="packages/services/Telecomm" name="a/aosp/platform/packages/services/Telecomm"/>
  <project path="packages/services/Telephony" name="a/aosp/platform/packages/services/Telephony"/>
- <project path="packages/wallpapers/Basic" name="a/aosp/platform/packages/wallpapers/Basic"/>
- <project path="packages/wallpapers/Galaxy4" name="a/aosp/platform/packages/wallpapers/Galaxy4"/>
- <project path="packages/wallpapers/HoloSpiral" name="a/aosp/platform/packages/wallpapers/HoloSpiral"/>
- <project path="packages/wallpapers/LivePicker" name="a/aosp/platform/packages/wallpapers/LivePicker"/>
- <project path="packages/wallpapers/MagicSmoke" name="a/aosp/platform/packages/wallpapers/MagicSmoke"/>
- <project path="packages/wallpapers/MusicVisualization" name="a/aosp/platform/packages/wallpapers/MusicVisualization"/>
- <project path="packages/wallpapers/NoiseField" name="a/aosp/platform/packages/wallpapers/NoiseField"/>
- <project path="packages/wallpapers/PhaseBeam" name="a/aosp/platform/packages/wallpapers/PhaseBeam"/>
- <project path="pdk" name="a/aosp/platform/pdk" groups="pdk"/>
- <project path="prebuilts/android-emulator" name="a/aosp/platform/prebuilts/android-emulator" clone-depth="1"/>
- <project path="prebuilts/clang/darwin-x86/3.1" name="a/aosp/platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin"/>
- <project path="prebuilts/clang/darwin-x86/3.2" name="a/aosp/platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin"/>
- <project path="prebuilts/clang/darwin-x86/arm/3.3" name="a/aosp/platform/prebuilts/clang/darwin-x86/arm/3.3" groups="arm,darwin,pdk-cw-fs"/>
- <project path="prebuilts/clang/darwin-x86/host/3.4" name="a/aosp/platform/prebuilts/clang/darwin-x86/host/3.4" groups="pdk,darwin"/>
- <project path="prebuilts/clang/darwin-x86/host/3.5" name="a/aosp/platform/prebuilts/clang/darwin-x86/host/3.5" groups="pdk,darwin"/>
- <project path="prebuilts/clang/darwin-x86/mips/3.3" name="a/aosp/platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips,pdk-cw-fs"/>
- <project path="prebuilts/clang/darwin-x86/x86/3.3" name="a/aosp/platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,pdk-cw-fs,x86"/>
- <project path="prebuilts/clang/linux-x86/3.1" name="a/aosp/platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux"/>
- <project path="prebuilts/clang/linux-x86/3.2" name="a/aosp/platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux"/>
- <project path="prebuilts/clang/linux-x86/arm/3.3" name="a/aosp/platform/prebuilts/clang/linux-x86/arm/3.3" groups="arm,linux,pdk-cw-fs"/>
- <project path="prebuilts/clang/linux-x86/host/3.4" name="a/aosp/platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux"/>
- <project path="prebuilts/clang/linux-x86/host/3.5" name="a/aosp/platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux"/>
- <project path="prebuilts/clang/linux-x86/mips/3.3" name="a/aosp/platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,pdk-cw-fs"/>
- <project path="prebuilts/clang/linux-x86/x86/3.3" name="a/aosp/platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,pdk-cw-fs,x86"/>
- <project path="prebuilts/devtools" name="a/aosp/platform/prebuilts/devtools"/>
- <project path="prebuilts/eclipse" name="a/aosp/platform/prebuilts/eclipse" groups="pdk"/>
- <project path="prebuilts/eclipse-build-deps" name="a/aosp/platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse"/>
- <project path="prebuilts/eclipse-build-deps-sources" name="a/aosp/platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse"/>
- <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,darwin,arm"/>
- <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm"/>
- <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm"/>
- <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" groups="pdk,darwin,arm"/>
- <project path="prebuilts/gcc/darwin-x86/host/headers" name="a/aosp/platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin"/>
- <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="a/aosp/platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin"/>
- <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips"/>
- <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="pdk,darwin,mips"/>
- <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="pdk,darwin,mips"/>
- <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="pdk,darwin,x86"/>
- <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86"/>
- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm"/>
- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm"/>
- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm"/>
- <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm"/>
- <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux"/>
- <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux"/>
- <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"/>
- <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips"/>
- <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" groups="pdk,linux,mips"/>
- <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" groups="pdk,linux,mips"/>
- <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" groups="pdk,linux,x86"/>
- <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86"/>
- <project path="prebuilts/gradle-plugin" name="a/aosp/platform/prebuilts/gradle-plugin" groups="pdk-cw-fs"/>
- <project path="prebuilts/libs/libedit" name="a/aosp/platform/prebuilts/libs/libedit" groups="pdk-cw-fs"/>
- <project path="prebuilts/maven_repo/android" name="a/aosp/platform/prebuilts/maven_repo/android" groups="pdk-cw-fs"/>
- <project path="prebuilts/misc" name="a/aosp/platform/prebuilts/misc" groups="pdk,tradefed"/>
- <project path="prebuilts/ndk" name="a/aosp/platform/prebuilts/ndk" groups="pdk"/>
- <project path="prebuilts/python/darwin-x86/2.7.5" name="a/aosp/platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs"/>
- <project path="prebuilts/python/linux-x86/2.7.5" name="a/aosp/platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs"/>
- <project path="prebuilts/qemu-kernel" name="a/aosp/platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1"/>
- <project path="prebuilts/sdk" name="a/aosp/platform/prebuilts/sdk" groups="pdk,tradefed"/>
- <project path="prebuilts/tools" name="a/aosp/platform/prebuilts/tools" groups="pdk,tools"/>
- <project path="sdk" name="a/aosp/platform/sdk" groups="pdk-cw-fs"/>
- <project path="system/core" name="a/aosp/platform/system/core" groups="pdk"/>
- <project path="system/extras" name="a/aosp/platform/system/extras" groups="pdk"/>
- <project path="system/keymaster" name="a/aosp/platform/system/keymaster" groups="pdk"/>
- <project path="system/media" name="a/aosp/platform/system/media" groups="pdk"/>
- <project path="system/netd" name="a/aosp/platform/system/netd" groups="pdk"/>
- <project path="system/security" name="a/aosp/platform/system/security" groups="pdk"/>
- <project path="system/vold" name="a/aosp/platform/system/vold" groups="pdk"/>
+ <project spsId="58864" path="packages/wallpapers/Basic" name="a/aosp/platform/packages/wallpapers/Basic"/>
+ <project spsId="58865" path="packages/wallpapers/Galaxy4" name="a/aosp/platform/packages/wallpapers/Galaxy4"/>
+ <project spsId="58866" path="packages/wallpapers/HoloSpiral" name="a/aosp/platform/packages/wallpapers/HoloSpiral"/>
+ <project spsId="58867" path="packages/wallpapers/LivePicker" name="a/aosp/platform/packages/wallpapers/LivePicker"/>
+ <project spsId="58868" path="packages/wallpapers/MagicSmoke" name="a/aosp/platform/packages/wallpapers/MagicSmoke"/>
+ <project spsId="58869" path="packages/wallpapers/MusicVisualization" name="a/aosp/platform/packages/wallpapers/MusicVisualization"/>
+ <project spsId="58870" path="packages/wallpapers/NoiseField" name="a/aosp/platform/packages/wallpapers/NoiseField"/>
+ <project spsId="58871" path="packages/wallpapers/PhaseBeam" name="a/aosp/platform/packages/wallpapers/PhaseBeam"/>
+ <project spsId="58872" path="pdk" name="a/aosp/platform/pdk" groups="pdk"/>
+ <project spsId="60517" path="prebuilts/android-emulator" name="a/aosp/platform/prebuilts/android-emulator" clone-depth="1"/>
+ <project spsId="58875" path="prebuilts/clang/darwin-x86/3.1" name="a/aosp/platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin"/>
+ <project spsId="58876" path="prebuilts/clang/darwin-x86/3.2" name="a/aosp/platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin"/>
+ <project spsId="58877" path="prebuilts/clang/darwin-x86/arm/3.3" name="a/aosp/platform/prebuilts/clang/darwin-x86/arm/3.3" groups="arm,darwin,pdk-cw-fs"/>
+ <project spsId="58878" path="prebuilts/clang/darwin-x86/host/3.4" name="a/aosp/platform/prebuilts/clang/darwin-x86/host/3.4" groups="pdk,darwin"/>
+ <project spsId="60518" path="prebuilts/clang/darwin-x86/host/3.5" name="a/aosp/platform/prebuilts/clang/darwin-x86/host/3.5" groups="pdk,darwin"/>
+ <project spsId="58879" path="prebuilts/clang/darwin-x86/mips/3.3" name="a/aosp/platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips,pdk-cw-fs"/>
+ <project spsId="58880" path="prebuilts/clang/darwin-x86/x86/3.3" name="a/aosp/platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,pdk-cw-fs,x86"/>
+ <project spsId="58881" path="prebuilts/clang/linux-x86/3.1" name="a/aosp/platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux"/>
+ <project spsId="58882" path="prebuilts/clang/linux-x86/3.2" name="a/aosp/platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux"/>
+ <project spsId="58883" path="prebuilts/clang/linux-x86/arm/3.3" name="a/aosp/platform/prebuilts/clang/linux-x86/arm/3.3" groups="arm,linux,pdk-cw-fs"/>
+ <project spsId="58884" path="prebuilts/clang/linux-x86/host/3.4" name="a/aosp/platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux"/>
+ <project spsId="60519" path="prebuilts/clang/linux-x86/host/3.5" name="a/aosp/platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux"/>
+ <project spsId="58885" path="prebuilts/clang/linux-x86/mips/3.3" name="a/aosp/platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,pdk-cw-fs"/>
+ <project spsId="58886" path="prebuilts/clang/linux-x86/x86/3.3" name="a/aosp/platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,pdk-cw-fs,x86"/>
+ <project spsId="58887" path="prebuilts/devtools" name="a/aosp/platform/prebuilts/devtools"/>
+ <project spsId="58888" path="prebuilts/eclipse" name="a/aosp/platform/prebuilts/eclipse" groups="pdk"/>
+ <project spsId="58889" path="prebuilts/eclipse-build-deps" name="a/aosp/platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse"/>
+ <project spsId="58890" path="prebuilts/eclipse-build-deps-sources" name="a/aosp/platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse"/>
+ <project spsId="60520" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,darwin,arm"/>
+ <project spsId="60577" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm"/>
+ <project spsId="60521" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm"/>
+ <project spsId="60522" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" groups="pdk,darwin,arm"/>
+ <project spsId="58896" path="prebuilts/gcc/darwin-x86/host/headers" name="a/aosp/platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin"/>
+ <project spsId="58897" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="a/aosp/platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin"/>
+ <project spsId="58898" path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips"/>
+ <project spsId="60524" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="pdk,darwin,mips"/>
+ <project spsId="60523" path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="pdk,darwin,mips"/>
+ <project spsId="58900" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="pdk,darwin,x86"/>
+ <project spsId="58901" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86"/>
+ <project spsId="60526" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm"/>
+ <project spsId="58914" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm"/>
+ <project spsId="58903" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm"/>
+ <project spsId="58905" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm"/>
+ <project spsId="58908" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux"/>
+ <project spsId="58907" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux"/>
+ <project spsId="60530" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"/>
+ <project spsId="58910" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips"/>
+ <project spsId="60532" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" groups="pdk,linux,mips"/>
+ <project spsId="60531" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" groups="pdk,linux,mips"/>
+ <project spsId="60533" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" groups="pdk,linux,x86"/>
+ <project spsId="58909" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86"/>
+ <project spsId="60534" path="prebuilts/gradle-plugin" name="a/aosp/platform/prebuilts/gradle-plugin" groups="pdk-cw-fs"/>
+ <project spsId="60535" path="prebuilts/libs/libedit" name="a/aosp/platform/prebuilts/libs/libedit" groups="pdk-cw-fs"/>
+ <project spsId="60536" path="prebuilts/maven_repo/android" name="a/aosp/platform/prebuilts/maven_repo/android" groups="pdk-cw-fs"/>
+ <project spsId="58915" path="prebuilts/misc" name="a/aosp/platform/prebuilts/misc" groups="pdk,tradefed"/>
+ <project spsId="58916" path="prebuilts/ndk" name="a/aosp/platform/prebuilts/ndk" groups="pdk"/>
+ <project spsId="58918" path="prebuilts/python/darwin-x86/2.7.5" name="a/aosp/platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs"/>
+ <project spsId="58919" path="prebuilts/python/linux-x86/2.7.5" name="a/aosp/platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs"/>
+ <project spsId="58920" path="prebuilts/qemu-kernel" name="a/aosp/platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1"/>
+ <project spsId="58922" path="prebuilts/sdk" name="a/aosp/platform/prebuilts/sdk" groups="pdk,tradefed"/>
+ <project spsId="58923" path="prebuilts/tools" name="a/aosp/platform/prebuilts/tools" groups="pdk,tools"/>
+ <project spsId="58924" path="sdk" name="a/aosp/platform/sdk" groups="pdk-cw-fs"/>
+ <project spsId="58926" path="system/core" name="a/aosp/platform/system/core" groups="pdk"/>
+ <project spsId="58927" path="system/extras" name="a/aosp/platform/system/extras" groups="pdk"/>
+ <project spsId="60527" path="system/keymaster" name="a/aosp/platform/system/keymaster" groups="pdk"/>
+ <project spsId="58928" path="system/media" name="a/aosp/platform/system/media" groups="pdk"/>
+ <project spsId="58929" path="system/netd" name="a/aosp/platform/system/netd" groups="pdk"/>
+ <project spsId="58930" path="system/security" name="a/aosp/platform/system/security" groups="pdk"/>
+ <project spsId="58931" path="system/vold" name="a/aosp/platform/system/vold" groups="pdk"/>
  <!--
  <project path="tools/adt/eclipse" name="a/aosp/platform/tools/adt/eclipse" groups="notdefault,tools"/>
  <project path="tools/adt/idea" name="a/aosp/platform/tools/adt/idea" groups="notdefault,tools"/>
  <project path="tools/base" name="a/aosp/platform/tools/base" groups="notdefault,tools"/>
  -->
- <project path="tools/build" name="a/aosp/platform/tools/build" groups="notdefault,tools"/>
+ <project spsId="58936" path="tools/build" name="a/aosp/platform/tools/build" groups="notdefault,tools"/>
  <!--
  <project path="tools/emulator" name="a/aosp/platform/tools/emulator" groups="notdefault,tools"/>
  <project path="tools/external/fat32lib" name="a/aosp/platform/tools/external/fat32lib" groups="tools"/>
@@ -534,7 +534,7 @@
  <project path="tools/studio/cloud" name="a/aosp/platform/tools/studio/cloud" groups="notdefault,tools"/>
  <project path="tools/studio/translation" name="a/aosp/platform/tools/studio/translation" groups="notdefault,tools"/>
  -->
- <project path="tools/swt" name="a/aosp/platform/tools/swt" groups="notdefault,tools"/>
+ <project spsId="58943" path="tools/swt" name="a/aosp/platform/tools/swt" groups="notdefault,tools"/>
  <!--
  <project path="tools/tradefederation" name="a/aosp/platform/tools/tradefederation" groups="notdefault,tradefed"/>
  -->

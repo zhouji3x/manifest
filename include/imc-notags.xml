@@ -6,8 +6,8 @@
     <project name="a/bsp/bootsystems" path="bootsystems" revision="android/l/mr1/master"/>
     <project name="a/sofia/modem_1/xmm6421" path="modem" revision="android/l/mr1/master"/>
     <project name="a/bsp/secure_vm" path="secure_vm" revision="android/l/mr1/master"/>
-    <project name="a/bsp/hardware/imc/ril" path="hardware/imc/ril" revision="android/l/mr1/master"/>
-    <project name="a/bsp/hardware/imc/rpc" path="hardware/imc/rpc" revision="android/l/mr1/master"/>
+    <project spsId="59048" name="a/bsp/hardware/imc/ril" path="hardware/imc/ril" revision="android/l/mr1/master"/>
+    <project spsId="59049" name="a/bsp/hardware/imc/rpc" path="hardware/imc/rpc" revision="android/l/mr1/master"/>
     <project name="a/bsp/mobilevisor/release" path="mobilevisor/release" revision="android/l/mr1/master"/>
     <project name="a/bsp/mobilevisor/pal" path="mobilevisor/services" revision="android/l/mr1/master"/>
     <project name="a/bsp/mobilevisor/guests" path="mobilevisor/guests" revision="android/l/mr1/master"/>
