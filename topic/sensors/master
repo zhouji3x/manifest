@@ -481,6 +481,7 @@
   <project groups="name:a/bsp/device/intel/telephony_tools/at_proxy,path:vendor/intel/tools/telephony_tools/at_proxy" name="a/bsp/device/intel/telephony_tools/at_proxy" path="vendor/intel/tools/telephony_tools/at_proxy" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
   <project groups="path:vendor/intel/tools/telephony_tools/coredumpwarning,name:a/bsp/device/intel/telephony_tools/coredumpwarning" name="a/bsp/device/intel/telephony_tools/coredumpwarning" path="vendor/intel/tools/telephony_tools/coredumpwarning" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
   <project groups="path:vendor/intel/tools/telephony_tools/modem_trace_server,name:a/bsp/device/intel/telephony_tools/modem_trace_server" name="a/bsp/device/intel/telephony_tools/modem_trace_server" path="vendor/intel/tools/telephony_tools/modem_trace_server" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
+  <project groups="name:a/bsp/external/alac,path:external/alac" name="a/bsp/external/alac" path="external/alac" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
   <project groups="name:a/bsp/external/drm,path:external/drm" name="a/bsp/external/drm" path="external/drm" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
   <project groups="embargoed,name:a/bsp/external/drm-dev,path:external/drm-dev" name="a/bsp/external/drm-dev" path="external/drm-dev" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
   <project groups="name:a/bsp/external/iniparser,path:external/iniparser" name="a/bsp/external/iniparser" path="external/iniparser" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
@@ -598,12 +599,12 @@
   <project groups="name:a/bsp/vendor/PRIVATE/rockchip,path:vendor/PRIVATE/rockchip" name="a/bsp/vendor/PRIVATE/rockchip" path="vendor/PRIVATE/rockchip" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
   <project groups="path:vendor/intel/apps/PRIVATE/arccamera,name:a/bsp/vendor/arcsoft/arccamera" name="a/bsp/vendor/arcsoft/arccamera" path="vendor/intel/apps/PRIVATE/arccamera" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
   <project groups="embargoed,name:a/bsp/vendor/google/PRIVATE/gms,path:vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" path="vendor/google/gms"/>
-  <project groups="name:a/bsp/vendor/intel/PRIVATE/Aware,path:vendor/intel/PRIVATE/Aware" name="a/bsp/vendor/intel/PRIVATE/Aware" path="vendor/intel/PRIVATE/Aware" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
+  <project groups="path:vendor/intel/apps/PRIVATE/Aware,name:a/bsp/vendor/intel/PRIVATE/Aware" name="a/bsp/vendor/intel/PRIVATE/Aware" path="vendor/intel/apps/PRIVATE/Aware" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
   <project groups="name:a/bsp/vendor/intel/PRIVATE/WFA_Sigma_Agent,path:vendor/intel/hardware/PRIVATE/WFA_Sigma_Agent" name="a/bsp/vendor/intel/PRIVATE/WFA_Sigma_Agent" path="vendor/intel/hardware/PRIVATE/WFA_Sigma_Agent" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
   <project groups="embargoed,path:vendor/intel/apps/PRIVATE/Kratos,name:a/bsp/vendor/intel/PRIVATE/apps/Kratos" name="a/bsp/vendor/intel/PRIVATE/apps/Kratos" path="vendor/intel/apps/PRIVATE/Kratos" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
   <project groups="name:a/bsp/vendor/intel/PRIVATE/apps/sarmanager,path:vendor/intel/apps/telephony/sarmanager" name="a/bsp/vendor/intel/PRIVATE/apps/sarmanager" path="vendor/intel/apps/telephony/sarmanager" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
   <project groups="name:a/bsp/vendor/intel/PRIVATE/art-extension,path:vendor/intel/art-extension" name="a/bsp/vendor/intel/PRIVATE/art-extension" path="vendor/intel/art-extension" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
-  <project groups="name:a/bsp/vendor/intel/PRIVATE/codec_wma9,path:external/alac" name="a/bsp/vendor/intel/PRIVATE/codec_wma9" path="external/alac" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
+  <project groups="name:a/bsp/vendor/intel/PRIVATE/codec_wma9,path:vendor/intel/PRIVATE/codec_wma9" name="a/bsp/vendor/intel/PRIVATE/codec_wma9" path="vendor/intel/PRIVATE/codec_wma9" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
   <project groups="name:a/bsp/vendor/intel/PRIVATE/libhalclient-src,path:hardware/intel/libhalclient" name="a/bsp/vendor/intel/PRIVATE/libhalclient-src" path="hardware/intel/libhalclient" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
   <project groups="path:vendor/intel/PRIVATE/rtc,name:a/bsp/vendor/intel/PRIVATE/rtc" name="a/bsp/vendor/intel/PRIVATE/rtc" path="vendor/intel/PRIVATE/rtc" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
   <project groups="name:a/bsp/vendor/intel/apps/DataReport,path:vendor/intel/apps/DataReport" name="a/bsp/vendor/intel/apps/DataReport" path="vendor/intel/apps/DataReport" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
@@ -696,5 +697,5 @@
   <project groups="path:hardware/intel/libbt-vendor-intel,name:a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" path="hardware/intel/libbt-vendor-intel" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
   <project groups="name:a/sofia/modem_1/xmm6421,path:modem" name="a/sofia/modem_1/xmm6421" path="modem" revision="abt/topic/gmin/l-dev/advdev/sofia-v/19"/>
   <project groups="name:a/vendor/intel/imc/modem/utils/config,path:utils/config" name="a/vendor/intel/imc/modem/utils/config" path="utils/config" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
-  <project groups="embargoed,name:manifests,path:manifests" name="manifests" revision="abt/topic/gmin/l-dev/mr1/sensors/master"/>
+  <project groups="embargoed,name:manifests,path:manifests" name"manifests" revision="android/l/mr1/master""/>
 </manifest>
