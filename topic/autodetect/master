@@ -614,6 +614,7 @@
   <project groups="name:a/bsp/vendor/intel/apps/PRIVATE/refcam,path:vendor/intel/apps/PRIVATE/refcam" name="a/bsp/vendor/intel/apps/PRIVATE/refcam" path="vendor/intel/apps/PRIVATE/refcam" revision="abt/topic/gmin/l-dev/mr1/autodetect/master"/>
   <project groups="name:a/bsp/vendor/intel/apps/VppSettings,path:vendor/intel/apps/VppSettings" name="a/bsp/vendor/intel/apps/VppSettings" path="vendor/intel/apps/VppSettings" revision="abt/topic/gmin/l-dev/mr1/autodetect/master"/>
   <project groups="path:vendor/intel/apps/PRIVATE/cellular_coex_manager,name:a/bsp/vendor/intel/apps/cellular_coex_manager" name="a/bsp/vendor/intel/apps/cellular_coex_manager" path="vendor/intel/apps/PRIVATE/cellular_coex_manager" revision="abt/topic/gmin/l-dev/mr1/autodetect/master"/>
+  <project groups="path:vendor/intel/camera/depth_extension,name:a/bsp/vendor/intel/apps/depth_extension" name="a/bsp/vendor/intel/apps/depth_extension" path="vendor/intel/camera/depth_extension" revision="abt/topic/gmin/l-dev/mr1/autodetect/master"/>
   <project groups="path:vendor/intel/apps/ituxd,name:a/bsp/vendor/intel/apps/ituxd" name="a/bsp/vendor/intel/apps/ituxd" path="vendor/intel/apps/ituxd" revision="abt/topic/gmin/l-dev/mr1/autodetect/master"/>
   <project groups="name:a/bsp/vendor/intel/baytrail,path:device/intel/baytrail" name="a/bsp/vendor/intel/baytrail" path="device/intel/baytrail" revision="abt/topic/gmin/l-dev/mr1/autodetect/master"/>
   <project groups="name:a/bsp/vendor/intel/build,path:device/intel/build" name="a/bsp/vendor/intel/build" path="device/intel/build" revision="abt/topic/gmin/l-dev/mr1/autodetect/master"/>
@@ -697,5 +698,5 @@
   <project groups="path:hardware/intel/libbt-vendor-intel,name:a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" path="hardware/intel/libbt-vendor-intel" revision="abt/topic/gmin/l-dev/mr1/autodetect/master"/>
   <project groups="name:a/sofia/modem_1/xmm6421,path:modem" name="a/sofia/modem_1/xmm6421" path="modem" revision="abt/topic/gmin/l-dev/advdev/sofia-v/19"/>
   <project groups="name:a/vendor/intel/imc/modem/utils/config,path:utils/config" name="a/vendor/intel/imc/modem/utils/config" path="utils/config" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
-  <project groups="embargoed,name:manifests,path:manifests" name"manifests" revision="android/l/mr1/master""/>
+  <project groups="embargoed,name:manifests,path:manifests" name="manifests" revision="android/l/mr1/master""/>
 </manifest>

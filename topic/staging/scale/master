@@ -614,6 +614,7 @@
   <project groups="name:a/bsp/vendor/intel/apps/PRIVATE/refcam,path:vendor/intel/apps/PRIVATE/refcam" name="a/bsp/vendor/intel/apps/PRIVATE/refcam" path="vendor/intel/apps/PRIVATE/refcam" revision="abt/topic/gmin/staging/scale/master"/>
   <project groups="name:a/bsp/vendor/intel/apps/VppSettings,path:vendor/intel/apps/VppSettings" name="a/bsp/vendor/intel/apps/VppSettings" path="vendor/intel/apps/VppSettings" revision="abt/topic/gmin/staging/scale/master"/>
   <project groups="path:vendor/intel/apps/PRIVATE/cellular_coex_manager,name:a/bsp/vendor/intel/apps/cellular_coex_manager" name="a/bsp/vendor/intel/apps/cellular_coex_manager" path="vendor/intel/apps/PRIVATE/cellular_coex_manager" revision="abt/topic/gmin/staging/scale/master"/>
+  <project groups="path:vendor/intel/camera/depth_extension,name:a/bsp/vendor/intel/apps/depth_extension" name="a/bsp/vendor/intel/apps/depth_extension" path="vendor/intel/camera/depth_extension" revision="abt/topic/gmin/staging/scale/master"/>
   <project groups="path:vendor/intel/apps/ituxd,name:a/bsp/vendor/intel/apps/ituxd" name="a/bsp/vendor/intel/apps/ituxd" path="vendor/intel/apps/ituxd" revision="abt/topic/gmin/staging/scale/master"/>
   <project groups="name:a/bsp/vendor/intel/baytrail,path:device/intel/baytrail" name="a/bsp/vendor/intel/baytrail" path="device/intel/baytrail" revision="abt/topic/gmin/staging/scale/master"/>
   <project groups="name:a/bsp/vendor/intel/build,path:device/intel/build" name="a/bsp/vendor/intel/build" path="device/intel/build" revision="abt/topic/gmin/staging/scale/master"/>

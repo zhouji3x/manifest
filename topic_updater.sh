@@ -1,10 +1,10 @@
-for topic in 01org aosp art audio autodetect boot-devel camera comms graphics-gen sensors system-integration telephony
+for topic in 01org aosp art audio autodetect boot-devel camera comms graphics-gen sensors system-integration telephony stability thermal-and-energy
 do
     mkdir -p topic/$topic
     repo manifest -o topic/$topic/master
     sed -i "s|android/l/mr1/r1|abt/topic/gmin/l-dev/mr1/$topic/master|g" topic/$topic/master
     sed -i "s|android/l/mr1/master|abt/topic/gmin/l-dev/mr1/$topic/master|g" topic/$topic/master
-    sed -i "s|name=\"manifests\" revision=\"abt/topic/gmin/l-dev/mr1/$topic/master|name\"manifests\" revision=\"android/l/mr1/master\"|" topic/$topic/master
+    sed -i "s|name=\"manifests\" revision=\"abt/topic/gmin/l-dev/mr1/$topic/master|name=\"manifests\" revision=\"android/l/mr1/master\"|" topic/$topic/master
 done
 
 for topic in scale bxt
