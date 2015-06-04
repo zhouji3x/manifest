@@ -449,10 +449,26 @@
   <project groups="embargoed,path:vendor/google/widevinedrm,name:a/aosp/platform/vendor/widevine" name="a/aosp/platform/vendor/widevine" path="vendor/google/widevinedrm"/>
   <project groups="path:icc,name:a/bsp/PRIVATE/prebuilts/icc/linux-x86/x86/x86-android-linux-14.0" name="a/bsp/PRIVATE/prebuilts/icc/linux-x86/x86/x86-android-linux-14.0" path="icc" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/bootsystems,path:bootsystems" name="a/bsp/bootsystems" path="bootsystems" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
-  <project groups="name:a/bsp/device/intel/PRIVATE/DRM/widevine,path:vendor/intel/widevine" name="a/bsp/device/intel/PRIVATE/DRM/widevine" path="vendor/intel/widevine" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="embargoed,name:a/bsp/device/intel/PRIVATE/debug_internal_tools,path:vendor/intel/tools/PRIVATE/debug_internal_tools" name="a/bsp/device/intel/PRIVATE/debug_internal_tools" path="vendor/intel/tools/PRIVATE/debug_internal_tools" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/device/intel/PRIVATE/libaudioresample,path:vendor/intel/hardware/audio/libaudioresample" name="a/bsp/device/intel/PRIVATE/libaudioresample" path="vendor/intel/hardware/audio/libaudioresample" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/device/intel/PRIVATE/media_codecs,path:vendor/intel/media_codecs" name="a/bsp/device/intel/PRIVATE/media_codecs" path="vendor/intel/media_codecs" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
+  <project groups="bsp-priv,name:a/bsp/device/intel/PRIVATE/DRM/widevine,path:vendor/intel/widevine" name="a/bsp/device/intel/PRIVATE/DRM/widevine" path="vendor/intel/widevine" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+  </project>
+  <project groups="bsp-priv,embargoed,name:a/bsp/device/intel/PRIVATE/debug_internal_tools,path:vendor/intel/tools/PRIVATE/debug_internal_tools" name="a/bsp/device/intel/PRIVATE/debug_internal_tools" path="vendor/intel/tools/PRIVATE/debug_internal_tools" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/device/intel/PRIVATE/libaudioresample,path:vendor/intel/hardware/audio/libaudioresample" name="a/bsp/device/intel/PRIVATE/libaudioresample" path="vendor/intel/hardware/audio/libaudioresample" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/device/intel/PRIVATE/media_codecs,path:vendor/intel/media_codecs" name="a/bsp/device/intel/PRIVATE/media_codecs" path="vendor/intel/media_codecs" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
   <project groups="path:vendor/intel/apps/telephony/OemTelephony,name:a/bsp/device/intel/apps/OemTelephony" name="a/bsp/device/intel/apps/OemTelephony" path="vendor/intel/apps/telephony/OemTelephony" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="path:vendor/intel/apps/telephony/OemTelephony-imc,name:a/bsp/device/intel/apps/OemTelephony-imc" name="a/bsp/device/intel/apps/OemTelephony-imc" path="vendor/intel/apps/telephony/OemTelephony-imc" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="embargoed,name:a/bsp/device/intel/broxton,path:device/intel/broxton" name="a/bsp/device/intel/broxton" path="device/intel/broxton" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
@@ -498,25 +514,89 @@
   <project groups="name:a/bsp/hardware/imc/ipcservice/pt_bt_daemon,path:hardware/imc/pt_bt_daemon" name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" path="hardware/imc/pt_bt_daemon" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
   <project groups="name:a/bsp/hardware/imc/ril,path:hardware/imc/ril" name="a/bsp/hardware/imc/ril" path="hardware/imc/ril" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="path:hardware/imc/rpc,name:a/bsp/hardware/imc/rpc" name="a/bsp/hardware/imc/rpc" path="hardware/imc/rpc" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/hardware/intel/PRIVATE/IFX-modem,path:vendor/intel/hardware/telephony/IFX-modem" name="a/bsp/hardware/intel/PRIVATE/IFX-modem" path="vendor/intel/hardware/telephony/IFX-modem" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="path:vendor/intel/hardware/telephony/Modem_Updater,name:a/bsp/hardware/intel/PRIVATE/Modem_Updater" name="a/bsp/hardware/intel/PRIVATE/Modem_Updater" path="vendor/intel/hardware/telephony/Modem_Updater" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="path:vendor/intel/hardware/telephony/NVM_Manager,name:a/bsp/hardware/intel/PRIVATE/NVM_Manager" name="a/bsp/hardware/intel/PRIVATE/NVM_Manager" path="vendor/intel/hardware/telephony/NVM_Manager" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/at-core,path:vendor/intel/audio/mamgr/at-core" name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/at-core" path="vendor/intel/audio/mamgr/at-core" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="path:vendor/intel/audio/mamgr/core,name:a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/core" name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/core" path="vendor/intel/audio/mamgr/core" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="path:vendor/intel/audio/mamgr/modem/xmm,name:a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/modem/xmm" name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/modem/xmm" path="vendor/intel/audio/mamgr/modem/xmm" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/hardware/intel/PRIVATE/audiocomms_tests,path:vendor/intel/audio/tests" name="a/bsp/hardware/intel/PRIVATE/audiocomms_tests" path="vendor/intel/audio/tests" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/hardware/intel/PRIVATE/camera2hal,path:vendor/intel/camera/camera3hal" name="a/bsp/hardware/intel/PRIVATE/camera2hal" path="vendor/intel/camera/camera3hal" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="path:vendor/intel/camera/camera_extension,name:a/bsp/hardware/intel/PRIVATE/camera_extension" name="a/bsp/hardware/intel/PRIVATE/camera_extension" path="vendor/intel/camera/camera_extension" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/hardware/intel/PRIVATE/cameralibs,path:vendor/intel/camera/cameralibs" name="a/bsp/hardware/intel/PRIVATE/cameralibs" path="vendor/intel/camera/cameralibs" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/hardware/intel/PRIVATE/libcamera2,path:vendor/intel/camera/libcamera2" name="a/bsp/hardware/intel/PRIVATE/libcamera2" path="vendor/intel/camera/libcamera2" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/hardware/intel/PRIVATE/libmfldadvci,path:vendor/intel/camera/libmfldadvci" name="a/bsp/hardware/intel/PRIVATE/libmfldadvci" path="vendor/intel/camera/libmfldadvci" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
+  <project groups="bsp-priv,name:a/bsp/hardware/intel/PRIVATE/IFX-modem,path:vendor/intel/hardware/telephony/IFX-modem" name="a/bsp/hardware/intel/PRIVATE/IFX-modem" path="vendor/intel/hardware/telephony/IFX-modem" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,path:vendor/intel/hardware/telephony/Modem_Updater,name:a/bsp/hardware/intel/PRIVATE/Modem_Updater" name="a/bsp/hardware/intel/PRIVATE/Modem_Updater" path="vendor/intel/hardware/telephony/Modem_Updater" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,path:vendor/intel/hardware/telephony/NVM_Manager,name:a/bsp/hardware/intel/PRIVATE/NVM_Manager" name="a/bsp/hardware/intel/PRIVATE/NVM_Manager" path="vendor/intel/hardware/telephony/NVM_Manager" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/at-core,path:vendor/intel/audio/mamgr/at-core" name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/at-core" path="vendor/intel/audio/mamgr/at-core" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,path:vendor/intel/audio/mamgr/core,name:a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/core" name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/core" path="vendor/intel/audio/mamgr/core" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,path:vendor/intel/audio/mamgr/modem/xmm,name:a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/modem/xmm" name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/modem/xmm" path="vendor/intel/audio/mamgr/modem/xmm" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/hardware/intel/PRIVATE/audiocomms_tests,path:vendor/intel/audio/tests" name="a/bsp/hardware/intel/PRIVATE/audiocomms_tests" path="vendor/intel/audio/tests" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/hardware/intel/PRIVATE/camera2hal,path:vendor/intel/camera/camera3hal" name="a/bsp/hardware/intel/PRIVATE/camera2hal" path="vendor/intel/camera/camera3hal" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,path:vendor/intel/camera/camera_extension,name:a/bsp/hardware/intel/PRIVATE/camera_extension" name="a/bsp/hardware/intel/PRIVATE/camera_extension" path="vendor/intel/camera/camera_extension" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="src"/>
+    <annotation name="all_external" value="src"/>
+    <annotation name="bxt_rvp_external" value="src"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/hardware/intel/PRIVATE/cameralibs,path:vendor/intel/camera/cameralibs" name="a/bsp/hardware/intel/PRIVATE/cameralibs" path="vendor/intel/camera/cameralibs" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/hardware/intel/PRIVATE/libcamera2,path:vendor/intel/camera/libcamera2" name="a/bsp/hardware/intel/PRIVATE/libcamera2" path="vendor/intel/camera/libcamera2" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/hardware/intel/PRIVATE/libmfldadvci,path:vendor/intel/camera/libmfldadvci" name="a/bsp/hardware/intel/PRIVATE/libmfldadvci" path="vendor/intel/camera/libmfldadvci" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
   <project groups="name:a/bsp/hardware/intel/PRIVATE/libmix,path:vendor/intel/hardware/libmix" name="a/bsp/hardware/intel/PRIVATE/libmix" path="vendor/intel/hardware/libmix" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="path:vendor/intel/libstagefrighthw,name:a/bsp/hardware/intel/PRIVATE/libstagefrighthw" name="a/bsp/hardware/intel/PRIVATE/libstagefrighthw" path="vendor/intel/libstagefrighthw" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
+  <project groups="bsp-priv,path:vendor/intel/libstagefrighthw,name:a/bsp/hardware/intel/PRIVATE/libstagefrighthw" name="a/bsp/hardware/intel/PRIVATE/libstagefrighthw" path="vendor/intel/libstagefrighthw" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
   <project groups="path:vendor/intel/mediasdk_release,name:a/bsp/hardware/intel/PRIVATE/mediasdk_release" name="a/bsp/hardware/intel/PRIVATE/mediasdk_release" path="vendor/intel/mediasdk_release" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="path:hardware/intel/telephony/miu,name:a/bsp/hardware/intel/PRIVATE/miu" name="a/bsp/hardware/intel/PRIVATE/miu" path="hardware/intel/telephony/miu" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/hardware/intel/PRIVATE/mmgr,path:hardware/intel/telephony/mmgr" name="a/bsp/hardware/intel/PRIVATE/mmgr" path="hardware/intel/telephony/mmgr" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
+  <project groups="bsp-priv,path:hardware/intel/telephony/miu,name:a/bsp/hardware/intel/PRIVATE/miu" name="a/bsp/hardware/intel/PRIVATE/miu" path="hardware/intel/telephony/miu" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/hardware/intel/PRIVATE/mmgr,path:hardware/intel/telephony/mmgr" name="a/bsp/hardware/intel/PRIVATE/mmgr" path="hardware/intel/telephony/mmgr" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
   <project groups="name:a/bsp/hardware/intel/PRIVATE/parameter-framework,path:external/parameter-framework/core" name="a/bsp/hardware/intel/PRIVATE/parameter-framework" path="external/parameter-framework/core" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="bsp-priv,name:a/bsp/hardware/intel/PRIVATE/pn544_fw,path:vendor/intel/fw/nfc/nxp" name="a/bsp/hardware/intel/PRIVATE/pn544_fw" path="vendor/intel/fw/nfc/nxp" restricted="not_IMC_wprd" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
+  <project groups="bsp-priv,name:a/bsp/hardware/intel/PRIVATE/pn544_fw,path:vendor/intel/fw/nfc/nxp" name="a/bsp/hardware/intel/PRIVATE/pn544_fw" path="vendor/intel/fw/nfc/nxp" restricted="not_IMC_wprd" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
   <project groups="name:a/bsp/hardware/intel/PRIVATE/widi,path:vendor/intel/hardware/PRIVATE/widi" name="a/bsp/hardware/intel/PRIVATE/widi" path="vendor/intel/hardware/PRIVATE/widi" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/hardware/intel/PRIVATE/widi-testing,path:vendor/intel/hardware/PRIVATE/widi-testing" name="a/bsp/hardware/intel/PRIVATE/widi-testing" path="vendor/intel/hardware/PRIVATE/widi-testing" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="path:hardware/intel/audio/irda,name:a/bsp/hardware/intel/audio" name="a/bsp/hardware/intel/audio" path="hardware/intel/audio/irda" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
@@ -539,7 +619,11 @@
   <project groups="name:a/bsp/hardware/intel/libaudio_hal,path:hardware/intel/audio/imc/libaudio_hal" name="a/bsp/hardware/intel/libaudio_hal" path="hardware/intel/audio/imc/libaudio_hal" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/hardware/intel/liblights,path:hardware/intel/lights" name="a/bsp/hardware/intel/liblights" path="hardware/intel/lights" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="path:vendor/intel/hardware/libmedia_utils,name:a/bsp/hardware/intel/libmedia_utils" name="a/bsp/hardware/intel/libmedia_utils" path="vendor/intel/hardware/libmedia_utils" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/hardware/intel/libmintel,path:vendor/intel/hardware/PRIVATE/libmintel" name="a/bsp/hardware/intel/libmintel" path="vendor/intel/hardware/PRIVATE/libmintel" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
+  <project groups="bsp-priv,name:a/bsp/hardware/intel/libmintel,path:vendor/intel/hardware/PRIVATE/libmintel" name="a/bsp/hardware/intel/libmintel" path="vendor/intel/hardware/PRIVATE/libmintel" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
   <project groups="name:a/bsp/hardware/intel/libnvmmodule,path:hardware/intel/libnvmmodule" name="a/bsp/hardware/intel/libnvmmodule" path="hardware/intel/libnvmmodule" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/hardware/intel/libsensors-input,path:hardware/intel/libsensors-input" name="a/bsp/hardware/intel/libsensors-input" path="hardware/intel/libsensors-input" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="path:external/libva,name:a/bsp/hardware/intel/libva" name="a/bsp/hardware/intel/libva" path="external/libva" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
@@ -600,10 +684,26 @@
   <project groups="path:vendor/intel/apps/PRIVATE/arccamera,name:a/bsp/vendor/arcsoft/arccamera" name="a/bsp/vendor/arcsoft/arccamera" path="vendor/intel/apps/PRIVATE/arccamera" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="embargoed,name:a/bsp/vendor/google/PRIVATE/gms,path:vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" path="vendor/google/gms"/>
   <project groups="path:vendor/intel/apps/PRIVATE/Aware,name:a/bsp/vendor/intel/PRIVATE/Aware" name="a/bsp/vendor/intel/PRIVATE/Aware" path="vendor/intel/apps/PRIVATE/Aware" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/PRIVATE/WFA_Sigma_Agent,path:vendor/intel/hardware/PRIVATE/WFA_Sigma_Agent" name="a/bsp/vendor/intel/PRIVATE/WFA_Sigma_Agent" path="vendor/intel/hardware/PRIVATE/WFA_Sigma_Agent" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="embargoed,path:vendor/intel/apps/PRIVATE/Kratos,name:a/bsp/vendor/intel/PRIVATE/apps/Kratos" name="a/bsp/vendor/intel/PRIVATE/apps/Kratos" path="vendor/intel/apps/PRIVATE/Kratos" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/PRIVATE/apps/sarmanager,path:vendor/intel/apps/telephony/sarmanager" name="a/bsp/vendor/intel/PRIVATE/apps/sarmanager" path="vendor/intel/apps/telephony/sarmanager" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/PRIVATE/art-extension,path:vendor/intel/art-extension" name="a/bsp/vendor/intel/PRIVATE/art-extension" path="vendor/intel/art-extension" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/PRIVATE/WFA_Sigma_Agent,path:vendor/intel/hardware/PRIVATE/WFA_Sigma_Agent" name="a/bsp/vendor/intel/PRIVATE/WFA_Sigma_Agent" path="vendor/intel/hardware/PRIVATE/WFA_Sigma_Agent" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+  </project>
+  <project groups="bsp-priv,embargoed,path:vendor/intel/apps/PRIVATE/Kratos,name:a/bsp/vendor/intel/PRIVATE/apps/Kratos" name="a/bsp/vendor/intel/PRIVATE/apps/Kratos" path="vendor/intel/apps/PRIVATE/Kratos" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/PRIVATE/apps/sarmanager,path:vendor/intel/apps/telephony/sarmanager" name="a/bsp/vendor/intel/PRIVATE/apps/sarmanager" path="vendor/intel/apps/telephony/sarmanager" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/PRIVATE/art-extension,path:vendor/intel/art-extension" name="a/bsp/vendor/intel/PRIVATE/art-extension" path="vendor/intel/art-extension" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
   <project groups="name:a/bsp/vendor/intel/PRIVATE/codec_wma9,path:vendor/intel/PRIVATE/codec_wma9" name="a/bsp/vendor/intel/PRIVATE/codec_wma9" path="vendor/intel/PRIVATE/codec_wma9" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/vendor/intel/PRIVATE/libhalclient-src,path:hardware/intel/libhalclient" name="a/bsp/vendor/intel/PRIVATE/libhalclient-src" path="hardware/intel/libhalclient" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="path:vendor/intel/PRIVATE/rtc,name:a/bsp/vendor/intel/PRIVATE/rtc" name="a/bsp/vendor/intel/PRIVATE/rtc" path="vendor/intel/PRIVATE/rtc" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
@@ -611,9 +711,17 @@
   <project groups="name:a/bsp/vendor/intel/apps/DataReportSettings,path:vendor/intel/apps/DataReportSettings" name="a/bsp/vendor/intel/apps/DataReportSettings" path="vendor/intel/apps/DataReportSettings" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="path:vendor/intel/apps/halctl,name:a/bsp/vendor/intel/apps/PRIVATE/halctl-src" name="a/bsp/vendor/intel/apps/PRIVATE/halctl-src" path="vendor/intel/apps/halctl" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="path:vendor/intel/apps/hald,name:a/bsp/vendor/intel/apps/PRIVATE/hald-src" name="a/bsp/vendor/intel/apps/PRIVATE/hald-src" path="vendor/intel/apps/hald" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/apps/PRIVATE/refcam,path:vendor/intel/apps/PRIVATE/refcam" name="a/bsp/vendor/intel/apps/PRIVATE/refcam" path="vendor/intel/apps/PRIVATE/refcam" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/apps/PRIVATE/refcam,path:vendor/intel/apps/PRIVATE/refcam" name="a/bsp/vendor/intel/apps/PRIVATE/refcam" path="vendor/intel/apps/PRIVATE/refcam" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+  </project>
   <project groups="name:a/bsp/vendor/intel/apps/VppSettings,path:vendor/intel/apps/VppSettings" name="a/bsp/vendor/intel/apps/VppSettings" path="vendor/intel/apps/VppSettings" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="path:vendor/intel/apps/PRIVATE/cellular_coex_manager,name:a/bsp/vendor/intel/apps/cellular_coex_manager" name="a/bsp/vendor/intel/apps/cellular_coex_manager" path="vendor/intel/apps/PRIVATE/cellular_coex_manager" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
+  <project groups="bsp-priv,path:vendor/intel/apps/PRIVATE/cellular_coex_manager,name:a/bsp/vendor/intel/apps/cellular_coex_manager" name="a/bsp/vendor/intel/apps/cellular_coex_manager" path="vendor/intel/apps/PRIVATE/cellular_coex_manager" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
   <project groups="path:vendor/intel/camera/depth_extension,name:a/bsp/vendor/intel/apps/depth_extension" name="a/bsp/vendor/intel/apps/depth_extension" path="vendor/intel/camera/depth_extension" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="path:vendor/intel/apps/ituxd,name:a/bsp/vendor/intel/apps/ituxd" name="a/bsp/vendor/intel/apps/ituxd" path="vendor/intel/apps/ituxd" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/vendor/intel/baytrail,path:device/intel/baytrail" name="a/bsp/vendor/intel/baytrail" path="device/intel/baytrail" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
@@ -622,38 +730,106 @@
   <project groups="name:a/bsp/vendor/intel/external/efi/gnu-efi_prebuilt,path:hardware/intel/efi_prebuilts/gnu-efi" name="a/bsp/vendor/intel/external/efi/gnu-efi_prebuilt" path="hardware/intel/efi_prebuilts/gnu-efi" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/vendor/intel/external/efivar,path:external/efivar" name="a/bsp/vendor/intel/external/efivar" path="external/efivar" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="path:external/libfuse,name:a/bsp/vendor/intel/external/libfuse" name="a/bsp/vendor/intel/external/libfuse" path="external/libfuse" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/fw/PRIVATE/bt/intel,path:vendor/intel/fw/bluetooth/intel" name="a/bsp/vendor/intel/fw/PRIVATE/bt/intel" path="vendor/intel/fw/bluetooth/intel" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/fw/PRIVATE/ifwi/capsules,path:hardware/intel/efi_capsules" name="a/bsp/vendor/intel/fw/PRIVATE/ifwi/capsules" path="hardware/intel/efi_capsules" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/fw/PRIVATE/nfc/intel,path:vendor/intel/fw/nfc/intel/fdp" name="a/bsp/vendor/intel/fw/PRIVATE/nfc/intel" path="vendor/intel/fw/nfc/intel/fdp" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/fw/PRIVATE/bt/intel,path:vendor/intel/fw/bluetooth/intel" name="a/bsp/vendor/intel/fw/PRIVATE/bt/intel" path="vendor/intel/fw/bluetooth/intel" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/fw/PRIVATE/ifwi/capsules,path:hardware/intel/efi_capsules" name="a/bsp/vendor/intel/fw/PRIVATE/ifwi/capsules" path="hardware/intel/efi_capsules" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/fw/PRIVATE/nfc/intel,path:vendor/intel/fw/nfc/intel/fdp" name="a/bsp/vendor/intel/fw/PRIVATE/nfc/intel" path="vendor/intel/fw/nfc/intel/fdp" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
   <project groups="bsp-priv,not_imc_wprd,path:vendor/intel/fw/bluetooth/broadcom,name:a/bsp/vendor/intel/fw/bt/broadcom" name="a/bsp/vendor/intel/fw/bt/broadcom" path="vendor/intel/fw/bluetooth/broadcom" restricted="not_IMC_wprd" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="bsp-priv,not_imc_wprd,path:vendor/intel/fw/bluetooth/realtek,name:a/bsp/vendor/intel/fw/bt/realtek" name="a/bsp/vendor/intel/fw/bt/realtek" path="vendor/intel/fw/bluetooth/realtek" restricted="not_IMC_wprd" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/vendor/intel/fw/camera/ipu4,path:vendor/intel/fw/ipu4" name="a/bsp/vendor/intel/fw/camera/ipu4" path="vendor/intel/fw/ipu4" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/vendor/intel/fw/ds4fw,path:vendor/intel/fw/ds4fw" name="a/bsp/vendor/intel/fw/ds4fw" path="vendor/intel/fw/ds4fw" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/vendor/intel/fw/fm/intel,path:vendor/intel/fw/fm/intel" name="a/bsp/vendor/intel/fw/fm/intel" path="vendor/intel/fw/fm/intel" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/vendor/intel/fw/modem/IMC/7360_flashless,path:vendor/intel/fw/modem/IMC/7360_flashless" name="a/bsp/vendor/intel/fw/modem/IMC/7360_flashless" path="vendor/intel/fw/modem/IMC/7360_flashless" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal,path:hardware/intel/audio/hal" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" path="hardware/intel/audio/hal" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="path:external/parameter-framework/plugins/alsa,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa" path="external/parameter-framework/plugins/alsa" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa-custom,path:vendor/intel/audio/parameter-framework-plugins/alsa-custom" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa-custom" path="vendor/intel/audio/parameter-framework-plugins/alsa-custom" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="path:vendor/intel/audio/parameter-framework-plugins/bluedroid,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/bluedroid" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/bluedroid" path="vendor/intel/audio/parameter-framework-plugins/bluedroid" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal,path:hardware/intel/audio/hal" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" path="hardware/intel/audio/hal" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+  </project>
+  <project groups="bsp-priv,path:external/parameter-framework/plugins/alsa,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa" path="external/parameter-framework/plugins/alsa" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa-custom,path:vendor/intel/audio/parameter-framework-plugins/alsa-custom" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa-custom" path="vendor/intel/audio/parameter-framework-plugins/alsa-custom" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,path:vendor/intel/audio/parameter-framework-plugins/bluedroid,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/bluedroid" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/bluedroid" path="vendor/intel/audio/parameter-framework-plugins/bluedroid" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+  </project>
   <project groups="path:external/parameter-framework/plugins/fs,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/fs" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/fs" path="external/parameter-framework/plugins/fs" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/modemAudio,path:vendor/intel/audio/parameter-framework-plugins/modemAudio" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/modemAudio" path="vendor/intel/audio/parameter-framework-plugins/modemAudio" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/power,path:vendor/intel/audio/parameter-framework-plugins/power" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/power" path="vendor/intel/audio/parameter-framework-plugins/power" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="path:vendor/intel/audio/parameter-framework-plugins/property,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/property" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/property" path="vendor/intel/audio/parameter-framework-plugins/property" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/remote-parameter,path:vendor/intel/audio/parameter-framework-plugins/remote-parameter" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/remote-parameter" path="vendor/intel/audio/parameter-framework-plugins/remote-parameter" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="path:vendor/intel/audio/parameter-framework-plugins/route,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/route" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/route" path="vendor/intel/audio/parameter-framework-plugins/route" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="path:vendor/intel/audio/parameter-framework-plugins/xmm,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/xmm" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/xmm" path="vendor/intel/audio/parameter-framework-plugins/xmm" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/modemAudio,path:vendor/intel/audio/parameter-framework-plugins/modemAudio" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/modemAudio" path="vendor/intel/audio/parameter-framework-plugins/modemAudio" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/power,path:vendor/intel/audio/parameter-framework-plugins/power" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/power" path="vendor/intel/audio/parameter-framework-plugins/power" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,path:vendor/intel/audio/parameter-framework-plugins/property,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/property" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/property" path="vendor/intel/audio/parameter-framework-plugins/property" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/remote-parameter,path:vendor/intel/audio/parameter-framework-plugins/remote-parameter" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/remote-parameter" path="vendor/intel/audio/parameter-framework-plugins/remote-parameter" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,path:vendor/intel/audio/parameter-framework-plugins/route,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/route" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/route" path="vendor/intel/audio/parameter-framework-plugins/route" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,path:vendor/intel/audio/parameter-framework-plugins/xmm,name:a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/xmm" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/xmm" path="vendor/intel/audio/parameter-framework-plugins/xmm" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
   <project groups="path:vendor/intel/hardware/fmr,name:a/bsp/vendor/intel/hardware/PRIVATE/fmr_usc" name="a/bsp/vendor/intel/hardware/PRIVATE/fmr_usc" path="vendor/intel/hardware/fmr" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/amil,path:vendor/intel/hardware/cg2k/amil" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/amil" path="vendor/intel/hardware/cg2k/amil" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnss/core,path:vendor/intel/hardware/cg2k/gnss/core" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnss/core" path="vendor/intel/hardware/cg2k/gnss/core" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnss/supl,path:vendor/intel/hardware/cg2k/gnss/supl" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnss/supl" path="vendor/intel/hardware/cg2k/gnss/supl" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="path:vendor/intel/hardware/cg2k/gnssAdaptation/android,name:a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnssAdaptation/android" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnssAdaptation/android" path="vendor/intel/hardware/cg2k/gnssAdaptation/android" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="path:vendor/intel/hardware/cg2k/gnssExe,name:a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnssExe" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnssExe" path="vendor/intel/hardware/cg2k/gnssExe" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="path:vendor/intel/camera/PRIVATE/libds4,name:a/bsp/vendor/intel/hardware/PRIVATE/libds4" name="a/bsp/vendor/intel/hardware/PRIVATE/libds4" path="vendor/intel/camera/PRIVATE/libds4" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/hardware/PRIVATE/libmediaparser,path:vendor/intel/hardware/PRIVATE/libmediaparser" name="a/bsp/vendor/intel/hardware/PRIVATE/libmediaparser" path="vendor/intel/hardware/PRIVATE/libmediaparser" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/hardware/PRIVATE/libtcs,path:hardware/intel/telephony/libtcs" name="a/bsp/vendor/intel/hardware/PRIVATE/libtcs" path="hardware/intel/telephony/libtcs" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
+  <project groups="bsp-priv,path:vendor/intel/camera/PRIVATE/libds4,name:a/bsp/vendor/intel/hardware/PRIVATE/libds4" name="a/bsp/vendor/intel/hardware/PRIVATE/libds4" path="vendor/intel/camera/PRIVATE/libds4" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/hardware/PRIVATE/libmediaparser,path:vendor/intel/hardware/PRIVATE/libmediaparser" name="a/bsp/vendor/intel/hardware/PRIVATE/libmediaparser" path="vendor/intel/hardware/PRIVATE/libmediaparser" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/hardware/PRIVATE/libtcs,path:hardware/intel/telephony/libtcs" name="a/bsp/vendor/intel/hardware/PRIVATE/libtcs" path="hardware/intel/telephony/libtcs" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
   <project groups="path:vendor/intel/hardware/PRIVATE/bt_usc,name:a/bsp/vendor/intel/hardware/PRIVATE/phonetool_bt_usc" name="a/bsp/vendor/intel/hardware/PRIVATE/phonetool_bt_usc" path="vendor/intel/hardware/PRIVATE/bt_usc" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/vendor/intel/hardware/PRIVATE/rocs,path:vendor/intel/hardware/PRIVATE/rocs" name="a/bsp/vendor/intel/hardware/PRIVATE/rocs" path="vendor/intel/hardware/PRIVATE/rocs" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/hardware/PRIVATE/rs_vectorizer,path:vendor/intel/rs_vectorizer" name="a/bsp/vendor/intel/hardware/PRIVATE/rs_vectorizer" path="vendor/intel/rs_vectorizer" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/hardware/PRIVATE/rs_vectorizer,path:vendor/intel/rs_vectorizer" name="a/bsp/vendor/intel/hardware/PRIVATE/rs_vectorizer" path="vendor/intel/rs_vectorizer" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
   <project groups="name:a/bsp/vendor/intel/hardware/PRIVATE/rservice,path:vendor/intel/hardware/PRIVATE/rservice" name="a/bsp/vendor/intel/hardware/PRIVATE/rservice" path="vendor/intel/hardware/PRIVATE/rservice" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen7,path:vendor/intel/ufo/gen7" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen7" path="vendor/intel/ufo/gen7" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="path:vendor/intel/ufo/gen8,name:a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8" path="vendor/intel/ufo/gen8" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
@@ -683,7 +859,11 @@
   <project groups="path:vendor/intel/hardware/libsensorshub,name:a/bsp/vendor/intel/libsensorshub" name="a/bsp/vendor/intel/libsensorshub" path="vendor/intel/hardware/libsensorshub" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/vendor/intel/pcg,path:vendor/intel/pcg" name="a/bsp/vendor/intel/pcg" path="vendor/intel/pcg" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/vendor/intel/telemetry-client,path:vendor/intel/telemetry-client" name="a/bsp/vendor/intel/telemetry-client" path="vendor/intel/telemetry-client" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
-  <project groups="name:a/bsp/vendor/intel/tools/PRIVATE/audiocomms/prober,path:vendor/intel/audio/probe" name="a/bsp/vendor/intel/tools/PRIVATE/audiocomms/prober" path="vendor/intel/audio/probe" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
+  <project groups="bsp-priv,name:a/bsp/vendor/intel/tools/PRIVATE/audiocomms/prober,path:vendor/intel/audio/probe" name="a/bsp/vendor/intel/tools/PRIVATE/audiocomms/prober" path="vendor/intel/audio/probe" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master">
+    <annotation name="g_external" value="bin"/>
+    <annotation name="all_external" value="bin"/>
+    <annotation name="bxt_rvp_external" value="bin"/>
+  </project>
   <project groups="path:vendor/intel/tools/PRIVATE/wifail,name:a/bsp/vendor/intel/tools/PRIVATE/wifail" name="a/bsp/vendor/intel/tools/PRIVATE/wifail" path="vendor/intel/tools/PRIVATE/wifail" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/bsp/vendor/intel/tools/asoc_dfw,path:vendor/intel/tools/asoc_dfw" name="a/bsp/vendor/intel/tools/asoc_dfw" path="vendor/intel/tools/asoc_dfw" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="path:vendor/intel/tools/rfkillp,name:a/bsp/vendor/intel/tools/bluetooth/rfkillp" name="a/bsp/vendor/intel/tools/bluetooth/rfkillp" path="vendor/intel/tools/rfkillp" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
@@ -698,5 +878,5 @@
   <project groups="path:hardware/intel/libbt-vendor-intel,name:a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" path="hardware/intel/libbt-vendor-intel" revision="abt/topic/gmin/l-dev/mr1/boot-devel/master"/>
   <project groups="name:a/sofia/modem_1/xmm6421,path:modem" name="a/sofia/modem_1/xmm6421" path="modem" revision="abt/topic/gmin/l-dev/advdev/sofia-v/19"/>
   <project groups="name:a/vendor/intel/imc/modem/utils/config,path:utils/config" name="a/vendor/intel/imc/modem/utils/config" path="utils/config" revision="refs/tags/mirror/sofia/DEV_SOFIA_3G_LPOP_MR1_FSY_01.1514.00"/>
-  <project groups="embargoed,name:manifests,path:manifests" name="manifests" revision="android/l/mr1/master""/>
+  <project groups="embargoed,name:manifests,path:manifests" name="manifests" revision="android/l/mr1/master"/>
 </manifest>
