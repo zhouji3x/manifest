@@ -435,4 +435,8 @@
     <project name="a/bsp/hardware/intel/cts-3gr-sofia/soclib" path="hardware/intel/mrd-3gr-sofia/soclib" groups="embargoed" revision="android/l/mr1/master"/>
 
     <project name="a/bsp/vendor/silead/fw" path="vendor/silead/fw" revision="android/l/mr1/master"/>
+
+    <!--security repository -->
+    <project name="a/bsp/hardware/intel/rpcsecurity/libtee_vsec" path="hardware/intel/rpcsecurity/libtee_vsec" revision="android/l/mr1/master"/>
+
 </manifest>
