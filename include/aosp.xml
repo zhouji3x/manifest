@@ -693,16 +693,19 @@
 <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="aosp,pdk"/>
 <project path="system/bt" name="a/aosp/platform/system/bt" groups="aosp,pdk"/>
 <project path="system/gatekeeper" name="a/aosp/platform/system/gatekeeper" groups="aosp,pdk"/>
+
 <!-- tmp remove as pdk branch does not exist -->
 <!-- <project path="vendor/google_testing/comms" name="a/aosp/platform/vendor/google_testing/comms" groups="aosp,pdk"/> -->
-<project path="vendor/pdk/data/cts" name="a/aosp/platform/vendor/pdk/data/cts" groups="aosp,pdk"/>
-<!-- <project path="vendor/pdk/data/docs" name="a/aosp/platform/vendor/pdk/data/docs" groups="aosp,pdk"/> -->
-<!--  not created yet -->
-<!-- <project path="vendor/pdk/mini_x86/mini_x86-userdebug/platform" name="a/aosp/platform/vendor/pdk/mini_x86/mini_x86-userdebug/platform" groups="aosp,pdk"/> -->
 
+<!-- these are on m-release -->
+<project path="vendor/pdk/data/cts" name="a/aosp/platform/vendor/pdk/data/cts" groups="aosp,pdk" revision="mirror/pdk/m-release"/>
+<project path="vendor/pdk/data/docs" name="a/aosp/platform/vendor/pdk/data/docs" groups="aosp,pdk" revision="mirror/pdk/m-release"/>
+
+<!--  not on our mirror -->
+<!-- <project path="vendor/pdk/mini_x86/mini_x86-userdebug/platform" name="a/aosp/platform/vendor/pdk/mini_x86/mini_x86-userdebug/platform" groups="aosp,pdk" revision="mirror/pdk/builds/m-release/MRZ61"/> -->
 
 <!-- no longer part of AOSP, but retained for now as bsp needs them -->
- <project spsId="58662" path="external/libxml2" name="a/aosp/platform/external/libxml2" groups="aosp,pdk-cw-fs"/>
- <project spsId="58692" path="external/openssl" name="a/aosp/platform/external/openssl" groups="aosp,pdk"/>
+ <project spsId="58662" path="external/libxml2" name="a/aosp/platform/external/libxml2" groups="aosp,pdk-cw-fs" revision="android/l/mr1/r1"/>
+ <project spsId="58692" path="external/openssl" name="a/aosp/platform/external/openssl" groups="aosp,pdk" revision="android/l/mr1/r1"/>
 
 </manifest>
