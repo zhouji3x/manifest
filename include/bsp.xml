@@ -370,6 +370,7 @@
     <project name="a/bsp/device/intel/goldsand" path="device/intel/goldsand" groups="embargoed" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/PRIVATE/codec_wma9" path="vendor/intel/PRIVATE/codec_wma9" revision="android/l/mr1/master"/>
     <project name="a/bsp/external/alac" path="external/alac" revision="android/l/mr1/master"/>
+    <project name="a/bsp/vendor/intel/apps/thermal_lite" path="vendor/intel/apps/thermal_lite" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/apps/depth_extension" path="vendor/intel/camera/depth_extension" revision="android/l/mr1/master"/>
     <project name="a/bsp/vendor/intel/PRIVATE/Aware" path="vendor/intel/apps/PRIVATE/Aware" revision="android/l/mr1/master"/>
     <project name="a/bsp/kernel/sofia-lte" path="kernel/sofia-lte" revision="android/l/mr1/master"/>
