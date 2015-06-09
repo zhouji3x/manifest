@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<default revision="android/l/mr1/r1"
+	<default revision="mirror/pdk/m-release-mini_x86"
            remote="origin"
            sync-j="5" />
 
