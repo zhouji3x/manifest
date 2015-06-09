@@ -672,4 +672,31 @@
  <project path="tools/tradefederation" name="a/aosp/platform/tools/tradefederation" groups="aosp,notdefault,tradefed"/>
  -->
  <!-- END open-source projects -->
+
+ <project path="device/generic/lionhead" name="a/aosp/device/generic/lionhead" groups="aosp,pdk"/>
+<project path="external/aac" name="a/aosp/platform/external/aac" groups="aosp,pdk"/>
+<project path="external/boringssl" name="a/aosp/platform/external/boringssl" groups="aosp,pdk"/>
+<project path="external/cblas" name="a/aosp/platform/external/cblas" groups="aosp,pdk"/>
+<project path="external/chromium-webview" name="a/aosp/platform/external/chromium-webview" groups="aosp,pdk"/>
+<project path="external/libavc" name="a/aosp/platform/external/libavc" groups="aosp,pdk"/>
+<project path="external/libmpeg2" name="a/aosp/platform/external/libmpeg2" groups="aosp,pdk"/>
+<project path="external/selinux" name="a/aosp/platform/external/selinux" groups="aosp,pdk"/>
+<project path="external/sonic" name="a/aosp/platform/external/sonic" groups="aosp,pdk"/>
+<project path="external/squashfs-tools" name="a/aosp/platform/external/squashfs-tools" groups="aosp,pdk"/>
+<project path="external/toybox" name="a/aosp/platform/external/toybox" groups="aosp,pdk"/>
+<project path="external/v8" name="a/aosp/platform/external/v8" groups="aosp,pdk"/>
+<project path="external/vogar" name="a/aosp/platform/external/vogar" groups="aosp,pdk"/>
+<project path="prebuilts/clang/darwin-x86/host/3.6" name="a/aosp/platform/prebuilts/clang/darwin-x86/host/3.6" groups="aosp,pdk"/>
+<project path="prebuilts/clang/linux-x86/host/3.6" name="a/aosp/platform/prebuilts/clang/linux-x86/host/3.6" groups="aosp,pdk"/>
+<project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="a/aosp/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="aosp,pdk"/>
+<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="a/aosp/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="aosp,pdk"/>
+<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="aosp,pdk"/>
+<project path="system/bt" name="a/aosp/platform/system/bt" groups="aosp,pdk"/>
+<project path="system/gatekeeper" name="a/aosp/platform/system/gatekeeper" groups="aosp,pdk"/>
+<project path="vendor/google_testing/comms" name="a/aosp/platform/vendor/google_testing/comms" groups="aosp,pdk"/>
+<project path="vendor/pdk/data/cts" name="a/aosp/platform/vendor/pdk/data/cts" groups="aosp,pdk"/>
+<project path="vendor/pdk/data/docs" name="a/aosp/platform/vendor/pdk/data/docs" groups="aosp,pdk"/>
+<!--  not created yet -->
+<!-- <project path="vendor/pdk/mini_x86/mini_x86-userdebug/platform" name="a/aosp/platform/vendor/pdk/mini_x86/mini_x86-userdebug/platform" groups="aosp,pdk"/> -->
+
 </manifest>
