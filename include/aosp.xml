@@ -3,14 +3,14 @@
 
 
 <!-- BEGIN open-source projects -->
- <project spsId="58527" path="build" name="a/aosp/platform/build" groups="aosp,pdk,tradefed" revision="9fd7b46d14df54e261b2e60153f739b862cd7370">
+ <project spsId="58527" path="build" name="a/aosp/platform/build" groups="aosp,pdk,tradefed" >
   <copyfile src="core/root.mk" dest="Makefile"/>
  </project>
- <project spsId="58528" path="abi/cpp" name="a/aosp/platform/abi/cpp" groups="aosp,pdk" revision="36b381298a4efb7c293d394d8b1acbda68230989"/>
- <project spsId="58529" path="art" name="a/aosp/platform/art" groups="aosp,pdk" revision="386e91d7dd93f1c156129810473db80fe605f54e"/>
- <project spsId="58530" path="bionic" name="a/aosp/platform/bionic" groups="aosp,pdk" revision="2783166c35f024634829f3b51b484436b4a88ed8"/>
+ <project spsId="58528" path="abi/cpp" name="a/aosp/platform/abi/cpp" groups="aosp,pdk" />
+ <project spsId="58529" path="art" name="a/aosp/platform/art" groups="aosp,pdk" />
+ <project spsId="58530" path="bionic" name="a/aosp/platform/bionic" groups="aosp,pdk" />
 <!-- <project spsId="58532" path="bootable/bootloader/legacy" name="a/aosp/platform/bootable/bootloader/legacy" groups="aosp,pdk-cw-fs"/> -->
- <project spsId="58534" path="bootable/recovery" name="a/aosp/platform/bootable/recovery" groups="aosp,pdk" revision="02b6472546b899ebc16029371eb75364059871d2"/>
+ <project spsId="58534" path="bootable/recovery" name="a/aosp/platform/bootable/recovery" groups="aosp,pdk" />
 <!-- <project spsId="58535" path="cts" name="a/aosp/platform/cts" groups="aosp,cts,pdk-cw-fs"/> -->
 <!-- <project spsId="58536" path="dalvik" name="a/aosp/platform/dalvik" groups="aosp,pdk-cw-fs"/> -->
 <!-- <project spsId="58537" path="developers/build" name="a/aosp/platform/developers/build" groups="aosp"/> -->
@@ -31,19 +31,19 @@
  <project path="device/asus/tilapia" name="a/aosp/device/asus/tilapia" groups="aosp,device,grouper"/>
  -->
 <!-- <project spsId="58505" path="device/common" name="a/aosp/device/common" groups="aosp,pdk-cw-fs"/> -->
- <project spsId="60440" path="device/generic/arm64" name="a/aosp/device/generic/arm64" groups="aosp,pdk" revision="39249053f37b7f9633eb406af3dbedfea7bf8b3e"/>
- <project spsId="58507" path="device/generic/armv7-a-neon" name="a/aosp/device/generic/armv7-a-neon" groups="aosp,pdk" revision="0e7af778b59c0ff590e21fcce8cfc9176dc0d13d"/>
- <project spsId="58508" path="device/generic/common" name="a/aosp/device/generic/common" groups="aosp,pdk" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461"/>
- <project spsId="58509" path="device/generic/goldfish" name="a/aosp/device/generic/goldfish" groups="aosp,pdk" revision="32b4b27b0fbedab32697996af023ba39793a5bd4"/>
- <project spsId="58510" path="device/generic/mips" name="a/aosp/device/generic/mips" groups="aosp,pdk" revision="bf07c7522e80eef53a58a49e5d05b8913d00d1a6"/>
- <project spsId="60441" path="device/generic/mini-emulator-arm64" name="a/aosp/device/generic/mini-emulator-arm64" groups="aosp,pdk" revision="4f30226980039087b0d14de2c4dd0a1f37b9fd95"/>
- <project spsId="58511" path="device/generic/mini-emulator-armv7-a-neon" name="a/aosp/device/generic/mini-emulator-armv7-a-neon" groups="aosp,pdk" revision="f41c1e4e10574399c6798d286c22d03471217691"/>
- <project spsId="58512" path="device/generic/mini-emulator-mips" name="a/aosp/device/generic/mini-emulator-mips" groups="aosp,pdk" revision="3fdb24de40ca27da9a86f10f31314f2a13259db5"/>
- <project spsId="58513" path="device/generic/mini-emulator-x86" name="a/aosp/device/generic/mini-emulator-x86" groups="aosp,pdk" revision="65d59e2be2cfd713513a05d80a0f75794ab60579"/>
- <project spsId="60442" path="device/generic/mini-emulator-x86_64" name="a/aosp/device/generic/mini-emulator-x86_64" groups="aosp,pdk" revision="673aae8bd65d9708821c4062f6a0364a859e7ae4"/>
+ <project spsId="60440" path="device/generic/arm64" name="a/aosp/device/generic/arm64" groups="aosp,pdk" />
+ <project spsId="58507" path="device/generic/armv7-a-neon" name="a/aosp/device/generic/armv7-a-neon" groups="aosp,pdk" />
+ <project spsId="58508" path="device/generic/common" name="a/aosp/device/generic/common" groups="aosp,pdk" />
+ <project spsId="58509" path="device/generic/goldfish" name="a/aosp/device/generic/goldfish" groups="aosp,pdk" />
+ <project spsId="58510" path="device/generic/mips" name="a/aosp/device/generic/mips" groups="aosp,pdk" />
+ <project spsId="60441" path="device/generic/mini-emulator-arm64" name="a/aosp/device/generic/mini-emulator-arm64" groups="aosp,pdk" />
+ <project spsId="58511" path="device/generic/mini-emulator-armv7-a-neon" name="a/aosp/device/generic/mini-emulator-armv7-a-neon" groups="aosp,pdk" />
+ <project spsId="58512" path="device/generic/mini-emulator-mips" name="a/aosp/device/generic/mini-emulator-mips" groups="aosp,pdk" />
+ <project spsId="58513" path="device/generic/mini-emulator-x86" name="a/aosp/device/generic/mini-emulator-x86" groups="aosp,pdk" />
+ <project spsId="60442" path="device/generic/mini-emulator-x86_64" name="a/aosp/device/generic/mini-emulator-x86_64" groups="aosp,pdk" />
 <!-- <project spsId="60443" path="device/generic/qemu" name="a/aosp/device/generic/qemu" groups="aosp"/> -->
- <project spsId="58514" path="device/generic/x86" name="a/aosp/device/generic/x86" groups="aosp,pdk" revision="81ce753ec0014fe404c4eec3ac6d04504356a638"/>
- <project spsId="60444" path="device/generic/x86_64" name="a/aosp/device/generic/x86_64" groups="aosp,pdk" revision="138339be1da9b0f34befe3751b0bae874d7253db"/>
+ <project spsId="58514" path="device/generic/x86" name="a/aosp/device/generic/x86" groups="aosp,pdk" />
+ <project spsId="60444" path="device/generic/x86_64" name="a/aosp/device/generic/x86_64" groups="aosp,pdk" />
  <!--
  <project path="device/google/accessory/arduino" name="a/aosp/device/google/accessory/arduino" groups="aosp,device"/>
  <project path="device/google/accessory/demokit" name="a/aosp/device/google/accessory/demokit" groups="aosp,device"/>
@@ -61,7 +61,7 @@
  <project path="device/moto/shamu" name="a/aosp/device/moto/shamu" groups="aosp,device,shamu"/>
  <project path="device/moto/shamu-kernel" name="a/aosp/device/moto/shamu-kernel" groups="aosp,device,shamu" clone-depth="1"/>
   -->
- <project spsId="58523" path="device/sample" name="a/aosp/device/sample" groups="aosp,pdk" revision="6105615bd0e9ed047926693cb77dbc803e68bed3"/>
+ <project spsId="58523" path="device/sample" name="a/aosp/device/sample" groups="aosp,pdk" />
  <!--
  <project path="device/samsung/manta" name="a/aosp/device/samsung/manta" groups="aosp,device,manta"/>
  <project path="docs/source.android.com" name="a/aosp/platform/docs/source.android.com" groups="aosp,pdk-cw-fs"/>
@@ -73,30 +73,30 @@
  <project spsId="58548" path="external/antlr" name="a/aosp/platform/external/antlr" groups="aosp,pdk-cw-fs,tradefed"/>
  <project spsId="58549" path="external/apache-harmony" name="a/aosp/platform/external/apache-harmony" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58550" path="external/apache-http" name="a/aosp/platform/external/apache-http" groups="aosp,pdk-cw-fs" revision="80540ef1af51ed239d0c50e077c17163261b70aa"/>
+ <project spsId="58550" path="external/apache-http" name="a/aosp/platform/external/apache-http" groups="aosp,pdk-cw-fs" />
 <!--
  <project spsId="58551" path="external/apache-qp" name="a/aosp/platform/external/apache-qp" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58552" path="external/apache-xml" name="a/aosp/platform/external/apache-xml" groups="aosp,pdk-cw-fs" revision="0b013a482e4f4de9add850e34dbe5119fc390596"/>
+ <project spsId="58552" path="external/apache-xml" name="a/aosp/platform/external/apache-xml" groups="aosp,pdk-cw-fs" />
 <!--
  <project spsId="58553" path="external/arduino" name="a/aosp/platform/external/arduino" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58554" path="external/bison" name="a/aosp/platform/external/bison" groups="aosp,pdk" revision="c2418b886165add7f5a31fc5609f0ce2d004a90e"/>
+ <project spsId="58554" path="external/bison" name="a/aosp/platform/external/bison" groups="aosp,pdk" />
 <!--
  <project spsId="58555" path="external/blktrace" name="a/aosp/platform/external/blktrace" groups="aosp,pdk-cw-fs"/>
  <project spsId="58556" path="external/bluetooth/bluedroid" name="a/aosp/platform/external/bluetooth/bluedroid" groups="aosp,pdk"/>
 -->
- <project spsId="58557" path="external/bouncycastle" name="a/aosp/platform/external/bouncycastle" groups="aosp,pdk" revision="c51d6837f84377c47bc0f43d58c80f09f460e194"/>
- <project spsId="58558" path="external/bsdiff" name="a/aosp/platform/external/bsdiff" groups="aosp,pdk" revision="9d4448afbbbe00353ea05f3be091535885e2e155"/>
- <project spsId="58559" path="external/bzip2" name="a/aosp/platform/external/bzip2" groups="aosp,pdk" revision="707c3f0f5be01253da553f1449a476bd15240c2e"/>
+ <project spsId="58557" path="external/bouncycastle" name="a/aosp/platform/external/bouncycastle" groups="aosp,pdk" />
+ <project spsId="58558" path="external/bsdiff" name="a/aosp/platform/external/bsdiff" groups="aosp,pdk" />
+ <project spsId="58559" path="external/bzip2" name="a/aosp/platform/external/bzip2" groups="aosp,pdk" />
 <!--
  <project spsId="58560" path="external/ceres-solver" name="a/aosp/platform/external/ceres-solver" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58561" path="external/checkpolicy" name="a/aosp/platform/external/checkpolicy" groups="aosp,pdk" revision="6da07fcb31f4d6efbbacc2235e230e29540e10f0"/>
+ <project spsId="58561" path="external/checkpolicy" name="a/aosp/platform/external/checkpolicy" groups="aosp,pdk" />
 <!--
  <project spsId="58563" path="external/chromium-libpac" name="a/aosp/platform/external/chromium-libpac"/>
 -->
- <project spsId="58564" path="external/chromium-trace" name="a/aosp/platform/external/chromium-trace" groups="aosp,pdk" revision="61c9bc212e36be84712198163bea009e04fd994a"/>
+ <project spsId="58564" path="external/chromium-trace" name="a/aosp/platform/external/chromium-trace" groups="aosp,pdk" />
 <!--
  <project spsId="58565" path="external/chromium_org" name="a/aosp/platform/external/chromium_org" groups="aosp"/>
  <project spsId="58566" path="external/chromium_org/sdch/open-vcdiff" name="a/aosp/platform/external/chromium_org/sdch/open-vcdiff" groups="aosp"/>
@@ -131,54 +131,54 @@
  <project spsId="58588" path="external/chromium_org/tools/gyp" name="a/aosp/platform/external/chromium_org/tools/gyp" groups="aosp"/>
  <project spsId="58589" path="external/chromium_org/v8" name="a/aosp/platform/external/chromium_org/v8" groups="aosp"/>
 -->
- <project spsId="58590" path="external/clang" name="a/aosp/platform/external/clang" groups="aosp,pdk" revision="6270ca65199882c73aa9699d8fbeb580870e8d30"/>
+ <project spsId="58590" path="external/clang" name="a/aosp/platform/external/clang" groups="aosp,pdk" />
 <!--
  <project spsId="60445" path="external/cmockery" name="a/aosp/platform/external/cmockery"/>
 -->
- <project spsId="58591" path="external/compiler-rt" name="a/aosp/platform/external/compiler-rt" groups="aosp,pdk" revision="947d850ac9698055d653d23ca5d6c108dedcbac3"/>
+ <project spsId="58591" path="external/compiler-rt" name="a/aosp/platform/external/compiler-rt" groups="aosp,pdk" />
 <!--
  <project spsId="60446" path="external/conscrypt" name="a/aosp/platform/external/conscrypt" groups="aosp,pdk-cw-fs"/>
  <project spsId="60459" path="external/deqp" name="a/aosp/platform/external/deqp" groups="aosp"/>
  <project spsId="58592" path="external/dexmaker" name="a/aosp/platform/external/dexmaker" groups="aosp,pdk-cw-fs"/>
  <project spsId="58593" path="external/dhcpcd" name="a/aosp/platform/external/dhcpcd" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58594" path="external/dnsmasq" name="a/aosp/platform/external/dnsmasq" groups="aosp,pdk" revision="da2c6a7df19095aa2dbc5f722eac6c1bb85daaaa"/>
+ <project spsId="58594" path="external/dnsmasq" name="a/aosp/platform/external/dnsmasq" groups="aosp,pdk" />
 <!--
  <project spsId="58595" path="external/doclava" name="a/aosp/platform/external/doclava" groups="aosp,pdk-cw-fs,tradefed"/>
  <project spsId="58597" path="external/droiddriver" name="a/aosp/platform/external/droiddriver" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58598" path="external/e2fsprogs" name="a/aosp/platform/external/e2fsprogs" groups="aosp,pdk" revision="b2cc45fe711dc42c8c0444584b2513ac59b3ad3b"/>
+ <project spsId="58598" path="external/e2fsprogs" name="a/aosp/platform/external/e2fsprogs" groups="aosp,pdk" />
 <!--
  <project spsId="58599" path="external/easymock" name="a/aosp/platform/external/easymock" groups="aosp,pdk-cw-fs,tradefed"/>
  <project spsId="58600" path="external/eclipse-basebuilder" name="a/aosp/platform/external/eclipse-basebuilder" groups="aosp,pdk-cw-fs"/>
  <project spsId="58601" path="external/eclipse-windowbuilder" name="a/aosp/platform/external/eclipse-windowbuilder" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58602" path="external/eigen" name="a/aosp/platform/external/eigen" groups="aosp,pdk-cw-fs" revision="55f89530793a8b08a088ac282675f968a9c42276"/>
- <project spsId="58603" path="external/elfutils" name="a/aosp/platform/external/elfutils" groups="aosp,pdk" revision="a963009a0b9d502ffe81e79c7c3b45b3cf58b044"/>
+ <project spsId="58602" path="external/eigen" name="a/aosp/platform/external/eigen" groups="aosp,pdk-cw-fs" />
+ <project spsId="58603" path="external/elfutils" name="a/aosp/platform/external/elfutils" groups="aosp,pdk" />
 <!--
  <project spsId="58605" path="external/emma" name="a/aosp/platform/external/emma" groups="aosp,pdk-cw-fs,tradefed"/>
  <project spsId="58606" path="external/esd" name="a/aosp/platform/external/esd" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58607" path="external/expat" name="a/aosp/platform/external/expat" groups="aosp,pdk" revision="e5aa0a2cb0a5f759ef31c0819dc67d9b14246a4a"/>
+ <project spsId="58607" path="external/expat" name="a/aosp/platform/external/expat" groups="aosp,pdk" />
 <!--
  <project spsId="58608" path="external/eyes-free" name="a/aosp/platform/external/eyes-free" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="60460" path="external/f2fs-tools" name="a/aosp/platform/external/f2fs-tools" groups="aosp,pdk" revision="3686eecd8c8511ae7ecd7611a2f065b48b484b13"/>
- <project spsId="58609" path="external/fdlibm" name="a/aosp/platform/external/fdlibm" groups="aosp,pdk" revision="a80590655471025cfdbbd1328afc3ae5e6feab6a"/>
+ <project spsId="60460" path="external/f2fs-tools" name="a/aosp/platform/external/f2fs-tools" groups="aosp,pdk" />
+ <project spsId="58609" path="external/fdlibm" name="a/aosp/platform/external/fdlibm" groups="aosp,pdk" />
 <!--
  <project spsId="60461" path="external/fio" name="a/aosp/platform/external/fio" groups="aosp"/>
 -->
- <project spsId="58610" path="external/flac" name="a/aosp/platform/external/flac" groups="aosp,pdk" revision="8e7de0cac99e88fbe2245a5d74a205ff1b42a80c"/>
+ <project spsId="58610" path="external/flac" name="a/aosp/platform/external/flac" groups="aosp,pdk" />
 <!--
  <project spsId="60462" path="external/fonttools" name="a/aosp/platform/external/fonttools" groups="aosp"/>
 -->
- <project spsId="58611" path="external/freetype" name="a/aosp/platform/external/freetype" groups="aosp,pdk" revision="b7aab0ad37ad69279e367e5960912fc3ff778233"/>
+ <project spsId="58611" path="external/freetype" name="a/aosp/platform/external/freetype" groups="aosp,pdk" />
 <!--
  <project spsId="58612" path="external/fsck_msdos" name="a/aosp/platform/external/fsck_msdos" groups="aosp,pdk-cw-fs"/>
  <project spsId="58614" path="external/gcc-demangle" name="a/aosp/platform/external/gcc-demangle" groups="aosp,pdk"/>
  <project spsId="58615" path="external/genext2fs" name="a/aosp/platform/external/genext2fs" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58616" path="external/giflib" name="a/aosp/platform/external/giflib" groups="aosp,pdk-cw-fs,qcom_msm8x26" revision="9b8f8602a74a943ddc356bb11c55b4998b2b386d"/>
+ <project spsId="58616" path="external/giflib" name="a/aosp/platform/external/giflib" groups="aosp,pdk-cw-fs,qcom_msm8x26" />
 <!--
  <project spsId="60468" path="external/glide" name="a/aosp/platform/external/glide" groups="aosp"/>
  <project spsId="58617" path="external/google-diff-match-patch" name="a/aosp/platform/external/google-diff-match-patch" groups="aosp,pdk-cw-fs"/>
@@ -193,37 +193,37 @@
 <!--
  <project spsId="60467" path="external/google-tv-pairing-protocol" name="a/aosp/platform/external/google-tv-pairing-protocol" groups="aosp"/>
 -->
- <project spsId="58619" path="external/gtest" name="a/aosp/platform/external/gtest" groups="aosp,pdk" revision="e826aa4f99cf7d9e57fe9668e299a2808674ede4"/>
+ <project spsId="58619" path="external/gtest" name="a/aosp/platform/external/gtest" groups="aosp,pdk" />
 <!--
  <project spsId="58620" path="external/guava" name="a/aosp/platform/external/guava" groups="aosp,pdk-cw-fs,tradefed"/>
  <project spsId="58621" path="external/hamcrest" name="a/aosp/platform/external/hamcrest" groups="aosp,pdk-cw-fs,tradefed"/>
  <project spsId="58623" path="external/harfbuzz_ng" name="a/aosp/platform/external/harfbuzz_ng" groups="aosp,pdk-cw-fs,qcom_msm8x26"/>
 -->
- <project spsId="60469" path="external/icu" name="a/aosp/platform/external/icu" groups="aosp,pdk" revision="59dfc3cc05378055038fe98bce6f6740e5a120de"/>
- <project spsId="58626" path="external/iproute2" name="a/aosp/platform/external/iproute2" groups="aosp,pdk" revision="f4a11ec4304282df65be16b2eda368329f3432b4"/>
+ <project spsId="60469" path="external/icu" name="a/aosp/platform/external/icu" groups="aosp,pdk" />
+ <project spsId="58626" path="external/iproute2" name="a/aosp/platform/external/iproute2" groups="aosp,pdk" />
 <!--
  <project spsId="58627" path="external/ipsec-tools" name="a/aosp/platform/external/ipsec-tools" groups="aosp,pdk-cw-fs"/>
  <project spsId="58628" path="external/iptables" name="a/aosp/platform/external/iptables" groups="aosp,pdk-cw-fs"/>
  <project spsId="58629" path="external/iputils" name="a/aosp/platform/external/iputils" groups="aosp,pdk-cw-fs"/>
  <project spsId="58630" path="external/jack" name="a/aosp/platform/external/jack" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="60470" path="external/jarjar" name="a/aosp/platform/external/jarjar" groups="aosp,pdk" revision="41c2bca43edfc197c3c67619115b9a70d9227008"/>
+ <project spsId="60470" path="external/jarjar" name="a/aosp/platform/external/jarjar" groups="aosp,pdk" />
 <!--
  <project spsId="58631" path="external/javasqlite" name="a/aosp/platform/external/javasqlite" groups="aosp,pdk-cw-fs"/>
  <project spsId="58632" path="external/javassist" name="a/aosp/platform/external/javassist" groups="aosp,pdk-cw-fs"/>
  <project spsId="58633" path="external/jdiff" name="a/aosp/platform/external/jdiff" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="60471" path="external/jemalloc" name="a/aosp/platform/external/jemalloc" groups="aosp,pdk" revision="ddaed9c587518ba0a9f331b5d34020b15fa642ee"/>
- <project spsId="58634" path="external/jhead" name="a/aosp/platform/external/jhead" groups="aosp,pdk" revision="decba1b4203f9a184b551ea3e11094a45023e753"/>
+ <project spsId="60471" path="external/jemalloc" name="a/aosp/platform/external/jemalloc" groups="aosp,pdk" />
+ <project spsId="58634" path="external/jhead" name="a/aosp/platform/external/jhead" groups="aosp,pdk" />
 <!--
  <project spsId="60473" path="external/jline" name="a/aosp/platform/external/jline" groups="aosp,notdefault,tradefed"/>
  <project spsId="58635" path="external/jmdns" name="a/aosp/platform/external/jmdns" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58637" path="external/jpeg" name="a/aosp/platform/external/jpeg" groups="aosp,pdk" revision="59e63424c84b07256d453e2cae96bd29153ecfd5"/>
+ <project spsId="58637" path="external/jpeg" name="a/aosp/platform/external/jpeg" groups="aosp,pdk" />
 <!--
  <project spsId="58638" path="external/jsilver" name="a/aosp/platform/external/jsilver" groups="aosp,pdk-cw-fs,tradefed"/>
 -->
- <project spsId="60474" path="external/jsmn" name="a/aosp/platform/external/jsmn" groups="aosp,pdk" revision="27b5a35db0630b86791fa037a12da7b37c2aab49"/>
+ <project spsId="60474" path="external/jsmn" name="a/aosp/platform/external/jsmn" groups="aosp,pdk" />
 <!--
  <project spsId="60475" path="external/jsoncpp" name="a/aosp/platform/external/jsoncpp" groups="aosp,pdk-cw-fs"/>
  <project spsId="58639" path="external/jsr305" name="a/aosp/platform/external/jsr305" groups="aosp,pdk-cw-fs,tradefed"/>
@@ -232,44 +232,44 @@
  <project spsId="58641" path="external/kernel-headers" name="a/aosp/platform/external/kernel-headers" groups="aosp,pdk-cw-fs"/>
  <project spsId="58642" path="external/libcap-ng" name="a/aosp/platform/external/libcap-ng" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="60477" path="external/libcxx" name="a/aosp/platform/external/libcxx" groups="aosp,pdk" revision="e7c27b8dfab8798e05daf3d216502d60c9d86863"/>
- <project spsId="60478" path="external/libcxxabi" name="a/aosp/platform/external/libcxxabi" groups="aosp,pdk" revision="b451069aab57ccfe64c0fc7a18cfc487862fe985"/>
+ <project spsId="60477" path="external/libcxx" name="a/aosp/platform/external/libcxx" groups="aosp,pdk" />
+ <project spsId="60478" path="external/libcxxabi" name="a/aosp/platform/external/libcxxabi" groups="aosp,pdk" />
 <!--
  <project spsId="60479" path="external/libedit" name="a/aosp/platform/external/libedit" groups="aosp"/>
  <project spsId="58643" path="external/libexif" name="a/aosp/platform/external/libexif" groups="aosp,pdk-cw-fs"/>
  <project spsId="60480" path="external/libhevc" name="a/aosp/platform/external/libhevc" groups="aosp"/>
 -->
- <project spsId="58645" path="external/libgsm" name="a/aosp/platform/external/libgsm" groups="aosp,pdk" revision="1e26679795597459732408891bedea130b3ee1f1"/>
- <project spsId="58646" path="external/liblzf" name="a/aosp/platform/external/liblzf" groups="aosp,pdk" revision="6946aa575b0949d045722794850896099d937cbb"/>
+ <project spsId="58645" path="external/libgsm" name="a/aosp/platform/external/libgsm" groups="aosp,pdk" />
+ <project spsId="58646" path="external/liblzf" name="a/aosp/platform/external/liblzf" groups="aosp,pdk" />
 <!--
  <project spsId="58647" path="external/libmtp" name="a/aosp/platform/external/libmtp" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58648" path="external/libnfc-nci" name="a/aosp/platform/external/libnfc-nci" groups="aosp,pdk" revision="121096a3511ea4ac559dea3ef7d39f0df00c97a6"/>
- <project spsId="58649" path="external/libnfc-nxp" name="a/aosp/platform/external/libnfc-nxp" groups="aosp,pdk" revision="76f8fa7177767cb377f9212e207e3ac16f9b8d48"/>
- <project spsId="60481" path="external/libnl" name="a/aosp/platform/external/libnl" groups="aosp,pdk" revision="19c48c82efd448e310e8151af749c5f6ec5d321b"/>
- <project spsId="58651" path="external/libogg" name="a/aosp/platform/external/libogg" groups="aosp,pdk" revision="e4375ffe5491c4742bec47ae5468a9df5ffc3528"/>
- <project spsId="60482" path="external/libopus" name="a/aosp/platform/external/libopus" groups="aosp,pdk" revision="1391dbf0ccd121ce7a49d30e2142d36c8d404990"/>
- <project spsId="58652" path="external/libpcap" name="a/aosp/platform/external/libpcap" groups="aosp,pdk,pdk-cw-fs" revision="c442bf68e06f961ad0f8fc5a7d19e0984985ea30"/>
+ <project spsId="58648" path="external/libnfc-nci" name="a/aosp/platform/external/libnfc-nci" groups="aosp,pdk" />
+ <project spsId="58649" path="external/libnfc-nxp" name="a/aosp/platform/external/libnfc-nxp" groups="aosp,pdk" />
+ <project spsId="60481" path="external/libnl" name="a/aosp/platform/external/libnl" groups="aosp,pdk" />
+ <project spsId="58651" path="external/libogg" name="a/aosp/platform/external/libogg" groups="aosp,pdk" />
+ <project spsId="60482" path="external/libopus" name="a/aosp/platform/external/libopus" groups="aosp,pdk" />
+ <project spsId="58652" path="external/libpcap" name="a/aosp/platform/external/libpcap" groups="aosp,pdk,pdk-cw-fs" />
 <!--
  <project spsId="58653" path="external/libphonenumber" name="a/aosp/platform/external/libphonenumber" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58654" path="external/libpng" name="a/aosp/platform/external/libpng" groups="aosp,pdk" revision="771583a01bd0756a1b6861ab1f00b7bd1842a0cd"/>
+ <project spsId="58654" path="external/libpng" name="a/aosp/platform/external/libpng" groups="aosp,pdk" />
 <!--
  <project spsId="60483" path="external/libseccomp-helper" name="a/aosp/platform/external/libseccomp-helper" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58656" path="external/libselinux" name="a/aosp/platform/external/libselinux" groups="aosp,pdk" revision="ceaa55fce32209054e4b0555ae676b01117eb9e3"/>
- <project spsId="58657" path="external/libsepol" name="a/aosp/platform/external/libsepol" groups="aosp,pdk" revision="6eaba27f7efb06bd72f24499afe0155f903e7b0e"/>
+ <project spsId="58656" path="external/libselinux" name="a/aosp/platform/external/libselinux" groups="aosp,pdk" />
+ <project spsId="58657" path="external/libsepol" name="a/aosp/platform/external/libsepol" groups="aosp,pdk" />
 <!--
  <project spsId="60484" path="external/libssh2" name="a/aosp/platform/external/libssh2" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="60485" path="external/libunwind" name="a/aosp/platform/external/libunwind" groups="aosp,pdk" revision="c3ba8629c779f1b4ac3b92ad31b17a97d5aaef3b"/>
+ <project spsId="60485" path="external/libunwind" name="a/aosp/platform/external/libunwind" groups="aosp,pdk" />
 <!--
  <project spsId="58658" path="external/libusb" name="a/aosp/platform/external/libusb" groups="aosp,pdk-cw-fs"/>
  <project spsId="58659" path="external/libusb-compat" name="a/aosp/platform/external/libusb-compat" groups="aosp,pdk-cw-fs"/>
  <project spsId="60486" path="external/libutf" name="a/aosp/platform/external/libutf" groups="aosp,pdk-cw-fs"/>
  <project spsId="58660" path="external/libvorbis" name="a/aosp/platform/external/libvorbis" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58661" path="external/libvpx" name="a/aosp/platform/external/libvpx" groups="aosp,pdk" revision="c1dac2a28d9609d1cca8a06ecf4cebd1dcc54dcd"/>
+ <project spsId="58661" path="external/libvpx" name="a/aosp/platform/external/libvpx" groups="aosp,pdk" />
 <!--
  <project spsId="60487" path="external/libvterm" name="a/aosp/platform/external/libvterm" groups="aosp,pdk-cw-fs"/>
  <project spsId="58664" path="external/libyuv" name="a/aosp/platform/external/libyuv" groups="aosp,libyuv,pdk-cw-fs"/>
@@ -277,19 +277,19 @@
  <project spsId="58666" path="external/littlemock" name="a/aosp/platform/external/littlemock" groups="aosp,pdk-cw-fs"/>
  <project spsId="60488" path="external/lldb" name="a/aosp/platform/external/lldb" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58667" path="external/llvm" name="a/aosp/platform/external/llvm" groups="aosp,pdk" revision="560a17f4e3f8019a108abb7848a4735c59a43be0"/>
+ <project spsId="58667" path="external/llvm" name="a/aosp/platform/external/llvm" groups="aosp,pdk" />
 <!--
  <project spsId="60489" path="external/lohit-fonts" name="a/aosp/platform/external/lohit-fonts" />
  <project spsId="60490" path="external/ltrace" name="a/aosp/platform/external/ltrace" groups="aosp,pdk-cw-fs"/>
  <project spsId="58668" path="external/lzma" name="a/aosp/platform/external/lzma" groups="aosp,pdk"/>
  <project spsId="58670" path="external/markdown" name="a/aosp/platform/external/markdown" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58671" path="external/mdnsresponder" name="a/aosp/platform/external/mdnsresponder" groups="aosp,pdk" revision="8352d7a311ae3f7838cc9d9ee0d69625f73b89e6"/>
+ <project spsId="58671" path="external/mdnsresponder" name="a/aosp/platform/external/mdnsresponder" groups="aosp,pdk" />
 <!--
  <project spsId="58672" path="external/mesa3d" name="a/aosp/platform/external/mesa3d" groups="aosp,pdk-cw-fs"/>
  <project spsId="60491" path="external/messageformat" name="a/aosp/platform/external/messageformat" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58673" path="external/mksh" name="a/aosp/platform/external/mksh" groups="aosp,pdk" revision="c87de5d0279a299eec916effc751961347ff5eeb"/>
+ <project spsId="58673" path="external/mksh" name="a/aosp/platform/external/mksh" groups="aosp,pdk" />
 <!--
  <project spsId="58674" path="external/mockito" name="a/aosp/platform/external/mockito" groups="aosp,pdk-cw-fs"/>
  <project spsId="58675" path="external/mockwebserver" name="a/aosp/platform/external/mockwebserver" groups="aosp,pdk-cw-fs"/>
@@ -297,7 +297,7 @@
  <project spsId="58677" path="external/mtpd" name="a/aosp/platform/external/mtpd" groups="aosp,pdk-cw-fs"/>
  <project spsId="60492" path="external/nanohttpd" name="a/aosp/platform/external/nanohttpd" groups="aosp"/>
 -->
- <project spsId="60493" path="external/nanopb-c" name="a/aosp/platform/external/nanopb-c" groups="aosp" revision="7e7f2e9122af6c7e7e7d4ba205fdf46d50b95eef"/>
+ <project spsId="60493" path="external/nanopb-c" name="a/aosp/platform/external/nanopb-c" groups="aosp" />
 <!--
  <project spsId="58678" path="external/naver-fonts" name="a/aosp/platform/external/naver-fonts" groups="aosp,pdk-cw-fs"/>
  <project spsId="58679" path="external/netcat" name="a/aosp/platform/external/netcat" groups="aosp,pdk-cw-fs"/>
@@ -307,7 +307,7 @@
  <project spsId="58682" path="external/nist-pkits" name="a/aosp/platform/external/nist-pkits" groups="aosp,pdk-cw-fs"/>
  <project spsId="58683" path="external/nist-sip" name="a/aosp/platform/external/nist-sip" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58684" path="external/noto-fonts" name="a/aosp/platform/external/noto-fonts" groups="aosp,pdk" revision="f68ac3267f67c0011c6c1ed87ecd60df716b9228"/>
+ <project spsId="58684" path="external/noto-fonts" name="a/aosp/platform/external/noto-fonts" groups="aosp,pdk" />
 <!--
  <project spsId="58685" path="external/oauth" name="a/aosp/platform/external/oauth" groups="aosp,pdk-cw-fs"/>
  <project spsId="58686" path="external/objenesis" name="a/aosp/platform/external/objenesis" groups="aosp,pdk-cw-fs"/>
@@ -318,14 +318,14 @@
  <project spsId="58693" path="external/oprofile" name="a/aosp/platform/external/oprofile" groups="aosp,pdk-cw-fs"/>
  <project spsId="60495" path="external/owasp/sanitizer" name="a/aosp/platform/external/owasp/sanitizer" groups="aosp"/>
 -->
- <project spsId="60496" path="external/pcre" name="a/aosp/platform/external/pcre" groups="aosp,pdk-cw-fs" revision="0d3d4875d4e672ab52cfd421da9a7fddbbaecda3"/>
+ <project spsId="60496" path="external/pcre" name="a/aosp/platform/external/pcre" groups="aosp,pdk-cw-fs" />
 <!--
  <project spsId="60497" path="external/pdfium" name="a/aosp/platform/external/pdfium" groups="aosp,pdk-cw-fs"/>
  <project spsId="58694" path="external/pixman" name="a/aosp/platform/external/pixman" groups="aosp,pdk-cw-fs"/>
  <project spsId="58695" path="external/ppp" name="a/aosp/platform/external/ppp" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58696" path="external/proguard" name="a/aosp/platform/external/proguard" groups="aosp,pdk-java,tradefed" revision="ef2942809b198653e0cf181151a5f435f5bb7476"/>
- <project spsId="58697" path="external/protobuf" name="a/aosp/platform/external/protobuf" groups="aosp,pdk" revision="2f4d8a1b744e2e62dcd68b7cb7159000e5751975"/>
+ <project spsId="58696" path="external/proguard" name="a/aosp/platform/external/proguard" groups="aosp,pdk-java,tradefed" />
+ <project spsId="58697" path="external/protobuf" name="a/aosp/platform/external/protobuf" groups="aosp,pdk" />
 <!--
  <project spsId="58698" path="external/qemu" name="a/aosp/platform/external/qemu" groups="aosp,pdk-cw-fs"/>
  <project spsId="58699" path="external/qemu-pc-bios" name="a/aosp/platform/external/qemu-pc-bios" groups="aosp,pdk-cw-fs"/>
@@ -333,60 +333,60 @@
  <project spsId="58701" path="external/replicaisland" name="a/aosp/platform/external/replicaisland" groups="aosp,pdk-cw-fs"/>
  <project spsId="58702" path="external/robolectric" name="a/aosp/platform/external/robolectric" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58703" path="external/safe-iop" name="a/aosp/platform/external/safe-iop" groups="aosp,pdk" revision="aa0725fb1da35e47676b6da30009322eb5ed59be"/>
- <project spsId="58704" path="external/scrypt" name="a/aosp/platform/external/scrypt" groups="aosp,pdk" revision="72691396f9fa84fd39cb72d031750e580e648aa3"/>
- <project spsId="58705" path="external/sepolicy" name="a/aosp/platform/external/sepolicy" groups="aosp,pdk" revision="caa6523b5b20629d69ac6e9e7cd56344130b6e18"/>
- <project spsId="58706" path="external/sfntly" name="a/aosp/platform/external/sfntly" groups="aosp,pdk-cw-fs,qcom_msm8x26" revision="a01a58c85ae6f0b1fe97e4a383bb7536285264d8"/>
- <project spsId="58708" path="external/skia" name="a/aosp/platform/external/skia" groups="aosp,pdk-cw-fs,qcom_msm8x26" revision="181f49c7acb67ad009f6deceb3b5cc0a45220ab4"/>
+ <project spsId="58703" path="external/safe-iop" name="a/aosp/platform/external/safe-iop" groups="aosp,pdk" />
+ <project spsId="58704" path="external/scrypt" name="a/aosp/platform/external/scrypt" groups="aosp,pdk" />
+ <project spsId="58705" path="external/sepolicy" name="a/aosp/platform/external/sepolicy" groups="aosp,pdk" />
+ <project spsId="58706" path="external/sfntly" name="a/aosp/platform/external/sfntly" groups="aosp,pdk-cw-fs,qcom_msm8x26" />
+ <project spsId="58708" path="external/skia" name="a/aosp/platform/external/skia" groups="aosp,pdk-cw-fs,qcom_msm8x26" />
 <!--
  <project spsId="58709" path="external/smack" name="a/aosp/platform/external/smack" groups="aosp,pdk-cw-fs"/>
  <project spsId="58710" path="external/smali" name="a/aosp/platform/external/smali" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58711" path="external/sonivox" name="a/aosp/platform/external/sonivox" groups="aosp,pdk" revision="f17e99b29855e8d18c3d362775d143763e96ae3d"/>
- <project spsId="58712" path="external/speex" name="a/aosp/platform/external/speex" groups="aosp,pdk" revision="ff03110e77ec7fe716c5be11783746f59c814e30"/>
- <project spsId="58713" path="external/sqlite" name="a/aosp/platform/external/sqlite" groups="aosp,pdk" revision="3a6c79f802fabdb94367177310663397420e319f"/>
+ <project spsId="58711" path="external/sonivox" name="a/aosp/platform/external/sonivox" groups="aosp,pdk" />
+ <project spsId="58712" path="external/speex" name="a/aosp/platform/external/speex" groups="aosp,pdk" />
+ <project spsId="58713" path="external/sqlite" name="a/aosp/platform/external/sqlite" groups="aosp,pdk" />
 <!--
  <project spsId="58714" path="external/srec" name="a/aosp/platform/external/srec" groups="aosp,pdk-cw-fs"/>
  <project spsId="58715" path="external/srtp" name="a/aosp/platform/external/srtp" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58716" path="external/stlport" name="a/aosp/platform/external/stlport" groups="aosp,pdk" revision="197d38db79ee6cf9c48e95acc230d101916952b6"/>
+ <project spsId="58716" path="external/stlport" name="a/aosp/platform/external/stlport" groups="aosp,pdk" />
 <!--
  <project spsId="58717" path="external/strace" name="a/aosp/platform/external/strace" groups="aosp,pdk-cw-fs"/>
  <project spsId="58718" path="external/stressapptest" name="a/aosp/platform/external/stressapptest" groups="aosp,pdk-cw-fs"/>
  <project spsId="58719" path="external/svox" name="a/aosp/platform/external/svox" groups="aosp,pdk-cw-fs"/>
  <project spsId="58720" path="external/tagsoup" name="a/aosp/platform/external/tagsoup" groups="aosp,pdk-cw-fs,tradefed"/>
 -->
- <project spsId="58721" path="external/tcpdump" name="a/aosp/platform/external/tcpdump" groups="aosp,pdk,pdk-cw-fs" revision="b5d6f230d44e96d2ac9cbd7f6bb2862fa88a60c4"/>
+ <project spsId="58721" path="external/tcpdump" name="a/aosp/platform/external/tcpdump" groups="aosp,pdk,pdk-cw-fs" />
 <!--
  <project spsId="58722" path="external/timezonepicker-support" name="a/aosp/platform/external/timezonepicker-support" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58723" path="external/tinyalsa" name="a/aosp/platform/external/tinyalsa" groups="aosp,pdk" revision="ed44a654c9bcbd3f7c77156fbb8db6c75ec3f691"/>
- <project spsId="58724" path="external/tinycompress" name="a/aosp/platform/external/tinycompress" groups="aosp,pdk" revision="379571405632a407b8ad0e4cea6a3ec86e5703c1"/>
- <project spsId="58725" path="external/tinyxml" name="a/aosp/platform/external/tinyxml" groups="aosp,pdk" revision="143125ff631c481d590cae0d7cc9ccfaaca269c7"/>
- <project spsId="58726" path="external/tinyxml2" name="a/aosp/platform/external/tinyxml2" groups="aosp,pdk" revision="7974ba13a557b3352b0fd4b2a8c377cb530e886e"/>
- <project spsId="58727" path="external/tremolo" name="a/aosp/platform/external/tremolo" groups="aosp,pdk" revision="0ec5338fec5ab4f39842066fb64534a155b1e314"/>
- <project spsId="58729" path="external/valgrind" name="a/aosp/platform/external/valgrind" groups="aosp,pdk" revision="4e88b3458976a7132fe2b78392ebf9348a42a9f9"/>
- <project spsId="60499" path="external/vixl" name="a/aosp/platform/external/vixl" groups="aosp,pdk" revision="dc661669ef2e2fd18c4e21333d6a12112b520436"/>
- <project spsId="58730" path="external/webp" name="a/aosp/platform/external/webp" groups="aosp,pdk-cw-fs,qcom_msm8x26" revision="9e80ee991168a0a6c2a906dd2c17c5e17df4566e"/>
- <project spsId="58731" path="external/webrtc" name="a/aosp/platform/external/webrtc" groups="aosp,pdk" revision="c7d448429fa264787d231d20bb1d8e2e273e852b"/>
- <project spsId="58732" path="external/wpa_supplicant_8" name="a/aosp/platform/external/wpa_supplicant_8" groups="aosp,pdk" revision="b1e52102c211357f585e9ff6d54501e90254326e"/>
+ <project spsId="58723" path="external/tinyalsa" name="a/aosp/platform/external/tinyalsa" groups="aosp,pdk" />
+ <project spsId="58724" path="external/tinycompress" name="a/aosp/platform/external/tinycompress" groups="aosp,pdk" />
+ <project spsId="58725" path="external/tinyxml" name="a/aosp/platform/external/tinyxml" groups="aosp,pdk" />
+ <project spsId="58726" path="external/tinyxml2" name="a/aosp/platform/external/tinyxml2" groups="aosp,pdk" />
+ <project spsId="58727" path="external/tremolo" name="a/aosp/platform/external/tremolo" groups="aosp,pdk" />
+ <project spsId="58729" path="external/valgrind" name="a/aosp/platform/external/valgrind" groups="aosp,pdk" />
+ <project spsId="60499" path="external/vixl" name="a/aosp/platform/external/vixl" groups="aosp,pdk" />
+ <project spsId="58730" path="external/webp" name="a/aosp/platform/external/webp" groups="aosp,pdk-cw-fs,qcom_msm8x26" />
+ <project spsId="58731" path="external/webrtc" name="a/aosp/platform/external/webrtc" groups="aosp,pdk" />
+ <project spsId="58732" path="external/wpa_supplicant_8" name="a/aosp/platform/external/wpa_supplicant_8" groups="aosp,pdk" />
 <!--
  <project spsId="58733" path="external/xmlwriter" name="a/aosp/platform/external/xmlwriter" groups="aosp,pdk-cw-fs"/>
  <project spsId="58734" path="external/xmp_toolkit" name="a/aosp/platform/external/xmp_toolkit" groups="aosp,pdk-cw-fs"/>
  <project spsId="58735" path="external/yaffs2" name="a/aosp/platform/external/yaffs2" groups="aosp,pdk"/>
 -->
- <project spsId="58736" path="external/zlib" name="a/aosp/platform/external/zlib" groups="aosp,pdk" revision="a15adad27b1a33de2f4c788809ba97cff726cf58"/>
+ <project spsId="58736" path="external/zlib" name="a/aosp/platform/external/zlib" groups="aosp,pdk" />
 <!--
  <project spsId="60500" path="external/zopfli" name="a/aosp/platform/external/zopfli" groups="aosp,pdk-cw-fs"/>
  <project spsId="58737" path="external/zxing" name="a/aosp/platform/external/zxing" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58739" path="frameworks/av" name="a/aosp/platform/frameworks/av" groups="aosp,pdk" revision="4c719acef7e11dedb5a81a51aff55464aa7e0c2d"/>
+ <project spsId="58739" path="frameworks/av" name="a/aosp/platform/frameworks/av" groups="aosp,pdk" />
 <!--
  <project spsId="58740" path="frameworks/base" name="a/aosp/platform/frameworks/base" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58741" path="frameworks/compile/libbcc" name="a/aosp/platform/frameworks/compile/libbcc" groups="aosp,pdk" revision="86acf1fb02945f2e063da8718b6c8e3f80f18bf9"/>
- <project spsId="58742" path="frameworks/compile/mclinker" name="a/aosp/platform/frameworks/compile/mclinker" groups="aosp,pdk" revision="8886302a09fbc3be1e53cbd6d2a6e0c4225f0a12"/>
- <project spsId="58743" path="frameworks/compile/slang" name="a/aosp/platform/frameworks/compile/slang" groups="aosp,pdk" revision="2444eaadc5a5197e2c3192afd74c38e9e4bb0ffe"/>
+ <project spsId="58741" path="frameworks/compile/libbcc" name="a/aosp/platform/frameworks/compile/libbcc" groups="aosp,pdk" />
+ <project spsId="58742" path="frameworks/compile/mclinker" name="a/aosp/platform/frameworks/compile/mclinker" groups="aosp,pdk" />
+ <project spsId="58743" path="frameworks/compile/slang" name="a/aosp/platform/frameworks/compile/slang" groups="aosp,pdk" />
 <!--
  <project spsId="58744" path="frameworks/ex" name="a/aosp/platform/frameworks/ex" groups="aosp,pdk-cw-fs"/>
  <project spsId="58745" path="frameworks/mff" name="a/aosp/platform/frameworks/mff" groups="aosp,pdk-cw-fs"/>
@@ -394,7 +394,7 @@
  <project spsId="58746" path="frameworks/ml" name="a/aosp/platform/frameworks/ml" groups="aosp,pdk-cw-fs"/>
  <project spsId="60502" path="frameworks/multidex" name="a/aosp/platform/frameworks/multidex" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58747" path="frameworks/native" name="a/aosp/platform/frameworks/native" groups="aosp,pdk" revision="302c708a947a864fcd53e2cd2fa1ee3cc458fb2a"/>
+ <project spsId="58747" path="frameworks/native" name="a/aosp/platform/frameworks/native" groups="aosp,pdk" />
 <!--
  <project spsId="60503" path="frameworks/opt/bitmap" name="a/aosp/platform/frameworks/opt/bitmap" groups="aosp"/>
  <project spsId="60504" path="frameworks/opt/bluetooth" name="a/aosp/platform/frameworks/opt/bluetooth" groups="aosp,pdk-cw-fs"/>
@@ -409,19 +409,19 @@
  <project spsId="60507" path="frameworks/opt/net/ims" name="a/aosp/platform/frameworks/opt/net/ims" groups="aosp,frameworks_ims,pdk-cw-fs"/>
  <project spsId="58757" path="frameworks/opt/net/voip" name="a/aosp/platform/frameworks/opt/net/voip" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="60508" path="frameworks/opt/net/wifi" name="a/aosp/platform/frameworks/opt/net/wifi" groups="aosp,pdk" revision="c95037449780a31ceaf5e41d09757a468fec98ca"/>
+ <project spsId="60508" path="frameworks/opt/net/wifi" name="a/aosp/platform/frameworks/opt/net/wifi" groups="aosp,pdk" />
 <!--
  <project spsId="60506" path="frameworks/opt/net/ethernet" name="a/aosp/platform/frameworks/opt/net/ethernet" groups="aosp"/>
  <project spsId="58758" path="frameworks/opt/photoviewer" name="a/aosp/platform/frameworks/opt/photoviewer" groups="aosp,pdk-cw-fs"/>
  <project spsId="60509" path="frameworks/opt/setupwizard" name="a/aosp/platform/frameworks/opt/setupwizard" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58760" path="frameworks/opt/telephony" name="a/aosp/platform/frameworks/opt/telephony" groups="aosp,pdk" revision="6aa032364ef8845de64378ade5a01e0f2e0d4541"/>
+ <project spsId="58760" path="frameworks/opt/telephony" name="a/aosp/platform/frameworks/opt/telephony" groups="aosp,pdk" />
 <!--
  <project spsId="58759" path="frameworks/opt/timezonepicker" name="a/aosp/platform/frameworks/opt/timezonepicker" groups="aosp,pdk-cw-fs"/>
  <project spsId="58761" path="frameworks/opt/vcard" name="a/aosp/platform/frameworks/opt/vcard" groups="aosp,pdk-cw-fs"/>
  <project spsId="60510" path="frameworks/opt/widget" name="a/aosp/platform/frameworks/opt/widget" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58762" path="frameworks/rs" name="a/aosp/platform/frameworks/rs" groups="aosp,pdk" revision="ca02ffca9178569f61fe91aad708c706f60534f8"/>
+ <project spsId="58762" path="frameworks/rs" name="a/aosp/platform/frameworks/rs" groups="aosp,pdk" />
 <!--
  <project spsId="58763" path="frameworks/support" name="a/aosp/platform/frameworks/support" groups="aosp,pdk-cw-fs"/>
  <project spsId="58765" path="frameworks/volley" name="a/aosp/platform/frameworks/volley" groups="aosp,pdk-cw-fs"/>
@@ -431,7 +431,7 @@
  <!--
  <project path="hardware/akm" name="a/aosp/platform/hardware/akm"/>
  -->
- <project spsId="58771" path="hardware/broadcom/libbt" name="a/aosp/platform/hardware/broadcom/libbt" groups="aosp,pdk" revision="fce658dae2749765552cbf12ce652338e20f583d"/>
+ <project spsId="58771" path="hardware/broadcom/libbt" name="a/aosp/platform/hardware/broadcom/libbt" groups="aosp,pdk" />
 <!--
  <project spsId="58772" path="hardware/broadcom/wlan" name="a/aosp/platform/hardware/broadcom/wlan" groups="aosp,broadcom_wlan"/>
 -->
@@ -452,8 +452,8 @@
  <project path="hardware/intel/img/psb_video" name="a/aosp/platform/hardware/intel/img/psb_video" groups="aosp,intel"/>
  <project path="hardware/invensense" name="a/aosp/platform/hardware/invensense" groups="aosp,invensense"/>
  -->
- <project spsId="58774" path="hardware/libhardware" name="a/aosp/platform/hardware/libhardware" groups="aosp,pdk" revision="fa216fc29d471da3264421024b7a485f05bfe634"/>
- <project spsId="58775" path="hardware/libhardware_legacy" name="a/aosp/platform/hardware/libhardware_legacy" groups="aosp,pdk" revision="a64d14b7665d8da65ba345729fc7a3770b391b2b"/>
+ <project spsId="58774" path="hardware/libhardware" name="a/aosp/platform/hardware/libhardware" groups="aosp,pdk" />
+ <project spsId="58775" path="hardware/libhardware_legacy" name="a/aosp/platform/hardware/libhardware_legacy" groups="aosp,pdk" />
  <!--
  <project path="hardware/nvidia/audio" name="a/aosp/platform/hardware/nvidia/audio" groups="aosp,nvidia_audio"/>
  <project path="hardware/nvidia/tegra124" name="a/aosp/platform/hardware/nvidia/tegra124" groups="aosp,tegra124"/>
@@ -482,15 +482,15 @@
  <project spsId="58786" path="hardware/qcom/sensors" name="a/aosp/platform/hardware/qcom/sensors" groups="aosp,qcom"/>
  <project spsId="58787" path="hardware/qcom/wlan" name="a/aosp/platform/hardware/qcom/wlan" groups="aosp,qcom_wlan"/>
 -->
- <project spsId="58788" path="hardware/ril" name="a/aosp/platform/hardware/ril" groups="aosp,pdk" revision="290add330facbecc5abc6e4f9600de3d64b2f6fb"/>
+ <project spsId="58788" path="hardware/ril" name="a/aosp/platform/hardware/ril" groups="aosp,pdk" />
  <!--
  <project path="hardware/samsung_slsi/exynos5" name="a/aosp/platform/hardware/samsung_slsi/exynos5" groups="aosp,exynos5"/>
  <project path="hardware/ti/omap3" name="a/aosp/platform/hardware/ti/omap3" groups="aosp,omap3"/>
  <project path="hardware/ti/omap4-aah" name="a/aosp/platform/hardware/ti/omap4-aah" groups="aosp,omap4-aah"/>
  <project path="hardware/ti/omap4xxx" name="a/aosp/platform/hardware/ti/omap4xxx" groups="aosp,omap4"/>
  -->
- <project spsId="58795" path="libcore" name="a/aosp/platform/libcore" groups="aosp,pdk" revision="eaf9bc046bc7506d9be6afc4f6f8e5e8d3f66c3b"/>
- <project spsId="58796" path="libnativehelper" name="a/aosp/platform/libnativehelper" groups="aosp,pdk" revision="b7a25286026b49f0f7d95b25f2d32c4f47f498ef"/>
+ <project spsId="58795" path="libcore" name="a/aosp/platform/libcore" groups="aosp,pdk" />
+ <project spsId="58796" path="libnativehelper" name="a/aosp/platform/libnativehelper" groups="aosp,pdk" />
 <!--
  <project spsId="58797" path="ndk" name="a/aosp/platform/ndk" groups="aosp"/>
  <project spsId="58800" path="packages/apps/BasicSmsReceiver" name="a/aosp/platform/packages/apps/BasicSmsReceiver" groups="aosp"/>
@@ -566,7 +566,7 @@
  <project spsId="58870" path="packages/wallpapers/NoiseField" name="a/aosp/platform/packages/wallpapers/NoiseField" groups="aosp"/>
  <project spsId="58871" path="packages/wallpapers/PhaseBeam" name="a/aosp/platform/packages/wallpapers/PhaseBeam" groups="aosp"/>
 -->
- <project spsId="58872" path="pdk" name="a/aosp/platform/pdk" groups="aosp,pdk" revision="58712cc85667a30dbdaf8fffc3c05b7e62486a22"/>
+ <project spsId="58872" path="pdk" name="a/aosp/platform/pdk" groups="aosp,pdk" />
 <!--
  <project spsId="60517" path="prebuilts/android-emulator" name="a/aosp/platform/prebuilts/android-emulator" clone-depth="1" groups="aosp"/>
 -->
@@ -587,64 +587,64 @@
  <project spsId="58886" path="prebuilts/clang/linux-x86/x86/3.3" name="a/aosp/platform/prebuilts/clang/linux-x86/x86/3.3" groups="aosp,linux,pdk-cw-fs,x86"/>
  <project spsId="58887" path="prebuilts/devtools" name="a/aosp/platform/prebuilts/devtools" groups="aosp"/>
 -->
- <project spsId="58888" path="prebuilts/eclipse" name="a/aosp/platform/prebuilts/eclipse" groups="aosp,pdk" revision="cf9f78f8cf41b16edf9f712598a42743d5cea4af"/>
+ <project spsId="58888" path="prebuilts/eclipse" name="a/aosp/platform/prebuilts/eclipse" groups="aosp,pdk" />
 <!--
  <project spsId="58889" path="prebuilts/eclipse-build-deps" name="a/aosp/platform/prebuilts/eclipse-build-deps" groups="aosp,notdefault,eclipse"/>
  <project spsId="58890" path="prebuilts/eclipse-build-deps-sources" name="a/aosp/platform/prebuilts/eclipse-build-deps-sources" groups="aosp,notdefault,eclipse"/>
 -->
- <project spsId="60520" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="aosp,pdk,darwin,arm" revision="a261d38eaebb7ff406a6bb60237b36fc61714d46"/>
- <project spsId="60577" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="aosp,pdk,darwin,arm" revision="950d68b25aa4e02d2a240dc787e6114836190c32"/>
- <project spsId="60521" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="aosp,pdk,darwin,arm" revision="6d08ca9f45ff685648fd13c75bf5cac4b11c19bb"/>
- <project spsId="60522" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" groups="aosp,pdk,darwin,arm" revision="264394c23b2686ce52cd4ffb116ced127aa7f8fc"/>
- <project spsId="58896" path="prebuilts/gcc/darwin-x86/host/headers" name="a/aosp/platform/prebuilts/gcc/darwin-x86/host/headers" groups="aosp,pdk,darwin" revision="4ac4f7cc41cf3c9e36fc3d6cf37fd1cfa9587a68"/>
- <project spsId="58897" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="a/aosp/platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="aosp,pdk,darwin" revision="8834958755acc291d126ba7ee38ac731d04f9c9e"/>
- <project spsId="58898" path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="aosp,pdk,darwin,mips" revision="c66f0d207f430da9b45df9b3f1cc52af225d305c"/>
+ <project spsId="60520" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="aosp,pdk,darwin,arm" />
+ <project spsId="60577" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="aosp,pdk,darwin,arm" />
+ <project spsId="60521" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="aosp,pdk,darwin,arm" />
+ <project spsId="60522" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" groups="aosp,pdk,darwin,arm" />
+ <project spsId="58896" path="prebuilts/gcc/darwin-x86/host/headers" name="a/aosp/platform/prebuilts/gcc/darwin-x86/host/headers" groups="aosp,pdk,darwin" />
+ <project spsId="58897" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="a/aosp/platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="aosp,pdk,darwin" />
+ <project spsId="58898" path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="aosp,pdk,darwin,mips" />
 <!--
  <project spsId="60524" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="aosp,pdk,darwin,mips"/>
  <project spsId="60523" path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="aosp,pdk,darwin,mips"/>
 -->
- <project spsId="58900" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="aosp,pdk,darwin,x86" revision="151333b6cf70c6fc075d18e28e4bb317a666dc8f"/>
- <project spsId="58901" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="aosp,pdk,darwin,x86" revision="ea6be7d48e108269b99c284c1d2480f7698b703d"/>
- <project spsId="60526" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="aosp,pdk,linux,arm" revision="df7d77ab2788b5d1a0a6f096f97724586ae3253d"/>
- <project spsId="58914" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="aosp,pdk,linux,arm" revision="e1a8a48e59638c0d24d2214c2a85046068158a08"/>
- <project spsId="58903" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="aosp,pdk,linux,arm" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a"/>
- <project spsId="58905" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="aosp,pdk,linux,arm" revision="d9735fc81434f2af2c44d86ca57740c673c8d9bc"/>
+ <project spsId="58900" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="aosp,pdk,darwin,x86" />
+ <project spsId="58901" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="aosp,pdk,darwin,x86" />
+ <project spsId="60526" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="aosp,pdk,linux,arm" />
+ <project spsId="58914" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="aosp,pdk,linux,arm" />
+ <project spsId="58903" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="aosp,pdk,linux,arm" />
+ <project spsId="58905" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="aosp,pdk,linux,arm" />
 <!--
  <project spsId="58908" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="aosp,pdk,linux"/>
 -->
- <project spsId="58907" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="aosp,pdk,linux" revision="63b209feac0b045f5fc68810fd2e65bf1ca51e2f"/>
+ <project spsId="58907" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="aosp,pdk,linux" />
 <!--
  <project spsId="60530" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="aosp"/>
 -->
- <project spsId="58910" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="aosp,pdk,linux,mips" revision="9ceb135814c47cad4858083228fd9615aaaa7c84"/>
+ <project spsId="58910" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="aosp,pdk,linux,mips" />
 <!--
  <project spsId="60532" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" groups="aosp,pdk,linux,mips"/>
  <project spsId="60531" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" groups="aosp,pdk,linux,mips"/>
 -->
- <project spsId="60533" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" groups="aosp,pdk,linux,x86" revision="1de8fb72c7e20f77e3f0d3658ad4e0b46908191b"/>
- <project spsId="58909" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="aosp,pdk,linux,x86" revision="f3926a69717a2be92fdbe497a05a814d26734bb9"/>
+ <project spsId="60533" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" groups="aosp,pdk,linux,x86" />
+ <project spsId="58909" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="a/aosp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="aosp,pdk,linux,x86" />
 <!--
  <project spsId="60534" path="prebuilts/gradle-plugin" name="a/aosp/platform/prebuilts/gradle-plugin" groups="aosp,pdk-cw-fs"/>
  <project spsId="60535" path="prebuilts/libs/libedit" name="a/aosp/platform/prebuilts/libs/libedit" groups="aosp,pdk-cw-fs"/>
  <project spsId="60536" path="prebuilts/maven_repo/android" name="a/aosp/platform/prebuilts/maven_repo/android" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58915" path="prebuilts/misc" name="a/aosp/platform/prebuilts/misc" groups="aosp,pdk,tradefed" revision="d80fba70fbee7ca622bdf215329392b6fa55fd88"/>
- <project spsId="58916" path="prebuilts/ndk" name="a/aosp/platform/prebuilts/ndk" groups="aosp,pdk" revision="ed603f9b7893442321e50d96bf226c27da1c279a"/>
- <project spsId="58918" path="prebuilts/python/darwin-x86/2.7.5" name="a/aosp/platform/prebuilts/python/darwin-x86/2.7.5" groups="aosp,darwin,pdk,pdk-cw-fs" revision="2bdd4fd418614c7c0101147d02199d0e47c4980e"/>
- <project spsId="58919" path="prebuilts/python/linux-x86/2.7.5" name="a/aosp/platform/prebuilts/python/linux-x86/2.7.5" groups="aosp,linux,pdk,pdk-cw-fs" revision="5de4f653a1cff7d7acbbb933711537ef47e2723c"/>
- <project spsId="58920" path="prebuilts/qemu-kernel" name="a/aosp/platform/prebuilts/qemu-kernel" groups="aosp,pdk" revision="55b5aa328e97ed977e29f3780233d9140ac36ab9" clone-depth="1"/>
- <project spsId="58922" path="prebuilts/sdk" name="a/aosp/platform/prebuilts/sdk" groups="aosp,pdk,tradefed" revision="1a592605ea9526f503fa845081c772f9a094ec70"/>
- <project spsId="58923" path="prebuilts/tools" name="a/aosp/platform/prebuilts/tools" groups="aosp,pdk,tools" revision="3323cb51697c7482bf4f203b566c4ccdc908b2a8"/>
+ <project spsId="58915" path="prebuilts/misc" name="a/aosp/platform/prebuilts/misc" groups="aosp,pdk,tradefed" />
+ <project spsId="58916" path="prebuilts/ndk" name="a/aosp/platform/prebuilts/ndk" groups="aosp,pdk" />
+ <project spsId="58918" path="prebuilts/python/darwin-x86/2.7.5" name="a/aosp/platform/prebuilts/python/darwin-x86/2.7.5" groups="aosp,darwin,pdk,pdk-cw-fs" />
+ <project spsId="58919" path="prebuilts/python/linux-x86/2.7.5" name="a/aosp/platform/prebuilts/python/linux-x86/2.7.5" groups="aosp,linux,pdk,pdk-cw-fs" />
+ <project spsId="58920" path="prebuilts/qemu-kernel" name="a/aosp/platform/prebuilts/qemu-kernel" groups="aosp,pdk" />
+ <project spsId="58922" path="prebuilts/sdk" name="a/aosp/platform/prebuilts/sdk" groups="aosp,pdk,tradefed" />
+ <project spsId="58923" path="prebuilts/tools" name="a/aosp/platform/prebuilts/tools" groups="aosp,pdk,tools" />
 <!--
  <project spsId="58924" path="sdk" name="a/aosp/platform/sdk" groups="aosp,pdk-cw-fs"/>
 -->
- <project spsId="58926" path="system/core" name="a/aosp/platform/system/core" groups="aosp,pdk" revision="c6f56fe232d6b6a5c2b6fd0c9baba7cf816f2416"/>
- <project spsId="58927" path="system/extras" name="a/aosp/platform/system/extras" groups="aosp,pdk" revision="af02e8aa9164f723a0c2a421a97c227c5adff4c2"/>
- <project spsId="60527" path="system/keymaster" name="a/aosp/platform/system/keymaster" groups="aosp,pdk" revision="0cb6942d3efb6c056f96321c82a4b3d86af601d6"/>
- <project spsId="58928" path="system/media" name="a/aosp/platform/system/media" groups="aosp,pdk" revision="daa1a00524b5628676075cf17e1699e904252303"/>
- <project spsId="58929" path="system/netd" name="a/aosp/platform/system/netd" groups="aosp,pdk" revision="fef7e149224681ba49bc39856c25610bb04c3735"/>
- <project spsId="58930" path="system/security" name="a/aosp/platform/system/security" groups="aosp,pdk" revision="7d0e9a4170ec1b1ed0f80c1a75131dadf3dd6abe"/>
- <project spsId="58931" path="system/vold" name="a/aosp/platform/system/vold" groups="aosp,pdk" revision="6922290381c200229b986b174f21e9af11531081"/>
+ <project spsId="58926" path="system/core" name="a/aosp/platform/system/core" groups="aosp,pdk" />
+ <project spsId="58927" path="system/extras" name="a/aosp/platform/system/extras" groups="aosp,pdk" />
+ <project spsId="60527" path="system/keymaster" name="a/aosp/platform/system/keymaster" groups="aosp,pdk" />
+ <project spsId="58928" path="system/media" name="a/aosp/platform/system/media" groups="aosp,pdk" />
+ <project spsId="58929" path="system/netd" name="a/aosp/platform/system/netd" groups="aosp,pdk" />
+ <project spsId="58930" path="system/security" name="a/aosp/platform/system/security" groups="aosp,pdk" />
+ <project spsId="58931" path="system/vold" name="a/aosp/platform/system/vold" groups="aosp,pdk" />
  <!--
  <project path="tools/adt/eclipse" name="a/aosp/platform/tools/adt/eclipse" groups="aosp,notdefault,tools"/>
  <project path="tools/adt/idea" name="a/aosp/platform/tools/adt/idea" groups="aosp,notdefault,tools"/>
@@ -672,40 +672,40 @@
  <!-- END open-source projects -->
 
 <!-- new in PDK -->
-<project path="device/generic/lionhead" name="a/aosp/device/generic/lionhead" groups="aosp,pdk" revision="32e898493c5f94bae0794532004bdaa58263809c"/>
-<project path="external/aac" name="a/aosp/platform/external/aac" groups="aosp,pdk" revision="267940f5bd089940840f1dcdc744e10dbd8df254"/>
-<project path="external/boringssl" name="a/aosp/platform/external/boringssl" groups="aosp,pdk" revision="4f05b238eec1f3f026657a6da19058143d34ceaa"/>
-<project path="external/cblas" name="a/aosp/platform/external/cblas" groups="aosp,pdk" revision="57de99c2b856d5e2c47ca3deca2f5b89e843ee2c"/>
-<project path="external/chromium-webview" name="a/aosp/platform/external/chromium-webview" groups="aosp,pdk" revision="d17ce7e718fe73bdd4e0a5a68668534eceec76ca"/>
-<project path="external/libavc" name="a/aosp/platform/external/libavc" groups="aosp,pdk" revision="4980a6f7e5308e61fe086422b43c72b60bb6412c"/>
-<project path="external/libmpeg2" name="a/aosp/platform/external/libmpeg2" groups="aosp,pdk" revision="8a947018e3e721c99b0f548d28a922471d94365b"/>
+<project path="device/generic/lionhead" name="a/aosp/device/generic/lionhead" groups="aosp,pdk" />
+<project path="external/aac" name="a/aosp/platform/external/aac" groups="aosp,pdk" />
+<project path="external/boringssl" name="a/aosp/platform/external/boringssl" groups="aosp,pdk" />
+<project path="external/cblas" name="a/aosp/platform/external/cblas" groups="aosp,pdk" />
+<project path="external/chromium-webview" name="a/aosp/platform/external/chromium-webview" groups="aosp,pdk" />
+<project path="external/libavc" name="a/aosp/platform/external/libavc" groups="aosp,pdk" />
+<project path="external/libmpeg2" name="a/aosp/platform/external/libmpeg2" groups="aosp,pdk" />
 <!-- tmp remove as pdk branch does not exist -->
 <!-- <project path="external/selinux" name="a/aosp/platform/external/selinux" groups="aosp,pdk"/> -->
-<project path="external/sonic" name="a/aosp/platform/external/sonic" groups="aosp,pdk" revision="10c16fc60582d7e8bcf7533793871485d339e241"/>
-<project path="external/squashfs-tools" name="a/aosp/platform/external/squashfs-tools" groups="aosp,pdk" revision="10274203a57f8d4d0b69f013f032f633bb785dc2"/>
-<project path="external/toybox" name="a/aosp/platform/external/toybox" groups="aosp,pdk" revision="0598a13bcdd84d26fe5af58e06dde03037369130"/>
-<project path="external/v8" name="a/aosp/platform/external/v8" groups="aosp,pdk" revision="57a14c9a8621270b0e6c697dce28a9c453ebe55f"/>
-<project path="external/vogar" name="a/aosp/platform/external/vogar" groups="aosp,pdk" revision="bdbb3dc2d6cc7d76f07c31d1f222c0349f6ccce0"/>
-<project path="prebuilts/clang/darwin-x86/host/3.6" name="a/aosp/platform/prebuilts/clang/darwin-x86/host/3.6" groups="aosp,pdk" revision="513db590c3ad952eb9a670088b41b2c10542aa8c"/>
-<project path="prebuilts/clang/linux-x86/host/3.6" name="a/aosp/platform/prebuilts/clang/linux-x86/host/3.6" groups="aosp,pdk" revision="2803984d926e7f866e178e17c3f2b99d9a8aae06"/>
-<project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="a/aosp/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="aosp,pdk" revision="455153190fc60b820cb11a6849a5d3c352b78454"/>
-<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="a/aosp/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="aosp,pdk" revision="eb4bf61ca530c647055de2283bbb7f75878d5798"/>
-<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="aosp,pdk" revision="f61a459478cdc31e8aae22a182cdbf814ba08012"/>
-<project path="system/bt" name="a/aosp/platform/system/bt" groups="aosp,pdk" revision="7407ffca5e750ba9755b122c3a94ff663dbcbee6"/>
-<project path="system/gatekeeper" name="a/aosp/platform/system/gatekeeper" groups="aosp,pdk" revision="2c8c44ff73baf019ab5713566517527143ef7608"/>
+<project path="external/sonic" name="a/aosp/platform/external/sonic" groups="aosp,pdk" />
+<project path="external/squashfs-tools" name="a/aosp/platform/external/squashfs-tools" groups="aosp,pdk" />
+<project path="external/toybox" name="a/aosp/platform/external/toybox" groups="aosp,pdk" />
+<project path="external/v8" name="a/aosp/platform/external/v8" groups="aosp,pdk" />
+<project path="external/vogar" name="a/aosp/platform/external/vogar" groups="aosp,pdk" />
+<project path="prebuilts/clang/darwin-x86/host/3.6" name="a/aosp/platform/prebuilts/clang/darwin-x86/host/3.6" groups="aosp,pdk" />
+<project path="prebuilts/clang/linux-x86/host/3.6" name="a/aosp/platform/prebuilts/clang/linux-x86/host/3.6" groups="aosp,pdk" />
+<project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="a/aosp/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="aosp,pdk" />
+<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="a/aosp/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="aosp,pdk" />
+<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="aosp,pdk" />
+<project path="system/bt" name="a/aosp/platform/system/bt" groups="aosp,pdk" />
+<project path="system/gatekeeper" name="a/aosp/platform/system/gatekeeper" groups="aosp,pdk" />
 <!-- tmp remove as pdk branch does not exist -->
 <!-- <project path="vendor/google_testing/comms" name="a/aosp/platform/vendor/google_testing/comms" groups="aosp,pdk"/> -->
 
 <!-- these are on m-release -->
 <!-- tmp remove to speed up sync -->
-<!-- <project path="vendor/pdk/data/cts" name="a/aosp/platform/vendor/pdk/data/cts" groups="aosp,pdk" revision="mirror/pdk/m-release"/> -->
-<project path="vendor/pdk/data/docs" name="a/aosp/platform/vendor/pdk/data/docs" groups="aosp,pdk" revision="mirror/pdk/m-release"/>
+<!-- <project path="vendor/pdk/data/cts" name="a/aosp/platform/vendor/pdk/data/cts" groups="aosp,pdk" /> -->
+<project path="vendor/pdk/data/docs" name="a/aosp/platform/vendor/pdk/data/docs" groups="aosp,pdk" />
 
 <!--  not on our mirror -->
-<!-- <project path="vendor/pdk/mini_x86/mini_x86-userdebug/platform" name="a/aosp/platform/vendor/pdk/mini_x86/mini_x86-userdebug/platform" groups="aosp,pdk" revision="mirror/pdk/builds/m-release/MRZ61"/> -->
+<!-- <project path="vendor/pdk/mini_x86/mini_x86-userdebug/platform" name="a/aosp/platform/vendor/pdk/mini_x86/mini_x86-userdebug/platform" groups="aosp,pdk" /> -->
 
 <!-- no longer part of AOSP, but retained for now as bsp needs them -->
- <project spsId="58662" path="external/libxml2" name="a/aosp/platform/external/libxml2" groups="aosp,pdk-cw-fs" revision="android/l/mr1/r1"/>
- <project spsId="58692" path="external/openssl" name="a/aosp/platform/external/openssl" groups="aosp,pdk" revision="android/l/mr1/r1"/>
+ <project spsId="58662" path="external/libxml2" name="a/aosp/platform/external/libxml2" groups="aosp,pdk-cw-fs" />
+ <project spsId="58692" path="external/openssl" name="a/aosp/platform/external/openssl" groups="aosp,pdk" />
 
 </manifest>
