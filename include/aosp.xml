@@ -272,7 +272,6 @@
  <project spsId="58661" path="external/libvpx" name="a/aosp/platform/external/libvpx" groups="aosp,pdk"/>
 <!--
  <project spsId="60487" path="external/libvterm" name="a/aosp/platform/external/libvterm" groups="aosp,pdk-cw-fs"/>
- <project spsId="58662" path="external/libxml2" name="a/aosp/platform/external/libxml2" groups="aosp,pdk-cw-fs"/>
  <project spsId="58664" path="external/libyuv" name="a/aosp/platform/external/libyuv" groups="aosp,libyuv,pdk-cw-fs"/>
  <project spsId="58665" path="external/linux-tools-perf" name="a/aosp/platform/external/linux-tools-perf" groups="aosp,pdk-cw-fs"/>
  <project spsId="58666" path="external/littlemock" name="a/aosp/platform/external/littlemock" groups="aosp,pdk-cw-fs"/>
@@ -316,7 +315,6 @@
  <project spsId="58689" path="external/opencv" name="a/aosp/platform/external/opencv" groups="aosp,pdk-cw-fs"/>
  <project spsId="58690" path="external/openfst" name="a/aosp/platform/external/openfst" groups="aosp,pdk-cw-fs"/>
  <project spsId="58691" path="external/openssh" name="a/aosp/platform/external/openssh" groups="aosp,pdk-cw-fs"/>
- <project spsId="58692" path="external/openssl" name="a/aosp/platform/external/openssl" groups="aosp,pdk"/>
  <project spsId="58693" path="external/oprofile" name="a/aosp/platform/external/oprofile" groups="aosp,pdk-cw-fs"/>
  <project spsId="60495" path="external/owasp/sanitizer" name="a/aosp/platform/external/owasp/sanitizer" groups="aosp"/>
 -->
@@ -673,6 +671,7 @@
  -->
  <!-- END open-source projects -->
 
+<!-- new in PDK -->
 <project path="device/generic/lionhead" name="a/aosp/device/generic/lionhead" groups="aosp,pdk"/>
 <project path="external/aac" name="a/aosp/platform/external/aac" groups="aosp,pdk"/>
 <project path="external/boringssl" name="a/aosp/platform/external/boringssl" groups="aosp,pdk"/>
@@ -700,5 +699,10 @@
 <!-- <project path="vendor/pdk/data/docs" name="a/aosp/platform/vendor/pdk/data/docs" groups="aosp,pdk"/> -->
 <!--  not created yet -->
 <!-- <project path="vendor/pdk/mini_x86/mini_x86-userdebug/platform" name="a/aosp/platform/vendor/pdk/mini_x86/mini_x86-userdebug/platform" groups="aosp,pdk"/> -->
+
+
+<!-- no longer part of AOSP, but retained for now as bsp needs them -->
+ <project spsId="58662" path="external/libxml2" name="a/aosp/platform/external/libxml2" groups="aosp,pdk-cw-fs"/>
+ <project spsId="58692" path="external/openssl" name="a/aosp/platform/external/openssl" groups="aosp,pdk"/>
 
 </manifest>
