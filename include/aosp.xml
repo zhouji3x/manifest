@@ -695,7 +695,7 @@
 <project path="vendor/google_testing/comms" name="a/aosp/platform/vendor/google_testing/comms" groups="aosp,pdk"/>
 
 <!-- these are on m-release -->
-<project path="vendor/pdk/data/cts" name="a/aosp/platform/vendor/pdk/data/cts" groups="aosp,pdk" clone-depth="1" revision="mirror/pdk/m-release"/>
+<project path="vendor/pdk/data/cts" name="a/aosp/platform/vendor/pdk/data/cts" groups="aosp,pdk" clone-depth="1"/>
 <project path="vendor/pdk/data/docs" name="a/aosp/platform/vendor/pdk/data/docs" groups="aosp,pdk" sync-c="true"/>
 
 <!--  not on all mirrors -->
