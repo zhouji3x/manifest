@@ -6,7 +6,7 @@
           review="https://android.intel.com/" />
 
   <remote name="or"
-          fetch="ssh://$USER@android-mirror-or.devtools.intel.com"
+          fetch="ssh://android-mirror-or.devtools.intel.com"
           review="https://android.intel.com/" />
 
 </manifest>
