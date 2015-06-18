@@ -432,9 +432,6 @@
  <project path="hardware/akm" name="a/aosp/platform/hardware/akm"/>
  -->
  <project spsId="58771" path="hardware/broadcom/libbt" name="a/aosp/platform/hardware/broadcom/libbt" groups="aosp,pdk" />
-<!--
- <project spsId="58772" path="hardware/broadcom/wlan" name="a/aosp/platform/hardware/broadcom/wlan" groups="aosp,broadcom_wlan"/>
--->
  <!--
  <project path="hardware/intel/audio_media" name="a/aosp/platform/hardware/intel/audio_media" groups="aosp,intel"/>
  <project path="hardware/intel/bootstub" name="a/aosp/platform/hardware/intel/bootstub" groups="aosp,intel"/>
@@ -705,5 +702,8 @@
 <!-- no longer part of AOSP, but retained for now as bsp needs them -->
 <project spsId="58662" path="external/libxml2" name="a/aosp/platform/external/libxml2" groups="aosp,pdk-cw-fs" />
 <project spsId="58692" path="external/openssl" name="a/aosp/platform/external/openssl" groups="aosp,pdk" />
+
+<!-- not in pdk atm, but reatined to enable wifi on cht_ffd -->
+<project spsId="58772" path="hardware/broadcom/wlan" name="a/aosp/platform/hardware/broadcom/wlan" groups="aosp,broadcom_wlan"/>
 
 </manifest>
