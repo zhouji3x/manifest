@@ -91,9 +91,7 @@
  <project spsId="58559" path="external/bzip2" name="a/aosp/platform/external/bzip2" groups="aosp,pdk" />
 <!--
  <project spsId="58560" path="external/ceres-solver" name="a/aosp/platform/external/ceres-solver" groups="aosp,pdk-cw-fs"/>
--->
  <project spsId="58561" path="external/checkpolicy" name="a/aosp/platform/external/checkpolicy" groups="aosp,pdk" />
-<!--
  <project spsId="58563" path="external/chromium-libpac" name="a/aosp/platform/external/chromium-libpac"/>
 -->
  <project spsId="58564" path="external/chromium-trace" name="a/aosp/platform/external/chromium-trace" groups="aosp,pdk" />
@@ -258,8 +256,8 @@
  <project spsId="60483" path="external/libseccomp-helper" name="a/aosp/platform/external/libseccomp-helper" groups="aosp,pdk-cw-fs"/>
 -->
  <project spsId="58656" path="external/libselinux" name="a/aosp/platform/external/libselinux" groups="aosp,pdk" />
- <project spsId="58657" path="external/libsepol" name="a/aosp/platform/external/libsepol" groups="aosp,pdk" />
 <!--
+ <project spsId="58657" path="external/libsepol" name="a/aosp/platform/external/libsepol" groups="aosp,pdk" />
  <project spsId="60484" path="external/libssh2" name="a/aosp/platform/external/libssh2" groups="aosp,pdk-cw-fs"/>
 -->
  <project spsId="60485" path="external/libunwind" name="a/aosp/platform/external/libunwind" groups="aosp,pdk" />
@@ -689,7 +687,10 @@
 <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="aosp,pdk" />
 <project path="system/bt" name="a/aosp/platform/system/bt" groups="aosp,pdk" />
 <project path="system/gatekeeper" name="a/aosp/platform/system/gatekeeper" groups="aosp,pdk" />
-<project path="vendor/google_testing/comms" name="a/aosp/platform/vendor/google_testing/comms" groups="aosp,pdk"/>
+
+<!-- new in rebase -->
+<project groups="pdk,qcom_msm8x26" path="external/harfbuzz_ng" name="a/aosp/platform/external/harfbuzz_ng"/>
+<project groups="pdk" path="external/pdfium" name="a/aosp/platform/external/pdfium"/>
 
 <!-- these are on m-release -->
 <project path="vendor/pdk/data/cts" name="a/aosp/platform/vendor/pdk/data/cts" groups="aosp,pdk" clone-depth="1"/>
