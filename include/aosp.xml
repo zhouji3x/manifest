@@ -697,8 +697,8 @@
 <project path="vendor/pdk/data/docs" name="a/aosp/platform/vendor/pdk/data/docs" groups="aosp,pdk" sync-c="true"/>
 
 <!--  not on all mirrors -->
- <project path="vendor/pdk/mini_x86/mini_x86-userdebug/platform" name="a/aosp/platform/vendor/pdk/mini_x86/mini_x86-userdebug/platform" groups="aosp,pdk" remote="or" revision="mirror/pdk/builds/m-release/MRZ61" sync-c="true"/>
- <project path="vendor/pdk/mini_x86_64/mini_x86_64-userdebug/platform" name="a/aosp/platform/vendor/pdk/mini_x86_64/mini_x86_64-userdebug/platform" groups="aosp,pdk" remote="or" revision="mirror/pdk/builds/m-release/MRZ61" sync-c="true"/>
+ <project path="vendor/pdk/mini_x86/mini_x86-userdebug/platform" name="a/aosp/platform/vendor/pdk/mini_x86/mini_x86-userdebug/platform" groups="aosp,pdk" remote="or" revision="mirror/pdk/builds/m-release/MRZ79D" sync-c="true"/>
+ <project path="vendor/pdk/mini_x86_64/mini_x86_64-userdebug/platform" name="a/aosp/platform/vendor/pdk/mini_x86_64/mini_x86_64-userdebug/platform" groups="aosp,pdk" remote="or" revision="mirror/pdk/builds/m-release/MRZ79D" sync-c="true"/>
 
 <!-- no longer part of AOSP, but retained for now as bsp needs them -->
 <project spsId="58662" path="external/libxml2" name="a/aosp/platform/external/libxml2" groups="aosp,pdk-cw-fs" />
