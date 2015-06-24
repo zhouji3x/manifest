@@ -13,6 +13,11 @@
     <project name="a/bsp/vendor/intel/baytrail" path="device/intel/baytrail" />
     <project name="a/bsp/device/intel/cherrytrail" path="device/intel/cherrytrail" groups="embargoed" />
     <project name="a/bsp/device/intel/broxton" path="device/intel/broxton" groups="embargoed" />
+    <project name="a/bsp/device/intel/binarydownloader" path="device/intel/binarydownloader" groups="bsp-priv,embargoed" >
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+   </project>
     <project name="a/bsp/device/intel/mixins" path="device/intel/mixins" groups="embargoed" />
     <project name="a/bsp/vendor/intel/common" path="device/intel/common" />
     <project spsId="59064" name="a/bsp/device/intel/houdini" path="vendor/intel/houdini" />
@@ -32,22 +37,22 @@
     <project spsId="60548" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/bluedroid" path="hardware/intel/bluedroid" />
     <project name="a/bsp/platform/hardware/intel/common/utils" path="vendor/intel/hardware/utils" />
     <project name="a/bsp/platform/vendor/intel/fw/iwl" path="vendor/intel/fw/iwl" />
-    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/at-core" path="vendor/intel/audio/mamgr/at-core" >
+    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/at-core" path="vendor/intel/audio/mamgr/at-core"   groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/core" path="vendor/intel/audio/mamgr/core" >
+    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/core" path="vendor/intel/audio/mamgr/core"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/modem/xmm" path="vendor/intel/audio/mamgr/modem/xmm" >
+    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/modem/xmm" path="vendor/intel/audio/mamgr/modem/xmm"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms_tests" path="vendor/intel/audio/tests" >
+    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms_tests" path="vendor/intel/audio/tests"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
@@ -76,10 +81,12 @@
     <project name="a/bsp/platform/external/efitools" path="external/efitools" />
     <project name="a/bsp/platform/external/gnu-efi" path="external/gnu-efi" />
     <project name="a/bsp/platform/external/pciutils" path="external/pciutils" />
+    <project name="a/bsp/vendor/intel/PRIVATE/imsservices" path="vendor/intel/hardware/telephony/imsservices" />
+    <project name="a/bsp/vendor/intel/PRIVATE/imsstack" path="vendor/intel/hardware/telephony/imsstack" />
     <project spsId="60541" name="a/bsp/platform/external/thermal_daemon" path="external/thermal_daemon" />
     <project name="a/bsp/platform/external/uefi_shim" path="external/uefi_shim" />
     <project name="a/bsp/platform/packages/apps/AndroidTerm" path="vendor/intel/apps/AndroidTerm" />
-    <project name="a/bsp/vendor/intel/apps/PRIVATE/refcam" path="vendor/intel/apps/PRIVATE/refcam" >
+    <project name="a/bsp/vendor/intel/apps/PRIVATE/refcam" path="vendor/intel/apps/PRIVATE/refcam"  groups="bsp-priv">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -91,12 +98,12 @@
     <project name="a/bsp/vendor/intel/external/efivar" path="external/efivar" />
     <project restricted="not_IMC_wprd" groups="bsp-priv,not_imc_wprd" name="a/bsp/vendor/intel/fw/bt/broadcom" path="vendor/intel/fw/bluetooth/broadcom" />
     <project restricted="not_IMC_wprd" groups="bsp-priv,not_imc_wprd" name="a/bsp/vendor/intel/fw/bt/realtek" path="vendor/intel/fw/bluetooth/realtek" />
-    <project name="a/bsp/vendor/intel/fw/PRIVATE/bt/intel" path="vendor/intel/fw/bluetooth/intel" >
+    <project name="a/bsp/vendor/intel/fw/PRIVATE/bt/intel" path="vendor/intel/fw/bluetooth/intel"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/fw/PRIVATE/nfc/intel" path="vendor/intel/fw/nfc/intel/fdp" >
+    <project name="a/bsp/vendor/intel/fw/PRIVATE/nfc/intel" path="vendor/intel/fw/nfc/intel/fdp"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
@@ -106,48 +113,48 @@
     <project name="a/bsp/vendor/intel/hardware/audio_media" path="vendor/intel/hardware/audio/audio_media" />
     <project name="a/bsp/vendor/intel/fw/camera/ipu4" path="vendor/intel/fw/ipu4" />
     <project name="a/bsp/vendor/intel/hardware/audiocomms/vibrator" path="hardware/intel/vibrator" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" path="hardware/intel/audio/hal" >
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" path="hardware/intel/audio/hal"  groups="bsp-priv">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa" path="external/parameter-framework/plugins/alsa" >
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa" path="external/parameter-framework/plugins/alsa"  groups="bsp-priv">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa-custom" path="vendor/intel/audio/parameter-framework-plugins/alsa-custom" >
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa-custom" path="vendor/intel/audio/parameter-framework-plugins/alsa-custom"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
     <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/fs" path="external/parameter-framework/plugins/fs" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/modemAudio" path="vendor/intel/audio/parameter-framework-plugins/modemAudio" >
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/modemAudio" path="vendor/intel/audio/parameter-framework-plugins/modemAudio"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/power" path="vendor/intel/audio/parameter-framework-plugins/power" >
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/power" path="vendor/intel/audio/parameter-framework-plugins/power"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/property" path="vendor/intel/audio/parameter-framework-plugins/property" >
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/property" path="vendor/intel/audio/parameter-framework-plugins/property"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/remote-parameter" path="vendor/intel/audio/parameter-framework-plugins/remote-parameter" >
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/remote-parameter" path="vendor/intel/audio/parameter-framework-plugins/remote-parameter"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/route" path="vendor/intel/audio/parameter-framework-plugins/route" >
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/route" path="vendor/intel/audio/parameter-framework-plugins/route"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/xmm" path="vendor/intel/audio/parameter-framework-plugins/xmm" >
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/xmm" path="vendor/intel/audio/parameter-framework-plugins/xmm"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
@@ -156,7 +163,7 @@
     <project name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8" path="vendor/intel/ufo/gen8" />
     <project name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8_dev" path="vendor/intel/ufo/gen8_dev" groups="embargoed" />
     <project name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen9_dev" path="vendor/intel/ufo/gen9_dev" groups="embargoed" />
-    <project spsId="59084" name="a/bsp/vendor/intel/hardware/PRIVATE/rs_vectorizer" path="vendor/intel/rs_vectorizer" >
+    <project spsId="59084" name="a/bsp/vendor/intel/hardware/PRIVATE/rs_vectorizer" path="vendor/intel/rs_vectorizer"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
@@ -173,12 +180,12 @@
     <project name="a/bsp/vendor/intel/libsensorshub" path="vendor/intel/hardware/libsensorshub" />
     <project name="a/bsp/vendor/arcsoft/arccamera" path="vendor/intel/apps/PRIVATE/arccamera" />
     <project name="a/bsp/hardware/intel/libsensors-input" path="hardware/intel/libsensors-input" />
-    <project name="a/bsp/device/intel/PRIVATE/libaudioresample" path="vendor/intel/hardware/audio/libaudioresample" >
+    <project name="a/bsp/device/intel/PRIVATE/libaudioresample" path="vendor/intel/hardware/audio/libaudioresample"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project spsId="60885" name="a/bsp/vendor/intel/PRIVATE/WFA_Sigma_Agent" path="vendor/intel/hardware/PRIVATE/WFA_Sigma_Agent" >
+    <project spsId="60885" name="a/bsp/vendor/intel/PRIVATE/WFA_Sigma_Agent" path="vendor/intel/hardware/PRIVATE/WFA_Sigma_Agent"  groups="bsp-priv">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -191,51 +198,51 @@
     <project name="a/bsp/hardware/intel/lib_imas" path="hardware/intel/audio/imc/lib_imas" />
     <project name="a/bsp/vendor/intel/fw/fm/intel" path="vendor/intel/fw/fm/intel" />
     <project name="a/bsp/hardware/intel/wrs_omxil_core" path="vendor/intel/hardware/wrs_omxil_core" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/libmediaparser" path="vendor/intel/hardware/PRIVATE/libmediaparser" >
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/libmediaparser" path="vendor/intel/hardware/PRIVATE/libmediaparser"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
     <project name="a/bsp/hardware/intel/omx-components" path="vendor/intel/hardware/omx-components" />
-    <project spsId="60538" name="a/bsp/device/intel/PRIVATE/media_codecs" path="vendor/intel/media_codecs" >
+    <project spsId="60538" name="a/bsp/device/intel/PRIVATE/media_codecs" path="vendor/intel/media_codecs"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/tools/PRIVATE/audiocomms/prober" path="vendor/intel/audio/probe" >
+    <project name="a/bsp/vendor/intel/tools/PRIVATE/audiocomms/prober" path="vendor/intel/audio/probe"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
     <project name="a/bsp/vendor/intel/wifi" path="hardware/intel/wifi" />
-    <project spsId="60540" name="a/bsp/hardware/intel/PRIVATE/libstagefrighthw" path="vendor/intel/libstagefrighthw" >
+    <project spsId="60540" name="a/bsp/hardware/intel/PRIVATE/libstagefrighthw" path="vendor/intel/libstagefrighthw"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
     <project name="a/bsp/hardware/intel/PRIVATE/mediasdk_release" path="vendor/intel/mediasdk_release" />
     <project name="a/bsp/hardware/intel/libmedia_utils" path="vendor/intel/hardware/libmedia_utils" />
-    <project name="a/bsp/hardware/intel/PRIVATE/libcamera2" path="vendor/intel/camera/libcamera2" >
+    <project name="a/bsp/hardware/intel/PRIVATE/libcamera2" path="vendor/intel/camera/libcamera2"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project spsId="61017" name="a/bsp/hardware/intel/PRIVATE/camera2hal" path="vendor/intel/camera/camera3hal" >
+    <project spsId="61017" name="a/bsp/hardware/intel/PRIVATE/camera2hal" path="vendor/intel/camera/camera3hal"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/camera_extension" path="vendor/intel/camera/camera_extension" >
+    <project name="a/bsp/hardware/intel/PRIVATE/camera_extension" path="vendor/intel/camera/camera_extension"  groups="bsp-priv">
     <annotation name="g_external" value="src"/>
     <annotation name="all_external" value="src"/>
     <annotation name="bxt_rvp_external" value="src"/>
   </project>
-    <project spsId="61020" name="a/bsp/hardware/intel/PRIVATE/libmfldadvci" path="vendor/intel/camera/libmfldadvci" >
+    <project spsId="61020" name="a/bsp/hardware/intel/PRIVATE/libmfldadvci" path="vendor/intel/camera/libmfldadvci"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project spsId="61019" name="a/bsp/hardware/intel/PRIVATE/cameralibs" path="vendor/intel/camera/cameralibs" >
+    <project spsId="61019" name="a/bsp/hardware/intel/PRIVATE/cameralibs" path="vendor/intel/camera/cameralibs"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
@@ -249,7 +256,7 @@
     <project name="a/bsp/device/intel/fw/camera" path="vendor/intel/fw/camera" />
     <project spsId="60870" name="a/bsp/vendor/intel/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" path="vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" />
     <project name="a/bsp/vendor/intel/hardware/libcamerausb" path="vendor/intel/camera/libcamerausb" />
-    <project name="a/bsp/device/intel/PRIVATE/DRM/widevine" path="vendor/intel/widevine" >
+    <project name="a/bsp/device/intel/PRIVATE/DRM/widevine" path="vendor/intel/widevine"  groups="bsp-priv">
 	<annotation name="g_external" value="no"/>
 	<annotation name="all_external" value="no"/>
 	<annotation name="bxt_rvp_external" value="no"/>
@@ -260,13 +267,13 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project name="a/bsp/vendor/intel/fw/PRIVATE/ifwi/capsules" path="hardware/intel/efi_capsules" >
+    <project name="a/bsp/vendor/intel/fw/PRIVATE/ifwi/capsules" path="hardware/intel/efi_capsules"  groups="bsp-priv">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
     <project name="a/bsp/vendor/intel/hardware/energy_management/fg_algo" path="vendor/intel/energy_management/fg_algo" />
-    <project name="a/bsp/hardware/intel/libmintel" path="vendor/intel/hardware/PRIVATE/libmintel" >
+    <project name="a/bsp/hardware/intel/libmintel" path="vendor/intel/hardware/PRIVATE/libmintel"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
@@ -277,7 +284,7 @@
     <project name="a/bsp/vendor/intel/libdmi" path="vendor/intel/libdmi" />
     <project name="a/bsp/device/intel/nfc" path="hardware/nxp/nfc" />
     <project name="a/bsp/platform/external/sbsigntool" path="external/sbsigntool" />
-    <project name="a/bsp/vendor/intel/PRIVATE/art-extension" path="vendor/intel/art-extension" >
+    <project name="a/bsp/vendor/intel/PRIVATE/art-extension" path="vendor/intel/art-extension"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
@@ -290,34 +297,34 @@
     <project name="a/bsp/device/intel/telephony_tools/PRIVATE/component_testing" path="vendor/intel/tools/telephony_tools/PRIVATE/component_testing" />
     <project name="a/bsp/device/intel/telephony_tools/at_proxy" path="vendor/intel/tools/telephony_tools/at_proxy" />
     <project name="a/bsp/device/intel/telephony_tools/modem_trace_server" path="vendor/intel/tools/telephony_tools/modem_trace_server" />
-    <project name="a/bsp/hardware/intel/PRIVATE/IFX-modem" path="vendor/intel/hardware/telephony/IFX-modem" >
+    <project name="a/bsp/hardware/intel/PRIVATE/IFX-modem" path="vendor/intel/hardware/telephony/IFX-modem"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/Modem_Updater" path="vendor/intel/hardware/telephony/Modem_Updater" >
+    <project name="a/bsp/hardware/intel/PRIVATE/Modem_Updater" path="vendor/intel/hardware/telephony/Modem_Updater"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/NVM_Manager" path="vendor/intel/hardware/telephony/NVM_Manager" >
+    <project name="a/bsp/hardware/intel/PRIVATE/NVM_Manager" path="vendor/intel/hardware/telephony/NVM_Manager"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
     <project name="a/bsp/hardware/intel/libnvmmodule" path="hardware/intel/libnvmmodule" />
-    <project name="a/bsp/hardware/intel/PRIVATE/miu" path="hardware/intel/telephony/miu" >
+    <project name="a/bsp/hardware/intel/PRIVATE/miu" path="hardware/intel/telephony/miu"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/mmgr" path="hardware/intel/telephony/mmgr" >
+    <project name="a/bsp/hardware/intel/PRIVATE/mmgr" path="hardware/intel/telephony/mmgr"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
     <project name="a/bsp/hardware/intel/rapid_ril" path="vendor/intel/hardware/telephony/rapid_ril" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/libtcs" path="hardware/intel/telephony/libtcs" >
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/libtcs" path="hardware/intel/telephony/libtcs"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
@@ -327,17 +334,18 @@
     <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnssAdaptation/android" path="vendor/intel/hardware/cg2k/gnssAdaptation/android" />
     <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnss/core" path="vendor/intel/hardware/cg2k/gnss/core" />
     <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnssExe" path="vendor/intel/hardware/cg2k/gnssExe" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/3rdparty" path="vendor/intel/hardware/cg2k/3rdparty" />
     <project name="a/bsp/hardware/arm/mali" path="hardware/intel/gpu/mali" groups="embargoed" />
     <project name="a/bsp/hardware/arm/mali-gralloc" path="hardware/intel/gpu/mali-gralloc" groups="embargoed" />
     <project name="a/bsp/hardware/arm/mali-hwcomposer" path="hardware/intel/gpu/mali-hwcomposer" groups="embargoed" />
     <project spsId="60537" name="a/bsp/device/intel/apps/OemTelephony" path="vendor/intel/apps/telephony/OemTelephony" />
-    <project name="a/bsp/vendor/intel/PRIVATE/apps/sarmanager" path="vendor/intel/apps/telephony/sarmanager" >
+    <project name="a/bsp/vendor/intel/PRIVATE/apps/sarmanager" path="vendor/intel/apps/telephony/sarmanager"  groups="bsp-priv">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
     <project spsId="60542" name="a/bsp/device/intel/fw/modem/IMC/7160_flashless" path="vendor/intel/fw/modem/IMC/7160_flashless" />
-    <project spsId="60542" name="a/bsp/vendor/intel/apps/cellular_coex_manager" path="vendor/intel/apps/PRIVATE/cellular_coex_manager" >
+    <project spsId="60542" name="a/bsp/vendor/intel/apps/cellular_coex_manager" path="vendor/intel/apps/PRIVATE/cellular_coex_manager"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
@@ -349,14 +357,14 @@
     <project name="a/bsp/hardware/intel/PRIVATE/libmix" path="vendor/intel/hardware/libmix" />
     <project name="a/bsp/vendor/intel/hardware/PRIVATE/rocs" path="vendor/intel/hardware/PRIVATE/rocs" />
     <project name="a/bsp/vendor/intel/hardware/PRIVATE/wifi_usc" path="vendor/intel/hardware/PRIVATE/wifi_usc" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/libds4" path="vendor/intel/camera/PRIVATE/libds4" >
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/libds4" path="vendor/intel/camera/PRIVATE/libds4"  groups="bsp-priv">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
     <project name="a/bsp/vendor/intel/tools/asoc_dfw" path="vendor/intel/tools/asoc_dfw" />
     <project name="a/bsp/vendor/intel/hardware/realtek/libbt" path="vendor/intel/hardware/realtek/libbt" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/bluedroid" path="vendor/intel/audio/parameter-framework-plugins/bluedroid" >
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/bluedroid" path="vendor/intel/audio/parameter-framework-plugins/bluedroid"  groups="bsp-priv">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -438,5 +446,6 @@
 
     <!--security repository -->
     <project name="a/bsp/hardware/intel/rpcsecurity/libtee_vsec" path="hardware/intel/rpcsecurity/libtee_vsec" />
+    <project name="a/bsp/device/intel/sepolicy" path="device/intel/sepolicy" />
 
 </manifest>
