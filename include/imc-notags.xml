@@ -10,7 +10,8 @@
     <project name="a/bsp/vendor/tools/Bluetooth/bt_trace_manager" path="vendor/tools/Bluetooth/bt_trace_manager" />
     <project name="a/bsp/hardware/imc/bt_trace_daemon" path="vendor/tools/Bluetooth/bt_trace_daemon" />
     <project name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" path="hardware/imc/pt_bt_daemon" />
-    <project name="a/bsp/packages/apps/fmr" path="packages/apps/fmr" />
+<!-- conflicts with AOSP FMRadio -->
+<!--    <project name="a/bsp/packages/apps/fmr" path="packages/apps/fmr" /> -->
     <project name="a/bsp/hardware/imc/fm" path="hardware/imc/fm" />
     <project name="a/bsp/hardware/intel/vpu/verisilicon" path="hardware/intel/vpu/verisilicon" />
     <project name="a/bsp/vendor/intel/liboemcrypto" path="vendor/intel/liboemcrypto" />
