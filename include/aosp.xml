@@ -185,7 +185,8 @@
   <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/openfst" path="external/openfst" revision="d329901723ef29099659d9b955c5580de686fd6d"/>
   <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/openssh" path="external/openssh" revision="cfb649f16fb638fa1c8c7e4cc229ce547dfa14d6"/>
   <project groups="pdk-fs" name="a/aosp/platform/external/owasp/sanitizer" path="external/owasp/sanitizer" revision="bbfb25464ff30c5a62dce351d719a8c533afb2a3"/>
-  <project groups="pdk-fs" name="a/aosp/platform/external/parameter-framework" path="external/parameter-framework" revision="c99720d29f2ee618cc74c9336d2cd2a26544c020"/>
+<!-- removed as conflicts with bsp parameter-framework -->
+<!--  <project groups="pdk-fs" name="a/aosp/platform/external/parameter-framework" path="external/parameter-framework" revision="c99720d29f2ee618cc74c9336d2cd2a26544c020"/> -->
   <project groups="pdk" name="a/aosp/platform/external/pcre" path="external/pcre" revision="0d3d4875d4e672ab52cfd421da9a7fddbbaecda3"/>
   <project groups="pdk" name="a/aosp/platform/external/pdfium" path="external/pdfium" revision="e6986e1e8d4a57987f47c215490cb080a65ee29a"/>
   <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/ppp" path="external/ppp" revision="2f5a56c9492fb06c07e0b9ec014bd8029aff187d"/>
