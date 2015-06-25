@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<default revision="android/m/topic/aosp/pdk"
+	<default revision="android/m/topic/aosp/master"
            remote="origin"
            sync-j="5" />
 
