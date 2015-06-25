@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<default revision="android/m/topic/aosp/master"
+	<default revision="android/m/mr0/r1"
            remote="origin"
+           sync-c="true"
            sync-j="5" />
 
   <include name="rbase.xml"/>
-  <project name="manifests" path="manifests"  groups="embargoed"/>
+  <project name="manifests" path="manifests"  groups="embargoed" revision="android/master"/>
 
 </manifest>

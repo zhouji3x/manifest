@@ -8,444 +8,444 @@
        be removed from the "embargoed" group and its IP plan in Code Center
        must accurately reflect this redistributable status.
     -->
-    <project name="a/bsp/device/intel/bxt-embargo-kernel" path="device/intel/bxt-embargo-kernel" clone-depth="1" groups="embargoed" />
-    <project name="a/bsp/device/intel/gmin-kernel-dev" path="device/intel/gmin-kernel-dev" clone-depth="1" groups="embargoed" />
-    <project name="a/bsp/vendor/intel/baytrail" path="device/intel/baytrail" />
-    <project name="a/bsp/device/intel/cherrytrail" path="device/intel/cherrytrail" groups="embargoed" />
-    <project name="a/bsp/device/intel/broxton" path="device/intel/broxton" groups="embargoed" />
-    <project name="a/bsp/device/intel/binarydownloader" path="device/intel/binarydownloader" groups="bsp-priv,embargoed" >
+    <project name="a/bsp/device/intel/bxt-embargo-kernel" path="device/intel/bxt-embargo-kernel" clone-depth="1" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/device/intel/gmin-kernel-dev" path="device/intel/gmin-kernel-dev" clone-depth="1" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/vendor/intel/baytrail" path="device/intel/baytrail" revision="android/master" />
+    <project name="a/bsp/device/intel/cherrytrail" path="device/intel/cherrytrail" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/device/intel/broxton" path="device/intel/broxton" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/device/intel/binarydownloader" path="device/intel/binarydownloader" groups="bsp-priv,embargoed" revision="android/master" >
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
    </project>
-    <project name="a/bsp/device/intel/mixins" path="device/intel/mixins" groups="embargoed" />
-    <project name="a/bsp/vendor/intel/common" path="device/intel/common" />
-    <project spsId="59064" name="a/bsp/device/intel/houdini" path="vendor/intel/houdini" />
-    <project name="a/bsp/external/drm" path="external/drm" />
-    <project name="a/bsp/external/drm-dev" path="external/drm-dev" groups="embargoed" />
-    <project name="a/bsp/external/iniparser" path="external/iniparser" />
-    <project name="a/bsp/external/libpciaccess" path="external/libpciaccess" />
-    <project name="a/bsp/external/linux-firmware-broadcom" path="external/linux-firmware-broadcom" />
-    <project name="a/bsp/external/syslinux" path="external/syslinux" />
-    <project name="a/bsp/platform/external/pystache" path="external/pystache" />
-    <project name="a/bsp/hardware/intel/audiocomms/utilities" path="vendor/intel/audio/utilities" />
-    <project name="a/bsp/hardware/intel/display/libmemtrack" path="hardware/intel/display/libmemtrack" />
-    <project name="a/bsp/hardware/intel/liblights" path="hardware/intel/lights" />
-    <project name="a/bsp/hardware/intel/libva" path="external/libva" />
-    <project name="a/bsp/hardware/intel/wlan/hostap_wcs" path="hardware/intel/wlan/hostap_wcs" />
-    <project spsId="60549" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" path="hardware/intel/libbt-vendor-intel" />
-    <project spsId="60548" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/bluedroid" path="hardware/intel/bluedroid" />
-    <project name="a/bsp/platform/hardware/intel/common/utils" path="vendor/intel/hardware/utils" />
-    <project name="a/bsp/platform/vendor/intel/fw/iwl" path="vendor/intel/fw/iwl" />
-    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/at-core" path="vendor/intel/audio/mamgr/at-core"   groups="bsp-priv">
+    <project name="a/bsp/device/intel/mixins" path="device/intel/mixins" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/vendor/intel/common" path="device/intel/common" revision="android/master" />
+    <project spsId="59064" name="a/bsp/device/intel/houdini" path="vendor/intel/houdini" revision="android/master" />
+    <project name="a/bsp/external/drm" path="external/drm" revision="android/master" />
+    <project name="a/bsp/external/drm-dev" path="external/drm-dev" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/external/iniparser" path="external/iniparser" revision="android/master" />
+    <project name="a/bsp/external/libpciaccess" path="external/libpciaccess" revision="android/master" />
+    <project name="a/bsp/external/linux-firmware-broadcom" path="external/linux-firmware-broadcom" revision="android/master" />
+    <project name="a/bsp/external/syslinux" path="external/syslinux" revision="android/master" />
+    <project name="a/bsp/platform/external/pystache" path="external/pystache" revision="android/master" />
+    <project name="a/bsp/hardware/intel/audiocomms/utilities" path="vendor/intel/audio/utilities" revision="android/master" />
+    <project name="a/bsp/hardware/intel/display/libmemtrack" path="hardware/intel/display/libmemtrack" revision="android/master" />
+    <project name="a/bsp/hardware/intel/liblights" path="hardware/intel/lights" revision="android/master" />
+    <project name="a/bsp/hardware/intel/libva" path="external/libva" revision="android/master" />
+    <project name="a/bsp/hardware/intel/wlan/hostap_wcs" path="hardware/intel/wlan/hostap_wcs" revision="android/master" />
+    <project spsId="60549" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" path="hardware/intel/libbt-vendor-intel" revision="android/master" />
+    <project spsId="60548" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/bluedroid" path="hardware/intel/bluedroid" revision="android/master" />
+    <project name="a/bsp/platform/hardware/intel/common/utils" path="vendor/intel/hardware/utils" revision="android/master" />
+    <project name="a/bsp/platform/vendor/intel/fw/iwl" path="vendor/intel/fw/iwl" revision="android/master" />
+    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/at-core" path="vendor/intel/audio/mamgr/at-core"   groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/core" path="vendor/intel/audio/mamgr/core"  groups="bsp-priv">
+    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/core" path="vendor/intel/audio/mamgr/core"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/modem/xmm" path="vendor/intel/audio/mamgr/modem/xmm"  groups="bsp-priv">
+    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/modem/xmm" path="vendor/intel/audio/mamgr/modem/xmm"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms_tests" path="vendor/intel/audio/tests"  groups="bsp-priv">
+    <project name="a/bsp/hardware/intel/PRIVATE/audiocomms_tests" path="vendor/intel/audio/tests"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/parameter-framework" path="external/parameter-framework/core" />
-    <project name="a/bsp/hardware/intel/pstore-clean" path="vendor/intel/pstore-clean" />
-    <project name="a/bsp/hardware/intel/bcm_gps" path="hardware/broadcom/bcm_gps" />
-    <project name="a/bsp/hardware/intel/efi/kernelflinger" path="hardware/intel/kernelflinger" />
-    <project name="a/bsp/hardware/intel/sventx" path="vendor/intel/hardware/sventx" />
-    <project name="a/bsp/hardware/intel/ufo_make" path="hardware/intel/ufo_make" />
-    <project name="a/bsp/kernel/gmin-dev" path="kernel/gmin-dev" groups="notdefault,kernel-src,embargoed" />
-    <project name="a/bsp/kernel/gmin" path="kernel/gmin" groups="notdefault,kernel-src" />
-    <project name="a/bsp/kernel/irda" path="kernel/coho" groups="notdefault,kernel-src" />
-    <project spsId="45510" name="a/bsp/kernel/sofia" path="kernel/sofia" groups="notdefault,kernel-src,embargoed" />
-    <project name="a/bsp/kernel/bxt-embargo" path="kernel/bxt-embargo" groups="notdefault,kernel-src,embargoed" />
-    <project name="a/bsp/kernel/gmin-quilt-representation" path="kernel/gmin-quilt-representation" groups="notdefault,kernel-quilt" />
-    <project name="a/bsp/kernel/modules/realtek" path="kernel/modules/realtek" groups="notdefault,kernel-src" />
-    <project name="a/bsp/kernel/modules/iwlwifi" path="kernel/modules/iwlwifi" groups="notdefault,kernel-src" />
-    <project name="a/bsp/kernel/modules/perftools-external" path="kernel/modules/perftools-external" groups="notdefault,kernel-src" />
-    <project name="a/bsp/kernel/modules/gnss" path="kernel/modules/gnss" groups="notdefault,kernel-src" />
-    <project name="a/bsp/kernel/modules/perftools-internal" path="kernel/modules/perftools-internal" groups="notdefault,kernel-src" />
-    <project name="a/bsp/platform/bootable/userfastboot" path="bootable/userfastboot" />
-    <project name="a/bsp/platform/external/bluetooth/hcitools" path="external/bluetooth/hcitools" />
-    <project name="a/bsp/platform/external/bluetooth/libbt-vendor-linux" path="external/bluetooth/libbt-vendor-linux" />
-    <project name="a/bsp/platform/external/efibootmgr" path="external/efibootmgr" />
-    <project name="a/bsp/platform/external/efitools" path="external/efitools" />
-    <project name="a/bsp/platform/external/gnu-efi" path="external/gnu-efi" />
-    <project name="a/bsp/platform/external/pciutils" path="external/pciutils" />
-    <project name="a/bsp/vendor/intel/PRIVATE/imsservices" path="vendor/intel/hardware/telephony/imsservices" />
-    <project name="a/bsp/vendor/intel/PRIVATE/imsstack" path="vendor/intel/hardware/telephony/imsstack" />
-    <project spsId="60541" name="a/bsp/platform/external/thermal_daemon" path="external/thermal_daemon" />
-    <project name="a/bsp/platform/external/uefi_shim" path="external/uefi_shim" />
-    <project name="a/bsp/platform/packages/apps/AndroidTerm" path="vendor/intel/apps/AndroidTerm" />
-    <project name="a/bsp/vendor/intel/apps/PRIVATE/refcam" path="vendor/intel/apps/PRIVATE/refcam"  groups="bsp-priv">
+    <project name="a/bsp/hardware/intel/PRIVATE/parameter-framework" path="external/parameter-framework/core" revision="android/master" />
+    <project name="a/bsp/hardware/intel/pstore-clean" path="vendor/intel/pstore-clean" revision="android/master" />
+    <project name="a/bsp/hardware/intel/bcm_gps" path="hardware/broadcom/bcm_gps" revision="android/master" />
+    <project name="a/bsp/hardware/intel/efi/kernelflinger" path="hardware/intel/kernelflinger" revision="android/master" />
+    <project name="a/bsp/hardware/intel/sventx" path="vendor/intel/hardware/sventx" revision="android/master" />
+    <project name="a/bsp/hardware/intel/ufo_make" path="hardware/intel/ufo_make" revision="android/master" />
+    <project name="a/bsp/kernel/gmin-dev" path="kernel/gmin-dev" groups="notdefault,kernel-src,embargoed" revision="android/master" />
+    <project name="a/bsp/kernel/gmin" path="kernel/gmin" groups="notdefault,kernel-src" revision="android/master" />
+    <project name="a/bsp/kernel/irda" path="kernel/coho" groups="notdefault,kernel-src" revision="android/master" />
+    <project spsId="45510" name="a/bsp/kernel/sofia" path="kernel/sofia" groups="notdefault,kernel-src,embargoed" revision="android/master" />
+    <project name="a/bsp/kernel/bxt-embargo" path="kernel/bxt-embargo" groups="notdefault,kernel-src,embargoed" revision="android/master" />
+    <project name="a/bsp/kernel/gmin-quilt-representation" path="kernel/gmin-quilt-representation" groups="notdefault,kernel-quilt" revision="android/master" />
+    <project name="a/bsp/kernel/modules/realtek" path="kernel/modules/realtek" groups="notdefault,kernel-src" revision="android/master" />
+    <project name="a/bsp/kernel/modules/iwlwifi" path="kernel/modules/iwlwifi" groups="notdefault,kernel-src" revision="android/master" />
+    <project name="a/bsp/kernel/modules/perftools-external" path="kernel/modules/perftools-external" groups="notdefault,kernel-src" revision="android/master" />
+    <project name="a/bsp/kernel/modules/gnss" path="kernel/modules/gnss" groups="notdefault,kernel-src" revision="android/master" />
+    <project name="a/bsp/kernel/modules/perftools-internal" path="kernel/modules/perftools-internal" groups="notdefault,kernel-src" revision="android/master" />
+    <project name="a/bsp/platform/bootable/userfastboot" path="bootable/userfastboot" revision="android/master" />
+    <project name="a/bsp/platform/external/bluetooth/hcitools" path="external/bluetooth/hcitools" revision="android/master" />
+    <project name="a/bsp/platform/external/bluetooth/libbt-vendor-linux" path="external/bluetooth/libbt-vendor-linux" revision="android/master" />
+    <project name="a/bsp/platform/external/efibootmgr" path="external/efibootmgr" revision="android/master" />
+    <project name="a/bsp/platform/external/efitools" path="external/efitools" revision="android/master" />
+    <project name="a/bsp/platform/external/gnu-efi" path="external/gnu-efi" revision="android/master" />
+    <project name="a/bsp/platform/external/pciutils" path="external/pciutils" revision="android/master" />
+    <project name="a/bsp/vendor/intel/PRIVATE/imsservices" path="vendor/intel/hardware/telephony/imsservices" revision="android/master" />
+    <project name="a/bsp/vendor/intel/PRIVATE/imsstack" path="vendor/intel/hardware/telephony/imsstack" revision="android/master" />
+    <project spsId="60541" name="a/bsp/platform/external/thermal_daemon" path="external/thermal_daemon" revision="android/master" />
+    <project name="a/bsp/platform/external/uefi_shim" path="external/uefi_shim" revision="android/master" />
+    <project name="a/bsp/platform/packages/apps/AndroidTerm" path="vendor/intel/apps/AndroidTerm" revision="android/master" />
+    <project name="a/bsp/vendor/intel/apps/PRIVATE/refcam" path="vendor/intel/apps/PRIVATE/refcam"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project spsId="60543" name="a/bsp/vendor/intel/apps/ituxd" path="vendor/intel/apps/ituxd" />
-    <project name="a/bsp/platform/vendor/intel/libpower" path="hardware/intel/power" />
-    <project name="a/bsp/vendor/intel/build" path="device/intel/build" />
-    <project name="a/bsp/vendor/intel/external/efi/gnu-efi_prebuilt" path="hardware/intel/efi_prebuilts/gnu-efi" />
-    <project name="a/bsp/vendor/intel/external/efivar" path="external/efivar" />
-    <project restricted="not_IMC_wprd" groups="bsp-priv,not_imc_wprd" name="a/bsp/vendor/intel/fw/bt/broadcom" path="vendor/intel/fw/bluetooth/broadcom" />
-    <project restricted="not_IMC_wprd" groups="bsp-priv,not_imc_wprd" name="a/bsp/vendor/intel/fw/bt/realtek" path="vendor/intel/fw/bluetooth/realtek" />
-    <project name="a/bsp/vendor/intel/fw/PRIVATE/bt/intel" path="vendor/intel/fw/bluetooth/intel"  groups="bsp-priv">
+    <project spsId="60543" name="a/bsp/vendor/intel/apps/ituxd" path="vendor/intel/apps/ituxd" revision="android/master" />
+    <project name="a/bsp/platform/vendor/intel/libpower" path="hardware/intel/power" revision="android/master" />
+    <project name="a/bsp/vendor/intel/build" path="device/intel/build" revision="android/master" />
+    <project name="a/bsp/vendor/intel/external/efi/gnu-efi_prebuilt" path="hardware/intel/efi_prebuilts/gnu-efi" revision="android/master" />
+    <project name="a/bsp/vendor/intel/external/efivar" path="external/efivar" revision="android/master" />
+    <project restricted="not_IMC_wprd" groups="bsp-priv,not_imc_wprd" name="a/bsp/vendor/intel/fw/bt/broadcom" path="vendor/intel/fw/bluetooth/broadcom" revision="android/master" />
+    <project restricted="not_IMC_wprd" groups="bsp-priv,not_imc_wprd" name="a/bsp/vendor/intel/fw/bt/realtek" path="vendor/intel/fw/bluetooth/realtek" revision="android/master" />
+    <project name="a/bsp/vendor/intel/fw/PRIVATE/bt/intel" path="vendor/intel/fw/bluetooth/intel"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/fw/PRIVATE/nfc/intel" path="vendor/intel/fw/nfc/intel/fdp"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/fw/PRIVATE/nfc/intel" path="vendor/intel/fw/nfc/intel/fdp"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/nfc/intel" path="hardware/intel/nfc" />
-    <project name="a/bsp/device/intel/fw/sst" path="vendor/intel/fw/sst" />
-    <project name="a/bsp/vendor/intel/hardware/audio_media" path="vendor/intel/hardware/audio/audio_media" />
-    <project name="a/bsp/vendor/intel/fw/camera/ipu4" path="vendor/intel/fw/ipu4" />
-    <project name="a/bsp/vendor/intel/hardware/audiocomms/vibrator" path="hardware/intel/vibrator" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" path="hardware/intel/audio/hal"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/hardware/nfc/intel" path="hardware/intel/nfc" revision="android/master" />
+    <project name="a/bsp/device/intel/fw/sst" path="vendor/intel/fw/sst" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/audio_media" path="vendor/intel/hardware/audio/audio_media" revision="android/master" />
+    <project name="a/bsp/vendor/intel/fw/camera/ipu4" path="vendor/intel/fw/ipu4" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/audiocomms/vibrator" path="hardware/intel/vibrator" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" path="hardware/intel/audio/hal"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa" path="external/parameter-framework/plugins/alsa"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa" path="external/parameter-framework/plugins/alsa"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa-custom" path="vendor/intel/audio/parameter-framework-plugins/alsa-custom"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa-custom" path="vendor/intel/audio/parameter-framework-plugins/alsa-custom"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/fs" path="external/parameter-framework/plugins/fs" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/modemAudio" path="vendor/intel/audio/parameter-framework-plugins/modemAudio"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/fs" path="external/parameter-framework/plugins/fs" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/modemAudio" path="vendor/intel/audio/parameter-framework-plugins/modemAudio"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/power" path="vendor/intel/audio/parameter-framework-plugins/power"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/power" path="vendor/intel/audio/parameter-framework-plugins/power"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/property" path="vendor/intel/audio/parameter-framework-plugins/property"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/property" path="vendor/intel/audio/parameter-framework-plugins/property"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/remote-parameter" path="vendor/intel/audio/parameter-framework-plugins/remote-parameter"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/remote-parameter" path="vendor/intel/audio/parameter-framework-plugins/remote-parameter"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/route" path="vendor/intel/audio/parameter-framework-plugins/route"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/route" path="vendor/intel/audio/parameter-framework-plugins/route"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/xmm" path="vendor/intel/audio/parameter-framework-plugins/xmm"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/xmm" path="vendor/intel/audio/parameter-framework-plugins/xmm"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen7" path="vendor/intel/ufo/gen7" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8" path="vendor/intel/ufo/gen8" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8_dev" path="vendor/intel/ufo/gen8_dev" groups="embargoed" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen9_dev" path="vendor/intel/ufo/gen9_dev" groups="embargoed" />
-    <project spsId="59084" name="a/bsp/vendor/intel/hardware/PRIVATE/rs_vectorizer" path="vendor/intel/rs_vectorizer"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen7" path="vendor/intel/ufo/gen7" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8" path="vendor/intel/ufo/gen8" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8_dev" path="vendor/intel/ufo/gen8_dev" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen9_dev" path="vendor/intel/ufo/gen9_dev" groups="embargoed" revision="android/master" />
+    <project spsId="59084" name="a/bsp/vendor/intel/hardware/PRIVATE/rs_vectorizer" path="vendor/intel/rs_vectorizer"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/rservice" path="vendor/intel/hardware/PRIVATE/rservice" />
-    <project name="a/bsp/vendor/intel/hardware/em_common" path="vendor/intel/hardware/em_common" />
-    <project name="a/bsp/vendor/intel/hardware/healthd" path="vendor/intel/hardware/healthd" />
-    <project name="a/bsp/vendor/intel/hardware/keystore" path="vendor/intel/hardware/keystore" />
-    <project name="a/bsp/vendor/intel/hardware/mei/libmei" path="vendor/intel/hardware/libmei" />
-    <project name="a/bsp/vendor/intel/hardware/realtek/wlan" path="vendor/intel/hardware/realtek/wlan" />
-    <project name="a/bsp/vendor/intel/hardware/libiacss" path="vendor/intel/camera/libiacss" />
-    <project name="a/bsp/vendor/intel/iio-sensors" path="vendor/intel/hardware/iio-sensors" />
-    <project name="a/bsp/vendor/intel/ish-sensors" path="vendor/intel/hardware/ish-sensors" />
-    <project name="a/bsp/vendor/intel/libsensorshub" path="vendor/intel/hardware/libsensorshub" />
-    <project name="a/bsp/vendor/arcsoft/arccamera" path="vendor/intel/apps/PRIVATE/arccamera" />
-    <project name="a/bsp/hardware/intel/libsensors-input" path="hardware/intel/libsensors-input" />
-    <project name="a/bsp/device/intel/PRIVATE/libaudioresample" path="vendor/intel/hardware/audio/libaudioresample"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/rservice" path="vendor/intel/hardware/PRIVATE/rservice" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/em_common" path="vendor/intel/hardware/em_common" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/healthd" path="vendor/intel/hardware/healthd" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/keystore" path="vendor/intel/hardware/keystore" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/mei/libmei" path="vendor/intel/hardware/libmei" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/realtek/wlan" path="vendor/intel/hardware/realtek/wlan" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/libiacss" path="vendor/intel/camera/libiacss" revision="android/master" />
+    <project name="a/bsp/vendor/intel/iio-sensors" path="vendor/intel/hardware/iio-sensors" revision="android/master" />
+    <project name="a/bsp/vendor/intel/ish-sensors" path="vendor/intel/hardware/ish-sensors" revision="android/master" />
+    <project name="a/bsp/vendor/intel/libsensorshub" path="vendor/intel/hardware/libsensorshub" revision="android/master" />
+    <project name="a/bsp/vendor/arcsoft/arccamera" path="vendor/intel/apps/PRIVATE/arccamera" revision="android/master" />
+    <project name="a/bsp/hardware/intel/libsensors-input" path="hardware/intel/libsensors-input" revision="android/master" />
+    <project name="a/bsp/device/intel/PRIVATE/libaudioresample" path="vendor/intel/hardware/audio/libaudioresample"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project spsId="60885" name="a/bsp/vendor/intel/PRIVATE/WFA_Sigma_Agent" path="vendor/intel/hardware/PRIVATE/WFA_Sigma_Agent"  groups="bsp-priv">
+    <project spsId="60885" name="a/bsp/vendor/intel/PRIVATE/WFA_Sigma_Agent" path="vendor/intel/hardware/PRIVATE/WFA_Sigma_Agent"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project name="a/bsp/vendor/intel/pcg" path="vendor/intel/pcg" />
-    <project name="a/bsp/vendor/intel/apps/VppSettings" path="vendor/intel/apps/VppSettings" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/fmr_usc" path="vendor/intel/hardware/fmr" />
-    <project name="a/bsp/hardware/intel/libauddriver" path="hardware/intel/audio/imc/libauddriver" />
-    <project name="a/bsp/hardware/intel/libaudio_hal" path="hardware/intel/audio/imc/libaudio_hal" />
-    <project name="a/bsp/hardware/intel/lib_imas" path="hardware/intel/audio/imc/lib_imas" />
-    <project name="a/bsp/vendor/intel/fw/fm/intel" path="vendor/intel/fw/fm/intel" />
-    <project name="a/bsp/hardware/intel/wrs_omxil_core" path="vendor/intel/hardware/wrs_omxil_core" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/libmediaparser" path="vendor/intel/hardware/PRIVATE/libmediaparser"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/pcg" path="vendor/intel/pcg" revision="android/master" />
+    <project name="a/bsp/vendor/intel/apps/VppSettings" path="vendor/intel/apps/VppSettings" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/fmr_usc" path="vendor/intel/hardware/fmr" revision="android/master" />
+    <project name="a/bsp/hardware/intel/libauddriver" path="hardware/intel/audio/imc/libauddriver" revision="android/master" />
+    <project name="a/bsp/hardware/intel/libaudio_hal" path="hardware/intel/audio/imc/libaudio_hal" revision="android/master" />
+    <project name="a/bsp/hardware/intel/lib_imas" path="hardware/intel/audio/imc/lib_imas" revision="android/master" />
+    <project name="a/bsp/vendor/intel/fw/fm/intel" path="vendor/intel/fw/fm/intel" revision="android/master" />
+    <project name="a/bsp/hardware/intel/wrs_omxil_core" path="vendor/intel/hardware/wrs_omxil_core" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/libmediaparser" path="vendor/intel/hardware/PRIVATE/libmediaparser"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/omx-components" path="vendor/intel/hardware/omx-components" />
-    <project spsId="60538" name="a/bsp/device/intel/PRIVATE/media_codecs" path="vendor/intel/media_codecs"  groups="bsp-priv">
+    <project name="a/bsp/hardware/intel/omx-components" path="vendor/intel/hardware/omx-components" revision="android/master" />
+    <project spsId="60538" name="a/bsp/device/intel/PRIVATE/media_codecs" path="vendor/intel/media_codecs"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/tools/PRIVATE/audiocomms/prober" path="vendor/intel/audio/probe"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/tools/PRIVATE/audiocomms/prober" path="vendor/intel/audio/probe"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/wifi" path="hardware/intel/wifi" />
-    <project spsId="60540" name="a/bsp/hardware/intel/PRIVATE/libstagefrighthw" path="vendor/intel/libstagefrighthw"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/wifi" path="hardware/intel/wifi" revision="android/master" />
+    <project spsId="60540" name="a/bsp/hardware/intel/PRIVATE/libstagefrighthw" path="vendor/intel/libstagefrighthw"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/mediasdk_release" path="vendor/intel/mediasdk_release" />
-    <project name="a/bsp/hardware/intel/libmedia_utils" path="vendor/intel/hardware/libmedia_utils" />
-    <project name="a/bsp/hardware/intel/PRIVATE/libcamera2" path="vendor/intel/camera/libcamera2"  groups="bsp-priv">
+    <project name="a/bsp/hardware/intel/PRIVATE/mediasdk_release" path="vendor/intel/mediasdk_release" revision="android/master" />
+    <project name="a/bsp/hardware/intel/libmedia_utils" path="vendor/intel/hardware/libmedia_utils" revision="android/master" />
+    <project name="a/bsp/hardware/intel/PRIVATE/libcamera2" path="vendor/intel/camera/libcamera2"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project spsId="61017" name="a/bsp/hardware/intel/PRIVATE/camera2hal" path="vendor/intel/camera/camera3hal"  groups="bsp-priv">
+    <project spsId="61017" name="a/bsp/hardware/intel/PRIVATE/camera2hal" path="vendor/intel/camera/camera3hal"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/camera_extension" path="vendor/intel/camera/camera_extension"  groups="bsp-priv">
+    <project name="a/bsp/hardware/intel/PRIVATE/camera_extension" path="vendor/intel/camera/camera_extension"  groups="bsp-priv" revision="android/master" >
     <annotation name="g_external" value="src"/>
     <annotation name="all_external" value="src"/>
     <annotation name="bxt_rvp_external" value="src"/>
   </project>
-    <project spsId="61020" name="a/bsp/hardware/intel/PRIVATE/libmfldadvci" path="vendor/intel/camera/libmfldadvci"  groups="bsp-priv">
+    <project spsId="61020" name="a/bsp/hardware/intel/PRIVATE/libmfldadvci" path="vendor/intel/camera/libmfldadvci"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project spsId="61019" name="a/bsp/hardware/intel/PRIVATE/cameralibs" path="vendor/intel/camera/cameralibs"  groups="bsp-priv">
+    <project spsId="61019" name="a/bsp/hardware/intel/PRIVATE/cameralibs" path="vendor/intel/camera/cameralibs"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project restricted="not_IMC_wprd" groups="bsp-priv" name="a/bsp/hardware/intel/PRIVATE/pn544_fw" path="vendor/intel/fw/nfc/nxp" >
+    <project restricted="not_IMC_wprd" groups="bsp-priv" name="a/bsp/hardware/intel/PRIVATE/pn544_fw" path="vendor/intel/fw/nfc/nxp" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/phonetool_bt_usc" path="vendor/intel/hardware/PRIVATE/bt_usc" />
-    <project name="a/bsp/device/intel/fw/camera" path="vendor/intel/fw/camera" />
-    <project spsId="60870" name="a/bsp/vendor/intel/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" path="vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" />
-    <project name="a/bsp/vendor/intel/hardware/libcamerausb" path="vendor/intel/camera/libcamerausb" />
-    <project name="a/bsp/device/intel/PRIVATE/DRM/widevine" path="vendor/intel/widevine"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/phonetool_bt_usc" path="vendor/intel/hardware/PRIVATE/bt_usc" revision="android/master" />
+    <project name="a/bsp/device/intel/fw/camera" path="vendor/intel/fw/camera" revision="android/master" />
+    <project spsId="60870" name="a/bsp/vendor/intel/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" path="vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/libcamerausb" path="vendor/intel/camera/libcamerausb" revision="android/master" />
+    <project name="a/bsp/device/intel/PRIVATE/DRM/widevine" path="vendor/intel/widevine"  groups="bsp-priv" revision="android/master" >
 	<annotation name="g_external" value="no"/>
 	<annotation name="all_external" value="no"/>
 	<annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project name="a/bsp/modem/tools/ipcs" path="modem/tools/ipcs" />
-    <project spsId="59065" name="a/bsp/device/intel/PRIVATE/debug_internal_tools" path="vendor/intel/tools/PRIVATE/debug_internal_tools" groups="bsp-priv,embargoed" >
+    <project name="a/bsp/modem/tools/ipcs" path="modem/tools/ipcs" revision="android/master" />
+    <project spsId="59065" name="a/bsp/device/intel/PRIVATE/debug_internal_tools" path="vendor/intel/tools/PRIVATE/debug_internal_tools" groups="bsp-priv,embargoed" revision="android/master" >
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project name="a/bsp/vendor/intel/fw/PRIVATE/ifwi/capsules" path="hardware/intel/efi_capsules"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/fw/PRIVATE/ifwi/capsules" path="hardware/intel/efi_capsules"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project name="a/bsp/vendor/intel/hardware/energy_management/fg_algo" path="vendor/intel/energy_management/fg_algo" />
-    <project name="a/bsp/hardware/intel/libmintel" path="vendor/intel/hardware/PRIVATE/libmintel"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/hardware/energy_management/fg_algo" path="vendor/intel/energy_management/fg_algo" revision="android/master" />
+    <project name="a/bsp/hardware/intel/libmintel" path="vendor/intel/hardware/PRIVATE/libmintel"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/platform/external/intel-gpu-tools" path="hardware/intel/intel-gpu-tools" />
-    <project spsId="59066" name="a/bsp/device/intel/log_capture" path="vendor/intel/tools/log_capture" />
-    <project spsId="59067" name="a/bsp/device/intel/log_infra" path="vendor/intel/tools/log_infra" groups="embargoed" />
-    <project name="a/bsp/vendor/intel/libdmi" path="vendor/intel/libdmi" />
-    <project name="a/bsp/device/intel/nfc" path="hardware/nxp/nfc" />
-    <project name="a/bsp/platform/external/sbsigntool" path="external/sbsigntool" />
-    <project name="a/bsp/vendor/intel/PRIVATE/art-extension" path="vendor/intel/art-extension"  groups="bsp-priv">
+    <project name="a/bsp/platform/external/intel-gpu-tools" path="hardware/intel/intel-gpu-tools" revision="android/master" />
+    <project spsId="59066" name="a/bsp/device/intel/log_capture" path="vendor/intel/tools/log_capture" revision="android/master" />
+    <project spsId="59067" name="a/bsp/device/intel/log_infra" path="vendor/intel/tools/log_infra" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/vendor/intel/libdmi" path="vendor/intel/libdmi" revision="android/master" />
+    <project name="a/bsp/device/intel/nfc" path="hardware/nxp/nfc" revision="android/master" />
+    <project name="a/bsp/platform/external/sbsigntool" path="external/sbsigntool" revision="android/master" />
+    <project name="a/bsp/vendor/intel/PRIVATE/art-extension" path="vendor/intel/art-extension"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/device/intel/sofia3gr" path="device/intel/sofia3gr" groups="embargoed" />
-    <project name="a/bsp/device/intel/sofia3g-kernel" path="device/intel/sofia3g-kernel" clone-depth="1" groups="embargoed" />
-    <project name="a/bsp/platform/external/dosfstools" path="external/dosfstools" />
-    <project name="a/bsp/platform/external/mtools" path="external/mtools" />
-    <project name="a/bsp/device/intel/fw/modem/IMC/7260_flashless" path="vendor/intel/fw/modem/IMC/7260_flashless" />
-    <project name="a/bsp/device/intel/telephony_tools/PRIVATE/component_testing" path="vendor/intel/tools/telephony_tools/PRIVATE/component_testing" />
-    <project name="a/bsp/device/intel/telephony_tools/at_proxy" path="vendor/intel/tools/telephony_tools/at_proxy" />
-    <project name="a/bsp/device/intel/telephony_tools/modem_trace_server" path="vendor/intel/tools/telephony_tools/modem_trace_server" />
-    <project name="a/bsp/hardware/intel/PRIVATE/IFX-modem" path="vendor/intel/hardware/telephony/IFX-modem"  groups="bsp-priv">
+    <project name="a/bsp/device/intel/sofia3gr" path="device/intel/sofia3gr" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/device/intel/sofia3g-kernel" path="device/intel/sofia3g-kernel" clone-depth="1" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/platform/external/dosfstools" path="external/dosfstools" revision="android/master" />
+    <project name="a/bsp/platform/external/mtools" path="external/mtools" revision="android/master" />
+    <project name="a/bsp/device/intel/fw/modem/IMC/7260_flashless" path="vendor/intel/fw/modem/IMC/7260_flashless" revision="android/master" />
+    <project name="a/bsp/device/intel/telephony_tools/PRIVATE/component_testing" path="vendor/intel/tools/telephony_tools/PRIVATE/component_testing" revision="android/master" />
+    <project name="a/bsp/device/intel/telephony_tools/at_proxy" path="vendor/intel/tools/telephony_tools/at_proxy" revision="android/master" />
+    <project name="a/bsp/device/intel/telephony_tools/modem_trace_server" path="vendor/intel/tools/telephony_tools/modem_trace_server" revision="android/master" />
+    <project name="a/bsp/hardware/intel/PRIVATE/IFX-modem" path="vendor/intel/hardware/telephony/IFX-modem"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/Modem_Updater" path="vendor/intel/hardware/telephony/Modem_Updater"  groups="bsp-priv">
+    <project name="a/bsp/hardware/intel/PRIVATE/Modem_Updater" path="vendor/intel/hardware/telephony/Modem_Updater"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/NVM_Manager" path="vendor/intel/hardware/telephony/NVM_Manager"  groups="bsp-priv">
+    <project name="a/bsp/hardware/intel/PRIVATE/NVM_Manager" path="vendor/intel/hardware/telephony/NVM_Manager"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/libnvmmodule" path="hardware/intel/libnvmmodule" />
-    <project name="a/bsp/hardware/intel/PRIVATE/miu" path="hardware/intel/telephony/miu"  groups="bsp-priv">
+    <project name="a/bsp/hardware/intel/libnvmmodule" path="hardware/intel/libnvmmodule" revision="android/master" />
+    <project name="a/bsp/hardware/intel/PRIVATE/miu" path="hardware/intel/telephony/miu"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/PRIVATE/mmgr" path="hardware/intel/telephony/mmgr"  groups="bsp-priv">
+    <project name="a/bsp/hardware/intel/PRIVATE/mmgr" path="hardware/intel/telephony/mmgr"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/hardware/intel/rapid_ril" path="vendor/intel/hardware/telephony/rapid_ril" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/libtcs" path="hardware/intel/telephony/libtcs"  groups="bsp-priv">
+    <project name="a/bsp/hardware/intel/rapid_ril" path="vendor/intel/hardware/telephony/rapid_ril" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/libtcs" path="hardware/intel/telephony/libtcs"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/amil" path="vendor/intel/hardware/cg2k/amil" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnss/supl" path="vendor/intel/hardware/cg2k/gnss/supl" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnssAdaptation/android" path="vendor/intel/hardware/cg2k/gnssAdaptation/android" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnss/core" path="vendor/intel/hardware/cg2k/gnss/core" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnssExe" path="vendor/intel/hardware/cg2k/gnssExe" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/3rdparty" path="vendor/intel/hardware/cg2k/3rdparty" />
-    <project name="a/bsp/hardware/arm/mali" path="hardware/intel/gpu/mali" groups="embargoed" />
-    <project name="a/bsp/hardware/arm/mali-gralloc" path="hardware/intel/gpu/mali-gralloc" groups="embargoed" />
-    <project name="a/bsp/hardware/arm/mali-hwcomposer" path="hardware/intel/gpu/mali-hwcomposer" groups="embargoed" />
-    <project spsId="60537" name="a/bsp/device/intel/apps/OemTelephony" path="vendor/intel/apps/telephony/OemTelephony" />
-    <project name="a/bsp/vendor/intel/PRIVATE/apps/sarmanager" path="vendor/intel/apps/telephony/sarmanager"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/amil" path="vendor/intel/hardware/cg2k/amil" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnss/supl" path="vendor/intel/hardware/cg2k/gnss/supl" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnssAdaptation/android" path="vendor/intel/hardware/cg2k/gnssAdaptation/android" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnss/core" path="vendor/intel/hardware/cg2k/gnss/core" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnssExe" path="vendor/intel/hardware/cg2k/gnssExe" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/3rdparty" path="vendor/intel/hardware/cg2k/3rdparty" revision="android/master" />
+    <project name="a/bsp/hardware/arm/mali" path="hardware/intel/gpu/mali" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/hardware/arm/mali-gralloc" path="hardware/intel/gpu/mali-gralloc" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/hardware/arm/mali-hwcomposer" path="hardware/intel/gpu/mali-hwcomposer" groups="embargoed" revision="android/master" />
+    <project spsId="60537" name="a/bsp/device/intel/apps/OemTelephony" path="vendor/intel/apps/telephony/OemTelephony" revision="android/master" />
+    <project name="a/bsp/vendor/intel/PRIVATE/apps/sarmanager" path="vendor/intel/apps/telephony/sarmanager"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project spsId="60542" name="a/bsp/device/intel/fw/modem/IMC/7160_flashless" path="vendor/intel/fw/modem/IMC/7160_flashless" />
-    <project spsId="60542" name="a/bsp/vendor/intel/apps/cellular_coex_manager" path="vendor/intel/apps/PRIVATE/cellular_coex_manager"  groups="bsp-priv">
+    <project spsId="60542" name="a/bsp/device/intel/fw/modem/IMC/7160_flashless" path="vendor/intel/fw/modem/IMC/7160_flashless" revision="android/master" />
+    <project spsId="60542" name="a/bsp/vendor/intel/apps/cellular_coex_manager" path="vendor/intel/apps/PRIVATE/cellular_coex_manager"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project spsId="60544" name="a/bsp/vendor/intel/hardware/cellular_coex_manager/intel" path="vendor/intel/hardware/PRIVATE/cellular_coex_manager/intel" />
-    <project name="a/bsp/vendor/intel/fw/modem/IMC/7360_flashless" path="vendor/intel/fw/modem/IMC/7360_flashless" />
-    <project spsId="59079" name="a/bsp/packages/apps/IntelFmApp" path="vendor/intel/apps/IntelFmApp" />
-    <project spsId="59085" name="a/bsp/vendor/intel/v4l2rds" path="external/v4l2rds" />
-    <project name="a/bsp/hardware/intel/PRIVATE/libmix" path="vendor/intel/hardware/libmix" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/rocs" path="vendor/intel/hardware/PRIVATE/rocs" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/wifi_usc" path="vendor/intel/hardware/PRIVATE/wifi_usc" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/libds4" path="vendor/intel/camera/PRIVATE/libds4"  groups="bsp-priv">
+    <project spsId="60544" name="a/bsp/vendor/intel/hardware/cellular_coex_manager/intel" path="vendor/intel/hardware/PRIVATE/cellular_coex_manager/intel" revision="android/master" />
+    <project name="a/bsp/vendor/intel/fw/modem/IMC/7360_flashless" path="vendor/intel/fw/modem/IMC/7360_flashless" revision="android/master" />
+    <project spsId="59079" name="a/bsp/packages/apps/IntelFmApp" path="vendor/intel/apps/IntelFmApp" revision="android/master" />
+    <project spsId="59085" name="a/bsp/vendor/intel/v4l2rds" path="external/v4l2rds" revision="android/master" />
+    <project name="a/bsp/hardware/intel/PRIVATE/libmix" path="vendor/intel/hardware/libmix" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/rocs" path="vendor/intel/hardware/PRIVATE/rocs" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/wifi_usc" path="vendor/intel/hardware/PRIVATE/wifi_usc" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/libds4" path="vendor/intel/camera/PRIVATE/libds4"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
-    <project name="a/bsp/vendor/intel/tools/asoc_dfw" path="vendor/intel/tools/asoc_dfw" />
-    <project name="a/bsp/vendor/intel/hardware/realtek/libbt" path="vendor/intel/hardware/realtek/libbt" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/bluedroid" path="vendor/intel/audio/parameter-framework-plugins/bluedroid"  groups="bsp-priv">
+    <project name="a/bsp/vendor/intel/tools/asoc_dfw" path="vendor/intel/tools/asoc_dfw" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/realtek/libbt" path="vendor/intel/hardware/realtek/libbt" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/bluedroid" path="vendor/intel/audio/parameter-framework-plugins/bluedroid"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project name="a/bsp/vendor/intel/fw/ds4fw" path="vendor/intel/fw/ds4fw" />
-    <project name="a/bsp/device/intel/cht-kernel" path="device/intel/cht-kernel" />
-    <project name="a/bsp/kernel/cht" path="kernel/cht" groups="notdefault,kernel-src" />
-    <project name="a/bsp/vendor/intel/tools/telephony_tools/field_test" path="vendor/intel/tools/telephony_tools/field_test" />
-    <project name="a/bsp/device/intel/telephony_tools/coredumpwarning" path="vendor/intel/tools/telephony_tools/coredumpwarning" />
-    <project restricted="blue_woods" groups="bsp-priv,bluewoods" name="a/bsp/vendor/intel/hardware/cellular_coex_manager/broadcom" path="vendor/intel/hardware/PRIVATE/cellular_coex_manager/broadcom" />
-    <project name="a/bsp/device/intel/goldsand" path="device/intel/goldsand" groups="embargoed" />
-    <project name="a/bsp/vendor/intel/PRIVATE/codec_wma9" path="vendor/intel/PRIVATE/codec_wma9" />
-    <project name="a/bsp/external/alac" path="external/alac" />
-    <project name="a/bsp/vendor/intel/apps/thermal_lite" path="vendor/intel/apps/thermal_lite" />
-    <project name="a/bsp/vendor/intel/apps/depth_extension" path="vendor/intel/camera/depth_extension" />
-    <project name="a/bsp/vendor/intel/PRIVATE/Aware" path="vendor/intel/apps/PRIVATE/Aware" />
-    <project name="a/bsp/kernel/sofia-lte" path="kernel/sofia-lte" />
-    <project name="a/bsp/kernel/modules/dbgtools-internal" path="kernel/modules/dbgtools-internal" groups="embargoed" />
-    <project spsId="60545" name="a/bsp/vendor/intel/PRIVATE/apps/Kratos" path="vendor/intel/apps/PRIVATE/Kratos" groups="bsp-priv,embargoed" >
+    <project name="a/bsp/vendor/intel/fw/ds4fw" path="vendor/intel/fw/ds4fw" revision="android/master" />
+    <project name="a/bsp/device/intel/cht-kernel" path="device/intel/cht-kernel" revision="android/master" />
+    <project name="a/bsp/kernel/cht" path="kernel/cht" groups="notdefault,kernel-src" revision="android/master" />
+    <project name="a/bsp/vendor/intel/tools/telephony_tools/field_test" path="vendor/intel/tools/telephony_tools/field_test" revision="android/master" />
+    <project name="a/bsp/device/intel/telephony_tools/coredumpwarning" path="vendor/intel/tools/telephony_tools/coredumpwarning" revision="android/master" />
+    <project restricted="blue_woods" groups="bsp-priv,bluewoods" name="a/bsp/vendor/intel/hardware/cellular_coex_manager/broadcom" path="vendor/intel/hardware/PRIVATE/cellular_coex_manager/broadcom" revision="android/master" />
+    <project name="a/bsp/device/intel/goldsand" path="device/intel/goldsand" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/vendor/intel/PRIVATE/codec_wma9" path="vendor/intel/PRIVATE/codec_wma9" revision="android/master" />
+    <project name="a/bsp/external/alac" path="external/alac" revision="android/master" />
+    <project name="a/bsp/vendor/intel/apps/thermal_lite" path="vendor/intel/apps/thermal_lite" revision="android/master" />
+    <project name="a/bsp/vendor/intel/apps/depth_extension" path="vendor/intel/camera/depth_extension" revision="android/master" />
+    <project name="a/bsp/vendor/intel/PRIVATE/Aware" path="vendor/intel/apps/PRIVATE/Aware" revision="android/master" />
+    <project name="a/bsp/kernel/sofia-lte" path="kernel/sofia-lte" revision="android/master" />
+    <project name="a/bsp/kernel/modules/dbgtools-internal" path="kernel/modules/dbgtools-internal" groups="embargoed" revision="android/master" />
+    <project spsId="60545" name="a/bsp/vendor/intel/PRIVATE/apps/Kratos" path="vendor/intel/apps/PRIVATE/Kratos" groups="bsp-priv,embargoed" revision="android/master" >
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project name="a/bsp/vendor/intel/PRIVATE/rtc" path="vendor/intel/PRIVATE/rtc" />
-    <project name="a/bsp/device/intel/rtc" path="vendor/intel/rtc" />
-    <project name="a/bsp/hardware/intel/PRIVATE/widi" path="vendor/intel/hardware/PRIVATE/widi" />
-    <project name="a/bsp/hardware/intel/PRIVATE/widi-testing" path="vendor/intel/hardware/PRIVATE/widi-testing" />
-    <project name="a/bsp/device/intel/sofialte" path="device/intel/sofia_lte" groups="embargoed" />
-    <project name="a/bsp/device/intel/sofia_lte-kernel" path="device/intel/sofia_lte-kernel" />
-    <project spsId="60539" name="a/bsp/hardware/intel/gpu/arm/mali-midgard_lib" path="hardware/intel/gpu/mali-midgard_lib" />
-    <project spsId="59476" name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" />
-    <project name="a/bsp/hardware/intel/sofia_lte-fls" path="hardware/intel/sofia_lte-fls" />
-    <project name="a/bsp/device/intel/apps/OemTelephony-imc" path="vendor/intel/apps/telephony/OemTelephony-imc" />
+    <project name="a/bsp/vendor/intel/PRIVATE/rtc" path="vendor/intel/PRIVATE/rtc" revision="android/master" />
+    <project name="a/bsp/device/intel/rtc" path="vendor/intel/rtc" revision="android/master" />
+    <project name="a/bsp/hardware/intel/PRIVATE/widi" path="vendor/intel/hardware/PRIVATE/widi" revision="android/master" />
+    <project name="a/bsp/hardware/intel/PRIVATE/widi-testing" path="vendor/intel/hardware/PRIVATE/widi-testing" revision="android/master" />
+    <project name="a/bsp/device/intel/sofialte" path="device/intel/sofia_lte" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/device/intel/sofia_lte-kernel" path="device/intel/sofia_lte-kernel" revision="android/master" />
+    <project spsId="60539" name="a/bsp/hardware/intel/gpu/arm/mali-midgard_lib" path="hardware/intel/gpu/mali-midgard_lib" revision="android/master" />
+    <project spsId="59476" name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" revision="android/master" />
+    <project name="a/bsp/hardware/intel/sofia_lte-fls" path="hardware/intel/sofia_lte-fls" revision="android/master" />
+    <project name="a/bsp/device/intel/apps/OemTelephony-imc" path="vendor/intel/apps/telephony/OemTelephony-imc" revision="android/master" />
     <!-- IRDA Configurations and Sources -->
-    <project name="a/bsp/device/intel/irda" path="device/intel/coho" />
-    <project name="a/bsp/vendor/intel/irda" path="vendor/intel/coho" />
+    <project name="a/bsp/device/intel/irda" path="device/intel/coho" revision="android/master" />
+    <project name="a/bsp/vendor/intel/irda" path="vendor/intel/coho" revision="android/master" />
     <!-- irda-telemetry repositories -->
-    <project name="a/bsp/vendor/intel/telemetry-client" path="vendor/intel/telemetry-client" />
-    <project name="a/bsp/vendor/intel/tools/efipropsync" path="vendor/intel/tools/efipropsync" />
-    <project name="a/bsp/external/libaudit" path="external/libaudit" />
+    <project name="a/bsp/vendor/intel/telemetry-client" path="vendor/intel/telemetry-client" revision="android/master" />
+    <project name="a/bsp/vendor/intel/tools/efipropsync" path="vendor/intel/tools/efipropsync" revision="android/master" />
+    <project name="a/bsp/external/libaudit" path="external/libaudit" revision="android/master" />
 
     <!-- irda-telemetry-apps repositories -->
-    <project name="a/bsp/vendor/intel/apps/DataReport" path="vendor/intel/apps/DataReport" />
-    <project name="a/bsp/vendor/intel/apps/DataReportSettings" path="vendor/intel/apps/DataReportSettings" />
+    <project name="a/bsp/vendor/intel/apps/DataReport" path="vendor/intel/apps/DataReport" revision="android/master" />
+    <project name="a/bsp/vendor/intel/apps/DataReportSettings" path="vendor/intel/apps/DataReportSettings" revision="android/master" />
 
     <!-- irda-autodetect repositories -->
-    <project name="a/bsp/linux/modules/libkmod" path="external/libkmod" />
-    <project name="a/bsp/vendor/intel/apps/PRIVATE/halctl-src" path="vendor/intel/apps/halctl" />
-    <project name="a/bsp/vendor/intel/apps/PRIVATE/hald-src" path="vendor/intel/apps/hald" />
-    <project name="a/bsp/vendor/intel/external/libfuse" path="external/libfuse" />
-    <project name="a/bsp/vendor/intel/PRIVATE/libhalclient-src" path="hardware/intel/libhalclient" />
-    <project name="a/bsp/vendor/intel/tools/bluetooth/rfkillp" path="vendor/intel/tools/rfkillp" />
+    <project name="a/bsp/linux/modules/libkmod" path="external/libkmod" revision="android/master" />
+    <project name="a/bsp/vendor/intel/apps/PRIVATE/halctl-src" path="vendor/intel/apps/halctl" revision="android/master" />
+    <project name="a/bsp/vendor/intel/apps/PRIVATE/hald-src" path="vendor/intel/apps/hald" revision="android/master" />
+    <project name="a/bsp/vendor/intel/external/libfuse" path="external/libfuse" revision="android/master" />
+    <project name="a/bsp/vendor/intel/PRIVATE/libhalclient-src" path="hardware/intel/libhalclient" revision="android/master" />
+    <project name="a/bsp/vendor/intel/tools/bluetooth/rfkillp" path="vendor/intel/tools/rfkillp" revision="android/master" />
 
     <!-- irda-wireless repositories -->
-    <project name="a/bsp/vendor/intel/tools/PRIVATE/wifail" path="vendor/intel/tools/PRIVATE/wifail" />
+    <project name="a/bsp/vendor/intel/tools/PRIVATE/wifail" path="vendor/intel/tools/PRIVATE/wifail" revision="android/master" />
 
     <!-- Coho Kernel Repositories -->
     <!-- Kernel Git src has been moved to its own manifest file under l-dev/ingredient/irda-kernel -->
-    <project name="a/bsp/device/intel/coho-kernel" path="device/intel/coho-kernel" />
+    <project name="a/bsp/device/intel/coho-kernel" path="device/intel/coho-kernel" revision="android/master" />
 
     <!-- irda-audio repositories -->
-    <project name="a/bsp/hardware/intel/audio" path="hardware/intel/audio/irda" />
+    <project name="a/bsp/hardware/intel/audio" path="hardware/intel/audio/irda" revision="android/master" />
 
     <!-- SoFIA platform repositories -->
-    <project name="a/bsp/PRIVATE/prebuilts/icc/linux-x86/x86/x86-android-linux-14.0" path="icc" />
+    <project name="a/bsp/PRIVATE/prebuilts/icc/linux-x86/x86/x86-android-linux-14.0" path="icc" revision="android/master" />
 
     <!-- MRD 3GR platform firmware -->
-    <project name="a/bsp/hardware/intel/cts-3gr-sofia/bootsystems" path="hardware/intel/mrd-3gr-sofia/bootsystems" groups="embargoed" />
-    <project name="a/bsp/hardware/intel/cts-3gr-sofia/lpmp3_vm" path="hardware/intel/mrd-3gr-sofia/lpmp3_vm" groups="embargoed" />
-    <project name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/guests" path="hardware/intel/mrd-3gr-sofia/mobilevisor/guests" groups="embargoed" />
-    <project name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/products" path="hardware/intel/mrd-3gr-sofia/mobilevisor/products" groups="embargoed" />
-    <project name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/release" path="hardware/intel/mrd-3gr-sofia/mobilevisor/release" groups="embargoed" />
-    <project name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/services" path="hardware/intel/mrd-3gr-sofia/mobilevisor/services" groups="embargoed" />
-    <project name="a/bsp/hardware/intel/cts-3gr-sofia/modem" path="hardware/intel/mrd-3gr-sofia/modem" groups="embargoed" />
-    <project name="a/bsp/hardware/intel/cts-3gr-sofia/secure_vm" path="hardware/intel/mrd-3gr-sofia/secure_vm" groups="embargoed" />
-    <project name="a/bsp/hardware/intel/cts-3gr-sofia/soclib" path="hardware/intel/mrd-3gr-sofia/soclib" groups="embargoed" />
+    <project name="a/bsp/hardware/intel/cts-3gr-sofia/bootsystems" path="hardware/intel/mrd-3gr-sofia/bootsystems" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/hardware/intel/cts-3gr-sofia/lpmp3_vm" path="hardware/intel/mrd-3gr-sofia/lpmp3_vm" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/guests" path="hardware/intel/mrd-3gr-sofia/mobilevisor/guests" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/products" path="hardware/intel/mrd-3gr-sofia/mobilevisor/products" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/release" path="hardware/intel/mrd-3gr-sofia/mobilevisor/release" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/services" path="hardware/intel/mrd-3gr-sofia/mobilevisor/services" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/hardware/intel/cts-3gr-sofia/modem" path="hardware/intel/mrd-3gr-sofia/modem" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/hardware/intel/cts-3gr-sofia/secure_vm" path="hardware/intel/mrd-3gr-sofia/secure_vm" groups="embargoed" revision="android/master" />
+    <project name="a/bsp/hardware/intel/cts-3gr-sofia/soclib" path="hardware/intel/mrd-3gr-sofia/soclib" groups="embargoed" revision="android/master" />
 
-    <project name="a/bsp/vendor/silead/fw" path="vendor/silead/fw" />
+    <project name="a/bsp/vendor/silead/fw" path="vendor/silead/fw" revision="android/master" />
 
     <!--security repository -->
-    <project name="a/bsp/hardware/intel/rpcsecurity/libtee_vsec" path="hardware/intel/rpcsecurity/libtee_vsec" />
-    <project name="a/bsp/device/intel/sepolicy" path="device/intel/sepolicy" />
+    <project name="a/bsp/hardware/intel/rpcsecurity/libtee_vsec" path="hardware/intel/rpcsecurity/libtee_vsec" revision="android/master" />
+    <project name="a/bsp/device/intel/sepolicy" path="device/intel/sepolicy" revision="android/master" />
 
 </manifest>
