@@ -1,0 +1,13 @@
+generic_groups: [g1, g2, g3, g4]
+platform_groups: [g5, g6]
+external_customers:
+  a_customer:
+    short_name: a
+    name: customerA
+    include_groups: [g1, g3, g4, g6]
+    exclude_groups: [g2, g5]
+  b_customer:
+    short_name: b
+    name: customerB
+    include_groups: [g1, g3, g4, g6]
+    exclude_groups: [g2, g5, g4]

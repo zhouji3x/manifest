@@ -1,0 +1,10 @@
+AOSP:
+- bionic
+- bootable/diskinstaller
+- build
+- cts
+- development
+KERNEL:
+- external/iniparser
+- external/libselinux
+

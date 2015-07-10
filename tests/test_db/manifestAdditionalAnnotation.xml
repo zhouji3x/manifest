@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <project groups="groupB,bsp-priv,groupC" path="dir/to/projectB" name="my/path/to/projectB">
+    <annotation name="a_external" value="src"/>
+    <annotation name="g_external" value="bin"/>
+    <annotation name="bbb_external" value="no"/>
+    <annotation name="ccc_external" value="no"/> <!-- this external annotation is not defined in customer yaml -->
+  </project>
+</manifest>

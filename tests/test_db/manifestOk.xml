@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <include name="include/submanifest1.xml"/>
+  <include name="submanifest2.xml"/>
+  <remote name="remotename" fetch="ssh://my.host.intel.com" review="my.host.intel.com:8080"/>
+  <project groups="groupA" path="dir/to/projectA" name="my/path/to/projectA"/>
+  <project groups="groupB,groupC" path="dir/to/projectB" name="my/path/to/projectB">
+    <annotation name="a_external" value="no"/>
+    <annotation name="b_external" value="src"/>
+    <annotation name="c_external" value="bin"/>
+  </project>
+  <project groups="groupB" path="dir/to/projectC" name="my/path/to/projectC">
+    <copyfile src="sourcefile" dest="destfile"/>
+  </project>
+</manifest>

@@ -1,0 +1,9 @@
+valid.reviewer@intel.com:
+- AOSP
+- KERNEL
+invalid.reviewer@itl.com:
+- AOSP
+- KERNEL
+- INVALID_DOMAIN
+xavier.delas@intel.com:
+- AOSP
