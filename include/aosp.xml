@@ -277,6 +277,7 @@
   <project groups="pdk" name="a/aosp/platform/hardware/ril" path="hardware/ril" />
   <project groups="pdk" name="a/aosp/platform/libcore" path="libcore" />
   <project groups="pdk" name="a/aosp/platform/libnativehelper" path="libnativehelper" />
+  <project groups="pdk" name="a/aosp/platform/ndk" path="ndk" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" />
   <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Browser" path="packages/apps/Browser" />
@@ -322,6 +323,7 @@
   <project groups="apps_stk,pdk-fs" name="a/aosp/platform/packages/apps/Stk" path="packages/apps/Stk" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Tag" path="packages/apps/Tag" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Terminal" path="packages/apps/Terminal" />
+  <project groups="pdk-fs" name="a/aosp/platform/packages/apps/TvSettings" path="packages/apps/TvSettings" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn" />
