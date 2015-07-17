@@ -63,17 +63,39 @@
     <project name="a/bsp/hardware/intel/efi/kernelflinger" path="hardware/intel/kernelflinger" revision="android/master" />
     <project name="a/bsp/hardware/intel/sventx" path="vendor/intel/hardware/sventx" revision="android/master" />
     <project name="a/bsp/hardware/intel/ufo_make" path="hardware/intel/ufo_make" revision="android/master" />
-    <project name="a/bsp/kernel/gmin-dev" path="kernel/gmin-dev" groups="notdefault,kernel-src,embargoed" revision="android/l/mr1/master" />
-    <project name="a/bsp/kernel/gmin" path="kernel/gmin" groups="notdefault,kernel-src" revision="android/l/mr1/master" />
-    <project name="a/bsp/kernel/irda" path="kernel/coho" groups="notdefault,kernel-src" revision="android/l/mr1/master" />
-    <project spsId="45510" name="a/bsp/kernel/sofia" path="kernel/sofia" groups="notdefault,kernel-src,embargoed" revision="android/l/mr1/master" />
-    <project name="a/bsp/kernel/bxt-embargo" path="kernel/bxt-embargo" groups="notdefault,kernel-src,embargoed" revision="android/l/mr1/master" />
-    <project name="a/bsp/kernel/gmin-quilt-representation" path="kernel/gmin-quilt-representation" groups="notdefault,kernel-quilt" revision="android/l/mr1/master" />
-    <project name="a/bsp/kernel/modules/realtek" path="kernel/modules/realtek" groups="notdefault,kernel-src" revision="android/l/mr1/master" />
-    <project name="a/bsp/kernel/modules/iwlwifi" path="kernel/modules/iwlwifi" groups="notdefault,kernel-src" revision="android/l/mr1/master" />
-    <project name="a/bsp/kernel/modules/perftools-external" path="kernel/modules/perftools-external" groups="notdefault,kernel-src" revision="android/l/mr1/master" />
-    <project name="a/bsp/kernel/modules/gnss" path="kernel/modules/gnss" groups="notdefault,kernel-src" revision="android/l/mr1/master" />
-    <project name="a/bsp/kernel/modules/perftools-internal" path="kernel/modules/perftools-internal" groups="notdefault,kernel-src" revision="android/l/mr1/master" />
+    <project name="a/bsp/kernel/gmin-dev" path="kernel/gmin-dev" groups="notdefault,kernel-src,embargoed" revision="android/l/mr1/master" >
+        <annotation name="readonly" value="true"/>
+  </project>
+    <project name="a/bsp/kernel/gmin" path="kernel/gmin" groups="notdefault,kernel-src" revision="android/l/mr1/master" >
+        <annotation name="readonly" value="true"/>
+  </project>
+    <project name="a/bsp/kernel/irda" path="kernel/coho" groups="notdefault,kernel-src" revision="android/l/mr1/master" >
+        <annotation name="readonly" value="true"/>
+  </project>
+    <project spsId="45510" name="a/bsp/kernel/sofia" path="kernel/sofia" groups="notdefault,kernel-src,embargoed" revision="android/l/mr1/master" >
+        <annotation name="readonly" value="true"/>
+  </project>
+    <project name="a/bsp/kernel/bxt-embargo" path="kernel/bxt-embargo" groups="notdefault,kernel-src,embargoed" revision="android/l/mr1/master" >
+        <annotation name="readonly" value="true"/>
+  </project>
+    <project name="a/bsp/kernel/gmin-quilt-representation" path="kernel/gmin-quilt-representation" groups="notdefault,kernel-quilt" revision="android/l/mr1/master" >
+        <annotation name="readonly" value="true"/>
+  </project>
+    <project name="a/bsp/kernel/modules/realtek" path="kernel/modules/realtek" groups="notdefault,kernel-src" revision="android/l/mr1/master" >
+        <annotation name="readonly" value="true"/>
+  </project>
+    <project name="a/bsp/kernel/modules/iwlwifi" path="kernel/modules/iwlwifi" groups="notdefault,kernel-src" revision="android/l/mr1/master" >
+        <annotation name="readonly" value="true"/>
+  </project>
+    <project name="a/bsp/kernel/modules/perftools-external" path="kernel/modules/perftools-external" groups="notdefault,kernel-src" revision="android/l/mr1/master" >
+        <annotation name="readonly" value="true"/>
+  </project>
+    <project name="a/bsp/kernel/modules/gnss" path="kernel/modules/gnss" groups="notdefault,kernel-src" revision="android/l/mr1/master" >
+        <annotation name="readonly" value="true"/>
+  </project>
+    <project name="a/bsp/kernel/modules/perftools-internal" path="kernel/modules/perftools-internal" groups="notdefault,kernel-src" revision="android/l/mr1/master" >
+        <annotation name="readonly" value="true"/>
+  </project>
     <project name="a/bsp/platform/bootable/userfastboot" path="bootable/userfastboot" revision="android/master" />
     <project name="a/bsp/platform/external/bluetooth/hcitools" path="external/bluetooth/hcitools" revision="android/master" />
     <project name="a/bsp/platform/external/bluetooth/libbt-vendor-linux" path="external/bluetooth/libbt-vendor-linux" revision="android/master" />
@@ -371,7 +393,9 @@
     </project>
     <project name="a/bsp/vendor/intel/fw/ds4fw" path="vendor/intel/fw/ds4fw" revision="android/master" />
     <project name="a/bsp/device/intel/cht-kernel" path="device/intel/cht-kernel" revision="android/master" />
-    <project name="a/bsp/kernel/cht" path="kernel/cht" groups="notdefault,kernel-src" revision="android/l/mr1/master" />
+    <project name="a/bsp/kernel/cht" path="kernel/cht" groups="notdefault,kernel-src" revision="android/l/mr1/master" >
+        <annotation name="readonly" value="true"/>
+  </project>
     <project name="a/bsp/vendor/intel/tools/telephony_tools/field_test" path="vendor/intel/tools/telephony_tools/field_test" revision="android/master" />
     <project name="a/bsp/device/intel/telephony_tools/coredumpwarning" path="vendor/intel/tools/telephony_tools/coredumpwarning" revision="android/master" />
     <project restricted="blue_woods" groups="bsp-priv,bluewoods" name="a/bsp/vendor/intel/hardware/cellular_coex_manager/broadcom" path="vendor/intel/hardware/PRIVATE/cellular_coex_manager/broadcom" revision="android/master" />
@@ -381,8 +405,12 @@
     <project name="a/bsp/vendor/intel/apps/thermal_lite" path="vendor/intel/apps/thermal_lite" revision="android/master" />
     <project name="a/bsp/vendor/intel/apps/depth_extension" path="vendor/intel/camera/depth_extension" revision="android/master" />
     <project name="a/bsp/vendor/intel/PRIVATE/Aware" path="vendor/intel/apps/PRIVATE/Aware" revision="android/master" />
-    <project name="a/bsp/kernel/sofia-lte" path="kernel/sofia-lte" revision="android/l/mr1/master" />
-    <project name="a/bsp/kernel/modules/dbgtools-internal" path="kernel/modules/dbgtools-internal" groups="embargoed" revision="android/l/mr1/master" />
+    <project name="a/bsp/kernel/sofia-lte" path="kernel/sofia-lte" revision="android/l/mr1/master" >
+        <annotation name="readonly" value="true"/>
+  </project>
+    <project name="a/bsp/kernel/modules/dbgtools-internal" path="kernel/modules/dbgtools-internal" groups="embargoed" revision="android/l/mr1/master" >
+        <annotation name="readonly" value="true"/>
+  </project>
     <project spsId="60545" name="a/bsp/vendor/intel/PRIVATE/apps/Kratos" path="vendor/intel/apps/PRIVATE/Kratos" groups="bsp-priv,embargoed" revision="android/master" >
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
