@@ -603,10 +603,6 @@
 - hardware/libhardware_legacy/include/hardware_legacy/wifi.h
 - hardware/libhardware_legacy/wifi
 - hardware/nxp/nfc
-- kernel/modules/bcm43xx
-- kernel/modules/gnss
-- kernel/modules/iwlwifi
-- kernel/modules/realtek
 - packages/apps/Bluetooth
 - packages/apps/Nfc
 - packages/apps/Settings/src/com/android/settings/nfc
@@ -658,9 +654,6 @@
 'Debug and Trace':
 - external/pciutils
 - frameworks/native/cmds/dumpstate
-- kernel/modules/dbgtools-internal
-- kernel/modules/perftools-external
-- kernel/modules/perftools-internal
 - vendor/intel/apps/AndroidTerm
 - vendor/intel/apps/PRIVATE/Kratos
 - vendor/intel/apps/PRIVATE/system_infra
@@ -703,19 +696,18 @@
 - hardware/intel/gpu/mali-hwcomposer
 - hardware/intel/gpu/mali-midgard_lib
 'Kernel':
-- device/intel/bxt-embargo-kernel
-- device/intel/cht-kernel
-- device/intel/coho-kernel
-- device/intel/gmin-kernel-dev
-- device/intel/kernel_ref
-- device/intel/sofia3g-kernel
-- device/intel/sofia_lte-kernel
-- kernel/bxt-embargo
 - kernel/cht
 - kernel/coho
 - kernel/gmin
 - kernel/gmin-dev
 - kernel/gmin-quilt-representation
+- kernel/modules/bcm43xx
+- kernel/modules/dbgtools-internal
+- kernel/modules/gnss
+- kernel/modules/iwlwifi
+- kernel/modules/perftools-external
+- kernel/modules/perftools-internal
+- kernel/modules/realtek
 - kernel/sofia
 - kernel/sofia-lte
 'Manifest':
@@ -725,13 +717,20 @@
 - device/intel/binarydownloader
 - device/intel/broxton
 - device/intel/build
+- device/intel/bxt-embargo-kernel
 - device/intel/cherrytrail
+- device/intel/cht-kernel
 - device/intel/coho
+- device/intel/coho-kernel
 - device/intel/common
+- device/intel/gmin-kernel-dev
 - device/intel/goldsand
+- device/intel/kernel_ref
 - device/intel/mixins
+- device/intel/sofia3g-kernel
 - device/intel/sofia3gr
 - device/intel/sofia_lte
+- device/intel/sofia_lte-kernel
 - external/libfuse
 - external/libkmod
 - external/pystache
