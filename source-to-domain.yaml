@@ -531,6 +531,7 @@
 - external/uefi_shim
 - frameworks/base/services/java/com/android/server/power/ShutdownThread.java
 - hardware/intel/efi_prebuilts/gnu-efi
+- hardware/intel/mrd-3gr-sofia/bootsystems
 - hardware/intel/kernelflinger
 'Camera - Imaging':
 - frameworks/av/services/camera
