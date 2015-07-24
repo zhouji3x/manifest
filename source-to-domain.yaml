@@ -521,6 +521,16 @@
 - bootable/bootloader/legacy
 - bootable/recovery
 - bootable/userfastboot
+- device/intel/mixins/groups/boot-arch
+- device/intel/mixins/groups/config-partition
+- device/intel/mixins/groups/debug-charging
+- device/intel/mixins/groups/disk-bus
+- device/intel/mixins/groups/factory-scripts
+- device/intel/mixins/groups/flashfiles
+- device/intel/mixins/groups/flashfiles-2ndstage
+- device/intel/mixins/groups/flashfiles-content
+- device/intel/mixins/groups/flashfiles-oem
+- device/intel/mixins/groups/manufacturing-data
 - external/dosfstools
 - external/efibootmgr
 - external/efitools
