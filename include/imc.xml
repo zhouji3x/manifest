@@ -25,6 +25,6 @@
     <project spsId="59119" name="a/bsp/hardware/imc/fm" path="hardware/imc/fm" revision="android/master" />
 
     <!-- IMC codecs -->
-    <project path="hardware/intel/codecs" name="a/bsp/hardware/intel/codecs" revision="refs/tags/mirror/sofia/SOFIA_LTE_1527_4_2020" groups="imc" spsId="62132"/>
+    <project path="hardware/intel/codecs" name="a/bsp/hardware/intel/codecs" revision="android/master" groups="imc" spsId="62132"/>
 
 </manifest>
