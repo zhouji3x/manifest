@@ -399,7 +399,6 @@
   <project groups="pdk" name="a/aosp/platform/system/netd" path="system/netd" />
   <project groups="pdk" name="a/aosp/platform/system/security" path="system/security" />
   <project groups="pdk" name="a/aosp/platform/system/vold" path="system/vold" />
-  <project path="vendor/pdk/data/cts" name="a/aosp/platform/vendor/pdk/data/cts" revision="mirror/pdk/m-release" clone-depth="1" groups="default"/>
   <project path="vendor/pdk/data/docs" name="a/aosp/platform/vendor/pdk/data/docs" revision="mirror/pdk/m-release" sync-c="true" groups="default"/>
 
 <!-- not part of M AOSP, retaind for now with their L versions -->
