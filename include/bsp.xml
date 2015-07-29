@@ -119,7 +119,7 @@
     <project name="a/bsp/vendor/intel/external/efi/gnu-efi_prebuilt" path="hardware/intel/efi_prebuilts/gnu-efi" revision="android/master" />
     <project name="a/bsp/vendor/intel/external/efivar" path="external/efivar" revision="android/master" />
     <project restricted="not_IMC_wprd" groups="bsp-priv,not_imc_wprd" name="a/bsp/vendor/intel/fw/bt/broadcom" path="vendor/intel/fw/bluetooth/broadcom" revision="android/master" />
-    <project name="a/bsp/vendor/intel/fw/wlan/broadcom" path="vendor/intel/fw/wlan/broadcom" revision="android/l/mr1/master" />
+    <project name="a/bsp/device/intel/fw/wifi_bcm" path="vendor/intel/fw/wlan/broadcom" revision="android/l/mr1/master" />
     <project restricted="not_IMC_wprd" groups="bsp-priv,not_imc_wprd" name="a/bsp/vendor/intel/fw/bt/realtek" path="vendor/intel/fw/bluetooth/realtek" revision="android/master" />
     <project name="a/bsp/vendor/intel/fw/PRIVATE/bt/intel" path="vendor/intel/fw/bluetooth/intel"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
