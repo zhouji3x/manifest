@@ -806,6 +806,9 @@
 - vendor/intel/tools/telephony_tools/coredumpwarning
 - vendor/intel/tools/telephony_tools/field_test
 - vendor/intel/tools/telephony_tools/modem_trace_server
+'Video Conferencing':
+- vendor/intel/PRIVATE/rtc
+- vendor/intel/rtc
 'Video Gen':
 - external/jpeg
 - external/libva
