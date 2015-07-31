@@ -132,10 +132,10 @@
   </project>
     <project name="a/bsp/vendor/intel/hardware/nfc/intel" path="hardware/intel/nfc" revision="android/master" />
     <project name="a/bsp/device/intel/fw/sst" path="vendor/intel/fw/sst" revision="android/master" />
-    <project name="a/bsp/vendor/intel/hardware/audio_media" path="vendor/intel/hardware/audio/audio_media" revision="android/master" />
+    <project name="a/bsp/vendor/intel/hardware/audio_media" path="hardware/intel/audio/coe/hdmi" revision="android/master" />
     <project name="a/bsp/vendor/intel/fw/camera/ipu4" path="vendor/intel/fw/ipu4" revision="android/master" />
     <project name="a/bsp/vendor/intel/hardware/audiocomms/vibrator" path="hardware/intel/vibrator" revision="android/master" />
-    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" path="hardware/intel/audio/hal"  groups="bsp-priv" revision="android/master" >
+    <project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" path="hardware/intel/audio/coe/primary"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -457,9 +457,6 @@
     <!-- Kernel Git src has been moved to its own manifest file under l-dev/ingredient/irda-kernel -->
     <project name="a/bsp/device/intel/coho-kernel" path="device/intel/coho-kernel" revision="android/master" />
 
-    <!-- irda-audio repositories -->
-    <project name="a/bsp/hardware/intel/audio" path="hardware/intel/audio/irda" revision="android/master" />
-
     <!-- SoFIA platform repositories -->
     <project name="a/bsp/PRIVATE/prebuilts/icc/linux-x86/x86/x86-android-linux-14.0" path="icc" revision="android/master" />
 
@@ -479,5 +476,9 @@
     <!--security repository -->
     <project name="a/bsp/hardware/intel/rpcsecurity/libtee_vsec" path="hardware/intel/rpcsecurity/libtee_vsec" revision="android/master" />
     <project name="a/bsp/device/intel/sepolicy" path="device/intel/sepolicy" revision="android/master" />
+
+    <!--audio repository -->
+    <project name="a/bsp/hardware/intel/libsoundtrigger_hal" path="hardware/intel/audio/coe/soundtrigger" revision="android/master" />
+    <project name="a/bsp/hardware/intel/libcodec_offload" path="hardware/intel/audio/coe/codec_offload" revision="android/master"/>
 
 </manifest>
