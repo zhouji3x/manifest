@@ -759,6 +759,7 @@
 - vendor/intel/apps/PRIVATE/security_assist
 - vendor/intel/apps/PRIVATE/silentlake/sl_installer
 - vendor/intel/hardware/PRIVATE/libiha
+- vendor/intel/hardware/keystore
 - vendor/intel/hardware/libmei
 - vendor/intel/hardware/libmeimm
 - vendor/intel/hardware/libsl
