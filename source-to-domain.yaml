@@ -442,14 +442,25 @@
 - art
 - vendor/intel/art-extension
 'Audio':
+- device/intel/baytrail/audio
+- device/intel/baytrail/ecs_e7/audio
+- device/intel/broxton/audio
+- device/intel/broxton/bxt_rvp/audio
 - device/intel/cherrytrail/audio
 - device/intel/cherrytrail/cht_cr_rvp/audio
 - device/intel/cherrytrail/cht_ffd/audio
 - device/intel/cherrytrail/cht_ffdre/audio
 - device/intel/cherrytrail/cht_hr/audio
 - device/intel/cherrytrail/cht_rvp/audio
+- device/intel/coho/audio
 - device/intel/common/audio
 - device/intel/common/config_min/parameter-framework
+- device/intel/mixins/groups/audio
+- device/intel/sofia_lte/slti20mr6/audio
+- device/intel/sofia_lte/slti20svb/audio
+- device/intel/sofia3gr/oars7/audio
+- device/intel/sofia3gr/s3gr10m6s/audio
+- device/intel/sofia3gr/s3gr10s11/audio
 - external/aac
 - external/alac
 - external/parameter-framework/core
@@ -457,6 +468,7 @@
 - external/parameter-framework/plugins/fs
 - hardware/intel/audio/coe/codec_offload
 - hardware/intel/audio/coe/soundtrigger
+- hardware/intel/vibrator
 - external/sonivox
 - external/tinyalsa
 - external/tinycompress
@@ -510,10 +522,7 @@
 - vendor/intel/audio/utilities
 - vendor/intel/fw/sst
 - vendor/intel/hardware/PRIVATE/aware_audio
-- vendor/intel/hardware/PRIVATE/libsoundtrigger_hal
-- vendor/intel/hardware/audio/audio_media
 - vendor/intel/hardware/audio/libaudioresample
-- vendor/intel/hardware/libcodec_offload
 - vendor/intel/lpal
 - vendor/intel/media_codecs
 - vendor/intel/tools/asoc_dfw
@@ -758,7 +767,6 @@
 - external/libaudit
 - frameworks/native/services/sensorservice
 - hardware/intel/libsensors-input
-- hardware/intel/vibrator
 - vendor/intel/apps/PRIVATE/Aware
 - vendor/intel/hardware/iio-sensors
 - vendor/intel/hardware/ish-sensors
