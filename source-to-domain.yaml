@@ -791,6 +791,7 @@
 - vendor/intel/fw/modem/IMC/7160_flashless
 - vendor/intel/fw/modem/IMC/7260_flashless
 - vendor/intel/fw/modem/IMC/7360_flashless
+- vendor/intel/hardware/modem_client
 - vendor/intel/hardware/PRIVATE/imc/rpc
 - vendor/intel/hardware/PRIVATE/modem_client
 - vendor/intel/hardware/telephony/IFX-modem

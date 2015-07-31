@@ -368,6 +368,11 @@
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
     <project spsId="60542" name="a/bsp/device/intel/fw/modem/IMC/7160_flashless" path="vendor/intel/fw/modem/IMC/7160_flashless" revision="android/master" />
+    <project path="vendor/intel/hardware/modem_client" name="a/bsp/vendor/intel/hardware/modem_client" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project spsId="60542" name="a/bsp/vendor/intel/apps/cellular_coex_manager" path="vendor/intel/apps/PRIVATE/cellular_coex_manager"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
