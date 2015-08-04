@@ -4,8 +4,12 @@ ldap//CN=OTC_SI_1A-Rev-Art,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=
 - 'Art'
 ldap//CN=OTC_SI_1A-Rev-Audio,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Audio'
+ldap//CN=OTC_SI_1A-Rev-Auto_Detection,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Auto_Detection'
 ldap//CN=OTC_SI_1A-Rev-BOOT_OTA_GOTA,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'BOOT - OTA - GOTA'
+ldap//CN=OTC_SI_1A-Rev-BOOT_OTA_GOTA_SoFia,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'BOOT - OTA - GOTA SoFia'
 ldap//CN=OTC_SI_1A-Rev-Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Camera - Imaging'
 ldap//CN=OTC_SI_1A-Rev-Connectivity,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
@@ -14,16 +18,38 @@ ldap//CN=OTC_SI_1A-Rev-Debug_Trace,OU=Rialto,OU=Application Managed,OU=Groups,DC
 - 'Debug and Trace'
 ldap//CN=OTC_SI_1A-Rev-Energy_Mgt,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Energy management'
+ldap//CN=OTC_SI_1A-Rev-Gfx_Display_Drm,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Gfx / Display Drm'
 ldap//CN=OTC_SI_1A-Rev-GFX_Gen,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'GFX / Display Gen'
 ldap//CN=OTC_SI_1A-Rev-GFX_Mali,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'GFX / Display Mali'
+ldap//CN=OTC_SI_1A-Rev-ISH,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'ISH'
 ldap//CN=OTC_SI_1A-Rev-Kernel,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Kernel'
 ldap//CN=OTC_SI_1A-Rev-Manifest,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Manifest'
+ldap//CN=OTC_SI_1A-Rev-Perceptual_Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Perceptual Camera'
+ldap//CN=OTC_SI_1A-Rev-Platform_Baytrail,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform Baytrail'
+ldap//CN=OTC_SI_1A-Rev-Platform_BIOS,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform BIOS'
+ldap//CN=OTC_SI_1A-Rev-Platform_Broxton,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform Broxton'
+ldap//CN=OTC_SI_1A-Rev-Platform_CherryTrail,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform CherryTrail'
 ldap//CN=OTC_SI_1A-Rev-Platform_Config,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Platform Config'
+ldap//CN=OTC_SI_1A-Rev-Platform_GoldSand,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform GoldSand'
+ldap//CN=OTC_SI_1A-Rev-Platform_SoFia_3G,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform SoFia 3G'
+ldap//CN=OTC_SI_1A-Rev-Platform_SoFia_3GR,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform SoFia 3GR'
+ldap//CN=OTC_SI_1A-Rev-Platform_SoFia_LTE,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform SoFia LTE'
 ldap//CN=OTC_SI_1A-Rev-PM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Power Management'
 ldap//CN=OTC_SI_1A-Rev-Security_Middle,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
@@ -38,4 +64,7 @@ ldap//CN=OTC_SI_1A-Rev-Video_Conferencing,OU=Rialto,OU=Application Managed,OU=Gr
 - 'Video Conferencing'
 ldap//CN=OTC_SI_1A-Rev-Video_Gen,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Video Gen'
-
+ldap//CN=OTC_SI_1A-Rev-VMM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'VMM'
+ldap//CN=OTC_SI_1A-Rev-WiDi,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'WiDi'

@@ -1,22 +1,127 @@
-see_eam.intel.com_to_be_granted@intel.com:
-- 'AOSP'
-- 'Art'
-- 'Audio'
-- 'BOOT - OTA - GOTA'
-- 'Camera - Imaging'
-- 'Connectivity'
-- 'Debug and Trace'
-- 'Energy management'
-- 'GFX / Display Gen'
-- 'GFX / Display Mali'
-- 'Kernel'
-- 'Manifest'
-- 'Platform Config'
-- 'Power Management'
-- 'Security Middleware'
-- 'Sensors'
-- 'Storage'
-- 'Telephony'
-- 'Video Conferencing'
+ajit.joshi@intel.com:
+- 'WiDi'
+andreas.karlsson@intel.com:
 - 'Video Gen'
-
+anne-sophie.lefevre@intel.com:
+- 'Manifest'
+amir.noam@intel.com:
+- 'ISH'
+aviv.d.greenberg@intel.com:
+- 'Perceptual Camera'
+axel.fagerstedt@intel.com:
+- 'AOSP'
+brad.geltz@intel.com:
+- 'BOOT - OTA - GOTA'
+- 'BOOT - OTA - GOTA SoFia'
+cedric.le.claire@intel.com:
+- 'Connectivity'
+chris.r.watkins@intel.com:
+- 'Gfx / Display Drm'
+- 'GFX / Display Gen'
+christophe.guerard@intel.com:
+- 'Debug and Trace'
+cyrille.bezard-falgas@intel.com:
+- 'Platform Baytrail'
+- 'Platform BIOS'
+- 'Platform Broxton'
+- 'Platform CherryTrail'
+- 'Platform Config'
+- 'Platform GoldSand'
+- 'Platform SoFia 3G'
+- 'Platform SoFia 3GR'
+- 'Platform SoFia LTE'
+dong-yuan.chen@intel.com:
+- 'Art'
+eman.copty@intel.com:
+- 'Perceptual Camera'
+hang.l.sun@intel.com:
+- 'WiDi'
+hatem.oueslati@intel.com:
+- 'Telephony'
+hector.morales.piloni@intel.com:
+- 'Video Gen'
+jacques.bourhis@intel.com:
+- 'Connectivity'
+- 'Telephony'
+jeremy.compostella@intel.com:
+- 'BOOT - OTA - GOTA'
+- 'BOOT - OTA - GOTA SoFia'
+joel.clark@intel.com:
+- 'Kernel'
+john.fredriksson@intel.com:
+- 'Camera - Imaging'
+johnson.z.wu@intel.com:
+- 'Power Management'
+julien.battiston@intel.com:
+- 'Power Management'
+kuo-lang.tseng@intel.com:
+- 'VMM'
+linda.s.cline@intel.com:
+- 'Video Conferencing'
+manjunath.ranganathaiah@intel.com:
+- 'VMM'
+manohar.r.castelino@intel.com:
+- 'VMM'
+michael.bergeron@intel.com:
+- 'BOOT - OTA - GOTA'
+- 'BOOT - OTA - GOTA SoFia'
+michael.leibowitz@intel.com:
+- 'Security Middleware'
+mickael.mallet@intel.com:
+- 'Manifest'
+mihai.serban@intel.com:
+- 'Sensors'
+mikael.persson@intel.com:
+- 'Camera - Imaging'
+nitheesh.k.l@intel.com:
+- 'Art'
+niveditha.sundaram@intel.com:
+- 'Video Conferencing'
+noor.u.mubeen@intel.com:
+- 'Energy management'
+ola.lilja@intel.com:
+- 'Audio'
+patrick.porlan@intel.com:
+- 'Sensors'
+paul.asterland@intel.com:
+- 'Audio'
+prajwal.karur.mohan@intel.com:
+- 'Platform Baytrail'
+- 'Platform BIOS'
+- 'Platform Broxton'
+- 'Platform CherryTrail'
+- 'Platform Config'
+- 'Platform GoldSand'
+- 'Platform SoFia 3G'
+- 'Platform SoFia 3GR'
+- 'Platform SoFia LTE'
+radivoje.jovanovic@intel.com:
+- 'Energy management'
+richard.zatorski@intel.com:
+- 'Gfx / Display Drm'
+- 'GFX / Display Gen'
+russell.webb@intel.com:
+- 'Security Middleware'
+samuel.ortiz@intel.com:
+- 'Auto_Detection'
+see_eam.intel.com_to_be_granted@intel.com:
+- 'GFX / Display Mali'
+- 'Storage'
+sylvestre.dischamp@intel.com:
+- 'Telephony'
+thierry.deleau@intel.com:
+- 'Telephony'
+thierry.escande@intel.com:
+- 'Auto_Detection'
+viorel.suman@intel.com:
+- 'Sensors'
+william.c.roberts@intel.com:
+- 'Security Middleware'
+yann.fouassier@intel.com:
+- 'Debug and Trace'
+yong.yao@intel.com:
+- 'AOSP'
+zachary.zou@intel.com:
+- 'VMM'
+zhifeng.wang@intel.com:
+- 'ISH'

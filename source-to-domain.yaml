@@ -11,6 +11,7 @@
 - device/generic/armv7-a-neon
 - device/generic/common
 - device/generic/goldfish
+- device/generic/lionhead
 - device/generic/mini-emulator-arm64
 - device/generic/mini-emulator-armv7-a-neon
 - device/generic/mini-emulator-mips
@@ -22,6 +23,7 @@
 - device/generic/x86_64
 - device/google/accessory/arduino
 - device/google/accessory/demokit
+- device/google/atv
 - device/htc/flounder
 - device/htc/flounder-kernel
 - device/lge/hammerhead
@@ -31,21 +33,28 @@
 - device/moto/shamu
 - device/moto/shamu-kernel
 - device/sample
+- docs/source.android.com
 - external/android-clat
+- external/android-mock
+- external/androidplot
 - external/ant-glob
 - external/antlr
+- external/apache-commons-math
 - external/apache-harmony
 - external/apache-http
 - external/apache-qp
 - external/apache-xml
 - external/arduino
 - external/bison
+- external/boringssl
 - external/bsdiff
 - external/bzip2
+- external/cblas
 - external/ceres-solver
 - external/checkpolicy
 - external/chromium-libpac
 - external/chromium-trace
+- external/chromium-webview
 - external/chromium_org
 - external/chromium_org/sdch/open-vcdiff
 - external/chromium_org/testing/gtest
@@ -82,9 +91,11 @@
 - external/cmockery
 - external/compiler-rt
 - external/conscrypt
+- external/crcalc
 - external/deqp
 - external/dexmaker
 - external/doclava
+- external/donuts
 - external/droiddriver
 - external/e2fsprogs
 - external/easymock
@@ -92,6 +103,7 @@
 - external/eclipse-windowbuilder
 - external/eigen
 - external/elfutils
+- external/embunit
 - external/emma
 - external/esd
 - external/expat
@@ -113,10 +125,12 @@
 - external/google-fonts/cutive-mono
 - external/google-fonts/dancing-script
 - external/google-tv-pairing-protocol
+- external/gptfdisk
 - external/gtest
 - external/guava
 - external/hamcrest
 - external/harfbuzz_ng
+- external/hyphenation-patterns
 - external/icu
 - external/iputils
 - external/jack
@@ -125,9 +139,11 @@
 - external/javassist
 - external/jdiff
 - external/jemalloc
+- external/jetty
 - external/jhead
 - external/jline
 - external/jmdns
+- external/jmonkeyengine
 - external/jsilver
 - external/jsmn
 - external/jsoncpp
@@ -135,6 +151,7 @@
 - external/junit
 - external/kernel-headers
 - external/ksoap2
+- external/libavc
 - external/libcap-ng
 - external/libcxx
 - external/libcxxabi
@@ -143,6 +160,7 @@
 - external/libgsm
 - external/libhevc
 - external/liblzf
+- external/libmpeg2
 - external/libmtp
 - external/libnl
 - external/libogg
@@ -158,6 +176,7 @@
 - external/libusb
 - external/libusb-compat
 - external/libutf
+- external/libvncserver
 - external/libvorbis
 - external/libvpx
 - external/libvterm
@@ -165,16 +184,20 @@
 - external/libyuv
 - external/linux-tools-perf
 - external/littlemock
+- external/lld
 - external/lldb
 - external/llvm
 - external/lohit-fonts
 - external/ltrace
+- external/lz4
 - external/lzma
+- external/marisa-trie
 - external/markdown
 - external/mdnsresponder
 - external/mesa3d
 - external/messageformat
 - external/mksh
+- external/mockftpserver
 - external/mockito
 - external/mockwebserver
 - external/mp4parser
@@ -206,15 +229,20 @@
 - external/regex-re2
 - external/replicaisland
 - external/robolectric
+- external/roboto-fonts
 - external/safe-iop
 - external/scrypt
+- external/selinux
 - external/sepolicy
 - external/sfntly
 - external/skia
+- external/slf4j
 - external/smack
 - external/smali
+- external/sonic
 - external/speex
 - external/sqlite
+- external/squashfs-tools
 - external/srec
 - external/srtp
 - external/stlport
@@ -227,9 +255,12 @@
 - external/timezonepicker-support
 - external/tinyxml
 - external/tinyxml2
+- external/toybox
 - external/tremolo
+- external/v8
 - external/valgrind
 - external/vixl
+- external/vogar
 - external/webp
 - external/webrtc
 - external/xmlwriter
@@ -245,6 +276,7 @@
 - frameworks/compile/libbcc
 - frameworks/compile/mclinker
 - frameworks/compile/slang
+- frameworks/data-binding
 - frameworks/ex
 - frameworks/mff
 - frameworks/minikin
@@ -268,6 +300,7 @@
 - frameworks/opt/colorpicker
 - frameworks/opt/datetimepicker
 - frameworks/opt/emoji
+- frameworks/opt/inputconnectioncommon
 - frameworks/opt/inputmethodcommon
 - frameworks/opt/net
 - frameworks/opt/net/ethernet
@@ -315,12 +348,15 @@
 - packages/apps/Calculator
 - packages/apps/Calendar
 - packages/apps/Camera2
+- packages/apps/CarrierConfig
 - packages/apps/CertInstaller
 - packages/apps/Contacts
 - packages/apps/ContactsCommon
 - packages/apps/DeskClock
 - packages/apps/Email
+- packages/apps/ExactCalculator
 - packages/apps/Exchange
+- packages/apps/FMRadio
 - packages/apps/Gallery2
 - packages/apps/HTMLViewer
 - packages/apps/InCallUI
@@ -350,7 +386,9 @@
 - packages/inputmethods/LatinIME
 - packages/inputmethods/OpenWnn
 - packages/providers/ApplicationsProvider
+- packages/providers/BookmarkProvider
 - packages/providers/CalendarProvider
+- packages/providers/CallLogProvider
 - packages/providers/ContactsProvider
 - packages/providers/DownloadProvider
 - packages/providers/MediaProvider
@@ -378,6 +416,7 @@
 - prebuilts/clang/darwin-x86/arm/3.3
 - prebuilts/clang/darwin-x86/host/3.4
 - prebuilts/clang/darwin-x86/host/3.5
+- prebuilts/clang/darwin-x86/host/3.6
 - prebuilts/clang/darwin-x86/mips/3.3
 - prebuilts/clang/darwin-x86/x86/3.3
 - prebuilts/clang/linux-x86/3.1
@@ -385,6 +424,7 @@
 - prebuilts/clang/linux-x86/arm/3.3
 - prebuilts/clang/linux-x86/host/3.4
 - prebuilts/clang/linux-x86/host/3.5
+- prebuilts/clang/linux-x86/host/3.6
 - prebuilts/clang/linux-x86/mips/3.3
 - prebuilts/clang/linux-x86/x86/3.3
 - prebuilts/devtools
@@ -395,6 +435,7 @@
 - prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9
 - prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8
 - prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8
+- prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9
 - prebuilts/gcc/darwin-x86/host/headers
 - prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1
 - prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8
@@ -406,8 +447,10 @@
 - prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
 - prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
 - prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8
+- prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
 - prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6
 - prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8
+- prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8
 - prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8
 - prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8
 - prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9
@@ -425,8 +468,10 @@
 - prebuilts/sdk
 - prebuilts/tools
 - sdk
+- system/bt
 - system/core
 - system/extras
+- system/gatekeeper
 - system/keymaster
 - system/media
 - system/security
@@ -438,6 +483,7 @@
 - vendor/intel/hardware/PRIVATE/libmintel
 - vendor/intel/pcg
 - vendor/intel/rs_vectorizer
+- vendor/pdk/data/docs
 'Art':
 - art
 - vendor/intel/art-extension
@@ -491,11 +537,10 @@
 - frameworks/av/services/audiopolicy/
 - hardware/intel/audio/coe/hdmi
 - hardware/intel/audio/coe/primary
-- hardware/intel/audio/hal
 - hardware/intel/audio/imc/lib_imas
 - hardware/intel/audio/imc/libauddriver
 - hardware/intel/audio/imc/libaudio_hal
-- hardware/intel/audio/irda
+- hardware/intel/audio/imc/libaudio_hal_3g
 - hardware/libhardware_legacy/audio
 - hardware/libhardware_legacy/include/hardware_legacy/AudioHardwareBase.h
 - hardware/libhardware_legacy/include/hardware_legacy/AudioHardwareInterface.h
@@ -526,6 +571,10 @@
 - vendor/intel/lpal
 - vendor/intel/media_codecs
 - vendor/intel/tools/asoc_dfw
+'Auto_Detection':
+- hardware/intel/libhalclient
+- vendor/intel/apps/halctl
+- vendor/intel/apps/hald
 'BOOT - OTA - GOTA':
 - bootable/bootloader/legacy
 - bootable/recovery
@@ -550,32 +599,30 @@
 - external/uefi_shim
 - frameworks/base/services/java/com/android/server/power/ShutdownThread.java
 - hardware/intel/efi_prebuilts/gnu-efi
-- hardware/intel/mrd-3gr-sofia/bootsystems
 - hardware/intel/kernelflinger
+'BOOT - OTA - GOTA SoFia':
+- hardware/intel/mrd-3g-sofia/bootsystems
+- hardware/intel/mrd-3gr-sofia/bootsystems
+- hardware/intel/sofia_lte-fls
 'Camera - Imaging':
 - frameworks/av/services/camera
+- hardware/intel/hald_media_hook
 - packages/apps/Camera
 - packages/apps/Gallery
-- vendor/intel/PRIVATE/camera_depth_extension
 - vendor/intel/apps/PRIVATE/Camera
 - vendor/intel/apps/PRIVATE/Gallery
 - vendor/intel/apps/PRIVATE/arccamera
 - vendor/intel/apps/PRIVATE/depth_apps
 - vendor/intel/apps/PRIVATE/refcam
-- vendor/intel/camera/PRIVATE/libds4
 - vendor/intel/camera/camera3hal
 - vendor/intel/camera/camera_extension
 - vendor/intel/camera/cameralibs
-- vendor/intel/camera/depth_extension
 - vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0
 - vendor/intel/camera/libcamera2
 - vendor/intel/camera/libcamerausb
 - vendor/intel/camera/libiacss
 - vendor/intel/camera/libmfldadvci
 - vendor/intel/fw/camera
-- vendor/intel/fw/ds4fw
-- vendor/intel/hardware/PRIVATE/libds4
-- vendor/intel/tools/PRIVATE/ds4_tools
 'Connectivity':
 - device/intel/common/wlan
 - external/bluetooth/bluedroid
@@ -653,10 +700,11 @@
 - vendor/intel/hardware/cg2k/gnss/supl
 - vendor/intel/hardware/cg2k/gnssAdaptation/android
 - vendor/intel/hardware/cg2k/gnssExe
+- vendor/intel/hardware/nfc_mvt
 - vendor/intel/hardware/realtek/wlan
 - vendor/intel/hardware/utils
 - vendor/intel/tools/PRIVATE/bt/intel
-- vendor/intel/tools/PRIVATE/wifi/broadcom
+- vendor/intel/tools/wifi/broadcom
 - vendor/tools/Bluetooth/bt_trace_daemon
 - vendor/tools/Bluetooth/bt_trace_manager
 - vendor/tools/Bluetooth/xvt_bt_usc
@@ -681,10 +729,11 @@
 - vendor/intel/hardware/PRIVATE/libintel_swfg
 - vendor/intel/hardware/em_common
 - vendor/intel/hardware/healthd
-'GFX / Display Gen':
+'Gfx / Display Drm':
 - external/drm
-- external/drm-dev
 - external/libpciaccess
+'GFX / Display Gen':
+- external/drm-dev
 - frameworks/av/drm/drmserver
 - frameworks/native/libs/gui
 - frameworks/native/libs/ui
@@ -693,6 +742,9 @@
 - hardware/intel/ufo_make
 - vendor/google/widevinedrm
 - vendor/intel/apps/HdmiSettings
+- vendor/intel/hardware/PRIVATE/ufo/gen7
+- vendor/intel/hardware/PRIVATE/ufo/gen8
+- vendor/intel/hardware/PRIVATE/ufo/gen9
 - vendor/intel/ufo/gen7
 - vendor/intel/ufo/gen8
 - vendor/intel/ufo/gen8_dev
@@ -704,6 +756,10 @@
 - hardware/intel/gpu/mali-gralloc
 - hardware/intel/gpu/mali-hwcomposer
 - hardware/intel/gpu/mali-midgard_lib
+'ISH':
+- vendor/intel/hardware/ish-sensors
+- vendor/intel/hardware/libsensorshub
+- vendor/intel/apps/PRIVATE/Aware
 'Kernel':
 - kernel/cht
 - kernel/coho
@@ -718,61 +774,70 @@
 - kernel/modules/perftools-internal
 - kernel/modules/realtek
 - kernel/sofia
+- kernel/sofia3g
 - kernel/sofia-lte
+- prebuilts/gcc/linux-x86/x86/x86_64-linux-poky
 'Manifest':
 - manifests
-'Platform Config':
+'Perceptual Camera':
+- vendor/intel/tools/PRIVATE/ds4_tools
+- device/intel/mixins/groups/camera/ds4
+- vendor/intel/camera/depth_extension
+- vendor/intel/fw/ds4fw
+- vendor/intel/hardware/PRIVATE/libds4
+'Platform Baytrail':
 - device/intel/baytrail
-- device/intel/binarydownloader
-- device/intel/broxton
-- device/intel/build
-- device/intel/bxt-embargo-kernel
-- device/intel/cherrytrail
-- device/intel/cht-kernel
 - device/intel/coho
 - device/intel/coho-kernel
-- device/intel/common
-- device/intel/gmin-kernel-dev
-- device/intel/goldsand
 - device/intel/kernel_ref
+- vendor/intel/coho
+'Platform BIOS':
+- hardware/intel/efi_capsules
+'Platform Broxton':
+- device/intel/broxton
+- device/intel/bxt-embargo-kernel
+- device/intel/gmin-kernel-dev
+'Platform CherryTrail':
+- device/intel/cherrytrail
+- device/intel/cht-kernel
+'Platform Config':
+- device/intel/binarydownloader
+- device/intel/build
+- device/intel/common
 - device/intel/mixins
-- device/intel/sofia3g-kernel
-- device/intel/sofia3gr
-- device/intel/sofia_lte
-- device/intel/sofia_lte-kernel
 - external/libfuse
 - external/libkmod
 - external/pystache
 - external/sbsigntool
-- hardware/intel/efi_capsules
-- vendor/intel/coho
+'Platform GoldSand':
+- device/intel/goldsand
+'Platform SoFia 3G':
+- device/intel/sf3g-kernel
+- device/intel/sofia3g
+- hardware/intel/mrd-3g-sofia/lpmp3_vm
+- hardware/intel/mrd-3g-sofia/modem
+'Platform SoFia 3GR':
+- device/intel/sofia3gr
+'Platform SoFia LTE':
+- device/intel/sofia_lte
+- device/intel/sofia_lte-kernel
 'Power Management':
 - hardware/intel/power
 'Security Middleware':
-- device/intel/common/sepolicy
 - device/intel/sepolicy
 - external/bouncycastle
 - external/openssl
 - system/security/softkeymaster
-- vendor/intel/PRIVATE/cert
-- vendor/intel/PRIVATE/intel_cacerts
-- vendor/intel/apps/PRIVATE/security_assist
-- vendor/intel/apps/PRIVATE/silentlake/sl_installer
-- vendor/intel/hardware/PRIVATE/libiha
 - vendor/intel/hardware/keystore
 - vendor/intel/hardware/libmei
 - vendor/intel/hardware/libmeimm
-- vendor/intel/hardware/libsl
-- vendor/intel/silentlake/psw
 'Sensors':
 - external/libaudit
 - frameworks/native/services/sensorservice
 - hardware/intel/libsensors-input
-- vendor/intel/apps/PRIVATE/Aware
 - vendor/intel/hardware/iio-sensors
-- vendor/intel/hardware/ish-sensors
-- vendor/intel/hardware/libsensorshub
 - vendor/intel/hardware/sensors
+- vendor/zeitec/fw
 'Storage':
 - external/blktrace
 - system/vold
@@ -825,6 +890,7 @@
 - frameworks/av/cmds/screenrecord
 - frameworks/av/libvideoeditor
 - frameworks/av/media/libstagefright
+- hardware/intel/vpu/verisilicon
 - vendor/intel/apps/VppSettings
 - vendor/intel/camera/libmix
 - vendor/intel/hardware/PRIVATE/libmediaparser
@@ -834,3 +900,20 @@
 - vendor/intel/hardware/wrs_omxil_core
 - vendor/intel/libstagefrighthw
 - vendor/intel/mediasdk_release
+'VMM':
+- hardware/intel/cts-3g-sofia/mobilevisor/guests
+- hardware/intel/cts-3g-sofia/mobilevisor/products
+- hardware/intel/cts-3g-sofia/mobilevisor/release
+- hardware/intel/cts-3g-sofia/mobilevisor/services
+- hardware/intel/cts-3g-sofia/secure_vm
+- hardware/intel/cts-3g-sofia/soclib
+- hardware/intel/cts-3gr-sofia/mobilevisor/guests
+- hardware/intel/cts-3gr-sofia/mobilevisor/products
+- hardware/intel/cts-3gr-sofia/mobilevisor/release
+- hardware/intel/cts-3gr-sofia/mobilevisor/services
+- hardware/intel/cts-3gr-sofia/secure_vm
+- hardware/intel/cts-3gr-sofia/soclib
+- hardware/intel/rpcsecurity/libtee_vsec
+'WiDi':
+- vendor/intel/hardware/PRIVATE/widi
+- vendor/intel/hardware/PRIVATE/widi-testing
