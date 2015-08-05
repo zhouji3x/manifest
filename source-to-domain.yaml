@@ -795,7 +795,6 @@
 - hardware/intel/efi_capsules
 'Platform Broxton':
 - device/intel/broxton
-- device/intel/bxt-embargo-kernel
 - device/intel/gmin-kernel-dev
 'Platform CherryTrail':
 - device/intel/cherrytrail
