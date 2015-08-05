@@ -312,7 +312,6 @@
         <annotation name="bxt_rvp_external" value="bin"/>
   </project>
     <project name="a/bsp/device/intel/sofia3gr" path="device/intel/sofia3gr" groups="embargoed" revision="android/master" />
-    <project name="a/bsp/device/intel/sofia3g-kernel" path="device/intel/sofia3g-kernel" clone-depth="1" groups="embargoed" revision="android/master" />
     <project name="a/bsp/platform/external/dosfstools" path="external/dosfstools" revision="android/master" />
     <project name="a/bsp/platform/external/mtools" path="external/mtools" revision="android/master" />
     <project name="a/bsp/device/intel/fw/modem/IMC/7260_flashless" path="vendor/intel/fw/modem/IMC/7260_flashless" revision="android/master" />
