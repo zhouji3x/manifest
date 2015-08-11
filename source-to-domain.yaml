@@ -828,6 +828,7 @@
 - external/bouncycastle
 - external/openssl
 - system/security/softkeymaster
+- vendor/intel/cert
 - vendor/intel/hardware/keystore
 - vendor/intel/hardware/libmei
 - vendor/intel/hardware/libmeimm
