@@ -27,7 +27,7 @@
     <project name="a/bsp/external/linux-firmware-broadcom" path="external/linux-firmware-broadcom" revision="android/master" />
     <project name="a/bsp/external/syslinux" path="external/syslinux" revision="android/master" />
     <project name="a/bsp/platform/external/pystache" path="external/pystache" revision="android/master" />
-    <project name="a/bsp/hardware/intel/audiocomms/utilities" path="vendor/intel/audio/utilities" revision="android/master" />
+    <project name="a/bsp/hardware/intel/audiocomms/utilities" path="hardware/intel/audio/coe/utilities" revision="android/master" />
     <project name="a/bsp/hardware/intel/display/libmemtrack" path="hardware/intel/display/libmemtrack" revision="android/master" />
     <project name="a/bsp/hardware/intel/liblights" path="hardware/intel/lights" revision="android/master" />
     <project name="a/bsp/hardware/intel/libva" path="external/libva" revision="android/master" />

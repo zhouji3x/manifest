@@ -564,7 +564,7 @@
 - vendor/intel/audio/parameter-framework-plugins/xmm
 - vendor/intel/audio/probe
 - vendor/intel/audio/tests
-- vendor/intel/audio/utilities
+- hardware/intel/audio/coe/utilities
 - vendor/intel/fw/sst
 - vendor/intel/hardware/PRIVATE/aware_audio
 - vendor/intel/hardware/audio/libaudioresample
