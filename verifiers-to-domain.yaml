@@ -24,6 +24,8 @@ ldap//CN=OTC_SI_1A-Verif-GFX_Gen,OU=Rialto,OU=Application Managed,OU=Groups,DC=a
 - 'GFX / Display Gen'
 ldap//CN=OTC_SI_1A-Verif-GFX_Mali,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'GFX / Display Mali'
+ldap//CN=OTC_SI_1A-Verif-Intel_Security_diff,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Intel Security differentiation'
 ldap//CN=OTC_SI_1A-Verif-ISH,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'ISH'
 ldap//CN=OTC_SI_1A-Verif-Kernel,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

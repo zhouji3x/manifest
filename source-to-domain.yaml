@@ -757,6 +757,11 @@
 - hardware/intel/gpu/mali-gralloc
 - hardware/intel/gpu/mali-hwcomposer
 - hardware/intel/gpu/mali-midgard_lib
+'Intel Security differentiation' :
+- vendor/intel/apps/silentlake/sl_installer
+- vendor/intel/hardware/libiha
+- vendor/intel/hardware/libsl
+- vendor/intel/silentlake/psw
 'ISH':
 - vendor/intel/hardware/ish-sensors
 - vendor/intel/hardware/libsensorshub
