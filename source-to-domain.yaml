@@ -740,7 +740,6 @@
 - frameworks/native/opengl
 - frameworks/native/services/surfaceflinger
 - hardware/intel/ufo_make
-- vendor/google/widevinedrm
 - vendor/intel/apps/HdmiSettings
 - vendor/intel/hardware/PRIVATE/ufo/gen7
 - vendor/intel/hardware/PRIVATE/ufo/gen8
