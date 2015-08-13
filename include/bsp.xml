@@ -74,9 +74,6 @@
     <project spsId="45510" name="a/bsp/kernel/sofia" path="kernel/sofia" groups="notdefault,kernel-src,embargoed" revision="android/l/mr1/master" >
         <annotation name="readonly" value="true"/>
     </project>
-    <project name="a/bsp/kernel/bxt-embargo" path="kernel/bxt-embargo" groups="notdefault,kernel-src,embargoed" revision="android/l/mr1/master" >
-        <annotation name="readonly" value="true"/>
-    </project>
     <project name="a/bsp/kernel/gmin-quilt-representation" path="kernel/gmin-quilt-representation" groups="notdefault,kernel-quilt" revision="android/l/mr1/master" >
         <annotation name="readonly" value="true"/>
     </project>
