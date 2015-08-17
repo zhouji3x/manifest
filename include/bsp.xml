@@ -200,6 +200,11 @@
     </project>
     <project name="a/bsp/vendor/intel/hardware/libsl" path="vendor/intel/hardware/libsl" revision="android/master"/>
     <project name="a/bsp/vendor/intel/PRIVATE/silentlake/psw" path="vendor/intel/silentlake/psw" revision="android/master"/>
+    <project name="a/bsp/vendor/intel/PRIVATE/utils" path="vendor/intel/utils" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project name="a/bsp/vendor/intel/hardware/em_common" path="vendor/intel/hardware/em_common" revision="android/master" />
     <project name="a/bsp/vendor/intel/hardware/healthd" path="vendor/intel/hardware/healthd" revision="android/master" />
     <project name="a/bsp/vendor/intel/hardware/keystore" path="vendor/intel/hardware/keystore" revision="android/master" />

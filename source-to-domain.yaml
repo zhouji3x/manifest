@@ -814,6 +814,7 @@
 - external/libkmod
 - external/pystache
 - external/sbsigntool
+- vendor/intel/utils
 'Platform GoldSand':
 - device/intel/goldsand
 'Platform SoFia 3G':
