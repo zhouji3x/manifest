@@ -14,7 +14,7 @@
 <!--    <project name="a/bsp/packages/apps/fmr" path="packages/apps/fmr" /> -->
     <project name="a/bsp/hardware/imc/fm" path="hardware/imc/fm" revision="android/master" />
     <project name="a/bsp/hardware/intel/vpu/verisilicon" path="hardware/intel/vpu/verisilicon" revision="android/master" />
-    <project name="a/bsp/vendor/intel/liboemcrypto" path="vendor/intel/liboemcrypto" revision="android/master" />
+    <project name="a/bsp/vendor/intel/liboemcrypto" path="vendor/intel/liboemcrypto/sofia" revision="android/master" />
     <project name="a/bsp/gnss/lbs" path="hardware/imc/gnss" revision="android/master" />
     <!-- IMC codecs -->
     <project path="hardware/intel/codecs" name="a/bsp/hardware/intel/codecs" revision="android/master" />
