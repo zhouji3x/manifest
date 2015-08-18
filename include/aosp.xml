@@ -6,7 +6,7 @@
   <project groups="aosp,pdk" name="a/aosp/device/generic/arm64"  path="device/generic/arm64"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/armv7-a-neon"  path="device/generic/armv7-a-neon"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/common"  path="device/generic/common"/>
-  <project groups="aosp,pdk" name="a/aosp/device/generic/goldfish"  path="device/generic/goldfish"/>
+  <project groups="aosp,pdk" name="a/aosp/device/generic/goldfish"  path="device/generic/goldfish" />
   <project groups="aosp,pdk" name="a/aosp/device/generic/lionhead"  path="device/generic/lionhead"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/mini-emulator-arm64"  path="device/generic/mini-emulator-arm64"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/mini-emulator-armv7-a-neon"  path="device/generic/mini-emulator-armv7-a-neon"/>
@@ -16,14 +16,14 @@
   <project groups="aosp,pdk" name="a/aosp/device/generic/mips"  path="device/generic/mips"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/x86"  path="device/generic/x86"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/x86_64"  path="device/generic/x86_64"/>
-  <project groups="aosp,device,fugu,pdk-fs" name="a/aosp/device/google/atv"  path="device/google/atv"/>
-  <project groups="aosp,device,hammerhead,pdk-fs" name="a/aosp/device/lge/hammerhead"  path="device/lge/hammerhead"/>
+  <project groups="aosp,device,fugu,pdk-fs" name="a/aosp/device/google/atv"  path="device/google/atv" />
+  <project groups="aosp,device,hammerhead,pdk-fs" name="a/aosp/device/lge/hammerhead"  path="device/lge/hammerhead" />
   <project groups="aosp,device,hammerhead,pdk-fs" name="a/aosp/device/lge/hammerhead-kernel"  path="device/lge/hammerhead-kernel"/>
   <project groups="aosp,pdk" name="a/aosp/device/sample"  path="device/sample"/>
   <project groups="aosp,pdk" name="a/aosp/platform/abi/cpp" path="abi/cpp" />
   <project groups="aosp,pdk" name="a/aosp/platform/art" path="art" />
   <project groups="aosp,pdk" name="a/aosp/platform/bionic" path="bionic" />
-  <project groups="aosp,pdk" name="a/aosp/platform/bootable/recovery" path="bootable/recovery" />
+  <project groups="aosp,pdk" name="a/aosp/platform/bootable/recovery" path="bootable/recovery"/>
   <project groups="aosp,pdk" name="a/aosp/platform/build" path="build" >
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
@@ -157,6 +157,7 @@
   <project groups="aosp,pdk" name="a/aosp/platform/external/llvm" path="external/llvm" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/ltrace" path="external/ltrace" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/lz4" path="external/lz4" />
+  <project groups="aosp,pdk" name="a/aosp/platform/external/lzma" path="external/lzma" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/marisa-trie" path="external/marisa-trie" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/markdown" path="external/markdown" />
   <project groups="aosp,pdk" name="a/aosp/platform/external/mdnsresponder" path="external/mdnsresponder" />
@@ -274,6 +275,8 @@
   <project groups="aosp,pdk" name="a/aosp/platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" />
   <project groups="aosp,pdk" name="a/aosp/platform/hardware/libhardware" path="hardware/libhardware" />
   <project groups="aosp,pdk" name="a/aosp/platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" />
+  <project groups="aosp,pdk,qcom,qcom_display" name="a/aosp/platform/hardware/qcom/display" path="hardware/qcom/display" />
+  <project groups="aosp,pdk,qcom_msm8x74" name="a/aosp/platform/hardware/qcom/msm8x74" path="hardware/qcom/msm8x74" />
   <project groups="aosp,pdk" name="a/aosp/platform/hardware/ril" path="hardware/ril" />
   <project groups="aosp,pdk" name="a/aosp/platform/libcore" path="libcore" />
   <project groups="aosp,pdk" name="a/aosp/platform/libnativehelper" path="libnativehelper" />
@@ -305,6 +308,7 @@
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/Launcher3" path="packages/apps/Launcher3" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" />
+  <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/Messaging" path="packages/apps/Messaging" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/Music" path="packages/apps/Music" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/MusicFX" path="packages/apps/MusicFX" />
   <project groups="aosp,apps_nfc,pdk-fs" name="a/aosp/platform/packages/apps/Nfc" path="packages/apps/Nfc" />
@@ -349,7 +353,6 @@
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/wallpapers/HoloSpiral" path="packages/wallpapers/HoloSpiral" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/wallpapers/MagicSmoke" path="packages/wallpapers/MagicSmoke" />
-  <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/wallpapers/MusicVisualization" path="packages/wallpapers/MusicVisualization" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/wallpapers/NoiseField" path="packages/wallpapers/NoiseField" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/wallpapers/PhaseBeam" path="packages/wallpapers/PhaseBeam" />
   <project groups="aosp,pdk" name="a/aosp/platform/pdk" path="pdk" />
