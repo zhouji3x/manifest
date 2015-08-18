@@ -261,7 +261,7 @@ class TestCheckManifestXML(unittest.TestCase):
 
     def testAllManifestsAgainstDtd(self):
         c = CheckManifestXML()
-        #c.checkAllManifestsAgainstDtd()
+        c.checkAllManifestsAgainstDtd()
 
     def testCheckAllPrivateManifestsExternalAnnotation(self):
         c = CheckManifestXML()
