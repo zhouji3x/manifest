@@ -62,6 +62,7 @@
     <project name="a/bsp/hardware/intel/efi/kernelflinger" path="hardware/intel/kernelflinger" revision="android/master" />
     <project name="a/bsp/hardware/intel/sventx" path="vendor/intel/hardware/sventx" revision="android/master" />
     <project name="a/bsp/hardware/intel/ufo_make" path="hardware/intel/ufo_make" revision="android/master" />
+    <project name="a/bsp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-poky-1.8" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-poky" revision="android/master" />
     <project name="a/bsp/kernel/gmin-dev" path="kernel/gmin-dev" groups="notdefault,kernel-src,embargoed" revision="android/l/mr1/master" >
         <annotation name="readonly" value="true"/>
     </project>
