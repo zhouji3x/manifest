@@ -104,6 +104,7 @@
     <project spsId="60541" name="a/bsp/platform/external/thermal_daemon" path="external/thermal_daemon" revision="android/master" />
     <project name="a/bsp/platform/external/uefi_shim" path="external/uefi_shim" revision="android/master" />
     <project name="a/bsp/platform/packages/apps/AndroidTerm" path="vendor/intel/apps/AndroidTerm" revision="android/master" />
+    <project path="hardware/intel/hald_media_hook" name="a/bsp/hardware/intel/PRIVATE/hald_media_hook" revision="android/master"/>
     <project name="a/bsp/vendor/intel/apps/PRIVATE/refcam" path="vendor/intel/apps/PRIVATE/refcam"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>

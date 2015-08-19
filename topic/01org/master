@@ -564,6 +564,7 @@
     <annotation name="all_external" value="bin"/>
     <annotation name="bxt_rvp_external" value="bin"/>
   </project>
+  <project groups="name:a/bsp/hardware/intel/PRIVATE/hald_media_hook,path:hardware/intel/hald_media_hook" name="a/bsp/hardware/intel/PRIVATE/hald_media_hook" path="hardware/intel/hald_media_hook"/>
   <project groups="bsp-priv,name:a/bsp/hardware/intel/PRIVATE/libcamera2,path:vendor/intel/camera/libcamera2" name="a/bsp/hardware/intel/PRIVATE/libcamera2" path="vendor/intel/camera/libcamera2" revision="abt/topic/gmin/l-dev/mr1/01org/master">
     <annotation name="g_external" value="bin"/>
     <annotation name="all_external" value="bin"/>
