@@ -766,6 +766,7 @@
 - vendor/intel/hardware/libsensorshub
 - vendor/intel/apps/PRIVATE/Aware
 'Kernel':
+- kernel/bxt
 - kernel/cht
 - kernel/coho
 - kernel/gmin
@@ -800,6 +801,7 @@
 - hardware/intel/efi_capsules
 'Platform Broxton':
 - device/intel/broxton
+- device/intel/bxt-kernel
 - device/intel/gmin-kernel-dev
 'Platform CherryTrail':
 - device/intel/cherrytrail

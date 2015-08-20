@@ -417,7 +417,9 @@
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
     <project name="a/bsp/vendor/intel/fw/ds4fw" path="vendor/intel/fw/ds4fw" revision="android/master" />
+    <project name="a/bsp/device/intel/bxt-kernel" path="device/intel/bxt-kernel" revision="android/master" />
     <project name="a/bsp/device/intel/cht-kernel" path="device/intel/cht-kernel" revision="android/master" />
+    <project name="a/bsp/kernel/bxt" path="kernel/bxt" groups="notdefault,kernel-src" revision="android/master" />
     <project name="a/bsp/kernel/cht" path="kernel/cht" groups="notdefault,kernel-src" revision="android/l/mr1/master" >
         <annotation name="readonly" value="true"/>
     </project>
