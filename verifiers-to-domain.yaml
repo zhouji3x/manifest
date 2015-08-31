@@ -12,14 +12,10 @@ ldap//CN=OTC_SI_1A-Verif-BOOT_OTA_GOTA_SoFia,OU=Rialto,OU=Application Managed,OU
 - 'BOOT - OTA - GOTA SoFia'
 ldap//CN=OTC_SI_1A-Verif-Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Camera - Imaging'
-ldap//CN=OTC_SI_1A-Verif-Carrier,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Carrier'
 ldap//CN=OTC_SI_1A-Verif-Connectivity,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Connectivity'
 ldap//CN=OTC_SI_1A-Verif-Debug_Trace,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Debug and Trace'
-ldap//CN=OTC_SI_1A-Verif-DRM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'DRM - Widevine'
 ldap//CN=OTC_SI_1A-Verif-Energy_Mgt,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Energy management'
 ldap//CN=OTC_SI_1A-Verif-Gfx_Display_Drm,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

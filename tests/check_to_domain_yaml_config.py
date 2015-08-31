@@ -166,8 +166,8 @@ class TestToDomainYamlConfig(DomainYamlConfigCheck, unittest.TestCase):
                                self.SOURCE_TO_DOMAIN_KW]:
             print ("\n-------------------------------------------- Test Domain coverage for {}".format(sourceToDomain))
             errors = DomainYamlConfigCheck.checkProjectDomainToPathCoverage(self.toYaml(sourceToDomain))
+            errors.sort()
             if errors:
-               errors.sort()
                print "\nNo domain attached for the following path:"
                for path_wo_domain in errors:
                   print path_wo_domain

@@ -7,8 +7,24 @@
         topic branches should not include this.
     -->
 
-    <!--
-    <remove-project name="a/bsp/foo/bar" />
-    <project spsId="59059" name="a/bsp/foo/bar" path="foo/bar" revision="foo/bar/branch" />
-    -->
+    <remove-project name="a/bsp/vendor/tools/Bluetooth/xvt_bt_usc" />
+    <remove-project name="a/bsp/vendor/tools/Bluetooth/bt_trace_manager" />
+    <remove-project name="a/bsp/hardware/imc/bt_trace_daemon" />
+    <remove-project name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" />
+    <remove-project name="a/bsp/hardware/intel/codecs"/>
+    <!-- conflicts with AOSP FMRadio -->
+    <!-- <remove-project name="a/bsp/packages/apps/fmr" /> -->
+    <remove-project name="a/bsp/hardware/imc/fm"/>
+
+    <project spsId="59059" name="a/bsp/vendor/tools/Bluetooth/xvt_bt_usc" path="vendor/tools/Bluetooth/xvt_bt_usc" revision="android/master" />
+    <project spsId="59060" name="a/bsp/vendor/tools/Bluetooth/bt_trace_manager" path="vendor/tools/Bluetooth/bt_trace_manager" revision="android/master" />
+    <project spsId="59051" name="a/bsp/hardware/imc/bt_trace_daemon" path="vendor/tools/Bluetooth/bt_trace_daemon" revision="android/master" />
+    <project spsId="59052" name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" path="hardware/imc/pt_bt_daemon" revision="android/master" />
+    <!-- conflicts with AOSP FMRadio -->
+    <!-- <project name="a/bsp/packages/apps/fmr" path="packages/apps/fmr"  /> -->
+    <project spsId="59119" name="a/bsp/hardware/imc/fm" path="hardware/imc/fm" revision="android/master" />
+
+    <!-- IMC codecs -->
+    <project path="hardware/intel/codecs" name="a/bsp/hardware/intel/codecs" revision="android/master" groups="imc" spsId="62132"/>
+
 </manifest>

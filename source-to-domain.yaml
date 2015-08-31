@@ -623,8 +623,6 @@
 - vendor/intel/camera/libiacss
 - vendor/intel/camera/libmfldadvci
 - vendor/intel/fw/camera
-'Carrier':
-- vendor/intel/operator/CMCC
 'Connectivity':
 - device/intel/common/wlan
 - external/bluetooth/bluedroid
@@ -722,11 +720,6 @@
 - vendor/intel/tools/PRIVATE/debug_internal_tools
 - vendor/intel/tools/log_capture
 - vendor/intel/tools/log_infra
-'DRM - Widevine':
-- vendor/google/widevinedrm
-- vendor/intel/liboemcrypto/gen
-- vendor/intel/widevine
-- vendor/widevine
 'Energy management':
 - external/thermal_daemon
 - frameworks/native/services/batteryservice
@@ -751,10 +744,13 @@
 - vendor/intel/hardware/PRIVATE/ufo/gen7
 - vendor/intel/hardware/PRIVATE/ufo/gen8
 - vendor/intel/hardware/PRIVATE/ufo/gen9
+- vendor/intel/liboemcrypto/gen
 - vendor/intel/ufo/gen7
 - vendor/intel/ufo/gen8
 - vendor/intel/ufo/gen8_dev
 - vendor/intel/ufo/gen9_dev
+- vendor/intel/widevine
+- vendor/widevine
 'GFX / Display Mali':
 - hardware/intel/gpu/mali
 - hardware/intel/gpu/mali-gralloc
@@ -770,7 +766,6 @@
 - vendor/intel/hardware/libsensorshub
 - vendor/intel/apps/PRIVATE/Aware
 'Kernel':
-- kernel/bxt
 - kernel/cht
 - kernel/coho
 - kernel/gmin
