@@ -294,11 +294,6 @@
     <project name="a/bsp/device/intel/fw/camera" path="vendor/intel/fw/camera" revision="android/master" />
     <project spsId="60870" name="a/bsp/vendor/intel/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" path="vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" revision="android/master" />
     <project name="a/bsp/vendor/intel/hardware/libcamerausb" path="vendor/intel/camera/libcamerausb" revision="android/master" />
-    <project name="a/bsp/device/intel/PRIVATE/DRM/widevine" path="vendor/intel/widevine"  groups="bsp-priv" revision="android/master" >
-	<annotation name="g_external" value="no"/>
-	<annotation name="all_external" value="no"/>
-	<annotation name="bxt_rvp_external" value="no"/>
-    </project>
     <project name="a/bsp/modem/tools/ipcs" path="modem/tools/ipcs" revision="android/master" />
     <project spsId="59065" name="a/bsp/device/intel/PRIVATE/debug_internal_tools" path="vendor/intel/tools/PRIVATE/debug_internal_tools" groups="bsp-priv,embargoed" revision="android/master" >
         <annotation name="g_external" value="no"/>
