@@ -361,6 +361,11 @@
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
     <project name="a/bsp/hardware/intel/rapid_ril" path="vendor/intel/hardware/telephony/rapid_ril" revision="android/master" />
+    <project name="a/bsp/hardware/intel/realtek_bluedroid" path="hardware/intel/realtek_bluedroid"  groups="bsp-priv,embargoed" revision="android/master" >
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project name="a/bsp/vendor/intel/hardware/PRIVATE/libtcs" path="hardware/intel/telephony/libtcs"  groups="bsp-priv" revision="android/master" >
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
