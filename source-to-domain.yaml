@@ -365,6 +365,7 @@
 - packages/apps/Launcher3
 - packages/apps/LegacyCamera
 - packages/apps/ManagedProvisioning
+- packages/apps/Messaging
 - packages/apps/Music
 - packages/apps/MusicFX
 - packages/apps/OneTimeInitializer
@@ -623,6 +624,9 @@
 - vendor/intel/camera/libiacss
 - vendor/intel/camera/libmfldadvci
 - vendor/intel/fw/camera
+- vendor/intel/fw/ipu4
+'Carrier':
+- vendor/intel/operator/CMCC
 'Connectivity':
 - device/intel/common/wlan
 - external/bluetooth/bluedroid
@@ -652,6 +656,7 @@
 - hardware/intel/bluedroid
 - hardware/intel/libbt-vendor-intel
 - hardware/intel/nfc
+- hardware/intel/realtek_bluedroid
 - hardware/intel/wifi
 - hardware/intel/wlan/hostap_wcs
 - hardware/libhardware/modules/nfc
@@ -671,6 +676,7 @@
 - vendor/intel/apps/IntelFmApp
 - vendor/intel/apps/PRIVATE/cellular_coex_manager
 - vendor/intel/apps/PRIVATE/mmgrCwsClient
+- vendor/intel/apps/sweetspot
 - vendor/intel/curl
 - vendor/intel/external/PRIVATE/passpoint
 - vendor/intel/fw/PRIVATE/a4wp
@@ -720,9 +726,16 @@
 - vendor/intel/tools/PRIVATE/debug_internal_tools
 - vendor/intel/tools/log_capture
 - vendor/intel/tools/log_infra
+'DRM - Widevine':
+- vendor/google/widevinedrm
+- vendor/intel/liboemcrypto/gen
+- vendor/intel/liboemcrypto/sofia
+- vendor/intel/widevine
+- vendor/widevine
 'Energy management':
 - external/thermal_daemon
 - frameworks/native/services/batteryservice
+- hardware/intel/lights
 - system/core/charger
 - vendor/intel/apps/ituxd
 - vendor/intel/apps/thermal_lite
@@ -732,6 +745,7 @@
 'Gfx / Display Drm':
 - external/drm
 - external/libpciaccess
+- hardware/intel/intel-gpu-tools
 'GFX / Display Gen':
 - external/drm-dev
 - frameworks/av/drm/drmserver
@@ -739,24 +753,23 @@
 - frameworks/native/libs/ui
 - frameworks/native/opengl
 - frameworks/native/services/surfaceflinger
+- hardware/intel/hwc
 - hardware/intel/ufo_make
 - vendor/intel/apps/HdmiSettings
 - vendor/intel/hardware/PRIVATE/ufo/gen7
 - vendor/intel/hardware/PRIVATE/ufo/gen8
 - vendor/intel/hardware/PRIVATE/ufo/gen9
-- vendor/intel/liboemcrypto/gen
 - vendor/intel/ufo/gen7
 - vendor/intel/ufo/gen8
 - vendor/intel/ufo/gen8_dev
 - vendor/intel/ufo/gen9_dev
-- vendor/intel/widevine
-- vendor/widevine
 'GFX / Display Mali':
 - hardware/intel/gpu/mali
 - hardware/intel/gpu/mali-gralloc
 - hardware/intel/gpu/mali-hwcomposer
 - hardware/intel/gpu/mali-midgard_lib
 'Intel Security differentiation' :
+- vendor/intel/apps/security_assist
 - vendor/intel/apps/silentlake/sl_installer
 - vendor/intel/hardware/libiha
 - vendor/intel/hardware/libsl
@@ -781,6 +794,7 @@
 - kernel/modules/realtek
 - kernel/sofia
 - kernel/sofia3g
+- kernel/sofia-3gr
 - kernel/sofia-lte
 - prebuilts/gcc/linux-x86/x86/x86_64-linux-poky
 'Manifest':
@@ -790,6 +804,7 @@
 - device/intel/mixins/groups/camera/ds4
 - vendor/intel/camera/depth_extension
 - vendor/intel/fw/ds4fw
+- vendor/intel/camera/PRIVATE/libds4
 - vendor/intel/hardware/PRIVATE/libds4
 'Platform Baytrail':
 - device/intel/baytrail
@@ -815,7 +830,38 @@
 - external/libkmod
 - external/pystache
 - external/sbsigntool
+- hardware/intel/codecs
+- hardware/intel/display/arm/mali-dp500_lib
+- hardware/intel/mrd-3gr-sofia/lpmp3_vm
+- hardware/intel/sensors
+- hardware/intel/sysctrl_daemon
+- hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib
+- hardware/intel/wlan/libwifihal
+- icc
+- packages/apps/libfmrservice
+- vendor/PRIVATE/rockchip
+- vendor/intel/apps/DataReport
+- vendor/intel/apps/DataReportSettings
+- vendor/intel/apps/PRIVATE/strongswan
+- vendor/intel/apps/curl
+- vendor/intel/external/libMD5_rfc
+- vendor/intel/external/libdmclient
+- vendor/intel/external/libwbxml
+- vendor/intel/external/passpoint
+- vendor/intel/external/syncmlrtk
+- vendor/intel/hardware/PRIVATE/rocs
+- vendor/intel/hardware/PRIVATE/rservice
+- vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon
+- vendor/intel/hardware/PRIVATE/wifi_usc
+- vendor/intel/hardware/fmr
+- vendor/intel/hardware/realtek/libbt
+- vendor/intel/telemetry-client
+- vendor/intel/tools/PRIVATE/tlv_generator
+- vendor/intel/tools/PRIVATE/wifail
+- vendor/intel/tools/efipropsync
+- vendor/intel/tools/rfkillp
 - vendor/intel/utils
+- vendor/silead/fw
 'Platform GoldSand':
 - device/intel/goldsand
 'Platform SoFia 3G':
@@ -824,16 +870,19 @@
 - hardware/intel/mrd-3g-sofia/lpmp3_vm
 - hardware/intel/mrd-3g-sofia/modem
 'Platform SoFia 3GR':
+- device/intel/sofia3g-kernel
 - device/intel/sofia3gr
 'Platform SoFia LTE':
 - device/intel/sofia_lte
 - device/intel/sofia_lte-kernel
+- device/intel-imc
 'Power Management':
 - hardware/intel/power
 'Security Middleware':
 - device/intel/sepolicy
 - external/bouncycastle
 - external/openssl
+- hardware/intel/rpcsecurity
 - system/security/softkeymaster
 - vendor/intel/cert
 - vendor/intel/hardware/keystore
@@ -854,7 +903,11 @@
 - frameworks/opt/mms
 - frameworks/opt/telephony
 - hardware/imc/ril
+- hardware/imc/ril_3g
 - hardware/imc/rpc
+- hardware/imc/rpc_3g
+- hardware/intel/libnvmmodule
+- hardware/intel/mrd-3gr-sofia/modem
 - hardware/intel/telephony/libtcs
 - hardware/intel/telephony/miu
 - hardware/intel/telephony/mmgr
@@ -867,6 +920,7 @@
 - packages/apps/Stk
 - packages/providers/TelephonyProvider
 - vendor/intel/PRIVATE/embms
+- vendor/intel/PRIVATE/imsstack
 - vendor/intel/apps/telephony/OemTelephony
 - vendor/intel/apps/telephony/OemTelephony-imc
 - vendor/intel/apps/telephony/sarmanager
@@ -890,6 +944,7 @@
 - vendor/intel/tools/telephony_tools/field_test
 - vendor/intel/tools/telephony_tools/modem_trace_server
 'Video Conferencing':
+- vendor/intel/apps/webrtccssdk
 - vendor/intel/PRIVATE/rtc
 - vendor/intel/rtc
 'Video Gen':
@@ -921,6 +976,12 @@
 - hardware/intel/cts-3gr-sofia/mobilevisor/services
 - hardware/intel/cts-3gr-sofia/secure_vm
 - hardware/intel/cts-3gr-sofia/soclib
+- hardware/intel/mrd-3gr-sofia/mobilevisor/guests
+- hardware/intel/mrd-3gr-sofia/mobilevisor/products
+- hardware/intel/mrd-3gr-sofia/mobilevisor/release
+- hardware/intel/mrd-3gr-sofia/mobilevisor/services
+- hardware/intel/mrd-3gr-sofia/secure_vm
+- hardware/intel/mrd-3gr-sofia/soclib
 - hardware/intel/rpcsecurity/libtee_vsec
 'WiDi':
 - vendor/intel/hardware/PRIVATE/widi
