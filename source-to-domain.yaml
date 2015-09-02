@@ -860,7 +860,6 @@
 - vendor/intel/tools/efipropsync
 - vendor/intel/tools/rfkillp
 - vendor/intel/utils
-- vendor/silead/fw
 'Platform GoldSand':
 - device/intel/goldsand
 'Platform SoFia 3G':
@@ -893,6 +892,7 @@
 - hardware/intel/libsensors-input
 - vendor/intel/hardware/iio-sensors
 - vendor/intel/hardware/sensors
+- vendor/silead/fw
 - vendor/zeitec/fw
 'Storage':
 - external/blktrace
