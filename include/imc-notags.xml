@@ -22,7 +22,7 @@
     <project path="hardware/intel/vpu/verisilicon" name="a/bsp/hardware/intel/vpu/verisilicon" revision="android/master" spsId="59474"/>
     <project path="vendor/intel/apps/telephony/OemTelephony-imc" name="a/bsp/device/intel/apps/OemTelephony-imc" revision="android/master" spsId="60537"/>
     <project path="vendor/intel/hardware/telephony/imsservices" name="a/bsp/vendor/intel/PRIVATE/imsservices" revision="android/master" spsId="60307"/>
-<!-- <project path="vendor/intel/liboemcrypto" name="a/bsp/vendor/intel/liboemcrypto-sofia" revision="android/master" spsId="59121"/> -->
+    <project path="vendor/intel/liboemcrypto/sofia" name="a/bsp/vendor/intel/liboemcrypto" revision="android/master" spsId="59121"/>
 <!-- <project path="vendor/intel/PRIVATE/embms" name="a/bsp/vendor/intel/PRIVATE/embms" revision="android/master" spsId="60436"/> -->
 <!-- <project path="vendor/intel/PRIVATE/imsstack" name="a/bsp/vendor/intel/PRIVATE/imsstack" revision="android/master" spsId="60546"/> -->
     <project path="vendor/PRIVATE/rockchip" name="a/bsp/vendor/PRIVATE/rockchip" revision="android/master"/>
