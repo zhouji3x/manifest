@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!--
-        List of IMC owned Projects
         Please make sure this list of projects is in sync with imc.xml
     -->
-
-<!-- <project path="device/intel-imc" name="a/bsp/device/intel/sofia" revision="android/master" spsId="59063"/> -->
-    <project path="hardware/imc/fm" name="a/bsp/hardware/imc/fm" revision="android/master" spsId="59119"/>
     <project path="hardware/imc/ril" name="a/bsp/hardware/imc/ril" revision="android/master" spsId="59048"/>
     <project path="hardware/imc/rpc" name="a/bsp/hardware/imc/rpc" revision="android/master" spsId="59049"/>
-    <project path="hardware/intel/audio/imc/libauddriver" name="a/bsp/hardware/intel/libauddriver" revision="android/master" spsId="62130"/>
-<!-- <project path="hardware/intel/audio/imc/libaudio_hal_3g" name="a/bsp/hardware/intel/libaudio_hal_3g" revision="android/master" spsId="none"/> -->
-    <project path="hardware/intel/audio/imc/libaudio_hal" name="a/bsp/hardware/intel/libaudio_hal" revision="android/master" spsId="62131"/>
-    <project path="hardware/intel/audio/imc/lib_imas" name="a/bsp/hardware/intel/lib_imas" revision="android/master" spsId="62141"/>
-    <project path="hardware/intel/codecs" name="a/bsp/hardware/intel/codecs" revision="android/master" spsId="62132"/>
-    <project path="hardware/intel/libnvmmodule" name="a/bsp/hardware/intel/libnvmmodule" revision="android/master" spsId="62136"/>
-<!-- <project path="hardware/intel/rpcsecurity" name="a/bsp/hardware/intel/rpcsecurity" revision="android/master" spsId="62139"/> -->
-<!-- <project path="hardware/intel/sensors" name="a/bsp/hardware/intel/sensors" revision="android/master" spsId="62159"/> -->
-<!-- <project path="hardware/intel/sysctrl_daemon" name="a/bsp/hardware/intel/sysctrl_daemon" revision="android/master" spsId="62140"/> -->
-    <project path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" revision="android/master" spsId="59476"/>
-    <project path="hardware/intel/vpu/verisilicon" name="a/bsp/hardware/intel/vpu/verisilicon" revision="android/master" spsId="59474"/>
-    <project path="vendor/intel/apps/telephony/OemTelephony-imc" name="a/bsp/device/intel/apps/OemTelephony-imc" revision="android/master" spsId="60537"/>
-    <project path="vendor/intel/hardware/telephony/imsservices" name="a/bsp/vendor/intel/PRIVATE/imsservices" revision="android/master" spsId="60307"/>
-    <project path="vendor/intel/liboemcrypto/sofia" name="a/bsp/vendor/intel/liboemcrypto" revision="android/master" spsId="59121"/>
-<!-- <project path="vendor/intel/PRIVATE/embms" name="a/bsp/vendor/intel/PRIVATE/embms" revision="android/master" spsId="60436"/> -->
-<!-- <project path="vendor/intel/PRIVATE/imsstack" name="a/bsp/vendor/intel/PRIVATE/imsstack" revision="android/master" spsId="60546"/> -->
     <project path="vendor/PRIVATE/rockchip" name="a/bsp/vendor/PRIVATE/rockchip" revision="android/master"/>
-</manifest>
+    <project path="hardware/imc/fm" name="a/bsp/hardware/imc/fm" revision="android/master"/>
+    <project path="hardware/intel/vpu/verisilicon" name="a/bsp/hardware/intel/vpu/verisilicon" revision="android/master"/>
+    <project path="hardware/intel/libnvmmodule" name="a/bsp/hardware/intel/libnvmmodule" revision="android/master"/>
+    <project path="vendor/intel/hardware/telephony/imsservices" name="a/bsp/vendor/intel/PRIVATE/imsservices" revision="android/master"/>
+    <project path="vendor/intel/PRIVATE/imsstack" name="a/bsp/vendor/intel/PRIVATE/imsstack" revision="android/master"/>
+    <project path="hardware/intel/rpcsecurity" name="a/bsp/hardware/intel/rpcsecurity" revision="android/master"/>
+    <project path="vendor/intel/liboemcrypto/sofia" name="a/bsp/vendor/intel/liboemcrypto" revision="android/master"/>
+    <project path="device/intel-imc" name="a/bsp/device/intel/sofia" revision="android/master"/>
+    <project path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" revision="android/master" spsId="59476"/>
+    <project path="hardware/intel/codecs" name="a/bsp/hardware/intel/codecs" revision="android/master" spsId="62132"/>
+    <project path="vendor/intel/apps/telephony/OemTelephony-imc" name="a/bsp/device/intel/apps/OemTelephony-imc" revision="android/master"/>
+    <project path="hardware/intel/audio/imc/lib_imas" name="a/bsp/hardware/intel/lib_imas" revision="android/master" spsId="62141"/>
+    <project path="hardware/intel/audio/imc/libauddriver" name="a/bsp/hardware/intel/libauddriver" revision="android/master" spsId="62130"/>
+    <project path="hardware/intel/audio/imc/libaudio_hal" name="a/bsp/hardware/intel/libaudio_hal" revision="android/master" spsId="62131"/>
+    <project path="hardware/intel/audio/imc/libaudio_hal_3g" name="a/bsp/hardware/intel/libaudio_hal_3g" revision="android/master"/>
+    <project path="hardware/intel/sensors" name="a/bsp/hardware/intel/sensors" revision="android/master" spsId="62159"/>
+    <project path="hardware/intel/sysctrl_daemon" name="a/bsp/hardware/intel/sysctrl_daemon" revision="android/master" spsId="62140"/>
+    <project path="vendor/intel/PRIVATE/embms" name="a/bsp/vendor/intel/PRIVATE/embms" revision="android/master" spsId="60436"/>
+ </manifest>
+

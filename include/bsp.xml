@@ -7,7 +7,6 @@
     <project path="device/intel/cht-kernel" name="a/bsp/device/intel/cht-kernel" revision="android/master"/>
     <project path="device/intel/common" name="a/bsp/vendor/intel/common" revision="android/master"/>
     <project path="device/intel/sofia_lte-kernel" name="a/bsp/device/intel/sofia_lte-kernel" revision="android/master"/>
-    <project spsId="60539" name="a/bsp/hardware/intel/gpu/arm/mali-midgard_lib" path="hardware/intel/gpu/mali-midgard_lib" revision="android/master" />
     <project path="external/alac" name="a/bsp/external/alac" revision="android/master"/>
     <project path="external/bluetooth/hcitools" name="a/bsp/platform/external/bluetooth/hcitools" revision="android/master"/>
     <project path="external/bluetooth/libbt-vendor-linux" name="a/bsp/platform/external/bluetooth/libbt-vendor-linux" revision="android/master"/>
