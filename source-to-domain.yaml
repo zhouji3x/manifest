@@ -664,6 +664,7 @@
 - hardware/libhardware_legacy/include/hardware_legacy/wifi.h
 - hardware/libhardware_legacy/wifi
 - hardware/nxp/nfc
+- modem/tools/ipcs
 - packages/apps/Bluetooth
 - packages/apps/Nfc
 - packages/apps/Settings/src/com/android/settings/nfc
@@ -911,7 +912,6 @@
 - hardware/intel/telephony/miu
 - hardware/intel/telephony/mmgr
 - hardware/ril
-- modem/tools/ipcs
 - packages/apps/CellBroadcastReceiver
 - packages/apps/Dialer
 - packages/apps/Mms
