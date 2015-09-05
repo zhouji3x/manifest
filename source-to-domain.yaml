@@ -580,6 +580,13 @@
 - bootable/bootloader/legacy
 - bootable/recovery
 - bootable/userfastboot
+- device/intel/build/generate_bios_oemvars
+- device/intel/build/generate_blpolicy_oemvars
+- device/intel/build/ota-test-prepare
+- device/intel/build/ota-test-secureboot
+- device/intel/common/action-authorization
+- device/intel/common/efiprop
+- device/intel/common/recovery
 - device/intel/mixins/groups/boot-arch
 - device/intel/mixins/groups/config-partition
 - device/intel/mixins/groups/debug-charging
