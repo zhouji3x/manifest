@@ -985,12 +985,12 @@
 - vendor/intel/hardware/telephony/imsstack
 - vendor/intel/hardware/telephony/rapid_ril
 - vendor/intel/tools/log_capture/amtl
-- vendor/intel/tools/telephony_tools/PRIVATE/component_testing
-- vendor/intel/tools/telephony_tools/PRIVATE/telephony_test
 - vendor/intel/tools/telephony_tools/at_proxy
 - vendor/intel/tools/telephony_tools/coredumpwarning
 - vendor/intel/tools/telephony_tools/field_test
 - vendor/intel/tools/telephony_tools/modem_trace_server
+- vendor/intel/tools/telephony_tools/PRIVATE/component_testing
+- vendor/intel/tools/telephony_tools/telephony_test
 'Video Conferencing':
 - vendor/intel/apps/webrtccssdk
 - vendor/intel/PRIVATE/rtc

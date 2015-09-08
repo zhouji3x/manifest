@@ -139,7 +139,7 @@
     <project path="vendor/intel/tools/telephony_tools/field_test" name="a/bsp/vendor/intel/tools/telephony_tools/field_test" revision="android/master"/>
     <project path="vendor/intel/tools/telephony_tools/modem_trace_server" name="a/bsp/device/intel/telephony_tools/modem_trace_server" revision="android/master"/>
     <project path="vendor/intel/tools/telephony_tools/PRIVATE/component_testing" name="a/bsp/device/intel/telephony_tools/PRIVATE/component_testing" revision="android/master"/>
-<!-- <project path="vendor/intel/tools/telephony_tools/PRIVATE/telephony_test" name="a/bsp/vendor/intel/PRIVATE/telephony_test" revision="android/master"/> -->
+    <project path="vendor/intel/tools/telephony_tools/telephony_test" name="a/bsp/vendor/intel/PRIVATE/telephony_test" revision="android/master"/>
     <project path="vendor/intel/ufo/gen7" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen7" revision="android/master"/>
     <project path="vendor/intel/ufo/gen8" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8" revision="android/master"/>
     <project path="vendor/silead/fw" name="a/bsp/vendor/silead/fw" revision="android/master"/>
