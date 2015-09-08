@@ -568,7 +568,6 @@
 - hardware/intel/audio/coe/utilities
 - vendor/intel/fw/sst
 - vendor/intel/hardware/PRIVATE/aware_audio
-- vendor/intel/hardware/audio/libaudioresample
 - vendor/intel/lpal
 - vendor/intel/media_codecs
 - vendor/intel/tools/asoc_dfw

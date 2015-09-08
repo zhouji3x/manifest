@@ -155,11 +155,6 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/hardware/audio/libaudioresample" name="a/bsp/device/intel/PRIVATE/libaudioresample" groups="bsp-priv" revision="android/master">
-        <annotation name="g_external" value="bin"/>
-        <annotation name="all_external" value="bin"/>
-        <annotation name="bxt_rvp_external" value="bin"/>
-    </project>
     <project path="vendor/intel/audio/mamgr/at-core" name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/at-core" groups="bsp-priv" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
