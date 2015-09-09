@@ -185,6 +185,6 @@
     <project path="device/intel/sepolicy" name="a/bsp/device/intel/sepolicy" revision="android/master"/>
     <!-- SoFIA 3g platform repos: please make sure this list of projects is
          in sync with 3g/3gr tree  -->
-<!--  <project path="hardware/imc/ril_3g" name="a/bsp/hardware/imc/ril_3g" revision="android/master"/> -->
-<!--  <project path="hardware/imc/rpc_3g" name="a/bsp/hardware/imc/rpc_3g" revision="android/master"/> -->
+    <project path="hardware/imc/ril_3g" name="a/bsp/hardware/imc/ril_3g" revision="android/master"/>
+    <project path="hardware/imc/rpc_3g" name="a/bsp/hardware/imc/rpc_3g" revision="android/master"/>
 </manifest>
