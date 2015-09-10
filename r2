@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- One_Android_Ring='2' -->
 <manifest>
 
 	<default revision="android/m/mr0/r2"
