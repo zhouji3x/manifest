@@ -428,11 +428,6 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="kernel/modules/bcm43xx" name="a/bsp/kernel/modules/bcmdhd" groups="bsp-priv,embargoed" revision="android/master">
-        <annotation name="g_external" value="no"/>
-        <annotation name="all_external" value="no"/>
-        <annotation name="bxt_rvp_external" value="no"/>
-    </project>
     <project path="kernel/modules/dbgtools-internal" name="a/bsp/kernel/modules/dbgtools-internal" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
