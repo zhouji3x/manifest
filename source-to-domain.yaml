@@ -810,7 +810,6 @@
 - kernel/bxt
 - kernel/cht
 - kernel/coho
-- kernel/gmin
 - kernel/gmin-dev
 - kernel/gmin-quilt-representation
 - kernel/modules/bcm43xx

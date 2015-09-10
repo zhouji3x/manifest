@@ -56,7 +56,6 @@
     <project path="kernel/bxt" name="a/bsp/kernel/bxt" groups="notdefault,kernel-src" revision="android/master"/>
     <project path="kernel/cht" name="a/bsp/kernel/cht" groups="notdefault,kernel-src" revision="android/master"/>
     <project path="kernel/coho" name="a/bsp/kernel/irda" groups="notdefault,kernel-src" revision="android/master"/>
-    <project path="kernel/gmin" name="a/bsp/kernel/gmin" groups="notdefault,kernel-src" revision="android/master"/>
     <project path="kernel/modules/gnss" name="a/bsp/kernel/modules/gnss" groups="notdefault,kernel-src" revision="android/master"/>
     <project path="kernel/modules/iwlwifi" name="a/bsp/kernel/modules/iwlwifi" groups="notdefault,kernel-src" revision="android/master"/>
     <project path="kernel/modules/perftools-external" name="a/bsp/kernel/modules/perftools-external" groups="notdefault,kernel-src" revision="android/master"/>
