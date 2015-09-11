@@ -611,6 +611,8 @@
 - hardware/intel/mrd-3g-sofia/bootsystems
 - hardware/intel/mrd-3gr-sofia/bootsystems
 - hardware/intel/sofia_lte-fls
+'CAM':
+- vendor/intel/apps/sweetspot
 'Camera - Imaging':
 - frameworks/av/services/camera
 - hardware/intel/hald_media_hook
@@ -700,7 +702,6 @@
 - vendor/intel/apps/IntelFmApp
 - vendor/intel/apps/PRIVATE/cellular_coex_manager
 - vendor/intel/apps/PRIVATE/mmgrCwsClient
-- vendor/intel/apps/sweetspot
 - vendor/intel/curl
 - vendor/intel/external/passpoint
 - vendor/intel/fw/PRIVATE/a4wp

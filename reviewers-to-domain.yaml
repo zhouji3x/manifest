@@ -10,6 +10,8 @@ ldap//CN=OTC_SI_1A-Rev-BOOT_OTA_GOTA,OU=Rialto,OU=Application Managed,OU=Groups,
 - 'BOOT - OTA - GOTA'
 ldap//CN=OTC_SI_1A-Rev-BOOT_OTA_GOTA_SoFia,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'BOOT - OTA - GOTA SoFia'
+ldap//CN=OTC_SI_1A-Rev-CAM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'CAM'
 ldap//CN=OTC_SI_1A-Rev-Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Camera - Imaging'
 ldap//CN=OTC_SI_1A-Rev-Carrier,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
