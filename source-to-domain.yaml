@@ -687,6 +687,7 @@
 - hardware/libhardware_legacy/include/hardware_legacy/wifi.h
 - hardware/libhardware_legacy/wifi
 - hardware/nxp/nfc
+- kernel/modules/iwlwifi
 - modem/tools/ipcs
 - packages/apps/Bluetooth
 - packages/apps/Nfc
@@ -816,7 +817,6 @@
 - kernel/modules/bcm43xx
 - kernel/modules/dbgtools-internal
 - kernel/modules/gnss
-- kernel/modules/iwlwifi
 - kernel/modules/perftools-external
 - kernel/modules/perftools-internal
 - kernel/modules/realtek
