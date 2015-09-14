@@ -273,6 +273,7 @@
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/frameworks/webview" path="frameworks/webview" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/frameworks/wilhelm" path="frameworks/wilhelm" />
   <project groups="aosp,pdk" name="a/aosp/platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" />
+  <project groups="aosp,pdk,broadcom_wlan" name="a/aosp/platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
   <project groups="aosp,pdk" name="a/aosp/platform/hardware/libhardware" path="hardware/libhardware" />
   <project groups="aosp,pdk" name="a/aosp/platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" />
   <project groups="aosp,pdk,qcom,qcom_display" name="a/aosp/platform/hardware/qcom/display" path="hardware/qcom/display" />
@@ -406,7 +407,6 @@
 
 <!-- not part of M AOSP, retaind for now with their L versions -->
 <project spsId="58692" path="external/openssl" name="a/aosp/platform/external/openssl" groups="aosp,pdk" />
-<project spsId="58772" path="hardware/broadcom/wlan" name="a/aosp/platform/hardware/broadcom/wlan" groups="aosp,broadcom_wlan"/>
 
 <!-- END open-source projects -->
 </manifest>
