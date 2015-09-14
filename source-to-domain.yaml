@@ -784,6 +784,7 @@
 - frameworks/native/libs/ui
 - frameworks/native/opengl
 - frameworks/native/services/surfaceflinger
+- hardware/intel/gsd_hwcomposer
 - hardware/intel/hwc
 - hardware/intel/ufo_make
 - vendor/intel/apps/HdmiSettings
