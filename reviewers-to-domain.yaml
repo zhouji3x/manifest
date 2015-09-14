@@ -16,8 +16,30 @@ ldap//CN=OTC_SI_1A-Rev-Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,
 - 'Camera - Imaging'
 ldap//CN=OTC_SI_1A-Rev-Carrier,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Carrier'
-ldap//CN=OTC_SI_1A-Rev-Connectivity,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity'
+ldap//CN=OTC_SI_1A-Rev-Conn-ACP-BT,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-ACP-BT'
+ldap//CN=OTC_SI_1A-Rev-Conn-ACP-CellCoex,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-ACP-CellCoex'
+ldap//CN=OTC_SI_1A-Rev-Conn-ACP-FM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-ACP-FM'
+ldap//CN=OTC_SI_1A-Rev-Conn-ACP-GNSS,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-ACP-GNSS'
+ldap//CN=OTC_SI_1A-Rev-Conn-ACP-NFC,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-ACP-NFC'
+ldap//CN=OTC_SI_1A-Rev-Conn-ACP-WIFI,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-ACP-WIFI'
+ldap//CN=OTC_SI_1A-Rev-Conn-TPV-BT,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-TPV-BT'
+ldap//CN=OTC_SI_1A-Rev-Conn-TPV-CellCoex,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-TPV-CellCoex'
+ldap//CN=OTC_SI_1A-Rev-Conn-TPV-FM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-TPV-FM'
+ldap//CN=OTC_SI_1A-Rev-Conn-TPV-GNSS,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-TPV-GNSS'
+ldap//CN=OTC_SI_1A-Rev-Conn-TPV-NFC,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-TPV-NFC'
+ldap//CN=OTC_SI_1A-Rev-Conn-TPV-WIFI,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-TPV-WIFI'
 ldap//CN=OTC_SI_1A-Rev-Debug_Trace,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Debug and Trace'
 ldap//CN=OTC_SI_1A-Rev-DRM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
