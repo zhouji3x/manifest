@@ -612,6 +612,7 @@
 - hardware/intel/mrd-3gr-sofia/bootsystems
 - hardware/intel/sofia_lte-fls
 'CAM':
+- vendor/intel/apps/acn
 - vendor/intel/apps/sweetspot
 'Camera - Imaging':
 - frameworks/av/services/camera

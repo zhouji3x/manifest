@@ -66,6 +66,7 @@
     <project path="modem/tools/ipcs" name="a/bsp/modem/tools/ipcs" revision="android/master"/>
     <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-poky" name="a/bsp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-poky-1.8" revision="android/master"/>
     <project path="vendor/intel/apps/AndroidTerm" name="a/bsp/platform/packages/apps/AndroidTerm" revision="android/master"/>
+    <project path="vendor/intel/apps/acn" name="a/bsp/vendor/intel/apps/acn" revision="android/master"/>
 <!-- <project path="vendor/intel/apps/curl" name="a/bsp/vendor/intel/apps/curl" revision="android/master"/> -->
     <project path="vendor/intel/apps/IntelFmApp" name="a/bsp/packages/apps/IntelFmApp" revision="android/master" spsId="59079"/>
     <project path="vendor/intel/apps/ituxd" name="a/bsp/vendor/intel/apps/ituxd" revision="android/master" spsId="60543"/>
