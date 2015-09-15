@@ -772,6 +772,7 @@
 - vendor/intel/apps/ituxd
 - vendor/intel/apps/thermal_lite
 - vendor/intel/hardware/PRIVATE/libintel_swfg
+- vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon
 - vendor/intel/hardware/em_common
 - vendor/intel/hardware/healthd
 'Gfx / Display Drm':
@@ -876,7 +877,6 @@
 - vendor/intel/external/libdmclient
 - vendor/intel/external/libwbxml
 - vendor/intel/external/syncmlrtk
-- vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon
 - vendor/intel/telemetry-client
 - vendor/intel/tools/PRIVATE/tlv_generator
 - vendor/intel/tools/PRIVATE/wifail
