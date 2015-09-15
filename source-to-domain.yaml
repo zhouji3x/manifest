@@ -613,6 +613,7 @@
 - hardware/intel/sofia_lte-fls
 'CAM':
 - vendor/intel/apps/acn
+- vendor/intel/apps/bls
 - vendor/intel/apps/sweetspot
 'Camera - Imaging':
 - frameworks/av/services/camera
