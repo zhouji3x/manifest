@@ -638,12 +638,12 @@
 'Carrier':
 - vendor/intel/operator/CMCC
 'Connectivity':
-- device/intel/common/Bluetooth
+- device/intel/common/bluetooth
 - device/intel/common/nfc/fdp
 - device/intel/common/nfc/pn547
 - device/intel/common/wlan
 - device/intel/mixins/group/passpoint
-- device/intel/mixins/groups/Bluetooth
+- device/intel/mixins/groups/bluetooth
 - device/intel/mixins/groups/cellcoex
 - device/intel/mixins/groups/fmradio/lightningpeak
 - device/intel/mixins/groups/fmradio/pekall
