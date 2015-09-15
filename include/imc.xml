@@ -46,7 +46,6 @@
     <project path="hardware/intel/sensors" name="a/bsp/hardware/intel/sensors" revision="refs/tags/mirror/sofia/SOFIA_LTE_1536_2_0129" groups="imc" spsId="62159"/>
     <project path="hardware/intel/sysctrl_daemon" name="a/bsp/hardware/intel/sysctrl_daemon" revision="refs/tags/mirror/sofia/SOFIA_LTE_1536_2_0129" groups="imc" spsId="62140" />
     <project path="vendor/intel/PRIVATE/embms" name="a/bsp/vendor/intel/PRIVATE/embms" revision="refs/tags/mirror/sofia/SOFIA_LTE_1536_2_0129" groups="imc" spsId="60436"/>
-    <project path="hardware/intel/gpu/mali-midgard_lib" name="a/bsp/hardware/intel/gpu/arm/mali-midgard_lib" revision="refs/tags/mirror/sofia/SOFIA_LTE_1536_2_0129" groups="imc" spsId="60539"/>
     <project path="hardware/intel/display/arm/mali-dp500_lib" name="a/bsp/hardware/intel/display/arm/mali-dp500_lib" revision="refs/tags/mirror/sofia/SOFIA_LTE_1536_2_0129" groups="imc" spsId="60576"/>
     <project path="vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon" name="a/bsp/vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon" revision="refs/tags/mirror/sofia/SOFIA_LTE_1536_2_0129" groups="imc" spsId="61009"/>
     <!-- fixme: need to create android/master on this revision -->
