@@ -597,6 +597,8 @@
 - system/core/libnetutils
 - system/core/libnl_2
 - system/netd
+- vendor/intel/apps/curl
+- vendor/intel/external/passpoint
 - vendor/intel/fw/iwl
 - vendor/intel/hardware/PRIVATE/rocs
 - vendor/intel/hardware/PRIVATE/rservice
