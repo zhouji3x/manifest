@@ -17,7 +17,6 @@
     <remove-project name="a/bsp/device/intel/sofia"/>
     <remove-project name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib"/>
     <remove-project name="a/bsp/hardware/intel/codecs"/>
-    <remove-project name="a/bsp/device/intel/apps/OemTelephony-imc"/>
     <remove-project name="a/bsp/hardware/imc/ril"/>
     <remove-project name="a/bsp/hardware/imc/rpc"/>
     <remove-project name="a/bsp/hardware/intel/sensors"/>
@@ -40,7 +39,6 @@
     <project path="device/intel-imc" name="a/bsp/device/intel/sofia" revision="refs/tags/mirror/sofia/SOFIA_LTE_1536_2_0129" groups="imc" spsId="59063"/>
     <project path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" revision="android/m/hotfix/CTEAN-4188_GMINL-13366_SOFIA_LTE_1536_2_0129" groups="imc" spsId="59476"/>
     <project path="hardware/intel/codecs" name="a/bsp/hardware/intel/codecs" revision="android/m/hotfix/CTEAN-4188_SOFIA_LTE_1536_2_0129" groups="imc" spsId="62132"/>
-    <project path="vendor/intel/apps/telephony/OemTelephony-imc" name="a/bsp/device/intel/apps/OemTelephony-imc" revision="android/m/hotfix/CTEAN-4188_GMINL-13276_SOFIA_LTE_1536_2_0129" groups="imc" spsId="60537"/>
     <project path="hardware/imc/ril" name="a/bsp/hardware/imc/ril" revision="android/m/hotfix/CTEAN-4188-GMINL-13370_SOFIA_LTE_1536_2_0129" groups="imc" spsId="59048"/>
     <project path="hardware/imc/rpc" name="a/bsp/hardware/imc/rpc" revision="android/m/hotfix/CTEAN-4188-GMINL-13370_SOFIA_LTE_1536_2_0129-v2" groups="imc" spsId="59049"/>
     <project path="hardware/intel/sensors" name="a/bsp/hardware/intel/sensors" revision="refs/tags/mirror/sofia/SOFIA_LTE_1536_2_0129" groups="imc" spsId="62159"/>

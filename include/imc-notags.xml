@@ -16,7 +16,6 @@
     <project path="device/intel-imc" name="a/bsp/device/intel/sofia" revision="android/master"/>
     <project path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" revision="android/master" spsId="59476"/>
     <project path="hardware/intel/codecs" name="a/bsp/hardware/intel/codecs" revision="android/master" spsId="62132"/>
-    <project path="vendor/intel/apps/telephony/OemTelephony-imc" name="a/bsp/device/intel/apps/OemTelephony-imc" revision="android/master"/>
     <project path="hardware/intel/audio/imc/lib_imas" name="a/bsp/hardware/intel/lib_imas" revision="android/master" spsId="62141"/>
     <project path="hardware/intel/audio/imc/libauddriver" name="a/bsp/hardware/intel/libauddriver" revision="android/master" spsId="62130"/>
     <project path="hardware/intel/audio/imc/libaudio_hal" name="a/bsp/hardware/intel/libaudio_hal" revision="android/master" spsId="62131"/>
