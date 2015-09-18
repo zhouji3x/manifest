@@ -310,6 +310,11 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
+    <project path="vendor/intel/hardware/bt_hci_vs_service" name="a/bsp/vendor/intel/hardware/bt_hci_vs_service" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/hardware/modem_client" name="a/bsp/vendor/intel/hardware/modem_client" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>

@@ -718,6 +718,7 @@
 - vendor/intel/fw/nfc/intel/fdp
 - vendor/intel/fw/nfc/nxp
 - vendor/intel/fw/wlan/broadcom
+- vendor/intel/hardware/bt_hci_vs_service
 - vendor/intel/hardware/fmr
 - vendor/intel/hardware/PRIVATE/WFA_Sigma_Agent
 - vendor/intel/hardware/PRIVATE/a4wp
