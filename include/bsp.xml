@@ -3,10 +3,10 @@
     <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" revision="android/master"/>
     <project path="device/intel/baytrail" name="a/bsp/vendor/intel/baytrail" revision="android/master"/>
     <project path="device/intel/build" name="a/bsp/vendor/intel/build" revision="android/master"/>
-    <project path="device/intel/bxt-kernel" name="a/bsp/device/intel/bxt-kernel" revision="android/master" />
-    <project path="device/intel/cht-kernel" name="a/bsp/device/intel/cht-kernel" revision="android/master"/>
+    <project path="device/intel/bxt-kernel" name="a/bsp/device/intel/bxt-kernel" revision="android/master" clone-depth="1"/>
+    <project path="device/intel/cht-kernel" name="a/bsp/device/intel/cht-kernel" revision="android/master" clone-depth="1"/>
     <project path="device/intel/common" name="a/bsp/vendor/intel/common" revision="android/master"/>
-    <project path="device/intel/sofia_lte-kernel" name="a/bsp/device/intel/sofia_lte-kernel" revision="android/master"/>
+    <project path="device/intel/sofia_lte-kernel" name="a/bsp/device/intel/sofia_lte-kernel" revision="android/master" clone-depth="1"/>
     <project path="external/alac" name="a/bsp/external/alac" revision="android/master"/>
     <project path="external/bluetooth/hcitools" name="a/bsp/platform/external/bluetooth/hcitools" revision="android/master"/>
     <project path="external/bluetooth/libbt-vendor-linux" name="a/bsp/platform/external/bluetooth/libbt-vendor-linux" revision="android/master"/>
@@ -85,9 +85,9 @@
     <project path="vendor/intel/fw/fm/intel" name="a/bsp/vendor/intel/fw/fm/intel" revision="android/master"/>
     <project path="vendor/intel/fw/ipu4" name="a/bsp/vendor/intel/fw/camera/ipu4" revision="android/master"/>
     <project path="vendor/intel/fw/iwl" name="a/bsp/platform/vendor/intel/fw/iwl" revision="android/master"/>
-    <project path="vendor/intel/fw/modem/IMC/7160_flashless" name="a/bsp/device/intel/fw/modem/IMC/7160_flashless" revision="android/master" spsId="60542"/>
-    <project path="vendor/intel/fw/modem/IMC/7260_flashless" name="a/bsp/device/intel/fw/modem/IMC/7260_flashless" revision="android/master"/>
-    <project path="vendor/intel/fw/modem/IMC/7360_flashless" name="a/bsp/vendor/intel/fw/modem/IMC/7360_flashless" revision="android/master"/>
+    <project path="vendor/intel/fw/modem/IMC/7160_flashless" name="a/bsp/device/intel/fw/modem/IMC/7160_flashless" revision="android/master" spsId="60542" clone-depth="5"/>
+    <project path="vendor/intel/fw/modem/IMC/7260_flashless" name="a/bsp/device/intel/fw/modem/IMC/7260_flashless" revision="android/master" clone-depth="5"/>
+    <project path="vendor/intel/fw/modem/IMC/7360_flashless" name="a/bsp/vendor/intel/fw/modem/IMC/7360_flashless" revision="android/master" clone-depth="5"/>
     <project path="vendor/intel/fw/sst" name="a/bsp/device/intel/fw/sst" revision="android/master"/>
     <project path="vendor/intel/hardware/cg2k/3rdparty" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/3rdparty" revision="android/master"/>
     <project path="vendor/intel/hardware/cg2k/amil" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/amil" revision="android/master"/>
@@ -139,8 +139,8 @@
     <project path="vendor/intel/tools/telephony_tools/modem_trace_server" name="a/bsp/device/intel/telephony_tools/modem_trace_server" revision="android/master"/>
     <project path="vendor/intel/tools/telephony_tools/PRIVATE/component_testing" name="a/bsp/device/intel/telephony_tools/PRIVATE/component_testing" revision="android/master"/>
     <project path="vendor/intel/tools/telephony_tools/telephony_test" name="a/bsp/vendor/intel/PRIVATE/telephony_test" revision="android/master"/>
-    <project path="vendor/intel/ufo/gen7" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen7" revision="android/master"/>
-    <project path="vendor/intel/ufo/gen8" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8" revision="android/master"/>
+    <project path="vendor/intel/ufo/gen7" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen7" revision="android/master" clone-depth="5"/>
+    <project path="vendor/intel/ufo/gen8" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8" revision="android/master" clone-depth="5"/>
     <project path="vendor/silead/fw" name="a/bsp/vendor/silead/fw" revision="android/master"/>
     <project path="vendor/tools/Bluetooth/bt_trace_daemon" name="a/bsp/hardware/imc/bt_trace_daemon" revision="android/master" spsId="59051"/>
     <project path="vendor/tools/Bluetooth/bt_trace_manager" name="a/bsp/vendor/tools/Bluetooth/bt_trace_manager" revision="android/master" spsId="59060"/>

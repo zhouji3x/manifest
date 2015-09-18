@@ -387,8 +387,8 @@
   <project groups="aosp,pdk" name="a/aosp/platform/prebuilts/ndk" path="prebuilts/ndk" />
   <project groups="aosp,darwin,pdk,pdk-cw-fs,pdk-fs" name="a/aosp/platform/prebuilts/python/darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5" />
   <project groups="aosp,linux,pdk,pdk-cw-fs,pdk-fs" name="a/aosp/platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" />
-  <project groups="aosp,pdk" name="a/aosp/platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" />
-  <project groups="aosp,pdk" name="a/aosp/platform/prebuilts/sdk" path="prebuilts/sdk" />
+  <project groups="aosp,pdk" name="a/aosp/platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" clone-depth="1"/>
+  <project groups="aosp,pdk" name="a/aosp/platform/prebuilts/sdk" path="prebuilts/sdk" clone-depth="1" />
   <project groups="aosp,pdk,tools" name="a/aosp/platform/prebuilts/tools" path="prebuilts/tools" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/sdk" path="sdk" />
   <project groups="aosp,pdk" name="a/aosp/platform/system/bt" path="system/bt" />

@@ -45,7 +45,7 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-	<project path="device/intel/sofia3g-kernel" name="a/bsp/device/intel/sofia3g-kernel" groups="bsp-priv,embargoed" revision="android/master">
+	<project path="device/intel/sofia3g-kernel" name="a/bsp/device/intel/sofia3g-kernel" groups="bsp-priv,embargoed" revision="android/master" clone-depth="1">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>

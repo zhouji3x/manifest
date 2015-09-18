@@ -8,6 +8,7 @@
   <include name="include/bsp-priv.xml"/>
   <include name="include/imc-notags.xml"/>
   <include name="include/imc.xml"/>
+  <include name="include/remove.xml"/>
 
 
 </manifest>
