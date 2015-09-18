@@ -830,6 +830,7 @@
 - kernel/sofia-3gr
 - kernel/sofia-lte
 - prebuilts/gcc/linux-x86/x86/x86_64-linux-poky
+- vendor/intel/tools/kernel
 'Manifest':
 - manifests
 'Perceptual Camera':
