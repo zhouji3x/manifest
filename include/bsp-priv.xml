@@ -265,6 +265,16 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project> -->
+    <project path="vendor/intel/featsetclass_tel" name="a/bsp/vendor/intel/featsetclass_tel" groups="bsp-priv" revision="android/master">
+        <annotation name="g_external" value="bin"/>
+        <annotation name="all_external" value="bin"/>
+        <annotation name="bxt_rvp_external" value="bin"/>
+    </project>
+    <project path="vendor/intel/featsetres_tel" name="a/bsp/vendor/intel/featsetres_tel" groups="bsp-priv" revision="android/master">
+        <annotation name="g_external" value="bin"/>
+        <annotation name="all_external" value="bin"/>
+        <annotation name="bxt_rvp_external" value="bin"/>
+    </project>
     <project path="vendor/intel/fw/bluetooth/broadcom" name="a/bsp/vendor/intel/fw/bt/broadcom" groups="bsp-priv,embargoed,not_imc_wprd" restricted="not_IMC_wprd" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>

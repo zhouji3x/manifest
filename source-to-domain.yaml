@@ -967,6 +967,8 @@
 - vendor/intel/apps/telephony/OemTelephony
 - vendor/intel/apps/telephony/OemTelephony-imc
 - vendor/intel/apps/telephony/sarmanager
+- vendor/intel/featsetclass_tel
+- vendor/intel/featsetres_tel
 - vendor/intel/fw/modem/IMC/7160_flashless
 - vendor/intel/fw/modem/IMC/7260_flashless
 - vendor/intel/fw/modem/IMC/7360_flashless
