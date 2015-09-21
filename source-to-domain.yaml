@@ -649,6 +649,7 @@
 - hardware/imc/pt_bt_daemon
 - hardware/intel/bluedroid
 - hardware/intel/libbt-vendor-intel
+- kernel/modules/intel_ld
 - packages/apps/Bluetooth
 - vendor/intel/fw/bluetooth/intel
 - vendor/intel/hardware/bt_hci_vs_service
