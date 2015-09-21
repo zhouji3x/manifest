@@ -425,6 +425,11 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="vendor/memsic/calib" name="a/bsp/vendor/memsic/calib" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
 <!-- <project path="vendor/zeitec/fw" name="a/bsp/vendor/zeitec/fw" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>

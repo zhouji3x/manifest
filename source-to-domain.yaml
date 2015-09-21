@@ -938,6 +938,7 @@
 - hardware/intel/libsensors-input
 - vendor/intel/hardware/iio-sensors
 - vendor/intel/hardware/sensors
+- vendor/memsic/calib
 - vendor/silead/fw
 - vendor/zeitec/fw
 'Storage':
