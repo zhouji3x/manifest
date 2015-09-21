@@ -122,6 +122,7 @@
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/libcap-ng" path="external/libcap-ng" />
   <project groups="aosp,pdk" name="a/aosp/platform/external/libcxx" path="external/libcxx" />
   <project groups="aosp,pdk" name="a/aosp/platform/external/libcxxabi" path="external/libcxxabi" />
+  <project groups="aosp,pdk" name="a/aosp/platform/external/libdrm" path="external/libdrm"/>
   <project groups="aosp,pdk-fs" name="a/aosp/platform/external/libedit" path="external/libedit" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/libexif" path="external/libexif" />
   <project groups="aosp,pdk" name="a/aosp/platform/external/libgsm" path="external/libgsm" />
@@ -186,6 +187,7 @@
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/openfst" path="external/openfst" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/openssh" path="external/openssh" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/external/owasp/sanitizer" path="external/owasp/sanitizer" />
+  <project groups="aosp,pdk-fs" name="a/aosp/platform/external/parameter-framework" path="external/parameter-framework" />
   <project groups="aosp,pdk" name="a/aosp/platform/external/pcre" path="external/pcre" />
   <project groups="aosp,pdk" name="a/aosp/platform/external/pdfium" path="external/pdfium" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/ppp" path="external/ppp" />
@@ -401,9 +403,5 @@
   <project groups="aosp,pdk" name="a/aosp/platform/system/security" path="system/security" />
   <project groups="aosp,pdk" name="a/aosp/platform/system/vold" path="system/vold" />
   <project path="vendor/pdk/data/docs" name="a/aosp/platform/vendor/pdk/data/docs" revision="mirror/pdk/m-release" sync-c="true" groups="aosp,default"/>
-
-<!-- not part of M AOSP, retaind for now with their L versions -->
-  <project spsId="58692" path="external/openssl" name="a/aosp/platform/external/openssl" groups="aosp,pdk" />
-  <project path="external/stlport" name="a/aosp/platform/external/stlport" groups="aosp,pdk" />
 <!-- END open-source projects -->
 </manifest>

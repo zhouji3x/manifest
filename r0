@@ -6,7 +6,7 @@
            sync-c="true"
            sync-j="5" />
 
-  <include name="rbase.xml"/>
+  <include name="rbase_vanilla.xml"/>
   <project name="manifests" path="manifests"  groups="embargoed" revision="android/master"/>
 
 </manifest>
