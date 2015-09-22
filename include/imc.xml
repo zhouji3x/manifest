@@ -47,9 +47,6 @@
     <project path="hardware/intel/codecs" name="a/bsp/hardware/intel/codecs" revision="android/m/hotfix/CTEAN-4422_SOFIA_LTE_1537_2_0128" groups="imc" spsId="62132">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/apps/telephony/OemTelephony-imc" name="a/bsp/device/intel/apps/OemTelephony-imc" revision="android/m/hotfix/CTEAN-4422_GMINL-13276_SOFIA_LTE_1537_2_0128" groups="imc" spsId="60537">
-      <annotation name="readonly" value="true" />
-    </project>
     <project path="hardware/imc/ril" name="a/bsp/hardware/imc/ril" revision="android/m/hotfix/CTEAN-4422-GMINL-13370_SOFIA_LTE_1537_2_0128" groups="imc" spsId="59048">
       <annotation name="readonly" value="true" />
     </project>
