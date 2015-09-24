@@ -944,6 +944,8 @@
 - external/blktrace
 - system/vold
 'Telephony':
+- device/intel/common/telephony
+- device/intel/common/telephony-config
 - frameworks/base/telephony
 - frameworks/opt/mms
 - frameworks/opt/telephony
