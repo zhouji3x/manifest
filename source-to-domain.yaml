@@ -513,7 +513,6 @@
 - external/parameter-framework/core
 - external/parameter-framework/plugins/alsa
 - external/parameter-framework/plugins/fs
-- hardware/intel/audio/coe/codec_offload
 - hardware/intel/audio/coe/soundtrigger
 - hardware/intel/vibrator
 - external/sonivox
@@ -561,7 +560,6 @@
 - vendor/intel/audio/parameter-framework-plugins/power
 - vendor/intel/audio/parameter-framework-plugins/property
 - vendor/intel/audio/parameter-framework-plugins/remote-parameter
-- vendor/intel/audio/parameter-framework-plugins/route
 - vendor/intel/audio/parameter-framework-plugins/xmm
 - vendor/intel/audio/probe
 - vendor/intel/audio/tests

@@ -205,11 +205,6 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/audio/parameter-framework-plugins/route" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/route" groups="bsp-priv" revision="android/master">
-        <annotation name="g_external" value="bin"/>
-        <annotation name="all_external" value="bin"/>
-        <annotation name="bxt_rvp_external" value="bin"/>
-    </project>
     <project path="vendor/intel/audio/parameter-framework-plugins/xmm" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/xmm" groups="bsp-priv" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
