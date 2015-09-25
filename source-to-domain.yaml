@@ -664,6 +664,7 @@
 - device/intel/mixins/groups/fmradio/lightningpeak
 - external/v4l2rds
 - hardware/imc/fm
+- hardware/intel/fm
 - packages/apps/fmr
 - vendor/intel/apps/IntelFmApp
 - vendor/intel/fw/fm/intel
