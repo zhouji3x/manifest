@@ -29,39 +29,39 @@
 
     <!-- fixme: hardware/intel/vpu needs to point to IMC release: -->
     <project path="hardware/intel/vpu/verisilicon" name="a/bsp/hardware/intel/vpu/verisilicon" revision="android/master" groups="imc" spsId="59474"/>
-    <project path="hardware/intel/libnvmmodule" name="a/bsp/hardware/intel/libnvmmodule" revision="android/m/hotfix/CTEAN-4422-GMINL-13867_SOFIA_LTE_1537_2_0128" groups="imc" spsId="62136">
+    <project path="hardware/intel/libnvmmodule" name="a/bsp/hardware/intel/libnvmmodule" revision="android/m/hotfix/CTEAN-4552-GMINL-13867_SOFIA_LTE_1539_3_0150" groups="imc" spsId="62136">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/hardware/telephony/imsservices" name="a/bsp/vendor/intel/PRIVATE/imsservices" revision="refs/tags/mirror/sofia/SOFIA_LTE_1537_2_0128" groups="imc" spsId="60307"/>
-    <project path="vendor/intel/hardware/telephony/imsstack" name="a/bsp/vendor/intel/PRIVATE/imsstack" revision="android/m/hotfix/CTEAN-4422-GMINL-12905_SOFIA_LTE_1537_2_0128" groups="imc" spsId="60546">
+    <project path="vendor/intel/hardware/telephony/imsservices" name="a/bsp/vendor/intel/PRIVATE/imsservices" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="60307"/>
+    <project path="vendor/intel/hardware/telephony/imsstack" name="a/bsp/vendor/intel/PRIVATE/imsstack" revision="android/m/hotfix/CTEAN-4552-GMINL-12905_SOFIA_LTE_1539_3_0150" groups="imc" spsId="60546">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="hardware/intel/rpcsecurity" name="a/bsp/hardware/intel/rpcsecurity" revision="refs/tags/mirror/sofia/SOFIA_LTE_1537_2_0128" groups="imc" spsId="62139"/>
-    <project path="vendor/intel/liboemcrypto/sofia" name="a/bsp/vendor/intel/liboemcrypto" revision="android/m/hotfix/CTEAN-4422-GMINL-13277_SOFIA_LTE_1537_2_0128" groups="imc" spsId="59121">
+    <project path="hardware/intel/rpcsecurity" name="a/bsp/hardware/intel/rpcsecurity" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="62139"/>
+    <project path="vendor/intel/liboemcrypto/sofia" name="a/bsp/vendor/intel/liboemcrypto" revision="android/m/hotfix/CTEAN-4552-GMINL-13277_SOFIA_LTE_1539_3_0150" groups="imc" spsId="59121">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="device/intel-imc" name="a/bsp/device/intel/sofia" revision="refs/tags/mirror/sofia/SOFIA_LTE_1537_2_0128" groups="imc" spsId="59063"/>
-    <project path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" revision="android/m/hotfix/CTEAN-4422_GMINL-13366_SOFIA_LTE_1537_2_0128" groups="imc" spsId="59476">
+    <project path="device/intel-imc" name="a/bsp/device/intel/sofia" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="59063"/>
+    <project path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" revision="android/m/hotfix/CTEAN-4552-GMINL-13366_SOFIA_LTE_1539_3_0150" groups="imc" spsId="59476">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="hardware/intel/codecs" name="a/bsp/hardware/intel/codecs" revision="android/m/hotfix/CTEAN-4422_SOFIA_LTE_1537_2_0128" groups="imc" spsId="62132">
+    <project path="hardware/intel/codecs" name="a/bsp/hardware/intel/codecs" revision="android/m/hotfix/CTEAN-4552_SOFIA_LTE_1539_3_0150" groups="imc" spsId="62132">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="hardware/imc/ril" name="a/bsp/hardware/imc/ril" revision="android/m/hotfix/CTEAN-4422-GMINL-13370_SOFIA_LTE_1537_2_0128" groups="imc" spsId="59048">
+    <project path="hardware/imc/ril" name="a/bsp/hardware/imc/ril" revision="android/m/hotfix/CTEAN-4552_GMINL-13370_SOFIA_LTE_1539_3_0150_V2" groups="imc" spsId="59048">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="hardware/imc/rpc" name="a/bsp/hardware/imc/rpc" revision="android/m/hotfix/CTEAN-4422-GMINL-13370_SOFIA_LTE_1537_2_0128" groups="imc" spsId="59049">
+    <project path="hardware/imc/rpc" name="a/bsp/hardware/imc/rpc" revision="android/m/hotfix/CTEAN-4552_GMINL-13370_SOFIA_LTE_1539_3_0150-v2" groups="imc" spsId="59049">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="hardware/intel/sensors" name="a/bsp/hardware/intel/sensors" revision="refs/tags/mirror/sofia/SOFIA_LTE_1537_2_0128" groups="imc" spsId="62159"/>
-    <project path="hardware/intel/sysctrl_daemon" name="a/bsp/hardware/intel/sysctrl_daemon" revision="refs/tags/mirror/sofia/SOFIA_LTE_1537_2_0128" groups="imc" spsId="62140" />
-    <project path="vendor/intel/PRIVATE/embms" name="a/bsp/vendor/intel/PRIVATE/embms" revision="refs/tags/mirror/sofia/SOFIA_LTE_1537_2_0128" groups="imc" spsId="60436"/>
-    <project path="hardware/intel/display/arm/mali-dp500_lib" name="a/bsp/hardware/intel/display/arm/mali-dp500_lib" revision="refs/tags/mirror/sofia/SOFIA_LTE_1537_2_0128" groups="imc" spsId="60576"/>
-    <project path="vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon" name="a/bsp/vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon" revision="refs/tags/mirror/sofia/SOFIA_LTE_1537_2_0128" groups="imc" spsId="61009"/>
+    <project path="hardware/intel/sensors" name="a/bsp/hardware/intel/sensors" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="62159"/>
+    <project path="hardware/intel/sysctrl_daemon" name="a/bsp/hardware/intel/sysctrl_daemon" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="62140" />
+    <project path="vendor/intel/PRIVATE/embms" name="a/bsp/vendor/intel/PRIVATE/embms" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="60436"/>
+    <project path="hardware/intel/display/arm/mali-dp500_lib" name="a/bsp/hardware/intel/display/arm/mali-dp500_lib" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="60576"/>
+    <project path="vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon" name="a/bsp/vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="61009"/>
     <!-- These three are living in 1A until OC6 mainline is unfrozen and
          next release happens: -->
-    <project path="hardware/intel/audio/imc/lib_imas" name="a/bsp/hardware/intel/lib_imas" revision="refs/tags/mirror/sofia/SOFIA_LTE_1537_2_0128" groups="imc" spsId="62141"/>
+    <project path="hardware/intel/audio/imc/lib_imas" name="a/bsp/hardware/intel/lib_imas" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="62141"/>
     <project path="hardware/intel/audio/imc/libauddriver" name="a/bsp/hardware/intel/libauddriver" revision="android/master" groups="imc" spsId="62130"/>
-    <project path="hardware/intel/audio/imc/libaudio_hal" name="a/bsp/hardware/intel/libaudio_hal" revision="refs/tags/mirror/sofia/SOFIA_LTE_1537_2_0128" groups="imc" spsId="62131"/>
+    <project path="hardware/intel/audio/imc/libaudio_hal" name="a/bsp/hardware/intel/libaudio_hal" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="62131"/>
     <project path="hardware/intel/audio/imc/libaudio_hal_3g" name="a/bsp/hardware/intel/libaudio_hal_3g" revision="android/master" groups="imc" spsId="none"/>
 </manifest>
