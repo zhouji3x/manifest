@@ -613,6 +613,7 @@
 - vendor/intel/apps/acn
 - vendor/intel/apps/bls
 - vendor/intel/apps/sweetspot
+- vendor/intel/hardware/wififirst
 'Camera - Imaging':
 - frameworks/av/services/camera
 - hardware/intel/hald_media_hook

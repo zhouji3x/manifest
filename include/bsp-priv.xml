@@ -295,21 +295,6 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/hardware/libiha" name="a/bsp/vendor/intel/hardware/PRIVATE/libiha" groups="bsp-priv,embargoed" revision="android/master">
-       <annotation name="g_external" value="no"/>
-       <annotation name="all_external" value="no"/>
-       <annotation name="bxt_rvp_external" value="no"/>
-    </project>
-    <project path="vendor/intel/hardware/nfc_mvt" name="a/bsp/vendor/intel/hardware/nfc_mvt" groups="bsp-priv" revision="android/master">
-       <annotation name="g_external" value="bin"/>
-       <annotation name="all_external" value="bin"/>
-       <annotation name="bxt_rvp_external" value="bin"/>
-     </project>
-<!-- <project path="vendor/intel/tools/PRIVATE/bt/intel" name="a/bsp/vendor/intel/tools/PRIVATE/bt/intel" groups="bsp-priv,embargoed,not_imc_wprd" restricted="not_IMC_wprd" revision="android/master">
-        <annotation name="g_external" value="no"/>
-        <annotation name="all_external" value="no"/>
-        <annotation name="bxt_rvp_external" value="no"/>
-    </project> -->
     <project path="vendor/intel/fw/nfc/nxp" name="a/bsp/hardware/intel/PRIVATE/pn544_fw" groups="bsp-priv" restricted="not_IMC_wprd" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
@@ -325,11 +310,21 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="vendor/intel/hardware/libiha" name="a/bsp/vendor/intel/hardware/PRIVATE/libiha" groups="bsp-priv,embargoed" revision="android/master">
+       <annotation name="g_external" value="no"/>
+       <annotation name="all_external" value="no"/>
+       <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/hardware/modem_client" name="a/bsp/vendor/intel/hardware/modem_client" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="vendor/intel/hardware/nfc_mvt" name="a/bsp/vendor/intel/hardware/nfc_mvt" groups="bsp-priv" revision="android/master">
+       <annotation name="g_external" value="bin"/>
+       <annotation name="all_external" value="bin"/>
+       <annotation name="bxt_rvp_external" value="bin"/>
+     </project>
     <project path="vendor/intel/hardware/PRIVATE/cellular_coex_manager/broadcom" name="a/bsp/vendor/intel/hardware/cellular_coex_manager/broadcom" groups="bsp-priv,bluewoods,embargoed" restricted="blue_woods" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
@@ -365,6 +360,11 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
+    <project path="vendor/intel/hardware/wififirst" name="a/bsp/vendor/intel/hardware/wififirst" groups="bsp-priv,embargoed" revision="android/master">
+       <annotation name="g_external" value="no"/>
+       <annotation name="all_external" value="no"/>
+       <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/liboemcrypto/gen" name="a/bsp/vendor/intel/liboemcrypto-gen" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
@@ -395,6 +395,11 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+<!-- <project path="vendor/intel/tools/PRIVATE/bt/intel" name="a/bsp/vendor/intel/tools/PRIVATE/bt/intel" groups="bsp-priv,embargoed,not_imc_wprd" restricted="not_IMC_wprd" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project> -->
     <project path="vendor/intel/tools/PRIVATE/debug_internal_tools" name="a/bsp/device/intel/PRIVATE/debug_internal_tools" groups="bsp-priv,embargoed" revision="android/master" spsId="59065">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
