@@ -37,7 +37,7 @@
       <annotation name="readonly" value="true" />
     </project>
     <project path="hardware/intel/rpcsecurity" name="a/bsp/hardware/intel/rpcsecurity" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="62139"/>
-    <project path="vendor/intel/liboemcrypto/sofia" name="a/bsp/vendor/intel/liboemcrypto" revision="android/m/hotfix/CTEAN-4552-GMINL-13277_SOFIA_LTE_1539_3_0150" groups="imc" spsId="59121">
+    <project path="vendor/intel/liboemcrypto/sofia" name="a/bsp/vendor/intel/liboemcrypto" revision="android/m/hotfix/CTEAN-4552-GMINL-13277_SOFIA_LTE_1539_3_0150_V2" groups="imc" spsId="59121">
       <annotation name="readonly" value="true" />
     </project>
     <project path="device/intel-imc" name="a/bsp/device/intel/sofia" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="59063"/>
