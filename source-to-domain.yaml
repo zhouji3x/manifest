@@ -671,6 +671,7 @@
 - vendor/intel/hardware/fmr
 'Connectivity-ACP-GNSS':
 - device/intel/mixins/groups/gps
+- device/intel/mixins/groups/gps/ag620
 - device/intel/mixins/groups/gps/cg2k
 - hardware/imc/gnss
 - vendor/intel/hardware/cg2k/3rdparty
@@ -749,7 +750,6 @@
 - device/intel/mixins/groups/fmradio/pekall
 - packages/apps/libfmrservice
 'Connectivity-TPV-GNSS':
-- device/intel/mixins/groups/gps/ag620
 - hardware/broadcom/bcm_gps
 - vendor/intel/hardware/PRIVATE/bcm_gps
 'Connectivity-TPV-NFC':
