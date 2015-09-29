@@ -690,6 +690,7 @@
 'Intel Security differentiation' :
 - vendor/intel/apps/security_assist
 - vendor/intel/apps/silentlake/sl_installer
+- vendor/intel/hardware/libaesni
 - vendor/intel/hardware/libiha
 - vendor/intel/hardware/libsl
 - vendor/intel/silentlake/psw

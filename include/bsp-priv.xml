@@ -484,6 +484,11 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="kernel/sofia_garnet" name="a/bsp/kernel/sofia_garnet" groups="bsp-priv,embargoed,kernel-src,notdefault" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
 <!-- <project path="device/intel/kernel_ref" name="a/bsp/device/intel/kernel_ref" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
