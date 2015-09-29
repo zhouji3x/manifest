@@ -784,8 +784,9 @@
 'DRM - Widevine':
 - vendor/google/widevinedrm
 - vendor/intel/liboemcrypto/gen
-- vendor/intel/liboemcrypto/sofia
 - vendor/widevine
+'DRM - Widevine SoFia':
+- vendor/intel/liboemcrypto/sofia
 'Energy management':
 - external/thermal_daemon
 - frameworks/native/services/batteryservice

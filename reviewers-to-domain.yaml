@@ -44,6 +44,8 @@ ldap//CN=OTC_SI_1A-Rev-Debug_Trace,OU=Rialto,OU=Application Managed,OU=Groups,DC
 - 'Debug and Trace'
 ldap//CN=OTC_SI_1A-Rev-DRM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'DRM - Widevine'
+ldap//CN=OTC_SI_1A-Rev-DRM-Sofia,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'DRM - Widevine SoFia'
 ldap//CN=OTC_SI_1A-Rev-Energy_Mgt,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Energy management'
 ldap//CN=OTC_SI_1A-Rev-Gfx_Display_Drm,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

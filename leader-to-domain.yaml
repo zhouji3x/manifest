@@ -49,6 +49,7 @@ eman.copty@intel.com:
 - 'Perceptual Camera'
 eugene.epshteyn@intel.com:
 - 'DRM - Widevine'
+- 'DRM - Widevine SoFia'
 hang.l.sun@intel.com:
 - 'WiDi'
 hatem.oueslati@intel.com:
@@ -80,6 +81,7 @@ johnson.z.wu@intel.com:
 - 'Power Management'
 juan.carlos.castillo@intel.com:
 - 'DRM - Widevine'
+- 'DRM - Widevine SoFia'
 julien.battiston@intel.com:
 - 'Power Management'
 kuo-lang.tseng@intel.com:
@@ -145,6 +147,7 @@ thierry.escande@intel.com:
 - 'Auto_Detection'
 tommi.von.hertzen@intel.com:
 - 'DRM - Widevine'
+- 'DRM - Widevine SoFia'
 venkat.r.gokulrangan@intel.com:
 - 'Intel Security differentiation'
 viorel.suman@intel.com:
