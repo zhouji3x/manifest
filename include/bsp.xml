@@ -83,7 +83,6 @@
     <project path="vendor/intel/external/syncmlrtk" name="a/bsp/vendor/intel/external/syncmlrtk" revision="android/master"/>
     <project path="hardware/intel/audio/coe/utilities" name="a/bsp/hardware/intel/audiocomms/utilities" revision="android/master"/>
     <project path="vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" name="a/bsp/vendor/intel/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" revision="android/master" spsId="60870"/>
-    <project path="vendor/intel/camera/libcamerausb" name="a/bsp/vendor/intel/hardware/libcamerausb" revision="android/master"/>
     <project path="vendor/intel/camera/libiacss" name="a/bsp/vendor/intel/hardware/libiacss" revision="android/master"/>
     <project path="vendor/intel/fw/camera" name="a/bsp/device/intel/fw/camera" revision="android/master"/>
     <project path="vendor/intel/fw/ds4fw" name="a/bsp/vendor/intel/fw/ds4fw" revision="android/master"/>

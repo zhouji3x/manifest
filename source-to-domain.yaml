@@ -517,8 +517,6 @@
 - vendor/intel/camera/camera_extension
 - vendor/intel/camera/cameralibs
 - vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0
-- vendor/intel/camera/libcamera2
-- vendor/intel/camera/libcamerausb
 - vendor/intel/camera/libiacss
 - vendor/intel/camera/libmfldadvci
 - vendor/intel/fw/camera
