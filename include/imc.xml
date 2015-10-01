@@ -10,13 +10,18 @@
     <remove-project name="a/bsp/hardware/imc/fm"/>
     <remove-project name="a/bsp/hardware/intel/vpu/verisilicon"/>
     <remove-project name="a/bsp/hardware/intel/libnvmmodule"/>
+    <remove-project name="a/bsp/vendor/intel/PRIVATE/imsservices"/>
+    <remove-project name="a/bsp/vendor/intel/PRIVATE/imsstack"/>
     <remove-project name="a/bsp/hardware/intel/rpcsecurity"/>
     <remove-project name="a/bsp/vendor/intel/liboemcrypto"/>
     <remove-project name="a/bsp/device/intel/sofia"/>
     <remove-project name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib"/>
     <remove-project name="a/bsp/hardware/intel/codecs"/>
+    <remove-project name="a/bsp/hardware/imc/ril"/>
+    <remove-project name="a/bsp/hardware/imc/rpc"/>
     <remove-project name="a/bsp/hardware/intel/sensors"/>
     <remove-project name="a/bsp/hardware/intel/sysctrl_daemon"/>
+    <remove-project name="a/bsp/vendor/intel/PRIVATE/embms"/>
     <remove-project name="a/bsp/hardware/intel/lib_imas"/>
     <remove-project name="a/bsp/hardware/intel/libauddriver"/>
     <remove-project name="a/bsp/hardware/intel/libaudio_hal"/>
@@ -25,6 +30,10 @@
     <!-- fixme: hardware/intel/vpu needs to point to IMC release: -->
     <project path="hardware/intel/vpu/verisilicon" name="a/bsp/hardware/intel/vpu/verisilicon" revision="android/master" groups="imc" spsId="59474"/>
     <project path="hardware/intel/libnvmmodule" name="a/bsp/hardware/intel/libnvmmodule" revision="android/m/hotfix/CTEAN-4552-GMINL-13867_SOFIA_LTE_1539_3_0150" groups="imc" spsId="62136">
+      <annotation name="readonly" value="true" />
+    </project>
+    <project path="vendor/intel/hardware/telephony/imsservices" name="a/bsp/vendor/intel/PRIVATE/imsservices" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="60307"/>
+    <project path="vendor/intel/hardware/telephony/imsstack" name="a/bsp/vendor/intel/PRIVATE/imsstack" revision="android/m/hotfix/CTEAN-4552-GMINL-12905_SOFIA_LTE_1539_3_0150" groups="imc" spsId="60546">
       <annotation name="readonly" value="true" />
     </project>
     <project path="hardware/intel/rpcsecurity" name="a/bsp/hardware/intel/rpcsecurity" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="62139"/>
@@ -38,8 +47,15 @@
     <project path="hardware/intel/codecs" name="a/bsp/hardware/intel/codecs" revision="android/m/hotfix/CTEAN-4552_SOFIA_LTE_1539_3_0150" groups="imc" spsId="62132">
       <annotation name="readonly" value="true" />
     </project>
+    <project path="hardware/imc/ril" name="a/bsp/hardware/imc/ril" revision="android/m/hotfix/CTEAN-4552_GMINL-13370_SOFIA_LTE_1539_3_0150_V2" groups="imc" spsId="59048">
+      <annotation name="readonly" value="true" />
+    </project>
+    <project path="hardware/imc/rpc" name="a/bsp/hardware/imc/rpc" revision="android/m/hotfix/CTEAN-4552_GMINL-13370_SOFIA_LTE_1539_3_0150-v2" groups="imc" spsId="59049">
+      <annotation name="readonly" value="true" />
+    </project>
     <project path="hardware/intel/sensors" name="a/bsp/hardware/intel/sensors" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="62159"/>
     <project path="hardware/intel/sysctrl_daemon" name="a/bsp/hardware/intel/sysctrl_daemon" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="62140" />
+    <project path="vendor/intel/PRIVATE/embms" name="a/bsp/vendor/intel/PRIVATE/embms" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="60436"/>
     <project path="hardware/intel/display/arm/mali-dp500_lib" name="a/bsp/hardware/intel/display/arm/mali-dp500_lib" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="60576"/>
     <project path="vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon" name="a/bsp/vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon" revision="refs/tags/mirror/sofia/SOFIA_LTE_1539_3_0150" groups="imc" spsId="61009"/>
     <!-- These three are living in 1A until OC6 mainline is unfrozen and

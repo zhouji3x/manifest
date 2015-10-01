@@ -10,7 +10,7 @@
     <project path="hardware/intel/vpu/verisilicon" name="a/bsp/hardware/intel/vpu/verisilicon" revision="android/master"/>
     <project path="hardware/intel/libnvmmodule" name="a/bsp/hardware/intel/libnvmmodule" revision="android/master"/>
     <project path="vendor/intel/hardware/telephony/imsservices" name="a/bsp/vendor/intel/PRIVATE/imsservices" revision="android/master"/>
-    <project path="vendor/intel/hardware/telephony/imsstack" name="a/bsp/vendor/intel/PRIVATE/imsstack" revision="android/master"/>
+    <project path="vendor/intel/PRIVATE/imsstack" name="a/bsp/vendor/intel/PRIVATE/imsstack" revision="android/master"/>
     <project path="hardware/intel/rpcsecurity" name="a/bsp/hardware/intel/rpcsecurity" revision="android/master"/>
     <project path="vendor/intel/liboemcrypto/sofia" name="a/bsp/vendor/intel/liboemcrypto" revision="android/master"/>
     <project path="device/intel-imc" name="a/bsp/device/intel/sofia" revision="android/master"/>
