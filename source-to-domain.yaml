@@ -942,6 +942,8 @@
 - vendor/memsic/calib
 - vendor/silead/fw
 - vendor/zeitec/fw
+'SoFia LTE Debug & Trace':
+- vendor/intel/tools/oct_daemon
 'Storage':
 - external/blktrace
 - system/vold
