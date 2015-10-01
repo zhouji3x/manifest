@@ -395,6 +395,11 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="vendor/intel/tools/oct_daemon" name="a/bsp/vendor/intel/tools/oct_daemon" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
 <!-- <project path="vendor/intel/tools/PRIVATE/bt/intel" name="a/bsp/vendor/intel/tools/PRIVATE/bt/intel" groups="bsp-priv,embargoed,not_imc_wprd" restricted="not_IMC_wprd" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
