@@ -853,6 +853,8 @@
 - kernel/sofia-lte
 - prebuilts/gcc/linux-x86/x86/x86_64-linux-poky
 - vendor/intel/tools/kernel
+'Kernel iCDG':
+- kernel/sofia_garnet
 'Manifest':
 - manifests
 'Perceptual Camera':

@@ -31,6 +31,8 @@ cedric.le.claire@intel.com:
 chris.r.watkins@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
+christophe.chauvin@intel.com:
+- 'Kernel iCDG'
 christophe.guerard@intel.com:
 - 'Debug and Trace'
 cyrille.bezard-falgas@intel.com:
@@ -160,6 +162,8 @@ viorel.suman@intel.com:
 - 'Sensors'
 william.c.roberts@intel.com:
 - 'Security Middleware'
+xavier.roumegue@intel.com:
+- 'Kernel iCDG'
 xinhong.hu@intel.com:
 - 'Carrier'
 yann.fouassier@intel.com:
