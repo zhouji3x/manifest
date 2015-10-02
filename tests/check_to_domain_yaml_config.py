@@ -2,6 +2,7 @@
 import unittest
 import yaml
 import os
+import re
 from check_manifest_xml import CheckManifestSrcPath
 
 class DomainYamlConfigCheck(object):
@@ -23,6 +24,49 @@ class DomainYamlConfigCheck(object):
             return list(set(errors))
         else:
             print "all path have domain associated"
+
+    @staticmethod
+    def checkObsoletePathProjectDomain(sourceDomain):
+        """check if path of source-to-domain still present in repo"""
+        errors = []
+        # Get the list of projects
+        project = CheckManifestSrcPath()
+
+        # For each path declared in source-to-domain yaml
+        tab_path = []
+        for (domain_from_source_to_domain, path_from_source_to_domain_tab) in sourceDomain.iteritems():
+            tab_path.extend(path_from_source_to_domain_tab)
+
+        tab_path_manifest = []
+        for path_in_xml_manifest_file,path_found_in_file in project.project_path_list:
+            tab_path_manifest.append(path_in_xml_manifest_file)
+
+        # For each path of the manifest
+        tab_path_not_found = []
+        for path_from_source_to_domain in tab_path:
+            if path_from_source_to_domain not in tab_path_manifest:
+                tab_path_not_found.append(path_from_source_to_domain)
+
+        for path_from_source_to_domain in tab_path_not_found:
+            # Set the indicator to false
+            found_path_in_manifest = False
+
+            # For each path of the manifest
+            for path_in_xml_manifest_file in tab_path_manifest:
+
+                # If a path of the manifest matches with the patch of the source
+                if re.search(path_in_xml_manifest_file, path_from_source_to_domain):
+                    # ... then stop the search
+                    found_path_in_manifest = True
+                    break
+
+            if found_path_in_manifest == False:
+                errors.extend(["{}".format(path_from_source_to_domain.ljust(70))])
+
+        if errors:
+            return list(set(errors))
+        else:
+            print "all source-to-domain paths are linked to existing repos"
 
     @staticmethod
     def checkProjectDomainConfiguration(sourceToDomainCategory, selectDomain, domainName):
@@ -172,6 +216,18 @@ class TestToDomainYamlConfig(DomainYamlConfigCheck, unittest.TestCase):
                for path_wo_domain in errors:
                   print path_wo_domain
         print "\n-------------------------------------------- Test Domain coverage end"
+
+    def testPathObsolete(self):
+        for sourceToDomain in [self.SOURCE_TO_DOMAIN,
+                               self.SOURCE_TO_DOMAIN_KW]:
+            print ("\n-------------------------------------------- Test Path from {} obsolete".format(sourceToDomain))
+            errors = DomainYamlConfigCheck.checkObsoletePathProjectDomain(self.toYaml(sourceToDomain))
+            if errors:
+               errors.sort()
+               print "\nThe following paths are not present in the manifest:"
+               for path_wo_domain in errors:
+                  print path_wo_domain
+        print "\n-------------------------------------------- Test Path obsolete end"
 
 def main():
     for tc in {TestTestToDomainYamlConfig, TestToDomainYamlConfig}:
