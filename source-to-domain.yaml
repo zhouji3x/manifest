@@ -513,7 +513,6 @@
 - vendor/intel/camera/libmfldadvci
 - vendor/intel/fw/camera
 - vendor/intel/fw/ipu4
-'Carrier':
 'Connectivity-ACP-BT':
 - device/intel/common/bluetooth
 - device/intel/common/bluetooth/ag620
@@ -540,7 +539,6 @@
 'Connectivity-ACP-FM':
 - device/intel/mixins/groups/fmradio/lightningpeak
 - external/v4l2rds
-- hardware/imc/fm
 - hardware/intel/fm
 - vendor/intel/apps/IntelFmApp
 - vendor/intel/fw/fm/intel
