@@ -71,11 +71,16 @@
     <project path="vendor/intel/apps/curl" name="a/bsp/vendor/intel/apps/curl" revision="android/master"/>
     <project path="vendor/intel/apps/IntelFmApp" name="a/bsp/packages/apps/IntelFmApp" revision="android/master" spsId="59079"/>
     <project path="vendor/intel/apps/ituxd" name="a/bsp/vendor/intel/apps/ituxd" revision="android/master" spsId="60543"/>
-    <project path="vendor/intel/apps/PRIVATE/arccamera" name="a/bsp/vendor/arcsoft/arccamera" revision="android/master"/>
     <project path="vendor/intel/apps/PRIVATE/Aware" name="a/bsp/vendor/intel/PRIVATE/Aware" revision="android/master"/>
+    <project path="vendor/intel/apps/PRIVATE/arccamera" name="a/bsp/vendor/arcsoft/arccamera" revision="android/master"/>
+    <project path="vendor/intel/apps/PRIVATE/strongswan" name="a/bsp/vendor/intel/apps/PRIVATE/strongswan" revision="android/master"/>
     <project path="vendor/intel/apps/telephony/OemTelephony" name="a/bsp/device/intel/apps/OemTelephony" revision="android/master"/>
     <project path="vendor/intel/apps/thermal_lite" name="a/bsp/vendor/intel/apps/thermal_lite" revision="android/master"/>
     <project path="vendor/intel/apps/VppSettings" name="a/bsp/vendor/intel/apps/VppSettings" revision="android/master"/>
+    <project path="vendor/intel/external/libdmclient" name="a/bsp/vendor/intel/external/libdmclient" revision="android/master"/>
+    <project path="vendor/intel/external/libMD5_rfc" name="a/bsp/vendor/intel/external/libmd5_rfc" revision="android/master"/>
+    <project path="vendor/intel/external/libwbxml" name="a/bsp/vendor/intel/external/libwbxml" revision="android/master"/>
+    <project path="vendor/intel/external/syncmlrtk" name="a/bsp/vendor/intel/external/syncmlrtk" revision="android/master"/>
     <project path="hardware/intel/audio/coe/utilities" name="a/bsp/hardware/intel/audiocomms/utilities" revision="android/master"/>
     <project path="vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" name="a/bsp/vendor/intel/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" revision="android/master" spsId="60870"/>
     <project path="vendor/intel/camera/libcamerausb" name="a/bsp/vendor/intel/hardware/libcamerausb" revision="android/master"/>
@@ -165,11 +170,6 @@
     <project path="vendor/intel/apps/halctl" name="a/bsp/vendor/intel/apps/PRIVATE/halctl-src" revision="android/master"/>
     <project path="vendor/intel/apps/hald" name="a/bsp/vendor/intel/apps/PRIVATE/hald-src" revision="android/master"/>
     <project path="vendor/intel/tools/rfkillp" name="a/bsp/vendor/intel/tools/bluetooth/rfkillp" revision="android/master"/>
-<!-- <project path="vendor/intel/apps/PRIVATE/strongswan" name="a/bsp/vendor/intel/apps/PRIVATE/strongswan" revision="android/master" spsId="60672"/> -->
-<!-- <project path="vendor/intel/external/libdmclient" name="a/bsp/vendor/intel/external/libdmclient" revision="android/master" spsId="61088"/> -->
-<!-- <project path="vendor/intel/external/libMD5_rfc" name="a/bsp/vendor/intel/external/libmd5_rfc" revision="android/master" spsId="61086"/> -->
-<!-- <project path="vendor/intel/external/libwbxml" name="a/bsp/vendor/intel/external/libwbxml" revision="android/master" spsId="61085"/> -->
-<!-- <project path="vendor/intel/external/syncmlrtk" name="a/bsp/vendor/intel/external/syncmlrtk" revision="android/master" spsId="61087"/> -->
 <!-- <project path="packages/apps/libfmrservice" name="a/bsp/packages/apps/fmr" revision="android/master" spsId="59081"/> -->
 <!-- <project path="hardware/intel/wlan/libwifihal" name="a/vendor/intel/imc/iwlwifi/libwifihal" revision="android/master" spsId="59090"/> -->
 
