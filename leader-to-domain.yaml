@@ -1,5 +1,7 @@
 ajit.joshi@intel.com:
 - 'WiDi'
+amber.jain@intel.com:
+- 'GFX / Display Mali'
 amir.noam@intel.com:
 - 'ISH'
 anand.muralidharan@intel.com:
@@ -12,6 +14,8 @@ aviv.d.greenberg@intel.com:
 - 'Perceptual Camera'
 axel.fagerstedt@intel.com:
 - 'AOSP'
+binu.r.s@intel.com:
+- 'GFX / Display Mali'
 brad.geltz@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'BOOT - OTA - GOTA SoFia'
@@ -52,6 +56,8 @@ eman.copty@intel.com:
 eugene.epshteyn@intel.com:
 - 'DRM - Widevine'
 - 'DRM - Widevine SoFia'
+grzegorz.janca@intel.com:
+- 'Storage'
 hang.l.sun@intel.com:
 - 'WiDi'
 hatem.oueslati@intel.com:
@@ -100,6 +106,8 @@ marius.m.archip@intel.com:
 - 'SoFia LTE Debug & Trace'
 markus.lehmann@intel.com:
 - 'SoFia LTE Debug & Trace'
+mateusz.nowak@intel.com:
+- 'Storage'
 michael.bergeron@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'BOOT - OTA - GOTA SoFia'
@@ -135,6 +143,8 @@ prajwal.karur.mohan@intel.com:
 - 'Platform SoFia LTE'
 radivoje.jovanovic@intel.com:
 - 'Energy management'
+raghavendra.kudva.padubidri@intel.com:
+- 'GFX / Display Mali'
 richard.zatorski@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
@@ -142,9 +152,6 @@ russell.webb@intel.com:
 - 'Security Middleware'
 samuel.ortiz@intel.com:
 - 'Auto_Detection'
-see_eam.intel.com_to_be_granted@intel.com:
-- 'GFX / Display Mali'
-- 'Storage'
 sylvestre.dischamp@intel.com:
 - 'Telephony'
 thierry.deleau@intel.com:
