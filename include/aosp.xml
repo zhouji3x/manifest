@@ -58,6 +58,7 @@
   <project groups="aosp,pdk" name="a/aosp/platform/external/compiler-rt" path="external/compiler-rt" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/conscrypt" path="external/conscrypt" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/external/crcalc" path="external/crcalc" />
+  <project groups="aosp,pdk-fs" name="a/aosp/platform/external/curl" path="external/curl"/>
   <project groups="aosp,pdk-fs" name="a/aosp/platform/external/deqp" path="external/deqp" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/dexmaker" path="external/dexmaker" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/dhcpcd" path="external/dhcpcd" />
