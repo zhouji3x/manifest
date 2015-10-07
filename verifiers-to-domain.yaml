@@ -82,3 +82,6 @@ ldap//CN=OTC_SI_1A-Verif-VMM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,D
 - 'VMM'
 ldap//CN=OTC_SI_1A-Verif-WiDi,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'WiDi'
+ldap//CN=pdl-icdg-mm-camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Camera - Imaging'
+
