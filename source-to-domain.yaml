@@ -244,6 +244,10 @@
 - frameworks/opt/emoji
 - frameworks/opt/inputconnectioncommon
 - frameworks/opt/inputmethodcommon
+- frameworks/opt/net/ethernet
+- frameworks/opt/net/ims
+- frameworks/opt/net/voip
+- frameworks/opt/net/wifi
 - frameworks/opt/photoviewer
 - frameworks/opt/setupwizard
 - frameworks/opt/timezonepicker
@@ -255,6 +259,8 @@
 - frameworks/webview
 - frameworks/webview/chromium/plat_support
 - frameworks/wilhelm
+- hardware/broadcom/wlan
+- hardware/intel/display/libmemtrack
 - hardware/libhardware
 - hardware/libhardware_legacy
 - hardware/qcom/display
@@ -377,6 +383,7 @@
 - tools/build
 - vendor/google/gms
 - vendor/intel/hardware/PRIVATE/libmintel
+- vendor/intel/houdini
 - vendor/intel/pcg
 - vendor/intel/rs_vectorizer
 - vendor/pdk/data/docs
@@ -441,6 +448,9 @@
 - hardware/libhardware_legacy/include/hardware_legacy/AudioSystemLegacy.h
 - hardware/libhardware_legacy/include/hardware_legacy/audio_policy_conf.h
 - vendor/intel/PRIVATE/codec_wma9
+- vendor/intel/audio/mamgr/at-core
+- vendor/intel/audio/mamgr/core
+- vendor/intel/audio/mamgr/modem/xmm
 - vendor/intel/audio/parameter-framework-plugins/alsa-custom
 - vendor/intel/audio/parameter-framework-plugins/bluedroid
 - vendor/intel/audio/parameter-framework-plugins/modemAudio
@@ -529,6 +539,7 @@
 - vendor/intel/fw/bluetooth/intel
 - vendor/intel/hardware/bt_hci_vs_service
 - vendor/intel/hardware/PRIVATE/bt_usc
+- vendor/intel/tools/PRIVATE/bt/intel
 - vendor/tools/Bluetooth/bt_trace_daemon
 - vendor/tools/Bluetooth/bt_trace_manager
 - vendor/tools/Bluetooth/xvt_bt_usc
@@ -613,6 +624,7 @@
 - external/bluetooth/hcitools
 - external/bluetooth/libbt-vendor-linux
 - hardware/broadcom/libbt
+- hardware/intel/realtek_bluedroid
 - vendor/intel/fw/bluetooth/broadcom
 - vendor/intel/fw/bluetooth/realtek
 - vendor/intel/hardware/realtek/libbt
@@ -778,6 +790,9 @@
 - vendor/intel/utils
 'Platform GoldSand':
 - device/intel/goldsand
+'Platform SoFia 3GR':
+- device/intel/sofia3g-kernel
+- device/intel/sofia3gr
 'Platform SoFia LTE':
 - device/intel/sofia_lte
 - device/intel/sofia_lte-kernel

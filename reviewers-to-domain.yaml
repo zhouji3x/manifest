@@ -76,6 +76,8 @@ ldap//CN=OTC_SI_1A-Rev-Platform_Config,OU=Rialto,OU=Application Managed,OU=Group
 - 'Platform Config'
 ldap//CN=OTC_SI_1A-Rev-Platform_GoldSand,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Platform GoldSand'
+ldap//CN=OTC_SI_1A-Rev-Platform_SoFia_3GR,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform SoFia 3GR'
 ldap//CN=OTC_SI_1A-Rev-Platform_SoFia_LTE,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Platform SoFia LTE'
 ldap//CN=OTC_SI_1A-Rev-PM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
