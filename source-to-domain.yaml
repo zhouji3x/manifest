@@ -639,6 +639,19 @@
 - vendor/intel/fw/wlan/broadcom
 - vendor/intel/hardware/realtek/wlan
 'Debug and Trace':
+- device/intel/mixins/groups/debug-coredump
+- device/intel/mixins/groups/debug-crashlogd
+- device/intel/mixins/groups/debug-dvc_desc
+- device/intel/mixins/groups/debug-kernel
+- device/intel/mixins/groups/debug-lct
+- device/intel/mixins/groups/debug-lmdump
+- device/intel/mixins/groups/debug-logs
+- device/intel/mixins/groups/debug-mpm
+- device/intel/mixins/groups/debug-npk
+- device/intel/mixins/groups/debug-phonedoctor
+- device/intel/mixins/groups/debug-tools
+- device/intel/mixins/groups/debug-usb-config
+- device/intel/mixins/groups/pstore
 - external/pciutils
 - frameworks/native/cmds/dumpstate
 - vendor/intel/apps/AndroidTerm
