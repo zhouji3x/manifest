@@ -671,9 +671,10 @@
 - vendor/intel/hardware/sventx
 - vendor/intel/libdmi
 - vendor/intel/pstore-clean
-- vendor/intel/tools/PRIVATE/debug_internal_tools
 - vendor/intel/tools/log_capture
 - vendor/intel/tools/log_infra
+- vendor/intel/tools/PRIVATE/debug_internal_tools
+- vendor/intel/tools/peeknpoke
 'DRM - Widevine':
 - vendor/intel/liboemcrypto/gen
 - vendor/widevine
