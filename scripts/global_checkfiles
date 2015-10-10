@@ -1,0 +1,57 @@
+#!/bin/bash
+
+function execute_command {
+  cmd=$1
+  echo "Running ${cmd} ..."
+  eval ${cmd}
+  if [[ $? -ne 0 ]] ; then
+    echo "error: Please amend your patch until the command"
+    echo "${cmd}"
+    echo "completes with no issues reported"
+    exit 1
+  fi
+}
+
+function gettop
+{
+    local TOPFILE=build/core/envsetup.mk
+    if [ -n "$TOP" -a -f "$TOP/$TOPFILE" ] ; then
+        # The following circumlocution ensures we remove symlinks from TOP.
+        (cd $TOP; PWD= /bin/pwd)
+    else
+        if [ -f $TOPFILE ] ; then
+            # The following circumlocution (repeated below as well) ensures
+            # that we record the true directory name and not one that is
+            # faked up with symlink names.
+            PWD= /bin/pwd
+        else
+            local HERE=$PWD
+            T=
+            while [ \( ! \( -f $TOPFILE \) \) -a \( $PWD != "/" \) ]; do
+                \cd ..
+                T=`PWD= /bin/pwd -P`
+            done
+            \cd $HERE
+            if [ -f "$T/$TOPFILE" ]; then
+                echo $T
+            fi
+        fi
+    fi
+}
+
+# Warn developper if vendor/intel makefiles does not follow Google requirements
+project=`repo list . | cut -d ':' -f1`
+if [[ ${project} == *"vendor/intel"* ]] ; then
+    top=$(gettop)
+    path_to_checkvendor_script="`repo list | grep \"device\/intel\/build\" | cut -d: -f1 | tr -d ' '`"
+    checkvendor_script="${top}/${path_to_checkvendor_script}/tasks/checkvendor.py"
+    echo ${checkvendor_script}
+    if [[ -e ${checkvendor_script} ]] ; then
+        cmd="${checkvendor_script}  `git diff --name-only HEAD^ | paste -sd ' '`"
+        execute_command "${cmd}"
+    else
+        echo "${checkvendor_script} does not exists"
+    fi
+fi
+
+
