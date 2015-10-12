@@ -7,13 +7,13 @@
   <project groups="aosp,pdk" name="a/aosp/device/generic/armv7-a-neon"  path="device/generic/armv7-a-neon"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/common"  path="device/generic/common"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/goldfish"  path="device/generic/goldfish" />
-  <project groups="aosp,pdk" name="a/aosp/device/generic/lionhead"  path="device/generic/lionhead"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/mini-emulator-arm64"  path="device/generic/mini-emulator-arm64"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/mini-emulator-armv7-a-neon"  path="device/generic/mini-emulator-armv7-a-neon"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/mini-emulator-mips"  path="device/generic/mini-emulator-mips"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/mini-emulator-x86"  path="device/generic/mini-emulator-x86"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/mini-emulator-x86_64"  path="device/generic/mini-emulator-x86_64"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/mips"  path="device/generic/mips"/>
+  <project groups="aosp" name="a/aosp/device/generic/qemu" path="device/generic/qemu" />
   <project groups="aosp,pdk" name="a/aosp/device/generic/x86"  path="device/generic/x86"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/x86_64"  path="device/generic/x86_64"/>
   <project groups="aosp,device,fugu,pdk-fs" name="a/aosp/device/google/atv"  path="device/google/atv" />
@@ -29,6 +29,7 @@
   </project>
   <project groups="aosp,cts,pdk-cw-fs,pdk-fs" name="a/aosp/platform/cts" path="cts" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/dalvik" path="dalvik" />
+  <project groups="aosp" name="a/aosp/platform/developers/build" path="developers/build" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/development" path="development" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/docs/source.android.com" path="docs/source.android.com" />
   <project groups="aosp,pdk" name="a/aosp/platform/external/aac" path="external/aac" />
@@ -63,6 +64,8 @@
   <project groups="aosp,pdk" name="a/aosp/platform/external/dnsmasq" path="external/dnsmasq" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/doclava" path="external/doclava" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/external/donuts" path="external/donuts" />
+  <project groups="aosp,drm_gralloc" name="a/aosp/platform/external/drm_gralloc" path="external/drm_gralloc" />
+  <project groups="aosp,drm_hwcomposer" name="a/aosp/platform/external/drm_hwcomposer" path="external/drm_hwcomposer" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/droiddriver" path="external/droiddriver" />
   <project groups="aosp,pdk" name="a/aosp/platform/external/e2fsprogs" path="external/e2fsprogs" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/easymock" path="external/easymock" />
@@ -84,6 +87,7 @@
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/fsck_msdos" path="external/fsck_msdos" />
   <project groups="aosp,pdk,qcom_msm8x26" name="a/aosp/platform/external/giflib" path="external/giflib" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/external/glide" path="external/glide" />
+  <project groups="aosp,dragon" name="a/aosp/platform/external/google-breakpad" path="external/google-breakpad" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/google-fonts/carrois-gothic-sc" path="external/google-fonts/carrois-gothic-sc" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/google-fonts/coming-soon" path="external/google-fonts/coming-soon" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/google-fonts/cutive-mono" path="external/google-fonts/cutive-mono" />
@@ -108,6 +112,7 @@
   <project groups="aosp,pdk" name="a/aosp/platform/external/jemalloc" path="external/jemalloc" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/external/jetty" path="external/jetty" />
   <project groups="aosp,pdk" name="a/aosp/platform/external/jhead" path="external/jhead" />
+  <project groups="aosp,notdefault,tradefed" name="a/aosp/platform/external/jline" path="external/jline" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/jmdns" path="external/jmdns" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/jmonkeyengine" path="external/jmonkeyengine" />
   <project groups="aosp,pdk" name="a/aosp/platform/external/jpeg" path="external/jpeg" />
@@ -224,6 +229,7 @@
   <project groups="aosp,pdk" name="a/aosp/platform/external/tremolo" path="external/tremolo" />
   <project groups="aosp,pdk" name="a/aosp/platform/external/v8" path="external/v8" />
   <project groups="aosp,pdk" name="a/aosp/platform/external/valgrind" path="external/valgrind" />
+  <project groups="aosp,vboot" name="a/aosp/platform/external/vboot_reference" path="external/vboot_reference" />
   <project groups="aosp,pdk" name="a/aosp/platform/external/vixl" path="external/vixl" />
   <project groups="aosp,pdk" name="a/aosp/platform/external/vogar" path="external/vogar" />
   <project groups="aosp,pdk,qcom_msm8x26" name="a/aosp/platform/external/webp" path="external/webp" />
@@ -275,8 +281,19 @@
   <project groups="aosp,pdk,broadcom_wlan" name="a/aosp/platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
   <project groups="aosp,pdk" name="a/aosp/platform/hardware/libhardware" path="hardware/libhardware" />
   <project groups="aosp,pdk" name="a/aosp/platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" />
+  <project groups="aosp,marvell_bt" name="a/aosp/platform/hardware/marvell/bt" path="hardware/marvell/bt" />
+  <project groups="aosp,mediatek,mediatek_wear" name="a/aosp/platform/hardware/mediatek" path="hardware/mediatek" />
+  <project groups="aosp,qcom,qcom_audio" name="a/aosp/platform/hardware/qcom/audio" path="hardware/qcom/audio" />
+  <project groups="aosp,qcom" name="a/aosp/platform/hardware/qcom/bt" path="hardware/qcom/bt" />
+  <project groups="aosp,qcom" name="a/aosp/platform/hardware/qcom/camera" path="hardware/qcom/camera" />
   <project groups="aosp,pdk,qcom,qcom_display" name="a/aosp/platform/hardware/qcom/display" path="hardware/qcom/display" />
+  <project groups="aosp,qcom,qcom_gps" name="a/aosp/platform/hardware/qcom/gps" path="hardware/qcom/gps" />
+  <project groups="aosp,qcom,qcom_keymaster" name="a/aosp/platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" />
+  <project groups="aosp,qcom" name="a/aosp/platform/hardware/qcom/media" path="hardware/qcom/media" />
   <project groups="aosp,pdk,qcom_msm8x74" name="a/aosp/platform/hardware/qcom/msm8x74" path="hardware/qcom/msm8x74" />
+  <project groups="aosp,qcom" name="a/aosp/platform/hardware/qcom/power" path="hardware/qcom/power" />
+  <project groups="aosp,qcom" name="a/aosp/platform/hardware/qcom/sensors" path="hardware/qcom/sensors" />
+  <project groups="aosp,qcom_wlan" name="a/aosp/platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project groups="aosp,pdk" name="a/aosp/platform/hardware/ril" path="hardware/ril" />
   <project groups="aosp,pdk" name="a/aosp/platform/libcore" path="libcore" />
   <project groups="aosp,pdk" name="a/aosp/platform/libnativehelper" path="libnativehelper" />
@@ -329,6 +346,7 @@
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/Terminal" path="packages/apps/Terminal" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/TvSettings" path="packages/apps/TvSettings" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" />
+  <project groups="aosp" name="a/aosp/platform/packages/experimental" path="packages/experimental" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" />
@@ -356,31 +374,28 @@
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/wallpapers/NoiseField" path="packages/wallpapers/NoiseField" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/wallpapers/PhaseBeam" path="packages/wallpapers/PhaseBeam" />
   <project groups="aosp,pdk" name="a/aosp/platform/pdk" path="pdk" />
+  <project groups="aosp" name="a/aosp/platform/platform_testing" path="platform_testing" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/prebuilts/android-emulator" path="prebuilts/android-emulator" />
   <project groups="aosp,pdk,darwin" name="a/aosp/platform/prebuilts/clang/darwin-x86/host/3.6" path="prebuilts/clang/darwin-x86/host/3.6" />
   <project groups="aosp,pdk,linux" name="a/aosp/platform/prebuilts/clang/linux-x86/host/3.6" path="prebuilts/clang/linux-x86/host/3.6" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/prebuilts/devtools" path="prebuilts/devtools" />
   <project groups="aosp,pdk" name="a/aosp/platform/prebuilts/eclipse" path="prebuilts/eclipse" />
-  <project groups="aosp,pdk,darwin,arm" name="a/aosp/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" />
+  <project groups="aosp,notdefault,eclipse" name="a/aosp/platform/prebuilts/eclipse-build-deps" path="prebuilts/eclipse-build-deps" />
+  <project groups="aosp,notdefault,eclipse" name="a/aosp/platform/prebuilts/eclipse-build-deps-sources" path="prebuilts/eclipse-build-deps-sources" />
   <project groups="aosp,pdk,darwin,arm" name="a/aosp/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <project groups="aosp,pdk,darwin,arm" name="a/aosp/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
-  <project groups="aosp,pdk,darwin,arm" name="a/aosp/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" />
   <project groups="aosp,pdk,darwin,arm" name="a/aosp/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <project groups="aosp,pdk,darwin" name="a/aosp/platform/prebuilts/gcc/darwin-x86/host/headers" path="prebuilts/gcc/darwin-x86/host/headers" />
   <project groups="aosp,pdk,darwin" name="a/aosp/platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
   <project groups="aosp,pdk,darwin,mips" name="a/aosp/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
-  <project groups="aosp,pdk,darwin,x86" name="a/aosp/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" />
   <project groups="aosp,pdk,darwin,x86" name="a/aosp/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-  <project groups="aosp,pdk,linux,arm" name="a/aosp/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" />
   <project groups="aosp,pdk,linux,arm" name="a/aosp/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <project groups="aosp,pdk,linux,arm" name="a/aosp/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-  <project groups="aosp,pdk,linux,arm" name="a/aosp/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
   <project groups="aosp,pdk,linux,arm" name="a/aosp/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project groups="aosp,pdk,linux" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" />
   <project groups="aosp,pdk,linux" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
   <project groups="aosp,pdk,linux,mips" name="a/aosp/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
-  <project groups="aosp,pdk,linux,x86" name="a/aosp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" />
   <project groups="aosp,pdk,linux,x86" name="a/aosp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" />
@@ -402,6 +417,7 @@
   <project groups="aosp,pdk" name="a/aosp/platform/system/netd" path="system/netd" />
   <project groups="aosp,pdk" name="a/aosp/platform/system/security" path="system/security" />
   <project groups="aosp,pdk" name="a/aosp/platform/system/vold" path="system/vold" />
-  <project path="vendor/pdk/data/docs" name="a/aosp/platform/vendor/pdk/data/docs" revision="mirror/pdk/m-release" sync-c="true" groups="aosp,default"/>
+  <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/build" path="tools/build" />
+  <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/swt" path="tools/swt" />
 <!-- END open-source projects -->
 </manifest>
