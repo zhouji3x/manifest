@@ -410,6 +410,11 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="vendor/intel/tools/test_tools" name="a/bsp/vendor/intel/tools/test_tools" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
 <!-- <project path="vendor/intel/tools/PRIVATE/ds4_tools" name="a/bsp/vendor/intel/tools/PRIVATE/ds4_tools" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
