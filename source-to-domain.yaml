@@ -725,11 +725,13 @@
 - vendor/intel/ufo/gen8
 - vendor/intel/ufo/gen8_dev
 - vendor/intel/ufo/gen9_dev
-'GFX / Display Mali':
+'GFX / Mali - ARM':
 - hardware/intel/gpu/mali
 - hardware/intel/gpu/mali-gralloc
 - hardware/intel/gpu/mali-hwcomposer
 - hardware/intel/gpu/mali-midgard_lib
+'GFX / Mali - DP500 - SRC':
+- hardware/intel/display/arm/mali-dp500_lib
 'Intel Security differentiation' :
 - vendor/intel/apps/security_assist
 - vendor/intel/apps/silentlake/sl_installer
@@ -792,11 +794,9 @@
 - external/pystache
 - external/sbsigntool
 - hardware/intel/codecs
-- hardware/intel/display/arm/mali-dp500_lib
 - hardware/intel/mrd-3gr-sofia/lpmp3_vm
 - hardware/intel/sensors
 - hardware/intel/sysctrl_daemon
-- hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib
 - icc
 - vendor/PRIVATE/rockchip
 - vendor/intel/apps/DataReport
@@ -900,7 +900,6 @@
 - frameworks/av/cmds/screenrecord
 - frameworks/av/libvideoeditor
 - frameworks/av/media/libstagefright
-- hardware/intel/vpu/verisilicon
 - vendor/intel/apps/VppSettings
 - vendor/intel/hardware/PRIVATE/libmediaparser
 - vendor/intel/hardware/libmedia_utils
@@ -909,6 +908,9 @@
 - vendor/intel/hardware/wrs_omxil_core
 - vendor/intel/libstagefrighthw
 - vendor/intel/mediasdk_release
+'Video Verisilicon - SRC':
+- hardware/intel/vpu/verisilicon
+- hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib
 'VMM':
 - hardware/intel/cts-3g-sofia/mobilevisor/guests
 - hardware/intel/cts-3g-sofia/mobilevisor/products

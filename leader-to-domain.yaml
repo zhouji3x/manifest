@@ -1,7 +1,7 @@
 ajit.joshi@intel.com:
 - 'WiDi'
 amber.jain@intel.com:
-- 'GFX / Display Mali'
+- 'GFX / Mali - ARM'
 amir.noam@intel.com:
 - 'ISH'
 anand.muralidharan@intel.com:
@@ -15,7 +15,7 @@ aviv.d.greenberg@intel.com:
 axel.fagerstedt@intel.com:
 - 'AOSP'
 binu.r.s@intel.com:
-- 'GFX / Display Mali'
+- 'GFX / Mali - DP500 - SRC'
 brad.geltz@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'BOOT - OTA - GOTA SoFia'
@@ -59,6 +59,7 @@ eugene.epshteyn@intel.com:
 - 'DRM - Widevine SoFia'
 frank.bergen@intel.com:
 - 'Camera - Imaging'
+- 'Video Verisilicon - SRC'
 grzegorz.janca@intel.com:
 - 'Storage'
 hang.l.sun@intel.com:
@@ -67,6 +68,8 @@ hatem.oueslati@intel.com:
 - 'Telephony'
 hector.morales.piloni@intel.com:
 - 'Video Gen'
+herbert.sereda@intel.com:
+- 'Video Verisilicon - SRC'
 jacques.bourhis@intel.com:
 - 'Connectivity-ACP-BT'
 - 'Connectivity-ACP-CellCoex'
@@ -146,7 +149,8 @@ prajwal.karur.mohan@intel.com:
 radivoje.jovanovic@intel.com:
 - 'Energy management'
 raghavendra.kudva.padubidri@intel.com:
-- 'GFX / Display Mali'
+- 'GFX / Mali - ARM'
+- 'GFX / Mali - DP500 - SRC'
 richard.zatorski@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
