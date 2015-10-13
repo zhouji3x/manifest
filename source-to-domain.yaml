@@ -837,6 +837,7 @@
 - external/libaudit
 - frameworks/native/services/sensorservice
 - hardware/intel/libsensors-input
+- vendor/goodix/fw
 - vendor/intel/hardware/iio-sensors
 - vendor/memsic/calib
 - vendor/silead/fw

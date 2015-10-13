@@ -130,6 +130,11 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
+    <project path="vendor/goodix/fw" name="a/bsp/vendor/goodix/fw" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/apps/PRIVATE/cellular_coex_manager" name="a/bsp/vendor/intel/apps/cellular_coex_manager" groups="bsp-priv" revision="android/master" spsId="60542">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
