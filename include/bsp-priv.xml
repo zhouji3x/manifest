@@ -270,7 +270,7 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/fw/bluetooth/broadcom" name="a/bsp/vendor/intel/fw/bt/broadcom" groups="bsp-priv,embargoed,not_imc_wprd" restricted="not_IMC_wprd" revision="android/master">
+    <project path="vendor/intel/fw/bluetooth/broadcom" name="a/bsp/vendor/intel/fw/bt/broadcom" groups="bsp-priv,embargoed,not_imc_wprd,notdefault" restricted="not_IMC_wprd" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -280,7 +280,7 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/fw/bluetooth/realtek" name="a/bsp/vendor/intel/fw/bt/realtek" groups="bsp-priv,embargoed,not_imc_wprd" restricted="not_IMC_wprd" revision="android/master">
+    <project path="vendor/intel/fw/bluetooth/realtek" name="a/bsp/vendor/intel/fw/bt/realtek" groups="bsp-priv,embargoed,not_imc_wprd,notdefault" restricted="not_IMC_wprd" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -290,12 +290,12 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/fw/nfc/nxp" name="a/bsp/hardware/intel/PRIVATE/pn544_fw" groups="bsp-priv" restricted="not_IMC_wprd" revision="android/master">
+    <project path="vendor/intel/fw/nfc/nxp" name="a/bsp/hardware/intel/PRIVATE/pn544_fw" groups="bsp-priv,not_imc_wprd,notdefault" restricted="not_IMC_wprd" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/fw/wlan/broadcom" name="a/bsp/device/intel/fw/wifi_bcm" groups="bsp-priv,bluewoods" restricted="blue_woods" revision="android/master">
+    <project path="vendor/intel/fw/wlan/broadcom" name="a/bsp/device/intel/fw/wifi_bcm" groups="bsp-priv,bluewoods,notdefault" restricted="blue_woods" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
@@ -320,7 +320,7 @@
        <annotation name="all_external" value="bin"/>
        <annotation name="bxt_rvp_external" value="bin"/>
      </project>
-    <project path="vendor/intel/hardware/PRIVATE/cellular_coex_manager/broadcom" name="a/bsp/vendor/intel/hardware/cellular_coex_manager/broadcom" groups="bsp-priv,bluewoods,embargoed" restricted="blue_woods" revision="android/master">
+    <project path="vendor/intel/hardware/PRIVATE/cellular_coex_manager/broadcom" name="a/bsp/vendor/intel/hardware/cellular_coex_manager/broadcom" groups="bsp-priv,bluewoods,embargoed,notdefault" restricted="blue_woods" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -395,7 +395,7 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="vendor/intel/tools/PRIVATE/bt/intel" name="a/bsp/vendor/intel/tools/PRIVATE/bt/intel" groups="bsp-priv,embargoed,not_imc_wprd" restricted="not_IMC_wprd" revision="android/master">
+    <project path="vendor/intel/tools/PRIVATE/bt/intel" name="a/bsp/vendor/intel/tools/PRIVATE/bt/intel" groups="bsp-priv,embargoed,not_imc_wprd,notdefault" restricted="not_IMC_wprd" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -420,7 +420,7 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project> -->
-<!-- <project path="vendor/intel/tools/wifi/broadcom" name="a/bsp/vendor/intel/tools/PRIVATE/wifi/broadcom" groups="bsp-priv,embargoed,bluewoods" restricted="blue_woods" revision="android/master">
+<!-- <project path="vendor/intel/tools/wifi/broadcom" name="a/bsp/vendor/intel/tools/PRIVATE/wifi/broadcom" groups="bsp-priv,embargoed,bluewoods,notdefault" restricted="blue_woods" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
