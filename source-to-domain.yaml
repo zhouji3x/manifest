@@ -848,6 +848,7 @@
 - hardware/imc/ril_3g
 - hardware/imc/rpc
 - hardware/imc/rpc_3g
+- hardware/intel/crm
 - hardware/intel/libnvmmodule
 - hardware/intel/mrd-3gr-sofia/modem
 - hardware/intel/telephony/libtcs

@@ -35,6 +35,7 @@
     <project path="hardware/imc/pt_bt_daemon" name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" revision="android/master" spsId="59052"/>
     <project path="hardware/intel/audio/coe/hdmi" name="a/bsp/vendor/intel/hardware/audio_media" revision="android/master"/>
     <project path="hardware/intel/bluedroid" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/bluedroid" revision="android/master" spsId="60548"/>
+    <project path="hardware/intel/crm" name="a/bsp/hardware/intel/crm" revision="android/master"/>
     <project path="hardware/intel/display/libmemtrack" name="a/bsp/hardware/intel/display/libmemtrack" revision="android/master"/>
     <project path="hardware/intel/efi_prebuilts/gnu-efi" name="a/bsp/vendor/intel/external/efi/gnu-efi_prebuilt" revision="android/master"/>
     <project path="hardware/intel/gpu/mali-midgard_lib" name="a/bsp/hardware/intel/gpu/arm/mali-midgard_lib" revision="android/master" spsId="60539"/>
