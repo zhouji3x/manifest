@@ -130,12 +130,10 @@ noor.u.mubeen@intel.com:
 - 'Energy management'
 octavian.purdila@intel.com:
 - 'Scaling'
-ola.lilja@intel.com:
-- 'Audio'
 patrick.porlan@intel.com:
 - 'Sensors'
 paul.asterland@intel.com:
-- 'Audio'
+- 'Audio Common'
 prajwal.karur.mohan@intel.com:
 - 'Platform Baytrail'
 - 'Platform BIOS'
@@ -156,12 +154,16 @@ russell.webb@intel.com:
 - 'Security Middleware'
 samuel.ortiz@intel.com:
 - 'Auto_Detection'
+sylvain.centelles@intel.com:
+- 'Audio Trail'
 sylvestre.dischamp@intel.com:
 - 'Telephony'
 thierry.deleau@intel.com:
 - 'Telephony'
 thierry.escande@intel.com:
 - 'Auto_Detection'
+thomas.schuler@intel.com:
+- 'Audio XGold'
 tommi.von.hertzen@intel.com:
 - 'DRM - Widevine'
 - 'DRM - Widevine SoFia'

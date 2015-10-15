@@ -1,7 +1,11 @@
 ldap//CN=OTC_SI_1A-Verif-Art,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Art'
-ldap//CN=OTC_SI_1A-Verif-Audio,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Audio'
+ldap//CN=OTC_SI_1A-Verif-Audio_Common,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Audio Common'
+ldap//CN=OTC_SI_1A-Verif-Audio_Trail,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Audio Trail'
+ldap//CN=OTC_SI_1A-Verif-Audio_XGold,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Audio XGold'
 ldap//CN=OTC_SI_1A-Verif-Auto_Detection,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Auto_Detection'
 ldap//CN=OTC_SI_1A-Verif-BOOT_OTA_GOTA,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
