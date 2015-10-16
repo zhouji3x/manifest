@@ -1,6 +1,7 @@
 'AOSP':
 - abi/cpp
 - bionic
+- bootable/recovery
 - build
 - cts
 - dalvik
@@ -25,6 +26,7 @@
 - device/lge/hammerhead-kernel
 - device/sample
 - docs/source.android.com
+- external/aac
 - external/android-clat
 - external/android-mock
 - external/androidplot
@@ -35,7 +37,9 @@
 - external/apache-http
 - external/apache-xml
 - external/bison
+- external/blktrace
 - external/boringssl
+- external/bouncycastle
 - external/bsdiff
 - external/bzip2
 - external/cblas
@@ -50,6 +54,8 @@
 - external/crcalc
 - external/deqp
 - external/dexmaker
+- external/dhcpcd
+- external/dnsmasq
 - external/doclava
 - external/donuts
 - external/drm_gralloc
@@ -88,6 +94,9 @@
 - external/harfbuzz_ng
 - external/hyphenation-patterns
 - external/icu
+- external/iproute2
+- external/ipsec-tools
+- external/iptables
 - external/iputils
 - external/jack
 - external/jarjar
@@ -100,6 +109,7 @@
 - external/jline
 - external/jmdns
 - external/jmonkeyengine
+- external/jpeg
 - external/jsilver
 - external/jsmn
 - external/jsoncpp
@@ -118,6 +128,8 @@
 - external/liblzf
 - external/libmpeg2
 - external/libmtp
+- external/libnfc-nci
+- external/libnfc-nxp
 - external/libnl
 - external/libogg
 - external/libopus
@@ -155,6 +167,7 @@
 - external/mockito
 - external/mockwebserver
 - external/mp4parser
+- external/mtpd
 - external/nanohttpd
 - external/nanopb-c
 - external/naver-fonts
@@ -171,9 +184,11 @@
 - external/opencv
 - external/openfst
 - external/openssh
+- external/openssl
 - external/owasp/sanitizer
 - external/pcre
 - external/pdfium
+- external/ppp
 - external/proguard
 - external/protobuf
 - external/regex-re2
@@ -200,6 +215,8 @@
 - external/tagsoup
 - external/tcpdump
 - external/timezonepicker-support
+- external/tinyalsa
+- external/tinycompress
 - external/tinyxml
 - external/tinyxml2
 - external/toybox
@@ -211,6 +228,7 @@
 - external/vogar
 - external/webp
 - external/webrtc
+- external/wpa_supplicant_8
 - external/xmlwriter
 - external/xmp_toolkit
 - external/zlib
@@ -218,8 +236,34 @@
 - external/zxing
 - frameworks/av
 - frameworks/av/camera
+- frameworks/av/cmds/screenrecord
 - frameworks/av/cmds/stagefright
+- frameworks/av/drm/drmserver
+- frameworks/av/libvideoeditor
+- frameworks/av/media
+- frameworks/av/media/libstagefright/AACExtractor.cpp
+- frameworks/av/media/libstagefright/AACWriter.cpp
+- frameworks/av/media/libstagefright/AMRExtracor.cpp
+- frameworks/av/media/libstagefright/AMRWriter.cpp
+- frameworks/av/media/libstagefright/AudioPlayer.cpp
+- frameworks/av/media/libstagefright/AudioSource.cpp
+- frameworks/av/media/libstagefright/codecs
+- frameworks/av/media/libstagefright/FLACExtractor.cpp
+- frameworks/av/media/libstagefright/id3
+- frameworks/av/media/libstagefright/MP3Extractor.cpp
+- frameworks/av/media/libstagefright/OggExtracor.cpp
+- frameworks/av/media/libstagefright/VBRISeeker.cpp
+- frameworks/av/media/libstagefright/WAVExtractor.cpp
+- frameworks/av/media/libstagefright/XINGSeeker.cpp
+- frameworks/av/services/audioflinger
+- frameworks/av/services/audiopolicy/
+- frameworks/av/services/camera
 - frameworks/base
+- frameworks/base/core/java/android/nfc
+- frameworks/base/nfc-extras
+- frameworks/base/services/java/com/android/server/power/ShutdownThread.java
+- frameworks/base/telephony
+- frameworks/base/wifi
 - frameworks/compile/libbcc
 - frameworks/compile/mclinker
 - frameworks/compile/slang
@@ -232,6 +276,7 @@
 - frameworks/native
 - frameworks/native/cmds/atrace
 - frameworks/native/cmds/bugreport
+- frameworks/native/cmds/dumpstate
 - frameworks/native/cmds/dumpsys
 - frameworks/native/cmds/installd
 - frameworks/native/cmds/ip-up-vpn
@@ -239,6 +284,12 @@
 - frameworks/native/cmds/service
 - frameworks/native/cmds/servicemanager
 - frameworks/native/libs/binder
+- frameworks/native/libs/gui
+- frameworks/native/libs/ui
+- frameworks/native/opengl
+- frameworks/native/services/batteryservice
+- frameworks/native/services/sensorservice
+- frameworks/native/services/surfaceflinger
 - frameworks/opt/bitmap
 - frameworks/opt/bluetooth
 - frameworks/opt/calendar
@@ -255,6 +306,7 @@
 - frameworks/opt/net/wifi
 - frameworks/opt/photoviewer
 - frameworks/opt/setupwizard
+- frameworks/opt/telephony
 - frameworks/opt/timezonepicker
 - frameworks/opt/vcard
 - frameworks/opt/widget
@@ -264,10 +316,22 @@
 - frameworks/webview
 - frameworks/webview/chromium/plat_support
 - frameworks/wilhelm
+- hardware/broadcom/libbt
 - hardware/broadcom/wlan
 - hardware/intel/display/libmemtrack
 - hardware/libhardware
 - hardware/libhardware_legacy
+- hardware/libhardware_legacy/audio
+- hardware/libhardware_legacy/include/hardware_legacy/AudioHardwareBase.h
+- hardware/libhardware_legacy/include/hardware_legacy/AudioHardwareInterface.h
+- hardware/libhardware_legacy/include/hardware_legacy/AudioPolicyInterface.h
+- hardware/libhardware_legacy/include/hardware_legacy/AudioPolicyManagerBase.h
+- hardware/libhardware_legacy/include/hardware_legacy/AudioSystemLegacy.h
+- hardware/libhardware_legacy/include/hardware_legacy/audio_policy_conf.h
+- hardware/libhardware_legacy/include/hardware_legacy/driver_nl80211.h
+- hardware/libhardware_legacy/include/hardware_legacy/wifi.h
+- hardware/libhardware_legacy/wifi
+- hardware/libhardware/modules/nfc
 - hardware/marvell/bt
 - hardware/mediatek
 - hardware/qcom/audio
@@ -281,23 +345,29 @@
 - hardware/qcom/power
 - hardware/qcom/sensors
 - hardware/qcom/wlan
+- hardware/ril
 - libcore
 - libnativehelper
 - ndk
 - packages/apps/BasicSmsReceiver
+- packages/apps/Bluetooth
 - packages/apps/Browser
 - packages/apps/Calculator
 - packages/apps/Calendar
+- packages/apps/Camera
 - packages/apps/Camera2
 - packages/apps/CarrierConfig
+- packages/apps/CellBroadcastReceiver
 - packages/apps/CertInstaller
 - packages/apps/Contacts
 - packages/apps/ContactsCommon
 - packages/apps/DeskClock
+- packages/apps/Dialer
 - packages/apps/Email
 - packages/apps/ExactCalculator
 - packages/apps/Exchange
 - packages/apps/FMRadio
+- packages/apps/Gallery
 - packages/apps/Gallery2
 - packages/apps/HTMLViewer
 - packages/apps/InCallUI
@@ -309,17 +379,23 @@
 - packages/apps/Messaging
 - packages/apps/Music
 - packages/apps/MusicFX
+- packages/apps/Nfc
 - packages/apps/OneTimeInitializer
 - packages/apps/PackageInstaller
+- packages/apps/Phone
 - packages/apps/PhoneCommon
 - packages/apps/Protips
 - packages/apps/Provision
 - packages/apps/QuickSearchBox
 - packages/apps/Settings
+- packages/apps/Settings/src/com/android/settings/nfc
+- packages/apps/Settings/src/com/android/settings/wifi
+- packages/apps/Stk
 - packages/apps/SmartCardService
 - packages/apps/SoundRecorder
 - packages/apps/SpareParts
 - packages/apps/SpeechRecorder
+- packages/apps/Tag
 - packages/apps/Terminal
 - packages/apps/TvSettings
 - packages/apps/UnifiedEmail
@@ -334,6 +410,7 @@
 - packages/providers/DownloadProvider
 - packages/providers/MediaProvider
 - packages/providers/PartnerBookmarksProvider
+- packages/providers/TelephonyProvider
 - packages/providers/TvProvider
 - packages/providers/UserDictionaryProvider
 - packages/screensavers/Basic
@@ -386,12 +463,18 @@
 - sdk
 - system/bt
 - system/core
+- system/core/charger
+- system/core/libnetutils
+- system/core/libnl_2
+- system/netd
 - system/extras
 - system/gatekeeper
 - system/keymaster
 - system/media
 - system/security
 - system/security/keystore
+- system/security/softkeymaster
+- system/vold
 - tools/build
 - tools/swt
 - vendor/google/gms
@@ -405,35 +488,8 @@
 'Audio Common':
 - device/intel/common/audio
 - device/intel/mixins/groups/audio
-- external/aac
 - external/alac
 - external/sonivox
-- external/tinyalsa
-- external/tinycompress
-- frameworks/av/media
-- frameworks/av/media/libstagefright/AACExtractor.cpp
-- frameworks/av/media/libstagefright/AACWriter.cpp
-- frameworks/av/media/libstagefright/AMRExtracor.cpp
-- frameworks/av/media/libstagefright/AMRWriter.cpp
-- frameworks/av/media/libstagefright/AudioPlayer.cpp
-- frameworks/av/media/libstagefright/AudioSource.cpp
-- frameworks/av/media/libstagefright/FLACExtractor.cpp
-- frameworks/av/media/libstagefright/MP3Extractor.cpp
-- frameworks/av/media/libstagefright/OggExtracor.cpp
-- frameworks/av/media/libstagefright/VBRISeeker.cpp
-- frameworks/av/media/libstagefright/WAVExtractor.cpp
-- frameworks/av/media/libstagefright/XINGSeeker.cpp
-- frameworks/av/media/libstagefright/codecs
-- frameworks/av/media/libstagefright/id3
-- frameworks/av/services/audioflinger
-- frameworks/av/services/audiopolicy/
-- hardware/libhardware_legacy/audio
-- hardware/libhardware_legacy/include/hardware_legacy/AudioHardwareBase.h
-- hardware/libhardware_legacy/include/hardware_legacy/AudioHardwareInterface.h
-- hardware/libhardware_legacy/include/hardware_legacy/AudioPolicyInterface.h
-- hardware/libhardware_legacy/include/hardware_legacy/AudioPolicyManagerBase.h
-- hardware/libhardware_legacy/include/hardware_legacy/AudioSystemLegacy.h
-- hardware/libhardware_legacy/include/hardware_legacy/audio_policy_conf.h
 - vendor/intel/media_codecs
 - vendor/intel/PRIVATE/codec_wma9
 'Audio Trail':
@@ -486,7 +542,6 @@
 - vendor/intel/apps/halctl
 - vendor/intel/apps/hald
 'BOOT - OTA - GOTA':
-- bootable/recovery
 - bootable/userfastboot
 - device/intel/build/generate_bios_oemvars
 - device/intel/build/generate_blpolicy_oemvars
@@ -513,7 +568,6 @@
 - external/iniparser
 - external/mtools
 - external/uefi_shim
-- frameworks/base/services/java/com/android/server/power/ShutdownThread.java
 - hardware/intel/efi_prebuilts/gnu-efi
 - hardware/intel/kernelflinger
 'BOOT - OTA - GOTA SoFia':
@@ -524,10 +578,7 @@
 - vendor/intel/apps/bls
 - vendor/intel/hardware/wififirst
 'Camera - Imaging':
-- frameworks/av/services/camera
 - hardware/intel/hald_media_hook
-- packages/apps/Camera
-- packages/apps/Gallery
 - vendor/intel/apps/PRIVATE/arccamera
 - vendor/intel/apps/PRIVATE/refcam
 - vendor/intel/camera/camera3hal
@@ -550,7 +601,6 @@
 - hardware/intel/bluedroid
 - hardware/intel/libbt-vendor-intel
 - kernel/modules/intel_ld
-- packages/apps/Bluetooth
 - vendor/intel/fw/bluetooth/intel
 - vendor/intel/hardware/bt_hci_vs_service
 - vendor/intel/hardware/PRIVATE/bt_usc
@@ -586,14 +636,7 @@
 - device/intel/common/nfc/fdp
 - device/intel/mixins/groups/nfc
 - device/intel/mixins/groups/nfc/fdp
-- external/libnfc-nci
-- frameworks/base/core/java/android/nfc
-- frameworks/base/nfc-extras
 - hardware/intel/nfc
-- hardware/libhardware/modules/nfc
-- packages/apps/Nfc
-- packages/apps/Settings/src/com/android/settings/nfc
-- packages/apps/Tag
 - vendor/intel/fw/nfc/intel/fdp
 - vendor/intel/hardware/nfc_mvt
 'Connectivity-ACP-WIFI':
@@ -605,24 +648,9 @@
 - device/intel/mixins/groups/rservice
 - device/intel/mixins/groups/wlan
 - device/intel/mixins/groups/wlan/iwlwifi
-- external/dhcpcd
-- external/dnsmasq
-- external/iproute2
-- external/ipsec-tools
-- external/iptables
-- external/mtpd
-- external/ppp
-- frameworks/base/wifi
 - hardware/intel/wlan/hostap_wcs
-- hardware/libhardware_legacy/include/hardware_legacy/driver_nl80211.h
-- hardware/libhardware_legacy/include/hardware_legacy/wifi.h
-- hardware/libhardware_legacy/wifi
 - kernel/modules/iwlwifi
 - modem/tools/ipcs
-- packages/apps/Settings/src/com/android/settings/wifi
-- system/core/libnetutils
-- system/core/libnl_2
-- system/netd
 - vendor/intel/apps/curl
 - vendor/intel/external/passpoint
 - vendor/intel/fw/iwl
@@ -640,7 +668,6 @@
 - device/intel/mixins/groups/bluetooth/rtl8723bs
 - external/bluetooth/hcitools
 - external/bluetooth/libbt-vendor-linux
-- hardware/broadcom/libbt
 - hardware/intel/realtek_bluedroid
 - vendor/intel/fw/bluetooth/broadcom
 - vendor/intel/fw/bluetooth/realtek
@@ -654,7 +681,6 @@
 'Connectivity-TPV-NFC':
 - device/intel/common/nfc/pn547
 - device/intel/mixins/groups/nfc/pn547
-- external/libnfc-nxp
 - hardware/nxp/nfc
 - vendor/intel/fw/nfc/nxp
 'Connectivity-TPV-WIFI':
@@ -663,7 +689,6 @@
 - device/intel/mixins/groups/wlan/bcm4356
 - device/intel/mixins/groups/wlan/rtl8723bs
 - external/linux-firmware-broadcom
-- external/wpa_supplicant_8
 - hardware/intel/wifi
 - vendor/intel/fw/wlan/broadcom
 - vendor/intel/hardware/realtek/wlan
@@ -682,7 +707,6 @@
 - device/intel/mixins/groups/debug-usb-config
 - device/intel/mixins/groups/pstore
 - external/pciutils
-- frameworks/native/cmds/dumpstate
 - vendor/intel/apps/AndroidTerm
 - vendor/intel/apps/PRIVATE/Kratos
 - vendor/intel/hardware/sventx
@@ -699,9 +723,7 @@
 - vendor/intel/liboemcrypto/sofia
 'Energy management':
 - external/thermal_daemon
-- frameworks/native/services/batteryservice
 - hardware/intel/lights
-- system/core/charger
 - vendor/intel/apps/ituxd
 - vendor/intel/apps/thermal_lite
 - vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon
@@ -713,11 +735,6 @@
 - hardware/intel/intel-gpu-tools
 'GFX / Display Gen':
 - external/drm-dev
-- frameworks/av/drm/drmserver
-- frameworks/native/libs/gui
-- frameworks/native/libs/ui
-- frameworks/native/opengl
-- frameworks/native/services/surfaceflinger
 - hardware/intel/gsd_hwcomposer
 - hardware/intel/hwc
 - hardware/intel/ufo_make
@@ -826,16 +843,12 @@
 - vendor/intel/tools/test_tools
 'Security Middleware':
 - device/intel/sepolicy
-- external/bouncycastle
-- external/openssl
 - hardware/intel/rpcsecurity
-- system/security/softkeymaster
 - vendor/intel/hardware/keystore
 - vendor/intel/hardware/libmei
 - vendor/intel/hardware/libmeimm
 'Sensors':
 - external/libaudit
-- frameworks/native/services/sensorservice
 - hardware/intel/libsensors-input
 - vendor/goodix/fw
 - vendor/intel/hardware/iio-sensors
@@ -843,14 +856,9 @@
 - vendor/silead/fw
 'SoFia LTE Debug & Trace':
 - vendor/intel/tools/oct_daemon
-'Storage':
-- external/blktrace
-- system/vold
 'Telephony':
 - device/intel/common/telephony
 - device/intel/common/telephony-config
-- frameworks/base/telephony
-- frameworks/opt/telephony
 - hardware/imc/ril
 - hardware/imc/ril_3g
 - hardware/imc/rpc
@@ -861,12 +869,6 @@
 - hardware/intel/telephony/libtcs
 - hardware/intel/telephony/miu
 - hardware/intel/telephony/mmgr
-- hardware/ril
-- packages/apps/CellBroadcastReceiver
-- packages/apps/Dialer
-- packages/apps/Phone
-- packages/apps/Stk
-- packages/providers/TelephonyProvider
 - vendor/intel/PRIVATE/embms
 - vendor/intel/apps/telephony/OemTelephony
 - vendor/intel/apps/telephony/OemTelephony-imc
@@ -895,10 +897,7 @@
 - vendor/intel/PRIVATE/rtc
 - vendor/intel/rtc
 'Video Gen':
-- external/jpeg
 - external/libva
-- frameworks/av/cmds/screenrecord
-- frameworks/av/libvideoeditor
 - frameworks/av/media/libstagefright
 - vendor/intel/apps/VppSettings
 - vendor/intel/hardware/PRIVATE/libmediaparser
