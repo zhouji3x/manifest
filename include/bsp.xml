@@ -58,8 +58,8 @@
     <project path="kernel/cht" name="a/bsp/kernel/cht" groups="kernel-src" revision="android/master"/>
     <project path="kernel/coho" name="a/bsp/kernel/irda" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/bcm43xx" name="a/bsp/kernel/modules/bcmdhd" groups="kernel-src" revision="android/master"/>
-    <project path="kernel/modules/bt_intel_fm" name="a/bsp/kernel/modules/bt_intel_fm" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/gnss" name="a/bsp/kernel/modules/gnss" groups="kernel-src" revision="android/master"/>
+    <project path="kernel/modules/intel_fm" name="a/bsp/kernel/modules/bt_intel_fm" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/iwlwifi" name="a/bsp/kernel/modules/iwlwifi" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/perftools-external" name="a/bsp/kernel/modules/perftools-external" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/realtek" name="a/bsp/kernel/modules/realtek" groups="kernel-src" revision="android/master"/>

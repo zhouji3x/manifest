@@ -617,7 +617,7 @@
 - external/v4l2rds
 - hardware/imc/fm
 - hardware/intel/fm
-- kernel/modules/bt_intel_fm
+- kernel/modules/intel_fm
 - vendor/intel/apps/IntelFmApp
 - vendor/intel/fw/fm/intel
 - vendor/intel/hardware/fmr
