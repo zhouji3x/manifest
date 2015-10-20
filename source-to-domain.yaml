@@ -22,12 +22,6 @@
 - device/generic/x86
 - device/generic/x86_64
 - device/google/atv
-- device/huawei/angler
-- device/huawei/angler-kernel
-- device/lge/bullhead
-- device/lge/bullhead-kernel
-- device/lge/hammerhead
-- device/lge/hammerhead-kernel
 - device/sample
 - docs/source.android.com
 - external/aac
@@ -126,7 +120,6 @@
 - external/libcap-ng
 - external/libcxx
 - external/libcxxabi
-- external/libdrm
 - external/libedit
 - external/libexif
 - external/libgsm
@@ -191,7 +184,6 @@
 - external/openfst
 - external/openssh
 - external/owasp/sanitizer
-- external/parameter-framework
 - external/pcre
 - external/pdfium
 - external/ppp
@@ -346,7 +338,6 @@
 - hardware/qcom/gps
 - hardware/qcom/keymaster
 - hardware/qcom/media
-- hardware/qcom/msm8994
 - hardware/qcom/msm8x74
 - hardware/qcom/power
 - hardware/qcom/sensors
@@ -1012,7 +1003,6 @@
 - vendor/intel/tools/telephony_tools/telephony_test
 - vendor/verizon/trial_specifics
 'Video Conferencing':
-- vendor/intel/apps/webrtccssdk
 - vendor/intel/PRIVATE/rtc
 - vendor/intel/rtc
 'Video Gen':
@@ -1029,18 +1019,6 @@
 - hardware/intel/vpu/verisilicon
 - hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib
 'VMM':
-- hardware/intel/cts-3g-sofia/mobilevisor/guests
-- hardware/intel/cts-3g-sofia/mobilevisor/products
-- hardware/intel/cts-3g-sofia/mobilevisor/release
-- hardware/intel/cts-3g-sofia/mobilevisor/services
-- hardware/intel/cts-3g-sofia/secure_vm
-- hardware/intel/cts-3g-sofia/soclib
-- hardware/intel/cts-3gr-sofia/mobilevisor/guests
-- hardware/intel/cts-3gr-sofia/mobilevisor/products
-- hardware/intel/cts-3gr-sofia/mobilevisor/release
-- hardware/intel/cts-3gr-sofia/mobilevisor/services
-- hardware/intel/cts-3gr-sofia/secure_vm
-- hardware/intel/cts-3gr-sofia/soclib
 - hardware/intel/mrd-3gr-sofia/mobilevisor/guests
 - hardware/intel/mrd-3gr-sofia/mobilevisor/products
 - hardware/intel/mrd-3gr-sofia/mobilevisor/release
