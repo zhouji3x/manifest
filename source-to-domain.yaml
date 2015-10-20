@@ -766,6 +766,7 @@
 - kernel/coho
 - kernel/gmin-dev
 - kernel/gmin-quilt-representation
+- kernel/gsd
 - kernel/modules/bcm43xx
 - kernel/modules/dbgtools-internal
 - kernel/modules/gnss
