@@ -861,6 +861,8 @@
 'Telephony':
 - device/intel/common/telephony
 - device/intel/common/telephony-config
+- device/intel/mixins/groups/telephony
+- device/intel/mixins/groups/telephony-config
 - hardware/imc/ril
 - hardware/imc/ril_3g
 - hardware/imc/rpc
