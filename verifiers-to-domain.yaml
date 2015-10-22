@@ -56,6 +56,8 @@ ldap//CN=OTC_SI_1A-Verif-GFX-ARM,OU=Rialto,OU=Application Managed,OU=Groups,DC=a
 - 'GFX / Mali - ARM'
 ldap//CN=OTC_SI_1A-Verif-GFX-DP500-s,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'GFX / Mali - DP500 - SRC'
+ldap//CN=OTC_SI_1A-Verif-ICDG-Garnet,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'ICDG - Garnet'
 ldap//CN=OTC_SI_1A-Verif-Intel_Security_diff,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Intel Security differentiation'
 ldap//CN=OTC_SI_1A-Verif-ISH,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

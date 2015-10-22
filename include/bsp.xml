@@ -28,11 +28,13 @@
     <project path="external/sbsigntool" name="a/bsp/platform/external/sbsigntool" revision="android/master"/>
     <project path="external/syslinux" name="a/bsp/external/syslinux" revision="android/master"/>
     <project path="external/thermal_daemon" name="a/bsp/platform/external/thermal_daemon" revision="android/master" spsId="60541"/>
+    <project path="external/thermal_daemon_garnet" name="a/bsp/platform/external/thermal_daemon_garnet" revision="android/master"/>
     <project path="external/uefi_shim" name="a/bsp/platform/external/uefi_shim" revision="android/master"/>
     <project path="external/v4l2rds" name="a/bsp/vendor/intel/v4l2rds" revision="android/master" spsId="59085"/>
     <project path="hardware/broadcom/bcm_gps" name="a/bsp/hardware/intel/bcm_gps" revision="android/master"/>
     <project path="hardware/imc/gnss" name="a/bsp/gnss/lbs" revision="android/master"/>
     <project path="hardware/imc/pt_bt_daemon" name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" revision="android/master" spsId="59052"/>
+    <project path="hardware/imc/pt_bt_daemon_garnet" name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon_garnet" revision="android/master"/>
     <project path="hardware/intel/audio/coe/hdmi" name="a/bsp/vendor/intel/hardware/audio_media" revision="android/master"/>
     <project path="hardware/intel/bluedroid" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/bluedroid" revision="android/master" spsId="60548"/>
     <project path="hardware/intel/crm" name="a/bsp/hardware/intel/crm" revision="android/master"/>
@@ -74,6 +76,7 @@
     <project path="vendor/intel/apps/curl" name="a/bsp/vendor/intel/apps/curl" revision="android/master"/>
     <project path="vendor/intel/apps/IntelFmApp" name="a/bsp/packages/apps/IntelFmApp" revision="android/master" spsId="59079"/>
     <project path="vendor/intel/apps/ituxd" name="a/bsp/vendor/intel/apps/ituxd" revision="android/master" spsId="60543"/>
+    <project path="vendor/intel/apps/ituxd_garnet" name="a/bsp/vendor/intel/apps/ituxd_garnet" revision="android/master"/>
     <project path="vendor/intel/apps/PRIVATE/Aware" name="a/bsp/vendor/intel/PRIVATE/Aware" revision="android/master"/>
     <project path="vendor/intel/apps/PRIVATE/arccamera" name="a/bsp/vendor/arcsoft/arccamera" revision="android/master"/>
     <project path="vendor/intel/apps/PRIVATE/strongswan" name="a/bsp/vendor/intel/apps/PRIVATE/strongswan" revision="android/master"/>
@@ -140,6 +143,7 @@
     <project path="vendor/intel/silentlake/psw" name="a/bsp/vendor/intel/PRIVATE/silentlake/psw" revision="android/master"/>
     <project path="vendor/intel/tools/asoc_dfw" name="a/bsp/vendor/intel/tools/asoc_dfw" revision="android/master"/>
     <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture"  revision="android/master" spsId="59066"/>
+    <project path="vendor/intel/tools/log_capture_garnet" name="a/bsp/device/intel/log_capture_garnet"  revision="android/master"/>
 <!-- <project path="vendor/intel/tools/PRIVATE/tlv_generator" name="a/bsp/vendor/intel/tools/PRIVATE/tlv_generator" revision="android/master"/> -->
     <project path="vendor/intel/tools/telephony_tools/at_proxy" name="a/bsp/device/intel/telephony_tools/at_proxy" revision="android/master"/>
     <project path="vendor/intel/tools/telephony_tools/coredumpwarning" name="a/bsp/device/intel/telephony_tools/coredumpwarning" revision="android/master"/>

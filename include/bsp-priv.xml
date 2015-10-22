@@ -145,6 +145,11 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="vendor/intel/apps/PRIVATE/Kratos_garnet" name="a/bsp/vendor/intel/PRIVATE/apps/Kratos_garnet" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/apps/PRIVATE/refcam" name="a/bsp/vendor/intel/apps/PRIVATE/refcam" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
@@ -235,6 +240,11 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
+    <project path="vendor/intel/camera/camera3hal_garnet" name="a/bsp/hardware/intel/PRIVATE/camera2hal_garnet" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/camera/camera_extension" name="a/bsp/hardware/intel/PRIVATE/camera_extension" groups="bsp-priv" revision="android/master">
         <annotation name="g_external" value="src"/>
         <annotation name="all_external" value="src"/>
@@ -245,6 +255,11 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
+    <project path="vendor/intel/camera/cameralibs_garnet" name="a/bsp/hardware/intel/PRIVATE/cameralibs_garnet" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/camera/depth_extension" name="a/bsp/vendor/intel/apps/depth_extension" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
@@ -254,6 +269,11 @@
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
+    </project>
+    <project path="vendor/intel/camera/libmfldadvci_garnet" name="a/bsp/hardware/intel/PRIVATE/libmfldadvci_garnet" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
     </project>
     <project path="vendor/intel/camera/PRIVATE/libds4" name="a/bsp/vendor/intel/hardware/PRIVATE/libds4" groups="bsp-priv" revision="android/master">
         <annotation name="g_external" value="bin"/>
@@ -340,6 +360,11 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
+    <project path="vendor/intel/hardware/PRIVATE/libmintel_garnet" name="a/bsp/hardware/intel/libmintel_garnet" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/hardware/PRIVATE/WFA_Sigma_Agent" name="a/bsp/vendor/intel/PRIVATE/WFA_Sigma_Agent" groups="bsp-priv,embargoed" revision="android/master" spsId="60885">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
@@ -385,6 +410,11 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
+    <project path="vendor/intel/rs_vectorizer_garnet" name="a/bsp/vendor/intel/hardware/PRIVATE/rs_vectorizer_garnet" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/tools/kernel" name="a/bsp/vendor/intel/tools/kernel" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
@@ -406,6 +436,11 @@
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
     <project path="vendor/intel/tools/PRIVATE/debug_internal_tools" name="a/bsp/device/intel/PRIVATE/debug_internal_tools" groups="bsp-priv,embargoed" revision="android/master" spsId="59065">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <project path="vendor/intel/tools/PRIVATE/debug_internal_tools_garnet" name="a/bsp/device/intel/PRIVATE/debug_internal_tools_garnet" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
