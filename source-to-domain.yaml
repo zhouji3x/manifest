@@ -578,6 +578,10 @@
 - vendor/intel/apps/acn
 - vendor/intel/apps/bls
 - vendor/intel/hardware/wififirst
+'Camera - Garnet':
+- vendor/intel/camera/camera3hal_garnet
+- vendor/intel/camera/cameralibs_garnet
+- vendor/intel/camera/libmfldadvci_garnet
 'Camera - Imaging':
 - hardware/intel/hald_media_hook
 - vendor/intel/apps/PRIVATE/arccamera
@@ -765,9 +769,6 @@
 'ICDG - Garnet' :
 - hardware/imc/pt_bt_daemon_garnet
 - vendor/intel/apps/PRIVATE/Kratos_garnet
-- vendor/intel/camera/camera3hal_garnet
-- vendor/intel/camera/cameralibs_garnet
-- vendor/intel/camera/libmfldadvci_garnet
 - vendor/intel/hardware/PRIVATE/libmintel_garnet
 - vendor/intel/liboemcrypto/sofia_garnet
 - vendor/intel/rs_vectorizer_garnet

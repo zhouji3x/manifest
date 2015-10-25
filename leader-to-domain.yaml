@@ -11,6 +11,7 @@ andreas.karlsson@intel.com:
 anne-sophie.lefevre@intel.com:
 - 'Manifest'
 ashraf.mohammed@intel.com:
+- 'Camera - Garnet'
 - 'Energy management - Garnet'
 - 'GFX / Mali - Garnet'
 - 'ICDG - Garnet'
@@ -44,6 +45,7 @@ christophe.chauvin@intel.com:
 christophe.guerard@intel.com:
 - 'Debug and Trace'
 cindy.xie@intel.com:
+- 'Camera - Garnet'
 - 'Energy management - Garnet'
 - 'GFX / Mali - Garnet'
 cyrille.bezard-falgas@intel.com:
@@ -184,6 +186,7 @@ xavier.roumegue@intel.com:
 yann.fouassier@intel.com:
 - 'Debug and Trace'
 yong.hu@intel.com:
+- 'Camera - Garnet'
 - 'Energy management - Garnet'
 - 'GFX / Mali - Garnet'
 - 'ICDG - Garnet'
