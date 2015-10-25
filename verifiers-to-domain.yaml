@@ -48,6 +48,8 @@ ldap//CN=OTC_SI_1A-Verif-DRM-Sofia,OU=Rialto,OU=Application Managed,OU=Groups,DC
 - 'DRM - Widevine SoFia'
 ldap//CN=OTC_SI_1A-Verif-Energy_Mgt,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Energy management'
+ldap//CN=OTC_SI_1A-Verif-Energy_Mgt_Garnet,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Energy management - Garnet'
 ldap//CN=OTC_SI_1A-Verif-Gfx_Display_Drm,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Gfx / Display Drm'
 ldap//CN=OTC_SI_1A-Verif-GFX_Gen,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

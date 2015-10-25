@@ -11,6 +11,7 @@ andreas.karlsson@intel.com:
 anne-sophie.lefevre@intel.com:
 - 'Manifest'
 ashraf.mohammed@intel.com:
+- 'Energy management - Garnet'
 - 'ICDG - Garnet'
 aviv.d.greenberg@intel.com:
 - 'Perceptual Camera'
@@ -41,6 +42,8 @@ christophe.chauvin@intel.com:
 - 'Kernel iCDG'
 christophe.guerard@intel.com:
 - 'Debug and Trace'
+cindy.xie@intel.com:
+- 'Energy management - Garnet'
 cyrille.bezard-falgas@intel.com:
 - 'Platform Baytrail'
 - 'Platform BIOS'
@@ -179,6 +182,7 @@ xavier.roumegue@intel.com:
 yann.fouassier@intel.com:
 - 'Debug and Trace'
 yong.hu@intel.com:
+- 'Energy management - Garnet'
 - 'ICDG - Garnet'
 yong.yao@intel.com:
 - 'AOSP'

@@ -730,6 +730,9 @@
 - vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon
 - vendor/intel/hardware/em_common
 - vendor/intel/hardware/healthd
+'Energy management - Garnet':
+- external/thermal_daemon_garnet
+- vendor/intel/apps/ituxd_garnet
 'Gfx / Display Drm':
 - external/drm
 - external/libpciaccess
@@ -758,9 +761,7 @@
 - vendor/intel/hardware/libsl
 - vendor/intel/silentlake/psw
 'ICDG - Garnet' :
-- external/thermal_daemon_garnet
 - hardware/imc/pt_bt_daemon_garnet
-- vendor/intel/apps/ituxd_garnet
 - vendor/intel/apps/PRIVATE/Kratos_garnet
 - vendor/intel/camera/camera3hal_garnet
 - vendor/intel/camera/cameralibs_garnet
