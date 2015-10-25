@@ -721,6 +721,11 @@
 - vendor/intel/tools/log_infra
 - vendor/intel/tools/PRIVATE/debug_internal_tools
 - vendor/intel/tools/peeknpoke
+'Debug and Trace - Garnet':
+- vendor/intel/apps/PRIVATE/Kratos_garnet
+- vendor/intel/hardware/PRIVATE/libmintel_garnet
+- vendor/intel/tools/PRIVATE/debug_internal_tools_garnet
+- vendor/intel/tools/log_capture_garnet
 'DRM - Widevine':
 - vendor/intel/liboemcrypto/gen
 - vendor/widevine
@@ -767,13 +772,8 @@
 - vendor/intel/hardware/libsl
 - vendor/intel/silentlake/psw
 'ICDG - Garnet' :
-- hardware/imc/pt_bt_daemon_garnet
-- vendor/intel/apps/PRIVATE/Kratos_garnet
-- vendor/intel/hardware/PRIVATE/libmintel_garnet
 - vendor/intel/liboemcrypto/sofia_garnet
 - vendor/intel/rs_vectorizer_garnet
-- vendor/intel/tools/PRIVATE/debug_internal_tools_garnet
-- vendor/intel/tools/log_capture_garnet
 'ISH':
 - vendor/intel/hardware/ish-sensors
 - vendor/intel/hardware/libsensorshub

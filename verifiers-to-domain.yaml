@@ -44,6 +44,8 @@ ldap//CN=OTC_SI_1A-Verif-Conn-TPV-WIFI,OU=Rialto,OU=Application Managed,OU=Group
 - 'Connectivity-TPV-WIFI'
 ldap//CN=OTC_SI_1A-Verif-Debug_Trace,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Debug and Trace'
+ldap//CN=OTC_SI_1A-Verif-Debug_Trace_Garnet,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Debug and Trace - Garnet'
 ldap//CN=OTC_SI_1A-Verif-DRM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'DRM - Widevine'
 ldap//CN=OTC_SI_1A-Verif-DRM-Sofia,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
