@@ -753,6 +753,8 @@
 - hardware/intel/gpu/mali-midgard_lib
 'GFX / Mali - DP500 - SRC':
 - hardware/intel/display/arm/mali-dp500_lib
+'GFX / Mali - Garnet':
+- vendor/PRIVATE/rockchip_garnet
 'Intel Security differentiation' :
 - vendor/intel/apps/security_assist
 - vendor/intel/apps/silentlake/sl_installer
@@ -771,7 +773,6 @@
 - vendor/intel/rs_vectorizer_garnet
 - vendor/intel/tools/PRIVATE/debug_internal_tools_garnet
 - vendor/intel/tools/log_capture_garnet
-- vendor/PRIVATE/rockchip_garnet
 'ISH':
 - vendor/intel/hardware/ish-sensors
 - vendor/intel/hardware/libsensorshub
