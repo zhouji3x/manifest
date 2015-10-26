@@ -803,6 +803,7 @@
 - vendor/intel/tools/kernel
 'Kernel iCDG':
 - kernel/sofia_garnet
+- vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0_garnet
 'Manifest':
 - manifests
 'Perceptual Camera':
