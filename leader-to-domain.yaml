@@ -66,8 +66,6 @@ hang.l.sun@intel.com:
 - 'WiDi'
 hatem.oueslati@intel.com:
 - 'Telephony'
-hector.morales.piloni@intel.com:
-- 'Video Gen'
 herbert.sereda@intel.com:
 - 'Video Verisilicon - SRC'
 jacques.bourhis@intel.com:
@@ -135,6 +133,7 @@ patrick.porlan@intel.com:
 - 'Sensors'
 paul.asterland@intel.com:
 - 'Audio Common'
+- 'Video Gen'
 prajwal.karur.mohan@intel.com:
 - 'Platform Baytrail'
 - 'Platform BIOS'
