@@ -917,7 +917,6 @@
 - vendor/intel/rtc
 'Video Gen':
 - external/libva
-- frameworks/av/media/libstagefright
 - vendor/intel/apps/VppSettings
 - vendor/intel/hardware/PRIVATE/libmediaparser
 - vendor/intel/hardware/libmedia_utils
