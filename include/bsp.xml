@@ -66,6 +66,7 @@
     <project path="kernel/modules/iwlwifi" name="a/bsp/kernel/modules/iwlwifi" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/perftools-external" name="a/bsp/kernel/modules/perftools-external" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/realtek" name="a/bsp/kernel/modules/realtek" groups="kernel-src" revision="android/master"/>
+    <project path="kernel/modules/sldriver" name="a/bsp/linux/modules/sldriver" groups="kernel-src" revision="android/master"/>
     <project path="kernel/sofia-3gr" name="a/bsp/kernel/sofia-3gr" groups="kernel-src" revision="android/master"/>
     <project path="kernel/sofia-lte" name="a/bsp/kernel/sofia-lte" groups="kernel-src" revision="android/master"/>
     <project path="modem/tools/ipcs" name="a/bsp/modem/tools/ipcs" revision="android/master"/>

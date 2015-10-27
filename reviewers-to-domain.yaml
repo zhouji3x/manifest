@@ -106,6 +106,8 @@ ldap//CN=OTC_SI_1A-Rev-Security_Middle,OU=Rialto,OU=Application Managed,OU=Group
 - 'Security Middleware'
 ldap//CN=OTC_SI_1A-Rev-Sensors,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Sensors'
+ldap//CN=OTC_SI_1A-Rev-Silent_Lake,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Silent Lake'
 ldap//CN=OTC_SI_1A-Rev-SoFia_LTE_Debug_Trace,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'SoFia LTE Debug & Trace'
 ldap//CN=OTC_SI_1A-Rev-Telephony,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

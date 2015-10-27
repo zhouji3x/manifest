@@ -772,7 +772,6 @@
 - vendor/PRIVATE/rockchip_garnet
 'Intel Security differentiation' :
 - vendor/intel/apps/security_assist
-- vendor/intel/apps/silentlake/sl_installer
 - vendor/intel/hardware/libaesni
 - vendor/intel/hardware/libiha
 - vendor/intel/hardware/libsl
@@ -880,6 +879,9 @@
 - vendor/memsic/calib
 - vendor/silead/fw
 - vendor/zeitec/fw
+'Silent Lake':
+- kernel/modules/sldriver
+- vendor/intel/apps/silentlake/sl_installer
 'SoFia LTE Debug & Trace':
 - vendor/intel/tools/oct_daemon
 'Telephony':
