@@ -74,6 +74,7 @@
     <project path="vendor/intel/apps/AndroidTerm" name="a/bsp/platform/packages/apps/AndroidTerm" revision="android/master"/>
     <project path="vendor/intel/apps/acn" name="a/bsp/vendor/intel/apps/acn" revision="android/master"/>
     <project path="vendor/intel/apps/bls" name="a/bsp/vendor/intel/apps/bls" revision="android/master"/>
+    <project path="vendor/intel/apps/curl" name="a/bsp/vendor/intel/apps/curl" revision="android/master"/>
     <project path="vendor/intel/apps/IntelFmApp" name="a/bsp/packages/apps/IntelFmApp" revision="android/master" spsId="59079"/>
     <project path="vendor/intel/apps/ituxd" name="a/bsp/vendor/intel/apps/ituxd" revision="android/master" spsId="60543"/>
     <project path="vendor/intel/apps/ituxd_garnet" name="a/bsp/vendor/intel/apps/ituxd_garnet" revision="android/master"/>
