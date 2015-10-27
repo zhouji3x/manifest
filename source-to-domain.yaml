@@ -496,6 +496,7 @@
 - device/intel/baytrail/audio
 - device/intel/baytrail/ecs_e7/audio
 - device/intel/broxton/audio
+- device/intel/broxton/bxt_b0/audio
 - device/intel/broxton/bxt_rvp/audio
 - device/intel/cherrytrail/audio
 - device/intel/cherrytrail/cht_cr_rvp/audio
