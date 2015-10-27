@@ -250,6 +250,11 @@
         <annotation name="all_external" value="src"/>
         <annotation name="bxt_rvp_external" value="src"/>
     </project>
+    <project path="vendor/intel/camera/camera_extension_garnet" name="a/bsp/hardware/intel/PRIVATE/camera_extension_garnet" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/camera/cameralibs" name="a/bsp/hardware/intel/PRIVATE/cameralibs" groups="bsp-priv" revision="android/master" spsId="61019">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>

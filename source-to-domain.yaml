@@ -492,6 +492,9 @@
 - external/sonivox
 - vendor/intel/media_codecs
 - vendor/intel/PRIVATE/codec_wma9
+'Audio - Garnet':
+- hardware/intel/audio/imc/libauddriver_garnet
+- hardware/intel/audio/imc/libaudio_hal_garnet
 'Audio Trail':
 - device/intel/baytrail/audio
 - device/intel/baytrail/ecs_e7/audio
@@ -580,6 +583,7 @@
 - vendor/intel/hardware/wififirst
 'Camera - Garnet':
 - vendor/intel/camera/camera3hal_garnet
+- vendor/intel/camera/camera_extension_garnet
 - vendor/intel/camera/cameralibs_garnet
 - vendor/intel/camera/libmfldadvci_garnet
 'Camera - Imaging':
