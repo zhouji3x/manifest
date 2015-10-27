@@ -809,8 +809,9 @@
 'Perceptual Camera':
 - device/intel/mixins/groups/camera/ds4
 - vendor/intel/camera/depth_extension
-- vendor/intel/fw/ds4fw
 - vendor/intel/camera/PRIVATE/libds4
+- vendor/intel/fw/ds4fw
+- vendor/intel/tools/ds4_tools
 'Platform Baytrail':
 - device/intel/baytrail
 - device/intel/coho

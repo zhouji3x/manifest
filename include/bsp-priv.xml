@@ -460,11 +460,11 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-<!-- <project path="vendor/intel/tools/PRIVATE/ds4_tools" name="a/bsp/vendor/intel/tools/PRIVATE/ds4_tools" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="vendor/intel/tools/ds4_tools" name="a/bsp/vendor/intel/tools/PRIVATE/ds4_tools" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
-    </project> -->
+    </project>
 <!-- <project path="vendor/intel/tools/wifi/broadcom" name="a/bsp/vendor/intel/tools/PRIVATE/wifi/broadcom" groups="bsp-priv,embargoed,bluewoods,notdefault" restricted="blue_woods" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
