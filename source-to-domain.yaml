@@ -885,6 +885,7 @@
 - vendor/intel/hardware/keystore
 - vendor/intel/hardware/libmei
 - vendor/intel/hardware/libmeimm
+- vendor/intel/libstagefrighthdcp
 'Sensors':
 - external/libaudit
 - hardware/intel/libsensors-input

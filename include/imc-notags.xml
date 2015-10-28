@@ -15,6 +15,7 @@
     <project path="hardware/intel/rpcsecurity" name="a/bsp/hardware/intel/rpcsecurity" revision="android/master"/>
     <project path="vendor/intel/liboemcrypto/sofia" name="a/bsp/vendor/intel/liboemcrypto" revision="android/master"/>
     <project path="vendor/intel/liboemcrypto/sofia_garnet" name="a/bsp/vendor/intel/liboemcrypto_garnet" revision="android/master"/>
+    <project path="vendor/intel/libstagefrighthdcp" name="a/bsp/vendor/intel/libstagefrighthdcp" revision="android/master"/>
     <project path="device/intel-imc" name="a/bsp/device/intel/sofia" revision="android/master"/>
     <project path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" revision="android/master" spsId="59476"/>
     <project path="hardware/intel/codecs" name="a/bsp/hardware/intel/codecs" revision="android/master" spsId="62132"/>
