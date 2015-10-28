@@ -594,6 +594,7 @@
 - vendor/intel/camera/camera_extension
 - vendor/intel/camera/cameralibs
 - vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0
+- vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0_garnet
 - vendor/intel/camera/libiacss
 - vendor/intel/camera/libmfldadvci
 - vendor/intel/fw/camera
@@ -803,7 +804,6 @@
 - vendor/intel/tools/kernel
 'Kernel iCDG':
 - kernel/sofia_garnet
-- vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0_garnet
 'Manifest':
 - manifests
 'Perceptual Camera':
