@@ -924,6 +924,7 @@
 - vendor/intel/tools/telephony_tools/modem_trace_server
 - vendor/intel/tools/telephony_tools/PRIVATE/component_testing
 - vendor/intel/tools/telephony_tools/telephony_test
+- vendor/verizon/trial_specifics
 'Video Conferencing':
 - vendor/intel/apps/webrtccssdk
 - vendor/intel/PRIVATE/rtc
