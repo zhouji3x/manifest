@@ -335,6 +335,11 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="vendor/intel/hardware/cam" name="a/bsp/hardware/intel/PRIVATE/cam" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/hardware/libiha" name="a/bsp/vendor/intel/hardware/PRIVATE/libiha" groups="bsp-priv,embargoed" revision="android/master">
        <annotation name="g_external" value="no"/>
        <annotation name="all_external" value="no"/>
