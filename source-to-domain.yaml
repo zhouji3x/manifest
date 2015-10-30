@@ -761,6 +761,8 @@
 - vendor/intel/ufo/gen8
 - vendor/intel/ufo/gen8_dev
 - vendor/intel/ufo/gen9_dev
+'GFX / Display Mali':
+- vendor/PRIVATE/rockchip
 'GFX / Mali - ARM':
 - hardware/intel/gpu/mali
 - hardware/intel/gpu/mali-gralloc
@@ -840,7 +842,6 @@
 - hardware/intel/sensors
 - hardware/intel/sysctrl_daemon
 - icc
-- vendor/PRIVATE/rockchip
 - vendor/intel/apps/DataReport
 - vendor/intel/apps/DataReportSettings
 - vendor/intel/apps/PRIVATE/strongswan

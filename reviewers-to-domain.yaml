@@ -62,6 +62,8 @@ ldap//CN=OTC_SI_1A-Rev-Gfx_Display_Drm,OU=Rialto,OU=Application Managed,OU=Group
 - 'Gfx / Display Drm'
 ldap//CN=OTC_SI_1A-Rev-GFX_Gen,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'GFX / Display Gen'
+ldap//CN=OTC_SI_1A-Rev-GFX_Mali,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'GFX / Display Mali'
 ldap//CN=OTC_SI_1A-Rev-GFX-ARM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'GFX / Mali - ARM'
 ldap//CN=OTC_SI_1A-Rev-GFX-DP500-s,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

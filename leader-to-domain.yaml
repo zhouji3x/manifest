@@ -1,6 +1,7 @@
 ajit.joshi@intel.com:
 - 'WiDi'
 amber.jain@intel.com:
+- 'GFX / Display Mali'
 - 'GFX / Mali - ARM'
 amir.noam@intel.com:
 - 'ISH'
@@ -24,10 +25,13 @@ aviv.d.greenberg@intel.com:
 axel.fagerstedt@intel.com:
 - 'AOSP'
 binu.r.s@intel.com:
+- 'GFX / Display Mali'
 - 'GFX / Mali - DP500 - SRC'
 brad.geltz@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'BOOT - OTA - GOTA SoFia'
+carlos.santa@intel.com:
+- 'GFX / Display Mali'
 cedric.le.claire@intel.com:
 - 'Connectivity-ACP-BT'
 - 'Connectivity-ACP-CellCoex'
@@ -159,6 +163,7 @@ prajwal.karur.mohan@intel.com:
 radivoje.jovanovic@intel.com:
 - 'Energy management'
 raghavendra.kudva.padubidri@intel.com:
+- 'GFX / Display Mali'
 - 'GFX / Mali - ARM'
 - 'GFX / Mali - DP500 - SRC'
 rajesh.banginwar@intel.com:
