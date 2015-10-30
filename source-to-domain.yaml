@@ -588,6 +588,10 @@
 - vendor/intel/camera/cameralibs_garnet
 - vendor/intel/camera/libmfldadvci_garnet
 'Camera - Imaging':
+- device/intel/mixins/groups/camera
+- device/intel/mixins/groups/camera-arccamera
+- device/intel/mixins/groups/camera-intel_sdk
+- device/intel/mixins/groups/camera-refcam
 - hardware/intel/hald_media_hook
 - vendor/intel/apps/PRIVATE/arccamera
 - vendor/intel/apps/PRIVATE/refcam
@@ -809,7 +813,7 @@
 'Manifest':
 - manifests
 'Perceptual Camera':
-- device/intel/mixins/groups/camera/ds4
+- device/intel/mixins/groups/depth-camera/ds4
 - vendor/intel/camera/depth_extension
 - vendor/intel/camera/PRIVATE/libds4
 - vendor/intel/fw/ds4fw
