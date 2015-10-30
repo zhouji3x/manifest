@@ -736,7 +736,6 @@
 - vendor/intel/liboemcrypto/gen
 - vendor/widevine
 'DRM - Widevine SoFia':
-- vendor/intel/liboemcrypto/sofia_garnet
 - vendor/intel/liboemcrypto/sofia
 'Energy management':
 - external/thermal_daemon
@@ -778,6 +777,7 @@
 - vendor/intel/hardware/libsl
 - vendor/intel/silentlake/psw
 'ICDG - Garnet' :
+- vendor/intel/liboemcrypto/sofia_garnet
 - vendor/intel/rs_vectorizer_garnet
 'ISH':
 - vendor/intel/hardware/ish-sensors
