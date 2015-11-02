@@ -829,6 +829,20 @@
 - kernel/sofia_garnet
 'Manifest':
 - manifests
+'OSAG':
+- hardware/intel/sofia_lte-osag/bootsystems
+- hardware/intel/sofia_lte-osag/external/3p_oss_ipsec
+- hardware/intel/sofia_lte-osag/external/3p_oss_zlib
+- hardware/intel/sofia_lte-osag/external/3p_threadx
+- hardware/intel/sofia_lte-osag/external/3p_threadx_x86
+- hardware/intel/sofia_lte-osag/external/3p_usb_ems
+- hardware/intel/sofia_lte-osag/mobilevisor/guests
+- hardware/intel/sofia_lte-osag/mobilevisor/products
+- hardware/intel/sofia_lte-osag/mobilevisor/release
+- hardware/intel/sofia_lte-osag/mobilevisor/services
+- hardware/intel/sofia_lte-osag/modem
+- hardware/intel/sofia_lte-osag/secure_vm
+- hardware/intel/sofia_lte-osag/soclib
 'Perceptual Camera':
 - device/intel/mixins/groups/depth-camera/ds4
 - vendor/intel/camera/depth_extension
