@@ -420,7 +420,6 @@
   <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/swt" path="tools/swt" />
 
 <!-- not part of M AOSP, retaind for now with their L versions -->
-  <project spsId="58692" path="external/openssl" name="a/aosp/platform/external/openssl" groups="aosp,pdk" />
   <project path="external/stlport" name="a/aosp/platform/external/stlport" groups="aosp,pdk" />
 <!-- END open-source projects -->
 </manifest>
