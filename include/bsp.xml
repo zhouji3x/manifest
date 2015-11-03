@@ -70,6 +70,7 @@
     <project path="kernel/sofia-3gr" name="a/bsp/kernel/sofia-3gr" groups="kernel-src" revision="android/master"/>
     <project path="kernel/sofia-lte" name="a/bsp/kernel/sofia-lte" groups="kernel-src" revision="android/master"/>
     <project path="modem/tools/ipcs" name="a/bsp/modem/tools/ipcs" revision="android/master"/>
+    <project path="packages/apps/libfmrservice" name="a/bsp/packages/apps/fmr" revision="android/master" spsId="59081"/>
     <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-poky" name="a/bsp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-poky-1.8" revision="android/master"/>
     <project path="vendor/intel/apps/AndroidTerm" name="a/bsp/platform/packages/apps/AndroidTerm" revision="android/master"/>
     <project path="vendor/intel/apps/acn" name="a/bsp/vendor/intel/apps/acn" revision="android/master"/>
@@ -178,7 +179,6 @@
     <project path="vendor/intel/apps/halctl" name="a/bsp/vendor/intel/apps/PRIVATE/halctl-src" revision="android/master"/>
     <project path="vendor/intel/apps/hald" name="a/bsp/vendor/intel/apps/PRIVATE/hald-src" revision="android/master"/>
     <project path="vendor/intel/tools/rfkillp" name="a/bsp/vendor/intel/tools/bluetooth/rfkillp" revision="android/master"/>
-<!-- <project path="packages/apps/libfmrservice" name="a/bsp/packages/apps/fmr" revision="android/master" spsId="59081"/> -->
 <!-- <project path="hardware/intel/wlan/libwifihal" name="a/vendor/intel/imc/iwlwifi/libwifihal" revision="android/master" spsId="59090"/> -->
 
     <!-- irda-wireless repositories -->

@@ -697,6 +697,7 @@
 - vendor/intel/hardware/PRIVATE/cellular_coex_manager/broadcom
 'Connectivity-TPV-FM':
 - device/intel/mixins/groups/fmradio/pekall
+- packages/apps/libfmrservice
 'Connectivity-TPV-GNSS':
 - hardware/broadcom/bcm_gps
 - vendor/intel/hardware/bcm_gps
