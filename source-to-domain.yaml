@@ -578,9 +578,9 @@
 - hardware/intel/mrd-3gr-sofia/bootsystems
 - hardware/intel/sofia_lte-fls
 'CAM':
+- hardware/intel/cam
 - vendor/intel/apps/acn
 - vendor/intel/apps/bls
-- vendor/intel/hardware/cam
 - vendor/intel/hardware/wififirst
 'Camera - Garnet':
 - vendor/intel/camera/camera3hal_garnet
