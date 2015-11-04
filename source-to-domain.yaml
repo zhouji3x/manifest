@@ -890,6 +890,8 @@
 - vendor/intel/apps/silentlake/sl_installer
 'SoFia LTE Debug & Trace':
 - vendor/intel/tools/oct_daemon
+'Storage':
+- hardware/intel/libnvmmodule
 'Telephony':
 - device/intel/common/telephony
 - device/intel/common/telephony-config
@@ -902,7 +904,6 @@
 - hardware/imc/rpc
 - hardware/imc/rpc_3g
 - hardware/intel/crm
-- hardware/intel/libnvmmodule
 - hardware/intel/mrd-3gr-sofia/modem
 - hardware/intel/telephony/libtcs
 - hardware/intel/telephony/miu

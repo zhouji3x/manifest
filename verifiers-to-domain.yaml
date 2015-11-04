@@ -94,6 +94,8 @@ ldap//CN=OTC_SI_1A-Verif-Silent_Lake,OU=Rialto,OU=Application Managed,OU=Groups,
 - 'Silent Lake'
 ldap//CN=OTC_SI_1A-Verif-SoFia_LTE_Debug_Trace,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'SoFia LTE Debug & Trace'
+ldap//CN=OTC_SI_1A-Verif-Storage,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Storage'
 ldap//CN=OTC_SI_1A-Verif-Telephony,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Telephony'
 ldap//CN=OTC_SI_1A-Verif-Video_Conferencing,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
