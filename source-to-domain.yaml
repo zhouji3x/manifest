@@ -579,8 +579,13 @@
 - hardware/intel/sofia_lte-fls
 'CAM':
 - hardware/intel/cam
+- vendor/intel/apps/PRIVATE/strongswan
 - vendor/intel/apps/acn
 - vendor/intel/apps/bls
+- vendor/intel/external/libMD5_rfc
+- vendor/intel/external/libdmclient
+- vendor/intel/external/libwbxml
+- vendor/intel/external/syncmlrtk
 - vendor/intel/hardware/wififirst
 'Camera - Garnet':
 - vendor/intel/camera/camera3hal_garnet
@@ -848,11 +853,6 @@
 - icc
 - vendor/intel/apps/DataReport
 - vendor/intel/apps/DataReportSettings
-- vendor/intel/apps/PRIVATE/strongswan
-- vendor/intel/external/libdmclient
-- vendor/intel/external/libMD5_rfc
-- vendor/intel/external/libwbxml
-- vendor/intel/external/syncmlrtk
 - vendor/intel/telemetry-client
 - vendor/intel/tools/PRIVATE/wifail
 - vendor/intel/tools/efipropsync
