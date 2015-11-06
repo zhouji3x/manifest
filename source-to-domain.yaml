@@ -869,6 +869,7 @@
 - device/intel/sofia_lte
 - device/intel/sofia_lte-kernel
 - device/intel-imc
+- device/quanta/sofia_lte
 'Power Management':
 - hardware/intel/power
 'Scaling':
