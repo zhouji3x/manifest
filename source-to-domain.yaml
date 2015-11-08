@@ -786,7 +786,6 @@
 - vendor/intel/hardware/libaesni
 - vendor/intel/hardware/libiha
 - vendor/intel/hardware/libsl
-- vendor/intel/silentlake/psw
 'ICDG - Garnet' :
 - vendor/intel/liboemcrypto/sofia_garnet
 - vendor/intel/rs_vectorizer_garnet
@@ -888,6 +887,7 @@
 'Silent Lake':
 - kernel/modules/sldriver
 - vendor/intel/apps/silentlake/sl_installer
+- vendor/intel/silentlake/psw
 'SoFia LTE Debug & Trace':
 - vendor/intel/tools/oct_daemon
 'Storage':
