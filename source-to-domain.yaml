@@ -656,6 +656,7 @@
 - device/intel/common/nfc/fdp
 - device/intel/mixins/groups/nfc
 - device/intel/mixins/groups/nfc/fdp
+- external/smartcardservice
 - hardware/intel/nfc
 - vendor/intel/fw/nfc/intel/fdp
 - vendor/intel/hardware/nfc_mvt
