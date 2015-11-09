@@ -908,6 +908,7 @@
 - hardware/imc/rpc
 - hardware/imc/rpc_3g
 - hardware/intel/crm
+- hardware/intel/ecivs
 - hardware/intel/mrd-3gr-sofia/modem
 - hardware/intel/telephony/libtcs
 - hardware/intel/telephony/miu
