@@ -537,6 +537,10 @@
 - device/intel/sofia3gr/s3gr10s11/audio
 - device/intel/sofia_lte/slti20mr6/audio
 - device/intel/sofia_lte/slti20svb/audio
+- device/intel/sofia_lte/sltmrdV12/audio
+- device/intel/sofia_lte/sltmrdV34/audio
+- device/intel/sofia_lte/sltsvbV12/audio
+- device/intel/sofia_lte/sltsvbV34/audio
 - hardware/intel/audio/imc/lib_imas
 - hardware/intel/audio/imc/libauddriver
 - hardware/intel/audio/imc/libaudio_hal
