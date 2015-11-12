@@ -300,6 +300,11 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
+    <project path="vendor/intel/dptf" name="a/bsp/vendor/intel/dptf" groups="bsp-priv" revision="android/master">
+        <annotation name="g_external" value="bin"/>
+        <annotation name="all_external" value="bin"/>
+        <annotation name="bxt_rvp_external" value="bin"/>
+    </project>
     <project path="vendor/intel/external/passpoint" name="a/bsp/vendor/intel/external/passpoint" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
