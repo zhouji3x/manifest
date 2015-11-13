@@ -88,6 +88,7 @@
     <project path="vendor/intel/apps/thermal_lite" name="a/bsp/vendor/intel/apps/thermal_lite" revision="android/master"/>
     <project path="vendor/intel/apps/VppSettings" name="a/bsp/vendor/intel/apps/VppSettings" revision="android/master"/>
     <project path="vendor/intel/external/libdmclient" name="a/bsp/vendor/intel/external/libdmclient" revision="android/master"/>
+    <project path="vendor/intel/external/libjpeg-turbo" name="a/bsp/vendor/intel/external/libjpeg-turbo" revision="android/master"/>
     <project path="vendor/intel/external/libMD5_rfc" name="a/bsp/vendor/intel/external/libmd5_rfc" revision="android/master"/>
     <project path="vendor/intel/external/libwbxml" name="a/bsp/vendor/intel/external/libwbxml" revision="android/master"/>
     <project path="vendor/intel/external/syncmlrtk" name="a/bsp/vendor/intel/external/syncmlrtk" revision="android/master"/>

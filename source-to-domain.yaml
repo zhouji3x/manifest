@@ -478,6 +478,7 @@
 - tools/build
 - tools/swt
 - vendor/google/gms
+- vendor/intel/external/libjpeg-turbo
 - vendor/intel/hardware/PRIVATE/libmintel
 - vendor/intel/houdini
 - vendor/intel/pcg
