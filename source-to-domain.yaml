@@ -816,6 +816,7 @@
 - kernel/modules/perftools-external
 - kernel/modules/perftools-internal
 - kernel/modules/realtek
+- kernel/modules/sldriver
 - kernel/sofia
 - kernel/sofia3g
 - kernel/sofia-3gr
@@ -897,7 +898,6 @@
 - vendor/silead/fw
 - vendor/zeitec/fw
 'Silent Lake':
-- kernel/modules/sldriver
 - vendor/intel/apps/silentlake/sl_installer
 - vendor/intel/silentlake/psw
 'SoFia LTE Debug & Trace':
