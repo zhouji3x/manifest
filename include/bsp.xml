@@ -81,6 +81,7 @@
     <project path="vendor/intel/apps/IntelFmApp" name="a/bsp/packages/apps/IntelFmApp" revision="android/master" spsId="59079"/>
     <project path="vendor/intel/apps/ituxd" name="a/bsp/vendor/intel/apps/ituxd" revision="android/master" spsId="60543"/>
     <project path="vendor/intel/apps/ituxd_garnet" name="a/bsp/vendor/intel/apps/ituxd_garnet" revision="android/master"/>
+    <project path="vendor/intel/apps/nfc_service_ext" name="a/bsp/vendor/intel/apps/nfc_service_ext" revision="android/master"/>
     <project path="vendor/intel/apps/PRIVATE/Aware" name="a/bsp/vendor/intel/PRIVATE/Aware" revision="android/master"/>
     <project path="vendor/intel/apps/PRIVATE/arccamera" name="a/bsp/vendor/arcsoft/arccamera" revision="android/master"/>
     <project path="vendor/intel/apps/PRIVATE/strongswan" name="a/bsp/vendor/intel/apps/PRIVATE/strongswan" revision="android/master"/>
