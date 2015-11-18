@@ -626,7 +626,6 @@
 - hardware/imc/pt_bt_daemon
 - hardware/intel/bluedroid
 - hardware/intel/libbt-vendor-intel
-- kernel/modules/intel_ld
 - vendor/intel/fw/bluetooth/intel
 - vendor/intel/hardware/bt_hci_vs_service
 - vendor/intel/hardware/PRIVATE/bt_usc
@@ -643,7 +642,6 @@
 - external/v4l2rds
 - hardware/imc/fm
 - hardware/intel/fm
-- kernel/modules/intel_fm
 - vendor/intel/apps/IntelFmApp
 - vendor/intel/fw/fm/intel
 - vendor/intel/hardware/fmr
@@ -815,6 +813,8 @@
 - kernel/modules/bcm43xx
 - kernel/modules/dbgtools-internal
 - kernel/modules/gnss
+- kernel/modules/intel_fm
+- kernel/modules/intel_ld
 - kernel/modules/perftools-external
 - kernel/modules/perftools-internal
 - kernel/modules/realtek
