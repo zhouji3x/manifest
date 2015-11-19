@@ -24,6 +24,8 @@ aviv.d.greenberg@intel.com:
 - 'Perceptual Camera'
 axel.fagerstedt@intel.com:
 - 'AOSP'
+bingquan.hu@intel.com:
+- 'Sensors'
 binu.r.s@intel.com:
 - 'GFX / Display Mali'
 - 'GFX / Mali - DP500 - SRC'
@@ -150,8 +152,6 @@ noor.u.mubeen@intel.com:
 - 'Energy management'
 octavian.purdila@intel.com:
 - 'Scaling'
-patrick.porlan@intel.com:
-- 'Sensors'
 paul.asterland@intel.com:
 - 'Audio Common'
 - 'Video Gen'
