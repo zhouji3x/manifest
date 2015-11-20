@@ -531,6 +531,7 @@
 - vendor/intel/audio/probe
 - vendor/intel/audio/tests
 - vendor/intel/fw/sst
+- vendor/intel/soundtrigger_app
 - vendor/intel/tools/asoc_dfw
 'Audio XGold':
 - device/intel/mixins/groups/audio/sofia_lte
