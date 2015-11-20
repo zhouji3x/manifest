@@ -887,6 +887,7 @@
 'Platform GoldSand':
 - device/intel/goldsand
 'Platform SoFia 3GR':
+- device/intel/cohos3gr
 - device/intel/sofia3g-kernel
 - device/intel/sofia3gr
 'Platform SoFia LTE':
