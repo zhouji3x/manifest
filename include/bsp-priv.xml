@@ -563,7 +563,7 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="kernel/gmin-dev" name="a/bsp/kernel/gmin-dev"  groups="bsp-priv,embargoed,kernel-src" revision="android/master">
+    <project path="kernel/gmin-dev" name="a/bsp/kernel/gmin-dev"  groups="bsp-priv,embargoed,kernel-src,soc_gsd" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>

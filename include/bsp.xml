@@ -56,9 +56,9 @@
     <project path="hardware/intel/wifi" name="a/bsp/vendor/intel/wifi" revision="android/master"/>
     <project path="hardware/intel/wlan/hostap_wcs" name="a/bsp/hardware/intel/wlan/hostap_wcs" revision="android/master"/>
     <project path="hardware/nxp/nfc" name="a/bsp/device/intel/nfc" revision="android/master"/>
-    <project path="kernel/bxt" name="a/bsp/kernel/bxt" groups="kernel-src" revision="android/master"/>
-    <project path="kernel/cht" name="a/bsp/kernel/cht" groups="kernel-src" revision="android/master"/>
-    <project path="kernel/coho" name="a/bsp/kernel/irda" groups="kernel-src" revision="android/master"/>
+    <project path="kernel/bxt" name="a/bsp/kernel/bxt" groups="kernel-src,soc_bxt" revision="android/master"/>
+    <project path="kernel/cht" name="a/bsp/kernel/cht" groups="kernel-src,soc_cht" revision="android/master"/>
+    <project path="kernel/coho" name="a/bsp/kernel/irda" groups="kernel-src,soc_irda" revision="android/master"/>
     <project path="kernel/gsd" name="a/bsp/kernel/gsd" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/bcm43xx" name="a/bsp/kernel/modules/bcmdhd" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/gnss" name="a/bsp/kernel/modules/gnss" groups="kernel-src" revision="android/master"/>
@@ -67,8 +67,8 @@
     <project path="kernel/modules/perftools-external" name="a/bsp/kernel/modules/perftools-external" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/realtek" name="a/bsp/kernel/modules/realtek" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/sldriver" name="a/bsp/linux/modules/sldriver" groups="kernel-src" revision="android/master"/>
-    <project path="kernel/sofia-3gr" name="a/bsp/kernel/sofia-3gr" groups="kernel-src" revision="android/master"/>
-    <project path="kernel/sofia-lte" name="a/bsp/kernel/sofia-lte" groups="kernel-src" revision="android/master"/>
+    <project path="kernel/sofia-3gr" name="a/bsp/kernel/sofia-3gr" groups="kernel-src,soc_sofia3gr" revision="android/master"/>
+    <project path="kernel/sofia-lte" name="a/bsp/kernel/sofia-lte" groups="kernel-src,soc_sofialte" revision="android/master"/>
     <project path="modem/tools/ipcs" name="a/bsp/modem/tools/ipcs" revision="android/master"/>
     <project path="packages/apps/libfmrservice" name="a/bsp/packages/apps/fmr" revision="android/master" spsId="59081"/>
     <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-poky" name="a/bsp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-poky-1.8" revision="android/master"/>
