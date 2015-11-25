@@ -84,6 +84,8 @@ ldap//CN=OTC_SI_1A-Rev-Manifest,OU=Rialto,OU=Application Managed,OU=Groups,DC=am
 - 'Manifest'
 ldap//CN=OTC_SI_1A-Rev-OSAG,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'OSAG'
+ldap//CN=OTC_SI_1A-Rev-OSAG-Garnet,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'OSAG - Garnet'
 ldap//CN=OTC_SI_1A-Rev-Perceptual_Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Perceptual Camera'
 ldap//CN=OTC_SI_1A-Rev-Platform_Baytrail,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

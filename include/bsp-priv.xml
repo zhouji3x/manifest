@@ -596,6 +596,11 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="hardware/intel/mrd-3gr-sofia/bootsystems_garnet" name="a/bsp/hardware/intel/cts-3gr-sofia/bootsystems_garnet" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="hardware/intel/mrd-3gr-sofia/lpmp3_vm" name="a/bsp/hardware/intel/cts-3gr-sofia/lpmp3_vm" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
@@ -606,7 +611,17 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="hardware/intel/mrd-3gr-sofia/mobilevisor/guests_garnet" name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/guests_garnet" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="hardware/intel/mrd-3gr-sofia/mobilevisor/products" name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/products" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <project path="hardware/intel/mrd-3gr-sofia/mobilevisor/products_garnet" name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/products_garnet" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -616,7 +631,17 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="hardware/intel/mrd-3gr-sofia/mobilevisor/release_garnet" name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/release_garnet" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="hardware/intel/mrd-3gr-sofia/mobilevisor/services" name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/services" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <project path="hardware/intel/mrd-3gr-sofia/mobilevisor/services_garnet" name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/services_garnet" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -626,12 +651,27 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="hardware/intel/mrd-3gr-sofia/modem_garnet" name="a/bsp/hardware/intel/cts-3gr-sofia/modem_garnet" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="hardware/intel/mrd-3gr-sofia/secure_vm" name="a/bsp/hardware/intel/cts-3gr-sofia/secure_vm" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="hardware/intel/mrd-3gr-sofia/secure_vm_garnet" name="a/bsp/hardware/intel/cts-3gr-sofia/secure_vm_garnet" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="hardware/intel/mrd-3gr-sofia/soclib" name="a/bsp/hardware/intel/cts-3gr-sofia/soclib" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <project path="hardware/intel/mrd-3gr-sofia/soclib_garnet" name="a/bsp/hardware/intel/cts-3gr-sofia/soclib_garnet" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
