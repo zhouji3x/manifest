@@ -48,6 +48,7 @@ cedric.le.claire@intel.com:
 - 'Connectivity-TPV-GNSS'
 - 'Connectivity-TPV-NFC'
 - 'Connectivity-TPV-WIFI'
+- 'Connectivity-WLAN-Core'
 chris.r.watkins@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
@@ -109,6 +110,7 @@ jacques.bourhis@intel.com:
 - 'Connectivity-TPV-GNSS'
 - 'Connectivity-TPV-NFC'
 - 'Connectivity-TPV-WIFI'
+- 'Connectivity-WLAN-Core'
 - 'Telephony'
 jeremy.compostella@intel.com:
 - 'BOOT - OTA - GOTA'

@@ -675,16 +675,12 @@
 - device/intel/mixins/groups/rservice
 - device/intel/mixins/groups/wlan
 - device/intel/mixins/groups/wlan/iwlwifi
-- hardware/intel/wlan/hostap_wcs
-- kernel/modules/iwlwifi
 - modem/tools/ipcs
 - vendor/intel/apps/curl
 - vendor/intel/external/passpoint
-- vendor/intel/fw/iwl
 - vendor/intel/hardware/PRIVATE/rocs
 - vendor/intel/hardware/PRIVATE/rservice
 - vendor/intel/hardware/PRIVATE/WFA_Sigma_Agent
-- vendor/intel/hardware/PRIVATE/wifi_usc
 - vendor/intel/hardware/utils
 'Connectivity-TPV-BT':
 - device/intel/mixins/groups/bluetooth/bcm43241
@@ -721,6 +717,11 @@
 - hardware/intel/wifi
 - vendor/intel/fw/wlan/broadcom
 - vendor/intel/hardware/realtek/wlan
+'Connectivity-WLAN-Core':
+- hardware/intel/wlan/hostap_wcs
+- kernel/modules/iwlwifi
+- vendor/intel/fw/iwl
+- vendor/intel/hardware/PRIVATE/wifi_usc
 'Debug and Trace':
 - device/intel/mixins/groups/debug-coredump
 - device/intel/mixins/groups/debug-crashlogd
