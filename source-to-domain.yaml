@@ -842,6 +842,7 @@
 - hardware/intel/sofia_lte-osag/mobilevisor/release
 - hardware/intel/sofia_lte-osag/mobilevisor/services
 - hardware/intel/sofia_lte-osag/modem
+- hardware/intel/sofia_lte-osag/platform_sw/infra_layer
 - hardware/intel/sofia_lte-osag/secure_vm
 - hardware/intel/sofia_lte-osag/soclib
 'OSAG - Garnet':

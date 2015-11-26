@@ -37,6 +37,9 @@
         <copyfile dest="hardware/intel/sofia_lte-osag/Android.mk" src="uta_sys_test/make/cat_sys_test.mk"/>
     </project>
 
+    <!-- Platform sw -->
+    <project path="hardware/intel/sofia_lte-osag/platform_sw/infra_layer" name="a/vendor/intel/imc/modem/infra_layer" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1"/>
+
     <!-- Secure VM -->
     <project path="hardware/intel/sofia_lte-osag/secure_vm" name="a/bsp/secure_vm" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="59074"/>
 
