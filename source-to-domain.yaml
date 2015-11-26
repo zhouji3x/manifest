@@ -935,6 +935,7 @@
 'Telephony':
 - device/intel/common/telephony
 - device/intel/common/telephony-config
+- device/intel/mixins/groups/aosp_carrier-config
 - device/intel/mixins/groups/embms
 - device/intel/mixins/groups/ims
 - device/intel/mixins/groups/telephony
