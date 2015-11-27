@@ -848,14 +848,14 @@
 - hardware/intel/sofia_lte-osag/secure_vm
 - hardware/intel/sofia_lte-osag/soclib
 'OSAG - Garnet':
-- hardware/intel/mrd-3gr-sofia/bootsystems_garnet
-- hardware/intel/mrd-3gr-sofia/mobilevisor/guests_garnet
-- hardware/intel/mrd-3gr-sofia/mobilevisor/products_garnet
-- hardware/intel/mrd-3gr-sofia/mobilevisor/release_garnet
-- hardware/intel/mrd-3gr-sofia/mobilevisor/services_garnet
-- hardware/intel/mrd-3gr-sofia/modem_garnet
-- hardware/intel/mrd-3gr-sofia/secure_vm_garnet
-- hardware/intel/mrd-3gr-sofia/soclib_garnet
+- hardware/intel/garnet-mrd-3gr-sofia/bootsystems
+- hardware/intel/garnet-mrd-3gr-sofia/mobilevisor/guests
+- hardware/intel/garnet-mrd-3gr-sofia/mobilevisor/products
+- hardware/intel/garnet-mrd-3gr-sofia/mobilevisor/release
+- hardware/intel/garnet-mrd-3gr-sofia/mobilevisor/services
+- hardware/intel/garnet-mrd-3gr-sofia/modem
+- hardware/intel/garnet-mrd-3gr-sofia/secure_vm
+- hardware/intel/garnet-mrd-3gr-sofia/soclib
 'Perceptual Camera':
 - device/intel/mixins/groups/depth-camera/ds4
 - vendor/intel/camera/depth_extension
