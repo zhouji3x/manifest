@@ -581,6 +581,7 @@
 - external/uefi_shim
 - hardware/intel/efi_prebuilts/gnu-efi
 - hardware/intel/kernelflinger
+- vendor/intel/apps/fota
 'BOOT - OTA - GOTA SoFia':
 - hardware/intel/mrd-3gr-sofia/bootsystems
 - hardware/intel/sofia_lte-fls
