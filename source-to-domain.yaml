@@ -826,7 +826,6 @@
 - kernel/sofia3g
 - kernel/sofia-3gr
 - kernel/sofia-lte
-- prebuilts/gcc/linux-x86/x86/x86_64-linux-poky
 - vendor/intel/tools/kernel
 'Kernel iCDG':
 - kernel/sofia_garnet
@@ -890,6 +889,7 @@
 - hardware/intel/sensors
 - hardware/intel/sysctrl_daemon
 - icc
+- prebuilts/gcc/linux-x86/x86/x86_64-linux-poky
 - vendor/intel/apps/DataReport
 - vendor/intel/apps/DataReportSettings
 - vendor/intel/telemetry-client
