@@ -964,6 +964,7 @@
 - vendor/intel/fw/modem/IMC/7160_flashless
 - vendor/intel/fw/modem/IMC/7260_flashless
 - vendor/intel/fw/modem/IMC/7360_flashless
+- vendor/intel/fw/modem/IMC/sofia_lte
 - vendor/intel/hardware/modem_client
 - vendor/intel/hardware/telephony/IFX-modem
 - vendor/intel/hardware/telephony/Modem_Updater

@@ -104,6 +104,7 @@
     <project path="vendor/intel/fw/modem/IMC/7160_flashless" name="a/bsp/device/intel/fw/modem/IMC/7160_flashless" revision="android/master" spsId="60542" clone-depth="5"/>
     <project path="vendor/intel/fw/modem/IMC/7260_flashless" name="a/bsp/device/intel/fw/modem/IMC/7260_flashless" revision="android/master" clone-depth="5"/>
     <project path="vendor/intel/fw/modem/IMC/7360_flashless" name="a/bsp/vendor/intel/fw/modem/IMC/7360_flashless" revision="android/master" clone-depth="5"/>
+    <project path="vendor/intel/fw/modem/IMC/sofia_lte" name="a/bsp/vendor/intel/fw/modem/IMC/sofia_lte" revision="android/master" clone-depth="5"/>
     <project path="vendor/intel/fw/sst" name="a/bsp/device/intel/fw/sst" revision="android/master"/>
     <project path="vendor/intel/hardware/cg2k/3rdparty" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/3rdparty" revision="android/master"/>
     <project path="vendor/intel/hardware/cg2k/amil" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/amil" revision="android/master"/>
