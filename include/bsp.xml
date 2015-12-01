@@ -43,7 +43,6 @@
     <project path="hardware/intel/efi_prebuilts/gnu-efi" name="a/bsp/vendor/intel/external/efi/gnu-efi_prebuilt" revision="android/master"/>
     <project path="hardware/intel/gpu/mali-midgard_lib" name="a/bsp/hardware/intel/gpu/arm/mali-midgard_lib" revision="android/master" spsId="60539"/>
     <project path="hardware/intel/hald_media_hook" name="a/bsp/hardware/intel/PRIVATE/hald_media_hook" revision="android/master"/>
-    <project path="vendor/intel/energy_management/fg_algo" name="a/bsp/vendor/intel/hardware/energy_management/fg_algo" revision="android/master" />
     <project path="hardware/intel/intel-gpu-tools" name="a/bsp/platform/external/intel-gpu-tools" revision="android/master"/>
     <project path="hardware/intel/kernelflinger" name="a/bsp/hardware/intel/efi/kernelflinger" revision="android/master"/>
     <project path="hardware/intel/libbt-vendor-intel" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" revision="android/master" spsId="60549"/>

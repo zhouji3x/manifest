@@ -52,6 +52,7 @@
 - external/compiler-rt
 - external/conscrypt
 - external/crcalc
+- external/curl
 - external/deqp
 - external/dexmaker
 - external/dhcpcd
@@ -800,6 +801,7 @@
 - vendor/intel/hardware/libiha
 - vendor/intel/hardware/libsl
 'ICDG - Garnet' :
+- hardware/imc/pt_bt_daemon_garnet
 - vendor/intel/liboemcrypto/sofia_garnet
 - vendor/intel/rs_vectorizer_garnet
 'ISH':
@@ -847,14 +849,14 @@
 - hardware/intel/sofia_lte-osag/secure_vm
 - hardware/intel/sofia_lte-osag/soclib
 'OSAG - Garnet':
-- hardware/intel/garnet-mrd-3gr-sofia/bootsystems
-- hardware/intel/garnet-mrd-3gr-sofia/mobilevisor/guests
-- hardware/intel/garnet-mrd-3gr-sofia/mobilevisor/products
-- hardware/intel/garnet-mrd-3gr-sofia/mobilevisor/release
-- hardware/intel/garnet-mrd-3gr-sofia/mobilevisor/services
-- hardware/intel/garnet-mrd-3gr-sofia/modem
-- hardware/intel/garnet-mrd-3gr-sofia/secure_vm
-- hardware/intel/garnet-mrd-3gr-sofia/soclib
+- hardware/intel/garnet-3gr-sofia/bootsystems
+- hardware/intel/garnet-3gr-sofia/mobilevisor/guests
+- hardware/intel/garnet-3gr-sofia/mobilevisor/products
+- hardware/intel/garnet-3gr-sofia/mobilevisor/release
+- hardware/intel/garnet-3gr-sofia/mobilevisor/services
+- hardware/intel/garnet-3gr-sofia/modem
+- hardware/intel/garnet-3gr-sofia/secure_vm
+- hardware/intel/garnet-3gr-sofia/soclib
 'Perceptual Camera':
 - device/intel/mixins/groups/depth-camera/ds4
 - vendor/intel/camera/depth_extension
