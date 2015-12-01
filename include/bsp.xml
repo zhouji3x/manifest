@@ -159,6 +159,7 @@
     <project path="vendor/intel/tools/telephony_tools/telephony_test" name="a/bsp/vendor/intel/PRIVATE/telephony_test" revision="android/master"/>
     <project path="vendor/intel/ufo/gen7" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen7" revision="android/master" clone-depth="5"/>
     <project path="vendor/intel/ufo/gen8" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8" revision="android/master" clone-depth="5"/>
+    <project path="vendor/intel/ux_enhancement" name="a/bsp/vendor/intel/ux_enhancement" revision="android/master"/>
     <project path="vendor/silead/fw" name="a/bsp/vendor/silead/fw" revision="android/master"/>
     <project path="vendor/tools/Bluetooth/bt_trace_daemon" name="a/bsp/hardware/imc/bt_trace_daemon" revision="android/master" spsId="59051"/>
     <project path="vendor/tools/Bluetooth/bt_trace_manager" name="a/bsp/vendor/tools/Bluetooth/bt_trace_manager" revision="android/master" spsId="59060"/>
