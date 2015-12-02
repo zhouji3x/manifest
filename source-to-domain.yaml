@@ -671,19 +671,20 @@
 'Connectivity-ACP-WIFI':
 - device/intel/common/wlan
 - device/intel/common/wlan/iwlwifi
-- device/intel/mixins/groups/ipcs
 - device/intel/mixins/groups/passpoint
-- device/intel/mixins/groups/rocs
-- device/intel/mixins/groups/rservice
 - device/intel/mixins/groups/wlan
 - device/intel/mixins/groups/wlan/iwlwifi
-- modem/tools/ipcs
 - vendor/intel/apps/curl
 - vendor/intel/external/passpoint
-- vendor/intel/hardware/PRIVATE/rocs
-- vendor/intel/hardware/PRIVATE/rservice
 - vendor/intel/hardware/PRIVATE/WFA_Sigma_Agent
 - vendor/intel/hardware/utils
+'Connectivity-Manufacturing-Debug':
+- device/intel/mixins/groups/ipcs
+- device/intel/mixins/groups/rocs
+- device/intel/mixins/groups/rservice
+- modem/tools/ipcs
+- vendor/intel/hardware/PRIVATE/rocs
+- vendor/intel/hardware/PRIVATE/rservice
 'Connectivity-TPV-BT':
 - device/intel/mixins/groups/bluetooth/bcm43241
 - device/intel/mixins/groups/bluetooth/bcm43340

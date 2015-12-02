@@ -32,6 +32,8 @@ ldap//CN=OTC_SI_1A-Verif-Conn-ACP-NFC,OU=Rialto,OU=Application Managed,OU=Groups
 - 'Connectivity-ACP-NFC'
 ldap//CN=OTC_SI_1A-Verif-Conn-ACP-WIFI,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Connectivity-ACP-WIFI'
+ldap//CN=OTC_SI_1A-Verif-Conn-MFG-DBG,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-Manufacturing-Debug'
 ldap//CN=OTC_SI_1A-Verif-Conn-TPV-BT,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Connectivity-TPV-BT'
 ldap//CN=OTC_SI_1A-Verif-Conn-TPV-CellCoex,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
