@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!-- Google repositories they are separated from BSP to enable tracking the right AOSP branch -->
-    <project path="external/openssl" name="a/aosp/platform/external/openssl" groups="aosp,pdk"  revision="android/master" spsId="58692"/>
-    <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="aosp,embargoed" revision="android/master" clone-depth="1" spsId="59122"/>
-    <project path="vendor/widevine" name="a/aosp/platform/vendor/widevine" groups="aosp,embargoed" revision="android/master"/>
+	<!-- Google repositories no longer delivered in the actual releases -->
+    <project path="external/openssl" name="a/aosp/platform/external/openssl" groups="osna,pdk"  revision="android/master" spsId="58692"/>
+    <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" revision="android/master" clone-depth="1" spsId="59122"/>
+    <project path="vendor/widevine" name="a/aosp/platform/vendor/widevine" groups="embargoed,osna" revision="android/master"/>
 </manifest>
