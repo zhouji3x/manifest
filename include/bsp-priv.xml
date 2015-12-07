@@ -90,6 +90,11 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="hardware/intel/cam_lwa_mgr" name="a/bsp/hardware/intel/cam_lwa_mgr" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="hardware/intel/ecivs" name="a/bsp/hardware/intel/ecivs" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>

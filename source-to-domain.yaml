@@ -588,6 +588,7 @@
 - hardware/intel/sofia_lte-fls
 'CAM':
 - hardware/intel/cam
+- hardware/intel/cam_lwa_mgr
 - vendor/intel/apps/PRIVATE/strongswan
 - vendor/intel/apps/acn
 - vendor/intel/apps/bls
