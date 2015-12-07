@@ -405,11 +405,6 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/hardware/PRIVATE/libmintel_garnet" name="a/bsp/hardware/intel/libmintel_garnet" groups="bsp-priv,embargoed" revision="android/master">
-        <annotation name="g_external" value="no"/>
-        <annotation name="all_external" value="no"/>
-        <annotation name="bxt_rvp_external" value="no"/>
-    </project>
     <project path="vendor/intel/hardware/PRIVATE/WFA_Sigma_Agent" name="a/bsp/vendor/intel/PRIVATE/WFA_Sigma_Agent" groups="bsp-priv,embargoed" revision="android/master" spsId="60885">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>

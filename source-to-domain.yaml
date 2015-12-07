@@ -751,9 +751,7 @@
 - vendor/intel/tools/peeknpoke
 'Debug and Trace - Garnet':
 - vendor/intel/apps/PRIVATE/Kratos_garnet
-- vendor/intel/hardware/PRIVATE/libmintel_garnet
 - vendor/intel/tools/PRIVATE/debug_internal_tools_garnet
-- vendor/intel/tools/log_capture_garnet
 'DRM - Widevine':
 - vendor/intel/liboemcrypto/gen
 - vendor/widevine
