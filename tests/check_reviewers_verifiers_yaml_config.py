@@ -5,7 +5,7 @@ import shlex
 import subprocess
 import unittest
 import urllib2
-import yaml
+from manifest_xutils import yaml
 
 MAGIC_PREFIX = ")]}'"
 
@@ -20,7 +20,8 @@ class CheckVerifiersAndReviewers(object):
         users = {}
         for f in usersfiles:
             fn = os.path.join(os.path.dirname(__file__), "..", f)
-            allfileUsers = yaml.load(open(fn))
+            with open(fn) as opened_f:
+	        allfileUsers = yaml.load(opened_f.read(), Loader=yaml.OrderedMapAndDuplicateCheckLoader)
             for user in allfileUsers:
                 users.update({user: [allfileUsers[user], f]})
         return users
