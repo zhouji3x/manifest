@@ -620,6 +620,8 @@
 - vendor/intel/camera/libmfldadvci
 - vendor/intel/fw/camera
 - vendor/intel/fw/ipu4
+'Carrier':
+- vendor/intel/operator/CMCC
 'Connectivity-ACP-BT':
 - device/intel/common/bluetooth
 - device/intel/common/bluetooth/ag620

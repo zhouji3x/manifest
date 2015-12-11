@@ -141,7 +141,7 @@
     <project path="vendor/intel/houdini" name="a/bsp/device/intel/houdini" revision="android/master" spsId="59064"/>
     <project path="vendor/intel/libdmi" name="a/bsp/vendor/intel/libdmi" revision="android/master"/>
     <project path="vendor/intel/mediasdk_release" name="a/bsp/hardware/intel/PRIVATE/mediasdk_release" revision="android/master"/>
-<!-- <project path="vendor/intel/operator/CMCC" name="a/bsp/vendor/intel/operator/CMCC" revision="android/master"/> -->
+    <project path="vendor/intel/operator/CMCC" name="a/bsp/vendor/intel/operator/CMCC" revision="android/master"/>
     <project path="vendor/intel/pcg" name="a/bsp/vendor/intel/pcg" revision="android/master"/>
     <project path="vendor/intel/PRIVATE/codec_wma9" name="a/bsp/vendor/intel/PRIVATE/codec_wma9" revision="android/master"/>
     <project path="vendor/intel/PRIVATE/rtc" name="a/bsp/vendor/intel/PRIVATE/rtc" revision="android/master" spsId="60547"/>
