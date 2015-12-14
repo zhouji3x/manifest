@@ -2,7 +2,7 @@
 <!-- One_Android_Ring='2' -->
 <manifest>
 
-	<default revision="android/m/mr0/r2"
+	<default revision="android/m/mr1/r2"
            remote="origin"
            sync-c="true"
            sync-j="5" />
