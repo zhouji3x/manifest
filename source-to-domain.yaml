@@ -762,12 +762,12 @@
 - vendor/intel/liboemcrypto/sofia
 'Energy management':
 - external/thermal_daemon
+- hardware/intel/em_common
 - hardware/intel/lights
 - vendor/intel/apps/ituxd
 - vendor/intel/apps/thermal_lite
 - vendor/intel/dptf
 - vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon
-- vendor/intel/hardware/em_common
 - vendor/intel/hardware/healthd
 'Energy management - Garnet':
 - external/thermal_daemon_garnet

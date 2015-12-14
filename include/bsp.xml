@@ -41,6 +41,7 @@
     <project path="hardware/intel/crm" name="a/bsp/hardware/intel/crm" revision="android/master"/>
     <project path="hardware/intel/display/libmemtrack" name="a/bsp/hardware/intel/display/libmemtrack" revision="android/master"/>
     <project path="hardware/intel/efi_prebuilts/gnu-efi" name="a/bsp/vendor/intel/external/efi/gnu-efi_prebuilt" revision="android/master"/>
+    <project path="hardware/intel/em_common" name="a/bsp/vendor/intel/hardware/em_common" revision="android/master"/>
     <project path="hardware/intel/gpu/mali-midgard_lib" name="a/bsp/hardware/intel/gpu/arm/mali-midgard_lib" revision="android/master" spsId="60539"/>
     <project path="hardware/intel/hald_media_hook" name="a/bsp/hardware/intel/PRIVATE/hald_media_hook" revision="android/master"/>
     <project path="hardware/intel/intel-gpu-tools" name="a/bsp/platform/external/intel-gpu-tools" revision="android/master"/>
@@ -112,7 +113,6 @@
     <project path="vendor/intel/hardware/cg2k/gnss/core" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnss/core" revision="android/master"/>
     <project path="vendor/intel/hardware/cg2k/gnssExe" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnssExe" revision="android/master"/>
     <project path="vendor/intel/hardware/cg2k/gnss/supl" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnss/supl" revision="android/master"/>
-    <project path="vendor/intel/hardware/em_common" name="a/bsp/vendor/intel/hardware/em_common" revision="android/master"/>
     <project path="vendor/intel/hardware/fmr" name="a/bsp/vendor/intel/hardware/PRIVATE/fmr_usc" revision="android/master"/>
     <project path="vendor/intel/hardware/healthd" name="a/bsp/vendor/intel/hardware/healthd" revision="android/master"/>
     <project path="vendor/intel/hardware/iio-sensors" name="a/bsp/vendor/intel/iio-sensors" revision="android/master"/>
