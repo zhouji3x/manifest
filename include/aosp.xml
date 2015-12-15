@@ -418,8 +418,5 @@
   <project groups="aosp,pdk" name="a/aosp/platform/system/vold" path="system/vold" />
   <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/build" path="tools/build" />
   <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/swt" path="tools/swt" />
-
-<!-- not part of M AOSP, retaind for now with their L versions -->
-  <project path="external/stlport" name="a/aosp/platform/external/stlport" groups="aosp,pdk" />
 <!-- END open-source projects -->
 </manifest>
