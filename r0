@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<default revision="android/m/mr0/r0"
+	<default revision="android/m/mr1/r0"
            remote="origin"
            sync-c="true"
            sync-j="5" />

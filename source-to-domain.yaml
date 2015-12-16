@@ -22,6 +22,10 @@
 - device/generic/x86
 - device/generic/x86_64
 - device/google/atv
+- device/huawei/angler
+- device/huawei/angler-kernel
+- device/lge/bullhead
+- device/lge/bullhead-kernel
 - device/lge/hammerhead
 - device/lge/hammerhead-kernel
 - device/sample
@@ -341,6 +345,7 @@
 - hardware/qcom/gps
 - hardware/qcom/keymaster
 - hardware/qcom/media
+- hardware/qcom/msm8994
 - hardware/qcom/msm8x74
 - hardware/qcom/power
 - hardware/qcom/sensors

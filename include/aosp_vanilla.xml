@@ -3,6 +3,8 @@
 
 <!-- BEGIN open-source projects -->
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/device/common"  path="device/common"/>
+  <project groups="aosp,device,bullhead" name="a/aosp/device/lge/bullhead" path="device/lge/bullhead" />
+  <project groups="aosp,device,bullhead" name="a/aosp/device/lge/bullhead-kernel" path="device/lge/bullhead-kernel" />
   <project groups="aosp,pdk" name="a/aosp/device/generic/arm64"  path="device/generic/arm64"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/armv7-a-neon"  path="device/generic/armv7-a-neon"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/common"  path="device/generic/common"/>
@@ -17,6 +19,8 @@
   <project groups="aosp,pdk" name="a/aosp/device/generic/x86"  path="device/generic/x86"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/x86_64"  path="device/generic/x86_64"/>
   <project groups="aosp,device,fugu,pdk-fs" name="a/aosp/device/google/atv"  path="device/google/atv" />
+  <project groups="aosp,device,angler,broadcom_pdk" name="a/aosp/device/huawei/angler" path="device/huawei/angler" />
+  <project groups="aosp,device,angler,broadcom_pdk" name="a/aosp/device/huawei/angler-kernel" path="device/huawei/angler-kernel" />
   <project groups="aosp,device,hammerhead,pdk-fs" name="a/aosp/device/lge/hammerhead"  path="device/lge/hammerhead" />
   <project groups="aosp,device,hammerhead,pdk-fs" name="a/aosp/device/lge/hammerhead-kernel"  path="device/lge/hammerhead-kernel"/>
   <project groups="aosp,pdk" name="a/aosp/device/sample"  path="device/sample"/>
@@ -85,6 +89,7 @@
   <project groups="aosp,pdk-fs" name="a/aosp/platform/external/fonttools" path="external/fonttools" />
   <project groups="aosp,pdk" name="a/aosp/platform/external/freetype" path="external/freetype" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/fsck_msdos" path="external/fsck_msdos" />
+  <project groups="aosp,qcom_msm8994" name="a/aosp/platform/hardware/qcom/msm8994" path="hardware/qcom/msm8994" />
   <project groups="aosp,pdk,qcom_msm8x26" name="a/aosp/platform/external/giflib" path="external/giflib" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/external/glide" path="external/glide" />
   <project groups="aosp,dragon" name="a/aosp/platform/external/google-breakpad" path="external/google-breakpad" />
