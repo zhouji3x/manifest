@@ -101,6 +101,7 @@
     <!-- 3rd party components-->
     <project path="hardware/intel/sofia_lte-osag/external/3p_oss_zlib" name="a/vendor/intel/imc/modem/external/3p_oss_zlib" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="48073"/>
     <project path="hardware/intel/sofia_lte-osag/external/3p_oss_ipsec" name="a/vendor/intel/imc/modem/external/3p_oss_ipsec" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="52310"/>
+    <project path="hardware/intel/sofia_lte-osag/external/3p_threadx_garnet" name="a/vendor/intel/imc/modem/external/3p_threadx_garnet" groups="bsp-priv,embargoed,notdefault" revision="android/master" clone-depth="1"/>
     <project path="hardware/intel/sofia_lte-osag/external/3p_threadx_x86" name="a/vendor/intel/imc/modem/external/3p_threadx_x86" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="57827"/>
     <project path="hardware/intel/sofia_lte-osag/external/3p_threadx" name="a/vendor/intel/imc/modem/external/3p_threadx" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="48041"/>
     <project path="hardware/intel/sofia_lte-osag/external/3p_usb_ems" name="a/vendor/intel/imc/modem/external/3p_usb_ems" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="45134"/>

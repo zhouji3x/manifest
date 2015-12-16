@@ -859,6 +859,7 @@
 - hardware/intel/garnet-3gr-sofia/modem
 - hardware/intel/garnet-3gr-sofia/secure_vm
 - hardware/intel/garnet-3gr-sofia/soclib
+- hardware/intel/sofia_lte-osag/external/3p_threadx_garnet
 'Perceptual Camera':
 - device/intel/mixins/groups/depth-camera/ds4
 - vendor/intel/camera/depth_extension
