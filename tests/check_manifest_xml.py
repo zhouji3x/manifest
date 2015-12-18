@@ -32,8 +32,39 @@ class CheckManifestSrcPath(object):
                     print "error in file : >%s< may be project have no path ?" %(manifest)
 
 class CheckManifestXML(object):
-
     EXTERNAL_ANNOTATIONS_ALLOWED = ["no", "src", "bin"]
+
+    def _ParseManifestXml(self, path, include_root):
+        root = xml.dom.minidom.parse(path)
+        if not root or not root.childNodes:
+            raise ManifestParseError("no root node in %s" % (path,))
+
+        manifests_nodes = root.getElementsByTagName("manifest")
+        if not manifests_nodes:
+            raise ManifestParseError("no <manifest> in %s" % (path,))
+
+        config = manifests_nodes[0]
+        nodes = []
+        for node in config.childNodes:
+            if node.nodeName == 'include':
+                name = self._reqatt(node, 'name')
+                fp = os.path.join(include_root, name)
+                if not os.path.isfile(fp):
+                    raise ManifestParseError, \
+                        "include %s doesn't exist or isn't a file" % \
+                        (name,)
+                try:
+                    nodes.extend(self._ParseManifestXml(fp, include_root))
+                # should isolate this to the exact exception, but that's
+                # tricky.  actual parsing implementation may vary.
+                except (KeyboardInterrupt, RuntimeError, SystemExit):
+                    raise
+                except Exception, e:
+                    raise ManifestParseError(
+                        "failed parsing included manifest %s: %s", (name, e))
+            else:
+              nodes.append(node)
+        return nodes
 
     def manifestsToCheck(self):
         """ returns the list of .xml files in include folder """
@@ -54,6 +85,36 @@ class CheckManifestXML(object):
                   if filename.endswith(".xml"):
                     manifests.append(os.path.join(directory_to_scan,filename))
            except OSError:
+               print "\nimpossible to access directory >>%s<<\n" % (directory_to_scan)
+        return manifests
+
+    def checkManifestAgainstDtd(self, manifest, dtd):
+        """ check that manifest comply with the DTD (Document Type Definition) """
+        print "\nChecking %s manifest" % (manifest,)
+        manifest_tree = etree.parse(manifest)
+        dtd.assertValid(manifest_tree)
+
+    def checkAllManifestsAgainstDtd(self):
+        """ check that all manifests comply with the DTD (Document Type Definition) """
+        dtd = etree.DTD(_findManifestDtd())
+        for manifest in self.manifestsToCheck():
+            self.checkManifestAgainstDtd(manifest, dtd)
+
+    def externalCustomersFromYaml(self, customers_to_project_groups):
+        """ return the list of external customers in customers_to_project_groups.yaml """
+        external_customers = customers_to_project_groups["external_customers"]
+        external_customers = [external_customers[customer]["short_name"] for customer in external_customers]
+        # append _external to match annotation syntax
+        return [customer + "_external" for customer in external_customers]
+
+    def checkManifestExternalAnnotation(self, manifest, customers_to_project_groups):
+
+        def _check_identical_sets(a, b, error_msg):
+            delta = set(a) - set(b)
+            if delta:
+                raise ValueError(error_msg + ": %s" % (list(delta),))
+
+        """ check consistency between external annotations in manifest and customer yaml file """
                print "\nimpossible to access directory >>%s<<\n" % (directory_to_scan)
         return manifests
 
@@ -244,33 +305,3 @@ class TestCheckManifestXML(unittest.TestCase):
     def testCheckManifestManifestGenericCustomerAnnotationToSrc(self):
         manifest = os.path.join(os.path.dirname(__file__),
                                 "test_db",
-                                "manifestGenericCustomerAnnotationToSrc.xml")
-        self.oneTestCheckManifestManifestWrongAnnotationValue(
-            manifest, ValueError(),
-            "['g_external'] annotation must be set to 'src' for "
-            "my/path/to/projectB project")
-
-    def testCheckManifestManifestGenericCustomerAnnotationToBinAndSrc(self):
-        manifest = os.path.join(os.path.dirname(__file__),
-                                "test_db",
-                                "manifestGenericCustomerAnnotationToBinAndSrc.xml")
-        self.oneTestCheckManifestManifestWrongAnnotationValue(
-            manifest, ValueError(),
-            "['g_external'] annotation must be set to 'bin' for "
-            "my/path/to/projectB project")
-
-    def testAllManifestsAgainstDtd(self):
-        c = CheckManifestXML()
-        c.checkAllManifestsAgainstDtd()
-
-    def testCheckAllPrivateManifestsExternalAnnotation(self):
-        c = CheckManifestXML()
-        #c.checkAllPrivateManifestsExternalAnnotation()
-
-
-def main():
-    suite = unittest.TestLoader().loadTestsFromTestCase(TestCheckManifestXML)
-    unittest.TextTestRunner(verbosity=2).run(suite)
-
-if __name__ == "__main__":
-    main()

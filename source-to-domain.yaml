@@ -585,7 +585,6 @@
 - vendor/intel/apps/fota
 'BOOT - OTA - GOTA SoFia':
 - hardware/intel/mrd-3gr-sofia/bootsystems
-- hardware/intel/sofia_lte-fls
 'CAM':
 - hardware/intel/cam
 - hardware/intel/cam_lwa_mgr
@@ -837,6 +836,7 @@
 'Manifest':
 - manifests
 'OSAG':
+- hardware/intel/sofia_lte-fls
 - hardware/intel/sofia_lte-osag/bootsystems
 - hardware/intel/sofia_lte-osag/external/3p_oss_ipsec
 - hardware/intel/sofia_lte-osag/external/3p_oss_zlib
