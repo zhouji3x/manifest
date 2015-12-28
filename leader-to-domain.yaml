@@ -1,5 +1,7 @@
 ajit.joshi@intel.com:
 - 'WiDi'
+alice.liu@intel.com:
+- 'Energy management'
 amber.jain@intel.com:
 - 'GFX / Display Mali'
 - 'GFX / Mali - ARM'
@@ -175,8 +177,6 @@ prajwal.karur.mohan@intel.com:
 - 'Platform GoldSand'
 - 'Platform SoFia 3GR'
 - 'Platform SoFia LTE'
-radivoje.jovanovic@intel.com:
-- 'Energy management'
 raghavendra.kudva.padubidri@intel.com:
 - 'GFX / Display Mali'
 - 'GFX / Mali - ARM'
