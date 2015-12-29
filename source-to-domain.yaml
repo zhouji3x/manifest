@@ -126,6 +126,7 @@
 - external/libcap-ng
 - external/libcxx
 - external/libcxxabi
+- external/libdrm
 - external/libedit
 - external/libexif
 - external/libgsm
@@ -191,6 +192,7 @@
 - external/openssh
 - external/openssl
 - external/owasp/sanitizer
+- external/parameter-framework
 - external/pcre
 - external/pdfium
 - external/ppp
@@ -857,15 +859,7 @@
 - hardware/intel/sofia_lte-osag/secure_vm
 - hardware/intel/sofia_lte-osag/soclib
 'OSAG - Garnet':
-- hardware/intel/garnet-3gr-sofia/bootsystems
-- hardware/intel/garnet-3gr-sofia/mobilevisor/guests
-- hardware/intel/garnet-3gr-sofia/mobilevisor/products
-- hardware/intel/garnet-3gr-sofia/mobilevisor/release
-- hardware/intel/garnet-3gr-sofia/mobilevisor/services
-- hardware/intel/garnet-3gr-sofia/modem
-- hardware/intel/garnet-3gr-sofia/secure_vm
-- hardware/intel/garnet-3gr-sofia/soclib
-- hardware/intel/sofia_lte-osag/external/3p_threadx_garnet
+- hardware/intel/mrd-3gr-sofia/external/3p_threadx
 'Perceptual Camera':
 - device/intel/mixins/groups/depth-camera/ds4
 - vendor/intel/camera/depth_extension
@@ -896,7 +890,6 @@
 - external/pystache
 - external/sbsigntool
 - hardware/intel/codecs
-- hardware/intel/mrd-3gr-sofia/lpmp3_vm
 - hardware/intel/sensors
 - hardware/intel/sysctrl_daemon
 - icc
