@@ -566,6 +566,8 @@
 - device/intel/build/generate_blpolicy_oemvars
 - device/intel/build/ota-test-prepare
 - device/intel/build/ota-test-secureboot
+- device/intel/coho/coho_edu/flashfiles.json
+- device/intel/coho/flashfiles.json
 - device/intel/common/action-authorization
 - device/intel/common/efiprop
 - device/intel/common/recovery
@@ -579,6 +581,18 @@
 - device/intel/mixins/groups/flashfiles-content
 - device/intel/mixins/groups/flashfiles-oem
 - device/intel/mixins/groups/manufacturing-data
+- device/intel/sofia_lte/r2_sltmrdV12/flashfiles_fls.json
+- device/intel/sofia_lte/r2_sltmrdV34/flashfiles_fls.json
+- device/intel/sofia_lte/r2_sltsvbV12/flashfiles_fls.json
+- device/intel/sofia_lte/r2_sltsvbV34/flashfiles_fls.json
+- device/intel/sofia_lte/sltmrdV12/flashfiles_fls.json
+- device/intel/sofia_lte/sltmrdV34/flashfiles_fls.json
+- device/intel/sofia_lte/sltsvbV12/flashfiles_fls.json
+- device/intel/sofia_lte/sltsvbV34/flashfiles_fls.json
+- device/intel/sofia3gr/Sf3gr_sr_garnet/flashfiles_fls.json
+- device/intel/sofia3gr/s3gr10m6s/flashfiles_fls.json
+- device/intel/sofia3gr/s3gr20m6s/flashfiles_fls.json
+- device/quanta/sofia_lte/sltquanta/flashfiles_fls.json
 - external/dosfstools
 - external/efibootmgr
 - external/efitools
