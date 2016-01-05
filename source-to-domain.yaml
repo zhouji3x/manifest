@@ -843,6 +843,7 @@
 - kernel/modules/gnss
 - kernel/modules/intel_fm
 - kernel/modules/intel_ld
+- kernel/modules/iosm
 - kernel/modules/perftools-external
 - kernel/modules/perftools-internal
 - kernel/modules/realtek
