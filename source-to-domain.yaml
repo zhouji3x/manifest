@@ -816,8 +816,6 @@
 - hardware/intel/gpu/mali-midgard_lib
 'GFX / Mali - DP500 - SRC':
 - hardware/intel/display/arm/mali-dp500_lib
-'GFX / Mali - Garnet':
-- vendor/PRIVATE/rockchip_garnet
 'Intel Security differentiation' :
 - vendor/intel/apps/security_assist
 - vendor/intel/hardware/libaesni

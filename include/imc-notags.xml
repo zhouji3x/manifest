@@ -7,7 +7,6 @@
     <project path="hardware/imc/ril" name="a/bsp/hardware/imc/ril" revision="android/master" spsId="59048"/>
     <project path="hardware/imc/rpc" name="a/bsp/hardware/imc/rpc" revision="android/master" spsId="59049"/>
     <project path="vendor/PRIVATE/rockchip" name="a/bsp/vendor/PRIVATE/rockchip" revision="android/master"/>
-    <project path="vendor/PRIVATE/rockchip_garnet" name="a/bsp/vendor/PRIVATE/rockchip_garnet" revision="android/master"/>
     <project path="hardware/intel/vpu/verisilicon" name="a/bsp/hardware/intel/vpu/verisilicon" revision="android/master"/>
     <project path="hardware/intel/libnvmmodule" name="a/bsp/hardware/intel/libnvmmodule" revision="android/master"/>
     <project path="vendor/intel/hardware/telephony/imsservices" name="a/bsp/vendor/intel/PRIVATE/imsservices" revision="android/master"/>
