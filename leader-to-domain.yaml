@@ -2,6 +2,13 @@ ajit.joshi@intel.com:
 - 'WiDi'
 alice.liu@intel.com:
 - 'Energy management'
+alwin.mathew@intel.com:
+- 'Platform Baytrail'
+- 'Platform BIOS'
+- 'Platform Broxton'
+- 'Platform Config'
+- 'Platform GoldSand'
+- 'Platform SoFia 3GR'
 amber.jain@intel.com:
 - 'GFX / Display Mali'
 - 'GFX / Mali - ARM'
@@ -31,6 +38,8 @@ bingquan.hu@intel.com:
 binu.r.s@intel.com:
 - 'GFX / Display Mali'
 - 'GFX / Mali - DP500 - SRC'
+bo.he@intel.com:
+- 'Platform SoFia LTE'
 brad.geltz@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'BOOT - OTA - GOTA SoFia'
@@ -59,6 +68,11 @@ christophe.chauvin@intel.com:
 - 'Kernel iCDG'
 christophe.continente@intel.com:
 - 'OSAG - Garnet'
+- 'Platform BIOS'
+- 'Platform Broxton'
+- 'Platform CherryTrail'
+- 'Platform SoFia 3GR'
+- 'Platform SoFia LTE'
 christophe.guerard@intel.com:
 - 'Debug and Trace'
 cindy.xie@intel.com:
@@ -67,20 +81,22 @@ cindy.xie@intel.com:
 - 'Debug and Trace - Garnet'
 - 'Energy management - Garnet'
 cyrille.bezard-falgas@intel.com:
+- 'Platform Config'
+dave.lin@intel.com:
 - 'Platform Baytrail'
 - 'Platform BIOS'
-- 'Platform Broxton'
-- 'Platform CherryTrail'
 - 'Platform Config'
-- 'Platform GoldSand'
 - 'Platform SoFia 3GR'
-- 'Platform SoFia LTE'
+di.zhang@intel.com:
+- 'Platform SoFia 3GR'
 dong-yuan.chen@intel.com:
 - 'Art'
 eike.grimpe@intel.com:
 - 'Camera - Imaging'
 eman.copty@intel.com:
 - 'Perceptual Camera'
+eric.r.li@intel.com:
+- 'Platform BIOS'
 eugene.epshteyn@intel.com:
 - 'DRM - Widevine'
 - 'DRM - Widevine SoFia'
@@ -136,6 +152,8 @@ linda.s.cline@intel.com:
 - 'Video Conferencing'
 loyola.pitchai@intel.com:
 - 'Intel Security differentiation'
+luis.amezcua@intel.com:
+- 'Platform CherryTrail'
 marius.m.archip@intel.com:
 - 'SoFia LTE Debug & Trace'
 markus.lehmann@intel.com:
@@ -155,6 +173,7 @@ mikael.persson@intel.com:
 - 'Camera - Imaging'
 nicolas.heckmann@intel.com:
 - 'OSAG'
+- 'Platform SoFia LTE'
 nitheesh.k.l@intel.com:
 - 'Art'
 niveditha.sundaram@intel.com:
@@ -163,18 +182,11 @@ noor.u.mubeen@intel.com:
 - 'Energy management'
 octavian.purdila@intel.com:
 - 'Scaling'
+olivier.carpentier@intel.com:
+- 'Platform BIOS'
 paul.asterland@intel.com:
 - 'Audio Common'
 - 'Video Gen'
-prajwal.karur.mohan@intel.com:
-- 'Platform Baytrail'
-- 'Platform BIOS'
-- 'Platform Broxton'
-- 'Platform CherryTrail'
-- 'Platform Config'
-- 'Platform GoldSand'
-- 'Platform SoFia 3GR'
-- 'Platform SoFia LTE'
 raghavendra.kudva.padubidri@intel.com:
 - 'GFX / Display Mali'
 - 'GFX / Mali - ARM'
@@ -188,6 +200,8 @@ russell.webb@intel.com:
 - 'Security Middleware'
 samuel.ortiz@intel.com:
 - 'Auto_Detection'
+sundar.iyer@intel.com:
+- 'Platform GoldSand'
 sylvain.centelles@intel.com:
 - 'Audio Trail'
 sylvestre.dischamp@intel.com:
