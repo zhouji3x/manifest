@@ -832,7 +832,6 @@
 'Kernel':
 - kernel/bxt
 - kernel/cht
-- kernel/coho
 - kernel/gmin-dev
 - kernel/gmin-quilt-representation
 - kernel/gsd
@@ -881,9 +880,6 @@
 - vendor/intel/tools/ds4_tools
 'Platform Baytrail':
 - device/intel/baytrail
-- device/intel/coho
-- device/intel/coho-kernel
-- vendor/intel/coho
 'Platform BIOS':
 - hardware/intel/efi_capsules
 'Platform Broxton':
