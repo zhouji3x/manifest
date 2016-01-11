@@ -883,11 +883,8 @@
 - hardware/intel/efi_capsules
 'Platform Broxton':
 - device/intel/broxton
-- device/intel/bxt-kernel
-- device/intel/gmin-kernel-dev
 'Platform CherryTrail':
 - device/intel/cherrytrail
-- device/intel/cht-kernel
 'Platform Config':
 - device/intel/binarydownloader
 - device/intel/build
@@ -913,11 +910,10 @@
 - device/intel/goldsand
 'Platform SoFia 3GR':
 - device/intel/cohos3gr
-- device/intel/sofia3g-kernel
 - device/intel/sofia3gr
 'Platform SoFia LTE':
 - device/intel/sofia_lte
-- device/intel/sofia_lte-kernel
+- device/intel-imc
 - device/quanta/sofia_lte
 'Power Management':
 - hardware/intel/power

@@ -3,10 +3,7 @@
     <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" revision="android/master"/>
     <project path="device/intel/baytrail" name="a/bsp/vendor/intel/baytrail" revision="android/master"/>
     <project path="device/intel/build" name="a/bsp/vendor/intel/build" revision="android/master"/>
-    <project path="device/intel/bxt-kernel" name="a/bsp/device/intel/bxt-kernel" revision="android/master" clone-depth="1"/>
-    <project path="device/intel/cht-kernel" name="a/bsp/device/intel/cht-kernel" revision="android/master" clone-depth="1"/>
     <project path="device/intel/common" name="a/bsp/vendor/intel/common" revision="android/master"/>
-    <project path="device/intel/sofia_lte-kernel" name="a/bsp/device/intel/sofia_lte-kernel" revision="android/master" clone-depth="1"/>
     <project path="external/alac" name="a/bsp/external/alac" revision="android/master"/>
     <project path="external/bluetooth/hcitools" name="a/bsp/platform/external/bluetooth/hcitools" revision="android/master"/>
     <project path="external/bluetooth/libbt-vendor-linux" name="a/bsp/platform/external/bluetooth/libbt-vendor-linux" revision="android/master"/>

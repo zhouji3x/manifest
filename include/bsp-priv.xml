@@ -50,11 +50,6 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-	<project path="device/intel/sofia3g-kernel" name="a/bsp/device/intel/sofia3g-kernel" groups="bsp-priv,embargoed" revision="android/master" clone-depth="1">
-        <annotation name="g_external" value="no"/>
-        <annotation name="all_external" value="no"/>
-        <annotation name="bxt_rvp_external" value="no"/>
-    </project>
     <project path="device/intel/sofia_lte" name="a/bsp/device/intel/sofialte" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
@@ -559,11 +554,6 @@
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
     <project path="kernel/modules/perftools-internal" name="a/bsp/kernel/modules/perftools-internal" groups="bsp-priv,embargoed,kernel-src" revision="android/master">
-        <annotation name="g_external" value="no"/>
-        <annotation name="all_external" value="no"/>
-        <annotation name="bxt_rvp_external" value="no"/>
-    </project>
-    <project path="device/intel/gmin-kernel-dev" name="a/bsp/device/intel/gmin-kernel-dev" groups="bsp-priv,embargoed" clone-depth="1" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
