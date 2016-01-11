@@ -24,41 +24,7 @@
     <project path="hardware/intel/audio/imc/libaudio_hal_garnet" name="a/bsp/hardware/intel/libaudio_hal_garnet" revision="android/master"/>
     <project path="hardware/intel/sensors" name="a/bsp/hardware/intel/sensors" revision="android/master" spsId="62159"/>
     <project path="hardware/intel/sysctrl_daemon" name="a/bsp/hardware/intel/sysctrl_daemon" revision="android/master" spsId="62140"/>
-    <project path="vendor/intel/PRIVATE/embms" name="a/bsp/vendor/intel/PRIVATE/embms" groups="bsp-priv,embargoed,expway_bin,notdefault" restricted="expway_bin" revision="android/master" spsId="60436"/>
     <project path="hardware/intel/display/arm/mali-dp500_lib" name="a/bsp/hardware/intel/display/arm/mali-dp500_lib" revision="android/master" groups="imc" spsId="60576"/>
     <project path="vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon" name="a/bsp/vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon" revision="android/master" groups="imc" spsId="61009"/>
 
-    <!-- SoFIA LTE OS agnostics bits -->
-    <!-- modem -->
-    <project path="hardware/intel/sofia_lte-osag/modem" name="a/vendor/intel/imc/modem/modem" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="55575">
-        <copyfile dest="hardware/intel/sofia_lte-osag/Android.mk" src="uta_sys_test/make/cat_sys_test.mk"/>
-    </project>
-
-    <!-- Platform sw -->
-    <project path="hardware/intel/sofia_lte-osag/platform_sw/infra_layer" name="a/vendor/intel/imc/modem/infra_layer" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1"/>
-
-    <!-- Secure VM -->
-    <project path="hardware/intel/sofia_lte-osag/secure_vm" name="a/bsp/secure_vm" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="59074"/>
-
-    <!-- Soclib -->
-    <project path="hardware/intel/sofia_lte-osag/soclib" name="a/bsp/soclib" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="59073"/>
-
-    <!-- Mobilevisor -->
-    <project path="hardware/intel/sofia_lte-osag/mobilevisor/release" name="a/bsp/mobilevisor/release" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master"  clone-depth="1" spsId="59069"/>
-    <project path="hardware/intel/sofia_lte-osag/mobilevisor/services" name="a/bsp/mobilevisor/pal" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master"  clone-depth="1" spsId="59070"/>
-    <project path="hardware/intel/sofia_lte-osag/mobilevisor/guests" name="a/bsp/mobilevisor/guests" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master"  clone-depth="1" spsId="59071"/>
-    <project path="hardware/intel/sofia_lte-osag/mobilevisor/products" name="a/bsp/mobilevisor/products" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master"  clone-depth="1" spsId="59072"/>
-
-    <!-- BootSystems-->
-    <project path="hardware/intel/sofia_lte-osag/bootsystems" name="a/bsp/bootsystems" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="59120"/>
-
-    <!-- 3rd party components-->
-    <project path="hardware/intel/sofia_lte-osag/external/3p_oss_zlib" name="a/vendor/intel/imc/modem/external/3p_oss_zlib" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="48073"/>
-    <project path="hardware/intel/sofia_lte-osag/external/3p_oss_ipsec" name="a/vendor/intel/imc/modem/external/3p_oss_ipsec" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="52310"/>
-    <project path="hardware/intel/mrd-3gr-sofia/external/3p_threadx" name="a/vendor/intel/imc/modem/external/3p_threadx_garnet" groups="bsp-priv,embargoed,notdefault" revision="android/master" clone-depth="1"/>
-    <project path="hardware/intel/sofia_lte-osag/external/3p_threadx_x86" name="a/vendor/intel/imc/modem/external/3p_threadx_x86" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="57827"/>
-    <project path="hardware/intel/sofia_lte-osag/external/3p_threadx" name="a/vendor/intel/imc/modem/external/3p_threadx" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="48041"/>
-    <project path="hardware/intel/sofia_lte-osag/external/3p_usb_ems" name="a/vendor/intel/imc/modem/external/3p_usb_ems" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="45134"/>
-
 </manifest>
-
