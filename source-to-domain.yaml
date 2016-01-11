@@ -516,7 +516,6 @@
 - device/intel/cherrytrail/cht_ffdre/audio
 - device/intel/cherrytrail/cht_hr/audio
 - device/intel/cherrytrail/cht_rvp/audio
-- device/intel/coho/audio
 - device/intel/common/config_min/parameter-framework
 - external/parameter-framework/core
 - external/parameter-framework/plugins/alsa
@@ -566,8 +565,6 @@
 - device/intel/build/generate_blpolicy_oemvars
 - device/intel/build/ota-test-prepare
 - device/intel/build/ota-test-secureboot
-- device/intel/coho/coho_edu/flashfiles.json
-- device/intel/coho/flashfiles.json
 - device/intel/common/action-authorization
 - device/intel/common/efiprop
 - device/intel/common/recovery
