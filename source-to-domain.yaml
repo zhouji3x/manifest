@@ -852,6 +852,7 @@
 'Manifest':
 - manifests
 'OSAG':
+- device/intel-imc
 - hardware/intel/sofia_lte-fls
 - hardware/intel/sofia_lte-osag/bootsystems
 - hardware/intel/sofia_lte-osag/external/3p_oss_ipsec
@@ -916,7 +917,6 @@
 'Platform SoFia LTE':
 - device/intel/sofia_lte
 - device/intel/sofia_lte-kernel
-- device/intel-imc
 - device/quanta/sofia_lte
 'Power Management':
 - hardware/intel/power
