@@ -102,7 +102,12 @@
     </project>
 
     <!-- 3rd party components-->
-    <project path="hardware/intel/sofia_lte-osag/external/3p_oss_zlib" name="a/vendor/intel/imc/modem/external/3p_oss_zlib" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="48073">
+    <project path="hardware/intel/mrd-3gr-sofia/external/3p_threadx" name="a/vendor/intel/imc/modem/external/3p_threadx_garnet" groups="bsp-priv,embargoed,notdefault" revision="android/master" clone-depth="1">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <project path="hardware/intel/sofia_lte-osag/external/3p_oss_boringssl" name="a/vendor/intel/imc/modem/external/3p_oss_boringssl" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" spsId="64879">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -112,7 +117,7 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/mrd-3gr-sofia/external/3p_threadx" name="a/vendor/intel/imc/modem/external/3p_threadx_garnet" groups="bsp-priv,embargoed,notdefault" revision="android/master" clone-depth="1">
+    <project path="hardware/intel/sofia_lte-osag/external/3p_oss_zlib" name="a/vendor/intel/imc/modem/external/3p_oss_zlib" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="48073">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>

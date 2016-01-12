@@ -855,6 +855,7 @@
 - device/intel-imc
 - hardware/intel/sofia_lte-fls
 - hardware/intel/sofia_lte-osag/bootsystems
+- hardware/intel/sofia_lte-osag/external/3p_oss_boringssl
 - hardware/intel/sofia_lte-osag/external/3p_oss_ipsec
 - hardware/intel/sofia_lte-osag/external/3p_oss_zlib
 - hardware/intel/sofia_lte-osag/external/3p_threadx
