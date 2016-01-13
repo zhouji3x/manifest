@@ -111,8 +111,6 @@ guilhem.imberton@intel.com:
 - 'OSAG'
 hang.l.sun@intel.com:
 - 'WiDi'
-hatem.oueslati@intel.com:
-- 'Telephony'
 herbert.sereda@intel.com:
 - 'Video Verisilicon - SRC'
 jacques.bourhis@intel.com:
@@ -131,7 +129,6 @@ jacques.bourhis@intel.com:
 - 'Connectivity-TPV-NFC'
 - 'Connectivity-TPV-WIFI'
 - 'Connectivity-WLAN-Core'
-- 'Telephony'
 jeremy.compostella@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'BOOT - OTA - GOTA SoFia'

@@ -913,7 +913,6 @@
 - device/intel/sofia3gr
 'Platform SoFia LTE':
 - device/intel/sofia_lte
-- device/intel-imc
 - device/quanta/sofia_lte
 'Power Management':
 - hardware/intel/power
