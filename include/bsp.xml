@@ -31,8 +31,6 @@
     <project path="external/v4l2rds" name="a/bsp/vendor/intel/v4l2rds" revision="android/master" spsId="59085"/>
     <project path="hardware/broadcom/bcm_gps" name="a/bsp/hardware/intel/bcm_gps" revision="android/master"/>
     <project path="hardware/imc/gnss" name="a/bsp/gnss/lbs" revision="android/master"/>
-    <project path="hardware/imc/pt_bt_daemon" name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon" revision="android/master" spsId="59052"/>
-    <project path="hardware/imc/pt_bt_daemon_garnet" name="a/bsp/hardware/imc/ipcservice/pt_bt_daemon_garnet" revision="android/master"/>
     <project path="hardware/intel/audio/coe/hdmi" name="a/bsp/vendor/intel/hardware/audio_media" revision="android/master"/>
     <project path="hardware/intel/bluedroid" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/bluedroid" revision="android/master" spsId="60548"/>
     <project path="hardware/intel/crm" name="a/bsp/hardware/intel/crm" revision="android/master"/>
@@ -156,9 +154,6 @@
     <project path="vendor/intel/ufo/gen8" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8" revision="android/master" clone-depth="5"/>
     <project path="vendor/intel/ux_enhancement" name="a/bsp/vendor/intel/ux_enhancement" revision="android/master"/>
     <project path="vendor/silead/fw" name="a/bsp/vendor/silead/fw" revision="android/master"/>
-    <project path="vendor/tools/Bluetooth/bt_trace_daemon" name="a/bsp/hardware/imc/bt_trace_daemon" revision="android/master" spsId="59051"/>
-    <project path="vendor/tools/Bluetooth/bt_trace_manager" name="a/bsp/vendor/tools/Bluetooth/bt_trace_manager" revision="android/master" spsId="59060"/>
-    <project path="vendor/tools/Bluetooth/xvt_bt_usc" name="a/bsp/vendor/tools/Bluetooth/xvt_bt_usc" revision="android/master" spsId="59059"/>
 
     <!-- Grouped repos -->
     <!-- irda-telemetry repositories -->

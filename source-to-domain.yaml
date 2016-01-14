@@ -646,16 +646,12 @@
 - device/intel/mixins/groups/bluetooth/ag620
 - device/intel/mixins/groups/bluetooth/lightningpeak
 - device/intel/mixins/groups/bluetooth/stonepeak
-- hardware/imc/pt_bt_daemon
 - hardware/intel/bluedroid
 - hardware/intel/libbt-vendor-intel
 - vendor/intel/fw/bluetooth/intel
 - vendor/intel/hardware/bt_hci_vs_service
 - vendor/intel/hardware/PRIVATE/bt_usc
 - vendor/intel/tools/PRIVATE/bt/intel
-- vendor/tools/Bluetooth/bt_trace_daemon
-- vendor/tools/Bluetooth/bt_trace_manager
-- vendor/tools/Bluetooth/xvt_bt_usc
 'Connectivity-ACP-CellCoex':
 - device/intel/mixins/groups/cellcoex
 - vendor/intel/apps/PRIVATE/cellular_coex_manager
@@ -819,7 +815,6 @@
 - vendor/intel/hardware/libiha
 - vendor/intel/hardware/libsl
 'ICDG - Garnet' :
-- hardware/imc/pt_bt_daemon_garnet
 - vendor/intel/liboemcrypto/sofia_garnet
 - vendor/intel/rs_vectorizer_garnet
 'ISH':
