@@ -824,6 +824,7 @@
 'Kernel':
 - kernel/bxt
 - kernel/cht
+- kernel/coho
 - kernel/gmin-dev
 - kernel/gmin-quilt-representation
 - kernel/gsd

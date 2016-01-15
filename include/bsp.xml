@@ -54,6 +54,7 @@
     <project path="hardware/nxp/nfc" name="a/bsp/device/intel/nfc" revision="android/master"/>
     <project path="kernel/bxt" name="a/bsp/kernel/bxt" groups="kernel-src,soc_bxt" revision="android/master"/>
     <project path="kernel/cht" name="a/bsp/kernel/cht" groups="kernel-src,soc_cht" revision="android/master"/>
+    <project path="kernel/coho" name="a/bsp/kernel/irda" groups="kernel-src,soc_irda" revision="android/master"/>
     <project path="kernel/gsd" name="a/bsp/kernel/gsd" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/bcm43xx" name="a/bsp/kernel/modules/bcmdhd" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/gnss" name="a/bsp/kernel/modules/gnss" groups="kernel-src" revision="android/master"/>
