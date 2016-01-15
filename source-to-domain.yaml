@@ -941,6 +941,7 @@
 'Storage':
 - hardware/intel/libnvmmodule
 'Telephony':
+- device/intel/common/ims
 - device/intel/common/telephony
 - device/intel/common/telephony-config
 - device/intel/mixins/groups/aosp_carrier-config
