@@ -190,7 +190,6 @@
 - external/opencv
 - external/openfst
 - external/openssh
-- external/openssl
 - external/owasp/sanitizer
 - external/parameter-framework
 - external/pcre
@@ -486,6 +485,7 @@
 - tools/swt
 - vendor/google/gms
 - vendor/intel/external/libjpeg-turbo
+- vendor/intel/external/openssl
 - vendor/intel/hardware/PRIVATE/libmintel
 - vendor/intel/houdini
 - vendor/intel/pcg
