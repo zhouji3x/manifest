@@ -31,6 +31,7 @@
     <project path="external/v4l2rds" name="a/bsp/vendor/intel/v4l2rds" revision="android/master" spsId="59085"/>
     <project path="hardware/broadcom/bcm_gps" name="a/bsp/hardware/intel/bcm_gps" revision="android/master"/>
     <project path="hardware/imc/gnss" name="a/bsp/gnss/lbs" revision="android/master"/>
+    <project path="hardware/intel/audio/coe/aware" name="a/bsp/hardware/intel/PRIVATE/aware_audio" revision="android/master"/>
     <project path="hardware/intel/audio/coe/hdmi" name="a/bsp/vendor/intel/hardware/audio_media" revision="android/master"/>
     <project path="hardware/intel/bluedroid" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/bluedroid" revision="android/master" spsId="60548"/>
     <project path="hardware/intel/crm" name="a/bsp/hardware/intel/crm" revision="android/master"/>

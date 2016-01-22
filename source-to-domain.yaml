@@ -520,6 +520,7 @@
 - external/parameter-framework/core
 - external/parameter-framework/plugins/alsa
 - external/parameter-framework/plugins/fs
+- hardware/intel/audio/coe/aware
 - hardware/intel/audio/coe/hdmi
 - hardware/intel/audio/coe/primary
 - hardware/intel/audio/coe/soundtrigger
