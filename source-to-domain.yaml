@@ -907,6 +907,8 @@
 'Platform SoFia 3GR':
 - device/intel/cohos3gr
 - device/intel/sofia3gr
+'Platform SoFia 3GX':
+- device/intel/sofia3gx
 'Platform SoFia LTE':
 - device/intel/sofia_lte
 - device/quanta/sofia_lte
