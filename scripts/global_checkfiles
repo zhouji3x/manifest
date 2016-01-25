@@ -54,4 +54,22 @@ if [[ ${project} == *"vendor/intel"* ]] ; then
     fi
 fi
 
+#exit on error if developper does not follow rules when editing makefile module
+if [[ ${project} == *"vendor/intel"* ]] || [[ ${project} == *"external"* ]] || [[ ${project} == *"hardware/intel"* ]]; then
+    echo ""
+    echo "  -  Checking change in ${project} ..."
+    local_module_tags="`git diff --patch HEAD^ | grep -c '+[[:blank:]]*LOCAL_MODULE_TAGS'`"
+    if [[ ${local_module_tags} != 0 ]] ; then
+        echo "[CODE_CHECK_ERROR] LOCAL_MODULE_TAGS must not be set by Intel modules."
+        echo "Instead of defining LOCAL_MODULE_TAGS, add module to:"
+        echo "PRODUCT_PACKAGES to embed module in all variants."
+        echo "PRODUCT_PACKAGES_DEBUG to embed module in userdebug and eng variants."
+        echo "PRODUCT_PACKAGES_ENG to embed module in eng variant."
+        echo "PRODUCT_PACKAGES_TESTS to test build of the module."
+        echo "This will ensure that only the device having the module in its PRODUCT_PACKAGES will build it."
+        echo ""
+        exit 1
+    fi
+fi
+
 
