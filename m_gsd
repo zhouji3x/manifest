@@ -9,4 +9,10 @@
   <include name="rbase.xml"/>
   <project name="manifests" path="manifests"  groups="embargoed" revision="android/master" />
 
+  <!--
+  removed because the depend on the patch; https://android-review.googlesource.com/#/c/177621/
+  -->
+  <remove-project name="a/bsp/vendor/intel/featsetclass_tel"/>
+  <remove-project name="a/bsp/device/intel/apps/OemTelephony"/>
+
 </manifest>
