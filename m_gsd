@@ -9,13 +9,4 @@
   <include name="rbase.xml"/>
   <project name="manifests" path="manifests"  groups="embargoed" revision="android/master" />
 
-
-  <!-- Google repositories no longer delivered in the actual releases -->
-  <remove-project name="a/aosp/platform/external/openssl"/>
-  <remove-project name="a/bsp/vendor/google/PRIVATE/gms"/>
-  <remove-project name="a/aosp/platform/vendor/widevine"/>
-
-  <project path="vendor/intel/external/openssl" name="a/aosp/platform/external/openssl" groups="osna,pdk" spsId="58692" revision="android/m/gsd/master"/>
-  <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="1" spsId="59122" revision="android/m/gsd/master"/>
-  <project path="vendor/widevine" name="a/aosp/platform/vendor/widevine" groups="embargoed,osna" revision="android/m/gsd/master"/>
 </manifest>
