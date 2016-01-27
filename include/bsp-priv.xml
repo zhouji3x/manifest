@@ -45,6 +45,11 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="device/intel/sflte_2" name="a/bsp/device/intel/sflte_2" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="device/intel/sofia3gr" name="a/bsp/device/intel/sofia3gr" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>

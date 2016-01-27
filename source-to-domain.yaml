@@ -913,6 +913,8 @@
 'Platform SoFia LTE':
 - device/intel/sofia_lte
 - device/quanta/sofia_lte
+'Platform SoFia LTE2':
+- device/intel/sflte_2
 'Power Management':
 - hardware/intel/power
 'Scaling':

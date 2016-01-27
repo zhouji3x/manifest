@@ -112,6 +112,8 @@ ldap//CN=OTC_SI_1A-Rev-Platform_SoFia_3GX,OU=Rialto,OU=Application Managed,OU=Gr
 - 'Platform SoFia 3GX'
 ldap//CN=OTC_SI_1A-Rev-Platform_SoFia_LTE,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Platform SoFia LTE'
+ldap//CN=OTC_SI_1A-Rev-Platform_Sofia_LTE2,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform SoFia LTE2'
 ldap//CN=OTC_SI_1A-Rev-PM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Power Management'
 ldap//CN=OTC_SI_1A-Rev-Scaling,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
