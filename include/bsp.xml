@@ -51,7 +51,11 @@
     <project path="hardware/intel/ufo_make" name="a/bsp/hardware/intel/ufo_make" revision="android/master"/>
     <project path="hardware/intel/vibrator" name="a/bsp/vendor/intel/hardware/audiocomms/vibrator" revision="android/master"/>
     <project path="hardware/intel/wifi" name="a/bsp/vendor/intel/wifi" revision="android/master"/>
-    <project path="hardware/intel/wlan/hostap_wcs" name="a/bsp/hardware/intel/wlan/hostap_wcs" revision="android/master"/>
+    <project path="hardware/intel/wlan/hostap_wcs/dev" name="a/bsp/hardware/intel/wlan/hostap_wcs_dev" revision="android/master">
+            <copyfile dest="hardware/intel/wlan/hostap_wcs/Android.mk" src="Android-upper-folder.mk"/>
+    </project>
+    <project path="hardware/intel/wlan/hostap_wcs/lhp" name="a/bsp/hardware/intel/wlan/hostap_wcs_lhp" revision="android/master"/>
+    <project path="hardware/intel/wlan/hostap_wcs/rel" name="a/bsp/hardware/intel/wlan/hostap_wcs_rel" revision="android/master"/>
     <project path="hardware/nxp/nfc" name="a/bsp/device/intel/nfc" revision="android/master"/>
     <project path="kernel/bxt" name="a/bsp/kernel/bxt" groups="kernel-src,soc_bxt" revision="android/master"/>
     <project path="kernel/cht" name="a/bsp/kernel/cht" groups="kernel-src,soc_cht" revision="android/master"/>
@@ -60,7 +64,11 @@
     <project path="kernel/modules/bcm43xx" name="a/bsp/kernel/modules/bcmdhd" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/gnss" name="a/bsp/kernel/modules/gnss" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/intel_fm" name="a/bsp/kernel/modules/bt_intel_fm" groups="kernel-src" revision="android/master"/>
-    <project path="kernel/modules/iwlwifi" name="a/bsp/kernel/modules/iwlwifi" groups="kernel-src" revision="android/master"/>
+    <project path="kernel/modules/iwlwifi/dev" name="a/bsp/kernel/modules/iwlwifi_dev" groups="kernel-src" revision="android/master">
+            <copyfile dest="kernel/modules/iwlwifi/Android.mk" src="Android-upper-folder.mk"/>
+    </project>
+    <project path="kernel/modules/iwlwifi/lhp" name="a/bsp/kernel/modules/iwlwifi_lhp" groups="kernel-src" revision="android/master"/>
+    <project path="kernel/modules/iwlwifi/rel" name="a/bsp/kernel/modules/iwlwifi_rel" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/perftools-external" name="a/bsp/kernel/modules/perftools-external" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/realtek" name="a/bsp/kernel/modules/realtek" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/sldriver" name="a/bsp/linux/modules/sldriver" groups="kernel-src" revision="android/master"/>
@@ -96,7 +104,11 @@
     <project path="vendor/intel/fw/ds4fw" name="a/bsp/vendor/intel/fw/ds4fw" revision="android/master"/>
     <project path="vendor/intel/fw/fm/intel" name="a/bsp/vendor/intel/fw/fm/intel" revision="android/master"/>
     <project path="vendor/intel/fw/ipu4" name="a/bsp/vendor/intel/fw/camera/ipu4" revision="android/master"/>
-    <project path="vendor/intel/fw/iwl" name="a/bsp/platform/vendor/intel/fw/iwl" revision="android/master"/>
+    <project path="vendor/intel/fw/iwl/dev" name="a/bsp/vendor/intel/fw/iwl_dev" revision="android/master">
+            <copyfile dest="vendor/intel/fw/iwl/Android.mk" src="Android-upper-folder.mk"/>
+    </project>
+    <project path="vendor/intel/fw/iwl/lhp" name="a/bsp/vendor/intel/fw/iwl_lhp" revision="android/master"/>
+    <project path="vendor/intel/fw/iwl/rel" name="a/bsp/vendor/intel/fw/iwl_rel" revision="android/master"/>
     <project path="vendor/intel/fw/modem/IMC/7160_flashless" name="a/bsp/device/intel/fw/modem/IMC/7160_flashless" revision="android/master" spsId="60542" clone-depth="5"/>
     <project path="vendor/intel/fw/modem/IMC/7260_flashless" name="a/bsp/device/intel/fw/modem/IMC/7260_flashless" revision="android/master" clone-depth="5"/>
     <project path="vendor/intel/fw/modem/IMC/7360_flashless" name="a/bsp/vendor/intel/fw/modem/IMC/7360_flashless" revision="android/master" clone-depth="5"/>
@@ -126,7 +138,11 @@
     <project path="vendor/intel/hardware/PRIVATE/rservice" name="a/bsp/vendor/intel/hardware/PRIVATE/rservice" revision="android/master"/>
     <project path="vendor/intel/hardware/PRIVATE/widi" name="a/bsp/hardware/intel/PRIVATE/widi" revision="android/master"/>
     <project path="vendor/intel/hardware/PRIVATE/widi-testing" name="a/bsp/hardware/intel/PRIVATE/widi-testing" revision="android/master"/>
-    <project path="vendor/intel/hardware/PRIVATE/wifi_usc" name="a/bsp/vendor/intel/hardware/PRIVATE/wifi_usc" revision="android/master"/>
+    <project path="vendor/intel/hardware/PRIVATE/wifi_usc/dev" name="a/bsp/vendor/intel/hardware/PRIVATE/wifi_usc_dev" revision="android/master">
+            <copyfile dest="vendor/intel/hardware/PRIVATE/wifi_usc/Android.mk" src="Android-upper-folder.mk"/>
+    </project>
+    <project path="vendor/intel/hardware/PRIVATE/wifi_usc/lhp" name="a/bsp/vendor/intel/hardware/PRIVATE/wifi_usc_lhp" revision="android/master"/>
+    <project path="vendor/intel/hardware/PRIVATE/wifi_usc/rel" name="a/bsp/vendor/intel/hardware/PRIVATE/wifi_usc_rel" revision="android/master"/>
     <project path="vendor/intel/hardware/realtek/libbt" name="a/bsp/vendor/intel/hardware/realtek/libbt" revision="android/master"/>
     <project path="vendor/intel/hardware/realtek/wlan" name="a/bsp/vendor/intel/hardware/realtek/wlan" revision="android/master"/>
     <project path="vendor/intel/hardware/sventx" name="a/bsp/hardware/intel/sventx" revision="android/master"/>
@@ -173,6 +189,11 @@
     <project path="vendor/intel/apps/hald" name="a/bsp/vendor/intel/apps/PRIVATE/hald-src" revision="android/master"/>
     <project path="vendor/intel/tools/rfkillp" name="a/bsp/vendor/intel/tools/bluetooth/rfkillp" revision="android/master"/>
 <!-- <project path="hardware/intel/wlan/libwifihal" name="a/vendor/intel/imc/iwlwifi/libwifihal" revision="android/master" spsId="59090"/> -->
+    <project path="hardware/intel/wlan/libwifihal/dev" name="a/bsp/hardware/intel/wlan/libwifihal_dev" revision="android/master">
+            <copyfile dest="hardware/intel/wlan/libwifihal/Android.mk" src="Android-upper-folder.mk"/>
+    </project>
+    <project path="hardware/intel/wlan/libwifihal/lhp" name="a/bsp/hardware/intel/wlan/libwifihal_lhp" revision="android/master"/>
+    <project path="hardware/intel/wlan/libwifihal/rel" name="a/bsp/hardware/intel/wlan/libwifihal_rel" revision="android/master"/>
 
     <!-- irda-wireless repositories -->
     <project path="vendor/intel/tools/PRIVATE/wifail" name="a/bsp/vendor/intel/tools/PRIVATE/wifail" revision="android/master"/>

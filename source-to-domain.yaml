@@ -739,10 +739,21 @@
 - vendor/intel/fw/wlan/broadcom
 - vendor/intel/hardware/realtek/wlan
 'Connectivity-WLAN-Core':
-- hardware/intel/wlan/hostap_wcs
-- kernel/modules/iwlwifi
-- vendor/intel/fw/iwl
-- vendor/intel/hardware/PRIVATE/wifi_usc
+- hardware/intel/wlan/hostap_wcs/dev
+- hardware/intel/wlan/hostap_wcs/lhp
+- hardware/intel/wlan/hostap_wcs/rel
+- hardware/intel/wlan/libwifihal/dev
+- hardware/intel/wlan/libwifihal/lhp
+- hardware/intel/wlan/libwifihal/rel
+- kernel/modules/iwlwifi/dev
+- kernel/modules/iwlwifi/lhp
+- kernel/modules/iwlwifi/rel
+- vendor/intel/fw/iwl/dev
+- vendor/intel/fw/iwl/lhp
+- vendor/intel/fw/iwl/rel
+- vendor/intel/hardware/PRIVATE/wifi_usc/dev
+- vendor/intel/hardware/PRIVATE/wifi_usc/lhp
+- vendor/intel/hardware/PRIVATE/wifi_usc/rel
 'Debug and Trace':
 - device/intel/mixins/groups/debug-coredump
 - device/intel/mixins/groups/debug-crashlogd
