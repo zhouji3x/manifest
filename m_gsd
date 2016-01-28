@@ -14,5 +14,5 @@
   -->
   <remove-project name="a/bsp/vendor/intel/featsetclass_tel"/>
   <remove-project name="a/bsp/device/intel/apps/OemTelephony"/>
-
+  <remove-project name="a/bsp/vendor/intel/PRIVATE/imsservices"/>
 </manifest>
