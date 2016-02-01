@@ -108,6 +108,8 @@ eric.r.li@intel.com:
 eugene.epshteyn@intel.com:
 - 'DRM - Widevine'
 - 'DRM - Widevine SoFia'
+even.xu@intel.com:
+- 'ISH'
 frank.bergen@intel.com:
 - 'Camera - Imaging'
 - 'Video Verisilicon - SRC'
@@ -174,8 +176,6 @@ michael.leibowitz@intel.com:
 - 'Security Middleware'
 mickael.mallet@intel.com:
 - 'Manifest'
-mihai.serban@intel.com:
-- 'Sensors'
 mikael.persson@intel.com:
 - 'Camera - Imaging'
 nicolas.heckmann@intel.com:

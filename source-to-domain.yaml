@@ -819,6 +819,8 @@
 - vendor/intel/liboemcrypto/sofia_garnet
 - vendor/intel/rs_vectorizer_garnet
 'ISH':
+- device/intel/mixins/groups/aware
+- device/intel/mixins/groups/sensors/ish
 - vendor/intel/hardware/ish-sensors
 - vendor/intel/hardware/libsensorshub
 - vendor/intel/apps/PRIVATE/Aware
