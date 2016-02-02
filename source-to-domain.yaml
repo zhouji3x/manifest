@@ -868,6 +868,7 @@
 - hardware/intel/sofia_lte-osag/platform_sw/infra_layer
 - hardware/intel/sofia_lte-osag/secure_vm
 - hardware/intel/sofia_lte-osag/soclib
+- vendor/intel/fw/modem/IMC/sofia_lte
 'OSAG - Garnet':
 - hardware/intel/mrd-3gr-sofia/external/3p_threadx
 'Perceptual Camera':
@@ -972,7 +973,6 @@
 - vendor/intel/fw/modem/IMC/7160_flashless
 - vendor/intel/fw/modem/IMC/7260_flashless
 - vendor/intel/fw/modem/IMC/7360_flashless
-- vendor/intel/fw/modem/IMC/sofia_lte
 - vendor/intel/hardware/modem_client
 - vendor/intel/hardware/telephony/IFX-modem
 - vendor/intel/hardware/telephony/Modem_Updater
