@@ -868,6 +868,7 @@
 - hardware/intel/sofia_lte-osag/platform_sw/infra_layer
 - hardware/intel/sofia_lte-osag/secure_vm
 - hardware/intel/sofia_lte-osag/soclib
+- vendor/intel/fw/modem/IMC/sflte_2
 - vendor/intel/fw/modem/IMC/sofia_lte
 'OSAG - Garnet':
 - hardware/intel/mrd-3gr-sofia/external/3p_threadx
