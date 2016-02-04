@@ -750,6 +750,7 @@
 - device/intel/mixins/groups/debug-kernel
 - device/intel/mixins/groups/debug-lct
 - device/intel/mixins/groups/debug-lmdump
+- device/intel/mixins/groups/debug-log-watch
 - device/intel/mixins/groups/debug-logs
 - device/intel/mixins/groups/debug-mpm
 - device/intel/mixins/groups/debug-npk
