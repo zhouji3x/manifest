@@ -80,6 +80,8 @@ ldap//CN=OTC_SI_1A-Rev-ICDG-Garnet,OU=Rialto,OU=Application Managed,OU=Groups,DC
 - 'ICDG - Garnet'
 ldap//CN=OTC_SI_1A-Rev-Intel_Security_diff,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Intel Security differentiation'
+ldap//CN=OTC_SI_1A-Rev-IRDA_Signing_Keys,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'IRDA Signing Keys'
 ldap//CN=OTC_SI_1A-Rev-ISH,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'ISH'
 ldap//CN=OTC_SI_1A-Rev-Kernel,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

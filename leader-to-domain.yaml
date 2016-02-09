@@ -46,6 +46,7 @@ bo.he@intel.com:
 brad.geltz@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'BOOT - OTA - GOTA SoFia'
+- 'IRDA Signing Keys'
 carlos.santa@intel.com:
 - 'GFX / Display Mali'
 cedric.le.claire@intel.com:
@@ -172,6 +173,8 @@ markus.lehmann@intel.com:
 - 'SoFia LTE Debug & Trace'
 mateusz.nowak@intel.com:
 - 'Storage'
+matthew.d.wood@intel.com:
+- 'IRDA Signing Keys'
 michael.leibowitz@intel.com:
 - 'Security Middleware'
 mickael.mallet@intel.com:

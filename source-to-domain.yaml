@@ -830,6 +830,8 @@
 'ICDG - Garnet' :
 - vendor/intel/liboemcrypto/sofia_garnet
 - vendor/intel/rs_vectorizer_garnet
+'IRDA Signing Keys':
+- vendor/intel/irda_sig_keys
 'ISH':
 - device/intel/mixins/groups/aware
 - device/intel/mixins/groups/sensors/ish

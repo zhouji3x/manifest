@@ -450,6 +450,11 @@
        <annotation name="all_external" value="no"/>
        <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="vendor/intel/irda_sig_keys" name="a/bsp/vendor/intel/irda_sig_keys" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/liboemcrypto/gen" name="a/bsp/vendor/intel/liboemcrypto-gen" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
