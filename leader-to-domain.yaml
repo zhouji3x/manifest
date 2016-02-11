@@ -5,6 +5,7 @@ alek.du@intel.com:
 alice.liu@intel.com:
 - 'Energy management'
 alwin.mathew@intel.com:
+- 'Auto_Detection'
 - 'Platform Baytrail'
 - 'Platform BIOS'
 - 'Platform Broxton'
@@ -220,8 +221,6 @@ sylvestre.dischamp@intel.com:
 - 'Telephony'
 thierry.deleau@intel.com:
 - 'Telephony'
-thierry.escande@intel.com:
-- 'Auto_Detection'
 thomas.schuler@intel.com:
 - 'Audio XGold'
 tommi.von.hertzen@intel.com:
