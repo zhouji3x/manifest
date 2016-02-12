@@ -678,7 +678,6 @@
 - hardware/intel/kernelflinger
 - vendor/intel/external/openssl
 'Connectivity-Wifi':
-- hardware/intel/wlan/libwifihal/open
 - vendor/linux/firmware
 - vendor/intel/external/libbt-vendor-linux-intel
 - vendor/intel/hardware/interfaces
