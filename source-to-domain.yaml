@@ -516,6 +516,7 @@
 - device/intel/cherrytrail/cht_ffdre/audio
 - device/intel/cherrytrail/cht_hr/audio
 - device/intel/cherrytrail/cht_rvp/audio
+- device/intel/cherrytrail/r2_cht_mrd/audio
 - device/intel/common/config_min/parameter-framework
 - device/intel/goldsand/audio
 - external/parameter-framework/core
