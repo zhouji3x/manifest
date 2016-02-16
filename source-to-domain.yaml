@@ -793,6 +793,7 @@
 - hardware/intel/em_common
 - hardware/intel/lights
 - vendor/intel/apps/ituxd
+- vendor/intel/apps/smart_ux
 - vendor/intel/apps/thermal_lite
 - vendor/intel/dptf
 - vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon
