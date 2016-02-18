@@ -17,10 +17,8 @@
     <project path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" revision="android/master" spsId="59476"/>
     <project path="hardware/intel/audio/imc/lib_imas" name="a/bsp/hardware/intel/lib_imas" revision="android/master" spsId="62141"/>
     <project path="hardware/intel/audio/imc/libauddriver" name="a/bsp/hardware/intel/libauddriver" revision="android/master" spsId="62130"/>
-    <project path="hardware/intel/audio/imc/libauddriver_garnet" name="a/bsp/hardware/intel/libauddriver_garnet" revision="android/master"/>
     <project path="hardware/intel/audio/imc/libaudio_hal" name="a/bsp/hardware/intel/libaudio_hal" revision="android/master" spsId="62131"/>
     <project path="hardware/intel/audio/imc/libaudio_hal_3g" name="a/bsp/hardware/intel/libaudio_hal_3g" revision="android/master"/>
-    <project path="hardware/intel/audio/imc/libaudio_hal_garnet" name="a/bsp/hardware/intel/libaudio_hal_garnet" revision="android/master"/>
     <project path="hardware/intel/sensors" name="a/bsp/hardware/intel/sensors" revision="android/master" spsId="62159"/>
     <project path="hardware/intel/sysctrl_daemon" name="a/bsp/hardware/intel/sysctrl_daemon" revision="android/master" spsId="62140"/>
     <project path="hardware/intel/display/arm/mali-dp500_lib" name="a/bsp/hardware/intel/display/arm/mali-dp500_lib" revision="android/master" groups="imc" spsId="60576"/>

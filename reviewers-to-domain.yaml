@@ -4,8 +4,6 @@ ldap//CN=OTC_SI_1A-Rev-Art,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=
 - 'Art'
 ldap//CN=OTC_SI_1A-Rev-Audio_Common,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Audio Common'
-ldap//CN=OTC_SI_1A-Rev-Audio_Garnet,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Audio - Garnet'
 ldap//CN=OTC_SI_1A-Rev-Audio_Trail,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Audio Trail'
 ldap//CN=OTC_SI_1A-Rev-Audio_XGold,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

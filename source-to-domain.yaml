@@ -501,9 +501,6 @@
 - external/sonivox
 - vendor/intel/media_codecs
 - vendor/intel/PRIVATE/codec_wma9
-'Audio - Garnet':
-- hardware/intel/audio/imc/libauddriver_garnet
-- hardware/intel/audio/imc/libaudio_hal_garnet
 'Audio Trail':
 - device/intel/baytrail/audio
 - device/intel/baytrail/ecs_e7/audio
