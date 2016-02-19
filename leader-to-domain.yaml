@@ -59,12 +59,6 @@ cedric.le.claire@intel.com:
 - 'Connectivity-ACP-WIFI'
 - 'Connectivity-GNSS-Core'
 - 'Connectivity-Manufacturing-Debug'
-- 'Connectivity-TPV-BT'
-- 'Connectivity-TPV-CellCoex'
-- 'Connectivity-TPV-FM'
-- 'Connectivity-TPV-GNSS'
-- 'Connectivity-TPV-NFC'
-- 'Connectivity-TPV-WIFI'
 - 'Connectivity-WLAN-Core'
 chris.r.watkins@intel.com:
 - 'Gfx / Display Drm'
@@ -127,22 +121,6 @@ herbert.sereda@intel.com:
 - 'Video Verisilicon - SRC'
 ivan.g.popov@intel.com:
 - 'Art'
-jacques.bourhis@intel.com:
-- 'Connectivity-ACP-BT'
-- 'Connectivity-ACP-CellCoex'
-- 'Connectivity-ACP-FM'
-- 'Connectivity-ACP-GNSS'
-- 'Connectivity-ACP-NFC'
-- 'Connectivity-ACP-WIFI'
-- 'Connectivity-GNSS-Core'
-- 'Connectivity-Manufacturing-Debug'
-- 'Connectivity-TPV-BT'
-- 'Connectivity-TPV-CellCoex'
-- 'Connectivity-TPV-FM'
-- 'Connectivity-TPV-GNSS'
-- 'Connectivity-TPV-NFC'
-- 'Connectivity-TPV-WIFI'
-- 'Connectivity-WLAN-Core'
 jeremy.compostella@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'BOOT - OTA - GOTA SoFia'
@@ -161,6 +139,13 @@ julien.battiston@intel.com:
 - 'Power Management'
 linda.s.cline@intel.com:
 - 'Video Conferencing'
+loic.poulain@intel.com:
+- 'Connectivity-TPV-BT'
+- 'Connectivity-TPV-CellCoex'
+- 'Connectivity-TPV-FM'
+- 'Connectivity-TPV-GNSS'
+- 'Connectivity-TPV-NFC'
+- 'Connectivity-TPV-WIFI'
 loyola.pitchai@intel.com:
 - 'Intel Security differentiation'
 luis.amezcua@intel.com:
