@@ -809,11 +809,12 @@
 - external/libpciaccess
 - hardware/intel/intel-gpu-tools
 'GFX / Display Gen':
-- external/drm-dev
 - hardware/intel/gsd_hwcomposer
 - hardware/intel/hwc
 - hardware/intel/ufo_make
 - vendor/intel/apps/hdmisettings
+- vendor/intel/drm-bxt
+- vendor/intel/drm-dev
 - vendor/intel/ufo/gen7
 - vendor/intel/ufo/gen8
 - vendor/intel/ufo/gen8_dev
