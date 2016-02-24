@@ -160,6 +160,7 @@
     <project path="vendor/intel/rtc" name="a/bsp/device/intel/rtc" revision="android/master"/>
     <project path="vendor/intel/silentlake/psw" name="a/bsp/vendor/intel/PRIVATE/silentlake/psw" revision="android/master"/>
     <project path="vendor/intel/tools/asoc_dfw" name="a/bsp/vendor/intel/tools/asoc_dfw" revision="android/master"/>
+    <project path="vendor/intel/tools/itt" name="a/bsp/vendor/intel/tools/itt" revision="android/master"/>
     <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture"  revision="android/master" spsId="59066"/>
 <!-- <project path="vendor/intel/tools/PRIVATE/tlv_generator" name="a/bsp/vendor/intel/tools/PRIVATE/tlv_generator" revision="android/master"/> -->
     <project path="vendor/intel/tools/telephony_tools/at_proxy" name="a/bsp/device/intel/telephony_tools/at_proxy" revision="android/master"/>
