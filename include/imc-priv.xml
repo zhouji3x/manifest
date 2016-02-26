@@ -43,6 +43,59 @@
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
 
+    <!-- Sofia 3GX OS agnostics bits  -->
+    <!-- BootSystems-->
+    <project path="hardware/intel/sofia3gx-osag/bootsystems" name="a/bsp/bootsystems_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <!-- 3rd party components-->
+    <project path="hardware/intel/sofia3gx-osag/external/3p_threadx" name="a/vendor/intel/imc/modem/external/3p_threadx_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master" clone-depth="1">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <!-- Mobilevisor -->
+    <project path="hardware/intel/sofia3gx-osag/mobilevisor/guests" name="a/bsp/mobilevisor/guests_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <project path="hardware/intel/sofia3gx-osag/mobilevisor/products" name="a/bsp/mobilevisor/products_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <project path="hardware/intel/sofia3gx-osag/mobilevisor/release" name="a/bsp/mobilevisor/release_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <project path="hardware/intel/sofia3gx-osag/mobilevisor/services" name="a/bsp/mobilevisor/pal_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <!-- modem -->
+    <project path="hardware/intel/sofia3gx-osag/modem" name="a/vendor/intel/imc/modem/modem_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <!-- Secure VM -->
+    <project path="hardware/intel/sofia3gx-osag/secure_vm" name="a/bsp/secure_vm_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <!-- Soclib -->
+    <project path="hardware/intel/sofia3gx-osag/soclib" name="a/bsp/soclib_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+
     <!-- SoFIA LTE OS agnostics bits -->
     <!-- modem -->
     <project path="hardware/intel/sofia_lte-osag/modem" name="a/vendor/intel/imc/modem/modem" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="55575">

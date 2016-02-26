@@ -871,6 +871,15 @@
 - manifests
 'OSAG':
 - device/intel-imc
+- hardware/intel/sofia3gx-osag/bootsystems
+- hardware/intel/sofia3gx-osag/external/3p_threadx
+- hardware/intel/sofia3gx-osag/mobilevisor/products
+- hardware/intel/sofia3gx-osag/mobilevisor/services
+- hardware/intel/sofia3gx-osag/mobilevisor/guests
+- hardware/intel/sofia3gx-osag/mobilevisor/release
+- hardware/intel/sofia3gx-osag/soclib
+- hardware/intel/sofia3gx-osag/secure_vm
+- hardware/intel/sofia3gx-osag/modem
 - hardware/intel/sofia_lte-fls
 - hardware/intel/sofia_lte-osag/bootsystems
 - hardware/intel/sofia_lte-osag/external/3p_oss_boringssl
