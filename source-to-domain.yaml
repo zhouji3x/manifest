@@ -923,7 +923,6 @@
 - external/libkmod
 - external/pystache
 - external/sbsigntool
-- hardware/intel/codecs
 - hardware/intel/sensors
 - hardware/intel/sysctrl_daemon
 - icc
@@ -949,8 +948,6 @@
 - device/intel/sflte_2
 'Power Management':
 - hardware/intel/power
-'Scaling':
-- vendor/intel/tools/test_tools
 'Security Middleware':
 - device/intel/sepolicy
 - hardware/intel/rpcsecurity

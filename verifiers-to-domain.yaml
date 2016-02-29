@@ -100,8 +100,6 @@ ldap//CN=OTC_SI_1A-Verif-PM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC
 - 'Power Management'
 ldap//CN=OTC_SI_1A-Verif-Platform_Sofia_LTE2,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Platform SoFia LTE2'
-ldap//CN=OTC_SI_1A-Verif-Scaling,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Scaling'
 ldap//CN=OTC_SI_1A-Verif-Sensors,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Sensors'
 ldap//CN=OTC_SI_1A-Verif-Silent_Lake,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
