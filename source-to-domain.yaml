@@ -897,6 +897,7 @@
 - hardware/intel/sofia_lte-osag/platform_sw/infra_layer
 - hardware/intel/sofia_lte-osag/secure_vm
 - hardware/intel/sofia_lte-osag/soclib
+- hardware/intel/sofia_lte-osag/tools/tools_dtc_rel
 - vendor/intel/fw/modem/IMC/sflte_2
 - vendor/intel/fw/modem/IMC/sofia_lte
 'OSAG - Garnet':
