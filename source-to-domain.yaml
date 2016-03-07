@@ -514,8 +514,8 @@
 - device/intel/cherrytrail/cht_cr_rvp/audio
 - device/intel/cherrytrail/cht_ffd/audio
 - device/intel/cherrytrail/cht_ffdre/audio
-- device/intel/cherrytrail/cht_hr/audio
 - device/intel/cherrytrail/cht_rvp/audio
+- device/intel/cherrytrail/r2_cht_hr/audio
 - device/intel/cherrytrail/r2_cht_mrd/audio
 - device/intel/common/audio/parameter-framework
 - device/intel/common/config_min/parameter-framework
