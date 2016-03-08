@@ -852,6 +852,7 @@
 - kernel/gmin-quilt-representation
 - kernel/gsd
 - kernel/modules/bcm43xx
+- kernel/modules/cg2k
 - kernel/modules/dbgtools-internal
 - kernel/modules/gnss
 - kernel/modules/intel_fm
