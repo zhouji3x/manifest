@@ -797,16 +797,16 @@
 - external/thermal_daemon_garnet
 - vendor/intel/apps/ituxd_garnet
 'Gfx / Display Drm':
-- external/drm
 - external/libpciaccess
 - hardware/intel/intel-gpu-tools
+- vendor/intel/external/drm
 'GFX / Display Gen':
 - hardware/intel/gsd_hwcomposer
 - hardware/intel/hwc
 - hardware/intel/ufo_make
 - vendor/intel/apps/hdmisettings
-- vendor/intel/drm-bxt
-- vendor/intel/drm-dev
+- vendor/intel/external/drm-bxt
+- vendor/intel/external/drm-dev
 - vendor/intel/ufo/gen7
 - vendor/intel/ufo/gen8
 - vendor/intel/ufo/gen8_dev
