@@ -168,6 +168,7 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
         <copyfile dest="hardware/intel/sofia_lte-osag/Android.mk" src="uta_sys_test/make/cat_sys_test.mk"/>
+	<copyfile dest="hardware/intel/sofia3gx-osag/Android.mk" src="uta_sys_test/make/cat_sys_test.mk"/>
     </project>
 
     <!-- Platform sw -->
