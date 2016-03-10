@@ -1,208 +1,392 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="device/intel/baytrail" name="a/bsp/vendor/intel/baytrail" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="device/intel/build" name="a/bsp/vendor/intel/build" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="device/intel/common" name="a/bsp/vendor/intel/common" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/alac" name="a/bsp/external/alac" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/bluetooth/hcitools" name="a/bsp/platform/external/bluetooth/hcitools" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/bluetooth/libbt-vendor-linux" name="a/bsp/platform/external/bluetooth/libbt-vendor-linux" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/dosfstools" name="a/bsp/platform/external/dosfstools" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/drm" name="a/bsp/external/drm" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/efibootmgr" name="a/bsp/platform/external/efibootmgr" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/efitools" name="a/bsp/platform/external/efitools" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/efivar" name="a/bsp/vendor/intel/external/efivar" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/gnu-efi" name="a/bsp/platform/external/gnu-efi" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/iniparser" name="a/bsp/external/iniparser" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/libpciaccess" name="a/bsp/external/libpciaccess" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/libva" name="a/bsp/hardware/intel/libva" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/linux-firmware-broadcom" name="a/bsp/external/linux-firmware-broadcom" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/mtools" name="a/bsp/platform/external/mtools" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/parameter-framework/core" name="a/bsp/hardware/intel/PRIVATE/parameter-framework" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/parameter-framework/plugins/fs" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/fs" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/pciutils" name="a/bsp/platform/external/pciutils" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/pystache" name="a/bsp/platform/external/pystache" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/sbsigntool" name="a/bsp/platform/external/sbsigntool" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/smartcardservice" name="a/bsp/external/SmartcardService" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/syslinux" name="a/bsp/external/syslinux" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/thermal_daemon" name="a/bsp/platform/external/thermal_daemon" revision="android/master" spsId="60541"/>
+      <annotation name="readonly" value="true" />
     <project path="external/thermal_daemon_garnet" name="a/bsp/platform/external/thermal_daemon_garnet" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/uefi_shim" name="a/bsp/platform/external/uefi_shim" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/v4l2rds" name="a/bsp/vendor/intel/v4l2rds" revision="android/master" spsId="59085"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/broadcom/bcm_gps" name="a/bsp/hardware/intel/bcm_gps" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/imc/gnss" name="a/bsp/gnss/lbs" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/audio/coe/aware" name="a/bsp/hardware/intel/PRIVATE/aware_audio" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/audio/coe/hdmi" name="a/bsp/vendor/intel/hardware/audio_media" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/bluedroid" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/bluedroid" revision="android/master" spsId="60548"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/crm" name="a/bsp/hardware/intel/crm" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/display/libmemtrack" name="a/bsp/hardware/intel/display/libmemtrack" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/efi_prebuilts/gnu-efi" name="a/bsp/vendor/intel/external/efi/gnu-efi_prebuilt" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/em_common" name="a/bsp/vendor/intel/hardware/em_common" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/gpu/mali-midgard_lib" name="a/bsp/hardware/intel/gpu/arm/mali-midgard_lib" revision="android/master" spsId="60539"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/hald_media_hook" name="a/bsp/hardware/intel/PRIVATE/hald_media_hook" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/intel-gpu-tools" name="a/bsp/platform/external/intel-gpu-tools" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/kernelflinger" name="a/bsp/hardware/intel/efi/kernelflinger" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/libbt-vendor-intel" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" revision="android/master" spsId="60549"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/libsensors-input" name="a/bsp/hardware/intel/libsensors-input" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/lights" name="a/bsp/hardware/intel/liblights" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/nfc" name="a/bsp/vendor/intel/hardware/nfc/intel" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/power" name="a/bsp/platform/vendor/intel/libpower" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/sofia_lte-fls" name="a/bsp/hardware/intel/sofia_lte-fls" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/ufo_make" name="a/bsp/hardware/intel/ufo_make" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/vibrator" name="a/bsp/vendor/intel/hardware/audiocomms/vibrator" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/wifi" name="a/bsp/vendor/intel/wifi" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/wlan/hostap_wcs/dev" name="a/bsp/hardware/intel/wlan/hostap_wcs_dev" revision="android/master">
             <copyfile dest="hardware/intel/wlan/hostap_wcs/Android.mk" src="Android-upper-folder.mk"/>
+      <annotation name="readonly" value="true" />
     </project>
     <project path="hardware/intel/wlan/hostap_wcs/lhp" name="a/bsp/hardware/intel/wlan/hostap_wcs_lhp" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/wlan/hostap_wcs/rel" name="a/bsp/hardware/intel/wlan/hostap_wcs_rel" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/nxp/nfc" name="a/bsp/device/intel/nfc" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="kernel/bxt" name="a/bsp/kernel/bxt" groups="kernel-src,soc_bxt" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="kernel/cht" name="a/bsp/kernel/cht" groups="kernel-src,soc_cht" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="kernel/coho" name="a/bsp/kernel/irda" groups="kernel-src,soc_irda" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="kernel/gsd" name="a/bsp/kernel/gsd" groups="kernel-src" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="kernel/modules/bcm43xx" name="a/bsp/kernel/modules/bcmdhd" groups="kernel-src" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="kernel/modules/gnss" name="a/bsp/kernel/modules/gnss" groups="kernel-src" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="kernel/modules/intel_fm" name="a/bsp/kernel/modules/bt_intel_fm" groups="kernel-src" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="kernel/modules/iwlwifi/dev" name="a/bsp/kernel/modules/iwlwifi_dev" groups="kernel-src" revision="android/master">
             <copyfile dest="kernel/modules/iwlwifi/Android.mk" src="Android-upper-folder.mk"/>
+      <annotation name="readonly" value="true" />
     </project>
     <project path="kernel/modules/iwlwifi/lhp" name="a/bsp/kernel/modules/iwlwifi_lhp" groups="kernel-src" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="kernel/modules/iwlwifi/rel" name="a/bsp/kernel/modules/iwlwifi_rel" groups="kernel-src" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="kernel/modules/perftools-external" name="a/bsp/kernel/modules/perftools-external" groups="kernel-src" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="kernel/modules/realtek" name="a/bsp/kernel/modules/realtek" groups="kernel-src" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="kernel/modules/sldriver" name="a/bsp/linux/modules/sldriver" groups="kernel-src" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="kernel/sofia-3gr" name="a/bsp/kernel/sofia-3gr" groups="kernel-src,soc_sofia3gr" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="kernel/sofia-lte" name="a/bsp/kernel/sofia-lte" groups="kernel-src,soc_sofialte" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="modem/tools/ipcs" name="a/bsp/modem/tools/ipcs" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="packages/apps/libfmrservice" name="a/bsp/packages/apps/fmr" revision="android/master" spsId="59081"/>
+      <annotation name="readonly" value="true" />
     <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-poky" name="a/bsp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-poky-1.8" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/AndroidTerm" name="a/bsp/platform/packages/apps/AndroidTerm" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/acn" name="a/bsp/vendor/intel/apps/acn" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/bls" name="a/bsp/vendor/intel/apps/bls" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/curl" name="a/bsp/vendor/intel/apps/curl" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/hdmisettings" name="a/bsp/vendor/intel/apps/HdmiSettings" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/IntelFmApp" name="a/bsp/packages/apps/IntelFmApp" revision="android/master" spsId="59079"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/ituxd" name="a/bsp/vendor/intel/apps/ituxd" revision="android/master" spsId="60543"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/ituxd_garnet" name="a/bsp/vendor/intel/apps/ituxd_garnet" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/nfc_service_ext" name="a/bsp/vendor/intel/apps/nfc_service_ext" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/PRIVATE/Aware" name="a/bsp/vendor/intel/PRIVATE/Aware" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/PRIVATE/arccamera" name="a/bsp/vendor/arcsoft/arccamera" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/PRIVATE/strongswan" name="a/bsp/vendor/intel/apps/PRIVATE/strongswan" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/telephony/OemTelephony" name="a/bsp/device/intel/apps/OemTelephony" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/thermal_lite" name="a/bsp/vendor/intel/apps/thermal_lite" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/VppSettings" name="a/bsp/vendor/intel/apps/VppSettings" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/external/libdmclient" name="a/bsp/vendor/intel/external/libdmclient" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/external/libjpeg-turbo" name="a/bsp/vendor/intel/external/libjpeg-turbo" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/external/libMD5_rfc" name="a/bsp/vendor/intel/external/libmd5_rfc" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/external/libwbxml" name="a/bsp/vendor/intel/external/libwbxml" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/external/syncmlrtk" name="a/bsp/vendor/intel/external/syncmlrtk" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/audio/coe/utilities" name="a/bsp/hardware/intel/audiocomms/utilities" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" name="a/bsp/vendor/intel/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" revision="android/master" spsId="60870"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/camera/libiacss" name="a/bsp/vendor/intel/hardware/libiacss" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/fw/camera" name="a/bsp/device/intel/fw/camera" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/fw/ds4fw" name="a/bsp/vendor/intel/fw/ds4fw" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/fw/fm/intel" name="a/bsp/vendor/intel/fw/fm/intel" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/fw/ipu4" name="a/bsp/vendor/intel/fw/camera/ipu4" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/fw/iwl/dev" name="a/bsp/vendor/intel/fw/iwl_dev" revision="android/master">
             <copyfile dest="vendor/intel/fw/iwl/Android.mk" src="Android-upper-folder.mk"/>
+      <annotation name="readonly" value="true" />
     </project>
     <project path="vendor/intel/fw/iwl/lhp" name="a/bsp/vendor/intel/fw/iwl_lhp" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/fw/iwl/rel" name="a/bsp/vendor/intel/fw/iwl_rel" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/fw/modem/IMC/7160_flashless" name="a/bsp/device/intel/fw/modem/IMC/7160_flashless" revision="android/master" spsId="60542" clone-depth="5"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/fw/modem/IMC/7260_flashless" name="a/bsp/device/intel/fw/modem/IMC/7260_flashless" revision="android/master" clone-depth="5"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/fw/modem/IMC/7360_flashless" name="a/bsp/vendor/intel/fw/modem/IMC/7360_flashless" revision="android/master" clone-depth="5"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/fw/modem/IMC/sofia_lte" name="a/bsp/vendor/intel/fw/modem/IMC/sofia_lte" revision="android/master" clone-depth="5"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/fw/sst" name="a/bsp/device/intel/fw/sst" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/cg2k/3rdparty" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/3rdparty" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/cg2k/amil" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/amil" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/cg2k/gnssAdaptation/android" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnssAdaptation/android" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/cg2k/gnss/core" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnss/core" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/cg2k/gnssExe" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnssExe" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/cg2k/gnss/supl" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnss/supl" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/fmr" name="a/bsp/vendor/intel/hardware/PRIVATE/fmr_usc" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/healthd" name="a/bsp/vendor/intel/hardware/healthd" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/iio-sensors" name="a/bsp/vendor/intel/iio-sensors" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/ish-sensors" name="a/bsp/vendor/intel/ish-sensors" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/keystore" name="a/bsp/vendor/intel/hardware/keystore" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/libaesni" name="a/bsp/vendor/intel/hardware/libaesni" revision="android/master" spsId="62495"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/libsl" name="a/bsp/vendor/intel/hardware/libsl" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/libmedia_utils" name="a/bsp/hardware/intel/libmedia_utils" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/libmei" name="a/bsp/vendor/intel/hardware/mei/libmei" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/libmix" name="a/bsp/hardware/intel/PRIVATE/libmix" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/libsensorshub" name="a/bsp/vendor/intel/libsensorshub" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/omx-components" name="a/bsp/hardware/intel/omx-components" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/PRIVATE/bt_usc" name="a/bsp/vendor/intel/hardware/PRIVATE/phonetool_bt_usc" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/PRIVATE/cellular_coex_manager/intel" name="a/bsp/vendor/intel/hardware/cellular_coex_manager/intel" revision="android/master" spsId="60544"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/PRIVATE/rocs" name="a/bsp/vendor/intel/hardware/PRIVATE/rocs" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/PRIVATE/rservice" name="a/bsp/vendor/intel/hardware/PRIVATE/rservice" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/PRIVATE/widi" name="a/bsp/hardware/intel/PRIVATE/widi" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/PRIVATE/widi-testing" name="a/bsp/hardware/intel/PRIVATE/widi-testing" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/PRIVATE/wifi_usc/dev" name="a/bsp/vendor/intel/hardware/PRIVATE/wifi_usc_dev" revision="android/master">
             <copyfile dest="vendor/intel/hardware/PRIVATE/wifi_usc/Android.mk" src="Android-upper-folder.mk"/>
+      <annotation name="readonly" value="true" />
     </project>
     <project path="vendor/intel/hardware/PRIVATE/wifi_usc/lhp" name="a/bsp/vendor/intel/hardware/PRIVATE/wifi_usc_lhp" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/PRIVATE/wifi_usc/rel" name="a/bsp/vendor/intel/hardware/PRIVATE/wifi_usc_rel" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/realtek/libbt" name="a/bsp/vendor/intel/hardware/realtek/libbt" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/realtek/wlan" name="a/bsp/vendor/intel/hardware/realtek/wlan" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/sventx" name="a/bsp/hardware/intel/sventx" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/telephony/rapid_ril" name="a/bsp/hardware/intel/rapid_ril" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/utils" name="a/bsp/platform/hardware/intel/common/utils" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/hardware/wrs_omxil_core" name="a/bsp/hardware/intel/wrs_omxil_core" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/houdini" name="a/bsp/device/intel/houdini" revision="android/master" spsId="59064"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/libdmi" name="a/bsp/vendor/intel/libdmi" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/mediasdk_release" name="a/bsp/hardware/intel/PRIVATE/mediasdk_release" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/operator/CMCC" name="a/bsp/vendor/intel/operator/CMCC" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/pcg" name="a/bsp/vendor/intel/pcg" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/PRIVATE/codec_wma9" name="a/bsp/vendor/intel/PRIVATE/codec_wma9" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/PRIVATE/rtc" name="a/bsp/vendor/intel/PRIVATE/rtc" revision="android/master" spsId="60547"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/pstore-clean" name="a/bsp/hardware/intel/pstore-clean" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/rtc" name="a/bsp/device/intel/rtc" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/silentlake/psw" name="a/bsp/vendor/intel/PRIVATE/silentlake/psw" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/tools/asoc_dfw" name="a/bsp/vendor/intel/tools/asoc_dfw" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/tools/itt" name="a/bsp/vendor/intel/tools/itt" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture"  revision="android/master" spsId="59066"/>
-<!-- <project path="vendor/intel/tools/PRIVATE/tlv_generator" name="a/bsp/vendor/intel/tools/PRIVATE/tlv_generator" revision="android/master"/> -->
+      <annotation name="readonly" value="true" />
+<!-- <project path="vendor/intel/tools/PRIVATE/tlv_generator" name="a/bsp/vendor/intel/tools/PRIVATE/tlv_generator" revision="android/master"/>
+      <annotation name="readonly" value="true" /> -->
     <project path="vendor/intel/tools/telephony_tools/at_proxy" name="a/bsp/device/intel/telephony_tools/at_proxy" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/tools/telephony_tools/coredumpwarning" name="a/bsp/device/intel/telephony_tools/coredumpwarning" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/tools/telephony_tools/field_test" name="a/bsp/vendor/intel/tools/telephony_tools/field_test" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/tools/telephony_tools/modem_trace_server" name="a/bsp/device/intel/telephony_tools/modem_trace_server" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/tools/telephony_tools/PRIVATE/component_testing" name="a/bsp/device/intel/telephony_tools/PRIVATE/component_testing" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/tools/telephony_tools/telephony_test" name="a/bsp/vendor/intel/PRIVATE/telephony_test" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/ufo/gen7" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen7" revision="android/master" clone-depth="5"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/ufo/gen8" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8" revision="android/master" clone-depth="5"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/ux_enhancement" name="a/bsp/vendor/intel/ux_enhancement" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/silead/fw" name="a/bsp/vendor/silead/fw" revision="android/master"/>
+      <annotation name="readonly" value="true" />
 
     <!-- Grouped repos -->
     <!-- irda-telemetry repositories -->
     <project path="external/libaudit" name="a/bsp/external/libaudit" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/telemetry-client" name="a/bsp/vendor/intel/telemetry-client" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/tools/efipropsync" name="a/bsp/vendor/intel/tools/efipropsync" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <!-- irda-telemetry-apps repositories -->
     <project path="vendor/intel/apps/DataReport" name="a/bsp/vendor/intel/apps/DataReport" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/DataReportSettings" name="a/bsp/vendor/intel/apps/DataReportSettings" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <!-- irda-autodetect repositories -->
     <project path="external/libfuse" name="a/bsp/vendor/intel/external/libfuse" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="external/libkmod" name="a/bsp/linux/modules/libkmod" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/libhalclient" name="a/bsp/vendor/intel/PRIVATE/libhalclient-src" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/halctl" name="a/bsp/vendor/intel/apps/PRIVATE/halctl-src" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/apps/hald" name="a/bsp/vendor/intel/apps/PRIVATE/hald-src" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="vendor/intel/tools/rfkillp" name="a/bsp/vendor/intel/tools/bluetooth/rfkillp" revision="android/master"/>
-<!-- <project path="hardware/intel/wlan/libwifihal" name="a/vendor/intel/imc/iwlwifi/libwifihal" revision="android/master" spsId="59090"/> -->
+      <annotation name="readonly" value="true" />
+<!-- <project path="hardware/intel/wlan/libwifihal" name="a/vendor/intel/imc/iwlwifi/libwifihal" revision="android/master" spsId="59090"/>
+      <annotation name="readonly" value="true" /> -->
     <project path="hardware/intel/wlan/libwifihal/dev" name="a/bsp/hardware/intel/wlan/libwifihal_dev" revision="android/master">
             <copyfile dest="hardware/intel/wlan/libwifihal/Android.mk" src="Android-upper-folder.mk"/>
+      <annotation name="readonly" value="true" />
     </project>
     <project path="hardware/intel/wlan/libwifihal/lhp" name="a/bsp/hardware/intel/wlan/libwifihal_lhp" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/intel/wlan/libwifihal/rel" name="a/bsp/hardware/intel/wlan/libwifihal_rel" revision="android/master"/>
+      <annotation name="readonly" value="true" />
 
     <!-- irda-wireless repositories -->
     <project path="vendor/intel/tools/PRIVATE/wifail" name="a/bsp/vendor/intel/tools/PRIVATE/wifail" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <!--security repository -->
     <project path="hardware/intel/rpcsecurity/libtee_vsec" name="a/bsp/hardware/intel/rpcsecurity/libtee_vsec" revision="android/master" />
     <project path="device/intel/sepolicy" name="a/bsp/device/intel/sepolicy" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <!-- SoFIA 3g platform repos: please make sure this list of projects is
          in sync with 3g/3gr tree  -->
     <project path="hardware/imc/ril_3g" name="a/bsp/hardware/imc/ril_3g" revision="android/master"/>
+      <annotation name="readonly" value="true" />
     <project path="hardware/imc/rpc_3g" name="a/bsp/hardware/imc/rpc_3g" revision="android/master"/>
+      <annotation name="readonly" value="true" />
 </manifest>

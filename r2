@@ -2,13 +2,13 @@
 <!-- One_Android_Ring='2' -->
 <manifest>
 
-	<default revision="android/m/mr1/r2"
+	<default revision="android/n/mr0/r2"
            remote="origin"
            sync-c="true"
            sync-j="5" />
 
   <include name="rbase.xml"/>
-  <project name="manifests" path="manifests"  groups="embargoed" revision="android/master">
+  <project name="manifests" path="manifests"  groups="embargoed" revision="android/n/mr0/master">
     <annotation name="readonly" value="true" />
   </project>
 
