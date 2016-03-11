@@ -924,7 +924,6 @@
 - external/pystache
 - external/sbsigntool
 - hardware/intel/sensors
-- hardware/intel/sysctrl_daemon
 - icc
 - prebuilts/gcc/linux-x86/x86/x86_64-linux-poky
 - vendor/intel/apps/DataReport
