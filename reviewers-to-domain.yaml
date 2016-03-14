@@ -18,8 +18,6 @@ ldap//CN=OTC_SI_1A-Rev-CAM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=
 - 'CAM'
 ldap//CN=OTC_SI_1A-Rev-Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Camera - Imaging'
-ldap//CN=OTC_SI_1A-Rev-Camera_Garnet,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Camera - Garnet'
 ldap//CN=OTC_SI_1A-Rev-Carrier,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Carrier'
 ldap//CN=OTC_SI_1A-Rev-Conn-ACP-BT,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
