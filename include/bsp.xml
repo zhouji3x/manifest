@@ -75,7 +75,7 @@
     <project path="external/syslinux" name="a/bsp/external/syslinux" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="external/thermal_daemon" name="a/bsp/platform/external/thermal_daemon" revision="android/master" spsId="60541"/>
+    <project path="external/thermal_daemon" name="a/bsp/platform/external/thermal_daemon" revision="android/master" spsId="60541">
       <annotation name="readonly" value="true" />
     </project>
     <project path="external/thermal_daemon_garnet" name="a/bsp/platform/external/thermal_daemon_garnet" revision="android/master">
@@ -84,7 +84,7 @@
     <project path="external/uefi_shim" name="a/bsp/platform/external/uefi_shim" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="external/v4l2rds" name="a/bsp/vendor/intel/v4l2rds" revision="android/master" spsId="59085"/>
+    <project path="external/v4l2rds" name="a/bsp/vendor/intel/v4l2rds" revision="android/master" spsId="59085">
       <annotation name="readonly" value="true" />
     </project>
     <project path="hardware/broadcom/bcm_gps" name="a/bsp/hardware/intel/bcm_gps" revision="android/master">
@@ -99,7 +99,7 @@
     <project path="hardware/intel/audio/coe/hdmi" name="a/bsp/vendor/intel/hardware/audio_media" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="hardware/intel/bluedroid" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/bluedroid" revision="android/master" spsId="60548"/>
+    <project path="hardware/intel/bluedroid" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/bluedroid" revision="android/master" spsId="60548">
       <annotation name="readonly" value="true" />
     </project>
     <project path="hardware/intel/crm" name="a/bsp/hardware/intel/crm" revision="android/master">
@@ -114,7 +114,7 @@
     <project path="hardware/intel/em_common" name="a/bsp/vendor/intel/hardware/em_common" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="hardware/intel/gpu/mali-midgard_lib" name="a/bsp/hardware/intel/gpu/arm/mali-midgard_lib" revision="android/master" spsId="60539"/>
+    <project path="hardware/intel/gpu/mali-midgard_lib" name="a/bsp/hardware/intel/gpu/arm/mali-midgard_lib" revision="android/master" spsId="60539">
       <annotation name="readonly" value="true" />
     </project>
     <project path="hardware/intel/hald_media_hook" name="a/bsp/hardware/intel/PRIVATE/hald_media_hook" revision="android/master">
@@ -126,7 +126,7 @@
     <project path="hardware/intel/kernelflinger" name="a/bsp/hardware/intel/efi/kernelflinger" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="hardware/intel/libbt-vendor-intel" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" revision="android/master" spsId="60549"/>
+    <project path="hardware/intel/libbt-vendor-intel" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" revision="android/master" spsId="60549">
       <annotation name="readonly" value="true" />
     </project>
     <project path="hardware/intel/libsensors-input" name="a/bsp/hardware/intel/libsensors-input" revision="android/master">
@@ -156,7 +156,6 @@
     <project path="hardware/intel/wlan/hostap_wcs/dev" name="a/bsp/hardware/intel/wlan/hostap_wcs_dev" revision="android/master">
             <copyfile dest="hardware/intel/wlan/hostap_wcs/Android.mk" src="Android-upper-folder.mk"/>
       <annotation name="readonly" value="true" />
-    </project>
     </project>
     <project path="hardware/intel/wlan/hostap_wcs/lhp" name="a/bsp/hardware/intel/wlan/hostap_wcs_lhp" revision="android/master">
       <annotation name="readonly" value="true" />
@@ -192,7 +191,6 @@
             <copyfile dest="kernel/modules/iwlwifi/Android.mk" src="Android-upper-folder.mk"/>
       <annotation name="readonly" value="true" />
     </project>
-    </project>
     <project path="kernel/modules/iwlwifi/lhp" name="a/bsp/kernel/modules/iwlwifi_lhp" groups="kernel-src" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
@@ -217,7 +215,7 @@
     <project path="modem/tools/ipcs" name="a/bsp/modem/tools/ipcs" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="packages/apps/libfmrservice" name="a/bsp/packages/apps/fmr" revision="android/master" spsId="59081"/>
+    <project path="packages/apps/libfmrservice" name="a/bsp/packages/apps/fmr" revision="android/master" spsId="59081">
       <annotation name="readonly" value="true" />
     </project>
     <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-poky" name="a/bsp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-poky-1.8" revision="android/master">
@@ -238,10 +236,10 @@
     <project path="vendor/intel/apps/hdmisettings" name="a/bsp/vendor/intel/apps/HdmiSettings" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/apps/IntelFmApp" name="a/bsp/packages/apps/IntelFmApp" revision="android/master" spsId="59079"/>
+    <project path="vendor/intel/apps/IntelFmApp" name="a/bsp/packages/apps/IntelFmApp" revision="android/master" spsId="59079">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/apps/ituxd" name="a/bsp/vendor/intel/apps/ituxd" revision="android/master" spsId="60543"/>
+    <project path="vendor/intel/apps/ituxd" name="a/bsp/vendor/intel/apps/ituxd" revision="android/master" spsId="60543">
       <annotation name="readonly" value="true" />
     </project>
     <project path="vendor/intel/apps/ituxd_garnet" name="a/bsp/vendor/intel/apps/ituxd_garnet" revision="android/master">
@@ -286,7 +284,7 @@
     <project path="hardware/intel/audio/coe/utilities" name="a/bsp/hardware/intel/audiocomms/utilities" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" name="a/bsp/vendor/intel/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" revision="android/master" spsId="60870"/>
+    <project path="vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" name="a/bsp/vendor/intel/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" revision="android/master" spsId="60870">
       <annotation name="readonly" value="true" />
     </project>
     <project path="vendor/intel/camera/libiacss" name="a/bsp/vendor/intel/hardware/libiacss" revision="android/master">
@@ -308,23 +306,22 @@
             <copyfile dest="vendor/intel/fw/iwl/Android.mk" src="Android-upper-folder.mk"/>
       <annotation name="readonly" value="true" />
     </project>
-    </project>
     <project path="vendor/intel/fw/iwl/lhp" name="a/bsp/vendor/intel/fw/iwl_lhp" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
     <project path="vendor/intel/fw/iwl/rel" name="a/bsp/vendor/intel/fw/iwl_rel" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/fw/modem/IMC/7160_flashless" name="a/bsp/device/intel/fw/modem/IMC/7160_flashless" revision="android/master" spsId="60542" clone-depth="5"/>
+    <project path="vendor/intel/fw/modem/IMC/7160_flashless" name="a/bsp/device/intel/fw/modem/IMC/7160_flashless" revision="android/master" spsId="60542" clone-depth="5">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/fw/modem/IMC/7260_flashless" name="a/bsp/device/intel/fw/modem/IMC/7260_flashless" revision="android/master" clone-depth="5"/>
+    <project path="vendor/intel/fw/modem/IMC/7260_flashless" name="a/bsp/device/intel/fw/modem/IMC/7260_flashless" revision="android/master" clone-depth="5">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/fw/modem/IMC/7360_flashless" name="a/bsp/vendor/intel/fw/modem/IMC/7360_flashless" revision="android/master" clone-depth="5"/>
+    <project path="vendor/intel/fw/modem/IMC/7360_flashless" name="a/bsp/vendor/intel/fw/modem/IMC/7360_flashless" revision="android/master" clone-depth="5">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/fw/modem/IMC/sofia_lte" name="a/bsp/vendor/intel/fw/modem/IMC/sofia_lte" revision="android/master" clone-depth="5"/>
+    <project path="vendor/intel/fw/modem/IMC/sofia_lte" name="a/bsp/vendor/intel/fw/modem/IMC/sofia_lte" revision="android/master" clone-depth="5">
       <annotation name="readonly" value="true" />
     </project>
     <project path="vendor/intel/fw/sst" name="a/bsp/device/intel/fw/sst" revision="android/master">
@@ -363,7 +360,7 @@
     <project path="vendor/intel/hardware/keystore" name="a/bsp/vendor/intel/hardware/keystore" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/hardware/libaesni" name="a/bsp/vendor/intel/hardware/libaesni" revision="android/master" spsId="62495"/>
+    <project path="vendor/intel/hardware/libaesni" name="a/bsp/vendor/intel/hardware/libaesni" revision="android/master" spsId="62495">
       <annotation name="readonly" value="true" />
     </project>
     <project path="vendor/intel/hardware/libsl" name="a/bsp/vendor/intel/hardware/libsl" revision="android/master">
@@ -387,7 +384,7 @@
     <project path="vendor/intel/hardware/PRIVATE/bt_usc" name="a/bsp/vendor/intel/hardware/PRIVATE/phonetool_bt_usc" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/hardware/PRIVATE/cellular_coex_manager/intel" name="a/bsp/vendor/intel/hardware/cellular_coex_manager/intel" revision="android/master" spsId="60544"/>
+    <project path="vendor/intel/hardware/PRIVATE/cellular_coex_manager/intel" name="a/bsp/vendor/intel/hardware/cellular_coex_manager/intel" revision="android/master" spsId="60544">
       <annotation name="readonly" value="true" />
     </project>
     <project path="vendor/intel/hardware/PRIVATE/rocs" name="a/bsp/vendor/intel/hardware/PRIVATE/rocs" revision="android/master">
@@ -405,7 +402,6 @@
     <project path="vendor/intel/hardware/PRIVATE/wifi_usc/dev" name="a/bsp/vendor/intel/hardware/PRIVATE/wifi_usc_dev" revision="android/master">
             <copyfile dest="vendor/intel/hardware/PRIVATE/wifi_usc/Android.mk" src="Android-upper-folder.mk"/>
       <annotation name="readonly" value="true" />
-    </project>
     </project>
     <project path="vendor/intel/hardware/PRIVATE/wifi_usc/lhp" name="a/bsp/vendor/intel/hardware/PRIVATE/wifi_usc_lhp" revision="android/master">
       <annotation name="readonly" value="true" />
@@ -431,7 +427,7 @@
     <project path="vendor/intel/hardware/wrs_omxil_core" name="a/bsp/hardware/intel/wrs_omxil_core" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/houdini" name="a/bsp/device/intel/houdini" revision="android/master" spsId="59064"/>
+    <project path="vendor/intel/houdini" name="a/bsp/device/intel/houdini" revision="android/master" spsId="59064">
       <annotation name="readonly" value="true" />
     </project>
     <project path="vendor/intel/libdmi" name="a/bsp/vendor/intel/libdmi" revision="android/master">
@@ -449,7 +445,7 @@
     <project path="vendor/intel/PRIVATE/codec_wma9" name="a/bsp/vendor/intel/PRIVATE/codec_wma9" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/PRIVATE/rtc" name="a/bsp/vendor/intel/PRIVATE/rtc" revision="android/master" spsId="60547"/>
+    <project path="vendor/intel/PRIVATE/rtc" name="a/bsp/vendor/intel/PRIVATE/rtc" revision="android/master" spsId="60547">
       <annotation name="readonly" value="true" />
     </project>
     <project path="vendor/intel/pstore-clean" name="a/bsp/hardware/intel/pstore-clean" revision="android/master">
@@ -467,7 +463,7 @@
     <project path="vendor/intel/tools/itt" name="a/bsp/vendor/intel/tools/itt" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture"  revision="android/master" spsId="59066"/>
+    <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture"  revision="android/master" spsId="59066">
       <annotation name="readonly" value="true" />
     </project>
 <!-- <project path="vendor/intel/tools/PRIVATE/tlv_generator" name="a/bsp/vendor/intel/tools/PRIVATE/tlv_generator" revision="android/master">
@@ -491,10 +487,10 @@
     <project path="vendor/intel/tools/telephony_tools/telephony_test" name="a/bsp/vendor/intel/PRIVATE/telephony_test" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/ufo/gen7" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen7" revision="android/master" clone-depth="5"/>
+    <project path="vendor/intel/ufo/gen7" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen7" revision="android/master" clone-depth="5">
       <annotation name="readonly" value="true" />
     </project>
-    <project path="vendor/intel/ufo/gen8" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8" revision="android/master" clone-depth="5"/>
+    <project path="vendor/intel/ufo/gen8" name="a/bsp/vendor/intel/hardware/PRIVATE/ufo/gen8" revision="android/master" clone-depth="5">
       <annotation name="readonly" value="true" />
     </project>
     <project path="vendor/intel/ux_enhancement" name="a/bsp/vendor/intel/ux_enhancement" revision="android/master">
@@ -548,7 +544,6 @@
             <copyfile dest="hardware/intel/wlan/libwifihal/Android.mk" src="Android-upper-folder.mk"/>
       <annotation name="readonly" value="true" />
     </project>
-    </project>
     <project path="hardware/intel/wlan/libwifihal/lhp" name="a/bsp/hardware/intel/wlan/libwifihal_lhp" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>
@@ -561,7 +556,9 @@
       <annotation name="readonly" value="true" />
     </project>
     <!--security repository -->
-    <project path="hardware/intel/rpcsecurity/libtee_vsec" name="a/bsp/hardware/intel/rpcsecurity/libtee_vsec" revision="android/master" />
+    <project path="hardware/intel/rpcsecurity/libtee_vsec" name="a/bsp/hardware/intel/rpcsecurity/libtee_vsec" revision="android/master">
+      <annotation name="readonly" value="true" />
+    </project>
     <project path="device/intel/sepolicy" name="a/bsp/device/intel/sepolicy" revision="android/master">
       <annotation name="readonly" value="true" />
     </project>

@@ -224,6 +224,7 @@
     </project>
 
     <project path="hardware/intel/sofia_lte-osag/tools/tools_dtc_rel" name="a/vendor/intel/imc/modem/wls_tools/tools_dtc_rel" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" >
+        <annotation name="readonly" value="true" />
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
