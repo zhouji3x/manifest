@@ -103,6 +103,7 @@
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
+        <copyfile dest="hardware/intel/sofia3gx-osag/Android.mk" src="uta_sys_test/make/cat_sys_test.mk"/>
     </project>
     <!-- Secure VM -->
     <project path="hardware/intel/sofia3gx-osag/secure_vm" name="a/bsp/secure_vm_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
