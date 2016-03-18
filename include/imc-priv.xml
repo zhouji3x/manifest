@@ -2,56 +2,47 @@
 <manifest>
 
  <!-- MRD/GARNET 3GR platform firmware -->
-    <project path="hardware/intel/mrd-3gr-sofia/bootsystems" name="a/bsp/hardware/intel/cts-3gr-sofia/bootsystems" groups="bsp-priv,embargoed" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/mrd-3gr-sofia/bootsystems" name="a/bsp/hardware/intel/cts-3gr-sofia/bootsystems" groups="bsp-priv,embargoed" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/mrd-3gr-sofia/external/3p_threadx" name="a/vendor/intel/imc/modem/external/3p_threadx_garnet" groups="bsp-priv,embargoed,notdefault" revision="android/master" clone-depth="1">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/mrd-3gr-sofia/external/3p_threadx" name="a/vendor/intel/imc/modem/external/3p_threadx_garnet" groups="bsp-priv,embargoed,notdefault" revision="android/n/mr0/master" clone-depth="1">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/mrd-3gr-sofia/mobilevisor/guests" name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/guests_garnet" groups="bsp-priv,embargoed" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/mrd-3gr-sofia/mobilevisor/guests" name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/guests_garnet" groups="bsp-priv,embargoed" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/mrd-3gr-sofia/mobilevisor/products" name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/products_garnet" groups="bsp-priv,embargoed" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/mrd-3gr-sofia/mobilevisor/products" name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/products_garnet" groups="bsp-priv,embargoed" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/mrd-3gr-sofia/mobilevisor/release" name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/release_garnet" groups="bsp-priv,embargoed" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/mrd-3gr-sofia/mobilevisor/release" name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/release_garnet" groups="bsp-priv,embargoed" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/mrd-3gr-sofia/mobilevisor/services" name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/services_garnet" groups="bsp-priv,embargoed" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/mrd-3gr-sofia/mobilevisor/services" name="a/bsp/hardware/intel/cts-3gr-sofia/mobilevisor/services_garnet" groups="bsp-priv,embargoed" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/mrd-3gr-sofia/modem" name="a/bsp/hardware/intel/cts-3gr-sofia/modem_garnet" groups="bsp-priv,embargoed" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/mrd-3gr-sofia/modem" name="a/bsp/hardware/intel/cts-3gr-sofia/modem_garnet" groups="bsp-priv,embargoed" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/mrd-3gr-sofia/secure_vm" name="a/bsp/hardware/intel/cts-3gr-sofia/secure_vm_garnet" groups="bsp-priv,embargoed" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/mrd-3gr-sofia/secure_vm" name="a/bsp/hardware/intel/cts-3gr-sofia/secure_vm_garnet" groups="bsp-priv,embargoed" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/mrd-3gr-sofia/soclib" name="a/bsp/hardware/intel/cts-3gr-sofia/soclib_garnet" groups="bsp-priv,embargoed" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/mrd-3gr-sofia/soclib" name="a/bsp/hardware/intel/cts-3gr-sofia/soclib_garnet" groups="bsp-priv,embargoed" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -59,62 +50,53 @@
 
     <!-- Sofia 3GX OS agnostics bits  -->
     <!-- BootSystems-->
-    <project path="hardware/intel/sofia3gx-osag/bootsystems" name="a/bsp/bootsystems_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia3gx-osag/bootsystems" name="a/bsp/bootsystems_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
     <!-- 3rd party components-->
-    <project path="hardware/intel/sofia3gx-osag/external/3p_threadx" name="a/vendor/intel/imc/modem/external/3p_threadx_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master" clone-depth="1">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia3gx-osag/external/3p_threadx" name="a/vendor/intel/imc/modem/external/3p_threadx_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/n/mr0/master" clone-depth="1">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
     <!-- Mobilevisor -->
-    <project path="hardware/intel/sofia3gx-osag/mobilevisor/guests" name="a/bsp/mobilevisor/guests_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia3gx-osag/mobilevisor/guests" name="a/bsp/mobilevisor/guests_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/sofia3gx-osag/mobilevisor/products" name="a/bsp/mobilevisor/products_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia3gx-osag/mobilevisor/products" name="a/bsp/mobilevisor/products_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/sofia3gx-osag/mobilevisor/release" name="a/bsp/mobilevisor/release_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia3gx-osag/mobilevisor/release" name="a/bsp/mobilevisor/release_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/sofia3gx-osag/mobilevisor/services" name="a/bsp/mobilevisor/pal_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia3gx-osag/mobilevisor/services" name="a/bsp/mobilevisor/pal_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
     <!-- modem -->
-    <project path="hardware/intel/sofia3gx-osag/modem" name="a/vendor/intel/imc/modem/modem_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia3gx-osag/modem" name="a/vendor/intel/imc/modem/modem_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
         <copyfile dest="hardware/intel/sofia3gx-osag/Android.mk" src="uta_sys_test/make/cat_sys_test.mk"/>
     </project>
     <!-- Secure VM -->
-    <project path="hardware/intel/sofia3gx-osag/secure_vm" name="a/bsp/secure_vm_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia3gx-osag/secure_vm" name="a/bsp/secure_vm_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
     <!-- Soclib -->
-    <project path="hardware/intel/sofia3gx-osag/soclib" name="a/bsp/soclib_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia3gx-osag/soclib" name="a/bsp/soclib_3gx" groups="bsp-priv,embargoed,notdefault,osag" restricted="osag" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -122,79 +104,67 @@
 
     <!-- SoFIA LTE OS agnostics bits -->
     <!-- BootSystems-->
-    <project path="hardware/intel/sofia_lte-osag/bootsystems" name="a/bsp/bootsystems" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="59120">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/bootsystems" name="a/bsp/bootsystems" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master" clone-depth="1" spsId="59120">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
 
     <!-- 3rd party components-->
-    <project path="hardware/intel/sofia_lte-osag/external/3p_oss_boringssl" name="a/vendor/intel/imc/modem/external/3p_oss_boringssl" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" spsId="64879">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/external/3p_oss_boringssl" name="a/vendor/intel/imc/modem/external/3p_oss_boringssl" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master" spsId="64879">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/sofia_lte-osag/external/3p_oss_ipsec" name="a/vendor/intel/imc/modem/external/3p_oss_ipsec" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="52310">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/external/3p_oss_ipsec" name="a/vendor/intel/imc/modem/external/3p_oss_ipsec" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master" clone-depth="1" spsId="52310">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/sofia_lte-osag/external/3p_oss_zlib" name="a/vendor/intel/imc/modem/external/3p_oss_zlib" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="48073">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/external/3p_oss_zlib" name="a/vendor/intel/imc/modem/external/3p_oss_zlib" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master" clone-depth="1" spsId="48073">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/sofia_lte-osag/external/3p_threadx" name="a/vendor/intel/imc/modem/external/3p_threadx" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="48041">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/external/3p_threadx" name="a/vendor/intel/imc/modem/external/3p_threadx" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master" clone-depth="1" spsId="48041">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/sofia_lte-osag/external/3p_threadx_x86" name="a/vendor/intel/imc/modem/external/3p_threadx_x86" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="57827">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/external/3p_threadx_x86" name="a/vendor/intel/imc/modem/external/3p_threadx_x86" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master" clone-depth="1" spsId="57827">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/sofia_lte-osag/external/3p_usb_ems" name="a/vendor/intel/imc/modem/external/3p_usb_ems" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="45134">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/external/3p_usb_ems" name="a/vendor/intel/imc/modem/external/3p_usb_ems" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master" clone-depth="1" spsId="45134">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
     <!-- Mobilevisor -->
-    <project path="hardware/intel/sofia_lte-osag/mobilevisor/guests" name="a/bsp/mobilevisor/guests" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master"  clone-depth="1" spsId="59071">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/mobilevisor/guests" name="a/bsp/mobilevisor/guests" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master"  clone-depth="1" spsId="59071">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/sofia_lte-osag/mobilevisor/products" name="a/bsp/mobilevisor/products" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master"  clone-depth="1" spsId="59072">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/mobilevisor/products" name="a/bsp/mobilevisor/products" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master"  clone-depth="1" spsId="59072">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/sofia_lte-osag/mobilevisor/release" name="a/bsp/mobilevisor/release" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master"  clone-depth="1" spsId="59069">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/mobilevisor/release" name="a/bsp/mobilevisor/release" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master"  clone-depth="1" spsId="59069">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/sofia_lte-osag/mobilevisor/services" name="a/bsp/mobilevisor/pal" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master"  clone-depth="1" spsId="59070">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/mobilevisor/services" name="a/bsp/mobilevisor/pal" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master"  clone-depth="1" spsId="59070">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
 
     <!-- modem -->
-    <project path="hardware/intel/sofia_lte-osag/modem" name="a/vendor/intel/imc/modem/modem" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="55575">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/modem" name="a/vendor/intel/imc/modem/modem" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master" clone-depth="1" spsId="55575">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -202,43 +172,37 @@
     </project>
 
     <!-- Platform sw -->
-    <project path="hardware/intel/sofia_lte-osag/platform_sw/infra_layer" name="a/vendor/intel/imc/modem/infra_layer" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/platform_sw/infra_layer" name="a/vendor/intel/imc/modem/infra_layer" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master" clone-depth="1">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
     <!-- Secure VM -->
-    <project path="hardware/intel/sofia_lte-osag/secure_vm" name="a/bsp/secure_vm" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="59074">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/secure_vm" name="a/bsp/secure_vm" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master" clone-depth="1" spsId="59074">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
 
     <!-- Soclib -->
-    <project path="hardware/intel/sofia_lte-osag/soclib" name="a/bsp/soclib" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" clone-depth="1" spsId="59073">
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/soclib" name="a/bsp/soclib" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master" clone-depth="1" spsId="59073">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
 
-    <project path="hardware/intel/sofia_lte-osag/tools/tools_dtc_rel" name="a/vendor/intel/imc/modem/wls_tools/tools_dtc_rel" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/master" >
-        <annotation name="readonly" value="true" />
+    <project path="hardware/intel/sofia_lte-osag/tools/tools_dtc_rel" name="a/vendor/intel/imc/modem/wls_tools/tools_dtc_rel" groups="bsp-priv,embargoed,osag,notdefault" restricted="osag" revision="android/n/mr0/master" >
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
 
-    <project path="icc" name="a/bsp/PRIVATE/prebuilts/icc/linux-x86/x86/x86-android-linux-14.0" revision="android/master">
-        <annotation name="readonly" value="true" />
+    <project path="icc" name="a/bsp/PRIVATE/prebuilts/icc/linux-x86/x86/x86-android-linux-14.0" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="vendor/intel/PRIVATE/embms" name="a/bsp/vendor/intel/PRIVATE/embms" groups="bsp-priv,embargoed,expway_bin,notdefault" restricted="expway_bin" revision="android/master" spsId="60436">
-        <annotation name="readonly" value="true" />
+    <project path="vendor/intel/PRIVATE/embms" name="a/bsp/vendor/intel/PRIVATE/embms" groups="bsp-priv,embargoed,expway_bin,notdefault" restricted="expway_bin" revision="android/n/mr0/master" spsId="60436">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>

@@ -27,7 +27,6 @@ anne-sophie.lefevre@intel.com:
 arvind.mohan@intel.com:
 - 'Silent Lake'
 ashraf.mohammed@intel.com:
-- 'Camera - Garnet'
 - 'Debug and Trace - Garnet'
 - 'Energy management - Garnet'
 - 'ICDG - Garnet'
@@ -77,7 +76,6 @@ christophe.guerard@intel.com:
 chuansheng.liu@intel.com:
 - 'Platform SoFia 3GX'
 cindy.xie@intel.com:
-- 'Camera - Garnet'
 - 'Debug and Trace - Garnet'
 - 'Energy management - Garnet'
 cyrille.bezard-falgas@intel.com:
@@ -122,8 +120,6 @@ ivan.g.popov@intel.com:
 jeremy.compostella@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'BOOT - OTA - GOTA SoFia'
-jing.a.sun@intel.com:
-- 'Camera - Garnet'
 joel.clark@intel.com:
 - 'Kernel'
 john.fredriksson@intel.com:
@@ -222,7 +218,6 @@ yanmin.zhang@intel.com:
 yann.fouassier@intel.com:
 - 'Debug and Trace'
 yong.hu@intel.com:
-- 'Camera - Garnet'
 - 'Debug and Trace - Garnet'
 - 'Energy management - Garnet'
 - 'ICDG - Garnet'

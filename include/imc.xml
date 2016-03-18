@@ -1,71 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <project path="hardware/imc/fm" name="a/bsp/hardware/imc/fm" revision="android/master">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="hardware/imc/ril" name="a/bsp/hardware/imc/ril" revision="android/master" spsId="59048">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="hardware/imc/rpc" name="a/bsp/hardware/imc/rpc" revision="android/master" spsId="59049">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="vendor/PRIVATE/rockchip" name="a/bsp/vendor/PRIVATE/rockchip" revision="android/master">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="hardware/intel/vpu/verisilicon" name="a/bsp/hardware/intel/vpu/verisilicon" revision="android/master">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="hardware/intel/libnvmmodule" name="a/bsp/hardware/intel/libnvmmodule" revision="android/master">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="vendor/intel/hardware/telephony/imsservices" name="a/bsp/vendor/intel/PRIVATE/imsservices" revision="android/master">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="vendor/intel/hardware/telephony/imsstack" name="a/bsp/vendor/intel/PRIVATE/imsstack" revision="android/master">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="hardware/intel/rpcsecurity" name="a/bsp/hardware/intel/rpcsecurity" revision="android/master">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="vendor/intel/liboemcrypto/sofia" name="a/bsp/vendor/intel/liboemcrypto" revision="android/master">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="vendor/intel/liboemcrypto/sofia_garnet" name="a/bsp/vendor/intel/liboemcrypto_garnet" revision="android/master">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="vendor/intel/libstagefrighthdcp" name="a/bsp/vendor/intel/libstagefrighthdcp" revision="android/master">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="device/intel-imc" name="a/bsp/device/intel/sofia" revision="android/master">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" revision="android/master" spsId="59476">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="hardware/intel/audio/imc/lib_imas" name="a/bsp/hardware/intel/lib_imas" revision="android/master" spsId="62141">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="hardware/intel/audio/imc/libauddriver" name="a/bsp/hardware/intel/libauddriver" revision="android/master" spsId="62130">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="hardware/intel/audio/imc/libaudio_hal" name="a/bsp/hardware/intel/libaudio_hal" revision="android/master" spsId="62131">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="hardware/intel/audio/imc/libaudio_hal_3g" name="a/bsp/hardware/intel/libaudio_hal_3g" revision="android/master">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="hardware/intel/sensors" name="a/bsp/hardware/intel/sensors" revision="android/master" spsId="62159">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="hardware/intel/sysctrl_daemon" name="a/bsp/hardware/intel/sysctrl_daemon" revision="android/master" spsId="62140">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="hardware/intel/display/arm/mali-dp500_lib" name="a/bsp/hardware/intel/display/arm/mali-dp500_lib" revision="android/master" groups="imc" spsId="60576">
-        <annotation name="readonly" value="true"/>
-    </project>
-    <project path="vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon" name="a/bsp/vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon" revision="android/master" groups="imc" spsId="61009">
-        <annotation name="readonly" value="true"/>
-    </project>
+    <project path="hardware/imc/fm" name="a/bsp/hardware/imc/fm" revision="android/n/mr0/master"/>
+    <project path="hardware/imc/ril" name="a/bsp/hardware/imc/ril" revision="android/n/mr0/master" spsId="59048"/>
+    <project path="hardware/imc/rpc" name="a/bsp/hardware/imc/rpc" revision="android/n/mr0/master" spsId="59049"/>
+    <project path="vendor/PRIVATE/rockchip" name="a/bsp/vendor/PRIVATE/rockchip" revision="android/n/mr0/master"/>
+    <project path="hardware/intel/vpu/verisilicon" name="a/bsp/hardware/intel/vpu/verisilicon" revision="android/n/mr0/master"/>
+    <project path="hardware/intel/libnvmmodule" name="a/bsp/hardware/intel/libnvmmodule" revision="android/n/mr0/master"/>
+    <project path="vendor/intel/hardware/telephony/imsservices" name="a/bsp/vendor/intel/PRIVATE/imsservices" revision="android/n/mr0/master"/>
+    <project path="vendor/intel/hardware/telephony/imsstack" name="a/bsp/vendor/intel/PRIVATE/imsstack" revision="android/n/mr0/master"/>
+    <project path="hardware/intel/rpcsecurity" name="a/bsp/hardware/intel/rpcsecurity" revision="android/n/mr0/master"/>
+    <project path="vendor/intel/liboemcrypto/sofia" name="a/bsp/vendor/intel/liboemcrypto" revision="android/n/mr0/master"/>
+    <project path="vendor/intel/liboemcrypto/sofia_garnet" name="a/bsp/vendor/intel/liboemcrypto_garnet" revision="android/n/mr0/master"/>
+    <project path="vendor/intel/libstagefrighthdcp" name="a/bsp/vendor/intel/libstagefrighthdcp" revision="android/n/mr0/master"/>
+    <project path="device/intel-imc" name="a/bsp/device/intel/sofia" revision="android/n/mr0/master"/>
+    <project path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" revision="android/n/mr0/master" spsId="59476"/>
+    <project path="hardware/intel/audio/imc/lib_imas" name="a/bsp/hardware/intel/lib_imas" revision="android/n/mr0/master" spsId="62141"/>
+    <project path="hardware/intel/audio/imc/libauddriver" name="a/bsp/hardware/intel/libauddriver" revision="android/n/mr0/master" spsId="62130"/>
+    <project path="hardware/intel/audio/imc/libaudio_hal" name="a/bsp/hardware/intel/libaudio_hal" revision="android/n/mr0/master" spsId="62131"/>
+    <project path="hardware/intel/audio/imc/libaudio_hal_3g" name="a/bsp/hardware/intel/libaudio_hal_3g" revision="android/n/mr0/master"/>
+    <project path="hardware/intel/sensors" name="a/bsp/hardware/intel/sensors" revision="android/n/mr0/master" spsId="62159"/>
+    <project path="hardware/intel/display/arm/mali-dp500_lib" name="a/bsp/hardware/intel/display/arm/mali-dp500_lib" revision="android/n/mr0/master" groups="imc" spsId="60576"/>
+    <project path="vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon" name="a/bsp/vendor/intel/hardware/PRIVATE/sw_fuelgauge/swfg_daemon" revision="android/n/mr0/master" groups="imc" spsId="61009"/>
 
 </manifest>

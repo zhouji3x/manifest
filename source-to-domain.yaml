@@ -616,11 +616,6 @@
 - vendor/intel/external/libwbxml
 - vendor/intel/external/syncmlrtk
 - vendor/intel/hardware/wififirst
-'Camera - Garnet':
-- vendor/intel/camera/camera3hal_garnet
-- vendor/intel/camera/camera_extension_garnet
-- vendor/intel/camera/cameralibs_garnet
-- vendor/intel/camera/libmfldadvci_garnet
 'Camera - Imaging':
 - device/intel/mixins/groups/camera
 - device/intel/mixins/groups/camera-arccamera
@@ -924,7 +919,6 @@
 - external/pystache
 - external/sbsigntool
 - hardware/intel/sensors
-- hardware/intel/sysctrl_daemon
 - icc
 - prebuilts/gcc/linux-x86/x86/x86_64-linux-poky
 - vendor/intel/apps/DataReport
