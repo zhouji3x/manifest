@@ -801,7 +801,6 @@
 - hardware/intel/intel-gpu-tools
 - vendor/intel/external/drm
 'GFX / Display Gen':
-- hardware/intel/gsd_hwcomposer
 - hardware/intel/hwc
 - hardware/intel/ufo_make
 - vendor/intel/apps/hdmisettings
@@ -820,6 +819,8 @@
 - hardware/intel/gpu/mali-midgard_lib
 'GFX / Mali - DP500 - SRC':
 - hardware/intel/display/arm/mali-dp500_lib
+'GSD HW Composer':
+- hardware/intel/gsd_hwcomposer
 'Intel Security differentiation' :
 - vendor/intel/apps/security_assist
 - vendor/intel/hardware/libaesni
