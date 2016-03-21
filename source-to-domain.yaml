@@ -718,6 +718,7 @@
 - device/intel/mixins/groups/fmradio/pekall
 - packages/apps/libfmrservice
 'Connectivity-TPV-GNSS':
+- device/intel/mixins/groups/gps/bcm4752
 - hardware/broadcom/bcm_gps
 - vendor/intel/hardware/bcm_gps
 'Connectivity-TPV-NFC':
