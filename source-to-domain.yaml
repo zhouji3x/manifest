@@ -656,7 +656,6 @@
 'Connectivity-ACP-FM':
 - device/intel/mixins/groups/fmradio/lightningpeak
 - external/v4l2rds
-- hardware/imc/fm
 - hardware/intel/fm
 - vendor/intel/apps/IntelFmApp
 - vendor/intel/fw/fm/intel
@@ -975,6 +974,7 @@
 - device/intel/mixins/groups/ims
 - device/intel/mixins/groups/telephony
 - device/intel/mixins/groups/telephony-config
+- hardware/imc/fm
 - hardware/imc/ril
 - hardware/imc/ril_3g
 - hardware/imc/rpc
