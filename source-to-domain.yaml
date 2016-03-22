@@ -517,6 +517,7 @@
 - device/intel/common/audio/parameter-framework
 - device/intel/common/config_min/parameter-framework
 - device/intel/goldsand/audio
+- device/intel/goldsand/gsd_simics/audio
 - external/parameter-framework/core
 - external/parameter-framework/plugins/alsa
 - external/parameter-framework/plugins/fs
