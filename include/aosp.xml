@@ -106,6 +106,7 @@
   <project groups="pdk,qcom_msm8x26" name="a/aosp/platform/external/giflib" path="external/giflib" />
   <project groups="pdk" name="a/aosp/platform/external/glide" path="external/glide" />
   <project groups="pdk" name="a/aosp/platform/external/gmock" path="external/gmock" />
+  <project groups="pdk" name="a/aosp/platform/external/google-benchmark" path="external/google-benchmark" />
   <project groups="pdk" name="a/aosp/platform/external/google-fonts/carrois-gothic-sc" path="external/google-fonts/carrois-gothic-sc" />
   <project groups="pdk" name="a/aosp/platform/external/google-fonts/coming-soon" path="external/google-fonts/coming-soon" />
   <project groups="pdk" name="a/aosp/platform/external/google-fonts/cutive-mono" path="external/google-fonts/cutive-mono" />
@@ -262,6 +263,7 @@
   <project groups="pdk" name="a/aosp/platform/external/toybox" path="external/toybox" />
   <project groups="pdk" name="a/aosp/platform/external/tpm2" path="external/tpm2" />
   <project groups="pdk" name="a/aosp/platform/external/tremolo" path="external/tremolo" />
+  <project groups="pdk" name="a/aosp/platform/external/unicode" path="external/unicode" />
   <project groups="pdk" name="a/aosp/platform/external/v8" path="external/v8" />
   <project groups="pdk" name="a/aosp/platform/external/valgrind" path="external/valgrind" />
   <project groups="pdk" name="a/aosp/platform/external/vixl" path="external/vixl" />

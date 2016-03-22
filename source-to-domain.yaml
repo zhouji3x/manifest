@@ -86,6 +86,7 @@
 - external/fsck_msdos
 - external/giflib
 - external/glide
+- external/google-benchmark
 - external/google-breakpad
 - external/google-fonts/carrois-gothic-sc
 - external/google-fonts/coming-soon
@@ -226,6 +227,7 @@
 - external/tinyxml2
 - external/toybox
 - external/tremolo
+- external/unicode
 - external/v8
 - external/valgrind
 - external/vboot_reference
