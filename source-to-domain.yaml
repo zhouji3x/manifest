@@ -929,6 +929,7 @@
 - device/intel/sofia3gr
 'Platform SoFia 3GX':
 - device/intel/sofia3gx
+- vendor/intel/apps/afc_daemon
 'Platform SoFia LTE':
 - device/intel/sofia_lte
 - device/quanta/sofia_lte
