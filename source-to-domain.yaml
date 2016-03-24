@@ -563,6 +563,7 @@
 - device/intel/common/action-authorization
 - device/intel/common/efiprop
 - device/intel/common/recovery
+- device/intel/common/set_storage
 - device/intel/mixins/groups/boot-arch
 - device/intel/mixins/groups/config-partition
 - device/intel/mixins/groups/debug-charging
