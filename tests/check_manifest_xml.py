@@ -4,8 +4,10 @@ import unittest
 from lxml import etree
 from check_customer_to_project_groups import CustomersToProjectGroupsYaml
 
+MANIFEST_DTD=('repo', 'docs', 'manifest.dtd')
+PROJECT_LIST=('project.list',)
 
-def _findRepo(content):
+def _findRepo(content=[]):
     curr_dir = os.path.abspath(os.path.dirname(__file__))
     repodir = None
     while curr_dir != '/' and repodir is None:
@@ -13,10 +15,7 @@ def _findRepo(content):
         if not os.path.isdir(repodir):
             repodir = None
             curr_dir = os.path.dirname(curr_dir)
-    for root, _, names in os.walk(repodir):
-       if content in names:
-           return os.path.join(root, content)
-    raise ValueError("Error: {} file not found.".format(content))
+    return os.path.join(repodir, *content)
 
 class CheckManifestSrcPath(object):
     """return [path,xml file containing the path] of all repo find in all xml files in '.' and 'include' folder,
@@ -25,7 +24,7 @@ class CheckManifestSrcPath(object):
     def __init__(self):
         listProject = []
         dummy = ''
-        with open(_findRepo("project.list"), 'r') as file_project:
+        with open(_findRepo(PROJECT_LIST), 'r') as file_project:
             for line in file_project.readlines():
                 listProject.append(str(line).rstrip())
             listemanifest = CheckManifestXML()
@@ -74,7 +73,7 @@ class CheckManifestXML(object):
 
     def checkAllManifestsAgainstDtd(self):
         """ check that all manifests comply with the DTD (Document Type Definition) """
-        dtd = etree.DTD(_findRepo("manifest.dtd"))
+        dtd = etree.DTD(_findRepo(MANIFEST_DTD))
         for manifest in self.manifestsToCheck():
             self.checkManifestAgainstDtd(manifest, dtd)
 
@@ -180,7 +179,7 @@ class TestCheckManifestXML(unittest.TestCase):
         raise Exception("%s not raised" % (exceptionClass,))
 
     def testCheckManifestAgainstDtdOk(self):
-        dtd = etree.DTD(_findRepo("manifest.dtd"))
+        dtd = etree.DTD(_findRepo(MANIFEST_DTD))
         manifest = os.path.join(os.path.dirname(__file__), "test_db", "manifestOk.xml")
         c = CheckManifestXML()
         c.checkManifestAgainstDtd(manifest, dtd)
