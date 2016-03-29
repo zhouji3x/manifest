@@ -36,6 +36,7 @@
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
+  <project groups="pdk" name="a/aosp/platform/compatibility/cdd" path="compatibility/cdd" />
   <project groups="cts,pdk-cw-fs,pdk-fs" name="a/aosp/platform/cts" path="cts" />
   <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/dalvik" path="dalvik" />
   <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/development" path="development" />
@@ -50,6 +51,7 @@
   <project groups="pdk" name="a/aosp/platform/external/apache-harmony" path="external/apache-harmony" />
   <project groups="pdk" name="a/aosp/platform/external/apache-http" path="external/apache-http" />
   <project groups="pdk" name="a/aosp/platform/external/apache-xml" path="external/apache-xml" />
+  <project groups="pdk" name="a/aosp/platform/external/archive-patcher" path="external/archive-patcher" />
   <project groups="pdk" name="a/aosp/platform/external/avahi" path="external/avahi" />
   <project groups="pdk" name="a/aosp/platform/external/bison" path="external/bison" />
   <project groups="pdk" name="a/aosp/platform/external/blktrace" path="external/blktrace" />
@@ -115,6 +117,7 @@
   <project groups="pdk" name="a/aosp/platform/external/gptfdisk" path="external/gptfdisk" />
   <project groups="pdk" name="a/aosp/platform/external/gtest" path="external/gtest" />
   <project groups="pdk" name="a/aosp/platform/external/guava" path="external/guava" />
+  <project groups="pdk" name="a/aosp/platform/external/guice" path="external/guice" />
   <project groups="pdk" name="a/aosp/platform/external/hamcrest" path="external/hamcrest" />
   <project groups="pdk,qcom_msm8x26" name="a/aosp/platform/external/harfbuzz_ng" path="external/harfbuzz_ng" />
   <project groups="pdk" name="a/aosp/platform/external/hyphenation-patterns" path="external/hyphenation-patterns" />
@@ -128,6 +131,7 @@
   <project groups="pdk" name="a/aosp/platform/external/jarjar" path="external/jarjar" />
   <project groups="pdk" name="a/aosp/platform/external/javasqlite" path="external/javasqlite" />
   <project groups="pdk" name="a/aosp/platform/external/javassist" path="external/javassist" />
+  <project groups="pdk" name="a/aosp/platform/external/jcommander" path="external/jcommander" />
   <project groups="pdk" name="a/aosp/platform/external/jdiff" path="external/jdiff" />
   <project groups="pdk" name="a/aosp/platform/external/jemalloc" path="external/jemalloc" />
   <project groups="pdk" name="a/aosp/platform/external/jetty" path="external/jetty" />
@@ -138,6 +142,7 @@
   <project groups="pdk" name="a/aosp/platform/external/jsmn" path="external/jsmn" />
   <project groups="pdk" name="a/aosp/platform/external/jsoncpp" path="external/jsoncpp" />
   <project groups="pdk" name="a/aosp/platform/external/jsr305" path="external/jsr305" />
+  <project groups="pdk" name="a/aosp/platform/external/jsr330" path="external/jsr330" />
   <project groups="pdk" name="a/aosp/platform/external/junit" path="external/junit" />
   <project groups="pdk" name="a/aosp/platform/external/kernel-headers" path="external/kernel-headers" />
   <project groups="pdk" name="a/aosp/platform/external/ksoap2" path="external/ksoap2" />
@@ -244,6 +249,7 @@
   <project groups="pdk" name="a/aosp/platform/external/sl4a" path="external/sl4a" />
   <project groups="pdk" name="a/aosp/platform/external/slf4j" path="external/slf4j" />
   <project groups="pdk" name="a/aosp/platform/external/smali" path="external/smali" />
+  <project groups="pdk" name="a/aosp/platform/external/snakeyaml" path="external/snakeyaml" />
   <project groups="pdk" name="a/aosp/platform/external/sonic" path="external/sonic" />
   <project groups="pdk" name="a/aosp/platform/external/sonivox" path="external/sonivox" />
   <project groups="pdk" name="a/aosp/platform/external/speex" path="external/speex" />
@@ -254,6 +260,7 @@
   <project groups="pdk" name="a/aosp/platform/external/svox" path="external/svox" />
   <project groups="pdk" name="a/aosp/platform/external/tagsoup" path="external/tagsoup" />
   <project groups="pdk" name="a/aosp/platform/external/tcpdump" path="external/tcpdump" />
+  <project groups="pdk" name="a/aosp/platform/external/testng" path="external/testng" />
   <project groups="pdk" name="a/aosp/platform/external/timezonepicker-support" path="external/timezonepicker-support" />
   <project groups="pdk" name="a/aosp/platform/external/tinyalsa" path="external/tinyalsa" />
   <project groups="pdk" name="a/aosp/platform/external/tinycompress" path="external/tinycompress" />
@@ -370,6 +377,7 @@
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Tag" path="packages/apps/Tag" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Terminal" path="packages/apps/Terminal" />
   <project groups="pdk" name="a/aosp/platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity" />
+  <project groups="pdk-fs" name="a/aosp/platform/packages/apps/TvSettings" path="packages/apps/TvSettings" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn" />
@@ -394,6 +402,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/packages/services/Telephony" path="packages/services/Telephony" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" />
   <project groups="pdk" name="a/aosp/platform/pdk" path="pdk" />
+  <project groups="pdk-fs,pdk-cw-fs,cts" name="a/aosp/platform/platform_testing" path="platform_testing" />
   <project clone-depth="1" groups="pdk-fs" name="a/aosp/platform/prebuilts/android-emulator" path="prebuilts/android-emulator" />
   <project clone-depth="1" groups="pdk,darwin" name="a/aosp/platform/prebuilts/clang/darwin-x86/host/3.6" path="prebuilts/clang/darwin-x86/host/3.6" />
   <project clone-depth="1" groups="pdk,darwin" name="a/aosp/platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" />

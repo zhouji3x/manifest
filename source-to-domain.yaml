@@ -3,6 +3,7 @@
 - bionic
 - bootable/recovery
 - build
+- compatibility/cdd
 - cts
 - dalvik
 - developers/build
@@ -40,6 +41,7 @@
 - external/apache-harmony
 - external/apache-http
 - external/apache-xml
+- external/archive-patcher
 - external/bison
 - external/blktrace
 - external/boringssl
@@ -96,6 +98,7 @@
 - external/gptfdisk
 - external/gtest
 - external/guava
+- external/guice
 - external/hamcrest
 - external/harfbuzz_ng
 - external/hyphenation-patterns
@@ -108,6 +111,7 @@
 - external/jarjar
 - external/javasqlite
 - external/javassist
+- external/jcommander
 - external/jdiff
 - external/jemalloc
 - external/jetty
@@ -120,6 +124,7 @@
 - external/jsmn
 - external/jsoncpp
 - external/jsr305
+- external/jsr330
 - external/junit
 - external/kernel-headers
 - external/ksoap2
@@ -210,6 +215,7 @@
 - external/skia
 - external/slf4j
 - external/smali
+- external/snakeyaml
 - external/sonic
 - external/speex
 - external/sqlite
@@ -220,6 +226,7 @@
 - external/syslinux
 - external/tagsoup
 - external/tcpdump
+- external/testng
 - external/timezonepicker-support
 - external/tinyalsa
 - external/tinycompress
