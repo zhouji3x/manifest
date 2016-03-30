@@ -128,6 +128,8 @@ ldap//CN=OTC_SI_1A-Rev-Storage,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr
 - 'Storage'
 ldap//CN=OTC_SI_1A-Rev-Telephony,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Telephony'
+ldap//CN=OTC_SI_1A-Rev-Trusty,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Trusty'
 ldap//CN=OTC_SI_1A-Rev-Video_Conferencing,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Video Conferencing'
 ldap//CN=OTC_SI_1A-Rev-Video_Gen,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
