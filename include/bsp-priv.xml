@@ -70,17 +70,17 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="external/parameter-framework/plugins/alsa" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="external/parameter-framework/plugins/alsa" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/audio/coe/primary" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="hardware/intel/audio/coe/primary" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv,embargoed" revision="android/master">
        <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/audio/coe/soundtrigger" name="a/bsp/hardware/intel/libsoundtrigger_hal" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="hardware/intel/audio/coe/soundtrigger" name="a/bsp/hardware/intel/libsoundtrigger_hal" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -220,62 +220,62 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/audio/mamgr/at-core" name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/at-core" groups="bsp-priv" revision="android/master">
+    <project path="vendor/intel/audio/mamgr/at-core" name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/at-core" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/audio/mamgr/core" name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/core" groups="bsp-priv" revision="android/master">
+    <project path="vendor/intel/audio/mamgr/core" name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/core" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/audio/mamgr/modem/xmm" name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/modem/xmm" groups="bsp-priv" revision="android/master">
+    <project path="vendor/intel/audio/mamgr/modem/xmm" name="a/bsp/hardware/intel/PRIVATE/audiocomms/mamgr/modem/xmm" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/audio/parameter-framework-plugins/alsa-custom" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa-custom" groups="bsp-priv" revision="android/master">
+    <project path="vendor/intel/audio/parameter-framework-plugins/alsa-custom" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa-custom" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/audio/parameter-framework-plugins/bluedroid" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/bluedroid" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="vendor/intel/audio/parameter-framework-plugins/bluedroid" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/bluedroid" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="vendor/intel/audio/parameter-framework-plugins/modemAudio" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/modemAudio" groups="bsp-priv" revision="android/master">
+    <project path="vendor/intel/audio/parameter-framework-plugins/modemAudio" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/modemAudio" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/audio/parameter-framework-plugins/power" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/power" groups="bsp-priv" revision="android/master">
+    <project path="vendor/intel/audio/parameter-framework-plugins/power" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/power" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/audio/parameter-framework-plugins/property" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/property" groups="bsp-priv" revision="android/master">
+    <project path="vendor/intel/audio/parameter-framework-plugins/property" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/property" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/audio/parameter-framework-plugins/remote-parameter" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/remote-parameter" groups="bsp-priv" revision="android/master">
+    <project path="vendor/intel/audio/parameter-framework-plugins/remote-parameter" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/remote-parameter" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/audio/parameter-framework-plugins/xmm" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/xmm" groups="bsp-priv" revision="android/master">
+    <project path="vendor/intel/audio/parameter-framework-plugins/xmm" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/xmm" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/audio/probe" name="a/bsp/vendor/intel/tools/PRIVATE/audiocomms/prober" groups="bsp-priv" revision="android/master">
+    <project path="vendor/intel/audio/probe" name="a/bsp/vendor/intel/tools/PRIVATE/audiocomms/prober" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
-    <project path="vendor/intel/audio/tests" name="a/bsp/hardware/intel/PRIVATE/audiocomms_tests" groups="bsp-priv" revision="android/master">
+    <project path="vendor/intel/audio/tests" name="a/bsp/hardware/intel/PRIVATE/audiocomms_tests" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
@@ -475,12 +475,12 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="vendor/intel/soundtrigger_app" name="a/bsp/vendor/intel/PRIVATE/lpal" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="vendor/intel/soundtrigger_app" name="a/bsp/vendor/intel/PRIVATE/lpal" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="vendor/intel/tools/dbga" name="a/bsp/vendor/intel/tools/dbga" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="vendor/intel/tools/dbga" name="a/bsp/vendor/intel/tools/dbga" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>

@@ -17,8 +17,8 @@
     <project path="external/libva" name="a/bsp/hardware/intel/libva" revision="android/master"/>
     <project path="external/linux-firmware-broadcom" name="a/bsp/external/linux-firmware-broadcom" revision="android/master"/>
     <project path="external/mtools" name="a/bsp/platform/external/mtools" revision="android/master"/>
-    <project path="external/parameter-framework/core" name="a/bsp/hardware/intel/PRIVATE/parameter-framework" revision="android/master"/>
-    <project path="external/parameter-framework/plugins/fs" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/fs" revision="android/master"/>
+    <project path="external/parameter-framework/core" name="a/bsp/hardware/intel/PRIVATE/parameter-framework" groups="soc_bxt,soc_cht,soc_gsd" revision="android/master"/>
+    <project path="external/parameter-framework/plugins/fs" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/fs" groups="soc_bxt,soc_cht,soc_gsd" revision="android/master"/>
     <project path="external/pciutils" name="a/bsp/platform/external/pciutils" revision="android/master"/>
     <project path="external/pystache" name="a/bsp/platform/external/pystache" revision="android/master"/>
     <project path="external/sbsigntool" name="a/bsp/platform/external/sbsigntool" revision="android/master"/>
@@ -30,8 +30,8 @@
     <project path="external/v4l2rds" name="a/bsp/vendor/intel/v4l2rds" revision="android/master" spsId="59085"/>
     <project path="hardware/broadcom/bcm_gps" name="a/bsp/hardware/intel/bcm_gps" revision="android/master"/>
     <project path="hardware/imc/gnss" name="a/bsp/gnss/lbs" revision="android/master"/>
-    <project path="hardware/intel/audio/coe/aware" name="a/bsp/hardware/intel/PRIVATE/aware_audio" revision="android/master"/>
-    <project path="hardware/intel/audio/coe/hdmi" name="a/bsp/vendor/intel/hardware/audio_media" revision="android/master"/>
+    <project path="hardware/intel/audio/coe/aware" name="a/bsp/hardware/intel/PRIVATE/aware_audio" groups="soc_bxt,soc_cht,soc_gsd" revision="android/master"/>
+    <project path="hardware/intel/audio/coe/hdmi" name="a/bsp/vendor/intel/hardware/audio_media" groups="soc_bxt,soc_cht,soc_gsd" revision="android/master"/>
     <project path="hardware/intel/bluedroid" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/bluedroid" revision="android/master" spsId="60548"/>
     <project path="hardware/intel/crm" name="a/bsp/hardware/intel/crm" revision="android/master"/>
     <project path="hardware/intel/display/libmemtrack" name="a/bsp/hardware/intel/display/libmemtrack" revision="android/master"/>
@@ -47,7 +47,7 @@
     <project path="hardware/intel/power" name="a/bsp/platform/vendor/intel/libpower" revision="android/master"/>
     <project path="hardware/intel/sofia_lte-fls" name="a/bsp/hardware/intel/sofia_lte-fls" revision="android/master"/>
     <project path="hardware/intel/ufo_make" name="a/bsp/hardware/intel/ufo_make" revision="android/master"/>
-    <project path="hardware/intel/vibrator" name="a/bsp/vendor/intel/hardware/audiocomms/vibrator" revision="android/master"/>
+    <project path="hardware/intel/vibrator" name="a/bsp/vendor/intel/hardware/audiocomms/vibrator" groups="soc_bxt,soc_cht,soc_gsd" revision="android/master"/>
     <project path="hardware/intel/wifi" name="a/bsp/vendor/intel/wifi" revision="android/master"/>
     <project path="hardware/intel/wlan/hostap_wcs/dev" name="a/bsp/hardware/intel/wlan/hostap_wcs_dev" revision="android/master">
             <copyfile dest="hardware/intel/wlan/hostap_wcs/Android.mk" src="Android-upper-folder.mk"/>
@@ -96,7 +96,7 @@
     <project path="vendor/intel/external/libMD5_rfc" name="a/bsp/vendor/intel/external/libmd5_rfc" revision="android/master"/>
     <project path="vendor/intel/external/libwbxml" name="a/bsp/vendor/intel/external/libwbxml" revision="android/master"/>
     <project path="vendor/intel/external/syncmlrtk" name="a/bsp/vendor/intel/external/syncmlrtk" revision="android/master"/>
-    <project path="hardware/intel/audio/coe/utilities" name="a/bsp/hardware/intel/audiocomms/utilities" revision="android/master"/>
+    <project path="hardware/intel/audio/coe/utilities" name="a/bsp/hardware/intel/audiocomms/utilities" groups="soc_bxt,soc_cht,soc_gsd" revision="android/master"/>
     <project path="vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" name="a/bsp/vendor/intel/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0" revision="android/master" spsId="60870"/>
     <project path="vendor/intel/camera/libiacss" name="a/bsp/vendor/intel/hardware/libiacss" revision="android/master"/>
     <project path="vendor/intel/fw/camera" name="a/bsp/device/intel/fw/camera" revision="android/master"/>
@@ -112,7 +112,7 @@
     <project path="vendor/intel/fw/modem/IMC/7260_flashless" name="a/bsp/device/intel/fw/modem/IMC/7260_flashless" revision="android/master" clone-depth="5"/>
     <project path="vendor/intel/fw/modem/IMC/7360_flashless" name="a/bsp/vendor/intel/fw/modem/IMC/7360_flashless" revision="android/master" clone-depth="5"/>
     <project path="vendor/intel/fw/modem/IMC/sofia_lte" name="a/bsp/vendor/intel/fw/modem/IMC/sofia_lte" revision="android/master" clone-depth="5"/>
-    <project path="vendor/intel/fw/sst" name="a/bsp/device/intel/fw/sst" revision="android/master"/>
+    <project path="vendor/intel/fw/sst" name="a/bsp/device/intel/fw/sst" groups="soc_bxt,soc_cht,soc_gsd" revision="android/master"/>
     <project path="vendor/intel/hardware/cg2k/3rdparty" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/3rdparty" revision="android/master"/>
     <project path="vendor/intel/hardware/cg2k/amil" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/amil" revision="android/master"/>
     <project path="vendor/intel/hardware/cg2k/gnssAdaptation/android" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/gnssAdaptation/android" revision="android/master"/>
@@ -158,8 +158,8 @@
     <project path="vendor/intel/pstore-clean" name="a/bsp/hardware/intel/pstore-clean" revision="android/master"/>
     <project path="vendor/intel/rtc" name="a/bsp/device/intel/rtc" revision="android/master"/>
     <project path="vendor/intel/silentlake/psw" name="a/bsp/vendor/intel/PRIVATE/silentlake/psw" revision="android/master"/>
-    <project path="vendor/intel/tools/asoc_dfw" name="a/bsp/vendor/intel/tools/asoc_dfw" revision="android/master"/>
-    <project path="vendor/intel/tools/itt" name="a/bsp/vendor/intel/tools/itt" revision="android/master"/>
+    <project path="vendor/intel/tools/asoc_dfw" name="a/bsp/vendor/intel/tools/asoc_dfw" groups="soc_bxt,soc_cht,soc_gsd" revision="android/master"/>
+    <project path="vendor/intel/tools/itt" name="a/bsp/vendor/intel/tools/itt" groups="soc_bxt,soc_cht,soc_gsd" revision="android/master"/>
     <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture"  revision="android/master" spsId="59066"/>
 <!-- <project path="vendor/intel/tools/PRIVATE/tlv_generator" name="a/bsp/vendor/intel/tools/PRIVATE/tlv_generator" revision="android/master"/> -->
     <project path="vendor/intel/tools/telephony_tools/at_proxy" name="a/bsp/device/intel/telephony_tools/at_proxy" revision="android/master"/>
