@@ -1005,7 +1005,7 @@
 - vendor/intel/tools/telephony_tools/telephony_test
 - vendor/verizon/trial_specifics
 'Trusty':
-- device/intel/mixins/group/trusty
+- device/intel/mixins/groups/trusty
 'Video Conferencing':
 - vendor/intel/PRIVATE/rtc
 - vendor/intel/rtc
