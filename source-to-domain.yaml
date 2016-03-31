@@ -556,10 +556,7 @@
 - vendor/intel/apps/hald
 'BOOT - OTA - GOTA':
 - bootable/userfastboot
-- device/intel/build/generate_bios_oemvars
-- device/intel/build/generate_blpolicy_oemvars
-- device/intel/build/ota-test-prepare
-- device/intel/build/ota-test-secureboot
+- device/intel/build
 - device/intel/common/action-authorization
 - device/intel/common/efiprop
 - device/intel/common/recovery
@@ -905,7 +902,6 @@
 - device/intel/cherrytrail
 'Platform Config':
 - device/intel/binarydownloader
-- device/intel/build
 - device/intel/common
 - device/intel/mixins
 - external/libfuse
