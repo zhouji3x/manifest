@@ -902,6 +902,7 @@
 - device/intel/cherrytrail
 'Platform Config':
 - device/intel/binarydownloader
+- device/intel/build/tasks
 - device/intel/common
 - device/intel/mixins
 - external/libfuse
