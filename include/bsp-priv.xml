@@ -20,22 +20,22 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="device/intel/broxton" name="a/bsp/device/intel/broxton" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="device/intel/broxton" name="a/bsp/device/intel/broxton" groups="soc_bxt,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="device/intel/cherrytrail" name="a/bsp/device/intel/cherrytrail" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="device/intel/cherrytrail" name="a/bsp/device/intel/cherrytrail" groups="soc_cht,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="device/intel/cohos3gr" name="a/bsp/device/intel/cohos3gr" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="device/intel/cohos3gr" name="a/bsp/device/intel/cohos3gr" groups="soc_irda,soc_sofia3gr,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="device/intel/goldsand" name="a/bsp/device/intel/goldsand" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="device/intel/goldsand" name="a/bsp/device/intel/goldsand" groups="soc_gsd,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -45,27 +45,27 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="device/intel/sflte_2" name="a/bsp/device/intel/sflte_2" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="device/intel/sflte_2" name="a/bsp/device/intel/sflte_2" groups="soc_sofialte2,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="device/intel/sofia3gr" name="a/bsp/device/intel/sofia3gr" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="device/intel/sofia3gr" name="a/bsp/device/intel/sofia3gr" groups="soc_sofia3gr,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="device/intel/sofia3gx" name="a/bsp/device/intel/sofia3gx" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="device/intel/sofia3gx" name="a/bsp/device/intel/sofia3gx" groups="soc_sofia3gx,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="device/intel/sofia_lte" name="a/bsp/device/intel/sofialte" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="device/intel/sofia_lte" name="a/bsp/device/intel/sofialte" groups="soc_sofialte,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="device/quanta/sofia_lte" name="a/bsp/device/quanta/sofia_lte" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="device/quanta/sofia_lte" name="a/bsp/device/quanta/sofia_lte" groups="soc_sofialte,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -125,7 +125,7 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="hardware/intel/gsd_hwcomposer" name="a/bsp/hardware/intel/gsd_hwcomposer" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="hardware/intel/gsd_hwcomposer" name="a/bsp/hardware/intel/gsd_hwcomposer" groups="soc_gsd,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -165,7 +165,7 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="vendor/intel/apps/afc_daemon" name="a/bsp/vendor/intel/apps/afc_daemon" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="vendor/intel/apps/afc_daemon" name="a/bsp/vendor/intel/apps/afc_daemon" groups="soc_sofia3gx,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
@@ -360,7 +360,7 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="vendor/intel/fw/modem/IMC/sflte_2" name="a/bsp/vendor/intel/fw/modem/IMC/sflte_2" groups="bsp-priv,embargoed" revision="android/master">
+    <project path="vendor/intel/fw/modem/IMC/sflte_2" name="a/bsp/vendor/intel/fw/modem/IMC/sflte_2" groups="soc_sofialte2,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>

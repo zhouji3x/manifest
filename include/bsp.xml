@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" revision="android/master"/>
-    <project path="device/intel/baytrail" name="a/bsp/vendor/intel/baytrail" revision="android/master"/>
+    <project path="device/intel/baytrail" name="a/bsp/vendor/intel/baytrail" groups="soc_irda" revision="android/master"/>
     <project path="device/intel/build" name="a/bsp/vendor/intel/build" revision="android/master"/>
     <project path="device/intel/common" name="a/bsp/vendor/intel/common" revision="android/master"/>
     <project path="external/alac" name="a/bsp/external/alac" revision="android/master"/>
@@ -58,7 +58,7 @@
     <project path="kernel/bxt" name="a/bsp/kernel/bxt" groups="kernel-src,soc_bxt" revision="android/master"/>
     <project path="kernel/cht" name="a/bsp/kernel/cht" groups="kernel-src,soc_cht" revision="android/master"/>
     <project path="kernel/coho" name="a/bsp/kernel/irda" groups="kernel-src,soc_irda" revision="android/master"/>
-    <project path="kernel/gsd" name="a/bsp/kernel/gsd" groups="kernel-src" revision="android/master"/>
+    <project path="kernel/gsd" name="a/bsp/kernel/gsd" groups="soc_gsd,kernel-src" revision="android/master"/>
     <project path="kernel/modules/bcm43xx" name="a/bsp/kernel/modules/bcmdhd" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/gnss" name="a/bsp/kernel/modules/gnss" groups="kernel-src" revision="android/master"/>
     <project path="kernel/modules/intel_fm" name="a/bsp/kernel/modules/bt_intel_fm" groups="kernel-src" revision="android/master"/>
