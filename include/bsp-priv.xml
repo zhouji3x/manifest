@@ -30,7 +30,7 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="device/intel/cohos3gr" name="a/bsp/device/intel/cohos3gr" groups="soc_irda,soc_sofia3gr,bsp-priv,embargoed" revision="android/master">
+    <project path="device/intel/cohos3gr" name="a/bsp/device/intel/cohos3gr" groups="soc_sofia3gr,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
