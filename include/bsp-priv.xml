@@ -598,7 +598,7 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="kernel/sofia" name="a/bsp/kernel/sofia" groups="bsp-priv,embargoed,kernel-src" revision="android/master" spsId="45510">
+    <project path="kernel/sofia" name="a/bsp/kernel/sofia" groups="bsp-priv,embargoed,kernel-src,soc_sofia3gr,soc_sofia3gx,soc_sofialte" revision="android/master" spsId="45510">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
