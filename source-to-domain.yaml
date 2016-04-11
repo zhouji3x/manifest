@@ -32,6 +32,7 @@
 - device/sample
 - docs/source.android.com
 - external/aac
+- external/adt-infra
 - external/android-clat
 - external/android-mock
 - external/androidplot
@@ -42,6 +43,7 @@
 - external/apache-http
 - external/apache-xml
 - external/archive-patcher
+- external/autotest
 - external/bison
 - external/blktrace
 - external/boringssl
@@ -210,7 +212,6 @@
 - external/safe-iop
 - external/scrypt
 - external/selinux
-- external/sepolicy
 - external/sfntly
 - external/skia
 - external/slf4j
@@ -240,6 +241,7 @@
 - external/vboot_reference
 - external/vixl
 - external/vogar
+- external/vulkan-validation-layers
 - external/webp
 - external/webrtc
 - external/wpa_supplicant_8
@@ -367,6 +369,7 @@
 - packages/apps/BasicSmsReceiver
 - packages/apps/Bluetooth
 - packages/apps/Browser
+- packages/apps/Browser2
 - packages/apps/Calculator
 - packages/apps/Calendar
 - packages/apps/Camera
@@ -379,6 +382,7 @@
 - packages/apps/DeskClock
 - packages/apps/Dialer
 - packages/apps/Email
+- packages/apps/EmergencyInfo
 - packages/apps/ExactCalculator
 - packages/apps/Exchange
 - packages/apps/FMRadio
@@ -418,6 +422,7 @@
 - packages/inputmethods/LatinIME
 - packages/inputmethods/OpenWnn
 - packages/providers/ApplicationsProvider
+- packages/providers/BlockedNumberProvider
 - packages/providers/BookmarkProvider
 - packages/providers/CalendarProvider
 - packages/providers/CallLogProvider
@@ -489,6 +494,7 @@
 - system/security
 - system/security/keystore
 - system/security/softkeymaster
+- system/sepolicy
 - system/vold
 - tools/build
 - tools/swt

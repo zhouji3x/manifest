@@ -42,6 +42,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/development" path="development" />
   <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/docs/source.android.com" path="docs/source.android.com" />
   <project groups="pdk" name="a/aosp/platform/external/aac" path="external/aac" />
+  <project groups="adt-infra,notdefault,pdk-fs" name="a/aosp/platform/external/adt-infra" path="external/adt-infra"/>
   <project groups="pdk" name="a/aosp/platform/external/android-clat" path="external/android-clat" />
   <project groups="pdk" name="a/aosp/platform/external/android-mock" path="external/android-mock" />
   <project groups="pdk" name="a/aosp/platform/external/androidplot" path="external/androidplot" />
@@ -52,6 +53,7 @@
   <project groups="pdk" name="a/aosp/platform/external/apache-http" path="external/apache-http" />
   <project groups="pdk" name="a/aosp/platform/external/apache-xml" path="external/apache-xml" />
   <project groups="pdk" name="a/aosp/platform/external/archive-patcher" path="external/archive-patcher" />
+  <project groups="pdk-fs" name="a/aosp/platform/external/autotest" path="external/autotest" />
   <project groups="pdk" name="a/aosp/platform/external/avahi" path="external/avahi" />
   <project groups="pdk" name="a/aosp/platform/external/bison" path="external/bison" />
   <project groups="pdk" name="a/aosp/platform/external/blktrace" path="external/blktrace" />
@@ -84,6 +86,8 @@
   <project groups="pdk" name="a/aosp/platform/external/dnsmasq" path="external/dnsmasq" />
   <project groups="pdk" name="a/aosp/platform/external/doclava" path="external/doclava" />
   <project groups="pdk" name="a/aosp/platform/external/donuts" path="external/donuts" />
+  <project groups="drm_gralloc,pdk-fs" name="a/aosp/platform/external/drm_gralloc" path="external/drm_gralloc" />
+  <project groups="drm_hwcomposer,pdk-fs" name="a/aosp/platform/external/drm_hwcomposer" path="external/drm_hwcomposer" />
   <project groups="pdk" name="a/aosp/platform/external/droiddriver" path="external/droiddriver" />
   <project groups="pdk" name="a/aosp/platform/external/e2fsprogs" path="external/e2fsprogs" />
   <project groups="pdk" name="a/aosp/platform/external/easymock" path="external/easymock" />
@@ -109,6 +113,7 @@
   <project groups="pdk" name="a/aosp/platform/external/glide" path="external/glide" />
   <project groups="pdk" name="a/aosp/platform/external/gmock" path="external/gmock" />
   <project groups="pdk" name="a/aosp/platform/external/google-benchmark" path="external/google-benchmark" />
+  <project groups="dragon,pdk-fs" name="a/aosp/platform/external/google-breakpad" path="external/google-breakpad" />
   <project groups="pdk" name="a/aosp/platform/external/google-fonts/carrois-gothic-sc" path="external/google-fonts/carrois-gothic-sc" />
   <project groups="pdk" name="a/aosp/platform/external/google-fonts/coming-soon" path="external/google-fonts/coming-soon" />
   <project groups="pdk" name="a/aosp/platform/external/google-fonts/cutive-mono" path="external/google-fonts/cutive-mono" />
@@ -136,6 +141,7 @@
   <project groups="pdk" name="a/aosp/platform/external/jemalloc" path="external/jemalloc" />
   <project groups="pdk" name="a/aosp/platform/external/jetty" path="external/jetty" />
   <project groups="pdk" name="a/aosp/platform/external/jhead" path="external/jhead" />
+  <project groups="notdefault,tradefed,pdk-fs" name="a/aosp/platform/external/jline" path="external/jline" />
   <project groups="pdk" name="a/aosp/platform/external/jmdns" path="external/jmdns" />
   <project groups="pdk" name="a/aosp/platform/external/jmonkeyengine" path="external/jmonkeyengine" />
   <project groups="pdk" name="a/aosp/platform/external/jsilver" path="external/jsilver" />
@@ -242,7 +248,6 @@
   <project groups="pdk" name="a/aosp/platform/external/safe-iop" path="external/safe-iop" />
   <project groups="pdk" name="a/aosp/platform/external/scrypt" path="external/scrypt" />
   <project groups="pdk" name="a/aosp/platform/external/selinux" path="external/selinux" />
-  <project groups="pdk" name="a/aosp/platform/external/sepolicy" path="external/sepolicy" />
   <project groups="pdk,qcom_msm8x26" name="a/aosp/platform/external/sfntly" path="external/sfntly" />
   <project groups="pdk" name="a/aosp/platform/external/shflags" path="external/shflags" />
   <project groups="pdk,qcom_msm8x26" name="a/aosp/platform/external/skia" path="external/skia" />
@@ -273,8 +278,10 @@
   <project groups="pdk" name="a/aosp/platform/external/unicode" path="external/unicode" />
   <project groups="pdk" name="a/aosp/platform/external/v8" path="external/v8" />
   <project groups="pdk" name="a/aosp/platform/external/valgrind" path="external/valgrind" />
+  <project groups="vboot,pdk-fs" name="a/aosp/platform/external/vboot_reference" path="external/vboot_reference" />
   <project groups="pdk" name="a/aosp/platform/external/vixl" path="external/vixl" />
   <project groups="pdk" name="a/aosp/platform/external/vogar" path="external/vogar" />
+  <project groups="pdk" name="a/aosp/platform/external/vulkan-validation-layers" path="external/vulkan-validation-layers" />
   <project groups="pdk,qcom_msm8x26" name="a/aosp/platform/external/webp" path="external/webp" />
   <project groups="pdk" name="a/aosp/platform/external/webrtc" path="external/webrtc" />
   <project groups="pdk" name="a/aosp/platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" />
@@ -336,6 +343,7 @@
   <project groups="generic_fs" name="a/aosp/platform/ndk" path="ndk" />
   <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" />
   <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" />
+  <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Browser2" path="packages/apps/Browser2" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Calculator" path="packages/apps/Calculator" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Calendar" path="packages/apps/Calendar" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Camera" path="packages/apps/Camera" />
@@ -348,6 +356,7 @@
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/DeskClock" path="packages/apps/DeskClock" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Dialer" path="packages/apps/Dialer" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Email" path="packages/apps/Email" />
+  <project groups="pdk-fs" name="a/aosp/platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/FMRadio" path="packages/apps/FMRadio" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Gallery" path="packages/apps/Gallery" />
@@ -382,6 +391,7 @@
   <project groups="pdk-fs" name="a/aosp/platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" />
+  <project groups="pdk-fs" name="a/aosp/platform/packages/providers/BlockedNumberProvider" path="packages/providers/BlockedNumberProvider" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/providers/BookmarkProvider" path="packages/providers/BookmarkProvider" />
   <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" />
   <project groups="pdk-fs" name="a/aosp/platform/packages/providers/CallLogProvider" path="packages/providers/CallLogProvider" />
@@ -447,6 +457,7 @@
   <project groups="pdk" name="a/aosp/platform/system/media" path="system/media" />
   <project groups="pdk" name="a/aosp/platform/system/netd" path="system/netd" />
   <project groups="pdk" name="a/aosp/platform/system/security" path="system/security" />
+  <project groups="pdk" name="a/aosp/platform/system/sepolicy" path="system/sepolicy"/>
   <project groups="pdk" name="a/aosp/platform/system/tools/aidl" path="system/tools/aidl" />
   <project groups="pdk" name="a/aosp/platform/system/update_engine" path="system/update_engine" />
   <project groups="pdk" name="a/aosp/platform/system/vold" path="system/vold" />
