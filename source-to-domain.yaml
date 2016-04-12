@@ -518,6 +518,7 @@
 - hardware/intel/audio/coe/soundtrigger
 - hardware/intel/audio/coe/utilities
 - hardware/intel/vibrator
+- vendor/google/audio_lib
 - vendor/intel/audio/mamgr/at-core
 - vendor/intel/audio/mamgr/core
 - vendor/intel/audio/mamgr/modem/xmm

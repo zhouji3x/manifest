@@ -165,6 +165,11 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="vendor/google/audio_lib" name="a/bsp/vendor/google/audio_lib" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/apps/afc_daemon" name="a/bsp/vendor/intel/apps/afc_daemon" groups="soc_sofia3gx,bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
