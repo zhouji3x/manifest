@@ -567,6 +567,7 @@
 'Art':
 - art
 - vendor/intel/art-extension
+- vendor/intel/external/capstone
 'Audio Common':
 - device/intel/common/audio
 - device/intel/mixins/groups/audio
