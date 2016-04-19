@@ -490,9 +490,6 @@
 - device/intel/common/config_min/parameter-framework
 - device/intel/goldsand/audio
 - device/intel/goldsand/gsd_simics/audio
-- external/parameter-framework/core
-- external/parameter-framework/plugins/alsa
-- external/parameter-framework/plugins/fs
 - hardware/intel/audio/coe/aware
 - hardware/intel/audio/coe/hdmi
 - hardware/intel/audio/coe/primary
@@ -503,8 +500,11 @@
 - vendor/intel/audio/mamgr/at-core
 - vendor/intel/audio/mamgr/core
 - vendor/intel/audio/mamgr/modem/xmm
+- vendor/intel/audio/parameter-framework
+- vendor/intel/audio/parameter-framework-plugins/alsa
 - vendor/intel/audio/parameter-framework-plugins/alsa-custom
 - vendor/intel/audio/parameter-framework-plugins/bluedroid
+- vendor/intel/audio/parameter-framework-plugins/fs
 - vendor/intel/audio/parameter-framework-plugins/modemAudio
 - vendor/intel/audio/parameter-framework-plugins/policy
 - vendor/intel/audio/parameter-framework-plugins/power

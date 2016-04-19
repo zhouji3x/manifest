@@ -40,11 +40,6 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="external/parameter-framework/plugins/alsa" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv,embargoed" revision="android/n/mr0/master">
-        <annotation name="g_external" value="no"/>
-        <annotation name="all_external" value="no"/>
-        <annotation name="bxt_rvp_external" value="no"/>
-    </project>
     <project path="hardware/intel/audio/coe/primary" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv,embargoed" revision="android/n/mr0/master">
        <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
@@ -209,6 +204,11 @@
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
+    </project>
+    <project path="vendor/intel/audio/parameter-framework-plugins/alsa" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv,embargoed" revision="android/n/mr0/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
     </project>
     <project path="vendor/intel/audio/parameter-framework-plugins/alsa-custom" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/alsa-custom" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv" revision="android/n/mr0/master">
         <annotation name="g_external" value="bin"/>
