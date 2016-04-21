@@ -610,6 +610,7 @@
 - external/iniparser
 - external/mtools
 - external/uefi_shim
+- hardware/intel/bootctrl
 - hardware/intel/efi_prebuilts/gnu-efi
 - hardware/intel/kernelflinger
 - vendor/intel/apps/fota
