@@ -91,6 +91,7 @@
     <project path="vendor/intel/apps/telephony/OemTelephony" name="a/bsp/device/intel/apps/OemTelephony" groups="bsp" revision="android/n/mr0/master"/>
     <project path="vendor/intel/apps/thermal_lite" name="a/bsp/vendor/intel/apps/thermal_lite" groups="bsp" revision="android/n/mr0/master"/>
     <project path="vendor/intel/apps/VppSettings" name="a/bsp/vendor/intel/apps/VppSettings" groups="bsp" revision="android/n/mr0/master"/>
+    <project path="vendor/intel/audio/parameter-framework-plugins/policy" name="a/bsp/vendor/intel/external/parameter-framework_plugins_policy" groups="soc_bxt,soc_cht,soc_gsd" revision="android/master"/>
     <project path="vendor/intel/external/drm" name="a/bsp/external/drm" groups="bsp" revision="android/n/mr0/master"/>
     <project path="vendor/intel/external/libdmclient" name="a/bsp/vendor/intel/external/libdmclient" groups="bsp" revision="android/n/mr0/master"/>
     <project path="vendor/intel/external/libjpeg-turbo" name="a/bsp/vendor/intel/external/libjpeg-turbo" groups="bsp" revision="android/n/mr0/master"/>

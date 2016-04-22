@@ -539,6 +539,7 @@
 - vendor/intel/audio/parameter-framework-plugins/alsa-custom
 - vendor/intel/audio/parameter-framework-plugins/bluedroid
 - vendor/intel/audio/parameter-framework-plugins/modemAudio
+- vendor/intel/audio/parameter-framework-plugins/policy
 - vendor/intel/audio/parameter-framework-plugins/power
 - vendor/intel/audio/parameter-framework-plugins/property
 - vendor/intel/audio/parameter-framework-plugins/remote-parameter
