@@ -23,12 +23,6 @@
 - device/generic/x86
 - device/generic/x86_64
 - device/google/atv
-- device/huawei/angler
-- device/huawei/angler-kernel
-- device/lge/bullhead
-- device/lge/bullhead-kernel
-- device/lge/hammerhead
-- device/lge/hammerhead-kernel
 - device/sample
 - docs/source.android.com
 - external/aac
@@ -134,7 +128,6 @@
 - external/libcap-ng
 - external/libcxx
 - external/libcxxabi
-- external/libdrm
 - external/libedit
 - external/libexif
 - external/libgsm
@@ -199,7 +192,6 @@
 - external/openfst
 - external/openssh
 - external/owasp/sanitizer
-- external/parameter-framework
 - external/pcre
 - external/pdfium
 - external/ppp
@@ -357,7 +349,6 @@
 - hardware/qcom/gps
 - hardware/qcom/keymaster
 - hardware/qcom/media
-- hardware/qcom/msm8994
 - hardware/qcom/msm8x74
 - hardware/qcom/power
 - hardware/qcom/sensors
@@ -532,6 +523,7 @@
 - device/intel/common/audio/parameter-framework
 - device/intel/common/config_min/parameter-framework
 - device/intel/goldsand/audio
+- device/intel/goldsand/gsd_simics/audio
 - external/parameter-framework/core
 - external/parameter-framework/plugins/alsa
 - external/parameter-framework/plugins/fs
@@ -541,6 +533,7 @@
 - hardware/intel/audio/coe/soundtrigger
 - hardware/intel/audio/coe/utilities
 - hardware/intel/vibrator
+- vendor/google/audio_lib
 - vendor/intel/audio/mamgr/at-core
 - vendor/intel/audio/mamgr/core
 - vendor/intel/audio/mamgr/modem/xmm
@@ -556,6 +549,7 @@
 - vendor/intel/fw/sst
 - vendor/intel/soundtrigger_app
 - vendor/intel/tools/asoc_dfw
+- vendor/intel/tools/dbga
 - vendor/intel/tools/itt
 'Audio XGold':
 - device/intel/mixins/groups/audio/sofia_lte
@@ -578,13 +572,11 @@
 - vendor/intel/apps/hald
 'BOOT - OTA - GOTA':
 - bootable/userfastboot
-- device/intel/build/generate_bios_oemvars
-- device/intel/build/generate_blpolicy_oemvars
-- device/intel/build/ota-test-prepare
-- device/intel/build/ota-test-secureboot
+- device/intel/build
 - device/intel/common/action-authorization
 - device/intel/common/efiprop
 - device/intel/common/recovery
+- device/intel/common/set_storage
 - device/intel/mixins/groups/boot-arch
 - device/intel/mixins/groups/config-partition
 - device/intel/mixins/groups/debug-charging
@@ -636,7 +628,6 @@
 - device/intel/mixins/groups/camera-arccamera
 - device/intel/mixins/groups/camera-intel_sdk
 - device/intel/mixins/groups/camera-refcam
-- hardware/intel/hald_media_hook
 - vendor/intel/apps/PRIVATE/arccamera
 - vendor/intel/apps/PRIVATE/refcam
 - vendor/intel/camera/camera3hal
@@ -671,7 +662,6 @@
 'Connectivity-ACP-FM':
 - device/intel/mixins/groups/fmradio/lightningpeak
 - external/v4l2rds
-- hardware/imc/fm
 - hardware/intel/fm
 - vendor/intel/apps/IntelFmApp
 - vendor/intel/fw/fm/intel
@@ -733,6 +723,7 @@
 - device/intel/mixins/groups/fmradio/pekall
 - packages/apps/libfmrservice
 'Connectivity-TPV-GNSS':
+- device/intel/mixins/groups/gps/bcm4752
 - hardware/broadcom/bcm_gps
 - vendor/intel/hardware/bcm_gps
 'Connectivity-TPV-NFC':
@@ -812,16 +803,15 @@
 - external/thermal_daemon_garnet
 - vendor/intel/apps/ituxd_garnet
 'Gfx / Display Drm':
-- external/drm
 - external/libpciaccess
 - hardware/intel/intel-gpu-tools
+- vendor/intel/external/drm
 'GFX / Display Gen':
-- hardware/intel/gsd_hwcomposer
 - hardware/intel/hwc
 - hardware/intel/ufo_make
 - vendor/intel/apps/hdmisettings
-- vendor/intel/drm-bxt
-- vendor/intel/drm-dev
+- vendor/intel/external/drm-bxt
+- vendor/intel/external/drm-dev
 - vendor/intel/ufo/gen7
 - vendor/intel/ufo/gen8
 - vendor/intel/ufo/gen8_dev
@@ -835,6 +825,8 @@
 - hardware/intel/gpu/mali-midgard_lib
 'GFX / Mali - DP500 - SRC':
 - hardware/intel/display/arm/mali-dp500_lib
+'GSD HW Composer':
+- hardware/intel/gsd_hwcomposer
 'Intel Security differentiation' :
 - vendor/intel/apps/security_assist
 - vendor/intel/hardware/libaesni
@@ -926,7 +918,7 @@
 - device/intel/cherrytrail
 'Platform Config':
 - device/intel/binarydownloader
-- device/intel/build
+- device/intel/build/tasks
 - device/intel/common
 - device/intel/mixins
 - external/libfuse
@@ -950,6 +942,7 @@
 - device/intel/sofia3gr
 'Platform SoFia 3GX':
 - device/intel/sofia3gx
+- vendor/intel/apps/afc_daemon
 'Platform SoFia LTE':
 - device/intel/sofia_lte
 - device/quanta/sofia_lte
@@ -988,6 +981,7 @@
 - device/intel/mixins/groups/ims
 - device/intel/mixins/groups/telephony
 - device/intel/mixins/groups/telephony-config
+- hardware/imc/fm
 - hardware/imc/ril
 - hardware/imc/ril_3g
 - hardware/imc/rpc
@@ -1023,8 +1017,9 @@
 - vendor/intel/tools/telephony_tools/PRIVATE/component_testing
 - vendor/intel/tools/telephony_tools/telephony_test
 - vendor/verizon/trial_specifics
+'Trusty':
+- device/intel/mixins/groups/trusty
 'Video Conferencing':
-- vendor/intel/apps/webrtccssdk
 - vendor/intel/PRIVATE/rtc
 - vendor/intel/rtc
 'Video Gen':
@@ -1041,18 +1036,6 @@
 - hardware/intel/vpu/verisilicon
 - hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib
 'VMM':
-- hardware/intel/cts-3g-sofia/mobilevisor/guests
-- hardware/intel/cts-3g-sofia/mobilevisor/products
-- hardware/intel/cts-3g-sofia/mobilevisor/release
-- hardware/intel/cts-3g-sofia/mobilevisor/services
-- hardware/intel/cts-3g-sofia/secure_vm
-- hardware/intel/cts-3g-sofia/soclib
-- hardware/intel/cts-3gr-sofia/mobilevisor/guests
-- hardware/intel/cts-3gr-sofia/mobilevisor/products
-- hardware/intel/cts-3gr-sofia/mobilevisor/release
-- hardware/intel/cts-3gr-sofia/mobilevisor/services
-- hardware/intel/cts-3gr-sofia/secure_vm
-- hardware/intel/cts-3gr-sofia/soclib
 - hardware/intel/mrd-3gr-sofia/mobilevisor/guests
 - hardware/intel/mrd-3gr-sofia/mobilevisor/products
 - hardware/intel/mrd-3gr-sofia/mobilevisor/release

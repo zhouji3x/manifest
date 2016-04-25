@@ -4,8 +4,10 @@ import unittest
 from lxml import etree
 from check_customer_to_project_groups import CustomersToProjectGroupsYaml
 
+MANIFEST_DTD=('repo', 'docs', 'manifest.dtd')
+PROJECT_LIST=('project.list',)
 
-def _findManifestDtd():
+def _findRepo(content=[]):
     curr_dir = os.path.abspath(os.path.dirname(__file__))
     repodir = None
     while curr_dir != '/' and repodir is None:
@@ -13,23 +15,29 @@ def _findManifestDtd():
         if not os.path.isdir(repodir):
             repodir = None
             curr_dir = os.path.dirname(curr_dir)
-    return os.path.join(repodir, 'repo', 'docs', 'manifest.dtd')
-
+    return os.path.join(repodir, *content)
 
 class CheckManifestSrcPath(object):
     """return [path,xml file containing the path] of all repo find in all xml files in '.' and 'include' folder,
        regardless of the appartenance of the xml file to the manifest of the branch"""
     project_path_list = []
     def __init__(self):
-        listemanifest = CheckManifestXML()
-        for manifest in listemanifest.xmlToCheck():
-           manifest_tree = etree.parse(manifest)
-           projects = manifest_tree.xpath("/manifest/project")
-           for project in projects:
-                try:
-                    self.project_path_list.append([project.xpath("@path")[0],manifest])
-                except IndexError:
-                    print "error in file : >%s< may be project have no path ?" %(manifest)
+        listProject = []
+        dummy = ''
+        with open(_findRepo(PROJECT_LIST), 'r') as file_project:
+            for line in file_project.readlines():
+                listProject.append(str(line).rstrip())
+            listemanifest = CheckManifestXML()
+            for manifest in listemanifest.xmlToCheck():
+                manifest_tree = etree.parse(manifest)
+                projects = manifest_tree.xpath("/manifest/project")
+                for project in projects:
+                    try:
+                        dummy = project.xpath("@path")[0]
+                    except IndexError:
+                        print "error in file : >%s< may be project have no path ?" %(manifest)
+                    if dummy in listProject:
+                        self.project_path_list.append([dummy , manifest])
 
 class CheckManifestXML(object):
 
@@ -65,7 +73,7 @@ class CheckManifestXML(object):
 
     def checkAllManifestsAgainstDtd(self):
         """ check that all manifests comply with the DTD (Document Type Definition) """
-        dtd = etree.DTD(_findManifestDtd())
+        dtd = etree.DTD(_findRepo(MANIFEST_DTD))
         for manifest in self.manifestsToCheck():
             self.checkManifestAgainstDtd(manifest, dtd)
 
@@ -171,7 +179,7 @@ class TestCheckManifestXML(unittest.TestCase):
         raise Exception("%s not raised" % (exceptionClass,))
 
     def testCheckManifestAgainstDtdOk(self):
-        dtd = etree.DTD(_findManifestDtd())
+        dtd = etree.DTD(_findRepo(MANIFEST_DTD))
         manifest = os.path.join(os.path.dirname(__file__), "test_db", "manifestOk.xml")
         c = CheckManifestXML()
         c.checkManifestAgainstDtd(manifest, dtd)

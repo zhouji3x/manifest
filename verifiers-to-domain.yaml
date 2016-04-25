@@ -70,6 +70,8 @@ ldap//CN=OTC_SI_1A-Verif-GFX-ARM,OU=Rialto,OU=Application Managed,OU=Groups,DC=a
 - 'GFX / Mali - ARM'
 ldap//CN=OTC_SI_1A-Verif-GFX-DP500-s,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'GFX / Mali - DP500 - SRC'
+ldap//CN=OTC_SI_1A-Verif-GSD_HW_Composer,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'GSD HW Composer'
 ldap//CN=OTC_SI_1A-Verif-ICDG-Garnet,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'ICDG - Garnet'
 ldap//CN=OTC_SI_1A-Verif-Intel_Security_diff,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
@@ -94,8 +96,6 @@ ldap//CN=OTC_SI_1A-Verif-Platform_BIOS,OU=Rialto,OU=Application Managed,OU=Group
 - 'Platform BIOS'
 ldap//CN=OTC_SI_1A-Verif-PM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Power Management'
-ldap//CN=OTC_SI_1A-Verif-Platform_Sofia_LTE2,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Platform SoFia LTE2'
 ldap//CN=OTC_SI_1A-Verif-Sensors,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Sensors'
 ldap//CN=OTC_SI_1A-Verif-Silent_Lake,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
@@ -106,6 +106,8 @@ ldap//CN=OTC_SI_1A-Verif-Storage,OU=Rialto,OU=Application Managed,OU=Groups,DC=a
 - 'Storage'
 ldap//CN=OTC_SI_1A-Verif-Telephony,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Telephony'
+ldap//CN=OTC_SI_1A-Verif-Trusty,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Trusty'
 ldap//CN=OTC_SI_1A-Verif-Video_Conferencing,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Video Conferencing'
 ldap//CN=OTC_SI_1A-Verif-Video_Gen,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

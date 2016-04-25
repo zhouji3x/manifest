@@ -55,7 +55,7 @@ class DomainYamlConfigCheck(object):
             for path_in_xml_manifest_file in tab_path_manifest:
 
                 # If a path of the manifest matches with the patch of the source
-                if re.search(path_in_xml_manifest_file, path_from_source_to_domain):
+                if path_from_source_to_domain.startswith(path_in_xml_manifest_file):
                     # ... then stop the search
                     found_path_in_manifest = True
                     break

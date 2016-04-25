@@ -72,6 +72,8 @@ ldap//CN=OTC_SI_1A-Rev-GFX-ARM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr
 - 'GFX / Mali - ARM'
 ldap//CN=OTC_SI_1A-Rev-GFX-DP500-s,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'GFX / Mali - DP500 - SRC'
+ldap//CN=OTC_SI_1A-Rev-GSD_HW_Composer,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'GSD HW Composer'
 ldap//CN=OTC_SI_1A-Rev-ICDG-Garnet,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'ICDG - Garnet'
 ldap//CN=OTC_SI_1A-Rev-Intel_Security_diff,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
@@ -126,6 +128,8 @@ ldap//CN=OTC_SI_1A-Rev-Storage,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr
 - 'Storage'
 ldap//CN=OTC_SI_1A-Rev-Telephony,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Telephony'
+ldap//CN=OTC_SI_1A-Rev-Trusty,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Trusty'
 ldap//CN=OTC_SI_1A-Rev-Video_Conferencing,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Video Conferencing'
 ldap//CN=OTC_SI_1A-Rev-Video_Gen,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

@@ -47,6 +47,7 @@ brad.geltz@intel.com:
 - 'BOOT - OTA - GOTA SoFia'
 - 'IRDA Signing Keys'
 carlos.santa@intel.com:
+- 'GSD HW Composer'
 - 'GFX / Display Mali'
 cedric.le.claire@intel.com:
 - 'Connectivity-ACP-BT'
@@ -184,6 +185,8 @@ rajesh.banginwar@intel.com:
 richard.zatorski@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
+roger.feng@intel.com:
+- 'Trusty'
 russell.webb@intel.com:
 - 'Security Middleware'
 samuel.ortiz@intel.com:
@@ -191,6 +194,7 @@ samuel.ortiz@intel.com:
 selma.bensaid@intel.com:
 - 'OSAG'
 sundar.iyer@intel.com:
+- 'GSD HW Composer'
 - 'Platform GoldSand'
 sylvain.centelles@intel.com:
 - 'Audio Trail'
@@ -225,6 +229,7 @@ yong.hu@intel.com:
 yong.yao@intel.com:
 - 'AOSP'
 zachary.zou@intel.com:
+- 'Trusty'
 - 'VMM'
 zhifeng.wang@intel.com:
 - 'ISH'
