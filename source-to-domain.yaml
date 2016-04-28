@@ -144,7 +144,6 @@
 - external/libphonenumber
 - external/libpng
 - external/libseccomp-helper
-- external/libselinux
 - external/libssh2
 - external/libunwind
 - external/libusb
@@ -203,7 +202,6 @@
 - external/roboto-fonts
 - external/safe-iop
 - external/scrypt
-- external/selinux
 - external/sfntly
 - external/skia
 - external/slf4j
@@ -485,7 +483,6 @@
 - system/security
 - system/security/keystore
 - system/security/softkeymaster
-- system/sepolicy
 - system/vold
 - tools/build
 - tools/swt
@@ -950,6 +947,11 @@
 - device/intel/sflte_2
 'Power Management':
 - hardware/intel/power
+'SE Linux':
+- device/intel/mixins/groups/sepolicy
+- external/libselinux
+- external/selinux
+- system/sepolicy
 'Security Middleware':
 - device/intel/sepolicy
 - hardware/intel/rpcsecurity

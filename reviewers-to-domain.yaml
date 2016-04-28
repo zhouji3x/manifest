@@ -116,6 +116,8 @@ ldap//CN=OTC_SI_1A-Rev-Platform_Sofia_LTE2,OU=Rialto,OU=Application Managed,OU=G
 - 'Platform SoFia LTE2'
 ldap//CN=OTC_SI_1A-Rev-PM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Power Management'
+ldap//CN=OTC_SI_1A-Rev-SE_Linux,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'SE Linux'
 ldap//CN=OTC_SI_1A-Rev-Security_Middle,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Security Middleware'
 ldap//CN=OTC_SI_1A-Rev-Sensors,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
