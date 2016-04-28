@@ -6,7 +6,6 @@
 - compatibility/cdd
 - cts
 - dalvik
-- developers/build
 - development
 - device/common
 - device/generic/arm64
@@ -19,7 +18,6 @@
 - device/generic/mini-emulator-x86
 - device/generic/mini-emulator-x86_64
 - device/generic/mips
-- device/generic/qemu
 - device/generic/x86
 - device/generic/x86_64
 - device/google/atv
@@ -57,7 +55,6 @@
 - external/curl
 - external/deqp
 - external/dexmaker
-- external/dhcpcd
 - external/dnsmasq
 - external/doclava
 - external/donuts
@@ -103,7 +100,6 @@
 - external/ipsec-tools
 - external/iptables
 - external/iputils
-- external/jack
 - external/jarjar
 - external/javasqlite
 - external/javassist
@@ -115,7 +111,6 @@
 - external/jline
 - external/jmdns
 - external/jmonkeyengine
-- external/jpeg
 - external/jsilver
 - external/jsmn
 - external/jsoncpp
@@ -143,8 +138,6 @@
 - external/libpcap
 - external/libphonenumber
 - external/libpng
-- external/libseccomp-helper
-- external/libssh2
 - external/libunwind
 - external/libusb
 - external/libusb-compat
@@ -155,7 +148,6 @@
 - external/libvterm
 - external/libxml2
 - external/libyuv
-- external/linux-tools-perf
 - external/littlemock
 - external/lld
 - external/lldb
@@ -275,7 +267,6 @@
 - frameworks/compile/slang
 - frameworks/data-binding
 - frameworks/ex
-- frameworks/mff
 - frameworks/minikin
 - frameworks/ml
 - frameworks/multidex
@@ -299,7 +290,6 @@
 - frameworks/opt/bitmap
 - frameworks/opt/bluetooth
 - frameworks/opt/calendar
-- frameworks/opt/carddav
 - frameworks/opt/chips
 - frameworks/opt/colorpicker
 - frameworks/opt/datetimepicker
@@ -315,7 +305,6 @@
 - frameworks/opt/telephony
 - frameworks/opt/timezonepicker
 - frameworks/opt/vcard
-- frameworks/opt/widget
 - frameworks/rs
 - frameworks/support
 - frameworks/volley
@@ -338,27 +327,18 @@
 - hardware/libhardware_legacy/include/hardware_legacy/wifi.h
 - hardware/libhardware_legacy/wifi
 - hardware/libhardware/modules/nfc
-- hardware/marvell/bt
-- hardware/mediatek
-- hardware/qcom/audio
 - hardware/qcom/bootctrl
-- hardware/qcom/bt
 - hardware/qcom/camera
 - hardware/qcom/display
 - hardware/qcom/gps
-- hardware/qcom/keymaster
 - hardware/qcom/media
 - hardware/qcom/msm8x74
-- hardware/qcom/power
-- hardware/qcom/sensors
-- hardware/qcom/wlan
 - hardware/ril
 - libcore
 - libnativehelper
 - ndk
 - packages/apps/BasicSmsReceiver
 - packages/apps/Bluetooth
-- packages/apps/Browser
 - packages/apps/Browser2
 - packages/apps/Calculator
 - packages/apps/Calendar
@@ -375,12 +355,10 @@
 - packages/apps/Email
 - packages/apps/EmergencyInfo
 - packages/apps/ExactCalculator
-- packages/apps/Exchange
 - packages/apps/FMRadio
 - packages/apps/Gallery
 - packages/apps/Gallery2
 - packages/apps/HTMLViewer
-- packages/apps/InCallUI
 - packages/apps/KeyChain
 - packages/apps/Launcher2
 - packages/apps/Launcher3
@@ -401,7 +379,6 @@
 - packages/apps/Settings/src/com/android/settings/nfc
 - packages/apps/Settings/src/com/android/settings/wifi
 - packages/apps/Stk
-- packages/apps/SmartCardService
 - packages/apps/SoundRecorder
 - packages/apps/SpareParts
 - packages/apps/SpeechRecorder
@@ -409,7 +386,6 @@
 - packages/apps/Terminal
 - packages/apps/TvSettings
 - packages/apps/UnifiedEmail
-- packages/experimental
 - packages/inputmethods/LatinIME
 - packages/inputmethods/OpenWnn
 - packages/providers/ApplicationsProvider
@@ -430,13 +406,7 @@
 - packages/services/Mms
 - packages/services/Telecomm
 - packages/services/Telephony
-- packages/wallpapers/Basic
-- packages/wallpapers/Galaxy4
-- packages/wallpapers/HoloSpiral
 - packages/wallpapers/LivePicker
-- packages/wallpapers/MagicSmoke
-- packages/wallpapers/NoiseField
-- packages/wallpapers/PhaseBeam
 - pdk
 - platform_testing
 - prebuilts/android-emulator
@@ -449,7 +419,6 @@
 - prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9
 - prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8
 - prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9
-- prebuilts/gcc/darwin-x86/host/headers
 - prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1
 - prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9
 - prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9
@@ -486,8 +455,6 @@
 - system/security/keystore
 - system/security/softkeymaster
 - system/vold
-- tools/build
-- tools/swt
 - vendor/google/gms
 - vendor/intel/external/libjpeg-turbo
 - vendor/intel/external/openssl
@@ -553,15 +520,6 @@
 - vendor/intel/tools/itt
 'Audio XGold':
 - device/intel/mixins/groups/audio/sofia_lte
-- device/intel/sofia3gr/oars7/audio
-- device/intel/sofia3gr/s3gr10m6s/audio
-- device/intel/sofia3gr/s3gr10s11/audio
-- device/intel/sofia_lte/slti20mr6/audio
-- device/intel/sofia_lte/slti20svb/audio
-- device/intel/sofia_lte/sltmrdV12/audio
-- device/intel/sofia_lte/sltmrdV34/audio
-- device/intel/sofia_lte/sltsvbV12/audio
-- device/intel/sofia_lte/sltsvbV34/audio
 - hardware/intel/audio/imc/lib_imas
 - hardware/intel/audio/imc/libauddriver
 - hardware/intel/audio/imc/libaudio_hal
@@ -587,18 +545,6 @@
 - device/intel/mixins/groups/flashfiles-content
 - device/intel/mixins/groups/flashfiles-oem
 - device/intel/mixins/groups/manufacturing-data
-- device/intel/sofia_lte/r2_sltmrdV12/flashfiles_fls.json
-- device/intel/sofia_lte/r2_sltmrdV34/flashfiles_fls.json
-- device/intel/sofia_lte/r2_sltsvbV12/flashfiles_fls.json
-- device/intel/sofia_lte/r2_sltsvbV34/flashfiles_fls.json
-- device/intel/sofia_lte/sltmrdV12/flashfiles_fls.json
-- device/intel/sofia_lte/sltmrdV34/flashfiles_fls.json
-- device/intel/sofia_lte/sltsvbV12/flashfiles_fls.json
-- device/intel/sofia_lte/sltsvbV34/flashfiles_fls.json
-- device/intel/sofia3gr/Sf3gr_sr_garnet/flashfiles_fls.json
-- device/intel/sofia3gr/s3gr10m6s/flashfiles_fls.json
-- device/intel/sofia3gr/s3gr20m6s/flashfiles_fls.json
-- device/quanta/sofia_lte/sltquanta/flashfiles_fls.json
 - external/dosfstools
 - external/efibootmgr
 - external/efitools
@@ -937,17 +883,6 @@
 - vendor/intel/utils
 'Platform GoldSand':
 - device/intel/goldsand
-'Platform SoFia 3GR':
-- device/intel/cohos3gr
-- device/intel/sofia3gr
-'Platform SoFia 3GX':
-- device/intel/sofia3gx
-- vendor/intel/apps/afc_daemon
-'Platform SoFia LTE':
-- device/intel/sofia_lte
-- device/quanta/sofia_lte
-'Platform SoFia LTE2':
-- device/intel/sflte_2
 'Power Management':
 - hardware/intel/power
 'SE Linux':
