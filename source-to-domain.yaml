@@ -341,6 +341,7 @@
 - hardware/marvell/bt
 - hardware/mediatek
 - hardware/qcom/audio
+- hardware/qcom/bootctrl
 - hardware/qcom/bt
 - hardware/qcom/camera
 - hardware/qcom/display
@@ -369,6 +370,7 @@
 - packages/apps/Contacts
 - packages/apps/ContactsCommon
 - packages/apps/DeskClock
+- packages/apps/DevCamera
 - packages/apps/Dialer
 - packages/apps/Email
 - packages/apps/EmergencyInfo
