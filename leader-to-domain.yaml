@@ -1,3 +1,5 @@
+acacia.tena@intel.com:
+- 'Sensors'
 ajit.joshi@intel.com:
 - 'WiDi'
 alek.du@intel.com:
@@ -94,6 +96,8 @@ dong-yuan.chen@intel.com:
 - 'Art'
 eike.grimpe@intel.com:
 - 'Camera - Imaging'
+elena.reshetova@intel.com:
+- 'Security Middleware'
 eman.copty@intel.com:
 - 'Perceptual Camera'
 eric.r.li@intel.com:
@@ -103,9 +107,14 @@ eugene.epshteyn@intel.com:
 - 'DRM - Widevine SoFia'
 even.xu@intel.com:
 - 'ISH'
+fabrice.sorel@intel.com:
+- 'Telephony'
 frank.bergen@intel.com:
 - 'Camera - Imaging'
 - 'Video Verisilicon - SRC'
+gary.k.smith@intel.com:
+- 'Gfx / Display Drm'
+- 'GFX / Display Gen'
 gary.zhang@intel.com:
 - 'OSAG - Garnet'
 grzegorz.janca@intel.com:
@@ -125,8 +134,9 @@ joel.clark@intel.com:
 - 'Kernel'
 john.fredriksson@intel.com:
 - 'Camera - Imaging'
-johnson.z.wu@intel.com:
-- 'Power Management'
+jon.bloomfield@intel.com:
+- 'Gfx / Display Drm'
+- 'GFX / Display Gen'
 juan.carlos.castillo@intel.com:
 - 'DRM - Widevine'
 - 'DRM - Widevine SoFia'
@@ -176,32 +186,31 @@ paul.asterland@intel.com:
 - 'Video Gen'
 peter.zhang@intel.com:
 - 'Platform SoFia 3GX'
+pierre.roulliere@intel.com:
+- 'Telephony'
+rafael.barbalho@intel.com:
+- 'Gfx / Display Drm'
+- 'GFX / Display Gen'
 raghavendra.kudva.padubidri@intel.com:
 - 'GFX / Display Mali'
 - 'GFX / Mali - ARM'
 - 'GFX / Mali - DP500 - SRC'
 rajesh.banginwar@intel.com:
 - 'Silent Lake'
-richard.zatorski@intel.com:
-- 'Gfx / Display Drm'
-- 'GFX / Display Gen'
 roger.feng@intel.com:
 - 'Trusty'
-russell.webb@intel.com:
-- 'Security Middleware'
 samuel.ortiz@intel.com:
 - 'Auto_Detection'
 selma.bensaid@intel.com:
 - 'OSAG'
+sivakumar.thulasimani@intel.com:
+- 'Gfx / Display Drm'
+- 'GFX / Display Gen'
 sundar.iyer@intel.com:
 - 'GSD HW Composer'
 - 'Platform GoldSand'
 sylvain.centelles@intel.com:
 - 'Audio Trail'
-sylvestre.dischamp@intel.com:
-- 'Telephony'
-thierry.deleau@intel.com:
-- 'Telephony'
 thomas.schuler@intel.com:
 - 'Audio XGold'
 tommi.von.hertzen@intel.com:
@@ -209,8 +218,9 @@ tommi.von.hertzen@intel.com:
 - 'DRM - Widevine SoFia'
 venkat.r.gokulrangan@intel.com:
 - 'Intel Security differentiation'
-viorel.suman@intel.com:
-- 'Sensors'
+vijay.a.purushothaman@intel.com:
+- 'Gfx / Display Drm'
+- 'GFX / Display Gen'
 william.c.roberts@intel.com:
 - 'SE Linux'
 - 'Security Middleware'
