@@ -23,7 +23,6 @@
     <project path="external/smartcardservice" name="a/bsp/external/SmartcardService" groups="bsp" revision="android/n/mr0/master"/>
     <project path="external/syslinux" name="a/bsp/external/syslinux" groups="bsp" revision="android/n/mr0/master"/>
     <project path="external/thermal_daemon" name="a/bsp/platform/external/thermal_daemon" groups="bsp" revision="android/n/mr0/master" spsId="60541"/>
-    <project path="external/thermal_daemon_garnet" name="a/bsp/platform/external/thermal_daemon_garnet" groups="bsp" revision="android/n/mr0/master"/>
     <project path="external/uefi_shim" name="a/bsp/platform/external/uefi_shim" groups="bsp" revision="android/n/mr0/master"/>
     <project path="external/v4l2rds" name="a/bsp/vendor/intel/v4l2rds" groups="bsp" revision="android/n/mr0/master" spsId="59085"/>
     <project path="hardware/broadcom/bcm_gps" name="a/bsp/hardware/intel/bcm_gps" groups="bsp" revision="android/n/mr0/master"/>
@@ -44,7 +43,6 @@
     <project path="hardware/intel/lights" name="a/bsp/hardware/intel/liblights" groups="bsp" revision="android/n/mr0/master"/>
     <project path="hardware/intel/nfc" name="a/bsp/vendor/intel/hardware/nfc/intel" groups="bsp" revision="android/n/mr0/master"/>
     <project path="hardware/intel/power" name="a/bsp/platform/vendor/intel/libpower" groups="bsp" revision="android/n/mr0/master"/>
-    <project path="hardware/intel/sofia_lte-fls" name="a/bsp/hardware/intel/sofia_lte-fls" groups="bsp" revision="android/n/mr0/master"/>
     <project path="hardware/intel/ufo_make" name="a/bsp/hardware/intel/ufo_make" groups="bsp" revision="android/n/mr0/master"/>
     <project path="hardware/intel/vibrator" name="a/bsp/vendor/intel/hardware/audiocomms/vibrator" groups="bsp,soc_bxt,soc_cht,soc_gsd" revision="android/n/mr0/master"/>
     <project path="hardware/intel/wifi" name="a/bsp/vendor/intel/wifi" groups="bsp" revision="android/n/mr0/master"/>
@@ -69,8 +67,6 @@
     <project path="kernel/modules/perftools-external" name="a/bsp/kernel/modules/perftools-external" groups="bsp,kernel-src" revision="android/n/mr0/master"/>
     <project path="kernel/modules/realtek" name="a/bsp/kernel/modules/realtek" groups="bsp,kernel-src" revision="android/n/mr0/master"/>
     <project path="kernel/modules/sldriver" name="a/bsp/linux/modules/sldriver" groups="bsp,kernel-src" revision="android/n/mr0/master"/>
-    <project path="kernel/sofia-3gr" name="a/bsp/kernel/sofia-3gr" groups="bsp,kernel-src,soc_sofia3gr" revision="android/n/mr0/master"/>
-    <project path="kernel/sofia-lte" name="a/bsp/kernel/sofia-lte" groups="bsp,kernel-src,soc_sofialte" revision="android/n/mr0/master"/>
     <project path="modem/tools/ipcs" name="a/bsp/modem/tools/ipcs" groups="bsp" revision="android/n/mr0/master"/>
     <project path="packages/apps/libfmrservice" name="a/bsp/packages/apps/fmr" groups="bsp" revision="android/n/mr0/master" spsId="59081"/>
     <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-poky" name="a/bsp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-poky-1.8" groups="bsp" revision="android/n/mr0/master"/>
@@ -81,7 +77,6 @@
     <project path="vendor/intel/apps/hdmisettings" name="a/bsp/vendor/intel/apps/HdmiSettings" groups="bsp" revision="android/n/mr0/master"/>
     <project path="vendor/intel/apps/IntelFmApp" name="a/bsp/packages/apps/IntelFmApp" groups="bsp" revision="android/n/mr0/master" spsId="59079"/>
     <project path="vendor/intel/apps/ituxd" name="a/bsp/vendor/intel/apps/ituxd" groups="bsp" revision="android/n/mr0/master" spsId="60543"/>
-    <project path="vendor/intel/apps/ituxd_garnet" name="a/bsp/vendor/intel/apps/ituxd_garnet" groups="bsp" revision="android/n/mr0/master"/>
     <project path="vendor/intel/apps/nfc_service_ext" name="a/bsp/vendor/intel/apps/nfc_service_ext" groups="bsp" revision="android/n/mr0/master"/>
     <project path="vendor/intel/apps/PRIVATE/Aware" name="a/bsp/vendor/intel/PRIVATE/Aware" groups="bsp" revision="android/n/mr0/master"/>
     <project path="vendor/intel/apps/PRIVATE/arccamera" name="a/bsp/vendor/arcsoft/arccamera" groups="bsp" revision="android/n/mr0/master"/>
@@ -110,10 +105,8 @@
     </project>
     <project path="vendor/intel/fw/iwl/lhp" name="a/bsp/vendor/intel/fw/iwl_lhp" groups="bsp" revision="android/n/mr0/master"/>
     <project path="vendor/intel/fw/iwl/rel" name="a/bsp/vendor/intel/fw/iwl_rel" groups="bsp" revision="android/n/mr0/master"/>
-    <project path="vendor/intel/fw/modem/IMC/7160_flashless" name="a/bsp/device/intel/fw/modem/IMC/7160_flashless" groups="bsp" revision="android/n/mr0/master" spsId="60542" clone-depth="5"/>
     <project path="vendor/intel/fw/modem/IMC/7260_flashless" name="a/bsp/device/intel/fw/modem/IMC/7260_flashless" groups="bsp" revision="android/n/mr0/master" clone-depth="5"/>
     <project path="vendor/intel/fw/modem/IMC/7360_flashless" name="a/bsp/vendor/intel/fw/modem/IMC/7360_flashless" groups="bsp" revision="android/n/mr0/master" clone-depth="5"/>
-    <project path="vendor/intel/fw/modem/IMC/sofia_lte" name="a/bsp/vendor/intel/fw/modem/IMC/sofia_lte" groups="bsp" revision="android/n/mr0/master" clone-depth="5"/>
     <project path="vendor/intel/fw/sst" name="a/bsp/device/intel/fw/sst" groups="bsp,soc_bxt,soc_cht,soc_gsd" revision="android/n/mr0/master"/>
     <project path="vendor/intel/hardware/cg2k/3rdparty" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/3rdparty" groups="bsp" revision="android/n/mr0/master"/>
     <project path="vendor/intel/hardware/cg2k/amil" name="a/bsp/vendor/intel/hardware/PRIVATE/gnss/cg2k/amil" groups="bsp" revision="android/n/mr0/master"/>
@@ -181,7 +174,6 @@
     <!-- irda-telemetry repositories -->
     <project path="external/libaudit" name="a/bsp/external/libaudit" groups="bsp" revision="android/n/mr0/master"/>
     <project path="vendor/intel/telemetry-client" name="a/bsp/vendor/intel/telemetry-client" groups="bsp" revision="android/n/mr0/master"/>
-    <project path="vendor/intel/tools/efipropsync" name="a/bsp/vendor/intel/tools/efipropsync" groups="bsp" revision="android/n/mr0/master"/>
     <!-- irda-telemetry-apps repositories -->
     <project path="vendor/intel/apps/DataReport" name="a/bsp/vendor/intel/apps/DataReport" groups="bsp" revision="android/n/mr0/master"/>
     <project path="vendor/intel/apps/DataReportSettings" name="a/bsp/vendor/intel/apps/DataReportSettings" groups="bsp" revision="android/n/mr0/master"/>
@@ -200,14 +192,7 @@
     </project>
     <project path="hardware/intel/wlan/libwifihal/lhp" name="a/bsp/hardware/intel/wlan/libwifihal_lhp" groups="bsp" revision="android/n/mr0/master"/>
     <project path="hardware/intel/wlan/libwifihal/rel" name="a/bsp/hardware/intel/wlan/libwifihal_rel" groups="bsp" revision="android/n/mr0/master"/>
-
-    <!-- irda-wireless repositories -->
-    <project path="vendor/intel/tools/PRIVATE/wifail" name="a/bsp/vendor/intel/tools/PRIVATE/wifail" groups="bsp" revision="android/n/mr0/master"/>
     <!--security repository -->
-    <project path="hardware/intel/rpcsecurity/libtee_vsec" name="a/bsp/hardware/intel/rpcsecurity/libtee_vsec" groups="bsp" revision="android/n/mr0/master"/>
     <project path="device/intel/sepolicy" name="a/bsp/device/intel/sepolicy" groups="bsp" revision="android/n/mr0/master"/>
-    <!-- SoFIA 3g platform repos: please make sure this list of projects is
-         in sync with 3g/3gr tree  -->
-    <project path="hardware/imc/ril_3g" name="a/bsp/hardware/imc/ril_3g" groups="bsp" revision="android/n/mr0/master"/>
-    <project path="hardware/imc/rpc_3g" name="a/bsp/hardware/imc/rpc_3g" groups="bsp" revision="android/n/mr0/master"/>
+
 </manifest>

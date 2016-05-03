@@ -12,7 +12,6 @@ alwin.mathew@intel.com:
 - 'Platform Config'
 - 'Platform GoldSand'
 amber.jain@intel.com:
-- 'GFX / Display Mali'
 - 'GFX / Mali - ARM'
 amir.noam@intel.com:
 - 'ISH'
@@ -27,8 +26,6 @@ arvind.mohan@intel.com:
 ashraf.mohammed@intel.com:
 - 'Debug and Trace - Garnet'
 - 'Energy management - Garnet'
-- 'ICDG - Garnet'
-- 'Kernel iCDG'
 aviv.d.greenberg@intel.com:
 - 'Perceptual Camera'
 axel.fagerstedt@intel.com:
@@ -36,15 +33,12 @@ axel.fagerstedt@intel.com:
 bingquan.hu@intel.com:
 - 'Sensors'
 binu.r.s@intel.com:
-- 'GFX / Display Mali'
 - 'GFX / Mali - DP500 - SRC'
 brad.geltz@intel.com:
 - 'BOOT - OTA - GOTA'
-- 'BOOT - OTA - GOTA SoFia'
 - 'IRDA Signing Keys'
 carlos.santa@intel.com:
 - 'GSD HW Composer'
-- 'GFX / Display Mali'
 cedric.le.claire@intel.com:
 - 'Connectivity-ACP-BT'
 - 'Connectivity-ACP-CellCoex'
@@ -58,10 +52,7 @@ cedric.le.claire@intel.com:
 chris.r.watkins@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
-christophe.chauvin@intel.com:
-- 'Kernel iCDG'
 christophe.continente@intel.com:
-- 'OSAG - Garnet'
 - 'Platform BIOS'
 - 'Platform Broxton'
 - 'Platform CherryTrail'
@@ -88,32 +79,23 @@ eric.r.li@intel.com:
 - 'Platform BIOS'
 eugene.epshteyn@intel.com:
 - 'DRM - Widevine'
-- 'DRM - Widevine SoFia'
 even.xu@intel.com:
 - 'ISH'
 fabrice.sorel@intel.com:
 - 'Telephony'
 frank.bergen@intel.com:
 - 'Camera - Imaging'
-- 'Video Verisilicon - SRC'
 gary.k.smith@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
-gary.zhang@intel.com:
-- 'OSAG - Garnet'
 grzegorz.janca@intel.com:
 - 'Storage'
-guilhem.imberton@intel.com:
-- 'OSAG'
 hang.l.sun@intel.com:
 - 'WiDi'
-herbert.sereda@intel.com:
-- 'Video Verisilicon - SRC'
 ivan.g.popov@intel.com:
 - 'Art'
 jeremy.compostella@intel.com:
 - 'BOOT - OTA - GOTA'
-- 'BOOT - OTA - GOTA SoFia'
 joel.clark@intel.com:
 - 'Kernel'
 john.fredriksson@intel.com:
@@ -123,7 +105,6 @@ jon.bloomfield@intel.com:
 - 'GFX / Display Gen'
 juan.carlos.castillo@intel.com:
 - 'DRM - Widevine'
-- 'DRM - Widevine SoFia'
 julien.battiston@intel.com:
 - 'Power Management'
 linda.s.cline@intel.com:
@@ -141,7 +122,6 @@ luis.amezcua@intel.com:
 - 'Platform CherryTrail'
 manish.regmi@intel.com:
 - 'BOOT - OTA - GOTA'
-- 'BOOT - OTA - GOTA SoFia'
 marius.m.archip@intel.com:
 - 'SoFia LTE Debug & Trace'
 markus.lehmann@intel.com:
@@ -156,8 +136,6 @@ mickael.mallet@intel.com:
 - 'Manifest'
 mikael.persson@intel.com:
 - 'Camera - Imaging'
-nicolas.heckmann@intel.com:
-- 'OSAG'
 niveditha.sundaram@intel.com:
 - 'Video Conferencing'
 noor.u.mubeen@intel.com:
@@ -173,7 +151,6 @@ rafael.barbalho@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
 raghavendra.kudva.padubidri@intel.com:
-- 'GFX / Display Mali'
 - 'GFX / Mali - ARM'
 - 'GFX / Mali - DP500 - SRC'
 rajesh.banginwar@intel.com:
@@ -182,8 +159,6 @@ roger.feng@intel.com:
 - 'Trusty'
 samuel.ortiz@intel.com:
 - 'Auto_Detection'
-selma.bensaid@intel.com:
-- 'OSAG'
 sivakumar.thulasimani@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
@@ -196,7 +171,6 @@ thomas.schuler@intel.com:
 - 'Audio XGold'
 tommi.von.hertzen@intel.com:
 - 'DRM - Widevine'
-- 'DRM - Widevine SoFia'
 venkat.r.gokulrangan@intel.com:
 - 'Intel Security differentiation'
 vijay.a.purushothaman@intel.com:
@@ -205,8 +179,6 @@ vijay.a.purushothaman@intel.com:
 william.c.roberts@intel.com:
 - 'SE Linux'
 - 'Security Middleware'
-xavier.roumegue@intel.com:
-- 'Kernel iCDG'
 xinhong.hu@intel.com:
 - 'Carrier'
 yanmin.zhang@intel.com:
@@ -216,13 +188,10 @@ yann.fouassier@intel.com:
 yong.hu@intel.com:
 - 'Debug and Trace - Garnet'
 - 'Energy management - Garnet'
-- 'ICDG - Garnet'
-- 'OSAG - Garnet'
 yong.yao@intel.com:
 - 'AOSP'
 zachary.zou@intel.com:
 - 'Trusty'
-- 'VMM'
 zhifeng.wang@intel.com:
 - 'ISH'
 zuping.qin@intel.com:

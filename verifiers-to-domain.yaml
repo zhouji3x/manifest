@@ -10,8 +10,6 @@ ldap//CN=OTC_SI_1A-Verif-Auto_Detection,OU=Rialto,OU=Application Managed,OU=Grou
 - 'Auto_Detection'
 ldap//CN=OTC_SI_1A-Verif-BOOT_OTA_GOTA,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'BOOT - OTA - GOTA'
-ldap//CN=OTC_SI_1A-Verif-BOOT_OTA_GOTA_SoFia,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'BOOT - OTA - GOTA SoFia'
 ldap//CN=OTC_SI_1A-Verif-CAM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'CAM'
 ldap//CN=OTC_SI_1A-Verif-Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
@@ -54,8 +52,6 @@ ldap//CN=OTC_SI_1A-Verif-Debug_Trace_Garnet,OU=Rialto,OU=Application Managed,OU=
 - 'Debug and Trace - Garnet'
 ldap//CN=OTC_SI_1A-Verif-DRM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'DRM - Widevine'
-ldap//CN=OTC_SI_1A-Verif-DRM-Sofia,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'DRM - Widevine SoFia'
 ldap//CN=OTC_SI_1A-Verif-Energy_Mgt,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Energy management'
 ldap//CN=OTC_SI_1A-Verif-Energy_Mgt_Garnet,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
@@ -64,16 +60,12 @@ ldap//CN=OTC_SI_1A-Verif-Gfx_Display_Drm,OU=Rialto,OU=Application Managed,OU=Gro
 - 'Gfx / Display Drm'
 ldap//CN=OTC_SI_1A-Verif-GFX_Gen,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'GFX / Display Gen'
-ldap//CN=OTC_SI_1A-Verif-GFX_Mali,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'GFX / Display Mali'
 ldap//CN=OTC_SI_1A-Verif-GFX-ARM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'GFX / Mali - ARM'
 ldap//CN=OTC_SI_1A-Verif-GFX-DP500-s,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'GFX / Mali - DP500 - SRC'
 ldap//CN=OTC_SI_1A-Verif-GSD_HW_Composer,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'GSD HW Composer'
-ldap//CN=OTC_SI_1A-Verif-ICDG-Garnet,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'ICDG - Garnet'
 ldap//CN=OTC_SI_1A-Verif-Intel_Security_diff,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Intel Security differentiation'
 ldap//CN=OTC_SI_1A-Verif-IRDA_Signing_Keys,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
@@ -82,14 +74,8 @@ ldap//CN=OTC_SI_1A-Verif-ISH,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,D
 - 'ISH'
 ldap//CN=OTC_SI_1A-Verif-Kernel,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Kernel'
-ldap//CN=OTC_SI_1A-Verif-Kernel_iCDG,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Kernel iCDG'
 ldap//CN=OTC_SI_1A-Verif-Manifest,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Manifest'
-ldap//CN=OTC_SI_1A-Verif-OSAG,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'OSAG'
-ldap//CN=OTC_SI_1A-Verif-OSAG-Garnet,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'OSAG - Garnet'
 ldap//CN=OTC_SI_1A-Verif-Perceptual_Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Perceptual Camera'
 ldap//CN=OTC_SI_1A-Verif-Platform_BIOS,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
@@ -112,10 +98,6 @@ ldap//CN=OTC_SI_1A-Verif-Video_Conferencing,OU=Rialto,OU=Application Managed,OU=
 - 'Video Conferencing'
 ldap//CN=OTC_SI_1A-Verif-Video_Gen,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Video Gen'
-ldap//CN=OTC_SI_1A-Verif-Video-Verisilicon-s,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Video Verisilicon - SRC'
-ldap//CN=OTC_SI_1A-Verif-VMM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'VMM'
 ldap//CN=OTC_SI_1A-Verif-WiDi,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'WiDi'
 ldap//CN=pdl-icdg-mm-camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
