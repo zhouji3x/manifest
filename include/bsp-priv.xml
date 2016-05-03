@@ -15,11 +15,6 @@
        must accurately reflect this redistributable status.
     -->
 
-    <project path="device/intel/binarydownloader" name="a/bsp/device/intel/binarydownloader" groups="bsp-priv,embargoed" revision="android/n/mr0/master">
-        <annotation name="g_external" value="no"/>
-        <annotation name="all_external" value="no"/>
-        <annotation name="bxt_rvp_external" value="no"/>
-    </project>
     <project path="device/intel/broxton" name="a/bsp/device/intel/broxton" groups="soc_bxt,bsp-priv,embargoed" revision="android/n/mr0/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>

@@ -2,8 +2,6 @@ acacia.tena@intel.com:
 - 'Sensors'
 ajit.joshi@intel.com:
 - 'WiDi'
-alek.du@intel.com:
-- 'Platform SoFia 3GX'
 alice.liu@intel.com:
 - 'Energy management'
 alwin.mathew@intel.com:
@@ -13,8 +11,6 @@ alwin.mathew@intel.com:
 - 'Platform Broxton'
 - 'Platform Config'
 - 'Platform GoldSand'
-- 'Platform SoFia 3GR'
-- 'Platform SoFia 3GX'
 amber.jain@intel.com:
 - 'GFX / Display Mali'
 - 'GFX / Mali - ARM'
@@ -42,8 +38,6 @@ bingquan.hu@intel.com:
 binu.r.s@intel.com:
 - 'GFX / Display Mali'
 - 'GFX / Mali - DP500 - SRC'
-bo.he@intel.com:
-- 'Platform SoFia LTE'
 brad.geltz@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'BOOT - OTA - GOTA SoFia'
@@ -71,27 +65,17 @@ christophe.continente@intel.com:
 - 'Platform BIOS'
 - 'Platform Broxton'
 - 'Platform CherryTrail'
-- 'Platform SoFia 3GR'
-- 'Platform SoFia 3GX'
-- 'Platform SoFia LTE'
 christophe.guerard@intel.com:
 - 'Debug and Trace'
-chuansheng.liu@intel.com:
-- 'Platform SoFia 3GX'
 cindy.xie@intel.com:
 - 'Debug and Trace - Garnet'
 - 'Energy management - Garnet'
 cyrille.bezard-falgas@intel.com:
 - 'Platform Config'
-- 'Platform SoFia LTE2'
 dave.lin@intel.com:
 - 'Platform Baytrail'
 - 'Platform BIOS'
 - 'Platform Config'
-- 'Platform SoFia 3GR'
-di.zhang@intel.com:
-- 'Platform SoFia 3GR'
-- 'Platform SoFia 3GX'
 dong-yuan.chen@intel.com:
 - 'Art'
 eike.grimpe@intel.com:
@@ -174,7 +158,6 @@ mikael.persson@intel.com:
 - 'Camera - Imaging'
 nicolas.heckmann@intel.com:
 - 'OSAG'
-- 'Platform SoFia LTE'
 niveditha.sundaram@intel.com:
 - 'Video Conferencing'
 noor.u.mubeen@intel.com:
@@ -184,8 +167,6 @@ olivier.carpentier@intel.com:
 paul.asterland@intel.com:
 - 'Audio Common'
 - 'Video Gen'
-peter.zhang@intel.com:
-- 'Platform SoFia 3GX'
 pierre.roulliere@intel.com:
 - 'Telephony'
 rafael.barbalho@intel.com:
