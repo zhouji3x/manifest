@@ -347,7 +347,6 @@
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/Browser2" path="packages/apps/Browser2" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/Calculator" path="packages/apps/Calculator" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/Calendar" path="packages/apps/Calendar" />
-  <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/Camera" path="packages/apps/Camera" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/Camera2" path="packages/apps/Camera2" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" />
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" />
@@ -360,7 +359,6 @@
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/Email" path="packages/apps/Email" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" />
-  <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/FMRadio" path="packages/apps/FMRadio" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/Gallery" path="packages/apps/Gallery" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/Gallery2" path="packages/apps/Gallery2" />
   <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" />

@@ -390,7 +390,6 @@
 - packages/apps/Browser2
 - packages/apps/Calculator
 - packages/apps/Calendar
-- packages/apps/Camera
 - packages/apps/Camera2
 - packages/apps/CarrierConfig
 - packages/apps/CellBroadcastReceiver
@@ -403,7 +402,6 @@
 - packages/apps/Email
 - packages/apps/EmergencyInfo
 - packages/apps/ExactCalculator
-- packages/apps/FMRadio
 - packages/apps/Gallery
 - packages/apps/Gallery2
 - packages/apps/HTMLViewer
