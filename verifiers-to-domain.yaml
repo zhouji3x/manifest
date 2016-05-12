@@ -32,6 +32,8 @@ ldap//CN=OTC_SI_1A-Verif-Conn-GNSS-Core,OU=Rialto,OU=Application Managed,OU=Grou
 - 'Connectivity-GNSS-Core'
 ldap//CN=OTC_SI_1A-Verif-Conn-MFG-DBG,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Connectivity-Manufacturing-Debug'
+ldap//CN=OTC_SI_1A-Verif-Conn-IOSM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-IOSM'
 ldap//CN=OTC_SI_1A-Verif-Conn-TPV-BT,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Connectivity-TPV-BT'
 ldap//CN=OTC_SI_1A-Verif-Conn-TPV-CellCoex,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

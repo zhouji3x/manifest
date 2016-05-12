@@ -705,6 +705,8 @@
 - modem/tools/ipcs
 - vendor/intel/hardware/PRIVATE/rocs
 - vendor/intel/hardware/PRIVATE/rservice
+'Connectivity-IOSM':
+- vendor/intel/external/socat
 'Connectivity-TPV-BT':
 - device/intel/mixins/groups/bluetooth/bcm43241
 - device/intel/mixins/groups/bluetooth/bcm43340
