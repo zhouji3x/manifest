@@ -420,6 +420,16 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
+    <project path="vendor/intel/location_fusion/flp_hal" name="a/bsp/vendor/intel/location_fusion/flp_hal" groups="bsp-priv,embargoed" revision="android/n/mr0/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <project path="vendor/intel/location_fusion/location_daemon" name="a/bsp/vendor/intel/location_fusion/location_daemon" groups="bsp-priv,embargoed" revision="android/n/mr0/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/media_codecs" name="a/bsp/device/intel/PRIVATE/media_codecs" groups="bsp-priv" revision="android/n/mr0/master" spsId="60538">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>

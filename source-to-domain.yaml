@@ -698,6 +698,9 @@
 - vendor/intel/hardware/cg2k/gnss/supl
 - vendor/intel/hardware/cg2k/gnssAdaptation/android
 - vendor/intel/hardware/cg2k/gnssExe
+'Connectivity-Location-Core':
+- vendor/intel/location_fusion/flp_hal
+- vendor/intel/location_fusion/location_daemon
 'Connectivity-Manufacturing-Debug':
 - device/intel/mixins/groups/ipcs
 - device/intel/mixins/groups/rocs

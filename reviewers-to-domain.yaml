@@ -32,6 +32,8 @@ ldap//CN=OTC_SI_1A-Rev-Conn-ACP-WIFI,OU=Rialto,OU=Application Managed,OU=Groups,
 - 'Connectivity-ACP-WIFI'
 ldap//CN=OTC_SI_1A-Rev-Conn-GNSS-Core,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Connectivity-GNSS-Core'
+ldap//CN=OTC_SI_1A-Rev-Conn-Loc-Core,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-Location-Core'
 ldap//CN=OTC_SI_1A-Rev-Conn-MFG-DBG,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Connectivity-Manufacturing-Debug'
 ldap//CN=OTC_SI_1A-Rev-Conn-IOSM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
