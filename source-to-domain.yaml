@@ -828,6 +828,7 @@
 - hardware/intel/display/arm/mali-dp500_lib
 'GSD HW Composer':
 - hardware/intel/gsd_hwcomposer
+- vendor/intel/external/drm-gsd
 'Intel Security differentiation' :
 - vendor/intel/apps/security_assist
 - vendor/intel/hardware/libaesni
