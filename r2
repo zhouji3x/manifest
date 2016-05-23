@@ -8,7 +8,7 @@
            sync-j="5" />
 
   <include name="rbase.xml"/>
-  <project name="manifests" path="manifests"  groups="embargoed" revision="android/n/mr0/master">
+  <project name="manifests" path="manifests"  groups="embargoed" revision="android/master">
     <annotation name="readonly" value="true" />
   </project>
 
