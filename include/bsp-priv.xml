@@ -125,6 +125,27 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
+    <project path="trusty/app/sand" name="a/bsp/vendor/intel/fw/trusty_app_sand" groups="bsp-priv,embargoed,trusty" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <project path="trusty/device/x86/sand" name="a/bsp/vendor/intel/fw/trusty_device_x86_sand" groups="bsp-priv,embargoed,trusty" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+        <copyfile src="project/generate_prebuilt.sh" dest="trusty/generate_prebuilt.sh" />
+    </project>
+    <project path="trusty/platform/sand" name="a/bsp/vendor/intel/fw/trusty_lk_trusty_platform_sand" groups="bsp-priv,embargoed,trusty" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <project path="trusty/target/sand" name="a/bsp/vendor/intel/fw/trusty_lk_trusty_target_sand" groups="bsp-priv,embargoed,trusty" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/goodix/fw" name="a/bsp/vendor/goodix/fw" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
@@ -291,6 +312,11 @@
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
     <project path="vendor/intel/external/passpoint" name="a/bsp/vendor/intel/external/passpoint" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <project path="vendor/intel/external/prebuilts/elf" name="a/bsp/vendor/intel/external/prebuilts/elf" groups="bsp-priv,embargoed,trusty" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
