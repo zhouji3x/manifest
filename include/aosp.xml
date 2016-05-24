@@ -18,8 +18,6 @@
   <project groups="aosp,pdk" name="a/aosp/device/generic/x86"  path="device/generic/x86"/>
   <project groups="aosp,pdk" name="a/aosp/device/generic/x86_64"  path="device/generic/x86_64"/>
   <project groups="aosp,device,fugu,broadcom_pdk,generic_fs" name="a/aosp/device/google/atv"  path="device/google/atv"/>
-  <project groups="aosp,device,hammerhead,broadcom_pdk,generic_fs" name="a/aosp/device/lge/hammerhead"  path="device/lge/hammerhead"/>
-  <project clone-depth="1" groups="aosp,device,hammerhead,broadcom_pdk,generic_fs" name="a/aosp/device/lge/hammerhead-kernel"  path="device/lge/hammerhead-kernel"/>
   <project groups="aosp,device,shamu,broadcom_pdk,generic_fs" name="a/aosp/device/moto/shamu"  path="device/moto/shamu"/>
   <project clone-depth="1" groups="aosp,device,shamu,broadcom_pdk,generic_fs" name="a/aosp/device/moto/shamu-kernel"  path="device/moto/shamu-kernel"/>
   <project groups="aosp,pdk" name="a/aosp/device/sample"  path="device/sample"/>
@@ -337,7 +335,6 @@
   <project groups="aosp,qcom,pdk-fs" name="a/aosp/platform/hardware/qcom/media" path="hardware/qcom/media" />
   <project groups="aosp,qcom_msm8960,pdk-fs" name="a/aosp/platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960" />
   <project groups="aosp,qcom_msm8994,pdk-fs" name="a/aosp/platform/hardware/qcom/msm8994" path="hardware/qcom/msm8994" />
-  <project groups="aosp,pdk,qcom_msm8x74" name="a/aosp/platform/hardware/qcom/msm8x74" path="hardware/qcom/msm8x74" />
   <project groups="aosp,pdk" name="a/aosp/platform/hardware/ril" path="hardware/ril" />
   <project groups="aosp,pdk" name="a/aosp/platform/libcore" path="libcore" />
   <project groups="aosp,pdk" name="a/aosp/platform/libnativehelper" path="libnativehelper" />

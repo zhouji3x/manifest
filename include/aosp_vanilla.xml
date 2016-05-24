@@ -34,8 +34,6 @@
   <project groups="aosp,device,pdk" name="a/aosp/device/intel/edison" path="device/intel/edison"/>
   <project groups="aosp,device,bullhead,pdk" name="a/aosp/device/lge/bullhead" path="device/lge/bullhead"/>
   <project clone-depth="1" groups="aosp,device,bullhead,pdk" name="a/aosp/device/lge/bullhead-kernel" path="device/lge/bullhead-kernel"/>
-  <project groups="aosp,device,hammerhead,broadcom_pdk,generic_fs,pdk" name="a/aosp/device/lge/hammerhead" path="device/lge/hammerhead"/>
-  <project clone-depth="1" groups="aosp,device,hammerhead,broadcom_pdk,generic_fs,pdk" name="a/aosp/device/lge/hammerhead-kernel" path="device/lge/hammerhead-kernel"/>
   <project groups="aosp,device,hikey,pdk" name="a/aosp/device/linaro/hikey" path="device/linaro/hikey"/>
   <project clone-depth="1" groups="aosp,device,hikey,pdk" name="a/aosp/device/linaro/hikey-kernel" path="device/linaro/hikey-kernel"/>
   <project groups="aosp,device,shamu,broadcom_pdk,generic_fs,pdk" name="a/aosp/device/moto/shamu" path="device/moto/shamu"/>
@@ -377,7 +375,6 @@
   <project groups="aosp,qcom_msm8994,pdk" name="a/aosp/platform/hardware/qcom/msm8994" path="hardware/qcom/msm8994" />
   <project groups="aosp,qcom_msm8x26,pdk" name="a/aosp/platform/hardware/qcom/msm8x26" path="hardware/qcom/msm8x26" />
   <project groups="aosp,qcom_msm8x27,pdk" name="a/aosp/platform/hardware/qcom/msm8x27" path="hardware/qcom/msm8x27" />
-  <project groups="aosp,pdk,qcom_msm8x74" name="a/aosp/platform/hardware/qcom/msm8x74" path="hardware/qcom/msm8x74" />
   <project groups="aosp,qcom_msm8x84,pdk" name="a/aosp/platform/hardware/qcom/msm8x84" path="hardware/qcom/msm8x84" />
   <project groups="aosp,qcom,pdk" name="a/aosp/platform/hardware/qcom/power" path="hardware/qcom/power" />
   <project groups="aosp,qcom_wlan,pdk" name="a/aosp/platform/hardware/qcom/wlan" path="hardware/qcom/wlan" />

@@ -3,8 +3,6 @@
     <!-- Projects which need to be removed -->
 
     <!-- hammerhead-kernel project size grew to over 8GB and caused repo sync issues for users -->
-    <remove-project name="a/aosp/device/lge/hammerhead-kernel" />
-    <remove-project name="a/aosp/device/lge/hammerhead"  />
     <remove-project name="a/aosp/device/moto/shamu-kernel" />
     <remove-project name="a/aosp/platform/vendor/pdk/data/cts" />
     <remove-project name="a/aosp/platform/vendor/pdk/data/docs" />

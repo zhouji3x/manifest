@@ -380,7 +380,6 @@
 - hardware/qcom/media
 - hardware/qcom/msm8960
 - hardware/qcom/msm8994
-- hardware/qcom/msm8x74
 - hardware/ril
 - libcore
 - libnativehelper
