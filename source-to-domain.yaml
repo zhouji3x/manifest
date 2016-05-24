@@ -968,6 +968,8 @@
 - vendor/intel/tools/telephony_tools/telephony_test
 - vendor/verizon/trial_specifics
 'Trusty':
+- vendor/intel/fw/evmm
+- vendor/intel/fw/evmm/loader
 - device/intel/mixins/groups/trusty
 'Video Conferencing':
 - vendor/intel/PRIVATE/rtc
