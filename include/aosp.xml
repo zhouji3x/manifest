@@ -460,6 +460,7 @@
   <project groups="aosp,pdk" name="a/aosp/platform/system/vold" path="system/vold" />
   <project groups="aosp,vts,pdk" name="a/aosp/platform/test/vts" path="test/vts" />
   <project groups="aosp,pdk" name="a/aosp/platform/tools/test/connectivity" path="tools/test/connectivity" />
-  <project path="vendor/pdk/data/cts" name="a/aosp/platform/vendor/pdk/data/cts"  clone-depth="1" groups="aosp,default"/>
+  <!--Removed from N-->
+  <!-- <project path="vendor/pdk/data/cts" name="a/aosp/platform/vendor/pdk/data/cts"  clone-depth="1" groups="aosp,default"/> -->
   <project path="vendor/pdk/data/docs" name="a/aosp/platform/vendor/pdk/data/docs"  sync-c="true" groups="aosp,default"/>
 </manifest>

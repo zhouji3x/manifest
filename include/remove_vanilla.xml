@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Projects which need to be removed -->
+
+    <!-- hammerhead-kernel project size grew to over 8GB and caused repo sync issues for users -->
+    <remove-project name="a/aosp/device/moto/shamu-kernel" />
+    <remove-project name="a/aosp/platform/external/libdrm" />
+    <remove-project name="a/aosp/platform/external/parameter-framework" />
+    <remove-project name="a/aosp/platform/vendor/widevine" />
+
+    <!-- Remove duplicate projects inherited from fugu that are also in bsp -->
+    <remove-project name="a/aosp/platform/hardware/intel/common/libmix" />
+    <remove-project name="a/aosp/platform/hardware/bsp/intel" />
+
+</manifest>
