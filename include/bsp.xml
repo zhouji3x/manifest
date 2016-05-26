@@ -56,6 +56,7 @@
     <project path="kernel/cht" name="a/bsp/kernel/cht" groups="bsp,kernel-src,soc_cht" revision="android/master"/>
     <project path="kernel/gsd" name="a/bsp/kernel/gsd" groups="bsp,kernel-src,soc_gsd," revision="android/master"/>
     <project path="kernel/modules/bcm43xx" name="a/bsp/kernel/modules/bcmdhd" groups="bsp,kernel-src" revision="android/master"/>
+    <project path="kernel/modules/cg2k" name="a/bsp/kernel/modules/cg2k" groups="bsp,kernel-src" revision="android/master"/>
     <project path="kernel/modules/gnss" name="a/bsp/kernel/modules/gnss" groups="bsp,kernel-src" revision="android/master"/>
     <project path="kernel/modules/intel_fm" name="a/bsp/kernel/modules/bt_intel_fm" groups="bsp,kernel-src" revision="android/master"/>
     <project path="kernel/modules/iwlwifi/dev" name="a/bsp/kernel/modules/iwlwifi_dev" groups="bsp,kernel-src" revision="android/master">
