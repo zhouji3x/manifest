@@ -4,7 +4,8 @@
 
     <!-- hammerhead-kernel project size grew to over 8GB and caused repo sync issues for users -->
     <remove-project name="a/aosp/device/moto/shamu-kernel" />
-    <remove-project name="a/aosp/platform/vendor/pdk/data/cts" />
+    <!-- to be reactivated when a/aosp/platform/vendor/pdk/data/cts is activated on manifest -->
+    <!-- <remove-project name="a/aosp/platform/vendor/pdk/data/cts" /> -->
     <remove-project name="a/aosp/platform/vendor/pdk/data/docs" />
     <remove-project name="a/aosp/platform/external/libdrm" />
     <remove-project name="a/aosp/platform/external/parameter-framework" />
