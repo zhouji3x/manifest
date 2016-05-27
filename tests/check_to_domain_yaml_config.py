@@ -5,6 +5,16 @@ import os
 import re
 from check_manifest_xml import CheckManifestSrcPath
 
+class bcolors(object):
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
 class DomainYamlConfigCheck(object):
 
     @staticmethod
@@ -55,7 +65,7 @@ class DomainYamlConfigCheck(object):
             for path_in_xml_manifest_file in tab_path_manifest:
 
                 # If a path of the manifest matches with the patch of the source
-                if path_from_source_to_domain.startswith(path_in_xml_manifest_file):
+                if path_from_source_to_domain.startswith(path_in_xml_manifest_file + "/"):
                     # ... then stop the search
                     found_path_in_manifest = True
                     break
@@ -199,11 +209,10 @@ class TestToDomainYamlConfig(DomainYamlConfigCheck, unittest.TestCase):
             if not errors:
                 notDefinedDomains = set(sum(domainToUser.values(), [])) - allDomains
                 if notDefinedDomains:
-                    errors.extend(["{}: ".format(domainToUserName)] +
-                                  ["domain {} is not defined in {}".format(x, self.SOURCE_TO_DOMAIN)
+                    errors.extend(["{}: domain \"{}\" is not defined in {}".format(domainToUserName, x, self.SOURCE_TO_DOMAIN)
                                    for x in notDefinedDomains])
         if errors:
-            raise ValueError("\n".join(sorted(errors)))
+            raise ValueError("\n{}{}{}".format(bcolors.FAIL, "\n".join(sorted(errors)), bcolors.ENDC))
 
     def testPathWithoutDomain(self):
         for sourceToDomain in [self.SOURCE_TO_DOMAIN,
@@ -211,10 +220,12 @@ class TestToDomainYamlConfig(DomainYamlConfigCheck, unittest.TestCase):
             print ("\n-------------------------------------------- Test Domain coverage for {}".format(sourceToDomain))
             errors = DomainYamlConfigCheck.checkProjectDomainToPathCoverage(self.toYaml(sourceToDomain))
             if errors:
-               errors.sort()
-               print "\nNo domain attached for the following path:"
-               for path_wo_domain in errors:
-                  print path_wo_domain
+                errors.sort()
+                print "\nNo domain attached for the following path:{}".format(bcolors.FAIL)
+                for path_wo_domain in errors:
+                    print path_wo_domain
+                print bcolors.ENDC
+
         print "\n-------------------------------------------- Test Domain coverage end"
 
     def testPathObsolete(self):
@@ -223,10 +234,12 @@ class TestToDomainYamlConfig(DomainYamlConfigCheck, unittest.TestCase):
             print ("\n-------------------------------------------- Test Path from {} obsolete".format(sourceToDomain))
             errors = DomainYamlConfigCheck.checkObsoletePathProjectDomain(self.toYaml(sourceToDomain))
             if errors:
-               errors.sort()
-               print "\nThe following paths are not present in the manifest:"
-               for path_wo_domain in errors:
-                  print path_wo_domain
+                errors.sort()
+                print "\nThe following paths are not present in the manifest:{}".format(bcolors.FAIL)
+                for path_wo_domain in errors:
+                    print path_wo_domain
+                print bcolors.ENDC
+
         print "\n-------------------------------------------- Test Path obsolete end"
 
 def main():

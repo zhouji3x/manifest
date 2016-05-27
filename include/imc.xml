@@ -6,9 +6,6 @@
     <project path="hardware/intel/libnvmmodule" name="a/bsp/hardware/intel/libnvmmodule" groups="imc" revision="android/master"/>
     <project path="vendor/intel/hardware/telephony/imsservices" name="a/bsp/vendor/intel/PRIVATE/imsservices" groups="imc" revision="android/master"/>
     <project path="vendor/intel/hardware/telephony/imsstack" name="a/bsp/vendor/intel/PRIVATE/imsstack" groups="imc" revision="android/master"/>
-    <project path="hardware/intel/rpcsecurity" name="a/bsp/hardware/intel/rpcsecurity" groups="imc" revision="android/master"/>
     <project path="hardware/intel/vpu/verisilicon" name="a/bsp/hardware/intel/vpu/verisilicon" revision="android/master"/>
     <project path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" revision="android/master" spsId="59476"/>
-    <project path="vendor/intel/libstagefrighthdcp" name="a/bsp/vendor/intel/libstagefrighthdcp" groups="imc" revision="android/master"/>
-    <project path="hardware/intel/display/arm/mali-dp500_lib" name="a/bsp/hardware/intel/display/arm/mali-dp500_lib" groups="imc" revision="android/master" spsId="60576"/>
 </manifest>

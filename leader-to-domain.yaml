@@ -21,15 +21,10 @@ anne-sophie.lefevre@intel.com:
 - 'Manifest'
 arvind.mohan@intel.com:
 - 'Silent Lake'
-ashraf.mohammed@intel.com:
-- 'Debug and Trace - Garnet'
-- 'Energy management - Garnet'
 aviv.d.greenberg@intel.com:
 - 'Perceptual Camera'
 bingquan.hu@intel.com:
 - 'Sensors'
-binu.r.s@intel.com:
-- 'GFX / Mali - DP500 - SRC'
 brad.geltz@intel.com:
 - 'IRDA Signing Keys'
 carlos.santa@intel.com:
@@ -53,9 +48,6 @@ christophe.continente@intel.com:
 - 'Platform CherryTrail'
 christophe.guerard@intel.com:
 - 'Debug and Trace'
-cindy.xie@intel.com:
-- 'Debug and Trace - Garnet'
-- 'Energy management - Garnet'
 cyrille.bezard-falgas@intel.com:
 - 'Platform Config'
 daniel.drubin@intel.com:
@@ -154,7 +146,6 @@ rafael.barbalho@intel.com:
 - 'GFX / Display Gen'
 raghavendra.kudva.padubidri@intel.com:
 - 'GFX / Mali - ARM'
-- 'GFX / Mali - DP500 - SRC'
 rajesh.banginwar@intel.com:
 - 'Silent Lake'
 roger.feng@intel.com:
@@ -193,9 +184,6 @@ yanmin.zhang@intel.com:
 - 'Platform Broxton'
 yann.fouassier@intel.com:
 - 'Debug and Trace'
-yong.hu@intel.com:
-- 'Debug and Trace - Garnet'
-- 'Energy management - Garnet'
 yong.yao@intel.com:
 - 'AOSP'
 zachary.zou@intel.com:

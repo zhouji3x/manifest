@@ -302,15 +302,15 @@
 - frameworks/av/drm/drmserver
 - frameworks/av/libvideoeditor
 - frameworks/av/media
+- frameworks/av/media/libstagefright/codecs
+- frameworks/av/media/libstagefright/id3
 - frameworks/av/media/libstagefright/AACExtractor.cpp
 - frameworks/av/media/libstagefright/AACWriter.cpp
 - frameworks/av/media/libstagefright/AMRExtracor.cpp
 - frameworks/av/media/libstagefright/AMRWriter.cpp
 - frameworks/av/media/libstagefright/AudioPlayer.cpp
 - frameworks/av/media/libstagefright/AudioSource.cpp
-- frameworks/av/media/libstagefright/codecs
 - frameworks/av/media/libstagefright/FLACExtractor.cpp
-- frameworks/av/media/libstagefright/id3
 - frameworks/av/media/libstagefright/MP3Extractor.cpp
 - frameworks/av/media/libstagefright/OggExtracor.cpp
 - frameworks/av/media/libstagefright/VBRISeeker.cpp
@@ -386,10 +386,10 @@
 - hardware/intel/common/omx-components
 - hardware/intel/common/utils
 - hardware/intel/common/wrs_omxil_core
+- hardware/intel/display/libmemtrack
 - hardware/intel/img/hwcomposer
 - hardware/intel/img/psb_headers
 - hardware/intel/img/psb_video
-- hardware/intel/display/libmemtrack
 - hardware/intel/sensors
 - hardware/invensense
 - hardware/libhardware
@@ -467,10 +467,10 @@
 - packages/apps/Settings
 - packages/apps/Settings/src/com/android/settings/nfc
 - packages/apps/Settings/src/com/android/settings/wifi
-- packages/apps/Stk
 - packages/apps/SoundRecorder
 - packages/apps/SpareParts
 - packages/apps/SpeechRecorder
+- packages/apps/Stk
 - packages/apps/Tag
 - packages/apps/Terminal
 - packages/apps/Test/connectivity
@@ -509,8 +509,6 @@
 - prebuilts/deqp
 - prebuilts/devtools
 - prebuilts/eclipse
-- prebuilts/eclipse-build-deps
-- prebuilts/eclipse-build-deps-sources
 - prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9
 - prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8
 - prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9
@@ -544,11 +542,11 @@
 - system/core/charger
 - system/core/libnetutils
 - system/core/libnl_2
-- system/netd
 - system/extras
 - system/gatekeeper
 - system/keymaster
 - system/media
+- system/netd
 - system/security
 - system/security/keystore
 - system/security/softkeymaster
@@ -681,7 +679,6 @@
 - vendor/intel/camera/camera_extension
 - vendor/intel/camera/cameralibs
 - vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0
-- vendor/intel/camera/icc-redist-libs/linux-x86/x86/x86-android-linux-14.0_garnet
 - vendor/intel/camera/libiacss
 - vendor/intel/camera/libmfldadvci
 - vendor/intel/fw/camera
@@ -831,9 +828,6 @@
 - vendor/intel/tools/log_infra
 - vendor/intel/tools/PRIVATE/debug_internal_tools
 - vendor/intel/tools/peeknpoke
-'Debug and Trace - Garnet':
-- vendor/intel/apps/PRIVATE/Kratos_garnet
-- vendor/intel/tools/PRIVATE/debug_internal_tools_garnet
 'DRM - Widevine':
 - vendor/intel/liboemcrypto/gen
 - vendor/widevine
@@ -846,9 +840,6 @@
 - vendor/intel/apps/thermal_lite
 - vendor/intel/dptf
 - vendor/intel/hardware/healthd
-'Energy management - Garnet':
-- external/thermal_daemon_garnet
-- vendor/intel/apps/ituxd_garnet
 'Gfx / Display Drm':
 - external/libpciaccess
 - hardware/intel/intel-gpu-tools
@@ -864,12 +855,8 @@
 - vendor/intel/ufo/gen8_dev
 - vendor/intel/ufo/gen9_dev
 'GFX / Mali - ARM':
-- hardware/intel/gpu/mali
 - hardware/intel/gpu/mali-gralloc
-- hardware/intel/gpu/mali-hwcomposer
 - hardware/intel/gpu/mali-midgard_lib
-'GFX / Mali - DP500 - SRC':
-- hardware/intel/display/arm/mali-dp500_lib
 'GSD HW Composer':
 - hardware/intel/gsd_hwcomposer
 - vendor/intel/external/drm-gsd
@@ -927,7 +914,6 @@
 - external/libkmod
 - external/pystache
 - external/sbsigntool
-- icc
 - prebuilts/gcc/linux-x86/x86/x86_64-linux-poky
 - vendor/intel/apps/DataReport
 - vendor/intel/apps/DataReportSettings
@@ -945,11 +931,8 @@
 - system/sepolicy
 'Security Middleware':
 - device/intel/sepolicy
-- hardware/intel/rpcsecurity
 - vendor/intel/hardware/keystore
 - vendor/intel/hardware/libmei
-- vendor/intel/hardware/libmeimm
-- vendor/intel/libstagefrighthdcp
 'Sensors':
 - external/libaudit
 - hardware/intel/libsensors-input
@@ -976,9 +959,7 @@
 - device/intel/mixins/groups/telephony-config
 - hardware/imc/fm
 - hardware/imc/ril
-- hardware/imc/ril_3g
 - hardware/imc/rpc
-- hardware/imc/rpc_3g
 - hardware/intel/crm
 - hardware/intel/ecivs
 - hardware/intel/lril
@@ -986,20 +967,18 @@
 - hardware/intel/telephony/libtcs
 - hardware/intel/telephony/miu
 - hardware/intel/telephony/mmgr
-- vendor/intel/PRIVATE/embms
 - vendor/intel/apps/telephony/OemTelephony
-- vendor/intel/apps/telephony/OemTelephony-imc
 - vendor/intel/apps/telephony/sarmanager
 - vendor/intel/featsetclass_tel
 - vendor/intel/featsetres_tel
 - vendor/intel/fw/modem/IMC/7260_flashless
 - vendor/intel/fw/modem/IMC/7360_flashless
 - vendor/intel/hardware/modem_client
+- vendor/intel/hardware/telephony/imsservices
+- vendor/intel/hardware/telephony/imsstack
 - vendor/intel/hardware/telephony/IFX-modem
 - vendor/intel/hardware/telephony/Modem_Updater
 - vendor/intel/hardware/telephony/NVM_Manager
-- vendor/intel/hardware/telephony/imsservices
-- vendor/intel/hardware/telephony/imsstack
 - vendor/intel/hardware/telephony/rapid_ril
 - vendor/intel/tools/log_capture/amtl
 - vendor/intel/tools/telephony_tools/at_proxy
