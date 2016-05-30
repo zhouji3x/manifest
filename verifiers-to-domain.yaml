@@ -105,6 +105,6 @@ ldap//CN=OTC_SI_1A-Verif-Video_Conferencing,OU=Rialto,OU=Application Managed,OU=
 ldap//CN=OTC_SI_1A-Verif-Video_Gen,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Video Gen'
 ldap//CN=OTC_SI_1A-Verif-Video-Verisilicon-s,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Video Verisilicon - SRC'
+- 'Video VPU SRC'
 ldap//CN=OTC_SI_1A-Verif-WiDi,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'WiDi'

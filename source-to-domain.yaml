@@ -996,7 +996,8 @@
 - vendor/intel/hardware/wrs_omxil_core
 - vendor/intel/libstagefrighthw
 - vendor/intel/mediasdk_release
-'Video Verisilicon - SRC':
+'Video VPU SRC':
+- hardware/intel/vpu/allegro_lib
 - hardware/intel/vpu/verisilicon
 - hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib
 'WiDi':

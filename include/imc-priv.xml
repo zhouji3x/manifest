@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <project path="hardware/intel/vpu/allegro_lib" name="a/bsp/hardware/intel/vpu/allegro_lib" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="icc" name="a/bsp/PRIVATE/prebuilts/icc/linux-x86/x86/x86-android-linux-14.0" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
