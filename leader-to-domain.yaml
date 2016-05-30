@@ -85,6 +85,7 @@ fabrice.sorel@intel.com:
 - 'Telephony'
 frank.bergen@intel.com:
 - 'Camera - Imaging'
+- 'Video Verisilicon - SRC'
 gary.k.smith@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
@@ -92,6 +93,8 @@ grzegorz.janca@intel.com:
 - 'Storage'
 hang.l.sun@intel.com:
 - 'WiDi'
+herbert.sereda@intel.com:
+- 'Video Verisilicon - SRC'
 itai.steiner@intel.com:
 - 'Connectivity-Location-Core'
 ivan.g.popov@intel.com:
