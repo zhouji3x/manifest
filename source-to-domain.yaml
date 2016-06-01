@@ -675,10 +675,7 @@
 - device/intel/mixins/groups/nfc
 - device/intel/mixins/groups/nfc/fdp
 - external/smartcardservice
-- hardware/intel/nfc
 - vendor/intel/apps/nfc_service_ext
-- vendor/intel/fw/nfc/intel/fdp
-- vendor/intel/hardware/nfc_mvt
 'Connectivity-ACP-WIFI':
 - device/intel/common/wlan
 - device/intel/common/wlan/iwlwifi
