@@ -936,6 +936,7 @@
 - hardware/intel/crm
 - hardware/intel/ecivs
 - hardware/intel/lril
+- hardware/intel/smm
 - hardware/intel/telephony/libtcs
 - hardware/intel/telephony/miu
 - hardware/intel/telephony/mmgr
