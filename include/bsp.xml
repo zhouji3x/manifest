@@ -79,7 +79,6 @@
     <project path="vendor/intel/apps/ituxd" name="a/bsp/vendor/intel/apps/ituxd" groups="bsp" revision="android/master" spsId="60543"/>
     <project path="vendor/intel/apps/nfc_service_ext" name="a/bsp/vendor/intel/apps/nfc_service_ext" groups="bsp" revision="android/master"/>
     <project path="vendor/intel/apps/PRIVATE/Aware" name="a/bsp/vendor/intel/PRIVATE/Aware" groups="bsp" revision="android/master"/>
-    <project path="vendor/intel/apps/PRIVATE/arccamera" name="a/bsp/vendor/arcsoft/arccamera" groups="bsp" revision="android/master"/>
     <project path="vendor/intel/apps/PRIVATE/strongswan" name="a/bsp/vendor/intel/apps/PRIVATE/strongswan" groups="bsp" revision="android/master"/>
     <project path="vendor/intel/apps/telephony/OemTelephony" name="a/bsp/device/intel/apps/OemTelephony" groups="bsp" revision="android/master"/>
     <project path="vendor/intel/apps/thermal_lite" name="a/bsp/vendor/intel/apps/thermal_lite" groups="bsp" revision="android/master"/>

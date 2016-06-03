@@ -628,7 +628,6 @@
 - device/intel/mixins/groups/camera-intel_sdk
 - device/intel/mixins/groups/camera-refcam
 - hardware/intel/hald_media_hook
-- vendor/intel/apps/PRIVATE/arccamera
 - vendor/intel/apps/PRIVATE/refcam
 - vendor/intel/camera/camera3hal
 - vendor/intel/camera/camera_extension
