@@ -13,8 +13,6 @@ alwin.mathew@intel.com:
 - 'Platform GoldSand'
 amber.jain@intel.com:
 - 'GFX / Mali - ARM'
-amir.noam@intel.com:
-- 'ISH'
 anand.muralidharan@intel.com:
 - 'CAM'
 andreas.karlsson@intel.com:
@@ -63,6 +61,8 @@ cindy.xie@intel.com:
 - 'Energy management - Garnet'
 cyrille.bezard-falgas@intel.com:
 - 'Platform Config'
+daniel.drubin@intel.com:
+- 'ISH'
 dave.lin@intel.com:
 - 'Platform Baytrail'
 - 'Platform BIOS'
