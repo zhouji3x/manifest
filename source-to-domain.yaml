@@ -704,6 +704,7 @@
 - vendor/intel/hardware/PRIVATE/rocs
 - vendor/intel/hardware/PRIVATE/rservice
 'Connectivity-IOSM':
+- vendor/intel/apps/iosm-testbench
 - vendor/intel/external/socat
 'Connectivity-TPV-BT':
 - device/intel/mixins/groups/bluetooth/bcm43241
