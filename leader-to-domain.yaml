@@ -26,8 +26,6 @@ ashraf.mohammed@intel.com:
 - 'Energy management - Garnet'
 aviv.d.greenberg@intel.com:
 - 'Perceptual Camera'
-axel.fagerstedt@intel.com:
-- 'AOSP'
 bingquan.hu@intel.com:
 - 'Sensors'
 binu.r.s@intel.com:
@@ -95,6 +93,8 @@ hang.l.sun@intel.com:
 - 'WiDi'
 herbert.sereda@intel.com:
 - 'Video VPU SRC'
+hongyu.zhang@intel.com:
+- 'AOSP'
 itai.steiner@intel.com:
 - 'Connectivity-Location-Core'
 ivan.g.popov@intel.com:
@@ -114,6 +114,8 @@ juan.carlos.castillo@intel.com:
 - 'DRM - Widevine'
 julien.battiston@intel.com:
 - 'Power Management'
+khanh.v.nguyen@intel.com:
+- 'Video Conferencing'
 linda.s.cline@intel.com:
 - 'Video Conferencing'
 loic.poulain@intel.com:
@@ -145,8 +147,6 @@ mickael.mallet@intel.com:
 - 'Manifest'
 mikael.persson@intel.com:
 - 'Camera - Imaging'
-niveditha.sundaram@intel.com:
-- 'Video Conferencing'
 noor.u.mubeen@intel.com:
 - 'Energy management'
 olivier.carpentier@intel.com:
@@ -185,6 +185,8 @@ venkat.r.gokulrangan@intel.com:
 vijay.a.purushothaman@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
+weian.chen@intel.com:
+- 'Video Conferencing'
 william.c.roberts@intel.com:
 - 'SE Linux'
 - 'Security Middleware'
