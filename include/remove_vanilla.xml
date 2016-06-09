@@ -6,7 +6,6 @@
     <remove-project name="a/aosp/device/moto/shamu-kernel" />
     <remove-project name="a/aosp/platform/external/libdrm" />
     <remove-project name="a/aosp/platform/external/parameter-framework" />
-    <remove-project name="a/aosp/platform/vendor/widevine" />
 
     <!-- Remove duplicate projects inherited from fugu that are also in bsp -->
     <remove-project name="a/aosp/platform/hardware/intel/common/libmix" />
