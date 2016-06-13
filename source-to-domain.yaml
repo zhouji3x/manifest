@@ -521,6 +521,7 @@
 - vendor/intel/houdini
 - vendor/intel/pcg
 - vendor/intel/rs_vectorizer
+- vendor/intel/utils/android_n/google_diff
 - vendor/intel/ux_enhancement
 'Art':
 - art

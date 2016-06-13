@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- One_Android_Ring='1' -->
-<manifest>
-
-	<default revision="android/n/mr0/r1"
-           remote="origin"
-           sync-c="true"
-           sync-j="5" />
-
-  <include name="rbase.xml"/>
-  <project name="manifests" path="manifests"  groups="embargoed" revision="android/master"/>
-
-</manifest>
+r0
