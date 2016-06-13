@@ -31,7 +31,6 @@ bingquan.hu@intel.com:
 binu.r.s@intel.com:
 - 'GFX / Mali - DP500 - SRC'
 brad.geltz@intel.com:
-- 'BOOT - OTA - GOTA'
 - 'IRDA Signing Keys'
 carlos.santa@intel.com:
 - 'GSD HW Composer'
@@ -131,8 +130,6 @@ luis.amezcua@intel.com:
 - 'Platform CherryTrail'
 luis.antonio.tarazona-duarte@intel.com:
 - 'Connectivity-IOSM'
-manish.regmi@intel.com:
-- 'BOOT - OTA - GOTA'
 marius.m.archip@intel.com:
 - 'SoFia LTE Debug & Trace'
 markus.lehmann@intel.com:
@@ -190,6 +187,8 @@ weian.chen@intel.com:
 william.c.roberts@intel.com:
 - 'SE Linux'
 - 'Security Middleware'
+xihua.chen@intel.com:
+- 'BOOT - OTA - GOTA'
 xinhong.hu@intel.com:
 - 'Carrier'
 yanmin.zhang@intel.com:
