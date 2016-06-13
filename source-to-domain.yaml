@@ -537,6 +537,8 @@
 - device/intel/broxton/audio
 - device/intel/broxton/bxt_b0/audio
 - device/intel/broxton/bxt_rvp/audio
+- device/intel/broxton/bxtp/audio
+- device/intel/broxton/bxtp_abl/audio
 - device/intel/cherrytrail/audio
 - device/intel/cherrytrail/cht_cr_rvp/audio
 - device/intel/cherrytrail/cht_ffd/audio
