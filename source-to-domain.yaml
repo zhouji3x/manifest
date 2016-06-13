@@ -860,6 +860,7 @@
 - device/intel/mixins/groups/depth-camera/ds4
 - vendor/intel/camera/depth_extension
 - vendor/intel/camera/PRIVATE/libds4
+- vendor/intel/camera/realsense
 - vendor/intel/fw/ds4fw
 - vendor/intel/tools/ds4_tools
 'Platform Baytrail':
