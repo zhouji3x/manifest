@@ -39,6 +39,7 @@
     <project path="hardware/intel/intel-gpu-tools" name="a/bsp/platform/external/intel-gpu-tools" groups="bsp" revision="android/master"/>
     <project path="hardware/intel/kernelflinger" name="a/bsp/hardware/intel/efi/kernelflinger" groups="bsp" revision="android/master"/>
     <project path="hardware/intel/libbt-vendor-intel" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" groups="bsp" revision="android/master" spsId="60549"/>
+    <project path="hardware/intel/libcamhal" name="a/bsp/hardware/intel/libcamhal" groups="bsp" revision="android/master"/>
     <project path="hardware/intel/libsensors-input" name="a/bsp/hardware/intel/libsensors-input" groups="bsp" revision="android/master"/>
     <project path="hardware/intel/lights" name="a/bsp/hardware/intel/liblights" groups="bsp" revision="android/master"/>
     <project path="hardware/intel/power" name="a/bsp/platform/vendor/intel/libpower" groups="bsp" revision="android/master"/>
