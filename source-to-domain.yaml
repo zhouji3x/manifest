@@ -996,6 +996,8 @@
 - vendor/intel/libstagefrighthw
 - vendor/intel/mediasdk_release
 'Video VPU SRC':
+- device/intel/mixins/groups/media/configurable
+- device/intel/mixins/groups/media/verisilicon
 - hardware/intel/vpu/allegro_lib
 - hardware/intel/vpu/verisilicon
 - hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib
