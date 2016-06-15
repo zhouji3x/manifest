@@ -104,8 +104,6 @@ jette.hoffmann@intel.com:
 - 'Connectivity-IOSM'
 joel.clark@intel.com:
 - 'Kernel'
-john.fredriksson@intel.com:
-- 'Camera - Imaging'
 jon.bloomfield@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
@@ -142,8 +140,6 @@ michael.leibowitz@intel.com:
 - 'Security Middleware'
 mickael.mallet@intel.com:
 - 'Manifest'
-mikael.persson@intel.com:
-- 'Camera - Imaging'
 noor.u.mubeen@intel.com:
 - 'Energy management'
 olivier.carpentier@intel.com:
@@ -182,6 +178,8 @@ venkat.r.gokulrangan@intel.com:
 vijay.a.purushothaman@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
+wei.tao@intel.com:
+- 'Camera - Imaging'
 weian.chen@intel.com:
 - 'Video Conferencing'
 william.c.roberts@intel.com:
