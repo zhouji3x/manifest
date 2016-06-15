@@ -8,6 +8,5 @@
     <!-- <remove-project name="a/aosp/platform/vendor/pdk/data/cts" /> -->
     <remove-project name="a/aosp/platform/vendor/pdk/data/docs" />
     <remove-project name="a/aosp/platform/external/libdrm" />
-    <remove-project name="a/aosp/platform/external/parameter-framework" />
 
 </manifest>

@@ -220,6 +220,7 @@
 - external/openfst
 - external/openssh
 - external/owasp/sanitizer
+- external/parameter-framework
 - external/pcre
 - external/pdfium
 - external/piex
