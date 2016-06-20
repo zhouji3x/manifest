@@ -10,15 +10,4 @@
     <remove-project name="a/aosp/platform/hardware/intel/common/libmix" />
     <remove-project name="a/aosp/platform/hardware/bsp/intel" />
 
-    <!-- Remove unwanted repos from vanilla manifest -->
-    <remove-project name="a/bsp/hardware/intel/crm" />
-    <remove-project name="a/bsp/hardware/intel/PRIVATE/IFX-modem"/>
-    <remove-project name="a/bsp/hardware/intel/PRIVATE/Modem_Updater"/>
-    <remove-project name="a/bsp/hardware/intel/PRIVATE/NVM_Manager"/>
-    <remove-project name="a/bsp/hardware/intel/rapid_ril"/>
-    <remove-project name="a/bsp/vendor/intel/featsetclass_tel"/>
-    <remove-project name="a/bsp/vendor/intel/featsetres_tel"/>
-    <remove-project name="a/bsp/vendor/intel/PRIVATE/imsservices"/>
-    <remove-project name="a/bsp/vendor/intel/PRIVATE/imsstack"/>
-
 </manifest>
