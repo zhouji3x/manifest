@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Google repositories no longer delivered in the actual releases -->
-    <project path="trusty/app/sample" name="a/aosp/trusty/app/sample" groups="trusty" revision="android/master"/>
-    <project path="trusty/external/headers" name="a/aosp/trusty/external/headers" groups="trusty" revision="android/master"/>
-    <project path="trusty/external/qemu" name="a/aosp/trusty/external/qemu" groups="trusty" revision="android/master"/>
     <project path="trusty/app/gatekeeper" name="a/aosp/trusty/app/gatekeeper" groups="trusty" revision="android/master"/>
     <project path="trusty/app/keymaster" name="a/aosp/trusty/app/keymaster" groups="trusty" revision="android/master"/>
+    <project path="trusty/app/nvram" name="a/aosp/trusty/app/nvram" groups="trusty" revision="android/master"/>
+    <project path="trusty/app/sample" name="a/aosp/trusty/app/sample" groups="trusty" revision="android/master"/>
+    <project path="trusty/app/storage" name="a/aosp/trusty/app/storage" groups="trusty" revision="android/master"/>
+    <project path="trusty/external/headers" name="a/aosp/trusty/external/headers" groups="trusty" revision="android/master"/>
+    <project path="trusty/external/qemu" name="a/aosp/trusty/external/qemu" groups="trusty" revision="android/master"/>
     <project path="trusty/lib" name="a/aosp/trusty/lib" groups="trusty" revision="android/master"/>
     <project path="trusty/external/lk" name="a/aosp/trusty/lk/common" groups="trusty" revision="android/master">
        <copyfile src="makefile" dest="trusty/makefile" />

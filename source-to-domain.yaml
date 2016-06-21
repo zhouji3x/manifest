@@ -993,8 +993,10 @@
 - device/intel/mixins/groups/trusty
 - trusty/app/gatekeeper
 - trusty/app/keymaster
+- trusty/app/nvram
 - trusty/app/sample
 - trusty/app/sand
+- trusty/app/storage
 - trusty/device/x86/sand
 - trusty/external/headers
 - trusty/external/lk
