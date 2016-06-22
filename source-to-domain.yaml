@@ -715,6 +715,7 @@
 - device/intel/mixins/groups/gps
 - device/intel/mixins/groups/gps/ag620
 - device/intel/mixins/groups/gps/cg2k
+- device/intel/mixins/groups/location_fusion
 'Connectivity-ACP-NFC':
 - device/intel/common/nfc/fdp
 - device/intel/mixins/groups/nfc
