@@ -1,3 +1,5 @@
+ldap//CN=OTC_SI_1A-Rev-ABL,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'ABL'
 ldap//CN=OTC_SI_1A-Rev-AOSP,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'AOSP'
 ldap//CN=OTC_SI_1A-Rev-Art,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

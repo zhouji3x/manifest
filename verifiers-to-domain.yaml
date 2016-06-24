@@ -1,3 +1,5 @@
+ldap//CN=OTC_SI_1A-Verif-ABL,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'ABL'
 ldap//CN=OTC_SI_1A-Verif-Art,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Art'
 ldap//CN=OTC_SI_1A-Verif-Audio_Common,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

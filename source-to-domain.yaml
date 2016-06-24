@@ -1,3 +1,7 @@
+'ABL':
+- vendor/intel/abl/abl_config_tool
+- vendor/intel/abl/bootloader_apl
+- vendor/intel/abl/ifwi-apl
 'AOSP':
 - abi/cpp
 - bionic
