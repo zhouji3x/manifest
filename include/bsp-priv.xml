@@ -146,7 +146,22 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="vendor/intel/abl/abl_build_tools" name="a/bsp/vendor/intel/abl/abl_build_tools" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/abl/abl_config_tool" name="a/bsp/host/deployment_tools/abl_config_tool" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <project path="vendor/intel/abl/abl_prebuilt/external" name="a/bsp/vendor/intel/abl/abl_prebuilt/external" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <project path="vendor/intel/abl/abl_prebuilt/internal" name="a/bsp/vendor/intel/abl/abl_prebuilt/internal" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
