@@ -66,6 +66,7 @@ elena.reshetova@intel.com:
 eman.copty@intel.com:
 - 'Perceptual Camera'
 eric.r.li@intel.com:
+- 'DRM - Widevine'
 - 'Platform BIOS'
 eugene.epshteyn@intel.com:
 - 'DRM - Widevine'
@@ -85,6 +86,8 @@ hang.l.sun@intel.com:
 - 'WiDi'
 herbert.sereda@intel.com:
 - 'Video VPU SRC'
+hongfu.ruan@intel.com:
+- 'DRM - Widevine'
 hongyu.zhang@intel.com:
 - 'AOSP'
 itai.steiner@intel.com:
@@ -100,8 +103,6 @@ joel.clark@intel.com:
 jon.bloomfield@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
-juan.carlos.castillo@intel.com:
-- 'DRM - Widevine'
 julien.battiston@intel.com:
 - 'Power Management'
 khanh.v.nguyen@intel.com:
@@ -163,8 +164,6 @@ sylvain.centelles@intel.com:
 - 'Audio Trail'
 thomas.schuler@intel.com:
 - 'Audio XGold'
-tommi.von.hertzen@intel.com:
-- 'DRM - Widevine'
 venkat.r.gokulrangan@intel.com:
 - 'Intel Security differentiation'
 vijay.a.purushothaman@intel.com:
