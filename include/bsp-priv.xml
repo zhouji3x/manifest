@@ -176,6 +176,16 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="vendor/intel/apps/aap" name="a/bsp/vendor/intel/apps/aap" groups="bsp-priv,embargoed" restricted="carplay" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
+    <project path="vendor/intel/apps/carplay" name="a/bsp/vendor/intel/apps/carplay" groups="bsp-priv,embargoed" restricted="carplay" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/apps/fota" name="a/bsp/vendor/intel/apps/fota" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>

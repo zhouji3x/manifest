@@ -693,6 +693,9 @@
 - vendor/intel/camera/libmfldadvci
 - vendor/intel/fw/camera
 - vendor/intel/fw/ipu4
+'Carplay':
+- vendor/intel/apps/aap
+- vendor/intel/apps/carplay
 'Carrier':
 - vendor/intel/operator/CMCC
 'Connectivity-ACP-BT':

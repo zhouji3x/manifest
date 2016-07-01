@@ -94,6 +94,8 @@ itai.steiner@intel.com:
 - 'Connectivity-Location-Core'
 ivan.g.popov@intel.com:
 - 'Art'
+jay.lee@windriver.com:
+- 'Carplay'
 jeremy.compostella@intel.com:
 - 'BOOT - OTA - GOTA'
 jette.hoffmann@intel.com:
@@ -116,6 +118,8 @@ loic.poulain@intel.com:
 - 'Connectivity-TPV-GNSS'
 - 'Connectivity-TPV-NFC'
 - 'Connectivity-TPV-WIFI'
+louis.jang@windriver.com:
+- 'Carplay'
 loyola.pitchai@intel.com:
 - 'Intel Security differentiation'
 luis.amezcua@intel.com:
