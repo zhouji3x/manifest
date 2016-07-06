@@ -65,6 +65,13 @@ elena.reshetova@intel.com:
 - 'Security Middleware'
 eman.copty@intel.com:
 - 'Perceptual Camera'
+enrique.gongora@intel.com:
+- 'Connectivity-TPV-BT'
+- 'Connectivity-TPV-CellCoex'
+- 'Connectivity-TPV-FM'
+- 'Connectivity-TPV-GNSS'
+- 'Connectivity-TPV-NFC'
+- 'Connectivity-TPV-WIFI'
 eric.r.li@intel.com:
 - 'DRM - Widevine'
 - 'Platform BIOS'
@@ -111,13 +118,6 @@ khanh.v.nguyen@intel.com:
 - 'Video Conferencing'
 linda.s.cline@intel.com:
 - 'Video Conferencing'
-loic.poulain@intel.com:
-- 'Connectivity-TPV-BT'
-- 'Connectivity-TPV-CellCoex'
-- 'Connectivity-TPV-FM'
-- 'Connectivity-TPV-GNSS'
-- 'Connectivity-TPV-NFC'
-- 'Connectivity-TPV-WIFI'
 louis.jang@windriver.com:
 - 'Carplay'
 loyola.pitchai@intel.com:
@@ -158,6 +158,13 @@ roger.feng@intel.com:
 - 'Trusty'
 samuel.ortiz@intel.com:
 - 'Auto_Detection'
+selma.bensaid@intel.com:
+- 'Connectivity-TPV-BT'
+- 'Connectivity-TPV-CellCoex'
+- 'Connectivity-TPV-FM'
+- 'Connectivity-TPV-GNSS'
+- 'Connectivity-TPV-NFC'
+- 'Connectivity-TPV-WIFI'
 sivakumar.thulasimani@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
