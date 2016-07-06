@@ -411,6 +411,11 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="vendor/intel/fw/mwifiex" name="a/bsp/vendor/intel/fw/mwifiex" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/fw/nfc/nxp" name="a/bsp/hardware/intel/PRIVATE/pn544_fw" groups="bsp-priv,not_imc_wprd,notdefault" restricted="not_IMC_wprd" revision="android/master">
         <annotation name="g_external" value="bin"/>
         <annotation name="all_external" value="bin"/>

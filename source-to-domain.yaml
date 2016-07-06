@@ -799,6 +799,7 @@
 - device/intel/mixins/groups/wlan/rtl8723bs
 - external/linux-firmware-broadcom
 - hardware/intel/wifi
+- vendor/intel/fw/mwifiex
 - vendor/intel/fw/wlan/broadcom
 - vendor/intel/hardware/realtek/wlan
 'Connectivity-WLAN-Core':
