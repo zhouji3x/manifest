@@ -15,8 +15,6 @@ amber.jain@intel.com:
 - 'GFX / Mali - ARM'
 anand.muralidharan@intel.com:
 - 'CAM'
-andreas.karlsson@intel.com:
-- 'Video Gen'
 anne-sophie.lefevre@intel.com:
 - 'Manifest'
 arvind.mohan@intel.com:
@@ -51,6 +49,8 @@ christophe.guerard@intel.com:
 cyrille.bezard-falgas@intel.com:
 - 'ABL'
 - 'Platform Config'
+dan.liang@intel.com:
+- 'Video Gen'
 daniel.drubin@intel.com:
 - 'ISH'
 dave.lin@intel.com:
@@ -59,6 +59,8 @@ dave.lin@intel.com:
 - 'Platform Config'
 dong-yuan.chen@intel.com:
 - 'Art'
+dong.yang@intel.com:
+- 'Camera - Imaging'
 eike.grimpe@intel.com:
 - 'Camera - Imaging'
 elena.reshetova@intel.com:
@@ -107,6 +109,8 @@ jeremy.compostella@intel.com:
 - 'BOOT - OTA - GOTA'
 jette.hoffmann@intel.com:
 - 'Connectivity-IOSM'
+jianjun.liu@intel.com:
+- 'Energy management'
 joel.clark@intel.com:
 - 'Kernel'
 jon.bloomfield@intel.com:
@@ -138,13 +142,10 @@ michael.leibowitz@intel.com:
 - 'Security Middleware'
 mickael.mallet@intel.com:
 - 'Manifest'
-noor.u.mubeen@intel.com:
-- 'Energy management'
 olivier.carpentier@intel.com:
 - 'Platform BIOS'
 paul.asterland@intel.com:
 - 'Audio Common'
-- 'Video Gen'
 pierre.roulliere@intel.com:
 - 'Telephony'
 rafael.barbalho@intel.com:
