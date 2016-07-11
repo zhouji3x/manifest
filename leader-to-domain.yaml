@@ -2,8 +2,6 @@ acacia.tena@intel.com:
 - 'Sensors'
 ajit.joshi@intel.com:
 - 'WiDi'
-alice.liu@intel.com:
-- 'Energy management'
 alwin.mathew@intel.com:
 - 'Auto_Detection'
 - 'Platform Baytrail'
@@ -27,6 +25,8 @@ brad.geltz@intel.com:
 - 'IRDA Signing Keys'
 carlos.santa@intel.com:
 - 'GSD HW Composer'
+catalin.popescu@intel.com:
+- 'Power Management'
 cedric.le.claire@intel.com:
 - 'Connectivity-ACP-BT'
 - 'Connectivity-ACP-CellCoex'
@@ -37,6 +37,8 @@ cedric.le.claire@intel.com:
 - 'Connectivity-GNSS-Core'
 - 'Connectivity-Manufacturing-Debug'
 - 'Connectivity-WLAN-Core'
+charly.dumur@intel.com:
+- 'Power Management'
 chris.r.watkins@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
@@ -51,16 +53,14 @@ cyrille.bezard-falgas@intel.com:
 - 'Platform Config'
 dan.liang@intel.com:
 - 'Video Gen'
-daniel.drubin@intel.com:
-- 'ISH'
 dave.lin@intel.com:
 - 'Platform Baytrail'
 - 'Platform BIOS'
 - 'Platform Config'
-dong-yuan.chen@intel.com:
-- 'Art'
 dong.yang@intel.com:
 - 'Camera - Imaging'
+dwane.pottratz@intel.com:
+- 'Kernel'
 eike.grimpe@intel.com:
 - 'Camera - Imaging'
 elena.reshetova@intel.com:
@@ -99,6 +99,8 @@ hongfu.ruan@intel.com:
 - 'DRM - Widevine'
 hongyu.zhang@intel.com:
 - 'AOSP'
+hu1.chen@intel.com:
+- 'Power Management'
 itai.steiner@intel.com:
 - 'Connectivity-Location-Core'
 ivan.g.popov@intel.com:
@@ -111,13 +113,9 @@ jette.hoffmann@intel.com:
 - 'Connectivity-IOSM'
 jianjun.liu@intel.com:
 - 'Energy management'
-joel.clark@intel.com:
-- 'Kernel'
 jon.bloomfield@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
-julien.battiston@intel.com:
-- 'Power Management'
 khanh.v.nguyen@intel.com:
 - 'Video Conferencing'
 linda.s.cline@intel.com:
@@ -181,6 +179,8 @@ venkat.r.gokulrangan@intel.com:
 vijay.a.purushothaman@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
+vyacheslav.p.shakin@intel.com:
+- 'Art'
 wei.tao@intel.com:
 - 'Camera - Imaging'
 weian.chen@intel.com:
@@ -196,6 +196,8 @@ yanmin.zhang@intel.com:
 - 'Platform Broxton'
 yann.fouassier@intel.com:
 - 'Debug and Trace'
+yipeng.yao@intel.com:
+- 'Power Management'
 yong.yao@intel.com:
 - 'AOSP'
 zachary.zou@intel.com:
