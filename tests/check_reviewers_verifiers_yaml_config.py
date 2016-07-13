@@ -62,12 +62,12 @@ class CheckVerifiersAndReviewers(object):
 
     def checkValidIntelEmail(self, usersfiles):
         """
-        Each user need to have an email format with "@intel.com"
+        Each user need to have an email format with "@intel.com" or "@windriver.com"
         """
         invalid_users = []
         users = self.loadVerifiersAndReviewers(usersfiles)
         for user in users:
-            if not user.endswith("@intel.com") and not user.startswith("ldap"):
+            if (not user.endswith("@intel.com") or not user.endswith("@windriver.com")) and not user.startswith("ldap"):
                 invalid_users.append([user, users[user][1]])
         return invalid_users
 
