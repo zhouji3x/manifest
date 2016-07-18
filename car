@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <notice>One_Android_Ring='0'</notice>
+
+  <default revision="android/n_car/mr0/r0"
+           remote="origin"
+           sync-c="true"
+           sync-j="5" />
+  <include name="rbase_car.xml"/>
+  <project name="manifests" path="manifests"  groups="embargoed" revision="android/master"/>
+
+</manifest>
