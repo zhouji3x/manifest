@@ -530,6 +530,7 @@
 - prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8
 - prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9
 - prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9
+- prebuilts/gdb/linux-x86
 - prebuilts/gradle-plugin
 - prebuilts/libs/libedit
 - prebuilts/maven_repo/android
