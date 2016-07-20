@@ -478,6 +478,7 @@
   <project clone-depth="1" groups="aosp,pdk-fs" name="a/aosp/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" restricted="aosp" />
   <project clone-depth="1" groups="aosp,pdk,linux,mips" name="a/aosp/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" restricted="aosp" />
   <project clone-depth="1" groups="aosp,pdk,linux,x86" name="a/aosp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" restricted="aosp" />
+  <project clone-depth="1" groups="aosp,pdk,linux,x86" name="a/aosp/platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" restricted="aosp" />
   <project clone-depth="1" groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" restricted="aosp" />
   <project clone-depth="1" groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" restricted="aosp" />
   <project clone-depth="1" groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" restricted="aosp" />
