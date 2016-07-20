@@ -1,11 +1,9 @@
 ajit.joshi@intel.com:
 - 'WiDi'
 alwin.mathew@intel.com:
-- 'Auto_Detection'
 - 'Platform Baytrail'
 - 'Platform BIOS'
 - 'Platform Broxton'
-- 'Platform Config'
 - 'Platform GoldSand'
 amber.jain@intel.com:
 - 'GFX / Mali - ARM'
@@ -23,8 +21,6 @@ bingquan.hu@intel.com:
 - 'Sensors'
 brad.geltz@intel.com:
 - 'IRDA Signing Keys'
-carlos.santa@intel.com:
-- 'GSD HW Composer'
 catalin.popescu@intel.com:
 - 'Power Management'
 cedric.le.claire@intel.com:
@@ -56,9 +52,10 @@ dan.liang@intel.com:
 dave.lin@intel.com:
 - 'Platform Baytrail'
 - 'Platform BIOS'
-- 'Platform Config'
 dong.yang@intel.com:
 - 'Camera - Imaging'
+dongsheng.zhang@intel.com:
+- 'GSD HW Composer'
 dwane.pottratz@intel.com:
 - 'Kernel'
 eike.grimpe@intel.com:
@@ -92,6 +89,8 @@ gary.k.smith@intel.com:
 - 'GFX / Display Gen'
 grzegorz.janca@intel.com:
 - 'Storage'
+guilhem.imberton@intel.com:
+- 'Platform Config'
 hang.l.sun@intel.com:
 - 'WiDi'
 herbert.sereda@intel.com:
@@ -119,8 +118,6 @@ jon.bloomfield@intel.com:
 - 'GFX / Display Gen'
 khanh.v.nguyen@intel.com:
 - 'Video Conferencing'
-linda.s.cline@intel.com:
-- 'Video Conferencing'
 louis.jang@windriver.com:
 - 'Carplay'
 loyola.pitchai@intel.com:
@@ -145,8 +142,6 @@ mickael.mallet@intel.com:
 - 'Manifest'
 olivier.carpentier@intel.com:
 - 'Platform BIOS'
-paul.asterland@intel.com:
-- 'Audio Common'
 pierre.roulliere@intel.com:
 - 'Telephony'
 rafael.barbalho@intel.com:
@@ -158,8 +153,6 @@ rajesh.banginwar@intel.com:
 - 'Silent Lake'
 roger.feng@intel.com:
 - 'Trusty'
-samuel.ortiz@intel.com:
-- 'Auto_Detection'
 selma.bensaid@intel.com:
 - 'Connectivity-TPV-BT'
 - 'Connectivity-TPV-CellCoex'
@@ -176,6 +169,7 @@ sundar.iyer@intel.com:
 - 'GSD HW Composer'
 - 'Platform GoldSand'
 sylvain.centelles@intel.com:
+- 'Audio Common'
 - 'Audio Trail'
 thomas.schuler@intel.com:
 - 'Audio XGold'
@@ -209,5 +203,7 @@ zachary.zou@intel.com:
 - 'Trusty'
 zhifeng.wang@intel.com:
 - 'ISH'
+zhuangzhi.li@intel.com:
+- 'Auto_Detection'
 zuping.qin@intel.com:
 - 'Intel Security differentiation'
