@@ -2,7 +2,6 @@ ajit.joshi@intel.com:
 - 'WiDi'
 alwin.mathew@intel.com:
 - 'Platform Baytrail'
-- 'Platform Broxton'
 - 'Platform GoldSand'
 amber.jain@intel.com:
 - 'GFX / Mali - ARM'
@@ -52,8 +51,6 @@ dave.lin@intel.com:
 - 'Platform Baytrail'
 dong.yang@intel.com:
 - 'Camera - Imaging'
-dongsheng.zhang@intel.com:
-- 'GSD HW Composer'
 dwane.pottratz@intel.com:
 - 'Kernel'
 eike.grimpe@intel.com:
@@ -122,8 +119,6 @@ loyola.pitchai@intel.com:
 - 'Intel Security differentiation'
 luhai.chen@intel.com:
 - 'Security Middleware'
-luis.amezcua@intel.com:
-- 'Platform CherryTrail'
 luis.antonio.tarazona-duarte@intel.com:
 - 'Connectivity-IOSM'
 marius.m.archip@intel.com:
@@ -160,9 +155,6 @@ selma.bensaid@intel.com:
 - 'Connectivity-TPV-WIFI'
 simon.xi.wang@intel.com:
 - 'Carrier'
-sivakumar.thulasimani@intel.com:
-- 'Gfx / Display Drm'
-- 'GFX / Display Gen'
 sundar.iyer@intel.com:
 - 'GSD HW Composer'
 - 'Platform GoldSand'
