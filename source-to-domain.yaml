@@ -766,6 +766,7 @@
 'Connectivity-IOSM':
 - vendor/intel/apps/iosm_testbench
 - vendor/intel/external/socat
+- vendor/intel/iosm_support
 'Connectivity-TPV-BT':
 - device/intel/mixins/groups/bluetooth/bcm43241
 - device/intel/mixins/groups/bluetooth/bcm43340
