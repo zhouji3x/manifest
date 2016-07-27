@@ -778,6 +778,7 @@
 - external/bluetooth/libbt-vendor-linux
 - hardware/intel/realtek_bluedroid
 - vendor/intel/fw/bluetooth/broadcom
+- vendor/intel/fw/bluetooth/marvell
 - vendor/intel/fw/bluetooth/realtek
 - vendor/intel/hardware/realtek/libbt
 'Connectivity-TPV-CellCoex':
@@ -801,6 +802,7 @@
 - device/intel/mixins/groups/wlan/rtl8723bs
 - external/linux-firmware-broadcom
 - hardware/intel/wifi
+- kernel/modules/marvell
 - vendor/intel/fw/mwifiex
 - vendor/intel/fw/wlan/broadcom
 - vendor/intel/hardware/realtek/wlan
