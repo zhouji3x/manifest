@@ -18,6 +18,8 @@ ldap//CN=OTC_SI_1A-Verif-Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=am
 - 'Camera - Imaging'
 ldap//CN=PDL-iCDG-MM-Camera,OU=Delegated,OU=Groups,DC=ger,DC=corp,DC=intel,DC=com:
 - 'Camera - Imaging'
+ldap//CN=OTC_SI_1A-Verif-Car_Services,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Car Services'
 ldap//CN=OTC_SI_1A-Verif-Carplay,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Carplay'
 ldap//CN=OTC_SI_1A-Verif-Carrier,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
