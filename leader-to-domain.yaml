@@ -1,7 +1,6 @@
 ajit.joshi@intel.com:
 - 'WiDi'
 alwin.mathew@intel.com:
-- 'Platform Baytrail'
 - 'Platform GoldSand'
 amber.jain@intel.com:
 - 'GFX / Mali - ARM'
@@ -17,8 +16,6 @@ bing.zhu@intel.com:
 - 'Security Middleware'
 bingquan.hu@intel.com:
 - 'Sensors'
-brad.geltz@intel.com:
-- 'IRDA Signing Keys'
 catalin.popescu@intel.com:
 - 'Power Management'
 cedric.le.claire@intel.com:
@@ -47,8 +44,6 @@ cyrille.bezard-falgas@intel.com:
 - 'Platform Config'
 dan.liang@intel.com:
 - 'Video Gen'
-dave.lin@intel.com:
-- 'Platform Baytrail'
 dong.yang@intel.com:
 - 'Camera - Imaging'
 dwane.pottratz@intel.com:
@@ -127,8 +122,6 @@ markus.lehmann@intel.com:
 - 'SoFia LTE Debug & Trace'
 mateusz.nowak@intel.com:
 - 'Storage'
-matthew.d.wood@intel.com:
-- 'IRDA Signing Keys'
 michael.leibowitz@intel.com:
 - 'Security Middleware'
 mickael.mallet@intel.com:
@@ -163,8 +156,6 @@ sundar.iyer@intel.com:
 sylvain.centelles@intel.com:
 - 'Audio Common'
 - 'Audio Trail'
-thomas.schuler@intel.com:
-- 'Audio XGold'
 venkat.r.gokulrangan@intel.com:
 - 'Intel Security differentiation'
 vijay.a.purushothaman@intel.com:

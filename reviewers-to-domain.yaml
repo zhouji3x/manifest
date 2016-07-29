@@ -8,8 +8,6 @@ ldap//CN=OTC_SI_1A-Rev-Audio_Common,OU=Rialto,OU=Application Managed,OU=Groups,D
 - 'Audio Common'
 ldap//CN=OTC_SI_1A-Rev-Audio_Trail,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Audio Trail'
-ldap//CN=OTC_SI_1A-Rev-Audio_XGold,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Audio XGold'
 ldap//CN=OTC_SI_1A-Rev-Auto_Detection,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Auto_Detection'
 ldap//CN=OTC_SI_1A-Rev-BOOT_OTA_GOTA,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
@@ -74,8 +72,6 @@ ldap//CN=OTC_SI_1A-Rev-GSD_HW_Composer,OU=Rialto,OU=Application Managed,OU=Group
 - 'GSD HW Composer'
 ldap//CN=OTC_SI_1A-Rev-Intel_Security_diff,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Intel Security differentiation'
-ldap//CN=OTC_SI_1A-Rev-IRDA_Signing_Keys,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'IRDA Signing Keys'
 ldap//CN=OTC_SI_1A-Rev-ISH,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'ISH'
 ldap//CN=OTC_SI_1A-Rev-Kernel,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
@@ -84,8 +80,6 @@ ldap//CN=OTC_SI_1A-Rev-Manifest,OU=Rialto,OU=Application Managed,OU=Groups,DC=am
 - 'Manifest'
 ldap//CN=OTC_SI_1A-Rev-Perceptual_Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Perceptual Camera'
-ldap//CN=OTC_SI_1A-Rev-Platform_Baytrail,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Platform Baytrail'
 ldap//CN=OTC_SI_1A-Rev-Platform_BIOS,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Platform BIOS'
 ldap//CN=OTC_SI_1A-Rev-Platform_Broxton,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

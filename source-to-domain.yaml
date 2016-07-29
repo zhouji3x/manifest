@@ -584,8 +584,6 @@
 - vendor/intel/media_codecs
 - vendor/intel/PRIVATE/codec_wma9
 'Audio Trail':
-- device/intel/baytrail/audio
-- device/intel/baytrail/ecs_e7/audio
 - device/intel/broxton/audio
 - device/intel/broxton/bxt_b0/audio
 - device/intel/broxton/bxt_rvp/audio
@@ -630,8 +628,6 @@
 - vendor/intel/tools/asoc_dfw
 - vendor/intel/tools/dbga
 - vendor/intel/tools/itt
-'Audio XGold':
-- device/intel/mixins/groups/audio/sofia_lte
 'Auto_Detection':
 - hardware/intel/libhalclient
 - vendor/intel/apps/halctl
@@ -886,8 +882,6 @@
 - vendor/intel/hardware/libaesni
 - vendor/intel/hardware/libiha
 - vendor/intel/hardware/libsl
-'IRDA Signing Keys':
-- vendor/intel/irda_sig_keys
 'ISH':
 - device/intel/mixins/groups/aware
 - device/intel/mixins/groups/sensors/ish
@@ -919,8 +913,6 @@
 - vendor/intel/camera/realsense
 - vendor/intel/fw/ds4fw
 - vendor/intel/tools/ds4_tools
-'Platform Baytrail':
-- device/intel/baytrail
 'Platform BIOS':
 - hardware/intel/efi_capsules
 'Platform Broxton':

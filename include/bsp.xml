@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" groups="bsp" revision="android/master"/>
-    <project path="device/intel/baytrail" name="a/bsp/vendor/intel/baytrail" groups="bsp,soc_irda" revision="android/master"/>
     <project path="device/intel/build" name="a/bsp/vendor/intel/build" groups="bsp" revision="android/master"/>
     <project path="device/intel/common" name="a/bsp/vendor/intel/common" groups="bsp" revision="android/master"/>
     <project path="external/alac" name="a/bsp/external/alac" groups="bsp" revision="android/master"/>
