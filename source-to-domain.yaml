@@ -891,6 +891,7 @@
 'Kernel':
 - kernel/bxt
 - kernel/cht
+- kernel/glv
 - kernel/gsd
 - kernel/modules/bcm43xx
 - kernel/modules/cg2k
