@@ -878,9 +878,6 @@
 - hardware/intel/gsd_hwcomposer
 - vendor/intel/external/drm-gsd
 'Intel Security differentiation' :
-- vendor/intel/apps/security_assist
-- vendor/intel/hardware/libaesni
-- vendor/intel/hardware/libiha
 - vendor/intel/hardware/libsl
 'ISH':
 - device/intel/mixins/groups/aware

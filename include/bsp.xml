@@ -122,7 +122,6 @@
     <project path="vendor/intel/hardware/iio-sensors" name="a/bsp/vendor/intel/iio-sensors" groups="bsp" revision="android/master"/>
     <project path="vendor/intel/hardware/ish-sensors" name="a/bsp/vendor/intel/ish-sensors" groups="bsp" revision="android/master"/>
     <project path="vendor/intel/hardware/keystore" name="a/bsp/vendor/intel/hardware/keystore" groups="bsp" revision="android/master"/>
-    <project path="vendor/intel/hardware/libaesni" name="a/bsp/vendor/intel/hardware/libaesni" groups="bsp" revision="android/master" spsId="62495"/>
     <project path="vendor/intel/hardware/libsl" name="a/bsp/vendor/intel/hardware/libsl" groups="bsp" revision="android/master"/>
     <project path="vendor/intel/hardware/libmedia_utils" name="a/bsp/hardware/intel/libmedia_utils" groups="bsp" revision="android/master"/>
     <project path="vendor/intel/hardware/libmei" name="a/bsp/vendor/intel/hardware/mei/libmei" groups="bsp" revision="android/master"/>
