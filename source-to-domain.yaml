@@ -960,8 +960,6 @@
 - vendor/intel/silentlake/psw
 'SoFia LTE Debug & Trace':
 - vendor/intel/tools/oct_daemon
-'Storage':
-- hardware/intel/libnvmmodule
 'Telephony':
 - device/intel/common/ims
 - device/intel/common/telephony

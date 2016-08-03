@@ -3,7 +3,6 @@
     <project path="hardware/imc/fm" name="a/bsp/hardware/imc/fm" groups="imc" revision="android/master"/>
     <project path="hardware/imc/ril" name="a/bsp/hardware/imc/ril" groups="imc" revision="android/master" spsId="59048"/>
     <project path="hardware/imc/rpc" name="a/bsp/hardware/imc/rpc" groups="imc" revision="android/master" spsId="59049"/>
-    <project path="hardware/intel/libnvmmodule" name="a/bsp/hardware/intel/libnvmmodule" groups="imc" revision="android/master"/>
     <project path="vendor/intel/hardware/telephony/imsservices" name="a/bsp/vendor/intel/PRIVATE/imsservices" groups="imc" revision="android/master"/>
     <project path="vendor/intel/hardware/telephony/imsstack" name="a/bsp/vendor/intel/PRIVATE/imsstack" groups="imc" revision="android/master"/>
     <project path="hardware/intel/vpu/verisilicon" name="a/bsp/hardware/intel/vpu/verisilicon" revision="android/master"/>
