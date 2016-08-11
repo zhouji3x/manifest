@@ -1019,7 +1019,6 @@
 - trusty/vendor/google/aosp
 - vendor/intel/external/prebuilts/elf
 - vendor/intel/fw/evmm
-- vendor/intel/fw/evmm/loader
 'Video Conferencing':
 - vendor/intel/PRIVATE/rtc
 - vendor/intel/rtc

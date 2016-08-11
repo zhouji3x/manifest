@@ -422,11 +422,6 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
-    <project path="vendor/intel/fw/evmm/loader" name="a/bsp/vendor/intel/fw/evmm_loader" groups="bsp-priv,embargoed,trusty" revision="android/master">
-        <annotation name="g_external" value="no"/>
-        <annotation name="all_external" value="no"/>
-        <annotation name="bxt_rvp_external" value="no"/>
-    </project>
     <project path="vendor/intel/fw/mwifiex" name="a/bsp/vendor/intel/fw/mwifiex" groups="bsp-priv,embargoed" revision="android/master">
         <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
