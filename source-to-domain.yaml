@@ -992,6 +992,7 @@
 - vendor/intel/hardware/telephony/Modem_Updater
 - vendor/intel/hardware/telephony/NVM_Manager
 - vendor/intel/hardware/telephony/rapid_ril
+- vendor/intel/hardware/telephony/ril_core
 - vendor/intel/tools/log_capture/amtl
 - vendor/intel/tools/telephony_tools/at_proxy
 - vendor/intel/tools/telephony_tools/coredumpwarning

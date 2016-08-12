@@ -492,6 +492,11 @@
         <annotation name="all_external" value="bin"/>
         <annotation name="bxt_rvp_external" value="bin"/>
     </project>
+    <project path="vendor/intel/hardware/telephony/ril_core" name="a/bsp/vendor/intel/hardware/telephony/ril_core" groups="bsp-priv,embargoed" revision="android/master">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="vendor/intel/hardware/wififirst" name="a/bsp/vendor/intel/hardware/wififirst" groups="bsp-priv,embargoed" revision="android/master">
        <annotation name="g_external" value="no"/>
        <annotation name="all_external" value="no"/>
