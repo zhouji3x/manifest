@@ -10,4 +10,11 @@
   <include name="rbase_car.xml"/>
   <project name="manifests" path="manifests"  groups="embargoed" revision="android/master"/>
 
+  <!-- The project below is used for google_diff that needs to be different from
+  android/master branch one. We decided to point to default aosp branch for master_car-->
+  <project path="vendor/intel/utils" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed">
+      <annotation name="g_external" value="no"/>
+      <annotation name="all_external" value="no"/>
+      <annotation name="bxt_rvp_external" value="no"/>
+  </project>
 </manifest>

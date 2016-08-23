@@ -13,4 +13,11 @@
     <annotation name="readonly" value="true" />
   </project>
 
+  <!-- The project below is used for google_diff that needs to be different
+  between master and master_car. For master, it will continue pointing to android/master branch -->
+  <project path="vendor/intel/utils" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" revision="android/master">
+      <annotation name="g_external" value="no"/>
+      <annotation name="all_external" value="no"/>
+      <annotation name="bxt_rvp_external" value="no"/>
+  </project>
 </manifest>
