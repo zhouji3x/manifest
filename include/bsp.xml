@@ -87,7 +87,9 @@
     <project path="vendor/intel/audio/parameter-framework" name="a/bsp/hardware/intel/PRIVATE/parameter-framework" groups="bsp,soc_bxt,soc_cht,soc_gsd" revision="android/master"/>
     <project path="vendor/intel/audio/parameter-framework-plugins/fs" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/parameter-framework/plugins/fs" groups="bsp,soc_bxt,soc_cht,soc_gsd" revision="android/master"/>
     <project path="vendor/intel/audio/parameter-framework-plugins/policy" name="a/bsp/vendor/intel/external/parameter-framework_plugins_policy" groups="bsp,soc_bxt,soc_cht,soc_gsd" revision="android/master"/>
+    <project path="vendor/intel/efiwrapper" name="a/bsp/vendor/intel/efiwrapper" groups="bsp" revision="android/master"/>
     <project path="vendor/intel/external/can_utils" name="a/bsp/vendor/intel/external/can_utils" groups="bsp" revision="android/master"/>
+    <project path="vendor/intel/external/coreboot" name="a/bsp/vendor/intel/external/coreboot" groups="bsp" revision="android/master"/>
     <project path="vendor/intel/external/drm" name="a/bsp/external/drm" groups="bsp" revision="android/master"/>
     <project path="vendor/intel/external/drm-gsd" name="a/bsp/external/drm-gsd" groups="bsp" revision="android/master"/>
     <project path="vendor/intel/external/capstone" name="a/bsp/vendor/intel/external/capstone" groups="bsp" revision="android/master"/>
