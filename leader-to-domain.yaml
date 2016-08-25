@@ -4,8 +4,6 @@ alwin.mathew@intel.com:
 - 'Platform GoldSand'
 amber.jain@intel.com:
 - 'GFX / Mali - ARM'
-anand.muralidharan@intel.com:
-- 'CAM'
 anne-sophie.lefevre@intel.com:
 - 'Manifest'
 arvind.mohan@intel.com:
@@ -46,6 +44,8 @@ dan.liang@intel.com:
 - 'Video Gen'
 di.zhang@intel.com:
 - 'Platform Glenview'
+dinesh.mittal@intel.com:
+- 'CAM'
 dong.yang@intel.com:
 - 'Camera - Imaging'
 dwane.pottratz@intel.com:
@@ -63,7 +63,7 @@ enrique.gongora@intel.com:
 - 'Connectivity-TPV-GNSS'
 - 'Connectivity-TPV-NFC'
 - 'Connectivity-TPV-WIFI'
-eric.erns@intel.com:
+eric.ernst@intel.com:
 - 'Platform Glenview'
 eric.r.li@intel.com:
 - 'DRM - Widevine'
@@ -152,6 +152,7 @@ simon.xi.wang@intel.com:
 - 'Carrier'
 sundar.iyer@intel.com:
 - 'GSD HW Composer'
+- 'Platform Glenview'
 - 'Platform GoldSand'
 sylvain.centelles@intel.com:
 - 'Audio Common'
