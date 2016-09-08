@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="hardware/imc/fm" name="a/bsp/hardware/imc/fm" groups="imc" revision="android/master"/>
-    <project path="hardware/imc/ril" name="a/bsp/hardware/imc/ril" groups="imc" revision="android/master" spsId="59048"/>
-    <project path="hardware/imc/rpc" name="a/bsp/hardware/imc/rpc" groups="imc" revision="android/master" spsId="59049"/>
-    <project path="vendor/intel/hardware/telephony/imsservices" name="a/bsp/vendor/intel/PRIVATE/imsservices" groups="imc" revision="android/master"/>
-    <project path="vendor/intel/hardware/telephony/imsstack" name="a/bsp/vendor/intel/PRIVATE/imsstack" groups="imc" revision="android/master"/>
-    <project path="hardware/intel/vpu/verisilicon" name="a/bsp/hardware/intel/vpu/verisilicon" revision="android/master"/>
-    <project path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" revision="android/master" spsId="59476"/>
+    <project path="hardware/imc/fm" name="a/bsp/hardware/imc/fm" groups="imc" />
+    <project path="hardware/imc/ril" name="a/bsp/hardware/imc/ril" groups="imc"  spsId="59048"/>
+    <project path="hardware/imc/rpc" name="a/bsp/hardware/imc/rpc" groups="imc"  spsId="59049"/>
+    <project path="vendor/intel/hardware/telephony/imsservices" name="a/bsp/vendor/intel/PRIVATE/imsservices" groups="imc" />
+    <project path="vendor/intel/hardware/telephony/imsstack" name="a/bsp/vendor/intel/PRIVATE/imsstack" groups="imc" />
+    <project path="hardware/intel/vpu/verisilicon" name="a/bsp/hardware/intel/vpu/verisilicon" />
+    <project path="hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib" name="a/bsp/hardware/intel/vpu/verisilicon/g1-v6_g2-v1_h1-v6_lib"  spsId="59476"/>
 </manifest>
