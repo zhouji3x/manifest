@@ -5,6 +5,13 @@
 - vendor/intel/abl/abl_prebuilt/internal
 - vendor/intel/abl/bootloader_apl
 - vendor/intel/abl/ifwi-apl
+'Android IA':
+- device/android_ia
+- device/androidia-firmware
+- device/androidia-kernel
+- device/androidia-kernel_config
+- device/androidia-sepolicy
+- device/androidia-sound
 'AOSP':
 - abi/cpp
 - bionic
@@ -175,6 +182,7 @@
 - external/libcxxabi
 - external/libdaemon
 - external/libdivsufsort
+- external/libdrm
 - external/libedit
 - external/libevent
 - external/libexif
@@ -215,6 +223,7 @@
 - external/marisa-trie
 - external/markdown
 - external/mdnsresponder
+- external/mesa
 - external/mesa3d
 - external/messageformat
 - external/minijail

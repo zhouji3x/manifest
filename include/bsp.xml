@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" groups="bsp" />
+    <project path="device/android_ia" name="a/bsp/device/intel/android_ia" groups="bsp" />
+    <project path="device/androidia-firmware" name="a/bsp/device/intel/androidia-firmware" groups="bsp" />
+    <project path="device/androidia-kernel" name="a/bsp/device/intel/androidia-kernel" groups="bsp" />
+    <project path="device/androidia-kernel_config" name="a/bsp/device/intel/androidia-kernel_config" groups="bsp" />
+    <project path="device/androidia-sepolicy" name="a/bsp/device/intel/androidia-sepolicy" groups="bsp" />
+    <project path="device/androidia-sound" name="a/bsp/device/intel/androidia-sound" groups="bsp" />
     <project path="device/intel/build" name="a/bsp/vendor/intel/build" groups="bsp" />
     <project path="device/intel/common" name="a/bsp/vendor/intel/common" groups="bsp" />
     <project path="external/alac" name="a/bsp/external/alac" groups="bsp" />
@@ -15,6 +21,7 @@
     <project path="external/libpciaccess" name="a/bsp/external/libpciaccess" groups="bsp" />
     <project path="external/libva" name="a/bsp/hardware/intel/libva" groups="bsp" />
     <project path="external/linux-firmware-broadcom" name="a/bsp/external/linux-firmware-broadcom" groups="bsp" />
+    <project path="external/mesa" name="a/bsp/platform/external/mesa" groups="bsp" />
     <project path="external/mtools" name="a/bsp/platform/external/mtools" groups="bsp" />
     <project path="external/pciutils" name="a/bsp/platform/external/pciutils" groups="bsp" />
     <project path="external/pystache" name="a/bsp/platform/external/pystache" groups="bsp" />
