@@ -182,7 +182,6 @@
 - external/libcxxabi
 - external/libdaemon
 - external/libdivsufsort
-- external/libdrm
 - external/libedit
 - external/libevent
 - external/libexif
@@ -224,7 +223,6 @@
 - external/markdown
 - external/mdnsresponder
 - external/mesa
-- external/mesa3d
 - external/messageformat
 - external/minijail
 - external/mksh

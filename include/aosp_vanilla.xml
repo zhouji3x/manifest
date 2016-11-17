@@ -174,7 +174,6 @@
   <project groups="aosp,pdk" name="a/aosp/platform/external/libcxxabi" path="external/libcxxabi"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/libdaemon" path="external/libdaemon"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/libdivsufsort" path="external/libdivsufsort"/>
-  <project groups="aosp,pdk" name="a/aosp/platform/external/libdrm" path="external/libdrm"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/libedit" path="external/libedit"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/libevent" path="external/libevent"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/libexif" path="external/libexif"/>
@@ -214,7 +213,6 @@
   <project groups="aosp,pdk" name="a/aosp/platform/external/lzma" path="external/lzma"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/markdown" path="external/markdown"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/mdnsresponder" path="external/mdnsresponder"/>
-  <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/external/mesa3d" path="external/mesa3d"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/messageformat" path="external/messageformat"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/minijail" path="external/minijail"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/mksh" path="external/mksh"/>
