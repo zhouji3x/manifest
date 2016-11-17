@@ -7,11 +7,11 @@
 - vendor/intel/abl/ifwi-apl
 'Android IA':
 - device/android_ia
-- device/androidia-firmware
-- device/androidia-kernel
-- device/androidia-kernel_config
-- device/androidia-sepolicy
-- device/androidia-sound
+- device/android_ia/firmware
+- device/android_ia/kernel
+- device/android_ia/kernel_config
+- device/android_ia/sepolicy
+- device/android_ia/sound
 'AOSP':
 - abi/cpp
 - bionic

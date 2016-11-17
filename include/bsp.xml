@@ -2,11 +2,11 @@
 <manifest>
     <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" groups="bsp" />
     <project path="device/android_ia" name="a/bsp/device/intel/android_ia" groups="bsp" />
-    <project path="device/androidia-firmware" name="a/bsp/device/intel/androidia-firmware" groups="bsp" />
-    <project path="device/androidia-kernel" name="a/bsp/device/intel/androidia-kernel" groups="bsp" />
-    <project path="device/androidia-kernel_config" name="a/bsp/device/intel/androidia-kernel_config" groups="bsp" />
-    <project path="device/androidia-sepolicy" name="a/bsp/device/intel/androidia-sepolicy" groups="bsp" />
-    <project path="device/androidia-sound" name="a/bsp/device/intel/androidia-sound" groups="bsp" />
+    <project path="device/android_ia/firmware" name="a/bsp/device/intel/androidia-firmware" groups="bsp" />
+    <project path="device/android_ia/kernel" name="a/bsp/device/intel/androidia-kernel" groups="bsp" />
+    <project path="device/android_ia/kernel_config" name="a/bsp/device/intel/androidia-kernel_config" groups="bsp" />
+    <project path="device/android_ia/sepolicy" name="a/bsp/device/intel/androidia-sepolicy" groups="bsp" />
+    <project path="device/android_ia/sound" name="a/bsp/device/intel/androidia-sound" groups="bsp" />
     <project path="device/intel/build" name="a/bsp/vendor/intel/build" groups="bsp" />
     <project path="device/intel/common" name="a/bsp/vendor/intel/common" groups="bsp" />
     <project path="external/alac" name="a/bsp/external/alac" groups="bsp" />
