@@ -20,6 +20,7 @@
     <project path="external/iniparser" name="a/bsp/external/iniparser" groups="bsp" />
     <project path="external/libpciaccess" name="a/bsp/external/libpciaccess" groups="bsp" />
     <project path="external/libva" name="a/bsp/hardware/intel/libva" groups="bsp" />
+    <project path="external/libdrm" name="a/bsp/external/drm" groups="bsp" />
     <project path="external/linux-firmware-broadcom" name="a/bsp/external/linux-firmware-broadcom" groups="bsp" />
     <project path="external/mesa" name="a/bsp/platform/external/mesa" groups="bsp" />
     <project path="external/mtools" name="a/bsp/platform/external/mtools" groups="bsp" />
@@ -97,7 +98,6 @@
     <project path="vendor/intel/efiwrapper" name="a/bsp/vendor/intel/efiwrapper" groups="bsp" />
     <project path="vendor/intel/external/can_utils" name="a/bsp/vendor/intel/external/can_utils" groups="bsp" />
     <project path="vendor/intel/external/coreboot" name="a/bsp/vendor/intel/external/coreboot" groups="bsp" />
-    <project path="vendor/intel/external/drm" name="a/bsp/external/drm" groups="bsp" />
     <project path="vendor/intel/external/drm-gsd" name="a/bsp/external/drm-gsd" groups="bsp" />
     <project path="vendor/intel/external/capstone" name="a/bsp/vendor/intel/external/capstone" groups="bsp" />
     <project path="vendor/intel/external/libdmclient" name="a/bsp/vendor/intel/external/libdmclient" groups="bsp" />
