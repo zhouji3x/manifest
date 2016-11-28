@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" groups="bsp" />
-    <project path="device/android_ia" name="a/bsp/device/intel/android_ia" groups="bsp" />
-    <project path="device/android_ia/firmware" name="a/bsp/device/intel/androidia-firmware" groups="bsp" />
-    <project path="device/android_ia/kernel" name="a/bsp/device/intel/androidia-kernel" groups="bsp" />
-    <project path="device/android_ia/kernel_config" name="a/bsp/device/intel/androidia-kernel_config" groups="bsp" />
-    <project path="device/android_ia/sepolicy" name="a/bsp/device/intel/androidia-sepolicy" groups="bsp" />
+    <project path="device/intel/android_ia" name="a/bsp/device/intel/android_ia" groups="bsp" />
+    <project path="device/intel/android_ia/firmware" name="a/bsp/device/intel/androidia-firmware" groups="bsp" />
+    <project path="device/intel/android_ia/kernel_config" name="a/bsp/device/intel/androidia-kernel_config" groups="bsp" />
+    <project path="device/intel/android_ia/sepolicy" name="a/bsp/device/intel/androidia-sepolicy" groups="bsp" />
     <project path="device/intel/build" name="a/bsp/vendor/intel/build" groups="bsp" />
     <project path="device/intel/common" name="a/bsp/vendor/intel/common" groups="bsp" />
     <project path="external/alac" name="a/bsp/external/alac" groups="bsp" />
@@ -59,6 +58,7 @@
     <project path="hardware/intel/wlan/hostap_wcs/lhp" name="a/bsp/hardware/intel/wlan/hostap_wcs_lhp" groups="bsp" />
     <project path="hardware/intel/wlan/hostap_wcs/rel" name="a/bsp/hardware/intel/wlan/hostap_wcs_rel" groups="bsp" />
     <project path="hardware/nxp/nfc" name="a/bsp/device/intel/nfc" groups="bsp" />
+    <project path="kernel/android_ia" name="a/bsp/device/intel/androidia-kernel" groups="bsp" />
     <project path="kernel/bxt" name="a/bsp/kernel/bxt" groups="bsp,kernel-src,soc_bxt"  clone-depth="300"/>
     <project path="kernel/cht" name="a/bsp/kernel/cht" groups="bsp,kernel-src,soc_cht"  clone-depth="300"/>
     <project path="kernel/glv" name="a/bsp/kernel/glv" groups="bsp,kernel-src,soc_glv"  clone-depth="300"/>

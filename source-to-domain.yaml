@@ -6,13 +6,12 @@
 - vendor/intel/abl/bootloader_apl
 - vendor/intel/abl/ifwi-apl
 'Android IA':
-- device/android_ia
-- device/android_ia/firmware
-- device/android_ia/kernel
-- device/android_ia/kernel_config
-- device/android_ia/sepolicy
-- device/android_ia/sound
+- device/intel/android_ia
+- device/intel/android_ia/firmware
+- device/intel/android_ia/kernel_config
+- device/intel/android_ia/sepolicy
 - device/intel/mixins/group/graphics/android_ia
+- kernel/android_ia
 'AOSP':
 - abi/cpp
 - bionic
