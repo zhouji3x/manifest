@@ -40,6 +40,11 @@
         <annotation name="all_external" value="no"/>
         <annotation name="bxt_rvp_external" value="no"/>
     </project>
+    <project path="device/intel/mixins/group/graphics/android_ia" name="a/bsp/device/intel/mixins/group/graphics/android_ia" groups="bsp-priv,embargoed" >
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
     <project path="hardware/intel/audio/coe/primary" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" groups="soc_bxt,soc_cht,soc_gsd,bsp-priv,embargoed" >
        <annotation name="g_external" value="no"/>
         <annotation name="all_external" value="no"/>
