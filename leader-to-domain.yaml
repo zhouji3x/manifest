@@ -81,6 +81,16 @@ frank.bergen@intel.com:
 gary.k.smith@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
+guy.cohen@intel.com:
+- 'Connectivity-ACP-BT'
+- 'Connectivity-ACP-CellCoex'
+- 'Connectivity-ACP-FM'
+- 'Connectivity-ACP-GNSS'
+- 'Connectivity-ACP-NFC'
+- 'Connectivity-ACP-WIFI'
+- 'Connectivity-GNSS-Core'
+- 'Connectivity-Manufacturing-Debug'
+- 'Connectivity-WLAN-Core'
 guilhem.imberton@intel.com:
 - 'Platform Config'
 hang.l.sun@intel.com:
