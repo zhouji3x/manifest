@@ -613,7 +613,6 @@
 - device/intel/goldsand/audio
 - device/intel/goldsand/gsd_simics/audio
 - hardware/intel/audio/coe/aware
-- hardware/intel/audio/coe/hdmi
 - hardware/intel/audio/coe/primary
 - hardware/intel/audio/coe/soundtrigger
 - hardware/intel/audio/coe/utilities

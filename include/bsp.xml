@@ -33,7 +33,6 @@
     <project path="hardware/broadcom/bcm_gps" name="a/bsp/hardware/intel/bcm_gps" groups="bsp" />
     <project path="hardware/imc/gnss" name="a/bsp/gnss/lbs" groups="bsp" />
     <project path="hardware/intel/audio/coe/aware" name="a/bsp/hardware/intel/PRIVATE/aware_audio" groups="bsp,soc_bxt,soc_cht,soc_gsd" />
-    <project path="hardware/intel/audio/coe/hdmi" name="a/bsp/vendor/intel/hardware/audio_media" groups="bsp,soc_bxt,soc_cht,soc_gsd" />
     <project path="hardware/intel/bluedroid" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/bluedroid" groups="bsp"  spsId="60548"/>
     <project path="hardware/intel/crm" name="a/bsp/hardware/intel/crm" groups="bsp" />
     <project path="hardware/intel/display/libmemtrack" name="a/bsp/hardware/intel/display/libmemtrack" groups="bsp" />
