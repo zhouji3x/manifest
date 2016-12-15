@@ -10,7 +10,11 @@
 - device/intel/android_ia/firmware
 - device/intel/android_ia/kernel_config
 - device/intel/android_ia/sepolicy
-- device/intel/mixins/group/graphics/android_ia
+- device/intel/mixins/groups/audio/android_ia
+- device/intel/mixins/groups/boot-arch/android_ia
+- device/intel/mixins/groups/graphics/android_ia
+- device/intel/mixins/groups/kernel/android_ia
+- device/intel/mixins/groups/media/android_ia
 - kernel/android_ia
 'AOSP':
 - abi/cpp
