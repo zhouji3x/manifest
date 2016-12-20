@@ -105,8 +105,6 @@ hu1.chen@intel.com:
 - 'Power Management'
 itai.steiner@intel.com:
 - 'Connectivity-Location-Core'
-ivan.g.popov@intel.com:
-- 'Art'
 jay.lee@windriver.com:
 - 'Carplay'
 jeremy.compostella@intel.com:
@@ -167,13 +165,13 @@ sundar.iyer@intel.com:
 sylvain.centelles@intel.com:
 - 'Audio Common'
 - 'Audio Trail'
+tatyana.v.doubtsova@intel.com:
+- 'Art'
 venkat.r.gokulrangan@intel.com:
 - 'Intel Security differentiation'
 vijay.a.purushothaman@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
-vyacheslav.p.shakin@intel.com:
-- 'Art'
 wei.tao@intel.com:
 - 'Camera - Imaging'
 weian.chen@intel.com:
