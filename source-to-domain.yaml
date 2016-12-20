@@ -7,15 +7,12 @@
 - vendor/intel/abl/ifwi-apl
 'Android IA':
 - device/intel/android_ia
-- device/intel/android_ia/firmware
-- device/intel/android_ia/kernel_config
-- device/intel/android_ia/sepolicy
-- device/intel/mixins/groups/audio/android_ia
-- device/intel/mixins/groups/boot-arch/android_ia
-- device/intel/mixins/groups/graphics/android_ia
-- device/intel/mixins/groups/kernel/android_ia
-- device/intel/mixins/groups/media/android_ia
+- vendor/linux/firmware
 - kernel/android_ia
+- external/mesa-android_ia
+- external/libdrm-android_ia
+- external/drm_gralloc-android_ia
+- external/drm_hwcomposer-android_ia
 'AOSP':
 - abi/cpp
 - bionic

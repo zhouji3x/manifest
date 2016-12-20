@@ -101,8 +101,6 @@
   <project groups="aosp,pdk" name="a/aosp/platform/external/dnsmasq" path="external/dnsmasq"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/doclava" path="external/doclava"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/donuts" path="external/donuts"/>
-  <project groups="aosp,drm_gralloc,pdk-fs" name="a/aosp/platform/external/drm_gralloc" path="external/drm_gralloc"/>
-  <project groups="aosp,drm_hwcomposer,pdk-fs" name="a/aosp/platform/external/drm_hwcomposer" path="external/drm_hwcomposer"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/droiddriver" path="external/droiddriver"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/e2fsprogs" path="external/e2fsprogs"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/easymock" path="external/easymock"/>

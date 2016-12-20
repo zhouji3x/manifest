@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Projects which need to be removed -->
+    <remove-project name="a/bsp/device/intel/mixins" />
+
+</manifest>
