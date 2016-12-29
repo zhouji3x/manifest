@@ -698,7 +698,7 @@
 - vendor/intel/camera/libmfldadvci
 - vendor/intel/fw/camera
 - vendor/intel/fw/ipu4
-'Car Services':
+'Car Utilities':
 - vendor/intel/external/can_utils
 'Carplay':
 - vendor/intel/apps/aap
@@ -946,6 +946,8 @@
 - device/intel/goldsand
 'Power Management':
 - hardware/intel/power
+- device/intel/mixins/groups/power
+- device/intel/mixins/groups/power_profile
 'SE Linux':
 - device/intel/mixins/groups/sepolicy
 - external/libselinux
