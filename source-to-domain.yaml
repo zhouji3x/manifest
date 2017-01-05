@@ -699,6 +699,7 @@
 - vendor/intel/fw/camera
 - vendor/intel/fw/ipu4
 'Car Utilities':
+- device/intel/mixins/groups/rvc
 - vendor/intel/external/can_utils
 'Carplay':
 - vendor/intel/apps/aap

@@ -10,6 +10,8 @@ arvind.mohan@intel.com:
 - 'Silent Lake'
 aviv.d.greenberg@intel.com:
 - 'Perceptual Camera'
+baofeng.tian@intel.com:
+- 'Debug and Trace'
 bing.zhu@intel.com:
 - 'Security Middleware'
 bingquan.hu@intel.com:
@@ -35,8 +37,6 @@ christophe.continente@intel.com:
 - 'Platform BIOS'
 - 'Platform Broxton'
 - 'Platform CherryTrail'
-christophe.guerard@intel.com:
-- 'Debug and Trace'
 cyrille.bezard-falgas@intel.com:
 - 'ABL'
 - 'Platform Config'
@@ -135,6 +135,8 @@ olivier.carpentier@intel.com:
 - 'Platform BIOS'
 pierre.roulliere@intel.com:
 - 'Telephony'
+qihua.zhuang@intel.com:
+- 'Car Utilities'
 rafael.barbalho@intel.com:
 - 'Gfx / Display Drm'
 - 'GFX / Display Gen'
@@ -182,8 +184,6 @@ xinhong.hu@intel.com:
 - 'Carrier'
 yanmin.zhang@intel.com:
 - 'Platform Broxton'
-yann.fouassier@intel.com:
-- 'Debug and Trace'
 yipeng.yao@intel.com:
 - 'Power Management'
 yong.yao@intel.com:
