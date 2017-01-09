@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <project path="bootable/liveinstaller" name="a/bsp/bootable/liveinstaller-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="device/intel/android_ia" name="a/bsp/device/intel/android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="device/intel/mixins" name="a/bsp/device/intel/mixins-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/linux/firmware" name="a/bsp/vendor/linux/firmware" groups="bsp" revision="feature/n/androidia" />
