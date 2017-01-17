@@ -6,13 +6,19 @@
 - vendor/intel/abl/bootloader_apl
 - vendor/intel/abl/ifwi-apl
 'Android IA':
+- bootable/liveinstaller
 - device/intel/android_ia
-- vendor/linux/firmware
+- device/intel/mixins
+- device/intel/sepolicy
 - kernel/android_ia
-- external/mesa-android_ia
-- external/libdrm-android_ia
-- external/drm_gralloc-android_ia
-- external/drm_hwcomposer-android_ia
+- vendor/intel/external/android_ia/audio
+- vendor/intel/external/android_ia/drm_gralloc
+- vendor/intel/external/android_ia/hwcomposer
+- vendor/intel/external/android_ia/libdrm
+- vendor/intel/external/android_ia/mesa
+- vendor/intel/external/android_ia/vulkan
+- vendor/intel/external/android_ia/wifi
+- vendor/linux/firmware
 'AOSP':
 - abi/cpp
 - bionic
