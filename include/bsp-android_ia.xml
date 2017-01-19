@@ -3,7 +3,7 @@
     <project path="bootable/liveinstaller" name="a/bsp/bootable/liveinstaller-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="device/intel/android_ia" name="a/bsp/device/intel/android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="device/intel/mixins" name="a/bsp/device/intel/mixins-android_ia" groups="bsp" revision="feature/n/androidia" />
-    <project path="device/intel/sepolicy" name="a/bsp/device/intel/androidia-sepolicy" groups="bsp" revision="feature/n/androidia" />
+    <project path="device/intel/sepolicy" name="a/bsp/device/intel/sepolicy-androidia" groups="bsp" revision="feature/n/androidia" />
     <project path="kernel/android_ia" name="a/bsp/kernel/android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/audio" name="a/bsp/external/audio-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/drm_gralloc" name="a/bsp/external/drm_gralloc-android_ia" groups="bsp" revision="feature/n/androidia" />
