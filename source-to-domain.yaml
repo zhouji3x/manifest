@@ -9,7 +9,6 @@
 - bootable/liveinstaller
 - device/intel/android_ia
 - device/intel/mixins
-- device/intel/sepolicy
 - kernel/android_ia
 - vendor/intel/external/android_ia/audio
 - vendor/intel/external/android_ia/drm_gralloc
@@ -17,7 +16,6 @@
 - vendor/intel/external/android_ia/libdrm
 - vendor/intel/external/android_ia/mesa
 - vendor/intel/external/android_ia/vulkan
-- vendor/intel/external/android_ia/wifi
 - vendor/linux/firmware
 'AOSP':
 - abi/cpp
