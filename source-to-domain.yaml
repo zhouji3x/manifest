@@ -395,6 +395,7 @@
 - frameworks/wilhelm
 - hardware/broadcom/libbt
 - hardware/broadcom/wlan
+- hardware/bsp/intel
 - hardware/google/apf
 - hardware/intel/audio_media
 - hardware/intel/bootstub
