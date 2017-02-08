@@ -100,6 +100,8 @@ hu1.chen@intel.com:
 - 'Power Management'
 itai.steiner@intel.com:
 - 'Connectivity-Location-Core'
+jacek.czerniawski@intel.com:
+- 'Audio Trail'
 jay.lee@windriver.com:
 - 'Carplay'
 jeremy.compostella@intel.com:
@@ -121,6 +123,8 @@ luhai.chen@intel.com:
 - 'Security Middleware'
 luis.antonio.tarazona-duarte@intel.com:
 - 'Connectivity-IOSM'
+marek.dabek@intel.com:
+- 'Audio Trail'
 marius.m.archip@intel.com:
 - 'SoFia LTE Debug & Trace'
 markus.lehmann@intel.com:
@@ -161,7 +165,6 @@ sundar.iyer@intel.com:
 - 'Platform GoldSand'
 sylvain.centelles@intel.com:
 - 'Audio Common'
-- 'Audio Trail'
 tatyana.v.doubtsova@intel.com:
 - 'Art'
 tommi.von.hertzen@intel.com:
