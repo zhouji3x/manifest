@@ -39,7 +39,6 @@ christophe.continente@intel.com:
 - 'Platform CherryTrail'
 cyrille.bezard-falgas@intel.com:
 - 'ABL'
-- 'Platform Config'
 dan.liang@intel.com:
 - 'Video Gen'
 di.zhang@intel.com:
@@ -86,8 +85,6 @@ guy.cohen@intel.com:
 - 'Connectivity-GNSS-Core'
 - 'Connectivity-Manufacturing-Debug'
 - 'Connectivity-WLAN-Core'
-guilhem.imberton@intel.com:
-- 'Platform Config'
 hang.l.sun@intel.com:
 - 'WiDi'
 herbert.sereda@intel.com:
@@ -197,5 +194,6 @@ zhifeng.wang@intel.com:
 - 'ISH'
 zhuangzhi.li@intel.com:
 - 'Auto_Detection'
+- 'Platform Config'
 zuping.qin@intel.com:
 - 'Intel Security differentiation'
