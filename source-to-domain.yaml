@@ -16,6 +16,7 @@
 - vendor/intel/external/android_ia/drm_gralloc
 - vendor/intel/external/android_ia/hwcomposer
 - vendor/intel/external/android_ia/libdrm
+- vendor/intel/external/android_ia/minigbm
 - vendor/intel/external/android_ia/mesa
 - vendor/intel/external/android_ia/vulkan
 - vendor/linux/firmware
