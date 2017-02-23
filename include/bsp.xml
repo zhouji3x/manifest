@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" groups="bsp" />
-    <project path="device/intel/build" name="a/bsp/vendor/intel/build" groups="bsp" />
-    <project path="device/intel/common" name="a/bsp/vendor/intel/common" groups="bsp" />
+    <project path="device/intel/build" name="a/bsp/vendor/intel/build" groups="bsp" revision="feature/n/androidia" />
+    <project path="device/intel/common" name="a/bsp/vendor/intel/common" groups="bsp" revision="feature/n/androidia" />
     <project path="external/alac" name="a/bsp/external/alac" groups="bsp" />
     <project path="external/bluetooth/hcitools" name="a/bsp/platform/external/bluetooth/hcitools" groups="bsp" />
     <project path="external/bluetooth/libbt-vendor-linux" name="a/bsp/platform/external/bluetooth/libbt-vendor-linux" groups="bsp" />
@@ -35,7 +35,7 @@
     <project path="hardware/intel/gpu/mali-midgard_lib" name="a/bsp/hardware/intel/gpu/arm/mali-midgard_lib" groups="bsp"  spsId="60539"/>
     <project path="hardware/intel/hald_media_hook" name="a/bsp/hardware/intel/PRIVATE/hald_media_hook" groups="bsp" />
     <project path="hardware/intel/intel-gpu-tools" name="a/bsp/platform/external/intel-gpu-tools" groups="bsp" />
-    <project path="hardware/intel/kernelflinger" name="a/bsp/hardware/intel/efi/kernelflinger" groups="bsp" />
+    <project path="hardware/intel/kernelflinger" name="a/bsp/hardware/intel/efi/kernelflinger" groups="bsp" revision="feature/n/androidia" />
     <project path="hardware/intel/libbt-vendor-intel" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" groups="bsp"  spsId="60549"/>
     <project path="hardware/intel/libcamhal" name="a/bsp/hardware/intel/libcamhal" groups="bsp" />
     <project path="hardware/intel/libsensors-input" name="a/bsp/hardware/intel/libsensors-input" groups="bsp" />
