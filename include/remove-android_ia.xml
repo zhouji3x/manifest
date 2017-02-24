@@ -3,4 +3,14 @@
     <!-- Projects which need to be removed -->
     <remove-project name="a/bsp/hardware/intel/PRIVATE/hwc" />
     <remove-project name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" />
+    <!-- Projects which androidia sharing with android master need to be removed -->
+    <remove-project name="a/bsp/device/intel/mixins" />
+    <remove-project name="a/bsp/hardware/intel/liblights" />
+    <remove-project name="a/bsp/platform/external/gnu-efi" />
+    <remove-project name="a/bsp/platform/external/pciutils" />
+    <remove-project name="a/bsp/platform/external/pystache" />
+    <remove-project name="a/bsp/platform/external/sbsigntool" />
+    <remove-project name="a/bsp/platform/vendor/intel/libpower" />
+    <remove-project name="a/bsp/vendor/intel/build" />
+    <remove-project name="a/bsp/vendor/intel/common" />
 </manifest>
