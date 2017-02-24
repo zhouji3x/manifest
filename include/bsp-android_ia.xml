@@ -12,6 +12,5 @@
     <project path="vendor/intel/external/android_ia/mesa" name="a/bsp/external/mesa-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/vulkan" name="a/bsp/external/vulkan-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/linux/firmware" name="a/bsp/vendor/linux/firmware" groups="bsp" revision="feature/n/androidia" />
-    <project path="vendor/intel/external/android_ia/hwcomposer" name="a/bsp/external/hwcomposer-android_ia" groups="bsp" revision="android/master_androidia" />
-    <project path="vendor/intel/external/android_ia/minigbm" name="a/bsp/external/minigbm-android_ia" groups="bsp" revision="android/master_androidia" />
+    <project path="vendor/intel/external/android_ia/minigbm" name="a/bsp/external/minigbm-android_ia" groups="bsp" revision="feature/n/androidia" />
 </manifest>
