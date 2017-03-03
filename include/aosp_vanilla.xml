@@ -58,7 +58,6 @@
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/development" path="development"/>
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/docs/source.android.com" path="docs/source.android.com"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/aac" path="external/aac"/>
-  <project groups="aosp,adt-infra,notdefault,pdk-fs" name="a/aosp/platform/external/adt-infra" path="external/adt-infra"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/android-clat" path="external/android-clat"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/androidplot" path="external/androidplot"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/ant-glob" path="external/ant-glob"/>
@@ -153,7 +152,6 @@
   <project groups="aosp,pdk" name="a/aosp/platform/external/jemalloc" path="external/jemalloc"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/jetty" path="external/jetty"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/jhead" path="external/jhead"/>
-  <project groups="aosp,notdefault,tradefed,pdk-fs" name="a/aosp/platform/external/jline" path="external/jline"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/jmdns" path="external/jmdns"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/jsilver" path="external/jsilver"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/jsmn" path="external/jsmn"/>
@@ -471,7 +469,6 @@
   <project groups="aosp,darwin" name="a/aosp/platform/prebuilts/gdb/darwin-x86" path="prebuilts/gdb/darwin-x86"/>
   <project groups="aosp,darwin,tradefed" name="a/aosp/platform/prebuilts/go/darwin-x86" path="prebuilts/go/darwin-x86"/>
   <project groups="aosp,linux,tradefed" name="a/aosp/platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86"/>
-  <project groups="aosp,notdefault,eclipse" name="a/aosp/platform/prebuilts/eclipse-build-deps" path="prebuilts/eclipse-build-deps"/>
   <project clone-depth="1" groups="aosp,pdk,linux,x86" name="a/aosp/platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86"/>
   <project clone-depth="1" groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin"/>
   <project clone-depth="1" groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit"/>
@@ -509,16 +506,19 @@
   <project groups="aosp,pdk" name="a/aosp/platform/system/weaved" path="system/weaved"/>
   <project groups="aosp,pdk" name="a/aosp/platform/system/webservd" path="system/webservd"/>
   <project groups="aosp,pdk" name="a/aosp/toolchain/binutils" path="toolchain/binutils"/>
-  <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/adt/idea" path="tools/adt/idea"/>
-  <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/build" path="tools/build"/>
   <project groups="aosp,tools" name="a/aosp/platform/tools/external/fat32lib" path="tools/external/fat32lib"/>
   <project groups="aosp,tools" name="a/aosp/platform/tools/external/gradle" path="tools/external/gradle"/>
-  <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/base" path="tools/base"/>
-  <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/idea" path="tools/idea"/>
-  <project groups="aosp,notdefault,motodev" name="a/aosp/platform/tools/motodev" path="tools/motodev"/>
-  <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/studio/cloud" path="tools/studio/cloud"/>
-  <project groups="aosp,notdefault,tradefed" name="a/aosp/platform/tools/loganalysis" path="tools/loganalysis"/>
-  <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/swt" path="tools/swt"/>
   <project groups="aosp,pdk" name="a/aosp/platform/tools/test/connectivity" path="tools/test/connectivity"/>
-  <project groups="aosp,notdefault,tradefed" name="a/aosp/platform/tools/tradefederation" path="tools/tradefederation"/>
+  <project groups="aosp,pdk" name="a/aosp/device/generic/goldfish-opengl" path="device/generic/goldfish-opengl"/>
+  <project groups="aosp,pdk" name="a/aosp/platform/external/ImageMagick" path="external/ImageMagick"/>
+  <project groups="aosp,pdk" name="a/aosp/platform/external/drm_gralloc" path="external/drm_gralloc"/>
+  <project groups="aosp,pdk" name="a/aosp/platform/external/drm_hwcomposer" path="external/drm_hwcomposer"/>
+  <project groups="aosp,pdk" name="a/aosp/platform/external/ims" path="external/ims"/>
+  <project groups="aosp,pdk" name="a/aosp/platform/external/libgdx" path="external/libgdx"/>
+  <project groups="aosp,pdk" name="a/aosp/platform/external/universal-tween-engine" path="external/universal-tween-engine"/>
+  <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo"/>
+  <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/StorageManager" path="packages/apps/StorageManager"/>
+  <project groups="aosp,pdk-fs" name="a/aosp/platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker"/>
+  <project clone-depth="1" groups="aosp,pdk,darwin" name="a/aosp/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8"/>
+  <project clone-depth="1" groups="aosp,pdk,linux,arm" name="a/aosp/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
 </manifest>

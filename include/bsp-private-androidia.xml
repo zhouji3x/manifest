@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="vendor/intel/houdini" name="a/bsp/device/intel/houdini" groups="bsp" revision="android/master" spsId="59064"/>
+  <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="1" spsId="59122" revision="android/master"/>
+</manifest>

@@ -11,15 +11,16 @@
     <project path="external/powertop" name="a/bsp/platform/external/powertop" groups="bsp" revision="feature/n/androidia" />
     <project path="external/pystache" name="a/bsp/platform/external/pystache" groups="bsp" revision="feature/n/androidia" />
     <project path="external/sbsigntool" name="a/bsp/platform/external/sbsigntool" groups="bsp" revision="feature/n/androidia" />
+    <project path="hardware/intel/kernelflinger" name="a/bsp/hardware/intel/efi/kernelflinger" groups="bsp" revision="feature/n/androidia"/>
     <project path="hardware/intel/lights" name="a/bsp/hardware/intel/liblights" groups="bsp" revision="feature/n/androidia" />
     <project path="hardware/intel/power" name="a/bsp/platform/vendor/intel/libpower" groups="bsp" revision="feature/n/androidia" />
     <project path="kernel/android_ia" name="a/bsp/kernel/android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/audio" name="a/bsp/external/audio-android_ia" groups="bsp" revision="feature/n/androidia" />
-    <project path="vendor/intel/external/android_ia/drm_gralloc" name="a/bsp/external/drm_gralloc-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/hwcomposer" name="a/bsp/external/hwcomposer-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/libdrm" name="a/bsp/external/drm-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/mesa" name="a/bsp/external/mesa-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/vulkan" name="a/bsp/external/vulkan-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/linux/firmware" name="a/bsp/vendor/linux/firmware" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/minigbm" name="a/bsp/vendor/intel/external/android_ia/minigbm" groups="bsp" revision="feature/n/androidia" />
+    <project path="vendor/intel/external/openssl" name="a/aosp/platform/external/openssl" groups="osna,pdk"  revision="feature/n/androidia" />
 </manifest>

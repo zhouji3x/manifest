@@ -3,23 +3,25 @@
 
   <notice>One_Android_Ring='0'</notice>
 
-  <default revision="feature/n/androidia"
+  <default revision="android/n/mr1/r0"
            remote="origin"
            sync-c="true"
            sync-j="5" />
   <include name="rbase_vanilla.xml"/>
-  <include name="include/remove-android_ia.xml"/>
   <include name="include/bsp-android_ia.xml"/>
-  <project name="manifests" path="manifests"  groups="embargoed" />
+  <project name="manifests" path="manifests"  groups="embargoed"  revision="feature/n/androidia"/>
 
   <!-- The project below is used for google_diff that needs to be different
   between master and master_car. For master, it will continue pointing to android/master branch -->
-  <project path="vendor/intel/utils" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" >
+  <project path="vendor/intel/utils" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" revision="feature/n/androidia">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
   </project>
 
-  <project groups="aosp,pdk" name="a/aosp/platform/hardware/bsp/intel" path="hardware/bsp/intel"/>
+  <!-- The project below is used only for androidia and not required for other targets-->
+  <project groups="aosp,pdk" name="a/aosp/platform/hardware/bsp/intel" path="hardware/bsp/intel" revision="feature/n/androidia" />
+  <project groups="aosp,intel,pdk" name="a/aosp/platform/hardware/intel/common/libmix" path="hardware/intel/common/libmix" />
+  <project groups="aosp,device,shamu,broadcom_pdk,generic_fs,pdk" name="a/aosp/device/moto/shamu-kernel" path="device/moto/shamu-kernel"/>
 
 </manifest>

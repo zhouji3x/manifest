@@ -43,7 +43,6 @@
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/development" path="development"/>
   <project groups="aosp,pdk-cw-fs,pdk-fs" name="a/aosp/platform/docs/source.android.com" path="docs/source.android.com"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/aac" path="external/aac"/>
-  <project groups="aosp,adt-infra,notdefault,pdk-fs" name="a/aosp/platform/external/adt-infra" path="external/adt-infra"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/android-clat" path="external/android-clat"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/androidplot" path="external/androidplot"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/ant-glob" path="external/ant-glob"/>
@@ -140,7 +139,6 @@
   <project groups="aosp,pdk" name="a/aosp/platform/external/jemalloc" path="external/jemalloc"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/jetty" path="external/jetty"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/jhead" path="external/jhead"/>
-  <project groups="aosp,notdefault,tradefed,pdk-fs" name="a/aosp/platform/external/jline" path="external/jline"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/jmdns" path="external/jmdns"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/jsilver" path="external/jsilver"/>
   <project groups="aosp,pdk" name="a/aosp/platform/external/jsmn" path="external/jsmn"/>
@@ -430,7 +428,6 @@
   <project clone-depth="1" groups="aosp,pdk,linux,mips" name="a/aosp/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9"/>
   <project clone-depth="1" groups="aosp,pdk,linux,x86" name="a/aosp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"/>
   <project groups="aosp,darwin" name="a/aosp/platform/prebuilts/gdb/darwin-x86" path="prebuilts/gdb/darwin-x86"/>
-  <project groups="aosp,notdefault,eclipse" name="a/aosp/platform/prebuilts/eclipse-build-deps" path="prebuilts/eclipse-build-deps"/>
   <project groups="aosp,darwin,tradefed" name="a/aosp/platform/prebuilts/go/darwin-x86" path="prebuilts/go/darwin-x86"/>
   <project groups="aosp,linux,tradefed" name="a/aosp/platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86"/>
   <project clone-depth="1" groups="aosp,pdk,linux,x86" name="a/aosp/platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86"/>
@@ -469,20 +466,11 @@
   <project groups="aosp,pdk" name="a/aosp/platform/system/vold" path="system/vold"/>
   <project groups="aosp,pdk" name="a/aosp/platform/system/weaved" path="system/weaved"/>
   <project groups="aosp,pdk" name="a/aosp/platform/system/webservd" path="system/webservd"/>
-  <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/adt/idea" path="tools/adt/idea"/>
-  <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/base" path="tools/base"/>
-  <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/build" path="tools/build"/>
   <project groups="aosp,tools" name="a/aosp/platform/tools/external/fat32lib" path="tools/external/fat32lib"/>
   <project groups="aosp,tools" name="a/aosp/platform/tools/external/gradle" path="tools/external/gradle"/>
   <project groups="aosp,pdk" name="a/aosp/platform/tools/test/connectivity" path="tools/test/connectivity"/>
-  <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/idea" path="tools/idea"/>
   <project groups="aosp,pdk" name="a/aosp/toolchain/binutils" path="toolchain/binutils"/>
   <!--Removed from N-->
   <!-- <project groups="aosp,pdk,default" path="vendor/pdk/data/cts" name="a/aosp/platform/vendor/pdk/data/cts"  clone-depth="1"/> -->
-  <project groups="aosp,notdefault,tradefed" name="a/aosp/platform/tools/loganalysis" path="tools/loganalysis"/>
-  <project groups="aosp,notdefault,motodev" name="a/aosp/platform/tools/motodev" path="tools/motodev"/>
-  <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/studio/cloud" path="tools/studio/cloud"/>
-  <project groups="aosp,notdefault,tools" name="a/aosp/platform/tools/swt" path="tools/swt"/>
   <project groups="aosp,default" name="a/aosp/platform/vendor/pdk/data/docs" path="vendor/pdk/data/docs"/>
-  <project groups="aosp,notdefault,tradefed" name="a/aosp/platform/tools/tradefederation" path="tools/tradefederation"/>
 </manifest>
