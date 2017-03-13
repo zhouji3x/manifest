@@ -10,13 +10,13 @@
 - device/intel/android_ia
 - device/intel/mixins
 - external/libncurses
+- external/minigbm
 - external/powertop
 - kernel/android_ia
 - vendor/intel/external/android_ia/audio
 - vendor/intel/external/android_ia/drm_gralloc
 - vendor/intel/external/android_ia/hwcomposer
 - vendor/intel/external/android_ia/libdrm
-- vendor/intel/external/android_ia/minigbm
 - vendor/intel/external/android_ia/mesa
 - vendor/intel/external/android_ia/vulkan
 - vendor/linux/firmware
@@ -115,8 +115,6 @@
 - external/dnsmasq
 - external/doclava
 - external/donuts
-- external/drm_gralloc
-- external/drm_hwcomposer
 - external/droiddriver
 - external/e2fsprogs
 - external/easymock

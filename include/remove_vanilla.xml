@@ -8,5 +8,8 @@
     <!-- Remove duplicate projects inherited from fugu that are also in bsp -->
     <remove-project name="a/aosp/platform/hardware/intel/common/libmix" />
     <remove-project name="a/aosp/platform/hardware/bsp/intel" />
+    <remove-project name="a/aosp/platform/external/drm_gralloc" />
+    <remove-project name="a/aosp/platform/external/drm_hwcomposer" />
+
 
 </manifest>
