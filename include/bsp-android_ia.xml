@@ -17,6 +17,7 @@
     <project path="hardware/intel/power" name="a/bsp/platform/vendor/intel/libpower" groups="bsp" revision="feature/n/androidia" />
     <project path="kernel/android_ia" name="a/bsp/kernel/android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/audio" name="a/bsp/external/audio-android_ia" groups="bsp" revision="feature/n/androidia" />
+    <project path="vendor/intel/external/android_ia/dptf" name="a/bsp/external/dptf-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/hwcomposer" name="a/bsp/external/hwcomposer-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/libdrm" name="a/bsp/external/drm-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/mesa" name="a/bsp/external/mesa-android_ia" groups="bsp" revision="feature/n/androidia" />
