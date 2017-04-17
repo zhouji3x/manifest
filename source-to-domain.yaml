@@ -18,7 +18,9 @@
 - vendor/intel/external/android_ia/dptf
 - vendor/intel/external/android_ia/hwcomposer
 - vendor/intel/external/android_ia/libdrm
+- vendor/intel/external/android_ia/libva
 - vendor/intel/external/android_ia/mesa
+- vendor/intel/external/android_ia/vaapi
 - vendor/intel/external/android_ia/vulkan
 - vendor/linux/firmware
 'AOSP':
