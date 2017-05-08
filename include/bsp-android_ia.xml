@@ -17,11 +17,15 @@
     <project path="hardware/intel/power" name="a/bsp/platform/vendor/intel/libpower" groups="bsp" revision="feature/n/androidia" />
     <project path="kernel/android_ia" name="a/bsp/kernel/android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/audio" name="a/bsp/external/audio-android_ia" groups="bsp" revision="feature/n/androidia" />
+    <project path="vendor/intel/external/android_ia/audio_pfw/hal" name="a/bsp/external/audio_pfw-android_ia/hal" groups="bsp" revision="feature/n/androidia" />
+    <project path="vendor/intel/external/android_ia/audio_pfw/plugins/alsa" name="a/bsp/external/audio_pfw-android_ia/plugins/alsa" groups="bsp" revision="feature/n/androidia" />
+    <project path="vendor/intel/external/android_ia/audio_pfw/utilities" name="a/bsp/external/audio_pfw-android_ia/utilities" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/dptf" name="a/bsp/external/dptf-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/hwcomposer" name="a/bsp/external/hwcomposer-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/libdrm" name="a/bsp/external/drm-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/libva" name="a/bsp/vendor/intel/external/android_ia/libva"  groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/mesa" name="a/bsp/external/mesa-android_ia" groups="bsp" revision="feature/n/androidia" />
+    <project path="vendor/intel/external/android_ia/memtrack" name="a/bsp/external/audio_pfw-android_ia/memtrack" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/vaapi" name="a/bsp/vendor/intel/external/android_ia/vaapi" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/vulkan" name="a/bsp/external/vulkan-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/linux/firmware" name="a/bsp/vendor/linux/firmware" groups="bsp" revision="feature/n/androidia" />

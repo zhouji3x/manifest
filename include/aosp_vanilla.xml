@@ -333,7 +333,6 @@
   <project groups="aosp,pdk,broadcom_wlan" name="a/aosp/platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
   <project groups="aosp,pdk" name="a/aosp/platform/hardware/bsp/intel" path="hardware/bsp/intel"/>
   <project groups="aosp,pdk" name="a/aosp/platform/hardware/google/apf" path="hardware/google/apf"/>
-  <project groups="aosp,intel,pdk" name="a/aosp/platform/hardware/intel/audio_media" path="hardware/intel/audio_media"/>
   <project groups="aosp,intel,pdk" name="a/aosp/platform/hardware/intel/bootstub" path="hardware/intel/bootstub"/>
   <project groups="aosp,intel,pdk" name="a/aosp/platform/hardware/intel/common/bd_prov" path="hardware/intel/common/bd_prov"/>
   <project groups="aosp,intel,pdk" name="a/aosp/platform/hardware/intel/common/libmix" path="hardware/intel/common/libmix"/>

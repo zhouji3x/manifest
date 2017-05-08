@@ -14,8 +14,12 @@
 - external/powertop
 - kernel/android_ia
 - vendor/intel/external/android_ia/audio
+- vendor/intel/external/android_ia/audio_pfw/hal
+- vendor/intel/external/android_ia/audio_pfw/plugins/alsa
+- vendor/intel/external/android_ia/audio_pfw/utilities
 - vendor/intel/external/android_ia/drm_gralloc
 - vendor/intel/external/android_ia/dptf
+- vendor/intel/external/android_ia/memtrack
 - vendor/intel/external/android_ia/hwcomposer
 - vendor/intel/external/android_ia/libdrm
 - vendor/intel/external/android_ia/libva
@@ -401,7 +405,6 @@
 - hardware/broadcom/wlan
 - hardware/bsp/intel
 - hardware/google/apf
-- hardware/intel/audio_media
 - hardware/intel/bootstub
 - hardware/intel/common/bd_prov
 - hardware/intel/common/libstagefrighthw
