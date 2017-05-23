@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" groups="bsp" revision="android/n/mr1/androidia"/>
+  <project path="external/efivar" name="a/bsp/vendor/intel/external/efivar" groups="bsp" revision="android/n/mr1/androidia"/>
   <project path="vendor/intel/houdini" name="a/bsp/device/intel/houdini" groups="bsp" revision="android/master" spsId="59064"/>
   <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture" revision="android/n/mr1/master" spsId="59066"/>
   <project path="vendor/intel/tools/log_infra" name="a/bsp/device/intel/log_infra" groups="bsp-priv,embargoed" revision="android/n/mr1/master" spsId="59067">
