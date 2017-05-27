@@ -8,7 +8,6 @@
 'Android IA':
 - bootable/liveinstaller
 - device/intel/android_ia
-- device/intel/mixins
 - external/minigbm
 - kernel/android_ia
 - vendor/intel/external/android_ia/audio
