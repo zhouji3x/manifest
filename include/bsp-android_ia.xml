@@ -14,6 +14,7 @@
     <project path="hardware/intel/lights" name="a/bsp/hardware/intel/liblights" groups="bsp" revision="feature/n/androidia" />
     <project path="hardware/intel/power" name="a/bsp/platform/vendor/intel/libpower" groups="bsp" revision="feature/n/androidia" />
     <project path="kernel/android_ia" name="a/bsp/kernel/android_ia" groups="bsp" revision="feature/n/androidia" />
+    <project path="kernel/modules/perftools-external" name="a/bsp/kernel/modules/perftools-external" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/audio" name="a/bsp/external/audio-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/audio_pfw/hal" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/audio_pfw/plugins/alsa" name="a/bsp/vendor/intel/external/alsa-lib" groups="bsp" revision="feature/n/androidia" />

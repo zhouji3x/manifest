@@ -10,6 +10,7 @@
 - device/intel/android_ia
 - external/minigbm
 - kernel/android_ia
+- kernel/modules/perftools-external
 - vendor/intel/external/android_ia/audio
 - vendor/intel/external/android_ia/audio_pfw/hal
 - vendor/intel/external/android_ia/audio_pfw/plugins/alsa
