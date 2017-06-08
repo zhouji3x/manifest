@@ -1047,6 +1047,7 @@
 'Video Gen':
 - external/libva
 - vendor/intel/apps/VppSettings
+- vendor/intel/external/android_ia/mediasdk_release
 - vendor/intel/hardware/PRIVATE/libmediaparser
 - vendor/intel/hardware/libmedia_utils
 - vendor/intel/hardware/libmix

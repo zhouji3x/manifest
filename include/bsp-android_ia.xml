@@ -23,6 +23,7 @@
     <project path="vendor/intel/external/android_ia/hwcomposer" name="a/bsp/hardware/intel/hwcomposer" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/libdrm" name="a/bsp/external/drm-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/libva" name="a/bsp/hardware/intel/libva"  groups="bsp" revision="feature/n/androidia" />
+    <project path="vendor/intel/external/android_ia/mediasdk_release" name="a/bsp/hardware/intel/PRIVATE/mediasdk_release" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/mesa" name="a/aosp/platform/external/mesa3d" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/memtrack" name="a/bsp/hardware/intel/display/libmemtrack" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/vaapi" name="a/bsp/platform/external/vaapi/intel_driver" groups="bsp" revision="feature/n/androidia" />
