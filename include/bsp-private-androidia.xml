@@ -10,5 +10,5 @@
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
   </project>
-  <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="1" spsId="59122" revision="android/master"/>
+  <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="1" spsId="59122" revision="feature/n/androidia"/>
 </manifest>
