@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <project path="bootable/liveinstaller" name="a/bsp/bootable/liveinstaller-android_ia" groups="bsp" revision="feature/n/androidia" />
+    <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" groups="bsp" revision="feature/n/androidia" />
     <project path="device/intel/android_ia" name="a/bsp/device/intel/android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="device/intel/build" name="a/bsp/vendor/intel/build" groups="bsp" revision="feature/n/androidia" />
     <project path="device/intel/common" name="a/bsp/vendor/intel/common" groups="bsp" revision="feature/n/androidia" />
     <project path="device/intel/mixins" name="a/bsp/device/intel/mixins" groups="bsp-priv,embargoed" revision="feature/n/androidia" />
+    <project path="external/efivar" name="a/bsp/vendor/intel/external/efivar" groups="bsp" revision="feature/n/androidia" />
+    <project path="external/efitools" name="a/bsp/platform/external/efitools" groups="bsp" revision="feature/n/androidia" />
     <project path="external/gnu-efi" name="a/bsp/platform/external/gnu-efi" revision="feature/n/androidia" />
+    <!--project path="external/libopus" name="external-libopus" revision="feature/o/androidia" /-->
     <project path="external/minigbm" name="a/bsp/vendor/intel/external/android_ia/minigbm" groups="bsp" revision="feature/n/androidia" />
     <project path="external/pciutils" name="a/bsp/platform/external/pciutils" groups="bsp" revision="feature/n/androidia" />
     <project path="external/pystache" name="a/bsp/platform/external/pystache" groups="bsp" revision="feature/n/androidia" />
@@ -19,7 +23,7 @@
     <project path="vendor/intel/external/android_ia/audio_pfw/hal" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/audio_pfw/plugins/alsa" name="a/bsp/vendor/intel/external/alsa-lib" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/audio_pfw/utilities" name="a/bsp/hardware/intel/audiocomms/utilities" groups="bsp" revision="feature/n/androidia" />
-    <project path="vendor/intel/external/android_ia/dptf" name="a/bsp/vendor/intel/dptf" groups="bsp" revision="feature/n/androidia" />
+    <!--project path="vendor/intel/external/android_ia/dptf" name="a/bsp/vendor/intel/dptf" groups="bsp" revision="feature/n/androidia" /-->
     <project path="vendor/intel/external/android_ia/hwcomposer" name="a/bsp/hardware/intel/hwcomposer" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/libdrm" name="a/bsp/external/drm-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/android_ia/libva" name="a/bsp/hardware/intel/libva"  groups="bsp" revision="feature/n/androidia" />
@@ -30,4 +34,5 @@
     <project path="vendor/intel/external/android_ia/vulkan" name="a/bsp/external/vulkan-android_ia" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/linux/firmware" name="a/bsp/platform/external/linux-firmware" groups="bsp" revision="feature/n/androidia" />
     <project path="vendor/intel/external/openssl" name="a/aosp/platform/external/openssl" groups="osna,pdk"  revision="feature/n/androidia" />
+    <!--project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/android_ia/audio_pfw/plugins/aosp_audio_route" revision="feature/n/androidia" /-->
 </manifest>

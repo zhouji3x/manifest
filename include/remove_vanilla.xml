@@ -2,14 +2,19 @@
 <manifest>
     <!-- Projects which need to be removed -->
 
-    <!-- hammerhead-kernel project size grew to over 8GB and caused repo sync issues for users -->
-    <remove-project name="a/aosp/device/moto/shamu-kernel" />
-
     <!-- Remove duplicate projects inherited from fugu that are also in bsp -->
-    <remove-project name="a/aosp/platform/hardware/intel/common/libmix" />
-    <remove-project name="a/aosp/platform/hardware/bsp/intel" />
     <remove-project name="a/aosp/platform/external/drm_gralloc" />
     <remove-project name="a/aosp/platform/external/drm_hwcomposer" />
-
+    <remove-project name="a/aosp/platform/external/adt-infra" />
+    <remove-project name="a/aosp/platform/external/libdrm" />
+    <remove-project name="a/aosp/platform/hardware/intel/audio_media" />
+    <remove-project name="a/aosp/platform/prebuilts/eclipse-build-deps" />
+    <remove-project name="a/aosp/platform/tools/adt/idea" />
+    <remove-project name="a/aosp/platform/tools/base" />
+    <remove-project name="a/aosp/platform/tools/build" />
+    <remove-project name="a/aosp/platform/tools/idea" />
+    <remove-project name="a/aosp/platform/tools/motodev" />
+    <remove-project name="a/aosp/platform/tools/studio/cloud" />
+    <remove-project name="a/aosp/platform/tools/swt" />
 
 </manifest>
