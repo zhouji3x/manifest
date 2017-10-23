@@ -31,7 +31,6 @@
     <project path="vendor/intel/external/android_ia/mesa" name="a/aosp/platform/external/mesa3d" groups="bsp" revision="android/o/mr0/androidia" />
     <project path="vendor/intel/external/android_ia/memtrack" name="a/bsp/hardware/intel/display/libmemtrack" groups="bsp" revision="android/o/mr0/androidia" />
     <project path="vendor/intel/external/android_ia/vaapi" name="a/bsp/platform/external/vaapi/intel_driver" groups="bsp" revision="android/o/mr0/androidia" />
-    <project path="vendor/intel/external/android_ia/vulkan" name="a/bsp/external/vulkan-android_ia" groups="bsp" revision="android/o/mr0/androidia" />
     <project path="vendor/linux/firmware" name="a/bsp/platform/external/linux-firmware" groups="bsp" revision="android/o/mr0/androidia" />
     <project path="vendor/intel/external/openssl" name="a/aosp/platform/external/openssl" groups="osna,pdk"  revision="android/o/mr0/androidia" />
     <!--project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/android_ia/audio_pfw/plugins/aosp_audio_route" revision="android/o/mr0/androidia" /-->
