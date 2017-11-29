@@ -34,4 +34,8 @@
     <project path="vendor/linux/firmware" name="a/bsp/platform/external/linux-firmware" groups="bsp" revision="android/o/mr0/androidia" />
     <project path="vendor/intel/external/openssl" name="a/aosp/platform/external/openssl" groups="osna,pdk"  revision="android/o/mr0/androidia" />
     <!--project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/android_ia/audio_pfw/plugins/aosp_audio_route" revision="android/o/mr0/androidia" /-->
+
+   <!--WORKAROUND : To be removed after O MR1 Up-Merge -->
+   <project path="art" name="a/aosp/platform/art" groups="pdk" revision="refs/tags/android-8.0.0_r32" />
+
 </manifest>

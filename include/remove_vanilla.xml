@@ -17,4 +17,7 @@
     <remove-project name="a/aosp/platform/tools/studio/cloud" />
     <remove-project name="a/aosp/platform/tools/swt" />
 
+    <!--WORKAROUND : To be removed after O MR1 Up-Merge -->
+    <remove-project name="a/aosp/platform/art" />
+
 </manifest>
