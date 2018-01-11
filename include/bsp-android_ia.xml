@@ -28,7 +28,7 @@
         <annotation name="readonly" value="false"/>
     </project>
     <!--project path="external/libopus" name="external-libopus" revision="android/o/mr0/androidia" /-->
-    <project path="external/minigbm" name="a/bsp/vendor/intel/external/android_ia/minigbm" groups="bsp" revision="android/o/mr0/androidia" >
+    <project path="external/minigbm" name="a/bsp/vendor/intel/external/android_ia/minigbm" groups="bsp" revision="e698ae8878b705ee5c47037f1dcd91760d7a2afa" >
         <annotation name="readonly" value="false"/>
     </project>
     <project path="external/pciutils" name="a/bsp/platform/external/pciutils" groups="bsp" revision="android/o/mr0/androidia" >
@@ -71,7 +71,7 @@
     <project path="vendor/intel/external/android_ia/hwcomposer" name="a/bsp/hardware/intel/hwcomposer" groups="bsp" revision="android/o/mr0/androidia" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/android_ia/libdrm" name="a/bsp/external/drm-android_ia" groups="bsp" revision="android/o/mr0/androidia" >
+    <project path="vendor/intel/external/android_ia/libdrm" name="a/bsp/external/drm-android_ia" groups="bsp" revision="f68aa97b9d5725604dbe3bc2b9f601654661e471" >
         <annotation name="readonly" value="false"/>
     </project>
     <project path="vendor/intel/external/android_ia/libva" name="a/bsp/hardware/intel/libva"  groups="bsp" revision="android/o/mr0/androidia" >
@@ -80,7 +80,7 @@
     <project path="vendor/intel/external/android_ia/mediasdk_release" name="a/bsp/hardware/intel/PRIVATE/mediasdk_release" groups="bsp" revision="android/o/mr0/androidia" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/android_ia/mesa" name="a/aosp/platform/external/mesa3d" groups="bsp" revision="android/o/mr0/androidia" >
+    <project path="vendor/intel/external/android_ia/mesa" name="a/aosp/platform/external/mesa3d" groups="bsp" revision="b91b45a198cf91b97b5722d999ffcfed6e556df4" >
         <annotation name="readonly" value="false"/>
     </project>
     <project path="vendor/intel/external/android_ia/memtrack" name="a/bsp/hardware/intel/display/libmemtrack" groups="bsp" revision="android/o/mr0/androidia" >
