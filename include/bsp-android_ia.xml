@@ -80,7 +80,7 @@
     <project path="vendor/intel/external/android_ia/mediasdk_release" name="a/bsp/hardware/intel/PRIVATE/mediasdk_release" groups="bsp" revision="android/o/mr0/androidia" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/android_ia/mesa" name="a/aosp/platform/external/mesa3d" groups="bsp" revision="b91b45a198cf91b97b5722d999ffcfed6e556df4" >
+    <project path="vendor/intel/external/android_ia/mesa" name="a/aosp/platform/external/mesa3d" groups="bsp" revision="android/o/mr0/androidia" >
         <annotation name="readonly" value="false"/>
     </project>
     <project path="vendor/intel/external/android_ia/memtrack" name="a/bsp/hardware/intel/display/libmemtrack" groups="bsp" revision="android/o/mr0/androidia" >
