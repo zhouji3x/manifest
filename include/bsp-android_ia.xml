@@ -100,4 +100,59 @@
    <!--WORKAROUND : To be removed after O MR1 Up-Merge -->
    <project path="art" name="a/aosp/platform/art" groups="pdk" revision="refs/tags/android-8.0.0_r32" />
 
+<!-- ikgt projects -->
+<project path="vendor/intel/fw/evmm/ikgt" name="a/bsp/vendor/intel/fw/evmm" groups="bsp-priv,embargoed,trusty" revision="android/o/mr0/androidia">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+</project>
+
+<!-- trusty core projects -->   
+<project path="trusty/external/headers" name="a/aosp/trusty/external/headers" groups="trusty" revision="android/o/mr0/androidia" />
+<project path="trusty/external/lk" name="a/aosp/trusty/lk/common" groups="trusty" revision="android/o/mr0/androidia" >
+    <copyfile src="makefile" dest="trusty/makefile"/>
+</project>
+<project path="trusty/lk/trusty" name="a/aosp/trusty/lk/trusty" groups="trusty" revision="android/o/mr0/androidia"/>
+<project path="trusty/lib" name="a/aosp/trusty/lib" groups="trusty" revision="android/o/mr0/androidia"/>
+
+<!-- trusty app projects -->
+<project path="trusty/app/gatekeeper" name="a/aosp/trusty/app/gatekeeper" groups="trusty" revision="android/o/mr0/androidia"/>
+<project path="trusty/app/keymaster" name="a/aosp/trusty/app/keymaster" groups="trusty" revision="android/o/mr0/androidia"/>
+<project path="trusty/app/sample" name="a/aosp/trusty/app/sample" groups="trusty" revision="android/o/mr0/androidia"/>
+<project path="trusty/app/storage" name="a/aosp/trusty/app/storage" groups="trusty" revision="android/o/mr0/androidia"/>
+
+<!-- trusty vendor projects -->
+<project path="trusty/vendor/google/aosp" name="a/aosp/trusty/vendor/google/aosp" groups="trusty" revision="android/o/mr0/androidia" >
+    <copyfile src="lk_inc.mk" dest="trusty/lk_inc.mk"/>
+</project>
+
+<!-- trusty sand projects -->
+<project path="trusty/app/sand" name="a/bsp/vendor/intel/fw/trusty_app_sand" groups="bsp-priv,embargoed,trusty" revision="android/o/mr0/androidia">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+</project>
+
+<project path="trusty/device/x86/sand" name="a/bsp/vendor/intel/fw/trusty_device_x86_sand" groups="bsp-priv,embargoed,trusty" revision="android/o/mr0/androidia" />
+	
+<project path="trusty/platform/sand" name="a/bsp/vendor/intel/fw/trusty_lk_trusty_platform_sand" groups="bsp-priv,embargoed,trusty" revision="android/o/mr0/androidia" >
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+</project>
+	
+<project path="trusty/target/sand" name="a/bsp/vendor/intel/fw/trusty_lk_trusty_target_sand" groups="bsp-priv,embargoed,trusty" revision="android/o/mr0/androidia">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+</project>
+
+<!-- trusty toolchains projects -->
+<project path="vendor/intel/external/prebuilts/elf" name="a/bsp/vendor/intel/external/prebuilts/elf" groups="bsp-priv,embargoed,trusty" revision="android/o/mr0/androidia" >
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+</project>
+
+
 </manifest>
