@@ -37,9 +37,6 @@
     <project path="external/pystache" name="a/bsp/platform/external/pystache" groups="bsp" revision="android/o/mr0/androidia" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="external/sbsigntool" name="a/bsp/platform/external/sbsigntool" groups="bsp" revision="android/o/mr0/androidia" >
-        <annotation name="readonly" value="false"/>
-    </project>
     <project path="hardware/intel/kernelflinger" name="a/bsp/hardware/intel/efi/kernelflinger" groups="bsp" revision="android/o/mr0/androidia">
         <annotation name="readonly" value="false"/>
     </project>
@@ -96,9 +93,6 @@
         <annotation name="readonly" value="false"/>
     </project>
     <!--project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/android_ia/audio_pfw/plugins/aosp_audio_route" revision="android/o/mr0/androidia" /-->
-
-   <!--WORKAROUND : To be removed after O MR1 Up-Merge -->
-   <project path="art" name="a/aosp/platform/art" groups="pdk" revision="refs/tags/android-8.0.0_r32" />
 
 <!-- ikgt projects -->
 <project path="vendor/intel/fw/evmm/ikgt" name="a/bsp/vendor/intel/fw/evmm" groups="bsp-priv,embargoed,trusty" revision="android/o/mr0/androidia">

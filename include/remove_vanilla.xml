@@ -3,12 +3,14 @@
     <!-- Projects which need to be removed -->
 
     <!-- Remove duplicate projects inherited from fugu that are also in bsp -->
-    <remove-project name="a/aosp/platform/external/drm_gralloc" />
+    <!--remove-project name="a/aosp/platform/external/drm_gralloc" /-->
+    <remove-project name="kernel/tests" />
     <remove-project name="a/aosp/platform/external/drm_hwcomposer" />
     <remove-project name="a/aosp/platform/external/adt-infra" />
     <remove-project name="a/aosp/platform/external/libdrm" />
     <remove-project name="a/aosp/platform/hardware/intel/audio_media" />
-    <remove-project name="a/aosp/platform/prebuilts/eclipse-build-deps" />
+    <remove-project name="a/aosp/platform/external/mesa3d" />
+    <!--remove-project name="a/aosp/platform/prebuilts/eclipse-build-deps" /-->
     <remove-project name="a/aosp/platform/tools/adt/idea" />
     <remove-project name="a/aosp/platform/tools/base" />
     <remove-project name="a/aosp/platform/tools/build" />
@@ -16,8 +18,5 @@
     <remove-project name="a/aosp/platform/tools/motodev" />
     <remove-project name="a/aosp/platform/tools/studio/cloud" />
     <remove-project name="a/aosp/platform/tools/swt" />
-
-    <!--WORKAROUND : To be removed after O MR1 Up-Merge -->
-    <remove-project name="a/aosp/platform/art" />
 
 </manifest>
