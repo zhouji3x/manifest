@@ -9,13 +9,13 @@
            sync-j="5" />
   <include name="rbase_vanilla.xml"/>
   <include name="include/bsp-android_ia.xml"/>
-  <project name="manifests" path="manifests"  groups="embargoed"  revision="android/o/mr0/androidia">
+  <project name="manifests" path="manifests"  groups="embargoed"  revision="android/o/mr1/androidia">
       <annotation name="readonly" value="false"/>
   </project>
 
   <!-- The project below is used for google_diff that needs to be different
   between master and master_car. For master, it will continue pointing to android/master branch -->
-  <project path="vendor/intel/utils" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" revision="android/o/mr0/androidia">
+  <project path="vendor/intel/utils" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" revision="android/o/mr1/androidia">
       <annotation name="readonly" value="false"/>
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
