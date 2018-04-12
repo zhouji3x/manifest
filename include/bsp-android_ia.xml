@@ -83,9 +83,6 @@
     <project path="vendor/intel/external/android_ia/memtrack" name="a/bsp/hardware/intel/display/libmemtrack" groups="bsp" revision="android/o/mr1/androidia" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/android_ia/vaapi" name="a/bsp/platform/external/vaapi/intel_driver" groups="bsp" revision="android/o/mr1/androidia" >
-        <annotation name="readonly" value="false"/>
-    </project>
     <project path="vendor/linux/firmware" name="a/bsp/platform/external/linux-firmware" groups="bsp" revision="android/o/mr1/androidia" >
         <annotation name="readonly" value="false"/>
     </project>
