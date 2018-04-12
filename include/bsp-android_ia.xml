@@ -65,7 +65,7 @@
         <annotation name="readonly" value="false"/>
     </project>
     <!--project path="vendor/intel/external/android_ia/dptf" name="a/bsp/vendor/intel/dptf" groups="bsp" revision="android/o/mr0/androidia" /-->
-    <project path="vendor/intel/external/android_ia/hwcomposer" name="a/bsp/hardware/intel/hwcomposer" groups="bsp" revision="android/o/mr1/androidia" >
+    <project path="vendor/intel/external/android_ia/hwcomposer" name="a/bsp/vendor/intel/external/hwcomposer" groups="bsp" revision="android/o/mr1/androidia" >
         <annotation name="readonly" value="false"/>
     </project>
     <project path="vendor/intel/external/android_ia/libdrm" name="a/bsp/external/drm-android_ia" groups="bsp" revision="android/o/mr1/androidia" >
