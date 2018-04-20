@@ -13,7 +13,7 @@
       <annotation name="bxt_rvp_external" value="no"/>
   </project>
 
-  <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="1" spsId="59122" revision="android/o/mr1/androidia">
+  <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="3" spsId="59122" revision="android/o/mr1/androidia">
       <annotation name="readonly" value="false"/>
   </project>
 </manifest>

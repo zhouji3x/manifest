@@ -404,7 +404,6 @@
 - hardware/bsp/intel
 - hardware/google/apf
 - hardware/intel/bootstub
-- hardware/intel/common/bd_prov
 - hardware/intel/common/libstagefrighthw
 - hardware/intel/common/libva
 - hardware/intel/common/libwsbm
