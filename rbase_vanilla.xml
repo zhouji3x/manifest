@@ -3,7 +3,7 @@
 
   <include name="include/remote.xml"/>
   <include name="include/aosp_vanilla.xml"/>
-  <include name="include/bsp-private-androidia.xml"/>
+  <include name="include/bsp-private-celadon.xml"/>
   <include name="include/remove_vanilla.xml"/>
 
 </manifest>
