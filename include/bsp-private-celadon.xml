@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="vendor/intel/houdini" name="a/bsp/device/intel/houdini" groups="bsp" revision="android/o/mr0/master" spsId="59064"/>
-  <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture" revision="android/master" spsId="59066"/>
+  <project path="vendor/intel/houdini" name="a/bsp/device/intel/houdini" groups="bsp" revision="android/o/mr0/master" spsId="59064">
+      <annotation name="readonly" value="true"/>
+  </project>
+  <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture" revision="android/master" spsId="59066">
+      <annotation name="readonly" value="true"/>
+  </project>
   <project path="vendor/intel/tools/log_infra" name="a/bsp/device/intel/log_infra" groups="bsp-priv,embargoed" revision="android/master" spsId="59067">
+      <annotation name="readonly" value="true"/>
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
   </project>
   <project path="vendor/intel/tools/peeknpoke" name="a/bsp/vendor/intel/tools/peeknpoke" groups="bsp-priv,embargoed" revision="android/o/mr0/master">
+      <annotation name="readonly" value="true"/>
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
