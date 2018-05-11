@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="vendor/intel/houdini" name="a/bsp/device/intel/houdini" groups="bsp" revision="android/o/mr0/master" spsId="59064">
-      <annotation name="readonly" value="true"/>
-  </project>
   <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture" revision="android/master" spsId="59066">
       <annotation name="readonly" value="true"/>
   </project>

@@ -3,9 +3,6 @@
     <project path="bootable/liveinstaller" name="a/bsp/bootable/liveinstaller-android_ia" groups="bsp" revision="android/o/mr1/celadon">
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" groups="bsp" revision="android/o/mr1/celadon" >
-        <annotation name="readonly" value="false"/>
-    </project>
     <project path="device/intel/project-celadon" name="a/bsp/device/intel/android_ia" groups="bsp" revision="android/o/mr1/celadon" >
         <annotation name="readonly" value="false"/>
     </project>
@@ -16,9 +13,6 @@
         <annotation name="readonly" value="false"/>
     </project>
     <project path="device/intel/mixins" name="a/bsp/device/intel/mixins" groups="bsp-priv,embargoed" revision="android/o/mr1/celadon" >
-        <annotation name="readonly" value="false"/>
-    </project>
-    <project path="external/efivar" name="a/bsp/vendor/intel/external/efivar" groups="bsp" revision="android/o/mr1/celadon" >
         <annotation name="readonly" value="false"/>
     </project>
     <project path="external/efitools" name="a/bsp/platform/external/efitools" groups="bsp" revision="android/o/mr1/celadon" >
@@ -47,9 +41,6 @@
         <annotation name="readonly" value="false"/>
     </project>
     <project path="kernel/project-celadon" name="a/bsp/kernel/android_ia" groups="bsp" revision="android/o/mr1/celadon" >
-        <annotation name="readonly" value="false"/>
-    </project>
-    <project path="kernel/modules/perftools-external" name="a/bsp/kernel/modules/perftools-external" groups="bsp" revision="android/o/mr1/celadon" >
         <annotation name="readonly" value="false"/>
     </project>
     <project path="vendor/intel/external/project-celadon/audio" name="a/bsp/external/audio-android_ia" groups="bsp" revision="android/o/mr1/celadon" >

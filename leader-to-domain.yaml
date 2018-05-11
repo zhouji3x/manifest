@@ -1,23 +1,11 @@
-ajit.joshi@intel.com:
-- 'WiDi'
-alwin.mathew@intel.com:
-- 'Platform GoldSand'
 amit.paul@intel.com:
 - 'Telephony'
-amber.jain@intel.com:
-- 'GFX / Mali - ARM'
 anne-sophie.lefevre@intel.com:
 - 'Manifest'
-arvind.mohan@intel.com:
-- 'Silent Lake'
 aviv.d.greenberg@intel.com:
 - 'Perceptual Camera'
 baofeng.tian@intel.com:
 - 'Debug and Trace'
-bing.zhu@intel.com:
-- 'Security Middleware'
-bingquan.hu@intel.com:
-- 'Sensors'
 catalin.popescu@intel.com:
 - 'Power Management'
 cedric.le.claire@intel.com:
@@ -27,56 +15,23 @@ cedric.le.claire@intel.com:
 - 'Connectivity-ACP-GNSS'
 - 'Connectivity-ACP-NFC'
 - 'Connectivity-ACP-WIFI'
-- 'Connectivity-GNSS-Core'
 - 'Connectivity-Manufacturing-Debug'
-- 'Connectivity-WLAN-Core'
 charly.dumur@intel.com:
 - 'Power Management'
-chris.r.watkins@intel.com:
-- 'Gfx / Display Drm'
-- 'GFX / Display Gen'
-christophe.continente@intel.com:
-- 'Platform BIOS'
-- 'Platform Broxton'
-- 'Platform CherryTrail'
-cyrille.bezard-falgas@intel.com:
-- 'ABL'
-dan.liang@intel.com:
-- 'Video Gen'
-di.zhang@intel.com:
-- 'Platform Glenview'
-dinesh.mittal@intel.com:
-- 'CAM'
 dong.yang@intel.com:
 - 'Camera - Imaging'
-dwane.pottratz@intel.com:
-- 'Kernel'
-elena.reshetova@intel.com:
-- 'Security Middleware'
 eman.copty@intel.com:
 - 'Perceptual Camera'
 enrique.gongora@intel.com:
 - 'Connectivity-TPV-BT'
-- 'Connectivity-TPV-CellCoex'
 - 'Connectivity-TPV-FM'
 - 'Connectivity-TPV-GNSS'
 - 'Connectivity-TPV-NFC'
 - 'Connectivity-TPV-WIFI'
-eric.ernst@intel.com:
-- 'Platform Glenview'
-eric.r.li@intel.com:
-- 'DRM - Widevine'
-- 'Platform BIOS'
-- 'Sensors'
 even.xu@intel.com:
 - 'ISH'
 fabrice.sorel@intel.com:
 - 'Telephony'
-frank.bergen@intel.com:
-- 'Video VPU SRC'
-gary.k.smith@intel.com:
-- 'Gfx / Display Drm'
-- 'GFX / Display Gen'
 guy.cohen@intel.com:
 - 'Connectivity-ACP-BT'
 - 'Connectivity-ACP-CellCoex'
@@ -84,110 +39,47 @@ guy.cohen@intel.com:
 - 'Connectivity-ACP-GNSS'
 - 'Connectivity-ACP-NFC'
 - 'Connectivity-ACP-WIFI'
-- 'Connectivity-GNSS-Core'
 - 'Connectivity-Manufacturing-Debug'
-- 'Connectivity-WLAN-Core'
-hang.l.sun@intel.com:
-- 'WiDi'
-herbert.sereda@intel.com:
-- 'Video VPU SRC'
-hongfu.ruan@intel.com:
-- 'DRM - Widevine'
 hongyu.zhang@intel.com:
 - 'AOSP'
 hu1.chen@intel.com:
 - 'Power Management'
-itai.steiner@intel.com:
-- 'Connectivity-Location-Core'
 jacek.czerniawski@intel.com:
 - 'Audio Trail'
-jay.lee@windriver.com:
-- 'Carplay'
 jeremy.compostella@intel.com:
 - 'BOOT - OTA - GOTA'
-jette.hoffmann@intel.com:
-- 'Connectivity-IOSM'
 jianjun.liu@intel.com:
 - 'Energy management'
-jon.bloomfield@intel.com:
-- 'Gfx / Display Drm'
-- 'GFX / Display Gen'
-khanh.v.nguyen@intel.com:
-- 'Video Conferencing'
-louis.jang@windriver.com:
-- 'Carplay'
-loyola.pitchai@intel.com:
-- 'Intel Security differentiation'
-luhai.chen@intel.com:
-- 'Security Middleware'
-luis.antonio.tarazona-duarte@intel.com:
-- 'Connectivity-IOSM'
 marek.dabek@intel.com:
 - 'Audio Trail'
-marius.m.archip@intel.com:
-- 'SoFia LTE Debug & Trace'
-markus.lehmann@intel.com:
-- 'SoFia LTE Debug & Trace'
-michael.leibowitz@intel.com:
-- 'Security Middleware'
 mickael.mallet@intel.com:
 - 'Manifest'
-olivier.carpentier@intel.com:
-- 'Platform BIOS'
 pavana.c.kumar@intel.com:
 - 'Telephony'
 pierre.roulliere@intel.com:
 - 'Telephony'
 qihua.zhuang@intel.com:
 - 'Car Utilities'
-rafael.barbalho@intel.com:
-- 'Gfx / Display Drm'
-- 'GFX / Display Gen'
-raghavendra.kudva.padubidri@intel.com:
-- 'GFX / Mali - ARM'
-rajesh.banginwar@intel.com:
-- 'Silent Lake'
 roger.feng@intel.com:
 - 'Trusty'
 selma.bensaid@intel.com:
 - 'Connectivity-TPV-BT'
-- 'Connectivity-TPV-CellCoex'
 - 'Connectivity-TPV-FM'
 - 'Connectivity-TPV-GNSS'
 - 'Connectivity-TPV-NFC'
 - 'Connectivity-TPV-WIFI'
 shuo.liu@intel.com:
 - 'Car Utilities'
-simon.xi.wang@intel.com:
-- 'Carrier'
-sundar.iyer@intel.com:
-- 'GSD HW Composer'
-- 'Platform Glenview'
-- 'Platform GoldSand'
 sylvain.centelles@intel.com:
 - 'Audio Common'
 tatyana.v.doubtsova@intel.com:
 - 'Art'
-tommi.von.hertzen@intel.com:
-- 'DRM - Widevine'
-venkat.r.gokulrangan@intel.com:
-- 'Intel Security differentiation'
-vijay.a.purushothaman@intel.com:
-- 'Gfx / Display Drm'
-- 'GFX / Display Gen'
 wei.tao@intel.com:
 - 'Camera - Imaging'
-weian.chen@intel.com:
-- 'Video Conferencing'
 william.c.roberts@intel.com:
 - 'SE Linux'
-- 'Security Middleware'
 xihua.chen@intel.com:
 - 'BOOT - OTA - GOTA'
-xinhong.hu@intel.com:
-- 'Carrier'
-yanmin.zhang@intel.com:
-- 'Platform Broxton'
 yipeng.yao@intel.com:
 - 'Power Management'
 yong.yao@intel.com:
@@ -197,7 +89,4 @@ zachary.zou@intel.com:
 zhifeng.wang@intel.com:
 - 'ISH'
 zhuangzhi.li@intel.com:
-- 'Auto_Detection'
 - 'Platform Config'
-zuping.qin@intel.com:
-- 'Intel Security differentiation'

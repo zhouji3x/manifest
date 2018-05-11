@@ -1,5 +1,3 @@
-ldap//CN=OTC_SI_1A-Rev-ABL,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'ABL'
 ldap//CN=OTC_SI_1A-Rev-AOSP,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'AOSP'
 ldap//CN=OTC_SI_1A-Rev-Art,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
@@ -8,20 +6,12 @@ ldap//CN=OTC_SI_1A-Rev-Audio_Common,OU=Rialto,OU=Application Managed,OU=Groups,D
 - 'Audio Common'
 ldap//CN=OTC_SI_1A-Rev-Audio_Trail,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Audio Trail'
-ldap//CN=OTC_SI_1A-Rev-Auto_Detection,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Auto_Detection'
 ldap//CN=OTC_SI_1A-Rev-BOOT_OTA_GOTA,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'BOOT - OTA - GOTA'
-ldap//CN=OTC_SI_1A-Rev-CAM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'CAM'
 ldap//CN=OTC_SI_1A-Rev-Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Camera - Imaging'
 ldap//CN=OTC_SI_1A-Rev-Car_Services,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Car Utilities'
-ldap//CN=OTC_SI_1A-Rev-Carplay,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Carplay'
-ldap//CN=OTC_SI_1A-Rev-Carrier,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Carrier'
 ldap//CN=OTC_SI_1A-Rev-Conn-ACP-BT,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Connectivity-ACP-BT'
 ldap//CN=OTC_SI_1A-Rev-Conn-ACP-CellCoex,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
@@ -34,18 +24,10 @@ ldap//CN=OTC_SI_1A-Rev-Conn-ACP-NFC,OU=Rialto,OU=Application Managed,OU=Groups,D
 - 'Connectivity-ACP-NFC'
 ldap//CN=OTC_SI_1A-Rev-Conn-ACP-WIFI,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Connectivity-ACP-WIFI'
-ldap//CN=OTC_SI_1A-Rev-Conn-GNSS-Core,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-GNSS-Core'
-ldap//CN=OTC_SI_1A-Rev-Conn-Loc-Core,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-Location-Core'
 ldap//CN=OTC_SI_1A-Rev-Conn-MFG-DBG,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Connectivity-Manufacturing-Debug'
-ldap//CN=OTC_SI_1A-Rev-Conn-IOSM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-IOSM'
 ldap//CN=OTC_SI_1A-Rev-Conn-TPV-BT,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Connectivity-TPV-BT'
-ldap//CN=OTC_SI_1A-Rev-Conn-TPV-CellCoex,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-TPV-CellCoex'
 ldap//CN=OTC_SI_1A-Rev-Conn-TPV-FM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Connectivity-TPV-FM'
 ldap//CN=OTC_SI_1A-Rev-Conn-TPV-GNSS,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
@@ -54,65 +36,23 @@ ldap//CN=OTC_SI_1A-Rev-Conn-TPV-NFC,OU=Rialto,OU=Application Managed,OU=Groups,D
 - 'Connectivity-TPV-NFC'
 ldap//CN=OTC_SI_1A-Rev-Conn-TPV-WIFI,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Connectivity-TPV-WIFI'
-ldap//CN=OTC_SI_1A-Rev-Conn-WLAN-Core,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-WLAN-Core'
 ldap//CN=OTC_SI_1A-Rev-Debug_Trace,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Debug and Trace'
-ldap//CN=OTC_SI_1A-Rev-DRM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'DRM - Widevine'
 ldap//CN=OTC_SI_1A-Rev-Energy_Mgt,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Energy management'
-ldap//CN=OTC_SI_1A-Rev-Gfx_Display_Drm,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Gfx / Display Drm'
-ldap//CN=OTC_SI_1A-Rev-GFX_Gen,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'GFX / Display Gen'
-ldap//CN=OTC_SI_1A-Rev-GFX-ARM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'GFX / Mali - ARM'
-ldap//CN=OTC_SI_1A-Rev-GSD_HW_Composer,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'GSD HW Composer'
-ldap//CN=OTC_SI_1A-Rev-Intel_Security_diff,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Intel Security differentiation'
 ldap//CN=OTC_SI_1A-Rev-ISH,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'ISH'
-ldap//CN=OTC_SI_1A-Rev-Kernel,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Kernel'
 ldap//CN=OTC_SI_1A-Rev-Manifest,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Manifest'
 ldap//CN=OTC_SI_1A-Rev-Perceptual_Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Perceptual Camera'
-ldap//CN=OTC_SI_1A-Rev-Platform_BIOS,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Platform BIOS'
-ldap//CN=OTC_SI_1A-Rev-Platform_Broxton,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Platform Broxton'
-ldap//CN=OTC_SI_1A-Rev-Platform_CherryTrail,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Platform CherryTrail'
 ldap//CN=OTC_SI_1A-Rev-Platform_Config,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Platform Config'
-ldap//CN=OTC_SI_1A-Rev-Platform_Glenview,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Platform Glenview'
-ldap//CN=OTC_SI_1A-Rev-Platform_GoldSand,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Platform GoldSand'
 ldap//CN=OTC_SI_1A-Rev-PM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Power Management'
 ldap//CN=OTC_SI_1A-Rev-SE_Linux,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'SE Linux'
-ldap//CN=OTC_SI_1A-Rev-Security_Middle,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Security Middleware'
-ldap//CN=OTC_SI_1A-Rev-Sensors,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Sensors'
-ldap//CN=OTC_SI_1A-Rev-Silent_Lake,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Silent Lake'
-ldap//CN=OTC_SI_1A-Rev-SoFia_LTE_Debug_Trace,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'SoFia LTE Debug & Trace'
 ldap//CN=OTC_SI_1A-Rev-Telephony,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Telephony'
 ldap//CN=OTC_SI_1A-Rev-Trusty,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Trusty'
-ldap//CN=OTC_SI_1A-Rev-Video_Conferencing,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Video Conferencing'
-ldap//CN=OTC_SI_1A-Rev-Video_Gen,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Video Gen'
-ldap//CN=OTC_SI_1A-Rev-Video-Verisilicon-s,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Video VPU SRC'
-ldap//CN=OTC_SI_1A-Rev-WiDi,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'WiDi'
