@@ -23,7 +23,7 @@
   </project>
 
   <!-- The project below is used only for androidia and not required for other targets-->
-  <project groups="aosp,pdk" name="a/aosp/platform/hardware/bsp/intel" path="hardware/bsp/intel" revision="android/o/mr0/androidia" >
+  <project groups="aosp,pdk" name="a/aosp/platform/hardware/bsp/intel" path="hardware/bsp/intel" revision="android/o/mr1/celadon" >
      <annotation name="readonly" value="true"/>
   </project>
   <!--project groups="aosp,intel,pdk" name="a/aosp/platform/hardware/intel/common/libmix" path="hardware/intel/common/libmix" /-->
