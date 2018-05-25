@@ -162,5 +162,11 @@
     <annotation name="bxt_rvp_external" value="no"/>
 </project>
 
+<project path="hardware/intel/bootctrl" name="a/bsp/hardware/intel/bootctrl" groups="bsp-priv,embargoed" revision="android/o/mr1/celadon">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+    <copyfile src="Android_intel.bp" dest="hardware/intel/Android.bp" />
+</project>
 
 </manifest>

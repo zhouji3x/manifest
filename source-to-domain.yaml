@@ -669,6 +669,7 @@
 - device/intel/mixins/groups/testos
 - external/efitools
 - external/gnu-efi
+- hardware/intel/bootctrl
 - hardware/intel/kernelflinger
 'Camera - Imaging':
 - device/intel/mixins/groups/camera
