@@ -637,6 +637,7 @@
 - tools/test/connectivity
 - tools/tradefederation/contrib
 - tools/tradefederation/core
+- vendor/google/gas
 - vendor/google/gms
 - vendor/intel/external/openssl
 - vendor/intel/houdini
