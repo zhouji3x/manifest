@@ -68,7 +68,7 @@
     <project path="vendor/intel/external/project-celadon/mediasdk_release" name="a/bsp/hardware/intel/PRIVATE/mediasdk_release" groups="bsp" revision="android/o/mr1/celadon" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/project-celadon/mesa" name="a/aosp/platform/external/mesa3d" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="vendor/intel/external/project-celadon/mesa" name="a/bsp/vendor/intel/external/mesa3d" groups="bsp" revision="android/o/mr1/celadon" >
         <annotation name="readonly" value="false"/>
     </project>
     <project path="vendor/intel/external/project-celadon/memtrack" name="a/bsp/hardware/intel/display/libmemtrack" groups="bsp" revision="android/o/mr1/celadon" >
