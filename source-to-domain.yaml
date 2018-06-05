@@ -234,7 +234,6 @@
 - external/libyuv
 - external/linux-kselftest
 - external/lisa
-- external/littlemock
 - external/lld
 - external/llvm
 - external/lmfit
@@ -425,7 +424,6 @@
 - hardware/intel/img/hwcomposer
 - hardware/intel/img/psb_headers
 - hardware/intel/img/psb_video
-- hardware/intel/sensors
 - hardware/interfaces
 - hardware/invensense
 - hardware/libhardware
@@ -470,7 +468,6 @@
 - packages/apps/Car/Settings
 - packages/apps/Car/Stream
 - packages/apps/Car/SystemUpdater
-- packages/apps/Car/UserManagement
 - packages/apps/Car/libs
 - packages/apps/CarrierConfig
 - packages/apps/CellBroadcastReceiver
@@ -539,7 +536,6 @@
 - packages/services/BuiltInPrintService
 - packages/services/Car
 - packages/services/Mms
-- packages/services/NetworkRecommendation
 - packages/services/Telecomm
 - packages/services/Telephony
 - packages/wallpapers/LivePicker
