@@ -42,6 +42,8 @@ ldap//CN=OTC_SI_1A-Rev-Energy_Mgt,OU=Rialto,OU=Application Managed,OU=Groups,DC=
 - 'Energy management'
 ldap//CN=OTC_SI_1A-Rev-ISH,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'ISH'
+ldap//CN=SIS_1A-Rev-Machine_Learning,OU=Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Machine Learning'
 ldap//CN=OTC_SI_1A-Rev-Manifest,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Manifest'
 ldap//CN=OTC_SI_1A-Rev-Perceptual_Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:

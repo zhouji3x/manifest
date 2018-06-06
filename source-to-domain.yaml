@@ -767,6 +767,8 @@
 'ISH':
 - device/intel/mixins/groups/aware
 - device/intel/mixins/groups/sensors/ish
+'Machine Learning':
+- vendor/intel/external/ml/nn-hal
 'Manifest':
 - manifests
 'Perceptual Camera':
