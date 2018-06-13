@@ -635,7 +635,6 @@
 - tools/tradefederation/core
 - vendor/google/gas
 - vendor/google/gms
-- vendor/intel/external/openssl
 - vendor/intel/houdini
 'Art':
 - art
@@ -668,6 +667,7 @@
 - external/gnu-efi
 - hardware/intel/bootctrl
 - hardware/intel/kernelflinger
+- vendor/intel/external/openssl
 'Camera - Imaging':
 - device/intel/mixins/groups/camera
 - device/intel/mixins/groups/camera-arccamera
