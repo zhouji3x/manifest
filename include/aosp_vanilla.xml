@@ -225,7 +225,6 @@
   <project path="external/libusb" name="a/aosp/platform/external/libusb" groups="pdk" />
   <project path="external/libusb-compat" name="a/aosp/platform/external/libusb-compat" groups="pdk" />
   <project path="external/libvncserver" name="a/aosp/platform/external/libvncserver" groups="pdk" />
-  <project path="external/libvorbis" name="a/aosp/platform/external/libvorbis" groups="pdk" />
   <project path="external/libvpx" name="a/aosp/platform/external/libvpx" groups="pdk" />
   <project path="external/libvterm" name="a/aosp/platform/external/libvterm" groups="pdk" />
   <project path="external/libxml2" name="a/aosp/platform/external/libxml2" groups="pdk,libxml2" />
@@ -233,6 +232,7 @@
   <project path="external/libyuv" name="a/aosp/platform/external/libyuv" groups="pdk,libyuv" />
   <project path="external/linux-kselftest" name="a/aosp/platform/external/linux-kselftest" groups="vts,pdk" />
   <project path="external/lisa" name="a/aosp/platform/external/lisa" groups="pdk" />
+  <project path="external/littlemock" name="a/aosp/platform/external/littlemock" groups="pdk" />
   <project path="external/lld" name="a/aosp/platform/external/lld" groups="pdk" />
   <project path="external/llvm" name="a/aosp/platform/external/llvm" groups="pdk" />
   <project path="external/lmfit" name="a/aosp/platform/external/lmfit" groups="pdk" />
@@ -386,6 +386,7 @@
   <project path="hardware/google/easel" name="a/aosp/platform/hardware/google/easel" groups="easel" />
   <project path="hardware/intel/audio_media" name="a/aosp/platform/hardware/intel/audio_media" groups="intel,pdk" />
   <project path="hardware/intel/bootstub" name="a/aosp/platform/hardware/intel/bootstub" groups="intel,pdk" />
+  <project path="hardware/intel/common/bd_prov" name="a/aosp/platform/hardware/intel/common/bd_prov" groups="intel,pdk" />
   <project path="hardware/intel/common/libmix" name="a/aosp/platform/hardware/intel/common/libmix" groups="intel,pdk" />
   <project path="hardware/intel/common/libstagefrighthw" name="a/aosp/platform/hardware/intel/common/libstagefrighthw" groups="intel,pdk" />
   <project path="hardware/intel/common/libva" name="a/aosp/platform/hardware/intel/common/libva" groups="intel,pdk" />
@@ -396,6 +397,7 @@
   <project path="hardware/intel/img/hwcomposer" name="a/aosp/platform/hardware/intel/img/hwcomposer" groups="intel,pdk" />
   <project path="hardware/intel/img/psb_headers" name="a/aosp/platform/hardware/intel/img/psb_headers" groups="intel,pdk" />
   <project path="hardware/intel/img/psb_video" name="a/aosp/platform/hardware/intel/img/psb_video" groups="intel,pdk" />
+  <project path="hardware/intel/sensors" name="a/aosp/platform/hardware/intel/sensors" groups="intel_sensors,pdk" />
   <project path="hardware/interfaces" name="a/aosp/platform/hardware/interfaces" groups="pdk" />
   <project path="hardware/invensense" name="a/aosp/platform/hardware/invensense" groups="invensense,pdk" />
   <project path="hardware/libhardware" name="a/aosp/platform/hardware/libhardware" groups="pdk" />
@@ -503,10 +505,12 @@
   <project path="packages/apps/Car/Settings" name="a/aosp/platform/packages/apps/Car/Settings" groups="pdk-fs" />
   <project path="packages/apps/Car/Stream" name="a/aosp/platform/packages/apps/Car/Stream" groups="pdk-fs" />
   <project path="packages/apps/Car/SystemUpdater" name="a/aosp/platform/packages/apps/Car/SystemUpdater" groups="pdk-fs" />
+  <project path="packages/apps/Car/UserManagement" name="a/aosp/platform/packages/apps/Car/UserManagement" groups="pdk-fs" />
   <project path="packages/apps/Car/libs" name="a/aosp/platform/packages/apps/Car/libs" groups="pdk-fs" />
   <project path="packages/services/BuiltInPrintService" name="a/aosp/platform/packages/services/BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Car" name="a/aosp/platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="a/aosp/platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/NetworkRecommendation" name="a/aosp/platform/packages/services/NetworkRecommendation" groups="pdk-fs" />
   <project path="packages/services/Telecomm" name="a/aosp/platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="a/aosp/platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="a/aosp/platform/packages/wallpapers/LivePicker" groups="pdk-fs" />

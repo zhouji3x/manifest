@@ -227,13 +227,13 @@
 - external/libusb
 - external/libusb-compat
 - external/libvncserver
-- external/libvorbis
 - external/libvpx
 - external/libvterm
 - external/libxml2
 - external/libyuv
 - external/linux-kselftest
 - external/lisa
+- external/littlemock
 - external/lld
 - external/llvm
 - external/lmfit
@@ -414,6 +414,7 @@
 - hardware/google/apf
 - hardware/google/easel
 - hardware/intel/bootstub
+- hardware/intel/common/bd_prov
 - hardware/intel/common/libmix
 - hardware/intel/common/libstagefrighthw
 - hardware/intel/common/libva
@@ -424,6 +425,7 @@
 - hardware/intel/img/hwcomposer
 - hardware/intel/img/psb_headers
 - hardware/intel/img/psb_video
+- hardware/intel/sensors
 - hardware/interfaces
 - hardware/invensense
 - hardware/libhardware
@@ -469,6 +471,7 @@
 - packages/apps/Car/Stream
 - packages/apps/Car/SystemUpdater
 - packages/apps/Car/libs
+- packages/apps/Car/UserManagement
 - packages/apps/CarrierConfig
 - packages/apps/CellBroadcastReceiver
 - packages/apps/CertInstaller
@@ -536,6 +539,7 @@
 - packages/services/BuiltInPrintService
 - packages/services/Car
 - packages/services/Mms
+- packages/services/NetworkRecommendation
 - packages/services/Telecomm
 - packages/services/Telephony
 - packages/wallpapers/LivePicker
