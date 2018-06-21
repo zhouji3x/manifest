@@ -22,7 +22,7 @@
         <annotation name="readonly" value="false"/>
     </project>
     <!--project path="external/libopus" name="external-libopus" revision="android/o/mr0/celadon" /-->
-    <project path="external/minigbm" name="a/bsp/vendor/intel/external/android_ia/minigbm" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="external/minigbm" name="a/bsp/vendor/intel/external/minigbm" groups="bsp" revision="android/o/mr1/celadon" >
         <annotation name="readonly" value="false"/>
     </project>
     <project path="external/pciutils" name="a/bsp/platform/external/pciutils" groups="bsp" revision="android/o/mr1/celadon" >
