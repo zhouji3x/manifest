@@ -13,7 +13,6 @@
 - vendor/intel/external/project-celadon/mediasdk_release
 - vendor/intel/external/project-celadon/memtrack
 - vendor/intel/external/project-celadon/mesa
-- vendor/intel/external/project-celadon/vaapi
 - vendor/intel/fw/evmm/ikgt
 - vendor/linux/firmware
 'AOSP':
