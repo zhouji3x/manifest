@@ -638,7 +638,6 @@
 - tools/tradefederation/core
 - vendor/google/gas
 - vendor/google/gms
-- vendor/intel/houdini
 'Art':
 - art
 'Audio Common':
