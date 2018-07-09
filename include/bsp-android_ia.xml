@@ -166,4 +166,10 @@
     <copyfile src="Android_intel.bp" dest="hardware/intel/Android.bp" />
 </project>
 
+<project path="vendor/intel/external/capstone" name="a/bsp/vendor/intel/external/capstone" groups="bsp" revision="android/o/mr1/celadon">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+</project>
+
 </manifest>

@@ -31,4 +31,11 @@
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
   </project>
+ <project path="vendor/intel/art-extension" name="a/bsp/vendor/intel/PRIVATE/art-extension" groups="bsp-priv" revision="android/o/mr1/celadon">
+      <annotation name="readonly" value="false"/>
+      <annotation name="g_external" value="no"/>
+      <annotation name="all_external" value="no"/>
+      <annotation name="bxt_rvp_external" value="no"/>
+  </project>
+
 </manifest>
