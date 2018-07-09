@@ -10,6 +10,7 @@
         <annotation name="readonly" value="false"/>
     </project>
     <project path="device/intel/common" name="a/bsp/vendor/intel/common" groups="bsp" revision="android/o/mr1/celadon" >
+	<copyfile dest="vendor/intel/external/Android.bp" src="Android_intel.bp"/>
         <annotation name="readonly" value="false"/>
     </project>
     <project path="device/intel/mixins" name="a/bsp/device/intel/mixins" groups="bsp-priv,embargoed" revision="android/o/mr1/celadon" >
