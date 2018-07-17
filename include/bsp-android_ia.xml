@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="bootable/liveinstaller" name="a/bsp/bootable/liveinstaller-android_ia" groups="bsp" revision="android/o/mr1/celadon">
+    <project path="bootable/liveinstaller" name="projectceladon/bootable-live-installer" groups="bsp" revision="master" remote="github">
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="device/intel/project-celadon" name="a/bsp/device/intel/android_ia" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="device/intel/project-celadon" name="projectceladon/device-androidia" groups="bsp" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="device/intel/build" name="a/bsp/vendor/intel/build" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="device/intel/build" name="projectceladon/device-intel-build" groups="bsp" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="device/intel/common" name="a/bsp/vendor/intel/common" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="device/intel/common" name="projectceladon/device-intel-common" groups="bsp" revision="master" remote="github" >
 	<copyfile dest="vendor/intel/external/Android.bp" src="Android_intel.bp"/>
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="device/intel/mixins" name="a/bsp/device/intel/mixins" groups="bsp-priv,embargoed" revision="android/o/mr1/celadon" >
+    <project path="device/intel/mixins" name="projectceladon/device-androidia-mixins" groups="bsp-priv,embargoed" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="external/efitools" name="a/bsp/platform/external/efitools" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="external/efitools" name="projectceladon/platform_external_efitools" groups="bsp" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="external/gnu-efi" name="a/bsp/platform/external/gnu-efi" revision="android/o/mr1/celadon" >
+    <project path="external/gnu-efi" name="projectceladon/external-gnu-efi" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
     <!--project path="external/libopus" name="external-libopus" revision="android/o/mr0/celadon" /-->
-    <project path="external/minigbm" name="a/bsp/vendor/intel/external/minigbm" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="external/minigbm" name="01org/minigbm" groups="bsp" revision="stable" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="external/pciutils" name="a/bsp/platform/external/pciutils" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="external/pciutils" name="projectceladon/pciutils" groups="bsp" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="external/pystache" name="a/bsp/platform/external/pystache" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="external/pystache" name="projectceladon/external_pystache" groups="bsp" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="hardware/intel/kernelflinger" name="a/bsp/hardware/intel/efi/kernelflinger" groups="bsp" revision="android/o/mr1/celadon">
+    <project path="hardware/intel/kernelflinger" name="projectceladon/hardware-intel-kernelflinger" groups="bsp" revision="master" remote="github">
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="hardware/intel/lights" name="a/bsp/hardware/intel/liblights" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="hardware/intel/lights" name="projectceladon/lighthal" groups="bsp" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="hardware/intel/power" name="a/bsp/platform/vendor/intel/libpower" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="hardware/intel/power" name="projectceladon/powerhal" groups="bsp" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="kernel/project-celadon" name="a/bsp/kernel/android_ia" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="kernel/project-celadon" name="projectceladon/device-androidia-kernel" groups="bsp" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/project-celadon/audio" name="a/bsp/external/audio-android_ia" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="vendor/intel/external/project-celadon/audio" name="projectceladon/device-androidia-sound" groups="bsp" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/project-celadon/audio_pfw/hal" name="a/bsp/vendor/intel/hardware/PRIVATE/audiocomms/audio-hal" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="vendor/intel/external/project-celadon/audio_pfw/hal" name="projectceladon/hardware_intel_audio" groups="bsp" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/project-celadon/audio_pfw/plugins/alsa" name="a/bsp/vendor/intel/external/alsa-lib" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="vendor/intel/external/project-celadon/audio_pfw/plugins/alsa" name="projectceladon/vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" groups="bsp" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/project-celadon/audio_pfw/utilities" name="a/bsp/hardware/intel/audiocomms/utilities" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="vendor/intel/external/project-celadon/audio_pfw/utilities" name="projectceladon/hardware_intel_audiocomms_utilities" groups="bsp" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
     <!--project path="vendor/intel/external/project-celadon/dptf" name="a/bsp/vendor/intel/dptf" groups="bsp" revision="android/o/mr0/celadon" /-->
-    <project path="vendor/intel/external/project-celadon/hwcomposer" name="a/bsp/vendor/intel/external/hwcomposer" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="vendor/intel/external/project-celadon/hwcomposer" name="01org/IA-Hardware-Composer" groups="bsp" revision="stable" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/project-celadon/libdrm" name="a/bsp/vendor/intel/external/drm-intel" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="vendor/intel/external/project-celadon/libdrm" name="intel/external-libdrm" groups="bsp" revision="stable" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/project-celadon/libva" name="a/bsp/hardware/intel/libva"  groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="vendor/intel/external/project-celadon/libva" name="projectceladon/libva"  groups="bsp" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/project-celadon/mediasdk_release" name="a/bsp/hardware/intel/PRIVATE/mediasdk_release" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="vendor/intel/external/project-celadon/mediasdk_release" name="a/bsp/hardware/intel/PRIVATE/mediasdk_release" groups="bsp" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/project-celadon/mesa" name="a/bsp/vendor/intel/external/mesa3d" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="vendor/intel/external/project-celadon/mesa" name="intel/external-mesa" groups="bsp" revision="stable" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/project-celadon/memtrack" name="a/bsp/hardware/intel/display/libmemtrack" groups="bsp" revision="android/o/mr1/celadon" >
+    <project path="vendor/intel/external/project-celadon/memtrack" name="projectceladon/MemTrack" groups="bsp" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
     <project path="vendor/linux/firmware" name="a/bsp/platform/external/linux-firmware" groups="bsp" revision="android/o/mr1/celadon" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/openssl" name="a/aosp/platform/external/openssl" groups="osna,pdk"  revision="android/o/mr1/celadon" >
+    <project path="vendor/intel/external/openssl" name="projectceladon/OpenSSL" groups="osna,pdk"  revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
     <!--project name="parameter_framework_plugins_aosp_audio_route" path="vendor/intel/external/android_ia/audio_pfw/plugins/aosp_audio_route" revision="android/o/mr0/celadon" /-->
 
 <!-- ikgt projects -->
-<project path="vendor/intel/fw/evmm/ikgt" name="a/bsp/vendor/intel/fw/evmm" groups="bsp-priv,embargoed,trusty" revision="android/o/mr1/celadon">
+<project path="vendor/intel/fw/evmm/ikgt" name="intel/ikgt-core" groups="bsp-priv,embargoed,trusty" revision="trusty" remote="github">
     <annotation name="readonly" value="false"/>
     <annotation name="g_external" value="no"/>
     <annotation name="all_external" value="no"/>
@@ -92,60 +92,60 @@
 </project>
 
 <!-- trusty core projects -->
-<project path="trusty/external/headers" name="a/aosp/trusty/external/headers" groups="trusty" revision="android/o/mr1/celadon">
+<project path="trusty/external/headers" name="trusty-ia/trusty_external_headers" groups="trusty" revision="master" remote="github">
     <annotation name="readonly" value="false"/>
 </project>
-<project path="trusty/external/lk" name="a/aosp/trusty/lk/common" groups="trusty" revision="android/o/mr1/celadon" >
+<project path="trusty/external/lk" name="trusty-ia/trusty_external_lk" groups="trusty" revision="master" remote="github" >
     <annotation name="readonly" value="false"/>
     <copyfile src="makefile" dest="trusty/makefile"/>
 </project>
-<project path="trusty/lk/trusty" name="a/aosp/trusty/lk/trusty" groups="trusty" revision="android/o/mr1/celadon">
+<project path="trusty/lk/trusty" name="trusty-ia/trusty_lk_trusty" groups="trusty" revision="master" remote="github">
     <annotation name="readonly" value="false"/>
 </project>
-<project path="trusty/lib" name="a/aosp/trusty/lib" groups="trusty" revision="android/o/mr1/celadon">
+<project path="trusty/lib" name="trusty-ia/trusty_lib" groups="trusty" revision="master" remote="github">
     <annotation name="readonly" value="false"/>
 </project>
 
 <!-- trusty app projects -->
-<project path="trusty/app/gatekeeper" name="a/aosp/trusty/app/gatekeeper" groups="trusty" revision="android/o/mr1/celadon">
+<project path="trusty/app/gatekeeper" name="trusty-ia/trusty_app_gatekeeper" groups="trusty" revision="master" remote="github">
     <annotation name="readonly" value="false"/>
 </project>
-<project path="trusty/app/keymaster" name="a/aosp/trusty/app/keymaster" groups="trusty" revision="android/o/mr1/celadon">
+<project path="trusty/app/keymaster" name="trusty-ia/trusty_app_keymaster" groups="trusty" revision="master" remote="github">
     <annotation name="readonly" value="false"/>
 </project>
-<project path="trusty/app/sample" name="a/aosp/trusty/app/sample" groups="trusty" revision="android/o/mr1/celadon">
+<project path="trusty/app/sample" name="trusty-ia/trusty_app_sample" groups="trusty" revision="master" remote="github">
     <annotation name="readonly" value="false"/>
 </project>
-<project path="trusty/app/storage" name="a/aosp/trusty/app/storage" groups="trusty" revision="android/o/mr1/celadon">
+<project path="trusty/app/storage" name="trusty-ia/trusty_app_storage" groups="trusty" revision="master" remote="github">
     <annotation name="readonly" value="false"/>
 </project>
 
 <!-- trusty vendor projects -->
-<project path="trusty/vendor/google/aosp" name="a/aosp/trusty/vendor/google/aosp" groups="trusty" revision="android/o/mr1/celadon" >
+<project path="trusty/vendor/google/aosp" name="trusty-ia/trusty_vendor_google_aosp" groups="trusty" revision="master" remote="github" >
     <annotation name="readonly" value="false"/>
     <copyfile src="lk_inc.mk" dest="trusty/lk_inc.mk"/>
 </project>
 
 <!-- trusty sand projects -->
-<project path="trusty/app/sand" name="a/bsp/vendor/intel/fw/trusty_app_sand" groups="bsp-priv,embargoed,trusty" revision="android/o/mr1/celadon">
+<project path="trusty/app/sand" name="trusty-ia/trusty_app_sand" groups="bsp-priv,embargoed,trusty" revision="master" remote="github">
     <annotation name="readonly" value="false"/>
     <annotation name="g_external" value="no"/>
     <annotation name="all_external" value="no"/>
     <annotation name="bxt_rvp_external" value="no"/>
 </project>
 
-<project path="trusty/device/x86/sand" name="a/bsp/vendor/intel/fw/trusty_device_x86_sand" groups="bsp-priv,embargoed,trusty" revision="android/o/mr1/celadon">
+<project path="trusty/device/x86/sand" name="trusty-ia/trusty_device_x86_sand" groups="bsp-priv,embargoed,trusty" revision="master" remote="github">
     <annotation name="readonly" value="false"/>
 </project>
 
-<project path="trusty/platform/sand" name="a/bsp/vendor/intel/fw/trusty_lk_trusty_platform_sand" groups="bsp-priv,embargoed,trusty" revision="android/o/mr1/celadon" >
+<project path="trusty/platform/sand" name="trusty-ia/trusty_platform_sand" groups="bsp-priv,embargoed,trusty" revision="master" remote="github" >
     <annotation name="readonly" value="false"/>
     <annotation name="g_external" value="no"/>
     <annotation name="all_external" value="no"/>
     <annotation name="bxt_rvp_external" value="no"/>
 </project>
 
-<project path="trusty/target/sand" name="a/bsp/vendor/intel/fw/trusty_lk_trusty_target_sand" groups="bsp-priv,embargoed,trusty" revision="android/o/mr1/celadon">
+<project path="trusty/target/sand" name="trusty-ia/trusty_target_sand" groups="bsp-priv,embargoed,trusty" revision="master" remote="github">
     <annotation name="readonly" value="false"/>
     <annotation name="g_external" value="no"/>
     <annotation name="all_external" value="no"/>
@@ -153,7 +153,7 @@
 </project>
 
 <!-- trusty toolchains projects -->
-<project path="vendor/intel/external/prebuilts/elf" name="a/bsp/vendor/intel/external/prebuilts/elf" groups="bsp-priv,embargoed,trusty" revision="android/o/mr1/celadon" >
+<project path="vendor/intel/external/prebuilts/elf" name="trusty-ia/trusty_toolchain" groups="bsp-priv,embargoed,trusty" revision="master" remote="github" >
     <annotation name="readonly" value="false"/>
     <annotation name="g_external" value="no"/>
     <annotation name="all_external" value="no"/>
