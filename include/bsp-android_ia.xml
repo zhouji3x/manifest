@@ -66,7 +66,7 @@
     <project path="vendor/intel/external/project-celadon/libva" name="projectceladon/libva"  groups="bsp" revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
-    <project path="vendor/intel/external/project-celadon/mediasdk_release" name="a/bsp/hardware/intel/PRIVATE/mediasdk_release" groups="bsp" >
+    <project path="vendor/intel/external/project-celadon/mediasdk_release" name="projectceladon/mediasdk_release" groups="bsp"  revision="master" remote="github" >
         <annotation name="readonly" value="false"/>
     </project>
     <project path="vendor/intel/external/project-celadon/mesa" name="intel/external-mesa" groups="bsp" revision="stable" remote="github" >
