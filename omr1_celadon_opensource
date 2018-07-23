@@ -16,16 +16,13 @@
   <!-- The project below is used for google_diff that needs to be different
   between master and master_car. For master, it will continue pointing to android/master branch -->
   <project path="vendor/intel/utils" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" revision="android/o/mr1/celadon">
-      <annotation name="readonly" value="false"/>
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
   </project>
 
   <!-- The project below is used only for androidia and not required for other targets-->
-  <project groups="aosp,pdk" name="a/aosp/platform/hardware/bsp/intel" path="hardware/bsp/intel" revision="android/o/mr1/celadon" >
-     <annotation name="readonly" value="true"/>
-  </project>
+  <project groups="aosp,pdk" name="a/aosp/platform/hardware/bsp/intel" path="hardware/bsp/intel" revision="android/o/mr1/celadon" />
   <!--project groups="aosp,intel,pdk" name="a/aosp/platform/hardware/intel/common/libmix" path="hardware/intel/common/libmix" /-->
 
 </manifest>
