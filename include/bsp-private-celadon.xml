@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture" revision="android/master" spsId="59066"/>
+  <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture" revision="android/o/mr1/celadon" spsId="59066"/>
   <project path="vendor/intel/tools/log_infra" name="a/bsp/device/intel/log_infra" groups="bsp-priv,embargoed" revision="android/master" spsId="59067">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
@@ -18,15 +18,5 @@
       <annotation name="bxt_rvp_external" value="no"/>
   </project>
   <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="3" spsId="59122" revision="android/o/mr1/celadon"/>
-  <project path="vendor/intel/external/ml/nn-hal" name="intel/nn-hal" groups="bsp-priv,embargoed" revision="master" remote="github">
-      <annotation name="g_external" value="no"/>
-      <annotation name="all_external" value="no"/>
-      <annotation name="bxt_rvp_external" value="no"/>
-  </project>
- <project path="vendor/intel/art-extension" name="projectceladon/vendor_intel_art-extension" groups="bsp-priv" revision="master" remote="github">
-      <annotation name="g_external" value="no"/>
-      <annotation name="all_external" value="no"/>
-      <annotation name="bxt_rvp_external" value="no"/>
-  </project>
 
 </manifest>
