@@ -5,7 +5,6 @@
           fetch="ssh://android-mirror.devtools.intel.com"
           review="https://android.intel.com" />
   <remote name="github"
-          fetch="ssh://github.com"
-          review="https://github.com" />
+          fetch="ssh://github.com" />
 
 </manifest>
