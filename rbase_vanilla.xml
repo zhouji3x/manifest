@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-  <include name="include/aosp_vanilla.xml"/>
-  <include name="include/remove_vanilla.xml"/>
-
-</manifest>
