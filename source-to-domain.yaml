@@ -2,6 +2,7 @@
 - bootable/liveinstaller
 - device/intel/project-celadon
 - external/minigbm
+- hardware/bsp/intel
 - kernel/project-celadon
 - vendor/intel/external/project-celadon/audio
 - vendor/intel/external/project-celadon/audio_pfw/hal
@@ -30,8 +31,6 @@
 - developers/demos
 - developers/samples/android
 - development
-- device/asus/fugu
-- device/asus/fugu-kernel
 - device/common
 - device/generic/arm64
 - device/generic/armv7-a-neon
@@ -55,8 +54,6 @@
 - device/google/accessory/demokit
 - device/google/atv
 - device/google/contexthub
-- device/google/dragon
-- device/google/dragon-kernel
 - device/google/marlin
 - device/google/marlin-kernel
 - device/google/muskie
@@ -64,17 +61,12 @@
 - device/google/wahoo
 - device/google/wahoo-kernel
 - device/google/vrservices
-- device/huawei/angler
-- device/huawei/angler-kernel
-- device/lge/bullhead
-- device/lge/bullhead-kernel
 - device/linaro/bootloader/arm-trusted-firmware
 - device/linaro/bootloader/edk2
 - device/linaro/bootloader/OpenPlatformPkg
 - device/linaro/hikey
 - device/linaro/hikey-kernel
 - device/sample
-- docs/source.android.com
 - external/aac
 - external/abi-compliance-checker
 - external/abi-dumper
@@ -91,14 +83,12 @@
 - external/autotest
 - external/avb
 - external/bart
-- external/bison
 - external/blktrace
 - external/boringssl
 - external/bouncycastle
 - external/brotli
 - external/bsdiff
 - external/bzip2
-- external/c-ares
 - external/caliper
 - external/cblas
 - external/chromium-libpac
@@ -121,7 +111,6 @@
 - external/dng_sdk
 - external/dnsmasq
 - external/doclava
-- external/donuts
 - external/droiddriver
 - external/drrickorang
 - external/dtc
@@ -139,14 +128,12 @@
 - external/fio
 - external/flac
 - external/flatbuffers
-- external/fmtlib
 - external/fonttools
 - external/freetype
 - external/fsck_msdos
 - external/gemmlowp
 - external/giflib
 - external/glide
-- external/google-api-services-storage
 - external/google-benchmark
 - external/google-breakpad
 - external/google-fonts/carrois-gothic-sc
@@ -208,7 +195,6 @@
 - external/libhevc
 - external/libjpeg-turbo
 - external/libldac
-- external/liblzf
 - external/libmicrohttpd
 - external/libmojo
 - external/libmpeg2
@@ -233,8 +219,6 @@
 - external/libyuv
 - external/linux-kselftest
 - external/lisa
-- external/littlemock
-- external/lld
 - external/llvm
 - external/lmfit
 - external/ltp
@@ -242,7 +226,6 @@
 - external/lzma
 - external/markdown
 - external/mdnsresponder
-- external/messageformat
 - external/Microsoft-GSL
 - external/minijail
 - external/mksh
@@ -257,7 +240,6 @@
 - external/nanopb-c
 - external/naver-fonts
 - external/netcat
-- external/netperf
 - external/neven
 - external/nfacct
 - external/nist-pkits
@@ -267,7 +249,6 @@
 - external/objenesis
 - external/okhttp
 - external/opencv
-- external/openssh
 - external/owasp/sanitizer
 - external/parameter-framework
 - external/pcre
@@ -279,8 +260,6 @@
 - external/protobuf
 - external/python/cpython2
 - external/python/cpython3
-- external/r8
-- external/regex-re2
 - external/replicaisland
 - external/rmi4utils
 - external/robolectric
@@ -303,7 +282,6 @@
 - external/squashfs-tools
 - external/strace
 - external/stressapptest
-- external/svox
 - external/swiftshader
 - external/syslinux
 - external/tagsoup
@@ -336,7 +314,6 @@
 - external/wycheproof
 - external/x264
 - external/xmlrpcpp
-- external/xmlwriter
 - external/xmp_toolkit
 - external/xz-embedded
 - external/zlib
@@ -386,12 +363,10 @@
 - frameworks/native/services/sensorservice
 - frameworks/native/services/surfaceflinger
 - frameworks/opt/bitmap
-- frameworks/opt/bluetooth
 - frameworks/opt/calendar
 - frameworks/opt/chips
 - frameworks/opt/colorpicker
 - frameworks/opt/datetimepicker
-- frameworks/opt/inputconnectioncommon
 - frameworks/opt/inputmethodcommon
 - frameworks/opt/net/ethernet
 - frameworks/opt/net/ims
@@ -405,8 +380,6 @@
 - frameworks/opt/vcard
 - frameworks/rs
 - frameworks/support
-- frameworks/webview
-- frameworks/webview/chromium/plat_support
 - frameworks/wilhelm
 - hardware/akm
 - hardware/broadcom/libbt
@@ -414,7 +387,6 @@
 - hardware/google/apf
 - hardware/google/easel
 - hardware/intel/bootstub
-- hardware/intel/common/bd_prov
 - hardware/intel/common/libmix
 - hardware/intel/common/libstagefrighthw
 - hardware/intel/common/libva
@@ -468,10 +440,8 @@
 - packages/apps/Car/Overview
 - packages/apps/Car/Radio
 - packages/apps/Car/Settings
-- packages/apps/Car/Stream
 - packages/apps/Car/SystemUpdater
 - packages/apps/Car/libs
-- packages/apps/Car/UserManagement
 - packages/apps/CarrierConfig
 - packages/apps/CellBroadcastReceiver
 - packages/apps/CertInstaller
@@ -539,7 +509,6 @@
 - packages/services/BuiltInPrintService
 - packages/services/Car
 - packages/services/Mms
-- packages/services/NetworkRecommendation
 - packages/services/Telecomm
 - packages/services/Telephony
 - packages/wallpapers/LivePicker
@@ -556,15 +525,12 @@
 - prebuilts/deqp
 - prebuilts/devtools
 - prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9
-- prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8
 - prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9
 - prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1
 - prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9
 - prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9
 - prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
-- prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
 - prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
-- prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8
 - prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8
 - prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8
 - prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9
@@ -619,7 +585,6 @@
 - system/update_engine
 - system/vold
 - test/framework
-- test/sts
 - test/vts
 - test/vts-testcase/fuzz
 - test/vts-testcase/hal
@@ -641,8 +606,6 @@
 - vendor/google/gms
 'Art':
 - art
-- vendor/intel/art-extension
-- vendor/intel/external/capstone
 'Audio Common':
 - device/intel/common/audio
 - device/intel/mixins/groups/audio
@@ -762,14 +725,11 @@
 - device/intel/mixins/groups/libhealthd
 - device/intel/mixins/groups/pmic
 - device/intel/mixins/groups/thermal
-- hardware/intel/lights
 'GFX / OpenSource GFX':
 - device/intel/mixins/groups/graphics/mesa
 'ISH':
 - device/intel/mixins/groups/aware
 - device/intel/mixins/groups/sensors/ish
-'Machine Learning':
-- vendor/intel/external/ml/nn-hal
 'Manifest':
 - manifests
 'Perceptual Camera':
@@ -779,8 +739,6 @@
 - device/intel/common
 - device/intel/mixins
 - external/pystache
-'Power Management':
-- hardware/intel/power
 'SE Linux':
 - device/intel/mixins/groups/sepolicy
 - external/selinux

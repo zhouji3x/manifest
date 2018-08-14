@@ -6,12 +6,8 @@ amalendu.prasad.das@intel.com:
 - 'Connectivity-TPV-WIFI'
 amit.paul@intel.com:
 - 'Telephony'
-arun.kumar.singh@intel.com:
-- 'Machine Learning'
 baofeng.tian@intel.com:
 - 'Debug and Trace'
-cynthia.yu@intel.com:
-- 'Power Management'
 deneen.t.dock@intel.com:
 - 'SE Linux'
 dong.yang@intel.com:
@@ -28,8 +24,6 @@ guy.cohen@intel.com:
 - 'Connectivity-Manufacturing-Debug'
 hongyu.zhang@intel.com:
 - 'AOSP'
-hu1.chen@intel.com:
-- 'Power Management'
 jacek.czerniawski@intel.com:
 - 'Audio Common'
 - 'Audio Trail'
@@ -93,8 +87,6 @@ shuo.liu@intel.com:
 - 'Car Utilities'
 tao.w.wang@intel.com:
 - 'Manifest'
-vns.murthy.sristi@intel.com:
-- 'Machine Learning'
 wei.tao@intel.com:
 - 'Camera - Imaging'
 william.c.roberts@intel.com:
@@ -105,8 +97,6 @@ yanx.ren@intel.com:
 - 'Energy management'
 yihan.he@intel.com:
 - 'Manifest'
-yipeng.yao@intel.com:
-- 'Power Management'
 yong.yao@intel.com:
 - 'AOSP'
 zachary.zou@intel.com:

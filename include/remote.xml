@@ -4,7 +4,22 @@
   <remote name="origin"
           fetch="ssh://android-mirror.devtools.intel.com"
           review="https://android.intel.com" />
-  <remote name="github"
-          fetch="ssh://github.com" />
+
+  <remote  name="github"
+           fetch="ssh://github.com/projectceladon/" />
+
+  <remote name="kernelorg" fetch="ssh://git.kernel.org/" />
+
+  <remote  name="graphics"
+           fetch="ssh://github.com/01org/" />
+
+  <remote  name="intel"
+           fetch="ssh://github.com/intel" />
+
+  <remote  name="trusty-ia"
+           fetch="ssh://github.com/trusty-ia" />
+
+  <remote  name="aquynh"
+           fetch="ssh://github.com/aquynh" />
 
 </manifest>

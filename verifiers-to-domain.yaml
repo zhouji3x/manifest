@@ -42,14 +42,10 @@ ldap//CN=OTC_SI_1A-Verif-Energy_Mgt,OU=Rialto,OU=Application Managed,OU=Groups,D
 - 'Energy management'
 ldap//CN=OTC_SI_1A-Verif-ISH,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'ISH'
-ldap//CN=SIS_1A-Verif-Machine_Learning,OU=Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Machine Learning'
 ldap//CN=OTC_SI_1A-Verif-Manifest,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Manifest'
 ldap//CN=OTC_SI_1A-Verif-Perceptual_Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Perceptual Camera'
-ldap//CN=OTC_SI_1A-Verif-PM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Power Management'
 ldap//CN=OTC_SI_1A-Verif-Telephony,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
 - 'Telephony'
 ldap//CN=OTC_SI_1A-Verif-Trusty,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
