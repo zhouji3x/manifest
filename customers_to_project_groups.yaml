@@ -1,0 +1,28 @@
+# When adding a new group, it must be added to either generic_groups or platform_groups
+# It must also be added for each customer to either include_groups or exclude_groups
+# Some consistency checks are done by the automated release process :
+# - a customer group must belong to either generic_groups or platform_groups
+# - a customer group must not be in both include_groups and exclude_groups
+
+# bsp-priv group is a special group, because it is used in combination with
+# the <customer>_external annotation that takes several values:
+# - "no" means that the project is not released externally
+# - "src" means that the source content is released
+# - "bin" means that only binaries are released
+# This is the reason why bsp-priv is in [include_groups] in below customer definitions
+
+generic_groups: [aosp, bsp, bsp-priv, imc, iotg, osna]
+platform_groups: []
+
+external_customers:
+  g_customer: # this is a special 'generic' customer used to generated all the prebuilts that can be released externally (g_external="bin")
+    short_name: g
+    name: generic
+    include_groups: [aosp, bsp, bsp-priv, imc, iotg, osna]
+    exclude_groups: []
+  all_customer:
+    short_name: all
+    name: generic
+    include_groups: [aosp, bsp, bsp-priv, imc, iotg, osna]
+    exclude_groups: []
+
