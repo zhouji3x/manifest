@@ -4,6 +4,7 @@
 - external/minigbm
 - hardware/bsp/intel
 - kernel/project-celadon
+- vendor/intel/art-extension
 - vendor/intel/external/project-celadon/audio
 - vendor/intel/external/project-celadon/audio_pfw/hal
 - vendor/intel/external/project-celadon/audio_pfw/plugins/alsa
