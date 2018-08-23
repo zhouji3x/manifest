@@ -12,8 +12,10 @@
   <include name="include/remove_vanilla.xml"/>
   <include name="include/bsp-celadon.xml"/>
   <include name="include/bsp-private-celadon.xml"/>
-  <project name="manifests" path="manifests"  groups="embargoed"  revision="android/celadon">
+  <project name="manifests" path="manifests"  groups="bsp-priv,embargoed" revision="android/celadon">
       <annotation name="readonly" value="false"/>
+      <annotation name="g_external" value="no"/>
+      <annotation name="all_external" value="no"/>
   </project>
 
 </manifest>
