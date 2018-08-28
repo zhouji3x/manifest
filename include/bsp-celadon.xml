@@ -6,7 +6,7 @@
   <project name="lighthal" path="vendor/intel/external/project-celadon/lights" groups="bsp" remote="github" revision="master"/>
   <project name="MemTrack" path="vendor/intel/external/project-celadon/memtrack" groups="bsp,pdk" remote="github" revision="master"/>
   <!--project name="DPTF" path="vendor/intel/external/project-celadon/dptf" groups="bsp,pdk" remote="github" revision="master"/-->
-  <project name="platform_external_efitools" path="external/efitools" groups="bsp" remote="github" revision="master"/>
+  <!--project name="platform_external_efitools" path="external/efitools" groups="bsp" remote="github" revision="master"/-->
   <project name="powerhal" path="vendor/intel/external/project-celadon/powerhal" groups="bsp" remote="github" revision="master"/>
   <project name="OpenSSL" path="vendor/intel/external/openssl" groups="bsp" remote="github" revision="master"/>
   <project name="external-libdrm" path="vendor/intel/external/project-celadon/libdrm" groups="bsp,pdk" remote="intel" revision="stable"/>
@@ -16,8 +16,8 @@
   <!--project name="powertop" path="external/powertop" groups="bsp" remote="github" revision="master"/-->
   <project name="pciutils" path="external/pciutils" groups="bsp" remote="github" revision="master"/>
   <project name="bootable-live-installer" path="bootable/liveinstaller" groups="bsp,pdk" remote="github" revision="master" />
-  <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="bsp,pdk" remote="github" revision="master" />
-  <project name="external-gnu-efi" path="external/gnu-efi" groups="bsp,pdk" remote="github" revision="master" />
+  <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="bsp,pdk" remote="github" revision="stable" />
+  <project name="external-gnu-efi" path="hardware/intel/external/gnu-efi" groups="bsp,pdk" remote="github" revision="master" />
   <project name="device-androidia-mixins" path="device/intel/mixins" groups="bsp" remote="github" revision="master" />
   <project name="device-androidia" path="device/intel/project-celadon" groups="bsp" remote="github" revision="master" />
   <project name="device-androidia-kernel" path="kernel/project-celadon" groups="bsp" remote="github" revision="master" />
@@ -29,7 +29,7 @@
   <project name="device-intel-common" path="device/intel/common" groups="bsp" remote="github" revision="master" >
      <copyfile dest="vendor/intel/external/Android.bp" src="Android_intel.bp"/>
   </project>
-  <project name="device-intel-build" path="device/intel/build" groups="bsp" remote="github" revision="master" />
+  <project name="device-intel-build" path="device/intel/build" groups="bsp" remote="github" revision="stable" />
   <project name="libva" path="vendor/intel/external/project-celadon/libva" groups="bsp" remote="github" revision="stable" />
   <project name="vendor-intel-utils" path="vendor/intel/utils" groups="bsp" remote="github" revision="master" />
   <!--project name="vaapi" path="vendor/intel/external/project-celadon/vaapi" groups="bsp" remote="github" revision="master" /-->
