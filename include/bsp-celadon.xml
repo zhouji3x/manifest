@@ -21,6 +21,7 @@
   <project name="device-androidia-mixins" path="device/intel/mixins" groups="bsp" remote="github" revision="master" />
   <project name="device-androidia" path="device/intel/project-celadon" groups="bsp" remote="github" revision="master" />
   <project name="device-androidia-kernel" path="kernel/project-celadon" groups="bsp" remote="github" revision="master" />
+  <project name="kernel-modules" path="kernel/modules" remote="github" revision="master" />
   <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" groups="bsp" remote="github" revision="master" />
   <project name="hardware_intel_audio" path="vendor/intel/external/project-celadon/audio_pfw/hal" groups="bsp" remote="github" revision="master" />
   <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/project-celadon/audio_pfw/utilities" groups="bsp" remote="github" revision="master" />
