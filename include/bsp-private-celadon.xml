@@ -21,5 +21,9 @@
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
   </project>
+  <project path="vendor/intel/PRIVATE/utils" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" revision="android/celadon">
+      <annotation name="g_external" value="no"/>
+      <annotation name="all_external" value="no"/>
+  </project>
 
 </manifest>
