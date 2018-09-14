@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture" groups="bsp-priv,embargoed" revision="android/celadon" spsId="59066">
+      <annotation name="readonly" value="false"/>
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
   </project>
   <project path="vendor/intel/tools/log_infra" name="a/bsp/device/intel/log_infra" groups="bsp-priv,embargoed" revision="android/celadon" spsId="59067">
+      <annotation name="readonly" value="false"/>
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
   </project>
   <project path="vendor/intel/tools/peeknpoke" name="a/bsp/vendor/intel/tools/peeknpoke" groups="bsp-priv,embargoed" revision="android/celadon">
+      <annotation name="readonly" value="false"/>
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
   </project>
 
   <project path="vendor/google/gas" name="a/bsp/vendor/google/gas" groups="bsp-priv,embargoed,osna" clone-depth="3" revision="android/celadon">
+      <annotation name="readonly" value="false"/>
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
   </project>
   <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="bsp-priv,embargoed,osna" clone-depth="3" spsId="59122" revision="android/celadon">
+      <annotation name="readonly" value="false"/>
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
   </project>
   <project path="vendor/intel/PRIVATE/utils" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" revision="android/celadon">
+      <annotation name="readonly" value="false"/>
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
   </project>
