@@ -2,7 +2,7 @@
 <manifest>
   <!-- from Github repositories -->
   <project name="external_pystache" path="external/pystache" groups="bsp" remote="github" revision="master" />
-  <project name="IA-Hardware-Composer" path="vendor/intel/external/project-celadon/hwcomposer" groups="bsp,hwcomposer" remote="graphics" revision="stable"/>
+  <project name="IA-Hardware-Composer" path="vendor/intel/external/project-celadon/hwcomposer" groups="bsp,hwcomposer" remote="github" revision="master"/>
   <project name="lighthal" path="vendor/intel/external/project-celadon/lights" groups="bsp" remote="github" revision="master"/>
   <project name="MemTrack" path="vendor/intel/external/project-celadon/memtrack" groups="bsp,pdk" remote="github" revision="master"/>
   <!--project name="DPTF" path="vendor/intel/external/project-celadon/dptf" groups="bsp,pdk" remote="github" revision="master"/-->
@@ -10,9 +10,9 @@
   <project name="thermal_daemon" path="vendor/intel/external/project-celadon/thermal_daemon" groups="bsp" remote="intel" revision="master"/>
   <project name="powerhal" path="vendor/intel/external/project-celadon/powerhal" groups="bsp" remote="github" revision="master"/>
   <project name="OpenSSL" path="vendor/intel/external/openssl" groups="bsp" remote="github" revision="master"/>
-  <project name="external-libdrm" path="vendor/intel/external/project-celadon/libdrm" groups="bsp,pdk" remote="intel" revision="stable"/>
-  <project name="external-mesa" path="vendor/intel/external/project-celadon/mesa" groups="bsp" remote="intel" revision="stable" />
-  <project name="minigbm" path="external/minigbm" groups="bsp" remote="graphics" revision="stable" />
+  <project name="external-libdrm" path="vendor/intel/external/project-celadon/libdrm" groups="bsp,pdk" remote="github" revision="stable"/>
+  <project name="external-mesa" path="vendor/intel/external/project-celadon/mesa" groups="bsp" remote="github" revision="master" />
+  <project name="minigbm" path="external/minigbm" groups="bsp" remote="github" revision="master" />
   <project name="libncurses" path="external/libncurses" groups="bsp" remote="github" revision="master"/>
   <!--project name="powertop" path="external/powertop" groups="bsp" remote="github" revision="master"/-->
   <project name="pciutils" path="external/pciutils" groups="bsp" remote="github" revision="master"/>
