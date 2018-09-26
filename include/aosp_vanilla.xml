@@ -89,7 +89,7 @@
   <project groups="pdk" name="a/aosp/platform/external/conscrypt" path="external/conscrypt"/>
   <project groups="pdk" name="a/aosp/platform/external/crcalc" path="external/crcalc"/>
   <project groups="pdk" name="a/aosp/platform/external/cros/system_api" path="external/cros/system_api"/>
-  <project groups="pdk" name="a/aosp/platform/external/curl" path="external/curl"/>
+  <project groups="pdk" name="a/aosp/platform/external/curl" path="external/curl" revision="android/celadon"/>
   <project groups="pdk" name="a/aosp/platform/external/dagger2" path="external/dagger2"/>
   <project groups="pdk-fs" name="a/aosp/platform/external/deqp" path="external/deqp"/>
   <project groups="pdk" name="a/aosp/platform/external/desugar" path="external/desugar"/>
