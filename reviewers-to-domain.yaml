@@ -1,56 +1,97 @@
-ldap//CN=OTC_SI_1A-Rev-AOSP,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'AOSP'
-ldap//CN=OTC_SI_1A-Rev-Art,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Art'
-ldap//CN=OTC_SI_1A-Rev-Audio_Common,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Audio Common'
-ldap//CN=OTC_SI_1A-Rev-Audio_Trail,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Audio Trail'
-ldap//CN=OTC_SI_1A-Rev-BOOT_OTA_GOTA,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'BOOT - OTA - GOTA'
-ldap//CN=OTC_SI_1A-Rev-Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Camera - Imaging'
-ldap//CN=OTC_SI_1A-Rev-Car_Services,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Car Utilities'
-ldap//CN=OTC_SI_1A-Rev-Conn-ACP-BT,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-ACP-BT'
-ldap//CN=OTC_SI_1A-Rev-Conn-ACP-CellCoex,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-ACP-CellCoex'
-ldap//CN=OTC_SI_1A-Rev-Conn-ACP-FM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-ACP-FM'
-ldap//CN=OTC_SI_1A-Rev-Conn-ACP-GNSS,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-ACP-GNSS'
-ldap//CN=OTC_SI_1A-Rev-Conn-ACP-NFC,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-ACP-NFC'
-ldap//CN=OTC_SI_1A-Rev-Conn-ACP-WIFI,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-ACP-WIFI'
-ldap//CN=OTC_SI_1A-Rev-Conn-MFG-DBG,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-Manufacturing-Debug'
-ldap//CN=OTC_SI_1A-Rev-Conn-TPV-BT,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-TPV-BT'
-ldap//CN=OTC_SI_1A-Rev-Conn-TPV-FM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-TPV-FM'
-ldap//CN=OTC_SI_1A-Rev-Conn-TPV-GNSS,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-TPV-GNSS'
-ldap//CN=OTC_SI_1A-Rev-Conn-TPV-NFC,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-TPV-NFC'
-ldap//CN=OTC_SI_1A-Rev-Conn-TPV-WIFI,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Connectivity-TPV-WIFI'
-ldap//CN=OTC_SI_1A-Rev-Debug_Trace,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+abhilash.k.v@intel.com:
+- 'USB'
+albert.tsang@intel.com:
+- 'BIOS'
+amit.kumar.sharma@intel.com:
+- 'IO'
+- 'Sensors'
+- 'Storage'
+- 'USB'
+baofeng.tian@intel.com:
 - 'Debug and Trace'
-ldap//CN=OTC_SI_1A-Rev-Energy_Mgt,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Energy management'
-ldap//CN=OTC_SI_1A-Rev-ISH,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'ISH'
-ldap//CN=OTC_SI_1A-Rev-Manifest,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+bing.zhu@intel.com:
+- 'CSE'
+- 'Security /Trusty'
+cathy.bao@intel.com:
+- 'Storage'
+guangxin.xu@intel.com:
+- 'Media'
+hongcheng.xie@intel.com:
+- 'AOSP'
+hongyu.zhang@intel.com:
+- 'AOSP'
+jeevaka.badrappan@intel.com:
+- 'Connectivity-Bluetooth'
+- 'Connectivity-Wifi'
+jenny.q.cao@intel.com:
+- 'Display'
+- 'Graphics'
+- 'HDMI'
+- 'renderscript'
+ji.j.wu@intel.com:
+- 'BOOT - OTA - GOTA'
+jie.a.chen@intel.com:
+- 'Browser'
+johnson.lin@intel.com:
+- 'Display'
+- 'Graphics'
+- 'HDMI'
+- 'renderscript'
+kai.z.wang@intel.com:
+- 'Security /Trusty'
+lang.li@intel.com:
 - 'Manifest'
-ldap//CN=OTC_SI_1A-Rev-Perceptual_Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Perceptual Camera'
-ldap//CN=OTC_SI_1A-Rev-Platform_Config,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+lin.z.chen@intel.com:
 - 'Platform Config'
-ldap//CN=OTC_SI_1A-Rev-SE_Linux,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'SE Linux'
-ldap//CN=OTC_SI_1A-Rev-Telephony,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Telephony'
-ldap//CN=OTC_SI_1A-Rev-Trusty,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
-- 'Trusty'
+luhai.chen@intel.com:
+- 'Android for Work'
+- 'Security /Trusty'
+ming.tan@intel.com:
+- 'BOOT - OTA - GOTA'
+murali.mohan@intel.com:
+- 'ART'
+pankaj.laxminarayan.bharadiya@intel.com:
+- 'Kernel'
+peng.c.chen@intel.com:
+- 'Media'
+philippe.regnier@intel.com:
+- 'OTA Update'
+priya.shree@intel.com:
+- 'Audio'
+- 'Audio Comms'
+qiming.shi@intel.com:
+- 'AOSP'
+raju.mallikarjun.chegaraddi@intel.com:
+- 'IO'
+- 'Sensors'
+saranya.gopal@intel.com:
+- 'USB'
+shiva.kumara.rudrappa@intel.com:
+- 'Camera'
+shyjumon.n@intel.com:
+- 'Storage'
+tao.w.wang@intel.com:
+- 'Manifest'
+taranpreet.kaur@intel.com:
+- 'Storage'
+ting.a.ai@intel.com:
+- 'Android for Work'
+tommi.von.hertzen@intel.com:
+- 'Widevine/DRM'
+vishwanath.somayaji@intel.com:
+- 'PnP'
+- 'Power management'
+xihua.chen@intel.com:
+- 'BOOT - OTA - GOTA'
+- 'OTA Update'
+yegnesh.s.iyer@intel.com:
+- 'Energy Management'
+- 'Thermal'
+yihan.he@intel.com:
+- 'Manifest'
+yinweix.wang@intel.com:
+- 'Manifest'
+zhenlong.z.ji@intel.com:
+- 'Android for Work'
+zhuangzhi.li@intel.com:
+- 'Platform Config'

@@ -1,109 +1,76 @@
-amalendu.prasad.das@intel.com:
-- 'Connectivity-TPV-BT'
-- 'Connectivity-TPV-FM'
-- 'Connectivity-TPV-GNSS'
-- 'Connectivity-TPV-NFC'
-- 'Connectivity-TPV-WIFI'
-amit.paul@intel.com:
-- 'Telephony'
+abhilash.kesavan@intel.com:
+- 'Power management'
+abhilash.k.v@intel.com:
+- 'USB'
+albert.tsang@intel.com:
+- 'BIOS'
+amit.kumar.sharma@intel.com:
+- 'IO'
+- 'Sensors'
+- 'Storage'
+- 'USB'
 baofeng.tian@intel.com:
 - 'Debug and Trace'
-deneen.t.dock@intel.com:
-- 'SE Linux'
-dong.yang@intel.com:
-- 'Camera - Imaging'
-even.xu@intel.com:
-- 'ISH'
-guy.cohen@intel.com:
-- 'Connectivity-ACP-BT'
-- 'Connectivity-ACP-CellCoex'
-- 'Connectivity-ACP-FM'
-- 'Connectivity-ACP-GNSS'
-- 'Connectivity-ACP-NFC'
-- 'Connectivity-ACP-WIFI'
-- 'Connectivity-Manufacturing-Debug'
-hongyu.zhang@intel.com:
+cathy.bao@intel.com:
+- 'Storage'
+guangxin.xu@intel.com:
+- 'Media'
+james.wu@intel.com:
 - 'AOSP'
-jacek.czerniawski@intel.com:
-- 'Audio Common'
-- 'Audio Trail'
-jaishankar.rajendran@intel.com:
-- 'Art'
-jenny.q.cao@intel.com:
-- 'GFX / OpenSource GFX'
-ji.j.wu@intel.com:
-- 'BOOT - OTA - GOTA'
-jocelyn.li@intel.com:
-- 'Audio Common'
-johnson.lin@intel.com:
-- 'GFX / OpenSource GFX'
-kai.z.wang@intel.com:
-- 'Trusty'
+jeevaka.badrappan@intel.com:
+- 'Connectivity-Bluetooth'
+- 'Connectivity-Wifi'
+jie.a.chen@intel.com:
+- 'Browser'
+kumar.k.m@intel.com:
+- 'Audio'
+- 'Audio Comms'
 lang.li@intel.com:
 - 'Manifest'
-lin.z.chen@intel.com:
-- 'Platform Config'
-madar.sikkandar.d@intel.com:
-- 'Connectivity-TPV-BT'
-- 'Connectivity-TPV-FM'
-- 'Connectivity-TPV-GNSS'
-- 'Connectivity-TPV-NFC'
-- 'Connectivity-TPV-WIFI'
-marek.dabek@intel.com:
-- 'Audio Common'
-- 'Audio Trail'
-mengdong.lin@intel.com:
-- 'Audio Common'
-michael.levin@intel.com:
-- 'Connectivity-ACP-BT'
-- 'Connectivity-ACP-CellCoex'
-- 'Connectivity-ACP-FM'
-- 'Connectivity-ACP-GNSS'
-- 'Connectivity-ACP-NFC'
-- 'Connectivity-ACP-WIFI'
-- 'Connectivity-Manufacturing-Debug'
-moshe.yosevshvili@intel.com:
-- 'Perceptual Camera'
+ling.l.yu@intel.com:
+- 'Display'
+- 'Graphics'
+- 'HDMI'
+- 'renderscript'
+luhai.chen@intel.com:
+- 'Android for Work'
+muhammad.aksar@intel.com:
+- 'Camera'
 murali.mohan@intel.com:
-- 'Art'
-nael.masalha@intel.com:
-- 'Perceptual Camera'
-pavana.c.kumar@intel.com:
-- 'Telephony'
+- 'ART'
+pankaj.laxminarayan.bharadiya@intel.com:
+- 'Kernel'
+philippe.regnier@intel.com:
+- 'OTA Update'
 qihua.zhuang@intel.com:
-- 'Car Utilities'
-- 'Debug and Trace'
+- 'BOOT - OTA - GOTA'
+rajesh.tiwari@intel.com:
+- 'Camera'
+raju.mallikarjun.chegaraddi@intel.com:
+- 'IO'
+- 'Sensors'
+randy.xu@intel.com:
+- 'AOSP'
 roger.feng@intel.com:
-- 'Trusty'
-sanjiv.kumar.gupta@intel.com:
-- 'Art'
-senthilnathan.selvamani@intel.com:
-- 'Connectivity-TPV-BT'
-- 'Connectivity-TPV-FM'
-- 'Connectivity-TPV-GNSS'
-- 'Connectivity-TPV-NFC'
-- 'Connectivity-TPV-WIFI'
-shuo.liu@intel.com:
-- 'Car Utilities'
+- 'Security /Trusty'
+sameer.lattannavar@intel.com:
+- 'PnP'
+saranya.gopal@intel.com:
+- 'USB'
+shyjumon.n@intel.com:
+- 'Storage'
 tao.w.wang@intel.com:
 - 'Manifest'
-wei.tao@intel.com:
-- 'Camera - Imaging'
-william.c.roberts@intel.com:
-- 'SE Linux'
-xihua.chen@intel.com:
-- 'BOOT - OTA - GOTA'
-yanx.ren@intel.com:
-- 'Energy management'
+taranpreet.kaur@intel.com:
+- 'Storage'
+tommi.von.hertzen@intel.com:
+- 'Widevine/DRM'
+yegnesh.s.iyer@intel.com:
+- 'Energy Management'
+- 'Thermal'
 yihan.he@intel.com:
 - 'Manifest'
-yong.yao@intel.com:
-- 'AOSP'
 zachary.zou@intel.com:
-- 'Trusty'
-zhen.han@intel.com:
-- 'Energy management'
-zhifeng.wang@intel.com:
-- 'ISH'
+- 'CSE'
 zhuangzhi.li@intel.com:
 - 'Platform Config'

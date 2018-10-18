@@ -1,35 +1,3 @@
-'Android IA':
-- bootable/liveinstaller
-- device/intel/project-celadon
-- external/libncurses
-- external/minigbm
-- hardware/bsp/intel
-- hardware/intel/external/gnu-efi
-- hardware/intel/external/libpciaccess
-- hardware/intel/external/media/gmmlib
-- hardware/intel/external/media/mod
-- kernel/modules
-- kernel/project-celadon
-- vendor/intel/art-extension
-- vendor/intel/external/mediasdk_opensource
-- vendor/intel/external/project-celadon/audio
-- vendor/intel/external/project-celadon/audio_pfw/hal
-- vendor/intel/external/project-celadon/audio_pfw/plugins/alsa
-- vendor/intel/external/project-celadon/audio_pfw/plugins/aosp_audio_route
-- vendor/intel/external/project-celadon/audio_pfw/utilities
-- vendor/intel/external/project-celadon/hwcomposer
-- vendor/intel/external/project-celadon/libdrm
-- vendor/intel/external/project-celadon/libva
-- vendor/intel/external/project-celadon/lights
-- vendor/intel/external/project-celadon/mediasdk_release
-- vendor/intel/external/project-celadon/memtrack
-- vendor/intel/external/project-celadon/mesa
-- vendor/intel/external/project-celadon/powerhal
-- vendor/intel/external/project-celadon/thermal_daemon
-- vendor/intel/fw/evmm/ikgt
-- vendor/intel/libstagefrighthw
-- vendor/intel/utils
-- vendor/linux/firmware
 'AOSP':
 - bionic
 - bootable/recovery
@@ -438,6 +406,7 @@
 - hardware/akm
 - hardware/broadcom/libbt
 - hardware/broadcom/wlan
+- hardware/bsp/intel
 - hardware/google/apf
 - hardware/google/av
 - hardware/google/easel
@@ -688,156 +657,66 @@
 - tools/tradefederation/core
 - vendor/google/gas
 - vendor/google/gms
-'Art':
-- art
-'Audio Common':
-- device/intel/common/audio
-- device/intel/mixins/groups/audio
-- external/sonivox
-'Audio Trail':
-- device/intel/common/audio/parameter-framework
-- device/intel/common/config_min/parameter-framework
-- device/intel/mixins/groups/eavb
+'ART':
+- vendor/intel/art-extension
+'Audio':
+- vendor/intel/external/project-celadon/audio
+- vendor/intel/external/project-celadon/audio_pfw/hal
+- vendor/intel/external/project-celadon/audio_pfw/plugins/alsa
+- vendor/intel/external/project-celadon/audio_pfw/utilities
 'BOOT - OTA - GOTA':
+- bootable/liveinstaller
 - device/intel/build
-- device/intel/common/action-authorization
-- device/intel/common/efiprop
-- device/intel/common/recovery
-- device/intel/common/set_storage
-- device/intel/mixins/groups/boot-arch
-- device/intel/mixins/groups/config-partition
-- device/intel/mixins/groups/debug-charging
-- device/intel/mixins/groups/disk-bus
-- device/intel/mixins/groups/factory-scripts
-- device/intel/mixins/groups/flashfiles
-- device/intel/mixins/groups/flashfiles-2ndstage
-- device/intel/mixins/groups/flashfiles-content
-- device/intel/mixins/groups/flashfiles-oem
-- device/intel/mixins/groups/manufacturing-data
-- device/intel/mixins/groups/testos
 - hardware/intel/bootctrl
+- hardware/intel/external/gnu-efi
 - hardware/intel/kernelflinger
 - vendor/intel/external/openssl
-'Camera - Imaging':
-- device/intel/mixins/groups/camera
-- device/intel/mixins/groups/camera-arccamera
-- device/intel/mixins/groups/camera-intel_sdk
-- device/intel/mixins/groups/camera-refcam
-- device/intel/mixins/groups/evs
-- device/intel/mixins/groups/rvc
-'Car Utilities':
-- device/intel/common/ioc_slcand
-- device/intel/mixins/groups/ioc
-'Connectivity-ACP-BT':
-- device/intel/common/bluetooth
-- device/intel/common/bluetooth/ag620
-- device/intel/common/bluetooth/lightningpeak
-- device/intel/mixins/groups/bluetooth
-- device/intel/mixins/groups/bluetooth/ag620
-- device/intel/mixins/groups/bluetooth/lightningpeak
-- device/intel/mixins/groups/bluetooth/stonepeak
-'Connectivity-ACP-CellCoex':
-- device/intel/mixins/groups/cellcoex
-'Connectivity-ACP-FM':
-- device/intel/mixins/groups/fmradio/lightningpeak
-'Connectivity-ACP-GNSS':
-- device/intel/mixins/groups/gps
-- device/intel/mixins/groups/gps/ag62
-- device/intel/mixins/groups/gps/cg2k
-- device/intel/mixins/groups/location_fusion
-'Connectivity-ACP-NFC':
-- device/intel/common/nfc/fdp
-- device/intel/mixins/groups/nfc/fdp
-'Connectivity-ACP-WIFI':
-- device/intel/common/wlan
-- device/intel/common/wlan/iwlwifi
-- device/intel/mixins/groups/passpoint
-- device/intel/mixins/groups/wlan
-- device/intel/mixins/groups/wlan/iwlwifi
-'Connectivity-Manufacturing-Debug':
-- device/intel/mixins/groups/ipcs
-- device/intel/mixins/groups/rocs
-- device/intel/mixins/groups/rservice
-'Connectivity-TPV-BT':
-- device/intel/common/bluetooth/bcm43241
-- device/intel/common/bluetooth/bcm4356
-- device/intel/common/bluetooth/rtl8723bs
-- device/intel/mixins/groups/bluetooth/bcm43241
-- device/intel/mixins/groups/bluetooth/bcm43340
-- device/intel/mixins/groups/bluetooth/bcm4339
-- device/intel/mixins/groups/bluetooth/bcm43430
-- device/intel/mixins/groups/bluetooth/bcm4356
-- device/intel/mixins/groups/bluetooth/marvellW8897
-- device/intel/mixins/groups/bluetooth/rtl8723bs
-'Connectivity-TPV-FM':
-- device/intel/mixins/groups/fmradio/pekall
-'Connectivity-TPV-GNSS':
-- device/intel/mixins/groups/gps/bcm4752
-'Connectivity-TPV-NFC':
-- device/intel/common/nfc
-- device/intel/mixins/groups/nfc
-'Connectivity-TPV-WIFI':
-- device/intel/common/wlan/bcm4356
-- device/intel/common/wlan/mwifiex
-- device/intel/mixins/groups/wlan/bcm43241
-- device/intel/mixins/groups/wlan/bcm4356
-- device/intel/mixins/groups/wlan/mwifiex
-- device/intel/mixins/groups/wlan/rtl8723bs
+'Connectivity-Wifi':
+- vendor/linux/firmware
 'Debug and Trace':
-- device/intel/mixins/groups/debug-coredump
-- device/intel/mixins/groups/debug-crashlogd
-- device/intel/mixins/groups/debug-dvc_desc
-- device/intel/mixins/groups/debug-kernel
-- device/intel/mixins/groups/debug-lct
-- device/intel/mixins/groups/debug-lmdump
-- device/intel/mixins/groups/debug-log-watch
-- device/intel/mixins/groups/debug-logs
-- device/intel/mixins/groups/debug-mpm
-- device/intel/mixins/groups/debug-npk
-- device/intel/mixins/groups/debug-phonedoctor
-- device/intel/mixins/groups/debug-tools
-- device/intel/mixins/groups/debug-usb-config
-- device/intel/mixins/groups/pstore
 - external/pciutils
+- vendor/intel/external/project-celadon/memtrack
 - vendor/intel/tools/log_capture
 - vendor/intel/tools/log_infra
 - vendor/intel/tools/peeknpoke
-'Energy management':
-- device/intel/mixins/groups/charger
-- device/intel/mixins/groups/libhealthd
-- device/intel/mixins/groups/pmic
-- device/intel/mixins/groups/thermal
-'GFX / OpenSource GFX':
-- device/intel/mixins/groups/graphics/mesa
-'ISH':
-- device/intel/mixins/groups/aware
-- device/intel/mixins/groups/sensors/ish
+'Graphics':
+- external/minigbm
+- vendor/intel/external/project-celadon/hwcomposer
+- vendor/intel/external/project-celadon/libdrm
+- vendor/intel/external/project-celadon/mesa
 'Manifest':
 - manifests
-'Perceptual Camera':
-- device/intel/mixins/groups/depth-camera/ds4
+'Media':
+- hardware/intel/external/libpciaccess
+- hardware/intel/external/media/gmmlib
+- hardware/intel/external/media/mod
+- vendor/intel/external/mediasdk_opensource
+- vendor/intel/external/project-celadon/libva
+- vendor/intel/external/project-celadon/mediasdk_release
+- vendor/intel/libstagefrighthw
 'Platform Config':
-- device/intel/build/tasks
 - device/intel/common
 - device/intel/mixins
+- device/intel/project-celadon
 - external/pystache
+- kernel/project-celadon
 - vendor/intel/PRIVATE/utils
-'SE Linux':
-- device/intel/mixins/groups/sepolicy
-- external/selinux
-- system/sepolicy
-'Telephony':
-- device/intel/common/ims
-- device/intel/common/telephony
-- device/intel/common/telephony-config
-- device/intel/mixins/groups/aosp_carrier-config
-- device/intel/mixins/groups/embms
-- device/intel/mixins/groups/ims
-- device/intel/mixins/groups/telephony
-- device/intel/mixins/groups/telephony-config
-- vendor/intel/tools/log_capture/amtl
-'Trusty':
-- device/intel/mixins/groups/trusty
+- vendor/intel/utils
+'PnP':
+- kernel/modules
+- vendor/intel/external/project-celadon/powerhal
+'Sensors':
+- vendor/intel/external/project-celadon/lights
+'Storage ':
+- kernel/project-celadon/drivers/ata
+- kernel/project-celadon/drivers/mmc
+- kernel/project-celadon/drivers/nvdimm
+- kernel/project-celadon/drivers/nvme
+- kernel/project-celadon/drivers/scsi/ufs
+- kernel/project-celadon/fs
+'Thermal':
+- vendor/intel/external/project-celadon/thermal_daemon
+'Security /Trusty':
 - trusty/app/gatekeeper
 - trusty/app/keymaster
 - trusty/app/sample
@@ -852,3 +731,4 @@
 - trusty/target/sand
 - trusty/vendor/google/aosp
 - vendor/intel/external/prebuilts/elf
+- vendor/intel/fw/evmm/ikgt
