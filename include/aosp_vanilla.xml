@@ -547,7 +547,7 @@
   <project groups="pdk" name="a/aosp/platform/system/hardware/interfaces" path="system/hardware/interfaces"/>
   <project groups="pdk" name="a/aosp/platform/system/hwservicemanager" path="system/hwservicemanager"/>
   <project groups="pdk" name="a/aosp/platform/system/iot/attestation" path="system/iot/attestation"/>
-  <project groups="pdk" name="a/aosp/platform/system/keymaster" path="system/keymaster"/>
+  <project groups="pdk" name="a/aosp/platform/system/keymaster" path="system/keymaster" revision="refs/tags/android-o-mr1-iot-release-1.0.4"/>
   <project groups="pdk" name="a/aosp/platform/system/libfmq" path="system/libfmq"/>
   <project groups="pdk" name="a/aosp/platform/system/libhidl" path="system/libhidl"/>
   <project groups="pdk" name="a/aosp/platform/system/libhwbinder" path="system/libhwbinder"/>
