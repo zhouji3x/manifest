@@ -39,7 +39,7 @@
   </project>
 
     <!-- From public kernel.org -->
-  <project name="a/bsp/platform/external/linux-firmware" path="vendor/linux/firmware" groups="bsp" revision="android/celadon" />
+  <project name="vendor-linux-firmware" path="vendor/linux/firmware" groups="bsp" remote="github" revision="master" />
 
   <!-- ikgt projects -->
   <project name="ikgt-core" path="vendor/intel/fw/evmm/ikgt" groups="bsp" remote="intel" revision="trusty"/>
