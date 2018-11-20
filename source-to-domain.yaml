@@ -659,6 +659,8 @@
 - vendor/google/gms
 'ART':
 - vendor/intel/art-extension
+'MultiCamera':
+- vendor/intel/external/apps
 'Audio':
 - vendor/intel/external/project-celadon/audio
 - vendor/intel/external/project-celadon/audio_pfw/hal

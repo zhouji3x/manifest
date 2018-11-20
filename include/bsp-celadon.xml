@@ -7,6 +7,7 @@
   <project name="MemTrack" path="vendor/intel/external/project-celadon/memtrack" groups="bsp,pdk" remote="github" revision="master"/>
   <!--project name="DPTF" path="vendor/intel/external/project-celadon/dptf" groups="bsp,pdk" remote="github" revision="master"/-->
   <!--project name="platform_external_efitools" path="external/efitools" groups="bsp" remote="github" revision="master"/-->
+  <project name="celadon-applications" path="vendor/intel/external/apps" remote="intel" revision="stable"/>
   <project name="thermal_daemon" path="vendor/intel/external/project-celadon/thermal_daemon" groups="bsp" remote="intel" revision="master"/>
   <project name="powerhal" path="vendor/intel/external/project-celadon/powerhal" groups="bsp" remote="github" revision="master"/>
   <project name="OpenSSL" path="vendor/intel/external/openssl" groups="bsp" remote="github" revision="master"/>
