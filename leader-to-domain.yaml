@@ -20,6 +20,8 @@ james.wu@intel.com:
 jeevaka.badrappan@intel.com:
 - 'Connectivity-Bluetooth'
 - 'Connectivity-Wifi'
+jenny.q.cao@intel.com:
+- 'HDCP High-bandwidth Digital Content Protection'
 jie.a.chen@intel.com:
 - 'Browser'
 kumar.k.m@intel.com:
@@ -65,6 +67,8 @@ taranpreet.kaur@intel.com:
 - 'Storage'
 tommi.von.hertzen@intel.com:
 - 'Widevine/DRM'
+vns.murthy.sristi@intel.com:
+- 'MultiCamera'
 yegnesh.s.iyer@intel.com:
 - 'Energy Management'
 - 'Thermal'
@@ -74,5 +78,3 @@ zachary.zou@intel.com:
 - 'CSE'
 zhuangzhi.li@intel.com:
 - 'Platform Config'
-vns.murthy.sristi@intel.com:
-- 'MultiCamera'

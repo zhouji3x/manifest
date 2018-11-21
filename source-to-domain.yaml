@@ -1,4 +1,5 @@
 'AOSP':
+- art
 - bionic
 - bootable/recovery
 - build/blueprint
@@ -196,6 +197,7 @@
 - external/libmojo
 - external/libmpeg2
 - external/libmtp
+- external/libncurses
 - external/libnetfilter_conntrack
 - external/libnfnetlink
 - external/libnl
@@ -280,6 +282,7 @@
 - external/scapy
 - external/scrypt
 - external/seccomp-tests
+- external/selinux
 - external/sfntly
 - external/shaderc/spirv-headers
 - external/shflags
@@ -290,6 +293,7 @@
 - external/smali
 - external/snakeyaml
 - external/sonic
+- external/sonivox
 - external/speex
 - external/spirv-llvm
 - external/sqlite
@@ -619,6 +623,7 @@
 - system/security
 - system/security/keystore
 - system/security/softkeymaster
+- system/sepolicy
 - system/timezone
 - system/tools/aidl
 - system/tools/hidl
@@ -686,6 +691,8 @@
 - vendor/intel/external/project-celadon/hwcomposer
 - vendor/intel/external/project-celadon/libdrm
 - vendor/intel/external/project-celadon/mesa
+'HDCP High-bandwidth Digital Content Protection':
+- hardware/intel/external/media/hdcp
 'Manifest':
 - manifests
 'Media':

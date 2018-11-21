@@ -26,6 +26,7 @@ jeevaka.badrappan@intel.com:
 jenny.q.cao@intel.com:
 - 'Display'
 - 'Graphics'
+- 'HDCP High-bandwidth Digital Content Protection'
 - 'HDMI'
 - 'renderscript'
 ji.j.wu@intel.com:
@@ -85,6 +86,8 @@ tommi.von.hertzen@intel.com:
 vishwanath.somayaji@intel.com:
 - 'PnP'
 - 'Power management'
+vns.murthy.sristi@intel.com:
+- 'MultiCamera'
 xihua.chen@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'OTA Update'
@@ -99,5 +102,3 @@ zhenlong.z.ji@intel.com:
 - 'Android for Work'
 zhuangzhi.li@intel.com:
 - 'Platform Config'
-vns.murthy.sristi@intel.com:
-- 'MultiCamera'
