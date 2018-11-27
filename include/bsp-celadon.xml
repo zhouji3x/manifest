@@ -66,6 +66,7 @@
   <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" groups="bsp" remote="github" revision="stable" />
   <project name="libpciaccess" path="hardware/intel/external/libpciaccess" groups="bsp" remote="github" revision="stable" />
   <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" groups="bsp" remote="github" revision="stable" />
+  <project name="ittapi" path="vendor/intel/tools/ittapi" remote="github" revision="stable" />
 
   <!--art-extension -->
   <project name="vendor_intel_art-extension" path="vendor/intel/art-extension" groups="bsp" remote="github" revision="stable"/>

@@ -703,6 +703,7 @@
 - vendor/intel/external/project-celadon/libva
 - vendor/intel/external/project-celadon/mediasdk_release
 - vendor/intel/libstagefrighthw
+- vendor/intel/tools/ittapi
 'Platform Config':
 - device/intel/common
 - device/intel/mixins
