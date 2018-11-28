@@ -3,7 +3,7 @@
 
   <notice>One_Android_Ring='0'</notice>
 
-  <default revision="refs/tags/android-9.0.0_r3"
+  <default revision="refs/tags/android-9.0.0_r18"
            remote="origin"
            sync-c="true"
            sync-j="5" />
