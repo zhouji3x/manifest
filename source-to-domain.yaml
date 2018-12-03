@@ -197,7 +197,6 @@
 - external/libmojo
 - external/libmpeg2
 - external/libmtp
-- external/libncurses
 - external/libnetfilter_conntrack
 - external/libnfnetlink
 - external/libnl
