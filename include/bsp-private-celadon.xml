@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project path="hardware/intel/wlan/libwifihal/open" name="a/bsp/hardware/intel/wlan/libwifihal/open" groups="bsp-priv,embargoed" revision="android/celadon">
+      <annotation name="g_external" value="no"/>
+      <annotation name="all_external" value="no"/>
+  </project>
+
   <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture" groups="bsp-priv,embargoed" revision="android/celadon" spsId="59066">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
