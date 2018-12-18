@@ -679,6 +679,8 @@
 - vendor/intel/external/openssl
 'Connectivity-Wifi':
 - vendor/linux/firmware
+- vendor/intel/external/libbt-vendor-linux-intel
+- vendor/intel/hardware/interfaces
 'Debug and Trace':
 - external/pciutils
 - vendor/intel/external/project-celadon/memtrack
