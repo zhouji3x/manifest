@@ -6,6 +6,6 @@
     <!-- Remove duplicate projects inherited from fugu that are also in bsp -->
     <remove-project name="a/aosp/platform/external/drm_hwcomposer" />
     <remove-project name="a/aosp/platform/external/mesa3d" />
-    <remove-project name="a/aosp/platform/external/libdrm" />
+    <!--remove-project name="a/aosp/platform/external/libdrm" /-->
 
 </manifest>
