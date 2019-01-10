@@ -728,6 +728,7 @@
 'Thermal':
 - vendor/intel/external/project-celadon/thermal_daemon
 'Security /Trusty':
+- hardware/intel/external/safestringlib
 - trusty/app/gatekeeper
 - trusty/app/keymaster
 - trusty/app/sample

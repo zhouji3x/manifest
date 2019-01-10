@@ -19,6 +19,7 @@
   <project name="minigbm" path="external/minigbm" groups="bsp" remote="github" revision="master" />
   <!--project name="powertop" path="external/powertop" groups="bsp" remote="github" revision="master"/-->
   <project name="pciutils" path="external/pciutils" groups="bsp" remote="github" revision="master"/>
+  <project name="safestringlib" path="hardware/intel/external/safestringlib" groups="bsp" remote="intel" revision="master"/>
   <project name="bootable-live-installer" path="bootable/liveinstaller" groups="bsp,pdk" remote="github" revision="master" />
   <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="bsp,pdk" remote="github" revision="stable" />
   <project name="external-gnu-efi" path="hardware/intel/external/gnu-efi" groups="bsp,pdk" remote="github" revision="master" />
