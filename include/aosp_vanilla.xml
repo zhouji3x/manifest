@@ -578,7 +578,6 @@
   <project path="pdk" name="a/aosp/platform/pdk" groups="pdk" />
   <project path="platform_testing" name="a/aosp/platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts" />
   <project path="prebuilts/abi-dumps/ndk" name="a/aosp/platform/prebuilts/abi-dumps/ndk" groups="pdk-fs" clone-depth="1" />
-  <project path="prebuilts/abi-dumps/vndk" name="a/aosp/platform/prebuilts/abi-dumps/vndk" groups="pdk-fs" clone-depth="1" revision="93f724d3cc9f59383656e6dbed6d7f43eff9c65a"/>
   <project path="prebuilts/android-emulator" name="a/aosp/platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/build-tools" name="a/aosp/platform/prebuilts/build-tools" groups="pdk" clone-depth="1" />
   <project path="prebuilts/checkcolor" name="a/aosp/platform/prebuilts/checkcolor" groups="pdk" clone-depth="1" />
