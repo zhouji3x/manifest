@@ -553,6 +553,7 @@
 - pdk
 - platform_testing
 - prebuilts/abi-dumps/ndk
+- prebuilts/abi-dumps/vndk
 - prebuilts/android-emulator
 - prebuilts/build-tools
 - prebuilts/checkcolor
