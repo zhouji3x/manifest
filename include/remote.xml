@@ -5,6 +5,9 @@
           fetch="ssh://android-mirror.devtools.intel.com"
           review="https://android.intel.com" />
 
+  <remote name="aosp"
+          fetch="https://android.googlesource.com" />
+
   <remote name="github"
           fetch="ssh://github.com/projectceladon/" />
 
