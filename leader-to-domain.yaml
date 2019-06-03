@@ -28,16 +28,16 @@ jenny.q.cao@intel.com:
 - 'HDCP High-bandwidth Digital Content Protection'
 jie.a.chen@intel.com:
 - 'Browser'
+johnson.lin@intel.com:
+- 'Display'
+- 'Graphics'
+- 'HDMI'
+- 'renderscript'
 kumar.k.m@intel.com:
 - 'Audio'
 - 'Audio Comms'
 lang.li@intel.com:
 - 'Manifest'
-ling.l.yu@intel.com:
-- 'Display'
-- 'Graphics'
-- 'HDMI'
-- 'renderscript'
 luhai.chen@intel.com:
 - 'Android for Work'
 madhusudhan.s@intel.com:
@@ -75,11 +75,12 @@ vns.murthy.sristi@intel.com:
 - 'MultiCamera'
 yegnesh.s.iyer@intel.com:
 - 'Energy Management'
-- 'Thermal'
 yihan.he@intel.com:
 - 'Manifest'
 zachary.zou@intel.com:
 - 'CSE'
 - 'Security /Trusty'
+zhen.han@intel.com:
+- 'Thermal'
 zhuangzhi.li@intel.com:
 - 'Platform Config'
