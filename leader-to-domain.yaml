@@ -1,5 +1,4 @@
 abhilash.kesavan@intel.com:
-- 'PnP'
 - 'Power management'
 abhilash.k.v@intel.com:
 - 'USB'
@@ -17,6 +16,8 @@ baofeng.tian@intel.com:
 - 'Debug and Trace'
 cathy.bao@intel.com:
 - 'Storage'
+cynthia.yu@intel.com:
+- 'PnP'
 guangxin.xu@intel.com:
 - 'Media'
 james.wu@intel.com:
@@ -40,8 +41,6 @@ lang.li@intel.com:
 - 'Manifest'
 luhai.chen@intel.com:
 - 'Android for Work'
-madhusudhan.s@intel.com:
-- 'PnP'
 muhammad.aksar@intel.com:
 - 'Camera'
 murali.mohan@intel.com:
@@ -77,6 +76,8 @@ yegnesh.s.iyer@intel.com:
 - 'Energy Management'
 yihan.he@intel.com:
 - 'Manifest'
+yipeng.yao@intel.com:
+- 'PnP'
 zachary.zou@intel.com:
 - 'CSE'
 - 'Security /Trusty'

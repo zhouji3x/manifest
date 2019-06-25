@@ -1,7 +1,5 @@
 abhilash.k.v@intel.com:
 - 'USB'
-abhilash.kesavan@intel.com:
-- 'PnP'
 albert.tsang@intel.com:
 - 'BIOS'
 atul.vaish@intel.com:
@@ -52,8 +50,6 @@ lin.z.chen@intel.com:
 luhai.chen@intel.com:
 - 'Android for Work'
 - 'Security /Trusty'
-madhusudhan.s@intel.com:
-- 'PnP'
 ming.tan@intel.com:
 - 'BOOT - OTA - GOTA'
 murali.mohan@intel.com:
@@ -93,10 +89,11 @@ ting.a.ai@intel.com:
 tommi.von.hertzen@intel.com:
 - 'Widevine/DRM'
 vishwanath.somayaji@intel.com:
-- 'PnP'
 - 'Power management'
 vns.murthy.sristi@intel.com:
 - 'MultiCamera'
+xi.a.chen@intel.com:
+- 'PnP'
 xihua.chen@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'OTA Update'
@@ -107,6 +104,8 @@ yihan.he@intel.com:
 - 'Manifest'
 yinweix.wang@intel.com:
 - 'Manifest'
+yipeng.yao@intel.com:
+- 'PnP'
 zhenlong.z.ji@intel.com:
 - 'Android for Work'
 zhuangzhi.li@intel.com:
