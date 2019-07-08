@@ -34,15 +34,14 @@ johnson.lin@intel.com:
 - 'Graphics'
 - 'HDMI'
 - 'renderscript'
+karan.patidar@intel.com:
+- 'Audio'
 kumar.k.m@intel.com:
 - 'Audio'
-- 'Audio Comms'
 lang.li@intel.com:
 - 'Manifest'
 luhai.chen@intel.com:
 - 'Android for Work'
-muhammad.aksar@intel.com:
-- 'Camera'
 murali.mohan@intel.com:
 - 'ART'
 pankaj.laxminarayan.bharadiya@intel.com:
@@ -51,8 +50,6 @@ philippe.regnier@intel.com:
 - 'OTA Update'
 qihua.zhuang@intel.com:
 - 'BOOT - OTA - GOTA'
-rajesh.tiwari@intel.com:
-- 'Camera'
 raju.mallikarjun.chegaraddi@intel.com:
 - 'IO'
 - 'Sensors'
@@ -70,8 +67,6 @@ taranpreet.kaur@intel.com:
 - 'Storage'
 tommi.von.hertzen@intel.com:
 - 'Widevine/DRM'
-vns.murthy.sristi@intel.com:
-- 'MultiCamera'
 yegnesh.s.iyer@intel.com:
 - 'Energy Management'
 yihan.he@intel.com:
