@@ -713,6 +713,7 @@
 - tools/tradefederation/core
 - vendor/google/gas
 - vendor/google/gms
+- vendor/intel/external/project-celadon/memtrack
 'ART':
 - vendor/intel/art-extension
 'MultiCamera':
@@ -738,7 +739,6 @@
 - hardware/intel/libbt-vendor-intel
 'Debug and Trace':
 - external/pciutils
-- vendor/intel/external/project-celadon/memtrack
 - vendor/intel/tools/log_capture
 - vendor/intel/tools/log_infra
 - vendor/intel/tools/peeknpoke
