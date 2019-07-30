@@ -36,5 +36,6 @@
   <include name="include/remove_vanilla.xml" />
   <include name="include/bsp-celadon.xml" />
   <include name="include/bsp-private-celadon.xml"/>
+  <include name="include/manifest-celadon.xml" />
 
 </manifest>

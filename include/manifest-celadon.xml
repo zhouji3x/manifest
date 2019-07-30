@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="manifests" name="manifests"  groups="bsp-priv,embargoed" revision="android/celadon" remote="origin">
+      <annotation name="g_external" value="no"/>
+      <annotation name="all_external" value="no"/>
+  </project>
+
+</manifest>
