@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="origin"
+          fetch="ssh://android-mirror.devtools.intel.com"
+          review="https://android.intel.com" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
   <default revision="refs/tags/android-9.0.0_r18"
