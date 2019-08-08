@@ -762,6 +762,8 @@
 - vendor/intel/tools/log_capture
 - vendor/intel/tools/log_infra
 - vendor/intel/tools/peeknpoke
+'Energy Management':
+- vendor/intel/external/project-celadon/lights
 'Graphics':
 - external/minigbm
 - vendor/intel/external/project-celadon/hwcomposer
@@ -796,8 +798,6 @@
 'PnP':
 - kernel/modules
 - vendor/intel/external/project-celadon/powerhal
-'Sensors':
-- vendor/intel/external/project-celadon/lights
 'Storage ':
 - kernel/project-celadon/drivers/ata
 - kernel/project-celadon/drivers/mmc

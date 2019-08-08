@@ -7,7 +7,6 @@ atul.vaish@intel.com:
 - 'Openvino'
 amit.kumar.sharma@intel.com:
 - 'IO'
-- 'Sensors'
 - 'Storage'
 - 'USB'
 baofeng.tian@intel.com:
@@ -68,7 +67,6 @@ qiming.shi@intel.com:
 - 'AOSP'
 raju.mallikarjun.chegaraddi@intel.com:
 - 'IO'
-- 'Sensors'
 roger.feng@intel.com:
 - 'Security /Trusty'
 saranya.gopal@intel.com:
@@ -95,7 +93,6 @@ xihua.chen@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'OTA Update'
 yegnesh.s.iyer@intel.com:
-- 'Energy Management'
 - 'Thermal'
 yihan.he@intel.com:
 - 'Manifest'
@@ -103,6 +100,8 @@ yinweix.wang@intel.com:
 - 'Manifest'
 yipeng.yao@intel.com:
 - 'PnP'
+zhen.han@intel.com:
+- 'Energy Management'
 zhenlong.z.ji@intel.com:
 - 'Android for Work'
 zhuangzhi.li@intel.com:

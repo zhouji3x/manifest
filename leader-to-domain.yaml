@@ -6,7 +6,6 @@ albert.tsang@intel.com:
 - 'BIOS'
 amit.kumar.sharma@intel.com:
 - 'IO'
-- 'Sensors'
 - 'Storage'
 - 'USB'
 atul.vaish@intel.com:
@@ -52,7 +51,6 @@ qihua.zhuang@intel.com:
 - 'BOOT - OTA - GOTA'
 raju.mallikarjun.chegaraddi@intel.com:
 - 'IO'
-- 'Sensors'
 randy.xu@intel.com:
 - 'AOSP'
 roger.feng@intel.com:
@@ -67,8 +65,6 @@ taranpreet.kaur@intel.com:
 - 'Storage'
 tommi.von.hertzen@intel.com:
 - 'Widevine/DRM'
-yegnesh.s.iyer@intel.com:
-- 'Energy Management'
 yihan.he@intel.com:
 - 'Manifest'
 yipeng.yao@intel.com:
@@ -78,5 +74,6 @@ zachary.zou@intel.com:
 - 'Security /Trusty'
 zhen.han@intel.com:
 - 'Thermal'
+- 'Energy Management'
 zhuangzhi.li@intel.com:
 - 'Platform Config'
