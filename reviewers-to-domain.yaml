@@ -16,10 +16,10 @@ bing.zhu@intel.com:
 - 'Security /Trusty'
 cathy.bao@intel.com:
 - 'Storage'
-guangxin.xu@intel.com:
-- 'Media'
 hongcheng.xie@intel.com:
 - 'AOSP'
+hongfu.ruan@intel.com:
+- 'Media'
 hongyu.zhang@intel.com:
 - 'AOSP'
 jeevaka.badrappan@intel.com:
@@ -61,8 +61,6 @@ murali.mohan@intel.com:
 - 'ART'
 pankaj.laxminarayan.bharadiya@intel.com:
 - 'Kernel'
-peng.c.chen@intel.com:
-- 'Media'
 philippe.regnier@intel.com:
 - 'OTA Update'
 qiming.shi@intel.com:
@@ -79,6 +77,8 @@ tao.w.wang@intel.com:
 - 'Manifest'
 taranpreet.kaur@intel.com:
 - 'Storage'
+tianmi.chen@intel.com:
+- 'Media'
 ting.a.ai@intel.com:
 - 'Android for Work'
 tommi.von.hertzen@intel.com:
