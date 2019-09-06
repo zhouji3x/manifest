@@ -777,6 +777,7 @@
 - hardware/intel/external/libpciaccess
 - hardware/intel/external/media/gmmlib
 - hardware/intel/external/media/mod
+- hardware/intel/external/mediasdk_omx_il
 - vendor/intel/external/mediasdk_opensource
 - vendor/intel/external/project-celadon/libva
 - vendor/intel/external/project-celadon/mediasdk_release

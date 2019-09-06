@@ -7,6 +7,7 @@
   <project name="MemTrack" path="vendor/intel/external/project-celadon/memtrack" groups="pdk" remote="github" revision="celadon/p/mr0/master"/>
   <!--project name="DPTF" path="vendor/intel/external/project-celadon/dptf" groups="pdk" remote="github" revision="celadon/p/mr0/master"/-->
   <!--project name="platform_external_efitools" path="external/efitools" remote="github" revision="celadon/p/mr0/master"/-->
+  <project name="mediasdk-omx" path="hardware/intel/external/mediasdk_omx_il" remote="github" revision="celadon/p/mr0/master"/>
   <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="github" revision="celadon/p/mr0/master"/>
   <project name="dldt" path="vendor/intel/external/project-celadon/dldt" remote="github" revision="celadon/p/mr0/master"/>
   <project name="ade" path="vendor/intel/external/project-celadon/ade" remote="github" revision="celadon/p/mr0/master"/>
