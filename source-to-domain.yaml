@@ -736,8 +736,6 @@
 - vendor/intel/external/project-celadon/memtrack
 'ART':
 - vendor/intel/art-extension
-'MultiCamera':
-- vendor/intel/external/apps
 'Audio':
 - vendor/intel/external/project-celadon/audio
 - vendor/intel/external/project-celadon/audio_pfw/hal
