@@ -748,6 +748,8 @@
 - hardware/intel/external/gnu-efi
 - hardware/intel/kernelflinger
 - vendor/intel/external/openssl
+'Camera':
+- vendor/intel/external/apps
 'Connectivity-Wifi':
 - hardware/intel/wlan/libwifihal/open
 - vendor/linux/firmware
