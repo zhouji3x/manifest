@@ -1,21 +1,10 @@
-abhilash.k.v@intel.com:
-- 'USB'
-albert.tsang@intel.com:
-- 'BIOS'
 atul.vaish@intel.com:
 - 'Nn-hal'
 - 'Openvino'
-amit.kumar.sharma@intel.com:
-- 'IO'
-- 'Storage'
-- 'USB'
 baofeng.tian@intel.com:
 - 'Debug and Trace'
 bing.zhu@intel.com:
-- 'CSE'
 - 'Security /Trusty'
-cathy.bao@intel.com:
-- 'Storage'
 dong.yang@intel.com:
 - 'Camera'
 hongcheng.xie@intel.com:
@@ -29,22 +18,14 @@ jeevaka.badrappan@intel.com:
 - 'Connectivity-Bluetooth'
 - 'Connectivity-Wifi'
 jenny.q.cao@intel.com:
-- 'Display'
 - 'Graphics'
 - 'HDCP High-bandwidth Digital Content Protection'
-- 'HDMI'
-- 'renderscript'
 ji.j.wu@intel.com:
 - 'BOOT - OTA - GOTA'
-jie.a.chen@intel.com:
-- 'Browser'
 jin.xiao@intel.com:
 - 'Platform Config'
 johnson.lin@intel.com:
-- 'Display'
 - 'Graphics'
-- 'HDMI'
-- 'renderscript'
 kai.z.wang@intel.com:
 - 'Security /Trusty'
 karan.patidar@intel.com:
@@ -56,43 +37,23 @@ lang.li@intel.com:
 lin.z.chen@intel.com:
 - 'Platform Config'
 luhai.chen@intel.com:
-- 'Android for Work'
 - 'Security /Trusty'
 ming.tan@intel.com:
 - 'BOOT - OTA - GOTA'
 murali.mohan@intel.com:
 - 'ART'
-pankaj.laxminarayan.bharadiya@intel.com:
-- 'Kernel'
-philippe.regnier@intel.com:
-- 'OTA Update'
 qiming.shi@intel.com:
 - 'AOSP'
-raju.mallikarjun.chegaraddi@intel.com:
-- 'IO'
 roger.feng@intel.com:
 - 'Security /Trusty'
-saranya.gopal@intel.com:
-- 'USB'
-shyjumon.n@intel.com:
-- 'Storage'
 tao.w.wang@intel.com:
 - 'Manifest'
-taranpreet.kaur@intel.com:
-- 'Storage'
 tianmi.chen@intel.com:
 - 'Media'
-ting.a.ai@intel.com:
-- 'Android for Work'
-tommi.von.hertzen@intel.com:
-- 'Widevine/DRM'
-vishwanath.somayaji@intel.com:
-- 'Power management'
 xi.a.chen@intel.com:
 - 'PnP'
 xihua.chen@intel.com:
 - 'BOOT - OTA - GOTA'
-- 'OTA Update'
 yegnesh.s.iyer@intel.com:
 - 'Thermal'
 yi.j.sun@intel.com:
@@ -107,7 +68,5 @@ yu.y.chen@intel.com:
 - 'AOSP'
 zhen.han@intel.com:
 - 'Energy Management'
-zhenlong.z.ji@intel.com:
-- 'Android for Work'
 zhuangzhi.li@intel.com:
 - 'Platform Config'

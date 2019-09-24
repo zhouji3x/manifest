@@ -1,20 +1,8 @@
-abhilash.kesavan@intel.com:
-- 'Power management'
-abhilash.k.v@intel.com:
-- 'USB'
-albert.tsang@intel.com:
-- 'BIOS'
-amit.kumar.sharma@intel.com:
-- 'IO'
-- 'Storage'
-- 'USB'
 atul.vaish@intel.com:
 - 'Nn-hal'
 - 'Openvino'
 baofeng.tian@intel.com:
 - 'Debug and Trace'
-cathy.bao@intel.com:
-- 'Storage'
 cynthia.yu@intel.com:
 - 'PnP'
 dong.yang@intel.com:
@@ -29,53 +17,31 @@ jeevaka.badrappan@intel.com:
 - 'Connectivity-Wifi'
 jenny.q.cao@intel.com:
 - 'HDCP High-bandwidth Digital Content Protection'
-jie.a.chen@intel.com:
-- 'Browser'
 johnson.lin@intel.com:
-- 'Display'
 - 'Graphics'
-- 'HDMI'
-- 'renderscript'
 karan.patidar@intel.com:
 - 'Audio'
 kumar.k.m@intel.com:
 - 'Audio'
 lang.li@intel.com:
 - 'Manifest'
-luhai.chen@intel.com:
-- 'Android for Work'
 murali.mohan@intel.com:
 - 'ART'
-pankaj.laxminarayan.bharadiya@intel.com:
-- 'Kernel'
-philippe.regnier@intel.com:
-- 'OTA Update'
 qihua.zhuang@intel.com:
 - 'BOOT - OTA - GOTA'
-raju.mallikarjun.chegaraddi@intel.com:
-- 'IO'
 randy.xu@intel.com:
 - 'AOSP'
 roger.feng@intel.com:
 - 'Security /Trusty'
-saranya.gopal@intel.com:
-- 'USB'
-shyjumon.n@intel.com:
-- 'Storage'
 tao.w.wang@intel.com:
 - 'Manifest'
-taranpreet.kaur@intel.com:
-- 'Storage'
 tianmi.chen@intel.com:
 - 'Media'
-tommi.von.hertzen@intel.com:
-- 'Widevine/DRM'
 yihan.he@intel.com:
 - 'Manifest'
 yipeng.yao@intel.com:
 - 'PnP'
 zachary.zou@intel.com:
-- 'CSE'
 - 'Security /Trusty'
 zhen.han@intel.com:
 - 'Thermal'
