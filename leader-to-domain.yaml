@@ -7,6 +7,8 @@ cynthia.yu@intel.com:
 - 'PnP'
 dong.yang@intel.com:
 - 'Camera'
+fei.jiang@intel.com:
+- 'Graphics'
 hongfu.ruan@intel.com:
 - 'Media'
 james.wu@intel.com:
@@ -17,8 +19,6 @@ jeevaka.badrappan@intel.com:
 - 'Connectivity-Wifi'
 jenny.q.cao@intel.com:
 - 'HDCP High-bandwidth Digital Content Protection'
-johnson.lin@intel.com:
-- 'Graphics'
 karan.patidar@intel.com:
 - 'Audio'
 kumar.k.m@intel.com:
@@ -41,6 +41,8 @@ yihan.he@intel.com:
 - 'Manifest'
 yipeng.yao@intel.com:
 - 'PnP'
+yuanjun.huang@intel.com:
+- 'Graphics'
 zachary.zou@intel.com:
 - 'Security /Trusty'
 zhen.han@intel.com:

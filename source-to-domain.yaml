@@ -749,6 +749,7 @@
 - vendor/intel/external/project-celadon/hwcomposer
 - vendor/intel/external/project-celadon/libdrm
 - vendor/intel/external/project-celadon/mesa
+- vendor/intel/hardware/interfaces/nn_gpu
 'HDCP High-bandwidth Digital Content Protection':
 - hardware/intel/external/media/hdcp
 'Manifest':

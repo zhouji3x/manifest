@@ -7,6 +7,8 @@ bing.zhu@intel.com:
 - 'Security /Trusty'
 dong.yang@intel.com:
 - 'Camera'
+fei.jiang@intel.com:
+- 'Graphics'
 hongcheng.xie@intel.com:
 - 'AOSP'
 hongfu.ruan@intel.com:
@@ -24,8 +26,6 @@ ji.j.wu@intel.com:
 - 'BOOT - OTA - GOTA'
 jin.xiao@intel.com:
 - 'Platform Config'
-johnson.lin@intel.com:
-- 'Graphics'
 kai.z.wang@intel.com:
 - 'Security /Trusty'
 karan.patidar@intel.com:
@@ -66,6 +66,8 @@ yipeng.yao@intel.com:
 - 'PnP'
 yu.y.chen@intel.com:
 - 'AOSP'
+yuanjun.huang@intel.com:
+- 'Graphics'
 zhen.han@intel.com:
 - 'Energy Management'
 zhuangzhi.li@intel.com:
