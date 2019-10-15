@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="device-intel-cic" path="device/intel/cic" remote="github" revision="celadon/p/mr0/master"/>
-  <project name="vendor-intel-cic" path="vendor/intel/cic" remote="github" revision="celadon/p/mr0/master"/>
-  <project name="kernel-modules-cic" path="kernel/modules/cic" remote="github" revision="celadon/p/mr0/master"/>
+  <project name="device-intel-cic" path="device/intel/cic" remote="github" revision="celadon/p/mr0/master">
+      <annotation name="readonly" value="false"/>
+  </project>
+  <project name="vendor-intel-cic" path="vendor/intel/cic" remote="github" revision="celadon/p/mr0/master">
+      <annotation name="readonly" value="false"/>
+  </project>
+  <project name="kernel-modules-cic" path="kernel/modules/cic" remote="github" revision="celadon/p/mr0/master">
+      <annotation name="readonly" value="false"/>
+  </project>
 
   <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="2349430a7b675157a24e4a4fa83e8462c1760ed2" />
   <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="cef4d63b1b530b668aca5d7fbe521934073cb2b5" />
