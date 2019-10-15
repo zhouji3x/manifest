@@ -46,6 +46,7 @@
 - device/google/wahoo
 - device/google/wahoo-kernel
 - device/google/vrservices
+- device/intel/cic
 - device/linaro/bootloader/arm-trusted-firmware
 - device/linaro/bootloader/edk2
 - device/linaro/bootloader/OpenPlatformPkg
@@ -497,6 +498,7 @@
 - hardware/qcom/wlan
 - hardware/ril
 - kernel/configs
+- kernel/modules/cic
 - kernel/tests
 - libcore
 - libnativehelper
@@ -713,6 +715,7 @@
 - tools/tradefederation/core
 - vendor/google/gas
 - vendor/google/gms
+- vendor/intel/cic
 - vendor/intel/external/project-celadon/memtrack
 'ART':
 - vendor/intel/art-extension
