@@ -737,9 +737,9 @@
 - hardware/intel/wlan/libwifihal/open
 - vendor/linux/firmware
 - vendor/intel/external/libbt-vendor-linux-intel
-- vendor/intel/hardware/interfaces/
 'Connectivity-Bluetooth':
 - hardware/intel/libbt-vendor-intel
+- vendor/intel/hardware/interfaces/
 'Debug and Trace':
 - external/pciutils
 - vendor/intel/tools/log_capture

@@ -23,5 +23,7 @@
   <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="dd4883499eb1ee5d59449e794cb7728d254c1199" />
   <project name="mediasdk_release" path="vendor/intel/external/project-celadon/mediasdk_release" remote="github" revision="fd6a5c15144f4dc97707ccbd2926d7fe2e5b5fbc" />
   <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="1c106c2d5066721bacd08e99818d28957c5d502e" />
+  <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces/" remote="github" revision="celadon/p/mr0/master"/>
+  <project name="libbt-vendor-intel" path="hardware/intel/libbt-vendor-intel"  remote="github" revision="celadon/p/mr0/master"/>
 </manifest>
 
