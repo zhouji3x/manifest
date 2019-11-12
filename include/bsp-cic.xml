@@ -11,7 +11,7 @@
   </project>
 
   <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="2349430a7b675157a24e4a4fa83e8462c1760ed2" />
-  <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="cef4d63b1b530b668aca5d7fbe521934073cb2b5" />
+  <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="celadon/p/mr0/master" />
   <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="79521446661d73326ac55e4912de45769f02c910" />
   <project name="libva" path="vendor/intel/external/project-celadon/libva" remote="github" revision="e9fccbc5da82fb2cbed91c91b36cd651b7999a9f" />
   <project name="minigbm" path="external/minigbm" remote="github" revision="8297334d2ce5ee0d43051f9cc3015f6fc513ff10"/>
