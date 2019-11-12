@@ -25,5 +25,6 @@
   <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="1c106c2d5066721bacd08e99818d28957c5d502e" />
   <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces/" remote="github" revision="celadon/p/mr0/master"/>
   <project name="libbt-vendor-intel" path="hardware/intel/libbt-vendor-intel"  remote="github" revision="celadon/p/mr0/master"/>
+  <project name="celadon-applications" path="vendor/intel/external/apps" remote="github" revision="celadon/p/mr0/master"/>
 </manifest>
 
